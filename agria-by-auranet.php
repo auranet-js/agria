@@ -33,6 +33,8 @@ define( 'AGRIA_MODULES_DIR', AGRIA_PLUGIN_DIR . 'modules/' );
 function agria_load_modules(): void {
     $modules = [
         'catalog-mode',
+        'product-video',
+        'scroll-to-top',
         // Kolejne moduły dodawaj tutaj:
         // 'inquiry-form',
         // 'product-table',
