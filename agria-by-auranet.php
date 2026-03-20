@@ -36,7 +36,7 @@ function agria_load_modules(): void {
         'product-video',
         'scroll-to-top',
         // Kolejne moduły dodawaj tutaj:
-        // 'inquiry-form',
+        'inquiry-form',
         // 'product-table',
         // 'calculators',
     ];
