@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — Stan projektu AGRIA
 
-> Ostatnia aktualizacja: **2026-05-19** (po dostarczeniu raportu audytu baseline tech+analityka i decyzjach o rozbiciu pakietu na M1+M2-6 oraz braku budżetu na linkbuilding). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+> Ostatnia aktualizacja: **2026-05-19** (po Wątku 2: rewrite oferty `AURANET_2000PLN_MONTHLY.md` na M1+M2-6 + utworzenie szczegółowego `MONTH_1_FOUNDATIONS_PLAN.md`). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
 
 ---
 
@@ -52,20 +52,27 @@
 - ✅ Strategia SEO bez budżetu na linkbuilding zewnętrzny — focus content / performance / baza wiedzy / narzędzia / analityka + dual-use pod future PPC
 - ✅ Audyt baseline tech+analityka zakończony
 
+### Pisemna oferta dla AGRIA (Wątek 2, 2026-05-19)
+- ✅ `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.0 — rewrite na M1 (~3500-5000 PLN) + M2-M6 (5×2000 PLN), z realokacją godzin LB → content (4 art/mies zamiast 2), z executive summary 5 findings z audytu baseline, dual-use pod PPC
+- ✅ `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` — szczegółowy plan M1: 6 deliverables × roboczogodziny, harmonogram T1-T4, akcepty, checklisty dostępów dla AGRIA, ryzyka, komunikacja
+
 ---
 
 ## Co jest w toku 🟡
 
-### Pakiet Auranet — rewrite oferty na M1+M2-6
-**Status:** zielone światło wstępne od klienta (większy budżet M1 zaakceptowany budżetowo), czekamy na pisemną ofertę.
+### Pakiet Auranet — prezentacja klientowi
+**Status:** dokumenty oferty gotowe. Czekamy na review Janka i prezentację zarządowi AGRIA.
 
 **Kolejność działań:**
 1. ✅ Audyt baseline tech + analityka (obszar 1+7) — `docs/audits/SEO_AUDIT_RESULTS.md`
-2. ⏳ Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` na M1 fundamenty + M2-M6 rozwój — **kolejny wątek**
-3. ⏳ Utworzenie `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` (szczegóły M1: roboczogodziny, T1-T4, milestones) — **kolejny wątek**
-4. ⏳ Audyt obszary 2-6+8 — w trakcie M1 (keyword research M4 pierwszy, on-page M2, content M3, konkurencja M5, UX M8)
-5. ⏳ Prezentacja oferty M1 klientowi
-6. ⏳ Po akceptacji M1: wdrożenie analityki (GA4, GSC, GTM, Consent v2, Looker Studio) jako billable deliverable T1-T2
+2. ✅ Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` na M1 fundamenty + M2-M6 rozwój
+3. ✅ Utworzenie `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` (szczegóły M1)
+4. ⏳ Review Janka + ew. korekty wycen / godzin / wording → finalna wersja prezentacji
+5. ⏳ Drop klientowi: pisemna oferta M1+M2-M6 + executive summary z audytu baseline (drop na auratest)
+6. ⏳ Keyword research jako proof-of-value oferty M1 — DataForSEO Labs, 50-100 fraz, 5 klastrów (opcjonalnie, jako załącznik do oferty)
+7. ⏳ Prezentacja oferty zarządowi AGRIA → akcept → start umowy ramowej
+8. ⏳ Audyt obszary 2-6+8 — w trakcie M1 (keyword research M4 pierwszy, on-page M2, content M3, konkurencja M5, UX M8)
+9. ⏳ Po akceptacji M1: wdrożenie analityki (GA4, GSC, GTM, Consent v2, Looker Studio) jako billable deliverable T1-T2
 
 **Uwaga operacyjna:** Janek może dodać Claude'owi dostępy do GA4/GSC/GTM klienta przed formalnym M1. W dokumentach klient-facing analityka pozostaje „do wdrożenia w M1" (billable). Po odbiorze M1 zasada gaśnie. Patrz `~/.claude/projects/-home-host476470-projekty-agria/memory/feedback_analytics_billable_deliverable.md`.
 
@@ -112,11 +119,11 @@
 
 ## Następne kroki (operacyjnie)
 
-### Wątek 2 (najbliższy, niezależny od decyzji klienta)
-- [ ] Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` na M1 fundamenty + M2-M6 rozwój
-- [ ] Utworzenie `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` (szczegóły M1: roboczogodziny per deliverable, harmonogram T1-T4, milestones, akcepty)
-- [ ] **Keyword research** — DataForSEO Labs, 50-100 fraz w 5 klastrach segmentowych (proof-of-value oferty M1)
-- [ ] Drop klientowi: pisemna oferta M1+M2-M6 z executive summary z audytu baseline
+### Wątek 2 — pisemna oferta (status po sesji 2026-05-19)
+- [x] Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` na M1 fundamenty + M2-M6 rozwój
+- [x] Utworzenie `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` (szczegóły M1: roboczogodziny per deliverable, harmonogram T1-T4, milestones, akcepty)
+- [ ] **Keyword research** — DataForSEO Labs, 50-100 fraz w 5 klastrach segmentowych (proof-of-value oferty M1; opcjonalnie jako załącznik do prezentacji)
+- [ ] Drop klientowi: pisemna oferta M1+M2-M6 z executive summary z audytu baseline (drop na auratest po review Janka)
 
 ### Wątki 3-6 (kolejne sesje, w trakcie M1 lub po akceptacji)
 - [ ] **Wątek 3:** on-page audit (obszar 2 z `SEO_AUDIT_PLAN.md`) + slug optimization
