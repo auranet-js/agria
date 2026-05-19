@@ -1,14 +1,14 @@
 # PROJECT_STATE.md — Stan projektu AGRIA
 
-> Ostatnia aktualizacja: **2026-05-19** (po Wątku 2.5 + decyzji o pre-M1 konfiguracji analityki — Janek założył puste GA4 i GTM, GSC istniał, kolejny wątek = konfiguracja przez API + chrome MCP fallback). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+> Ostatnia aktualizacja: **2026-05-19 wieczór** (po Wątku 3 — analityka pre-M1 skonfigurowana przez API, Wątku 4 — diagnoza i plan fix indeksacji, oraz korekcie ceny M1 z widełek 3500-5000 → 2000 PLN). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
 
 ---
 
 ## Status ogólny
 
-**Faza projektu:** FAZA II — aktywacja + sprzedaż usług marketingowych. Pakiet 6-miesięczny po stronie Auranet w stadium finalizacji oferty (rozbita na **M1 fundamenty** + **M2-M6 rozwój** — patrz `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md`).
+**Faza projektu:** FAZA II — aktywacja + sprzedaż usług marketingowych. Pakiet 6-miesięczny po stronie Auranet w stadium finalizacji oferty: **6 × 2 000 PLN netto = 12 000 PLN**, M1 z odrębnym scope (fundamenty), cena równa we wszystkich miesiącach. Patrz `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md` (rozbicie scope) + `docs/decyzje/2026-05-19-korekta-ceny-m1-2000pln.md` (korekta kwoty).
 
-**Auranet jako wykonawca:** zbudował stronę, identyfikację, katalog. Wykonał audyt baseline tech + analityka (`docs/audits/SEO_AUDIT_RESULTS.md`). Teraz domyka monetyzację współpracy — **M1 fundamenty (~20-25 h, większy budżet)** + **M2-M6 rozwój (~2000 PLN netto / mies × 5)**.
+**Auranet jako wykonawca:** zbudował stronę, identyfikację, katalog. Wykonał audyt baseline tech + analityka (`docs/audits/SEO_AUDIT_RESULTS.md`), keyword research baseline (`docs/audits/KEYWORD_RESEARCH_2026-05-19.md`), konfigurację GA4 + GTM + GSC pre-M1 i diagnozę + plan fix indeksacji. Wszystko jako proof-of-value na koszt Auranet (~18h). Teraz domyka monetyzację — pakiet **6 × 2 000 PLN = 12 000 PLN**.
 
 ---
 
@@ -48,14 +48,16 @@
 - Pozostałe obszary 2-6+8 audytu — w kolejnych wątkach
 
 ### Decyzje 2026-05-19 (ADR w `docs/decyzje/`)
-- ✅ Pakiet rozbity na M1 (fundamenty, oddzielnie wyceniany) + M2-M6 (rozwój ~2000 PLN/mies)
+- ✅ Pakiet rozbity na M1 (fundamenty, odrębny scope) + M2-M6 (rozwój) — `2026-05-19-pakiet-rozbicie-m1-m2do6.md`
+- ✅ **Cena M1 = 2 000 PLN (jak każdy inny miesiąc, nie premium)** — `2026-05-19-korekta-ceny-m1-2000pln.md` (korekta wieczorem 2026-05-19 z widełek 3500-5000)
 - ✅ Strategia SEO bez budżetu na linkbuilding zewnętrzny — focus content / performance / baza wiedzy / narzędzia / analityka + dual-use pod future PPC
-- ✅ Audyt baseline tech+analityka zakończony
-- ✅ Analityka konfigurowana pre-M1 jako proof-of-value (Janek założył puste GA4+GTM, GSC istniał, konfiguracja przez API + chrome MCP fallback — `docs/decyzje/2026-05-19-analityka-konfig-pre-m1.md`)
+- ✅ Audyt baseline tech+analityka zakończony — `2026-05-19-audyt-baseline-tech-analityka.md`
+- ✅ Analityka konfigurowana pre-M1 jako proof-of-value (API + chrome MCP fallback) — `2026-05-19-analityka-konfig-pre-m1.md`
+- ✅ Fix indeksacji — diagnoza zamknięta, plan executor Indexing API od 2026-05-20 02:00 — `2026-05-19-fix-indeksacji.md`
 
-### Pisemna oferta dla AGRIA (Wątek 2, 2026-05-19)
-- ✅ `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.0 — rewrite na M1 (~3500-5000 PLN) + M2-M6 (5×2000 PLN), z realokacją godzin LB → content (4 art/mies zamiast 2), z executive summary 5 findings z audytu baseline, dual-use pod PPC
-- ✅ `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` — szczegółowy plan M1: 6 deliverables × roboczogodziny, harmonogram T1-T4, akcepty, checklisty dostępów dla AGRIA, ryzyka, komunikacja
+### Pisemna oferta dla AGRIA (Wątek 2, 2026-05-19 — z korektą wieczór)
+- ✅ `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.1 — pakiet 6 × 2000 PLN = 12 000 PLN, M1 z odrębnym scope (2 000 PLN, ~10-12h), M2-M6 (5×2000 PLN, 12-15h/mies). Executive summary inline, realokacja godzin LB → content (4 art/mies), dual-use pod PPC. **Korekta ceny wieczorem 2026-05-19** z widełek 3500-5000 → 2000 PLN (patrz ADR `2026-05-19-korekta-ceny-m1-2000pln.md`)
+- ✅ `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` — szczegółowy plan M1: 6 deliverables × roboczogodziny (~10-12h), harmonogram T1-T4, akcepty, checklisty dostępów dla AGRIA, ryzyka, komunikacja. Pre-M1 proof-of-value rozpisane osobno (~18h na koszt Auranet, zostaje przy kliencie)
 
 ### Keyword research baseline (Wątek 2.5, 2026-05-19)
 - ✅ `docs/audits/KEYWORD_RESEARCH_2026-05-19.md` — 112 fraz w 8 klastrach segmentowych z DataForSEO Labs (suggestions+ideas+overview, koszt ~$0.15)
@@ -68,6 +70,18 @@
   - **Paszarstwo / hodowla drobiu** wynurzyło się jako sub-segment (kurniki, kreda pastewna) — do walidacji z klientem czy chcemy dedykowany content
   - **Konkurenci wapna nawozowego:** Orcal, Kujawit, Atrigran, Supermag — gap analysis pod „X vs Agrobielik"
 - Surowe dane: `~/scratch/agria-kw/` (suggestions/ideas/overview JSON + analyze.py + generate_report.py)
+
+### Analityka pre-M1 (Wątek 3, 2026-05-19)
+- ✅ GA4 property + GTM container skonfigurowane przez API (Janek założył puste, Claude skonfigurował)
+- ✅ Google Search Console — `sc-domain:agria.pl` zweryfikowane, sitemap RankMath `sitemap_index.xml` submitted 2026-05-18 (38 URL: 6 post + 11 page + 20 product + 1 category)
+- ⏳ GTM `<script>` jeszcze nie wstrzyknięty w `<head>` agria.pl — idzie live w T1 M1 razem z Consent Mode v2 banner
+- ADR: `docs/decyzje/2026-05-19-analityka-konfig-pre-m1.md`
+
+### Fix indeksacji (Wątek 4, 2026-05-19 wieczór)
+- ✅ Diagnoza zamknięta — 8 hipotez zbadanych, dzisiaj config OK, historycznie `blog_public=0` przez większość okresu od sierpnia 2025 (alarm „38 submitted / 0 indexed" w GSC = problem historyczny, nie obecny)
+- ✅ Plan executor Indexing API — od 2026-05-20 02:00 PL (po reset quota), 38 URL × ~3 dni quotа 200/dobę → ~1 dzień rzeczywistego dociągu
+- ADR: `docs/decyzje/2026-05-19-fix-indeksacji.md`
+- SEO_AUDIT_RESULTS.md zaktualizowany o sekcję historyczną indeksacji (38 linii)
 
 ---
 
@@ -112,9 +126,11 @@
 | Q1 2026    | Z katalogu drukowanego wycinamy „Kredę czarną (jeziorną)" — **rozjazd** (produkt nadal publish w WC + jest w ulotce DL 2026-05-18) | ⚠️ do reweryfikacji |
 | Q1 2026    | Katalog: 24 strony A4 zszywane, oprawa saddle stitch                     | ✅     |
 | 2026-05-19 | Audyt baseline tech+analityka (obszar 1+7) zakończony — `docs/decyzje/2026-05-19-audyt-baseline-tech-analityka.md` | ✅ |
-| 2026-05-19 | Pakiet 6-mies rozbity na M1 fundamenty + M2-M6 rozwój — `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md` | ✅ |
+| 2026-05-19 | Pakiet 6-mies rozbity na M1 fundamenty + M2-M6 rozwój (scope, nie cena) — `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md` | ✅ |
+| 2026-05-19 | **Cena M1 = 2 000 PLN, pakiet 6 × 2 000 = 12 000 PLN** (korekta wieczorem z widełek 3500-5000) — `docs/decyzje/2026-05-19-korekta-ceny-m1-2000pln.md` | ✅ |
 | 2026-05-19 | SEO bez budżetu na linkbuilding zewnętrzny, focus content/perf/tools/analytics + dual-use pod PPC — `docs/decyzje/2026-05-19-seo-bez-budzetu-linkbuilding.md` | ✅ |
 | 2026-05-19 | Analityka konfigurowana pre-M1 jako proof-of-value (API + chrome MCP fallback) — `docs/decyzje/2026-05-19-analityka-konfig-pre-m1.md` | ✅ |
+| 2026-05-19 | Fix indeksacji — diagnoza zamknięta, executor Indexing API 2026-05-20 02:00 — `docs/decyzje/2026-05-19-fix-indeksacji.md` | ✅ |
 | 2026-05    | Format umowy: faktura miesięczna VAT, ramowa umowa na 6 mies            | ⏳     |
 
 ---
@@ -126,25 +142,29 @@
 3. **Zakres umowy** — pakiet M2-M6 dotyczy on-page + content + analityka (+ utrzymanie). NIE obejmuje: social media, sesji zdjęciowych, Google Ads (osobne pozycje, patrz `docs/offers/AURANET_2000PLN_MONTHLY.md` §„Cennik dodatkowych usług").
 4. **Sesja zdjęciowa katalogu** — kto finansuje (1500–2500 PLN)?
 5. **CRM** — Google Sheets na start wystarczy, czy klient chce coś poważniejszego (HubSpot Free, Pipedrive)?
-6. **Kwota M1 fundamentów** — wstępnie zaakceptowana budżetowo, do uściślenia w pisemnej ofercie (~3500-5000 PLN orientacyjnie, ~20-25 h pracy).
+6. ~~**Kwota M1 fundamentów** — wstępnie zaakceptowana budżetowo (~3500-5000 PLN orientacyjnie, ~20-25 h pracy).~~ → **Zaadresowane:** decyzja Janka 2026-05-19 wieczór — M1 = 2 000 PLN jak każdy inny miesiąc (`docs/decyzje/2026-05-19-korekta-ceny-m1-2000pln.md`).
 7. **4 pytania z `docs/catalog/CATALOG_VS_WC_GAP.md`** — cement/kruszywo w WC, status Kredy czarnej jeziornej, warianty Agrobielik 90, konwencja SKU. Wpływa na rekomendacje P1 z audytu baseline. Slot z klientem AGRIA do umówienia.
 
 ---
 
 ## Następne kroki (operacyjnie)
 
-### Wątek 2 — pisemna oferta (status po sesji 2026-05-19)
-- [x] Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` na M1 fundamenty + M2-M6 rozwój
-- [x] Utworzenie `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` (szczegóły M1: roboczogodziny per deliverable, harmonogram T1-T4, milestones, akcepty)
-- [x] **Keyword research** — DataForSEO Labs, 112 fraz w 8 klastrach segmentowych z volume/intent/12-mies trend → `docs/audits/KEYWORD_RESEARCH_2026-05-19.md` + drop na auratest
-- [ ] Drop klientowi: pisemna oferta M1+M2-M6 z executive summary z audytu baseline + keyword research jako załącznik (po review Janka)
+### Wątek 2 — pisemna oferta (status po sesji 2026-05-19 wieczór)
+- [x] Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.1 — 6 × 2 000 PLN = 12 000 PLN, M1 odrębny scope, executive summary inline
+- [x] `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` — szczegóły M1 (~10-12 h), harmonogram T1-T4, pre-M1 proof-of-value rozpisane
+- [x] **Keyword research baseline** — DataForSEO Labs, 112 fraz, 8 klastrów → `docs/audits/KEYWORD_RESEARCH_2026-05-19.md` + drop na auratest
+- [x] **Analityka pre-M1** — GA4 + GTM + GSC skonfigurowane (Wątek 3) + diagnoza fix indeksacji (Wątek 4)
+- [x] **Korekta ceny M1** z widełek 3500-5000 → 2 000 PLN (decyzja Janka 2026-05-19 wieczór) — ADR + memory + dokumenty zaktualizowane
+- [ ] Drop klientowi: pisemna oferta M1+M2-M6 + executive summary z audytu baseline + keyword research jako załącznik (po review Janka)
+- [ ] Po akcepcie Janka — krótki mail + brandowany PDF jako załącznik (template z `~/projekty/auranet/docs/brand/pdf-templates.md`)
 
-### Wątki 3-7 (kolejne sesje, w trakcie M1 lub po akceptacji)
-- [ ] **Wątek 3 (NASTĘPNY, dedykowany):** konfiguracja analityki GA4 + GTM + GSC przez API + chrome MCP fallback (decyzja `2026-05-19-analityka-konfig-pre-m1.md`). Janek założył puste GA4 + GTM, GSC istnieje. Cel: stan „gotowe do uruchomienia" (kontener opublikowany ale skrypt nie w `<head>` agria.pl jeszcze)
-- [ ] **Wątek 4:** on-page audit (obszar 2 z `SEO_AUDIT_PLAN.md`) + slug optimization + mapowanie produktów WC na frazy z `KEYWORD_RESEARCH_2026-05-19.md`
-- [ ] **Wątek 5:** content audit + topic clusters (obszar 3) + plan content kalendarza M2-M6
-- [ ] **Wątek 6:** konkurencja content gap (obszar 5) + backlinks diag (obszar 6 skrócone)
-- [ ] **Wątek 7:** UX + landing pages per segment (obszar 8) — pod PPC readiness
+### Wątki 3-7 (zrealizowane częściowo, kontynuacja w trakcie M1 lub po akceptacji)
+- [x] **Wątek 3:** konfiguracja analityki GA4 + GTM + GSC pre-M1 przez API (kontener opublikowany, skrypt jeszcze nie w `<head>` agria.pl — idzie live w T1 M1)
+- [x] **Wątek 4:** diagnoza i plan fix indeksacji — `docs/decyzje/2026-05-19-fix-indeksacji.md`, executor Indexing API 2026-05-20 02:00
+- [ ] **Wątek 5:** on-page audit (obszar 2 z `SEO_AUDIT_PLAN.md`) + slug optimization + mapowanie produktów WC na frazy z baseline KR
+- [ ] **Wątek 6:** content audit + topic clusters (obszar 3) + plan content kalendarza M2-M6 (już ujęte w scope M1 T2-T3)
+- [ ] **Wątek 7:** konkurencja content gap (obszar 5) + backlinks diag (obszar 6 skrócone)
+- [ ] **Wątek 8:** UX + landing pages per segment (obszar 8) — pod PPC readiness
 
 ### Po akceptacji oferty M1 — T1-T4 czerwiec 2026
 - [ ] Plan prac M1 wdrożeniowy: GA4 + GTM + GSC + Consent Mode v2 + Looker Studio
