@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Agria_pl__*",
+      "Edit(//home/host476470/projekty/agria/**)",
+      "Write(//home/host476470/projekty/agria/**)",
+      "Read(//tmp/**)",
+      "Skill(update-config)",
+      "Bash(git mv *)",
+      "Bash(git rm *)",
+      "Bash(rmdir *)",
+      "Bash(touch *)",
+      "Bash(mv *)",
+      "Bash(cp *)",
+      "Bash(rm -f *)",
+      "Bash(pdftotext *)",
+      "Bash(pdfinfo *)",
+      "Bash(pdfimages *)",
+      "Bash(magick *)",
+      "Bash(convert *)",
+      "Bash(identify *)",
+      "Bash(mogrify *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(rm -rf /*)",
+      "Bash(git reset --hard *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git push --force-with-lease *)"
+    ]
+  }
+}

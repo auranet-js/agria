@@ -1,0 +1,844 @@
+
+═══════════════════════════════════════════════════════════════════════════
+                        KATALOG AGRIA 24 STRONY MODUŁOWY
+                     18 KART PRODUKTÓW + FIRMA + KONTAKT
+            GOTOWY DO PRZEKAZANIA GRAFIKOWI/DTP — PEŁNA SPECYFIKACJA
+═══════════════════════════════════════════════════════════════════════════
+
+FORMAT DRUKU: A4 pionowo (210×297 mm)
+OPRAWA: Zszywki metalowe (6 arkuszy = 24 strony)
+KOLORY: Ciemnozielony (#1B4D3E) + Limonkowy (#9ACD32) + Biały (#FFFFFF)
+FONT: Montserrat Bold 24pt (nagłówki) + Regular 12pt (tekst)
+
+═══════════════════════════════════════════════════════════════════════════
+                            STRONA 1: OKŁADKA
+═══════════════════════════════════════════════════════════════════════════
+
+[LAYOUT]
+- 60% powierzchni: Zdjęcie tła (traktor na zielonym polu, złota godzina)
+- Gradient ciemnozielony od dołu (opacity 50%)
+- Logo AGRIA w prawym górnym rogu (białe)
+
+[TREŚĆ]
+┌────────────────────────────────────────────────────────────────┐
+│ [Logo AGRIA — prawy górny róg]                                 │
+│                                                                │
+│          [ZDJĘCIE TŁA: traktor_pole_zlota_godzina.jpg]        │
+│                                                                │
+│                                                                │
+│   AGRIA                                                        │
+│   Surowce wapniowe i mineralne                                 │
+│                                                                │
+│   Stabilne parametry. Pewne dostawy.                           │
+│                                                                │
+│                                                                │
+│   www.agria.pl  2026                                           │
+└────────────────────────────────────────────────────────────────┘
+
+[KOLORY]
+- Tekst główny "AGRIA": Biały, 48pt bold
+- Podtytuł: Biały, 18pt regular
+- Tagline: Limonkowy (#9ACD32), 14pt
+- Gradient: Ciemnozielony (#1B4D3E) 50% opacity
+
+[ZDJĘCIE]
+traktor_pole_zlota_godzina.jpg
+Wymagania: 4K, traktor John Deere na tle zielonych zbóż, słońce o zachodzie
+
+═══════════════════════════════════════════════════════════════════════════
+                          STRONA 2: O FIRMIE
+═══════════════════════════════════════════════════════════════════════════
+
+[LAYOUT]
+- 40% góra: Tekst o firmie
+- 60% dół: 3 ikony z liczbami
+
+[TREŚĆ]
+┌────────────────────────────────────────────────────────────────┐
+│ AGRIA – PARTNER W DOSTAWACH SUROWCÓW MINERALNYCH               │
+│                                                                │
+│ AGRIA działa od 1989 roku w obszarach:                         │
+│ • Rolnictwo – odkwaszanie gleb, poprawa struktury              │
+│ • Rybactwo – regulacja pH wody, mineralizacja mułu             │
+│ • Ochrona środowiska – neutralizacja, stabilizacja osadów      │
+│ • Budownictwo i drogownictwo – cement, kruszywa                │
+│                                                                │
+│ 2 oddziały: Niedomice (Małopolska), Radgoszcz                  │
+│ Własna flota: 3t–24t | Zasięg: cała Polska                     │
+│                                                                │
+│────────────────────────────────────────────────────────────────│
+│                                                                │
+│  ┌──────────────┬──────────────┬──────────────┐               │
+│  │  🏆 35 LAT   │  📍 2        │  🚛 FLOTA    │               │
+│  │  na rynku    │  LOKALIZACJE │  3–24t       │               │
+│  └──────────────┴──────────────┴──────────────┘               │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+
+[KOLORY]
+- Nagłówek: Ciemnozielony (#1B4D3E), 20pt bold
+- Tekst: Czarny (#2D2D2D), 12pt regular
+- Ikony: Limonkowy (#9ACD32)
+- Liczby: Ciemnozielony (#1B4D3E), 28pt bold
+
+═══════════════════════════════════════════════════════════════════════════
+                   STRONY 3–4: SEGMENTY ZASTOSOWAŃ (SPREAD)
+═══════════════════════════════════════════════════════════════════════════
+
+[STRONA 3 — LEWA]
+[Kolaż 4 zdjęć w siatce 2×2]
+┌──────────────┬──────────────┐
+│ Pole uprawne │ Staw rybny   │
+│ (zielone)    │ (czysta woda)│
+├──────────────┼──────────────┤
+│ Oczyszczalnia│ Budowa drogi │
+│ (zbiorniki)  │ (walce)      │
+└──────────────┴──────────────┘
+
+Zdjęcia:
+- pole_uprawne_zielone.jpg
+- staw_rybny_czysty.jpg
+- oczyszczalnia_zbiorniki.jpg
+- budowa_drogi_walce.jpg
+
+---
+
+[STRONA 4 — PRAWA]
+┌────────────────────────────────────────────────────────────────┐
+│ GDZIE DZIAŁAMY                                                 │
+│                                                                │
+│ 🌾 ROLNICTWO                                                   │
+│ Odkwaszanie gleb • Wzrost plonów 15–20%                        │
+│                                                                │
+│ 🐟 RYBACTWO                                                    │
+│ Regulacja pH wody • Mineralizacja mułu                         │
+│                                                                │
+│ 💧 OCHRONA ŚRODOWISKA                                          │
+│ Neutralizacja ścieków • Stabilizacja osadów                    │
+│                                                                │
+│ 🏗 BUDOWNICTWO / DROGI                                         │
+│ Cement • Stabilizacja gruntów                                  │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+
+[KOLORY]
+- Nagłówki segmentów: Ciemnozielony (#1B4D3E), 18pt bold
+- Ikony: Limonkowy (#9ACD32), 48pt
+- Tekst opisy: Czarny (#2D2D2D), 12pt regular
+
+═══════════════════════════════════════════════════════════════════════════
+                        STRONA 5: JAK DOBRAĆ PRODUKT
+═══════════════════════════════════════════════════════════════════════════
+
+[TREŚĆ]
+┌────────────────────────────────────────────────────────────────┐
+│ JAK DOBRAĆ PRODUKT                                             │
+│ SZYBKOŚĆ I CHARAKTER DZIAŁANIA                                 │
+│                                                                │
+│ ┌─────────────────┬─────────────────┬─────────────────┐       │
+│ │ BARDZO SZYBKIE  │ SZYBKIE         │ DŁUGOTRWAŁE     │       │
+│ │ (2–4 dni)       │ (2–4 tyg)       │ (3–6 mies)      │       │
+│ ├─────────────────┼─────────────────┼─────────────────┤       │
+│ │ Wapno tlenkowe  │ Wapno tlenkowe  │ Wapno węglanowe │       │
+│ │ 90%             │ 70%             │ Celiny, Laskowa │       │
+│ │ Wysokoreaktywne │ Agrobielik      │ Winna, Jawica   │       │
+│ │                 │                 │                 │       │
+│ │ ▶ Oczyszczalnie │ ▶ Rolnictwo     │ ▶ Rolnictwo     │       │
+│ │ ▶ Interwencyjne │ ▶ Stawy rybne   │ ▶ Długofalowe   │       │
+│ │                 │                 │                 │       │
+│ │                 │                 │ Kreda nawozowa  │       │
+│ └─────────────────┴─────────────────┴─────────────────┘       │
+│                                                                │
+│ FORMY SPRZEDAŻY STANDARDOWE:                                   │
+│ 🧱 Worek 20–40 kg | 📦 Big-bag 1000 kg | 🚛 Luz 24 tony       │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+
+[KOLORY]
+- Nagłówki kolumn: Limonkowy (#9ACD32), 14pt bold
+- Ramki: Ciemnozielony (#1B4D3E), 2pt
+- Ikony form: Limonkowy (#9ACD32)
+
+═══════════════════════════════════════════════════════════════════════════
+                  STRONY 6–23: KARTY PRODUKTÓW (18 STRON)
+              SZABLON POWTARZALNY — SAMODZIELNE ULOTKI A4
+═══════════════════════════════════════════════════════════════════════════
+
+[SZABLON KARTY PRODUKTU — UŻYJ DLA WSZYSTKICH 18 PRODUKTÓW]
+
+╔════════════════════════════════════════════════════════════════╗
+║  [ZDJĘCIE PRODUKTU — 40% powierzchni górnej]                   ║
+║  big-bag na tle pola / paleta / worek                          ║
+║                                                                ║
+║  AGR-XXX                                                       ║
+║  [NAZWA PRODUKTU BAZOWEGO]                                     ║
+║  [Nazwa techniczna — odmiana]                                  ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  ZASTOSOWANIE:                                                 ║
+║  • [Zastosowanie 1 z PIM]                                      ║
+║  • [Zastosowanie 2 z PIM]                                      ║
+║  • [Zastosowanie 3 z PIM]                                      ║
+║                                                                ║
+║  PARAMETRY TECHNICZNE:                                         ║
+║  ┌────────────────────────┬────────────────┐                  ║
+║  │ CaO                     │ [%]            │                  ║
+║  │ MgO                     │ [%] lub —      │                  ║
+║  │ Reaktywność             │ [opis]         │                  ║
+║  │ Szybkość działania      │ [czas]         │                  ║
+║  │ Forma fizyczna          │ [sypkie/gran]  │                  ║
+║  └────────────────────────┴────────────────┘                  ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  FORMY SPRZEDAŻY:                                              ║
+║  📦 [Big-bag 1000 kg / Worek XX kg / Luz 24t]                 ║
+║  [Lista form z PIM]                                            ║
+║                                                                ║
+║  SEGMENT: 🌾 [Rolnictwo] 🐟 [Rybactwo] 💧 [Oczyszczalnie]     ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║  [QR kod] Zadzwoń po wycenę: +48 660 768 691                  ║
+║  biuro@agria.pl | agria.pl/[url-slug]                          ║
+╚════════════════════════════════════════════════════════════════╝
+
+[KOLORY SZABLONU]
+- ID produktu (AGR-XXX): Limonkowy (#9ACD32), 12pt bold
+- Nazwa produktu: Ciemnozielony (#1B4D3E), 22pt bold
+- Sekcje (ZASTOSOWANIE, PARAMETRY): Limonkowy (#9ACD32), 14pt bold
+- Tekst: Czarny (#2D2D2D), 11pt regular
+- Ramka tabeli: Ciemnozielony (#1B4D3E), 1pt
+- Ikony segmentów: Limonkowy (#9ACD32), 32pt
+
+═══════════════════════════════════════════════════════════════════════════
+                   18 KART PRODUKTÓW — DANE Z PIM
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 6: AGR-001 WAPNO TLENKOWE AGROBIELIK 70
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno nawozowe tlenkowe — odmiana 02
+Marka: Agrobielik
+
+ZASTOSOWANIE:
+• Odkwaszanie gleb kwaśnych (pH < 5,5)
+• Szybka korekta pH przed zasiewami
+• Stabilizacja pH w stawach rybnych
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaO                     │ ≥ 70%          │
+│ MgO                     │ —              │
+│ Reaktywność             │ ~100%          │
+│ Szybkość działania      │ 2–4 tyg        │
+│ Forma fizyczna          │ Sypkie         │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+📦 Big-bag 1000 kg (Trzuskawica)
+📦 Big-bag 1000 kg (Niedomice)
+📦 Worek 20 kg
+📦 Worek 40 kg
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo 🐟 Rybactwo
+
+Zdjęcie: bigbag_agrobielik70_pole.jpg
+URL slug: agrobielik-70
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 7: AGR-002 WAPNO TLENKOWE AGROBIELIK 90
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno nawozowe tlenkowe — odmiana 01
+Marka: Agrobielik
+
+ZASTOSOWANIE:
+• Bardzo szybka neutralizacja kwasowości
+• Oczyszczalnie ścieków (higienizacja osadów)
+• Interwencyjne odkwaszanie gleb
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaO                     │ ≥ 90%          │
+│ MgO                     │ —              │
+│ Reaktywność             │ Bardzo wysoka  │
+│ Szybkość działania      │ 2–4 dni        │
+│ Forma fizyczna          │ Sypkie         │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+📦 Big-bag 1000 kg (Trzuskawica)
+📦 Big-bag 1000 kg (Niedomice)
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo 💧 Oczyszczalnie
+
+Zdjęcie: bigbag_agrobielik90.jpg
+URL slug: agrobielik-90
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 8: AGR-002F AGROBIELIK 90 FRAKCJA 2-8MM
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno nawozowe tlenkowe kruszone — odmiana 01
+Marka: Agrobielik
+
+ZASTOSOWANIE:
+• Równomierne rozsiewanie mechaniczne
+• Stawy rybne (szybka rozpuszczalność)
+• Odkwaszanie powierzchniowe
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaO                     │ ≥ 90%          │
+│ Uziarnienie             │ 2–8 mm         │
+│ Reaktywność             │ Bardzo wysoka  │
+│ Szybkość działania      │ 2–4 dni        │
+│ Forma fizyczna          │ Kruszone       │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+📦 Big-bag 1000 kg (Niedomice)
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo 🐟 Rybactwo
+
+Zdjęcie: frakcja_2_8mm_zbliżenie.jpg
+URL slug: agrobielik-90-frakcja
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 9: AGR-003 MIESZANKA TLENKOWO-WĘGLANOWA
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno tlenkowe 70% CaO z ziemią
+
+ZASTOSOWANIE:
+• Uniwersalne odkwaszanie gleb
+• Połączenie szybkiego i długotrwałego działania
+• Rolnictwo konwencjonalne
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaO                     │ ~70%           │
+│ Typ reakcji             │ Mieszana       │
+│ Szybkość działania      │ 2–8 tyg        │
+│ Forma fizyczna          │ Sypkie z glebą │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: mieszanka_tlenkowo_weglanowaسكوopka.jpg
+URL slug: mieszanka-tlenkowo-weglanowa
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 10: AGR-004 WAPNO WĘGLANOWE CELINY
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno węglanowe — odmiana 04 (bez magnezu)
+
+ZASTOSOWANIE:
+• Długotrwałe odkwaszanie (3–6 miesięcy)
+• Bezpieczne dla wrażliwych upraw
+• Systematyczna korekta pH
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃                   │ Zgodnie z normą│
+│ MgO                     │ —              │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Sypkie         │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: wapno_celiny_kopalnia.jpg
+URL slug: wapno-weglanowe-celiny
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 11: AGR-005 WAPNO WĘGLANOWE GRANULOWANE
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno węglanowe granulowane (bez magnezu)
+
+ZASTOSOWANIE:
+• Łatwe rozsiewanie ręczne i mechaniczne
+• Precyzyjne dawkowanie
+• Długotrwały efekt odkwaszania
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃                   │ Granulowane    │
+│ MgO                     │ —              │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Granulat       │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+📦 Big-bag 600 kg
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: weglanowe_granulowane_zbliżenie.jpg
+URL slug: wapno-granulowane
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 12: AGR-006 WAPNO LASKOWA (MG 17-19%)
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno węglanowe — odmiana 05, MgO 17-19%
+
+ZASTOSOWANIE:
+• Wapnowanie + uzupełnienie magnezu
+• Gleby ubogie w Mg
+• Wzrost jakości plonów
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃ + MgCO₃           │ Zgodnie z normą│
+│ MgO                     │ 17–19%         │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Sypkie         │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: laskowa_kopalnia_gora.jpg
+URL slug: wapno-laskowa
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 13: AGR-007 WAPNO WINNA (MG 8-20%)
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno węglanowe — odmiana 05, MgO 8-20%
+
+ZASTOSOWANIE:
+• Uniwersalne wapnowanie z magnezem
+• Duża tolerancja dawkowania
+• Rolnictwo tradycyjne
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃ + MgCO₃           │ Zgodnie z normą│
+│ MgO                     │ 8–20%          │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Sypkie         │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: winna_kopalnia.jpg
+URL slug: wapno-winna
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 14: AGR-008 WAPNO JAWICA (MG 8-10%)
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno węglanowe — odmiana 04, MgO 8-10%
+
+ZASTOSOWANIE:
+• Standardowe wapnowanie z magnezem
+• Optymalne proporcje Ca:Mg
+• Stabilna korekta pH
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃ + MgCO₃           │ Zgodnie z normą│
+│ MgO                     │ 8–10%          │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Sypkie         │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: jawica_kopalnia.jpg
+URL slug: wapno-jawica
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 15: AGR-009 WAPNO GRANULOWANE Z MG
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno węglanowe granulowane z magnezem
+
+ZASTOSOWANIE:
+• Precyzyjne dawkowanie Ca + Mg
+• Łatwe rozsiewanie mechaniczne
+• Długotrwały efekt
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃ + MgCO₃           │ Granulowane    │
+│ MgO                     │ Zawarte        │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Granulat       │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+📦 Big-bag 600 kg
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: granulowane_mg_zbliżenie.jpg
+URL slug: wapno-granulowane-magnez
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 16: AGR-012 KREDA NAWOZOWA GRANULOWANA
+────────────────────────────────────────────────
+Nazwa techniczna: Kreda nawozowa CaCO₃ 95-98%
+
+ZASTOSOWANIE:
+• Systematyczna korekta pH
+• Wysokaприсасświajalność wapnia
+• Poprawa żyzności gleby
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃                   │ 95–98%         │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Granulat       │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+📦 Big-bag
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: kreda_granulowana_biala.jpg
+URL slug: kreda-granulowana
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 17: AGR-013 KREDA NAWOZOWA SYPKA
+────────────────────────────────────────────────
+Nazwa techniczna: Kreda nawozowa CaCO₃ sypka
+
+ZASTOSOWANIE:
+• Duże powierzchnie uprawne
+• Ekonomiczne wapnowanie
+• Długotrwała korekta pH
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃                   │ Sypka          │
+│ Szybkość działania      │ 3–6 mies       │
+│ Forma fizyczna          │ Proszek        │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz
+
+SEGMENT: 🌾 Rolnictwo
+
+Zdjęcie: kreda_sypka_hala.jpg
+URL slug: kreda-sypka
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 18: AGR-014 KREDA PASTEWNA
+────────────────────────────────────────────────
+Nazwa techniczna: Kreda pastewna CaCO₃
+
+ZASTOSOWANIE:
+• Dodatek do pasz dla zwierząt
+• Uzupełnienie wapnia w diecie
+• Hodowla bydła, drobiu
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaCO₃                   │ Pastewna       │
+│ Czystość                │ Wysoka         │
+│ Forma fizyczna          │ Proszek/granki │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+Opakowania różne (BULK)
+
+SEGMENT: 🌾 Rolnictwo (Paszarstwo)
+
+Zdjęcie: kreda_pastewna_bydło.jpg
+URL slug: kreda-pastewna
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 19: AGR-010 WAPNO PALONE WYSOKOREAKTYWNE
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno tlenkowe CL-90
+Zastosowanie: Ochrona środowiska
+
+ZASTOSOWANIE:
+• Neutralizacja ścieków przemysłowych
+• Higienizacja osadów ściekowych (temp. >50°C)
+• Stabilizacja pH przed rekultywacją
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ CaO                     │ ≥ 90%          │
+│ Uziarnienie             │ 0–2 mm         │
+│ Reaktywność             │ Bardzo wysoka  │
+│ Szybkość działania      │ Natychmiastowa │
+│ Typ reakcji             │ Egzotermiczna  │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+📦 Big-bag 1000 kg
+
+SEGMENT: 💧 Oczyszczalnie
+
+Zdjęcie: wapno_wysokoreaktywne_proszek.jpg
+URL slug: wapno-wysokoreaktywne
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 20: AGR-011 WAPNO HYDRATYZOWANE BIELIK
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno sucho gaszone Ca(OH)₂
+Marka: Bielik
+
+ZASTOSOWANIE:
+• Stawy rybne (dezynfekcja, korekta pH)
+• Oczyszczalnie (neutralizacja ścieków)
+• Budownictwo (zaprawy, tynki)
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ Ca(OH)₂                 │ Sucho gaszone  │
+│ Typ reakcji             │ Kontrolowana   │
+│ Szybkość działania      │ 1–2 tyg        │
+│ Forma fizyczna          │ Proszek        │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+📦 Worek 25 kg
+
+SEGMENT: 🐟 Rybactwo 💧 Oczyszczalnie 🏗 Budownictwo
+
+Zdjęcie: bielik_wapno_hydrat_worki.jpg
+URL slug: wapno-hydratyzowane-bielik
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 21: AGR-015 CEMENT BUDOWLANY
+────────────────────────────────────────────────
+Nazwa techniczna: Cement budowlany
+
+ZASTOSOWANIE:
+• Zaprawy murarskie i tynkarskie
+• Betony konstrukcyjne
+• Budownictwo ogólne
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ Typ                     │ Standardowy    │
+│ Zgodność                │ Normy budowlane│
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+Opakowania różne (BULK)
+
+SEGMENT: 🏗 Budownictwo
+
+Zdjęcie: cement_worki_paleta.jpg
+URL slug: cement-budowlany
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 22: AGR-016 KRUSZYWO DROGOWE
+────────────────────────────────────────────────
+Nazwa techniczna: Kruszywo drogowe
+
+ZASTOSOWANIE:
+• Stabilizacja podłoża drogowego
+• Warstwy konstrukcyjne dróg
+• Podbudowy i nawierzchnie
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ Frakcje                 │ Różne          │
+│ Typ                     │ Kruszywo łamane│
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+Opakowania różne (BULK)
+
+SEGMENT: 🏗 Drogownictwo
+
+Zdjęcie: kruszywo_frakcje_stos.jpg
+URL slug: kruszywo-drogowe
+
+═══════════════════════════════════════════════════════════════════════════
+
+STRONA 23: AGR-017 WAPNO PALONE DROGOWNICTWO
+────────────────────────────────────────────────
+Nazwa techniczna: Wapno palone mielone o zróżnicowanym uziarnieniu
+
+ZASTOSOWANIE:
+• Stabilizacja gruntów spoistych
+• Zwiększenie nośności podłoża
+• Redukcja plastyczności gruntu
+
+PARAMETRY TECHNICZNE:
+┌────────────────────────┬────────────────┐
+│ Uziarnienie             │ Zróżnicowane   │
+│ Typ                     │ Wapno palone   │
+└────────────────────────┴────────────────┘
+
+FORMY SPRZEDAŻY:
+🚛 Luz 24 tony
+
+SEGMENT: 🏗 Drogownictwo
+
+Zdjęcie: wapno_drogowe_stabilizacja.jpg
+URL slug: wapno-drogowe
+
+═══════════════════════════════════════════════════════════════════════════
+                         STRONA 24: TYŁ OKŁADKI
+═══════════════════════════════════════════════════════════════════════════
+
+[LAYOUT]
+- Tło: Gradient ciemnozielony (#1B4D3E) 100%
+- Centralnie: Hasło firmowe (duże, białe)
+- Dół: Pasek kontaktowy (limonkowy)
+
+[TREŚĆ]
+┌────────────────────────────────────────────────────────────────┐
+│                                                                │
+│                                                                │
+│                                                                │
+│         "Parametry, na których możesz polegać."                │
+│                                                                │
+│                                                                │
+│────────────────────────────────────────────────────────────────│
+│  [Pasek limonkowy (#9ACD32)]                                   │
+│                                                                │
+│  [Logo AGRIA]  www.agria.pl  [QR kod]                          │
+│  ☎ +48 660 768 691  ✉ biuro@agria.pl                           │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+
+[KOLORY]
+- Tło: Ciemnozielony (#1B4D3E) 100%
+- Hasło: Biały, 32pt bold, centrowane
+- Pasek dolny: Limonkowy (#9ACD32)
+- Tekst na pasku: Ciemnozielony (#1B4D3E), 12pt bold
+
+═══════════════════════════════════════════════════════════════════════════
+                    LISTA ZDJĘĆ DO REALIZACJI (24 SZT)
+═══════════════════════════════════════════════════════════════════════════
+
+1. traktor_pole_zlota_godzina.jpg — traktor John Deere, zielone zboże, zachód słońca
+2. magazyn_bigbag_zaladunek.jpg — hala AGRIA, big-bagi, wózek widłowy
+3. pole_uprawne_zielone.jpg — zdrowa rola po wapnowaniu, szeroki kadr
+4. staw_rybny_czysty.jpg — staw hodowlany, czysta woda, perspektywa
+5. oczyszczalnia_zbiorniki.jpg — zbiorniki osadników, instalacja przemysłowa
+6. budowa_drogi_walce.jpg — walce drogowe, stabilizacja gruntu
+7. bigbag_agrobielik70_pole.jpg — big-bag AGRIA na tle pola
+8. bigbag_agrobielik90.jpg — big-bag z napisem „90%"
+9. frakcja_2_8mm_zbliżenie.jpg — kruszone wapno, widoczna frakcja
+10. mieszanka_tlenkowo_weglanowa_sypka.jpg — mieszanka sypka
+11. wapno_celiny_kopalnia.jpg — teren kopalni Celiny
+12. weglanowe_granulowane_zbliżenie.jpg — granulat biały, makro
+13. laskowa_kopalnia_gora.jpg — kopalnia Laskowa, widok ogólny
+14. winna_kopalnia.jpg — kopalnia Winna, charakterystyczne miejsce
+15. jawica_kopalnia.jpg — kopalnia Jawica
+16. kreda_granulowana_biała.jpg — białe granki kredy
+17. kreda_sypka_hala.jpg — hala z kredą sypką
+18. kreda_pastewna_bydło.jpg — bydło w oborze, karma
+19. wapno_wysokoreaktywne_proszek.jpg — biały proszek CL-90
+20. bielik_wapno_hydrat_worki.jpg — worki 25kg Bielik
+21. cement_worki_paleta.jpg — paleta z cementem
+22. kruszywo_frakcje_stos.jpg — różne frakcje kruszywa
+23. wapno_drogowe_stabilizacja.jpg — rozsypywanie wapna na drodze
+24. ekograncali_ziolka.jpg — ekologiczne rośliny, zieleń
+
+Koszt sesji: 1500–2500 PLN (1 dzień + 3 lokalizacje)
+Alternatywa: Stock (15–25 USD/zdjęcie) = 360–600 USD
+
+═══════════════════════════════════════════════════════════════════════════
+                   SPECYFIKACJA TECHNICZNA DLA DRUKARNI
+═══════════════════════════════════════════════════════════════════════════
+
+FORMAT KOŃCOWY: A4 (210×297 mm)
+BLEED: 3 mm na każdą krawędź
+SAFE ZONE: 5 mm od krawędzi tnięcia
+
+PAPIER:
+• Okładka (str. 1, 24): 250g Munken Lynx Rough mat
+• Wnętrze (str. 2–23): 135g Munken Pure Cream półmat
+
+DRUK: CMYK + Pantone opcjonalnie (limonkowy = Pantone 382 C)
+WYKOŃCZENIE: Lakier UV selektywny na okładce (logo + hasło)
+
+OPRAWA: Zszywki metalowe (saddle stitch)
+POZYCJA ZSZYWEK: Środek grzbiety (12 mm od góry i dołu)
+
+OBRÓBKA: Gilotyna precyzyjna (tolerancja ±0,5 mm)
+
+NAKŁAD TEST: 10 szt (proof)
+NAKŁAD PRODUKCJA: 500 szt (1. seria) + 1000 szt (2. seria)
+
+PLIKI ŹRÓDŁOWE:
+• PDF/X-1a:2001 (druk offset)
+• Rozdzielczość zdjęć: 300 dpi minimum
+• Fonty: embedded / outlined
+• Barwy: CMYK (RGB converted)
+
+TERMIN REALIZACJI:
+• Proof cyfrowy: 2 dni
+• Test 10 szt: 5 dni
+• Produkcja 500 szt: 7 dni od akceptacji
+• Produkcja 1000 szt: 10 dni
+
+KOSZT SZACUNKOWY:
+• Proof: 200 PLN
+• Test 10 szt: 500 PLN
+• 500 szt: 2000–2500 PLN netto
+• 1000 szt: 3500–4500 PLN netto
+
+═══════════════════════════════════════════════════════════════════════════
+                           INSTRUKCJA DLA GRAFIKA
+═══════════════════════════════════════════════════════════════════════════
+
+1. OTWÓRZ ADOBE INDESIGN / CANVA PRO
+2. UTWÓRZ DOKUMENT: A4 × 24 strony, bleed 3mm
+3. ZAINSTALUJ FONTY: Montserrat (Bold, Regular)
+4. STWÓRZ MASTER PAGES:
+   - Okładka (str. 1, 24)
+   - Strony firmowe (str. 2–5)
+   - Szablon karty produktu (str. 6–23)
+5. IMPORTUJ TEKSTY Z TEGO PLIKU (copy-paste sekcje)
+6. DODAJ ZDJĘCIA (24 szt z listy)
+7. ZASTOSUJ KOLORY:
+   - Ciemnozielony #1B4D3E
+   - Limonkowy #9ACD32
+   - Biały #FFFFFF
+8. GENERUJ QR KODY (każda karta produktu → agria.pl/[slug])
+9. EXPORT: PDF/X-1a (bleed on, crop marks on)
+10. WYŚLIJ DO AKCEPTACJI
+
+SZABLON KARTY PRODUKTU jest powtarzalny — użyj 18× z różnymi danymi z PIM.
+
+═══════════════════════════════════════════════════════════════════════════
+                                 KONIEC PLIKU
+                        KATALOG GOTOWY DO REALIZACJI
+═══════════════════════════════════════════════════════════════════════════
+
+Data utworzenia: 5 lutego 2026
+Wersja: 1.0 — Katalog modułowy 24 strony
+Kontakt: biuro@agria.pl | +48 660 768 691
