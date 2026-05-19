@@ -12,15 +12,16 @@
 
 ## Executive summary (1 strona, dla zarządu klienta)
 
-Strona agria.pl ma **dobre fundamenty techniczne** (HTTPS, HTTP→HTTPS redirect 301, www→non-www 301, WP+WC aktualne, RankMath Pro skonfigurowany dla treści, Product schema z 19 propertyValue, sitemap RankMath aktywny), ale **5 obszarów wymaga natychmiastowej naprawy** zanim ruszymy kampanie SEO/PPC:
+Strona agria.pl ma **dobre fundamenty techniczne** (HTTPS, HTTP→HTTPS redirect 301, www→non-www 301, WP+WC aktualne, RankMath Pro skonfigurowany dla treści, Product schema z 19 propertyValue, sitemap RankMath aktywny), ale **6 obszarów wymaga natychmiastowej naprawy** zanim ruszymy kampanie SEO/PPC:
 
 1. **Brak jakiejkolwiek analityki frontowej.** Strona nie ma GA4, GTM, ani GSC verification meta. **Sześć tygodni live = zero danych o ruchu.** Bez tego nie da się ani zmierzyć efektu naszej pracy, ani uzasadnić oferty 6-miesięcznej cyframi.
 2. **Schema.org Organization name = „My Blog".** RankMath uruchomiony z domyślnymi wartościami. Google indeksuje firmę pod nazwą „My Blog", nie „AGRIA Sp. z o.o.". Zerowy E-E-A-T, brak knowledge graph, brak LocalBusiness.
 3. **Stary URL `kategoria-produktu/*` zwraca twarde 404** zamiast 301 do nowych slugów (efekt Premmerce). Każdy link zewnętrzny / zakładka klienta w domyślnej strukturze WC = stratny ruch + signal „broken" dla Google.
 4. **Mobile Core Web Vitals na produktach FAIL** (LCP 5,0–5,2s, INP-proxy TBT 350–390ms — wszystkie poza progiem Google). To 80% ruchu mobilnego, więc rankowanie produktów ucierpi mimo dobrego on-page.
 5. **Wtyczka Premmerce 2.3.11 ma niefixed Freemius DOM-XSS** (CVE czeka, CVSS 7,1 high, ujawnione 2026-04-30). Aktualnie nie ma wersji, która to naprawia. Trzeba monitorować update lub rozważyć podmianę pluginu.
+6. **Historia indexacji: 9 miesięcy `blog_public = 0`.** WP uruchomiony 2025-08-07 z `Discourage search engines` aktywnym, fix po stronie klienta ~maj 2026. GSC pokazuje stary `wp-sitemap.xml` z 38 URL / 0 indexed. Stan obecny: indexacja zaczęła iść (5 URL znanych do 15 maja), ale tempo wolne. **Plan accelerator: Indexing API batch dla 33 URL** (Wątek 5, 2026-05-20). Patrz `docs/decyzje/2026-05-19-fix-indeksacji.md`.
 
-Wszystkie pięć są **w zasięgu naprawy w pierwszym miesiącu pracy** (z wyjątkiem #5, który wymaga wydania od dostawcy — monitoring + plan B).
+Wszystkie sześć są **w zasięgu naprawy w pierwszym miesiącu pracy** (z wyjątkiem #5, który wymaga wydania od dostawcy — monitoring + plan B).
 
 **Pakiet 2000 PLN / mies × 6 mies pokrywa to wszystko**, plus on-page, content, link building w kolejnych miesiącach (sesje audytu 2–6 + 8 dostarczą reszty rekomendacji).
 
@@ -263,6 +264,41 @@ RewriteRule .* - [F,L]
 
 **Czas pracy:** 1 h monitoring + 2 h plan B + ewentualne 4 h migracja jeśli klient chce.
 **Priorytet:** **TYDZIEŃ 1 — reguły WAF/.htaccess**. Migracja: do końca miesiąca 2.
+
+---
+
+### P0-6. Historia indeksacji: 9 miesięcy `blog_public = 0` (fix po stronie klienta, plan accelerator)
+
+**Problem (historyczny):** WP uruchomiony 2025-08-07 (data submisji `wp-sitemap.xml` do GSC) z włączoną opcją **„Discourage search engines from indexing this site"** (`blog_public = 0` w `wp_options`). WordPress wstrzykiwał wtedy `<meta name='robots' content='noindex, follow'>` do każdej strony oraz `X-Robots-Tag: noindex, follow` w response headers. Google posłusznie nie indeksował — stąd „38 stron submitted, 0 zaindeksowanych" w GSC raporcie sitemap przez ~9 miesięcy.
+
+**Fix (po stronie klienta, ~maj 2026):** Klient (Janek) odkrył flagę i wyłączył — obecnie `blog_public = 1`. Google zaczął odblokowywać.
+
+**Stan obecny (2026-05-19, dane z GSC URL Inspection po stronie klienta):**
+
+| URL | Typ | Last crawled |
+|---|---|---|
+| `/` (home) | page | 15 maja 2026 |
+| `/wykwity-na-murze/` | post blog | 13 maja 2026 |
+| `/kontakt/` | page | 11 maja 2026 |
+| `/wapno-nawozowe-hurt/kreda-malarska-worek-30kg/` | product | 10 maja 2026 |
+| `/kreda-pastewna/kreda-pastewna-worek-30kg/` | product | 4 maja 2026 |
+
+Mix typów (page + post + 2× product) potwierdza brak per-typ noindex obecnie. Konfiguracja techniczna obecna sprawdzona w Wątku 4 — **bez zarzutu** (`robots.txt` OK, response 200 + zero `X-Robots-Tag`, RankMath flagi `[index]` dla post/page/product/category, sitemap_index.xml renderuje 38 URL).
+
+**Konsekwencja:** Strona dziś jest **technicznie poprawnie skonfigurowana do indeksacji**. Tempo naturalne dla młodej domeny B2B w niskoautorytetowej branży: tygodnie do miesięcy na pełną indexację 38 URL z sitemap.
+
+**Naprawa (accelerator, Wątek 5 — 2026-05-20):**
+
+1. **Indexing API batch** dla ~33 URL (sitemap 38 minus 2 duplikaty `/oferta/` + `-2/` slug minus 2 utility `/cart/`+`/zamowienia/` minus już-zindeksowane). Endpoint `POST https://indexing.googleapis.com/v3/urlNotifications:publish` z `type=URL_UPDATED`. Skrót czasu indexacji z tygodni do **3-7 dni**.
+2. **Cleanup `wp-sitemap.xml` w GSC** — Janek-side: GSC UI → Sitemaps → Remove (stary z okresu blokady, mylący dla raportów). Zostaje aktywny tylko `sitemap_index.xml` RankMath (dodany 2026-05-18 w Wątku 3).
+3. **Monitoring 7 dni** — GSC „Pages → Indexed" przyrost, URL Inspection dla URL które nie wskoczą.
+
+**Quota constraint:** Indexing API limit **200/dzień/GCP project** (`325733204269`, współdzielony przez wszystkie projekty Auranet). Dziś (2026-05-19) wyczerpany przez primaauto rano. Wątek 5 startuje **2026-05-20 02:00 PL** (reset). Skoordynowane z planem primaauto go-live (~5-10 quota) — dla agria zostaje ~190.
+
+**Czas pracy:** ~30 min skrypt batch + 15 min monitoring co dzień przez 7 dni.
+**Priorytet:** **TYDZIEŃ 1** (Wątek 5 jutro).
+
+**Powiązane:** `docs/decyzje/2026-05-19-fix-indeksacji.md` (pełna diagnoza + plan execution).
 
 ---
 
