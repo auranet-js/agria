@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — Stan projektu AGRIA
 
-> Ostatnia aktualizacja: **2026-05-19** (po Wątku 2: rewrite oferty `AURANET_2000PLN_MONTHLY.md` na M1+M2-6 + utworzenie szczegółowego `MONTH_1_FOUNDATIONS_PLAN.md`). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+> Ostatnia aktualizacja: **2026-05-19** (po Wątku 2.5: keyword research DataForSEO Labs jako załącznik proof-of-value do oferty M1). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
 
 ---
 
@@ -55,6 +55,18 @@
 ### Pisemna oferta dla AGRIA (Wątek 2, 2026-05-19)
 - ✅ `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.0 — rewrite na M1 (~3500-5000 PLN) + M2-M6 (5×2000 PLN), z realokacją godzin LB → content (4 art/mies zamiast 2), z executive summary 5 findings z audytu baseline, dual-use pod PPC
 - ✅ `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` — szczegółowy plan M1: 6 deliverables × roboczogodziny, harmonogram T1-T4, akcepty, checklisty dostępów dla AGRIA, ryzyka, komunikacja
+
+### Keyword research baseline (Wątek 2.5, 2026-05-19)
+- ✅ `docs/audits/KEYWORD_RESEARCH_2026-05-19.md` — 112 fraz w 8 klastrach segmentowych z DataForSEO Labs (suggestions+ideas+overview, koszt ~$0.15)
+- Drop klient-facing: `https://auratest.pl/fe4f58fec53ctmp/agria-keyword-research-2026-05-19.md` (załącznik proof-of-value do oferty M1)
+- Wyniki kluczowe:
+  - **Drogownictwo dominuje volume** (~14 040/mies PL na top 30 fraz — `kruszywo wapienne` 260/mies + długi ogon)
+  - **Rolnictwo i budownictwo** ex aequo (~3 200-3 700/mies każdy) — najlepszy stosunek volume/wdrażalność
+  - **Oczyszczalnie ścieków = mikronisza** (3 fraz, 170/mies) — content informational + AEO, nie PPC, sektor przetargowy B2B
+  - **Sezonowość krytyczna** dla rolnictwa (peak marzec + sierpień), drogownictwa (lato), budownictwa (cały rok)
+  - **Paszarstwo / hodowla drobiu** wynurzyło się jako sub-segment (kurniki, kreda pastewna) — do walidacji z klientem czy chcemy dedykowany content
+  - **Konkurenci wapna nawozowego:** Orcal, Kujawit, Atrigran, Supermag — gap analysis pod „X vs Agrobielik"
+- Surowe dane: `~/scratch/agria-kw/` (suggestions/ideas/overview JSON + analyze.py + generate_report.py)
 
 ---
 
@@ -122,8 +134,8 @@
 ### Wątek 2 — pisemna oferta (status po sesji 2026-05-19)
 - [x] Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` na M1 fundamenty + M2-M6 rozwój
 - [x] Utworzenie `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` (szczegóły M1: roboczogodziny per deliverable, harmonogram T1-T4, milestones, akcepty)
-- [ ] **Keyword research** — DataForSEO Labs, 50-100 fraz w 5 klastrach segmentowych (proof-of-value oferty M1; opcjonalnie jako załącznik do prezentacji)
-- [ ] Drop klientowi: pisemna oferta M1+M2-M6 z executive summary z audytu baseline (drop na auratest po review Janka)
+- [x] **Keyword research** — DataForSEO Labs, 112 fraz w 8 klastrach segmentowych z volume/intent/12-mies trend → `docs/audits/KEYWORD_RESEARCH_2026-05-19.md` + drop na auratest
+- [ ] Drop klientowi: pisemna oferta M1+M2-M6 z executive summary z audytu baseline + keyword research jako załącznik (po review Janka)
 
 ### Wątki 3-6 (kolejne sesje, w trakcie M1 lub po akceptacji)
 - [ ] **Wątek 3:** on-page audit (obszar 2 z `SEO_AUDIT_PLAN.md`) + slug optimization
