@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — Stan projektu AGRIA
 
-> Ostatnia aktualizacja: **2026-05-19** (po Wątku 2.5: keyword research DataForSEO Labs jako załącznik proof-of-value do oferty M1). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+> Ostatnia aktualizacja: **2026-05-19** (po Wątku 2.5 + decyzji o pre-M1 konfiguracji analityki — Janek założył puste GA4 i GTM, GSC istniał, kolejny wątek = konfiguracja przez API + chrome MCP fallback). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
 
 ---
 
@@ -51,6 +51,7 @@
 - ✅ Pakiet rozbity na M1 (fundamenty, oddzielnie wyceniany) + M2-M6 (rozwój ~2000 PLN/mies)
 - ✅ Strategia SEO bez budżetu na linkbuilding zewnętrzny — focus content / performance / baza wiedzy / narzędzia / analityka + dual-use pod future PPC
 - ✅ Audyt baseline tech+analityka zakończony
+- ✅ Analityka konfigurowana pre-M1 jako proof-of-value (Janek założył puste GA4+GTM, GSC istniał, konfiguracja przez API + chrome MCP fallback — `docs/decyzje/2026-05-19-analityka-konfig-pre-m1.md`)
 
 ### Pisemna oferta dla AGRIA (Wątek 2, 2026-05-19)
 - ✅ `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.0 — rewrite na M1 (~3500-5000 PLN) + M2-M6 (5×2000 PLN), z realokacją godzin LB → content (4 art/mies zamiast 2), z executive summary 5 findings z audytu baseline, dual-use pod PPC
@@ -113,6 +114,7 @@
 | 2026-05-19 | Audyt baseline tech+analityka (obszar 1+7) zakończony — `docs/decyzje/2026-05-19-audyt-baseline-tech-analityka.md` | ✅ |
 | 2026-05-19 | Pakiet 6-mies rozbity na M1 fundamenty + M2-M6 rozwój — `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md` | ✅ |
 | 2026-05-19 | SEO bez budżetu na linkbuilding zewnętrzny, focus content/perf/tools/analytics + dual-use pod PPC — `docs/decyzje/2026-05-19-seo-bez-budzetu-linkbuilding.md` | ✅ |
+| 2026-05-19 | Analityka konfigurowana pre-M1 jako proof-of-value (API + chrome MCP fallback) — `docs/decyzje/2026-05-19-analityka-konfig-pre-m1.md` | ✅ |
 | 2026-05    | Format umowy: faktura miesięczna VAT, ramowa umowa na 6 mies            | ⏳     |
 
 ---
@@ -137,11 +139,12 @@
 - [x] **Keyword research** — DataForSEO Labs, 112 fraz w 8 klastrach segmentowych z volume/intent/12-mies trend → `docs/audits/KEYWORD_RESEARCH_2026-05-19.md` + drop na auratest
 - [ ] Drop klientowi: pisemna oferta M1+M2-M6 z executive summary z audytu baseline + keyword research jako załącznik (po review Janka)
 
-### Wątki 3-6 (kolejne sesje, w trakcie M1 lub po akceptacji)
-- [ ] **Wątek 3:** on-page audit (obszar 2 z `SEO_AUDIT_PLAN.md`) + slug optimization
-- [ ] **Wątek 4:** content audit + topic clusters (obszar 3) + plan content kalendarza
-- [ ] **Wątek 5:** konkurencja content gap (obszar 5) + backlinks diag (obszar 6 skrócone)
-- [ ] **Wątek 6:** UX + landing pages per segment (obszar 8) — pod PPC readiness
+### Wątki 3-7 (kolejne sesje, w trakcie M1 lub po akceptacji)
+- [ ] **Wątek 3 (NASTĘPNY, dedykowany):** konfiguracja analityki GA4 + GTM + GSC przez API + chrome MCP fallback (decyzja `2026-05-19-analityka-konfig-pre-m1.md`). Janek założył puste GA4 + GTM, GSC istnieje. Cel: stan „gotowe do uruchomienia" (kontener opublikowany ale skrypt nie w `<head>` agria.pl jeszcze)
+- [ ] **Wątek 4:** on-page audit (obszar 2 z `SEO_AUDIT_PLAN.md`) + slug optimization + mapowanie produktów WC na frazy z `KEYWORD_RESEARCH_2026-05-19.md`
+- [ ] **Wątek 5:** content audit + topic clusters (obszar 3) + plan content kalendarza M2-M6
+- [ ] **Wątek 6:** konkurencja content gap (obszar 5) + backlinks diag (obszar 6 skrócone)
+- [ ] **Wątek 7:** UX + landing pages per segment (obszar 8) — pod PPC readiness
 
 ### Po akceptacji oferty M1 — T1-T4 czerwiec 2026
 - [ ] Plan prac M1 wdrożeniowy: GA4 + GTM + GSC + Consent Mode v2 + Looker Studio
