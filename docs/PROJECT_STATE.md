@@ -1,12 +1,16 @@
 # PROJECT_STATE.md — Stan projektu AGRIA
 
-> Ostatnia aktualizacja: **2026-05-19 wieczór** (po Wątku 3 — analityka pre-M1 skonfigurowana przez API, Wątku 4 — diagnoza i plan fix indeksacji, oraz korekcie ceny M1 z widełek 3500-5000 → 2000 PLN). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+> Ostatnia aktualizacja: **2026-05-27** (oferta zaakceptowana przez klienta — Paweł Bigos po rozmowie z Kasjanem). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
 
 ---
 
 ## Status ogólny
 
-**Faza projektu:** FAZA II — aktywacja + sprzedaż usług marketingowych. Pakiet 6-miesięczny po stronie Auranet w stadium finalizacji oferty: **6 × 2 000 PLN netto = 12 000 PLN**, M1 z odrębnym scope (fundamenty), cena równa we wszystkich miesiącach. Patrz `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md` (rozbicie scope) + `docs/decyzje/2026-05-19-korekta-ceny-m1-2000pln.md` (korekta kwoty).
+**Faza projektu:** **FAZA III — REALIZACJA M1 (czerwiec 2026)**. Oferta stałej opieki SEO **zaakceptowana 2026-05-27** przez zarząd AGRIA (Paweł Bigos po rozmowie wczorajszej z Kasjanem — mail w `/tmp/claude-mails/18/`). Pakiet: **6 × 2 000 PLN netto / mies**, M1 z odrębnym scope (fundamenty), start czerwiec 2026.
+
+**Co dalej:** 2026-05-28 oczekiwany backlog ad-hoc poprawek od Pawła („Jutro odezwę się jeszcze w sprawie poprawy kilku istotnych rzeczy na stronie") → triage per pozycja (M1 / M2-M6 / osobne zlecenie wyceny). Plan kickoff M1 w `docs/operations/M1_KICKOFF_2026-06.md`.
+
+Patrz: `docs/decyzje/2026-05-27-akcept-oferty.md` (ADR akcepcji), `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md` (rozbicie scope), `docs/decyzje/2026-05-19-korekta-ceny-m1-2000pln.md` (kwota).
 
 **Auranet jako wykonawca:** zbudował stronę, identyfikację, katalog. Wykonał audyt baseline tech + analityka (`docs/audits/SEO_AUDIT_RESULTS.md`), keyword research baseline (`docs/audits/KEYWORD_RESEARCH_2026-05-19.md`), konfigurację GA4 + GTM + GSC pre-M1 i diagnozę + plan fix indeksacji. Wszystko jako proof-of-value na koszt Auranet (~18h). Teraz domyka monetyzację — pakiet **6 × 2 000 PLN = 12 000 PLN**.
 
@@ -87,21 +91,22 @@
 
 ## Co jest w toku 🟡
 
-### Pakiet Auranet — prezentacja klientowi
-**Status:** dokumenty oferty gotowe. Czekamy na review Janka i prezentację zarządowi AGRIA.
+### Pakiet Auranet — REALIZACJA M1 (czerwiec 2026)
+**Status:** oferta ZAAKCEPTOWANA 2026-05-27. Start M1 = 1 czerwca 2026. Plan: `docs/operations/M1_KICKOFF_2026-06.md`.
 
-**Kolejność działań:**
+**Kolejność działań (sprzed startu M1, 2026-05-27 → 2026-05-31):**
 1. ✅ Audyt baseline tech + analityka (obszar 1+7) — `docs/audits/SEO_AUDIT_RESULTS.md`
-2. ✅ Rewrite `docs/offers/AURANET_2000PLN_MONTHLY.md` na M1 fundamenty + M2-M6 rozwój
-3. ✅ Utworzenie `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` (szczegóły M1)
-4. ⏳ Review Janka + ew. korekty wycen / godzin / wording → finalna wersja prezentacji
-5. ⏳ Drop klientowi: pisemna oferta M1+M2-M6 + executive summary z audytu baseline (drop na auratest)
-6. ⏳ Keyword research jako proof-of-value oferty M1 — DataForSEO Labs, 50-100 fraz, 5 klastrów (opcjonalnie, jako załącznik do oferty)
-7. ⏳ Prezentacja oferty zarządowi AGRIA → akcept → start umowy ramowej
-8. ⏳ Audyt obszary 2-6+8 — w trakcie M1 (keyword research M4 pierwszy, on-page M2, content M3, konkurencja M5, UX M8)
-9. ⏳ Po akceptacji M1: wdrożenie analityki (GA4, GSC, GTM, Consent v2, Looker Studio) jako billable deliverable T1-T2
+2. ✅ `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.1 — pakiet 6 × 2000 PLN
+3. ✅ `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` — szczegóły M1
+4. ✅ Drop klientowi: oferta wysłana 2026-05-25 13:34, **akcept 2026-05-27 10:39** (Paweł)
+5. ⏳ Odpowiedź Janka do Pawła — potwierdzenie startu + ramówka dla jutrzejszego backlog
+6. ⏳ **2026-05-28 backlog ad-hoc od Pawła** → triage (`docs/operations/BACKLOG_TRIAGE.md` po nadejściu)
+7. ⏳ Checklist dostępów do AGRIA (FTP nazwa.pl, GA4/GSC/GTM, GBP centrala, WP Admin)
+8. ⏳ Decyzja Janka: pre-payment vs post-payment M1 + format umowy ramowej
 
-**Uwaga operacyjna:** Janek może dodać Claude'owi dostępy do GA4/GSC/GTM klienta przed formalnym M1. W dokumentach klient-facing analityka pozostaje „do wdrożenia w M1" (billable). Po odbiorze M1 zasada gaśnie. Patrz `~/.claude/projects/-home-host476470-projekty-agria/memory/feedback_analytics_billable_deliverable.md`.
+**Kolejność T1-T4 M1 (czerwiec 2026):** patrz `docs/operations/M1_KICKOFF_2026-06.md`.
+
+**Uwaga operacyjna:** wszystkie deliverable M1 (analityka, audyt, KR, plan on-page) w dokumentach klient-facing pisz jako „do wykonania w M1" (billable). Patrz memory `feedback_analytics_billable_deliverable`.
 
 ### Katalog 24-str
 - 1/18 kart produktów gotowa (Agrobielik 70)
@@ -131,7 +136,9 @@
 | 2026-05-19 | SEO bez budżetu na linkbuilding zewnętrzny, focus content/perf/tools/analytics + dual-use pod PPC — `docs/decyzje/2026-05-19-seo-bez-budzetu-linkbuilding.md` | ✅ |
 | 2026-05-19 | Analityka konfigurowana pre-M1 jako proof-of-value (API + chrome MCP fallback) — `docs/decyzje/2026-05-19-analityka-konfig-pre-m1.md` | ✅ |
 | 2026-05-19 | Fix indeksacji — diagnoza zamknięta, executor Indexing API 2026-05-20 02:00 — `docs/decyzje/2026-05-19-fix-indeksacji.md` | ✅ |
-| 2026-05    | Format umowy: faktura miesięczna VAT, ramowa umowa na 6 mies            | ⏳     |
+| 2026-05-25 | Oferta stałej opieki SEO wysłana do AGRIA (mail + PDF, Paweł+Kasjan, 13:34) | ✅ |
+| **2026-05-27** | **OFERTA ZAAKCEPTOWANA** przez Pawła po rozmowie z Kasjanem — `docs/decyzje/2026-05-27-akcept-oferty.md` | ✅ |
+| 2026-05    | Format umowy: faktura miesięczna VAT, ramowa umowa na 6 mies            | ⏳ do uzgodnienia w T1 M1 |
 
 ---
 
