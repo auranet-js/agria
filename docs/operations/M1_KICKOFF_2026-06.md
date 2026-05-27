@@ -21,33 +21,40 @@
 
 ## Faza 0 — przygotowanie pre-M1 (2026-05-27 → 2026-05-31)
 
-### Zadania Janka
+### Reguły obsługi klienta tej fazy
+
+**Obsługa Pawła = telefon Janka, NIE email triage agencyjny.** Paweł zapowiedział kontakt ze „kilkoma istotnymi rzeczami do poprawy na stronie" — Janek rozegra to telefonicznie + nauczy Pawła self-edit przez Elementor (najtańsza operacyjnie obsługa ad-hoc poprawek). **NIE piszemy draftów email z frameworkiem klasyfikacji backlog (klasy A/B/C/D).** Framework triage = fallback wyłącznie dla wyjątkowej sytuacji (pisemne zgłoszenie dużej rozbudowy funkcjonalnej). Patrz memory `feedback_agria_pawel_relacja_telefoniczna`.
+
+**Współpraca bez umowy pisemnej.** Akcept oferty mailowy Pawła z 2026-05-27 = wystarczająca podstawa. Faktury miesięczne VAT (post-payment) = standardowa praktyka, klient akceptuje przez opłacenie. NIE proponuj umowy ramowej PDF / klauzul wypowiedzenia / formalnych załączników. Klauzule typu „SLA akcept 48h" / „14 dni odbiór" zostają w tym dokumencie i `MONTH_1_FOUNDATIONS_PLAN.md` jako wewnętrzna konwencja Auranet, NIE wpisuj ich w komunikację do klienta. Patrz memory `feedback_agria_no_written_contract_trust_based`.
+
+### Zadania Janka (operacyjne, na bieżąco)
 
 | # | Co | Termin | Status |
 |---|---|---|---|
-| J1 | Odpowiedź do Pawła na mail akcepcji — potwierdzenie startu 1.06 + ramówka dla jutrzejszego backlog (poproś o format punktowy z opisem oczekiwanego efektu, nie tylko „popraw") | 2026-05-27 EOD lub 2026-05-28 rano | ⏳ |
-| J2 | Odbiór backlog Pawła + przekazanie Claude'owi do triage | 2026-05-28 (po nadejściu) | ⏳ |
-| J3 | Decyzja: format umowy ramowej (PDF do podpisu vs sama akceptacja mailowa) | 2026-05-30 | ⏳ |
-| J4 | Decyzja: termin płatności M1 (pre-payment 01.06 / post-payment 30.06) — sugestia post-payment dla pierwszego miesiąca | 2026-05-30 | ⏳ |
-| J5 | Wysyłka checklist dostępów do AGRIA (template w sekcji „Checklist dostępów" niżej) | 2026-05-29 lub 2026-05-30 | ⏳ |
-| J6 | (Opcjonalnie) Sporządzenie umowy ramowej PDF i wysyłka do Kasjana | 2026-05-31 jeśli J3 = umowa | ⏳ |
+| J1 | Telefoniczne rozmowy z Pawłem + nauka Elementor self-edit (ad-hoc poprawki) | bieżąco | ⏳ |
+| J2 | Wysyłka checklist dostępów do AGRIA (template w sekcji „Checklist dostępów" niżej) | 2026-05-29 lub 2026-05-30 | ⏳ |
+| J3 | Decyzja: termin płatności M1 (pre-payment 01.06 / post-payment 30.06) — sugestia post-payment | 2026-05-30 | ⏳ |
 
-### Zadania Claude'a (w sesji z Jankiem)
+### Zadania Claude'a — sprint przygotowawczy deliverables M1 (28-31 maja)
 
-| # | Co | Trigger | Status |
-|---|---|---|---|
-| C1 | ADR akcepcji + update PROJECT_STATE.md + memory | 2026-05-27 | ✅ |
-| C2 | Ten dokument (M1_KICKOFF_2026-06.md) | 2026-05-27 | ✅ |
-| C3 | Triage backlog Pawła → `docs/operations/BACKLOG_TRIAGE.md` z klasyfikacją (A/B/C/D, patrz ADR akcepcji) | po J2 | ⏳ |
-| C4 | Draft maila Janka do Pawła w odpowiedzi na backlog (klasyfikacja + terminy + ewentualne wyceny pozycji C) | po C3 | ⏳ |
-| C5 | (Opcjonalnie) Draft umowy ramowej PDF — szablon w `~/projekty/auranet/templates/mail/` + treść specyficzna AGRIA | jeśli J3 = umowa | ⏳ |
-| C6 | Faktura M1 — przygotowanie pozycji do Comarch (data, opis, kwota, termin) | przed wystawieniem | ⏳ |
+Klient zaakceptował, dostępy będą dopiero 1-7 czerwca (T1). W okresie pre-M1 Claude realizuje **deliverables M1 wykonalne offline** (z MCP `Agria.pl` read-only + DataForSEO + repo + audyt baseline) tak, żeby w czerwcu T1-T4 były tylko: dostępy + wdrożenia live + akcepty klienta + raport.
 
-### Klucze decyzyjne tej fazy
+| # | Deliverable M1 | Termin | Wynik | Status |
+|---|---|---|---|---|
+| C1 | **D3: Priorytetyzacja KR** — mapping 112 fraz baseline (`KEYWORD_RESEARCH_2026-05-19.md`) → URL agria.pl, wybór 30-50 priorytetowych z klastrami, intent, volume, difficulty | 2026-05-28 | Google Sheets do akceptu klienta (T2) | ⏳ |
+| C2 | **D4: Content audit + topic clusters + kalendarz M2-M6** — inwentaryzacja 6 postów + 19 produktów + 7 stron + 7 kategorii vs gaps; topic clusters hub-spoke per segment; 20 briefów contentowych (4 art × 5 mies) | 2026-05-29 | PDF do akceptu (T2-T3) | ⏳ |
+| C3 | **D5: Plan on-page** — rozbicie P0/P1/P2 z `SEO_AUDIT_RESULTS.md` na zadania per miesiąc M2-M6 | 2026-05-30 | Backlog Sheets (T3) | ⏳ |
+| C4 | **D1: Strategia 6-mies** (syntetyzuje D3+D4+D5+audyt+KR baseline) | 2026-05-31 | PDF 8-12 stron klientowi (T3) | ⏳ |
+| C5 | **D6 częściowo: Looker Studio template** — 3 widoki (ruch, frazy, konwersje), connectors GA4+GSC (puste do 1.06, struktura gotowa) | 2026-06-01 | Share link klientowi (T4) | ⏳ |
+| C6 | ADR akcepcji + M1_KICKOFF + memory updates | 2026-05-27 | ✅ | ✅ |
 
-1. **Backlog Pawła** — co kwalifikujemy do M1 (klasa A) wpływa na obciążenie godzin. M1 ma 10-12h, bufor 0,5-1,5h. Większy backlog A → wciska deliverable plan on-page lub raport startowy. Triage powinien być oszczędny dla M1, szczodry dla M2-M6 (mamy bufor 20% tam).
-2. **Umowa pisemna** — jeśli Janek wybiera „akceptacja mailowa wystarczy", spokojnie. Jeśli pisemna — wzorzec z `auranet/templates/` + klauzula wypowiedzenia 30 dni, własność deliverables, RODO.
-3. **Pre vs post payment** — sugestia post-payment 30.06 z 7-dniowym terminem (faktura razem z raportem startowym M1 w T4). Klient nie zgłaszał życzeń.
+**Co zostaje na czerwiec (T1-T4):**
+- T1 (1-7.VI): kick-off call + pozyskanie dostępów + GTM live + Consent Mode v2 banner
+- T2 (8-14.VI): wdrożenia P0 audytu (schema, .htaccess 301, WAF Premmerce) + akcept klienta D3+D4 z pre-M1
+- T3 (15-21.VI): akcept D5+D1 z pre-M1 + ewentualne korekty
+- T4 (22-30.VI): baseline metryk + raport startowy M1 (PDF kompendium) + końcowy call + faktura M1
+
+**Efekt:** czerwiec staje się reaktywny (live wdrożenia, akcepty, ewentualne ad-hoc Pawła), nie produkcyjny — buffer pod nieprzewidziane sprawy klienta.
 
 ---
 

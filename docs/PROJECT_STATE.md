@@ -8,7 +8,7 @@
 
 **Faza projektu:** **FAZA III — REALIZACJA M1 (czerwiec 2026)**. Oferta stałej opieki SEO **zaakceptowana 2026-05-27** przez zarząd AGRIA (Paweł Bigos po rozmowie wczorajszej z Kasjanem — mail w `/tmp/claude-mails/18/`). Pakiet: **6 × 2 000 PLN netto / mies**, M1 z odrębnym scope (fundamenty), start czerwiec 2026.
 
-**Co dalej:** 2026-05-28 oczekiwany backlog ad-hoc poprawek od Pawła („Jutro odezwę się jeszcze w sprawie poprawy kilku istotnych rzeczy na stronie") → triage per pozycja (M1 / M2-M6 / osobne zlecenie wyceny). Plan kickoff M1 w `docs/operations/M1_KICKOFF_2026-06.md`.
+**Co dalej:** Paweł zapowiedział kontakt w sprawie „kilku istotnych rzeczy do poprawy na stronie" — Janek rozegra telefonicznie + nauczy Pawła self-edit przez Elementor (NIE email triage agencyjny, patrz `feedback_agria_pawel_relacja_telefoniczna`). Claude w pre-M1 (28-31 maja) realizuje deliverables M1 wykonalne offline (priorytetyzacja KR, content audit, plan on-page, strategia 6-mies), żeby czerwiec T1-T4 był reaktywny. Plan kickoff M1 w `docs/operations/M1_KICKOFF_2026-06.md`.
 
 Patrz: `docs/decyzje/2026-05-27-akcept-oferty.md` (ADR akcepcji), `docs/decyzje/2026-05-19-pakiet-rozbicie-m1-m2do6.md` (rozbicie scope), `docs/decyzje/2026-05-19-korekta-ceny-m1-2000pln.md` (kwota).
 
@@ -99,10 +99,10 @@ Patrz: `docs/decyzje/2026-05-27-akcept-oferty.md` (ADR akcepcji), `docs/decyzje/
 2. ✅ `docs/offers/AURANET_2000PLN_MONTHLY.md` v2.1 — pakiet 6 × 2000 PLN
 3. ✅ `docs/offers/MONTH_1_FOUNDATIONS_PLAN.md` — szczegóły M1
 4. ✅ Drop klientowi: oferta wysłana 2026-05-25 13:34, **akcept 2026-05-27 10:39** (Paweł)
-5. ⏳ Odpowiedź Janka do Pawła — potwierdzenie startu + ramówka dla jutrzejszego backlog
-6. ⏳ **2026-05-28 backlog ad-hoc od Pawła** → triage (`docs/operations/BACKLOG_TRIAGE.md` po nadejściu)
-7. ⏳ Checklist dostępów do AGRIA (FTP nazwa.pl, GA4/GSC/GTM, GBP centrala, WP Admin)
-8. ⏳ Decyzja Janka: pre-payment vs post-payment M1 + format umowy ramowej
+5. ⏳ **Sprint Claude pre-M1 (28-31 maja)** — D3 priorytetyzacja KR + D4 content audit/kalendarz + D5 plan on-page + D1 strategia 6-mies (offline, bez dostępów klienta)
+6. ⏳ Janek rozegra ad-hoc Pawła telefonicznie + nauka Elementor (bez triage agencyjnego)
+7. ⏳ Checklist dostępów do AGRIA (FTP nazwa.pl, GA4/GSC/GTM, GBP centrala, WP Admin) — wysyłka Janek 29-30 maja
+8. ⏳ Decyzja Janka: pre-payment vs post-payment M1 (do 30 maja) — bez umowy pisemnej (Janek 2026-05-27: akceptacja mailowa wystarczy, patrz `feedback_agria_no_written_contract_trust_based`)
 
 **Kolejność T1-T4 M1 (czerwiec 2026):** patrz `docs/operations/M1_KICKOFF_2026-06.md`.
 

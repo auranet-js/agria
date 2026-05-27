@@ -32,10 +32,10 @@ Model finansowy: **6 × 2 000 PLN netto / miesiąc**, faktura miesięczna VAT z 
 
 ### Operacyjne natychmiast (2026-05-27 → 2026-05-31)
 
-1. **Odpowiedź Janka do Pawła** — potwierdzenie startu M1 1 czerwca + ramówka dla jutrzejszego maila Pawła (prośba o format punktowy backlog, klasyfikacja per pozycja będzie zwrotnie).
-2. **Checklist dostępów do AGRIA** — wysyłka maila z listą wymagań T1 (patrz `MONTH_1_FOUNDATIONS_PLAN.md` §„Co Auranet potrzebuje od AGRIA"): WP Admin, FTP/SFTP nazwa.pl, GBP Manager centrala + ewentualne magazyny, dostęp do skrzynki dla weryfikacji DNS, kontakt decyzyjny.
-3. **Decyzja Janka — pre-payment vs post-payment M1.** Plan mówi „faktura M1" w T4 po końcowym akcepcie — to post-payment 30.06. Alternatywa: pre-payment 01.06 z terminem 7 dni. Sugestia: post-payment dla pierwszego miesiąca (klient łatwiej akceptuje płatność za zrealizowane, M1 ryzyko kontraktowe minimalne).
-4. **Decyzja Janka — format umowy ramowej.** Plan zakłada ramową 6-mies z klauzulą 30-dniowego wypowiedzenia. Klient nie zgłaszał potrzeby. Sugestia: pisemna umowa ramowa (PDF do podpisu elektronicznego) zamiast samej akceptacji mailowej — chroni obie strony przed zmianą decyzji w połowie pakietu.
+1. **Telefoniczne rozmowy Janek-Paweł** w sprawie ad-hoc poprawek + nauczenie Pawła self-edit przez Elementor — patrz `feedback_agria_pawel_relacja_telefoniczna`. **Nie piszemy draftu email do Pawła** (Janek 2026-05-27 odrzucił mój draft jako „kiepski" — sygnał że formalizacja jest nieadekwatna do relacji).
+2. **Checklist dostępów do AGRIA** — wysyłka maila z listą wymagań T1 (patrz `M1_KICKOFF_2026-06.md` §„Checklist dostępów"): WP Admin, FTP/SFTP nazwa.pl, GBP Manager centrala, kontakt decyzyjny.
+3. **Decyzja Janka — pre-payment vs post-payment M1.** Plan mówi „faktura M1" w T4 po końcowym akcepcie — to post-payment 30.06. Alternatywa: pre-payment 01.06 z terminem 7 dni. Sugestia: post-payment.
+4. **Bez umowy pisemnej** — Janek 2026-05-27: „nie podpisujemy umowy, to są zaufani ludzi, opieramy to właśnie na akceptacji mailowej". Akcept Pawła z 10:39 = wystarczająca podstawa. Patrz `feedback_agria_no_written_contract_trust_based`.
 
 ### Operacyjne 2026-05-28+ — backlog ad-hoc Pawła
 
@@ -77,11 +77,13 @@ Brak — akcept klienta nie zostawia pola do alternatyw negocjacyjnych. Otwarte 
 
 ## Otwarte do rozstrzygnięcia w T1 M1
 
-1. Format umowy ramowej (decyzja Janka, propozycja: pisemna PDF).
-2. Termin płatności M1 (decyzja Janka, propozycja: post-payment 30.06).
-3. Triage backlog Pawła (po 2026-05-28).
-4. 4 pytania z `docs/catalog/CATALOG_VS_WC_GAP.md` (cement/kruszywo, Kreda czarna, Agrobielik 90, SKU) — slot z handlowcem w T1.
-5. Dostępy FTP/SFTP nazwa.pl — konto Auranet czy klienta?
+1. Termin płatności M1 (decyzja Janka, propozycja: post-payment 30.06).
+2. 4 pytania z `docs/catalog/CATALOG_VS_WC_GAP.md` (cement/kruszywo, Kreda czarna, Agrobielik 90, SKU) — slot z handlowcem w T1.
+3. Dostępy FTP/SFTP nazwa.pl — konto Auranet czy klienta?
+
+Zamknięte 2026-05-27:
+- Format umowy → **bez umowy pisemnej**, opieramy się na akcepcie mailowym Pawła (`feedback_agria_no_written_contract_trust_based`)
+- Obsługa backlog Pawła → telefon Janka + Elementor self-edit (`feedback_agria_pawel_relacja_telefoniczna`)
 
 ## Powiązane
 
