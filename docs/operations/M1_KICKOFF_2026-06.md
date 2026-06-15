@@ -8,6 +8,18 @@
 
 ---
 
+## ⚠️ KOREKTA ZAKRESU (2026-06-15)
+
+**Źródłem prawdy dla zakresu M1 jest `MONTH_1_FOUNDATIONS_PLAN.md` (= zaakceptowany załącznik), NIE rozdęte T1–T4 poniżej.** Audyt rozjazdu 2026-06-15 wykazał, że ten dokument przeskalował czerwiec ponad sprzedany zakres:
+
+- **Wdrożenie P0 technicznych (schema RankMath, `.htaccess` 301, WAF Premmerce) NIE jest deliverable M1.** W ofercie M1 to wyłącznie **plan** (deliverable #5 — rozbicie P0/P1/P2 na zadania), a faktyczne **wdrożenie rozłożone na M2–M6**. Sekcje T2/T4 poniżej mówiące o „wdrożeniu P0" = poza sprzedanym M1.
+- **Raport startowy** = kompendium 6 deliverables (1,5 h), nie osobny dokument „15–25 stron".
+- Sprzedany M1 (2000 PLN, ~10–12 h) = **6 deliverables**: 1) strategia 2) dokończenie analityki (GTM live ✅ 2026-06-15 + eventy + Consent banner + Looker) 3) priorytetyzacja KR 4) content audit + kalendarz 5) **plan** on-page 6) baseline + raport.
+
+Realny stan na 2026-06-15: GTM live wpięty i zweryfikowany; reszta analityki + 4 dokumenty planistyczne + baseline = do zrobienia w tym tygodniu (kalendarz „Auranet Claude" 15–19.06). Indeksacja: 23 URL do re-submit (`docs/audits/INDEXATION_DIAGNOSIS_2026-06-15.md`).
+
+---
+
 ## Kontakty po stronie AGRIA
 
 | Kto | Rola | Kontakt | Obszar |
