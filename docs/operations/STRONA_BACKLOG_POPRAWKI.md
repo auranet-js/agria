@@ -36,13 +36,16 @@
 - Weryfikacja na produkcji: 0 wierszy/sekcji/klauzul, tagi tabel zbalansowane, każdy zapis match=True (readback).
 - **Poza zakresem (zostaje):** wzmianki o formach w treści wstępnej/bulletach (np. „elastyczne formy dostawy (big-bag, worki, luz)") — to copy marketingowe, nie PIM ani FAQ.
 
-### STR-03 · Mapa w Kontakcie — telefony zsynchronizować z oddziałami pod mapą 🟢🔵
+### STR-03 · Mapa w Kontakcie — telefony zsynchronizować z oddziałami pod mapą ✅
 **Zgłoszenie:** „nanieść na mapie w kontaktach telefony — takie same jak przy oddziałach (poniżej mapy)."
-**Lokalizacja:** strona *Kontakt* (post ID 323), custom JS Google Maps (`agria-map`), tablica `var locations[]` z polami `phone` / `phoneFull` w infowindow markerów.
-**Stan obecny na mapie:** Tarnów `14 621 88 21`, Radgoszcz `14 641 43 01`, Niedomice `604 428 782`.
-**Problem:** rozjazd z numerami w kartach oddziałów pod mapą (na stronie widoczne też `660 76 86 91`, `664 393 062`). Paweł chce ujednolicić mapę do numerów spod mapy.
-**Do zrobienia:** zaktualizować `phone`/`phoneFull` w `locations[]` tak, by zgadzały się z kartami oddziałów.
-**Bloker — DANE:** potrzebny **właściwy numer per oddział** (zwł. siedziba Tarnów — centrala `14 621 88 21` czy komórka handlowca?). Ustalić z Pawłem przed edycją.
+**Numery finalne (mail Pawła 2026-07-01):** Radgoszcz `781 875 411`, Niedomice `664 393 062`, Tarnów `604 428 782`. Numer `660 768 691` — usunąć **całkowicie** ze strony (osoba na L4), w danych kontaktowych zastąpić `604 428 782`.
+**WDROŻONE 2026-07-01 (Claude, MCP write, post_id 323 + 329):**
+- **Mapa JS** (`_elementor_data` posta 323, `locations[]` `phone`/`phoneFull`): Tarnów `14 621 88 21`→`604 428 782`, Radgoszcz `14 641 43 01`→`781 875 411`, Niedomice `604 428 782`→`664 393 062`. Zamiana kolejnościowa (Niedomice przed Tarnowem, bo 604 „wędruje").
+- **Oddziały pod mapą + dane kontaktowe** (`_elementor_data` + `post_content` 323): naprawiony href Radgoszcza (`tel:` wskazywał stary `14 641 43 01` przy tekście `781 875 411`); dane kontaktowe siedziby `660 768 691`→`604 428 782` (href + tekst); przyciski „na skróty"/social-icon phone → `604 428 782`.
+- **Nagłówek globalny** — post 329 `Agria-Head` (`elementor_library`, renderowany na KAŻDEJ stronie) miał `tel:660 76 86 91` ×2 (desktop+mobile). To było źródło resztek `660` na froncie mimo czystego posta 323. Zamienione na `604 428 782`.
+- Wyczyszczony `_elementor_element_cache` postów 323 i 329 (`a:0:{}`). Backupy w DB: meta_key `_elementor_data_bak20260701` (323, 329) + `_pc_bak20260701` (post_content 323).
+- **Weryfikacja na produkcji (curl, cache-bust):** `/kontakt/` i `/` — **zero wystąpień `660`**; mapa i wszystkie numery zgodne. LiteSpeed cache OFF (`na-ls-cache-enabled: off`), więc front świeży.
+- **Poza zakresem (NIE ruszane):** sekcja „Dział sprzedaży" (Bogdan/Paweł/Kazimierz Nowak) — to STR-06, czeka na skład. **Uwaga do STR-06:** href Kazimierza jest zepsuty (`http://+48 781 875 411`, `data-wplink-url-error`) — do naprawy przy przebudowie sekcji.
 
 ### STR-04 · Sekcja „do pobrania" — karty produktu + karty charakterystyki 🟡🔵
 **Zgłoszenie (2026-06-15):** „do pobrania — nanieść wszystkie nowe karty produktu oraz karty charakterystyki."
@@ -80,14 +83,16 @@
 ## Wątki poboczne (nie-stronowe, do śledzenia)
 
 - **Wizytówka Google (GBP):** Paweł nie kojarzy maila o wizytówce — zadzwoni do P. Stanisława, dopyta czy to kontakt poprzedniego operatora. Jeśli nie — odzysk przez pomoc Google. *Nasza rola:* wsparcie przy odzysku dostępu, gdy Paweł da znać.
+  - **Aktualizacja 2026-07-01 (mail Pawła):** Paweł odbił pytanie „jak idzie odzysk, odpowiedział ci ktoś?" — myśli, że my już zgłaszaliśmy. Diagnoza: AGRIA ma **3 profile** (Tarnów/Niedomice/Radgoszcz); „dziwny mail", na który poszła prośba o dostęp = zamaskowany adres aktualnego właściciela profilu (stary operator), którego Google pokazuje przy „Request access". Zwykłe „poproś o dostęp" nie zadziała.
+  - **Decyzja Janka 2026-07-01:** własność wizytówek docelowo na **koncie zarządzanym przez Auranet** (jak przy innych klientach GBP). Plan odzysku: (1) z jednego docelowego konta Auranet złożyć Request access do 3 profili; (2) równolegle uruchomić weryfikację własności firmy (kod na adres Warsztatowa 5 / dokumenty — KRS 0000170666, NIP 8730006657), bo stary operator nie odpowie. **Do wykonania — osobny wątek.**
 
 ---
 
 ## Czego potrzebujemy od Pawła (zbiorczo — bloker-dane)
 
 1. Karty produktu + karty charakterystyki (PDF) — STR-04
-2. Właściwe telefony per oddział (zwł. siedziba Tarnów) — STR-03
-3. Aktualny skład działu sprzedaży po P. Stanisławie — STR-06
+2. ~~Właściwe telefony per oddział~~ — STR-03 ✅ (dostarczone 2026-07-01, wdrożone)
+3. Aktualny skład działu sprzedaży po P. Stanisławie — STR-06 (+ dane Biura Sprzedaży: Joanna, Małgorzata — telefony, role)
 
 ---
 
