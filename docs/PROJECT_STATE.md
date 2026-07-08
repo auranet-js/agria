@@ -19,6 +19,14 @@ Naprawiony fundament on-page: produkty siedziały pod złą kategorią w URL (`/
 2. **Reszta M2 (A+B+C) czeka** — nie ruszona, bo rdzeń URL wyszedł jako priorytet: schema „My Blog"→AGRIA, meta-opis „cement i kruszywo" (zaakceptowana zmiana, niewdrożona), nagłówki bezpieczeństwa, `product_cat` do sitemapy, title home, **content jesienny**, wizytówka GBP.
 3. Intro /oferta/ nadal „wapno, cement i kruszywo / drogownictwo" — ten sam problem co meta-opis (poza ofertą).
 
+### Blok A (część) — wykonane 2026-07-08 (prod, DB, niezależne od repo)
+- ✅ **meta-opis** `blogdescription` → „Wapno nawozowe, hydratyzowane i palone dla rolnictwa, rybactwa, oczyszczalni i budownictwa. Stabilne dostawy od 1989 r." (bez cement/kruszywo).
+- ✅ **Schema „My Blog" → AGRIA** — `knowledgegraph_name`=„AGRIA Sp. z o.o.", `website_name`=„AGRIA", alternate, `woocommerce_pos_store_name`. Front: 0× „My Blog".
+- ✅ **Tytuł home (P1-2)** — źródło = `post_title` strony 321 + `%sitename%` (nie szablon homepage_title). Ustawiony `rank_math_title` (321) = „Wapno nawozowe, hydratyzowane i palone – AGRIA Sp. z o.o." (57 zn.).
+- ✅ **Meta description home** — ustawiony `rank_math_description` (321) bez cement/kruszywo.
+- ⚠️ **Duplikat meta description** z „cement, kruszywo" wstrzykiwany przez **motyw** „Agria By Auranet" (nie w DB jako całość) — do namierzenia w kodzie motywu (+ druga meta description = błąd SEO sam w sobie).
+- ⏳ Zostało w bloku A: nagłówki bezpieczeństwa (.htaccess, wymaga „ok"), `product_cat` do sitemapy, P1-7 login „js" w schemie, widoczna treść „cement/kruszywo" (home Elementor + /oferta/ intro).
+
 ---
 
 ## Status ogólny
