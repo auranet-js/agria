@@ -1,6 +1,23 @@
 # PROJECT_STATE.md — Stan projektu AGRIA
 
-> Ostatnia aktualizacja: **2026-05-27** (oferta zaakceptowana przez klienta — Paweł Bigos po rozmowie z Kasjanem). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+> Ostatnia aktualizacja: **2026-07-08** (M2: wdrożony poprawny rdzeń URL/taksonomii — patrz niżej). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+
+---
+
+## 2026-07-08 (M2) — Rdzeń URL/taksonomii WDROŻONY ✅
+
+Naprawiony fundament on-page: produkty siedziały pod złą kategorią w URL (`/wapno-nawozowe-hurt/…`) przez błąd Premmerce (bez Yoasta wybiera kat. o najwyższym `term_id` = Hurtownie). Model A (bez custom kodu): `product_cat` = jedna kategoria wiodąca per produkt (wg badge'y katalogu drukowanego), filtr „Zastosowanie" przepięty na atrybut `pa_agria-segment`, Hurtownie poza kategoriami.
+
+- **19/19 produktów** zmigrowanych (jednorazowy skrypt PHP przez FTP, WP-API): czyste slugi, `menu_order` wg katalogu, kreda malarska → mini-kat + poza filtrem.
+- **19× 301** w `.htaccess` (stary→nowy) — zweryfikowane (każdy 301→200, FAIL 0).
+- Filtr `pa_agria-segment` działa na żywej /oferta/. 19 nowych URL zgłoszone do Indexing API.
+- Największy zysk: Dolomit (fraza 6600) z `/hurt/dolomit-worek-25kg/` → `/wapno-nawozowe-rolnictwo/dolomit/`.
+- Dok: ADR `docs/decyzje/2026-07-08-rdzen-url-taksonomia.md` + mapa `docs/catalog/URL_TAXONOMY_SIM_2026-07-08.md`. Backupy: `~/backups/agria/2026-07-08/`.
+
+**Otwarte po tej operacji (do domknięcia):**
+1. ✅ Archiwa **Hurtownie/Sadownictwo/Rybactwo** (0 produktów) → **301 na /oferta/** (`.htaccess`, zweryfikowane, bez regresji). Zostaje polish: nawigacja „OFERTA ▾" + kafle nadal *pokazują* te segmenty (linki teraz redirectują na /oferta/, więc działają) — docelowo repoint na filtrowany widok /oferta/?segment=… (osobno, wymaga edycji menu/Elementora).
+2. **Reszta M2 (A+B+C) czeka** — nie ruszona, bo rdzeń URL wyszedł jako priorytet: schema „My Blog"→AGRIA, meta-opis „cement i kruszywo" (zaakceptowana zmiana, niewdrożona), nagłówki bezpieczeństwa, `product_cat` do sitemapy, title home, **content jesienny**, wizytówka GBP.
+3. Intro /oferta/ nadal „wapno, cement i kruszywo / drogownictwo" — ten sam problem co meta-opis (poza ofertą).
 
 ---
 
