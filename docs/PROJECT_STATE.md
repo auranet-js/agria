@@ -24,8 +24,8 @@ Naprawiony fundament on-page: produkty siedziały pod złą kategorią w URL (`/
 - ✅ **Schema „My Blog" → AGRIA** — `knowledgegraph_name`=„AGRIA Sp. z o.o.", `website_name`=„AGRIA", alternate, `woocommerce_pos_store_name`. Front: 0× „My Blog".
 - ✅ **Tytuł home (P1-2)** — źródło = `post_title` strony 321 + `%sitename%` (nie szablon homepage_title). Ustawiony `rank_math_title` (321) = „Wapno nawozowe, hydratyzowane i palone – AGRIA Sp. z o.o." (57 zn.).
 - ✅ **Meta description home** — ustawiony `rank_math_description` (321) bez cement/kruszywo.
-- ⚠️ **Duplikat meta description** z „cement, kruszywo" wstrzykiwany przez **motyw** „Agria By Auranet" (nie w DB jako całość) — do namierzenia w kodzie motywu (+ druga meta description = błąd SEO sam w sobie).
-- ⏳ Zostało w bloku A: nagłówki bezpieczeństwa (.htaccess, wymaga „ok"), `product_cat` do sitemapy, P1-7 login „js" w schemie, widoczna treść „cement/kruszywo" (home Elementor + /oferta/ intro).
+- ✅ **Duplikat meta description** — źródło: Hello Elementor (`hello_elementor_add_description_meta_tag`) wypuszczał 2. meta z `post_excerpt` (cement/kruszywo). Fix: **nowy moduł pluginu `agria-by-auranet/modules/seo-head/`** wyłącza go filtrem `hello_elementor_description_meta_tag` `__return_false`. Świadomie w PLUGINIE, nie w `functions.php` motywu. Front: 1 meta description (RankMath), 0× cement/kruszyw w `<head>`. Backup: `~/backups/agria/2026-07-08/agria-by-auranet.php.orig`. (Moduł seo-head = dom na kolejne head-fixy, np. P1-7.)
+- ⏳ Zostało w bloku A: nagłówki bezpieczeństwa (.htaccess, wymaga „ok"), `product_cat` do sitemapy, P1-7 login „js" w schemie, widoczna treść „cement/kruszywo" (excerpt 321 + home Elementor + /oferta/ intro — tekst na stronie, nie meta).
 
 ---
 
