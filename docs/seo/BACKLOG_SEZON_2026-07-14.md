@@ -118,7 +118,7 @@ Wszystko poniżej miało status P0 w `ONPAGE_PLAN` z 20.05 i nie zostało tknię
 
 | # | Landing | vol/mies. | szczyt | uwaga |
 |---|---|---|---|---|
-| **C1** | `/wapno-do-stabilizacji-gruntow/` | 720 | — | **TREŚĆ, META I SCHEMA GOTOWE OD 15.06** (`LP_STABILIZACJA_GRUNTU_2026-06-15.md`). Najwyższy CPC w projekcie ($2,13). Zostaje samo wdrożenie. **Zacząć od tego — dług, nie praca.** |
+| ~~**C1**~~ | ~~`/wapno-do-stabilizacji-gruntow/`~~ | 720 | — | ✅ **WDROŻONY 2026-07-14** — strona ID **2745**, HTTP 200, H1 + 7×H2 + tabela parametrów + FAQ, meta RankMath, w sitemapie, zgłoszony do indeksacji. **Parametry wzięte z karty Nordkalk, NIE z draftu**: draft mówił „min. 90% CaO", karta CL 90-Q (R5, P1) mówi **CaO+MgO ≥90%, wapno czynne ≥80%, reaktywność R5** — mocniejszy, normowy język pod specyfikacje robót drogowych. Dawkowanie 2–4% wagowych za katalogiem AGRIA + zastrzeżenie projektowe. **TODO:** linkowanie wewnętrzne (z karty #320 i z /oferta/), schema FAQPage, decyzja o miejscu w nawigacji. |
 | **C2** | `/wapno-granulowane/` | **5 400** | **14 800** (sie) | Największy wolumen w portfolio. AGRIA ma: węglanowe granulowane, węglanowe z Mg granulowane, kreda granulowana. |
 | **C3** | `/wapno-nawozowe/` | 1 300 | 6 600 (sie) | **Tu stoi Biovita #1.** Fraza-flagowiec segmentu. |
 | **C4** | `/wapno-palone/` | 2 400 | 9 900 (paź) | AGRIA ma wapno palone mielone wysokoreaktywne (90% CaO). |
