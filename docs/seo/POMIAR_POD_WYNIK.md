@@ -118,3 +118,35 @@ https://auratest.pl/fe4f58fec53ctmp/agria-wapno-nawozowe-na-trawnik-draft-2026-0
 
 ### Podgląd draftu (robocze, do skasowania)
 https://auratest.pl/fe4f58fec53ctmp/agria-jak-stosowac-wapno-nawozowe-draft-2026-07-09.html
+
+---
+
+## #5 — /higienizacja-osadow-sciekowych-wapnem/ (post 2744, NOWY — landing B2B)
+
+| Pole | Wartość |
+|---|---|
+| **Data publikacji** | 2026-07-09 |
+| **URL** | https://agria.pl/higienizacja-osadow-sciekowych-wapnem/ |
+| **Frazy-cel** | „higienizacja osadów ściekowych wapnem", „stabilizacja osadów wapnem", „wapno do oczyszczalni", „neutralizacja osadów" |
+| **Baseline** | brak w rankingu (nowy content, nisza winnable — wapno-info.pl na 15 frazach) |
+| **Zgłoszono do indeksacji** | 2026-07-09 (index-submit, URL_UPDATED, 24/100) |
+| **Okno pomiaru** | ~2026-08-06 (indeksacja/pozycja), ~2026-09-03 (dojrzewanie) |
+| **Cel** | wejście do TOP 20 → TOP 10, lead B2B (przetargi/oczyszczalnie, wysoka wartość per lead) |
+
+### Charakterystyka
+- **KROK 3 strategii** (segment Oczyszczalnie). Pierwszy landing B2B — najwyższa wartość per lead w projekcie.
+- Ton instytucjonalny/przetargowy: mechanizm pH>12, dobór palone vs hydratyzowane, dawki % suchej masy, dokumentacja, CTA ofertowy.
+- Produkty (linki na realne karty, URL 200): wapno palone mielone #320 (lead), Bielik #309, Agrobielik 90 #311.
+- JSON-LD **FAQPage** (5 Q) + **HowTo** (proces higienizacji 5 kroków) — zweryfikowane curl.
+- Treść 14,3 KB.
+
+### Nowa taksonomia — kategoria „Zastosowania" (tt_id 831)
+- Utworzona 2026-07-09 jako **dom dla landingów segmentowych** (nie „poradniki"). Slug `zastosowania`, term_id=831, tt_id=831.
+- Landing #5 przypięty do 831. Kolejne landingi (rybactwo/stawy, drogownictwo, budownictwo) → tutaj. Do zrobienia: podpięcie kategorii pod menu / hub segmentowy.
+
+### Flagi danych (do on-page produktów — NIE reprodukowane w treści landingu)
+- Karta #320 (palone mielone): pole `pa_agria-ph` / spec „Odczyn pH >16" + FAQ „>16, >17" — **błąd** (skala pH ≤14). Landing używa poprawnego „pH powyżej 12".
+- Karta #309 (Bielik): tytuł „min. 72% CaO" vs treść „min. 90% CaO" — sprzeczność do ujednolicenia. Landing: opisowo „wysoka zawartość CaO".
+
+### Podgląd draftu (robocze, do skasowania)
+https://auratest.pl/fe4f58fec53ctmp/agria-higienizacja-osadow-landing-draft-2026-07-09.html

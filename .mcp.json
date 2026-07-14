@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agria": {
+      "type": "http",
+      "url": "https://agria.pl/mcp/mcp.php",
+      "headers": {
+        "X-MCP-Token": "${AGRIA_MCP_TOKEN}"
+      }
+    }
+  }
+}

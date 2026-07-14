@@ -19,7 +19,8 @@
       "Bash(magick *)",
       "Bash(convert *)",
       "Bash(identify *)",
-      "Bash(mogrify *)"
+      "Bash(mogrify *)",
+      "Bash(curl *)"
     ],
     "deny": [
       "Bash(rm -rf *)",
