@@ -119,17 +119,23 @@ Bez tego miesiąca kolejne pięć byłoby strzelaniem na ślepo. W M1 układamy 
 - **Wizytówka Google centrali w Tarnowie** — optymalizacja i pierwsze publikacje.
 - **Raport miesięczny.**
 
-### Miesiąc 3 (sierpień) — Rolnictwo i sadownictwo + szybkość
+### Miesiąc 3 (sierpień) — Landingi produktowe pod szczyt sezonu
 
-- **4 artykuły:** odkwaszanie gleby, wapnowanie sadu i terminy, magnez w wapnie, wapno granulowane vs sypkie.
-- **Optymalizacja szybkości strony na telefonach** — coraz więcej rolników szuka z telefonu w polu; szybka strona = lepsza pozycja i więcej zapytań.
-- **Dopracowanie opisów i kart produktów** rolniczych pod realne zapytania.
-- **Wizytówka + raport miesięczny.**
+> **Zmiana priorytetu (2026-07-15):** karty produktów rolniczych zostały dopracowane już w M2 (lipiec) — parametry 19 produktów zgodne z kartami producentów. To uwalnia sierpień na **landingi komercyjne**, które są prawdziwym rdzeniem sezonu. Sierpień to szczyt wyszukiwań: „wapno granulowane" **14 800/mies.**, „wapno nawozowe" 6 600, „wapno palone" 9 900 (październik). Dziś AGRIA nie ma pod nie ani jednej strony docelowej — konkurent (Biovita) stoi #1 z landingiem produktowym przy słabszym profilu linków. Szczegóły: `docs/seo/BACKLOG_SEZON_2026-07-14.md` blok C.
+
+- **Landingi produktowe (rdzeń M3)** — indeksowalne strony kategorii pod frazy o najwyższym wolumenie: wapno granulowane, wapno nawozowe, wapno palone, wapno magnezowe, kreda nawozowa. Każdy: exact-match H1/title, tabela parametrów z kart, formy dostawy (luz 24 t / big-bag), CTA „zapytaj o ofertę — podaj tonaż". Bez ceny, bez koszyka.
+- **4 artykuły:** odkwaszanie gleby, wapnowanie sadu i terminy, magnez w wapnie, wapno granulowane vs sypkie (wspiera landing granulatu).
+- **Optymalizacja szybkości na telefonach** (CWV — przeniesione z M2).
+- **Utrzymanie:** nagłówki bezpieczeństwa (przeniesione z M2).
+- **Wizytówka Google Tarnów** (przeniesione z M2 — po decyzji o dostępie) **+ raport miesięczny.**
 
 ### Miesiąc 4 (wrzesień) — Oczyszczalnie i rybactwo (sezon jesienny)
 
-- **4 artykuły:** higienizacja osadów wapnem, stabilizacja osadów wg normy PN-EN 459-1, ile wapna do stawu, pH stawu rybnego.
-- **Rozwój stron segmentowych** dla oczyszczalni i stawów (treści eksperckie, normy, zastosowania).
+> **Stan wejściowy:** artykuł „higienizacja osadów ściekowych wapnem" już opublikowany (M2), kategoria `Zastosowania` utworzona — do podpięcia pod menu i hub segmentowy. Landingi segmentowe: `docs/seo/BACKLOG_SEZON_2026-07-14.md` blok E.
+
+- **Landingi segmentowe (rdzeń M4):** `/wapno-do-stawow/` (rybactwo — „wysoka szansa/luka", SERP to fora i YouTube), hub oczyszczalni (podpiąć istniejący post + wapno palone/hydratyzowane pod przetargi — atut: klasy normowe CL 90-Q/CL 90-S i „wapno czynne" dodane w M2), `/wapno-do-sadu/` (sadownictwo).
+- **4 artykuły:** stabilizacja osadów wg PN-EN 459-1, ile wapna do stawu, pH stawu rybnego, wapnowanie stawów przed zimą.
+- **Przepięcie 301** starych archiwów (`/wapno-do-sadu/`, `/wapno-do-stawow/`) z generycznej `/oferta/` na właściwe landingi segmentowe (blok E, `.htaccess`).
 - **Wizytówka + raport miesięczny.**
 
 ### Miesiąc 5 (październik) — Stabilizacja gruntów i budownictwo
