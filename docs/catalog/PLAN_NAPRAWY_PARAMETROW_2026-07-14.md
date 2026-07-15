@@ -1,6 +1,6 @@
 # Plan naprawy parametrów produktowych — agria.pl
 
-> Data: 2026-07-14. Status: **PRZYGOTOWANY, NIEWYKONANY.** Wymaga osobnej sesji z pełnym zrzutem bazy.
+> Data: 2026-07-14. Status: **WYKONANY 2026-07-15** (patrz sekcja „WYKONANIE" na końcu). Wymaga osobnej sesji z pełnym zrzutem bazy.
 > Kontekst: `BACKLOG_SEZON_2026-07-14.md`, memory `feedback_agria_params_from_datasheets`.
 
 ---
@@ -113,3 +113,38 @@ Potrzebne karty produktów / Deklaracje Zgodności / atesty OSChR (aktualna part
 11. **Nordkalk** — DWU/CE dla Bielik CL 90-S i wapna palonego CL 90-Q (**potrzebne oczyszczalniom do przetargów**).
 
 **Do rozstrzygnięcia:** katalog ma **dwa warianty Agrobielika 90** (0–3 mm sypki, 2–8 mm kruszony), na stronie jest jeden produkt. Rozdzielamy?
+
+---
+
+# WYKONANIE (2026-07-15)
+
+Naprawa wykonana. **Źródło prawdy okazało się prostsze, niż zakładał plan:** karty produktowe AGRII (17 szt.) + karty producentów + atest OSChR są **publicznie do pobrania na `/do-pobrania/`** — nie trzeba było ich szukać ani prosić klienta. Pobrane i użyte jako source of truth.
+
+## Cztery warstwy tych samych parametrów (odkrycie kluczowe)
+
+Parametry produktu żyją na agria.pl w **czterech niezależnych miejscach** — naprawa jednego nie zmienia pozostałych:
+1. **Atrybuty taksonomiczne `pa_*`** — niewidoczne dla klienta (brak zakładki „Dodatkowe informacje"). Zasilają filtry/schema.
+2. **Tabela w `post_content`** (16 produktów) — **to widzi klient.**
+3. **Tabela w `_elementor_data`** (307, 310, 320) — to widzi klient dla tych 3.
+4. **Meta SEO RankMath** (`rank_math_title`/`description`) — to widzi Google w SERP.
+
+Wszystkie cztery naprawione.
+
+## Co zrobiono
+- **Atrybuty `pa_*`** (19 produktów): pH usunięty w całości; bug importu (przecinek dziesiętny) naprawiony; klasy CL 90-S / CL 90-Q dodane; Agrobielik 90 i Oxyfertil 90 na 90% CaO; odmiana 06→06a (306).
+- **Tabele w treści** (post_content + Elementor): przepisane wg kart metodą chirurgiczną (`REPLACE` na dokładnych `<td>`, zero ruszania struktury). pH usunięty jako parametr; frakcje/dawki/CaO zgodne z kartami; dodane wiersze „Klasa" i „Wapno czynne" dla 309 i 320.
+- **Meta SEO** (309, 311, 312, 313, 320): „72% CaO" / „80% CaO" / „pH >12" → wartości z kart.
+- **Proza opisowa**: usunięto bezsens „odczyn >16, >17" (320); poprawiono frakcje w prozie (302, 317).
+
+## Weryfikacja
+- HTTP render: 320, 309, 316, 311 — wartości poprawne, stare zniknęły.
+- **Chrome (wizualnie, komputer Optima):** tabele 320 (Elementor) i 309 (post_content) — **struktura nienaruszona, dwukolumnowa, wartości z kart, pH usunięty, klasy normowe wtopione.** Screenshoty w sesji.
+
+## Backup
+`~/backups/agria/2026-07-14/przed-tresc-kart.sql.gz` (posts+postmeta, przed dotknięciem treści) + `przed-naprawa-parametrow-*.sql.gz` (przed atrybutami).
+
+## ZOSTAŁO (drobiazgi)
+1. **307 kreda pastewna** — w `_elementor_data` proza „Posiada odczyn pH powyżej 12, co sprzyja neutralizacji w układzie pokarmowym" (błąd merytoryczny: węglan wapnia w paszy nie ma pH >12). `REPLACE` nie trafił przez escaping `ż` w JSON Elementora. **Do ręcznej poprawki w Elementorze** (30 s): zamienić na „Ma odczyn zasadowy, co sprzyja…".
+2. **303 kreda czarna jeziorna, 304 kreda malarska, 316 węglanowe odm. 05** — brak karty AGRII (nie ma ich też w katalogu). Parametry merytoryczne nietknięte, poprawiony tylko bug formatu. Do potwierdzenia kartą od AGRII.
+3. **305** — odmiana „06"; karta nie deklaruje odmiany dla granulatu. Dla kredy kopalnej właściwe 06a. Do potwierdzenia.
+4. **310, 320** — nieaktualny `post_content` (nierenderowany, bo renderują z Elementora) — zostawiony. Gdyby coś przełączyło render na post_content, pokaże stare wartości.
