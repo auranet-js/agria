@@ -46,9 +46,55 @@ Doprowadzone do zgodności z kartami producentów/AGRII (publicznymi na `/do-pob
 
 ---
 
+## Domknięcie lipca — sesja 2026-07-30
+
+### Wyniki M2 (GSC, dane rzeczywiste)
+
+| Okres | Klik | Wyśw | CTR | Śr. poz. |
+|---|---|---|---|---|
+| czerwiec (1–30.06) | 63 | 2 821 | 2,23% | 13,9 |
+| **lipiec (1–29.07)** | **200** | **8 721** | 2,29% | **8,9** |
+| — 1–15.07 (przed fixami) | 81 | 3 214 | 2,52% | 10,9 |
+| — 16–29.07 (po fixach) | 119 | 5 507 | 2,16% | **7,8** |
+
+Klik ×3,2, wyświetlenia ×3,1, średnia pozycja w górę o 5 miejsc. Druga połowa miesiąca mocniejsza od pierwszej.
+
+Najmocniejsze strony: `/wapnowanie-gleby/` 4 908 wyśw / 29 klik / poz. 7,8 (fraza „ile wapna na hektar" **8,7 z baseline 14** — cel „strona 1" osiągnięty przed terminem kontroli 06.08); `/kalkulator-wapnowania/` poz. **6,5** / 17 klik (był #20 bez tagów — potwierdza wartość meta z 08.07); karty na nowych URL-ach rankują (`oxyfertil-90` poz. 5,6 / 12 klik, `weglanowe-odmiana-04` poz. 5,1).
+
+### Recheck indeksacji (zaległy z 22.07) — wykonany
+
+**Kluczowe ustalenie: 5 z 6 nowych stron lipcowych nie było zaindeksowanych.** `lastCrawl = None`, zero wyświetleń, trzy tygodnie po publikacji i po zgłoszeniu do Indexing API (09. i 14.07). Trzy w stanie „wykryta, obecnie niezindeksowana", dwie „Google nieznany". Weryfikacja wykluczyła blokadę techniczną: HTTP 200, `index, follow`, self-canonical, JSON-LD, obecność w sitemapie, TTFB 0,3–0,9 s. Przyczyna leżała w sygnałach crawl:
+
+- **globalne menu i stopka linkowały do trzech martwych kategorii** (`wapno-do-sadu`, `wapno-do-stawow`, `wapno-nawozowe-hurt` — 0 produktów po migracji 08.07, objęte 301 → `/oferta/`). 18 linków na 301-ki z każdej strony witryny, w szczycie sezonu;
+- **oba landingi były sierotami** — `/wapno-do-stabilizacji-gruntow/` bez linku z `/oferta/`, z kategorii oczyszczalni i z karty #320; TODO z C1 nie było domknięte.
+
+### Wykonane 30.07
+
+| Zakres | Stan |
+|---|---|
+| **Linkowanie wewnętrzne** — blok „Poradniki techniczne" / „Zastosowania i poradniki" na **15 kartach** produktowych → 4 poradniki + 2 landingi B2B | ✅ zweryfikowane w renderze |
+| **Re-submit 5 URL** do Indexing API (budżet 5/100) | ✅ 5 OK, 0 ERR |
+| **„35 lat" → „37 lat"** — 19 kart, strona główna, `/o-firmie/`, szablon Elementor, alt obrazka | ✅ zero wystąpień w całej witrynie |
+| **Literówki w H2 kart** („weglanowe", „zawierajace" — H1 były poprawne od 15.07, H2 nie) — 4 karty | ✅ zweryfikowane w renderze |
+| **SKU `AGR-001…AGR-018`** dla 18 produktów (mapa z `M2_READY_TO_APPLY.md` §6) | ✅ widoczne w WC API i **w schema `Product.sku`** |
+| Backup bazy przed zmianami (`posts`, `postmeta`, `terms`, `options`) | ✅ 59 MB, `agria-backups/`, poza web root |
+
+### Pomiar wydajności (baseline pod M3)
+
+PSI mobile strona główna: perf **48 → 67**, TBT **790 → 100 ms**, Speed Index 6,2 → 4,7 s. **LCP nadal 7,2 s** (obraz hero) — zostaje rdzeniem zadania CWV w M3. TTFB 0,28–0,41 s.
+
+### Incydent (zamknięty tego samego dnia)
+
+Przy czyszczeniu cache Elementora wartość `a:0:{}` w `_elementor_element_cache` została odczytana przez Elementora jako poprawny **pusty** render, nie jako brak cache. Wyzerowanie cache szablonów wygasiło treść na wszystkich stronach, postach i 2 kartach (HTML 125 → 72 KB). Wykryte własnym skanem, naprawione tego samego dnia przez wyłączenie element-cache (`elementor_element_cache_ttl = disable`). Weryfikacja po naprawie: 19/19 kart i 21/21 stron z pełną treścią, TTFB bez pogorszenia. Okno ekspozycji ~15 min. Wniosek zapisany w memory projektu.
+
+---
+
 ## Do domknięcia (przechodzi dalej)
 - **GBP Tarnów** → M3 (decyzja o dostępie).
-- **CWV mobilne + nagłówki bezpieczeństwa** → M3.
+- **CWV mobilne** → M3 (LCP 7,2 s, obraz hero). **Nagłówki bezpieczeństwa** — przygotowane, czekają na wgranie `.htaccess`.
+- **Element-cache Elementora** — świadoma decyzja: przywrócić `ttl=24` razem z pracami CWV w M3 czy zostawić wyłączony.
+- **Menu + stopka: 3 pozycje na martwe kategorie** — decyzja o celu (usunąć do M4, gdy powstaną landingi segmentowe, czy przepiąć teraz).
+- **SKU #303** (Kreda czarna jeziorna) — potwierdzić numer `AGR-019`.
 - **Karty od AGRII** dla 3 produktów bez źródła (303, 304, 316) + odmiana 305.
 - **Erraty do katalogu** przy dodruku.
 - **307** — jedno zdanie prozy w Elementorze (pH>12 na kredzie pastewnej) do ręcznej poprawki.
