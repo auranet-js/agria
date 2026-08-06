@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wapno nawozowe – tlenkowe, węglanowe i z magnezem | AGRIA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#354E33;
+  --green-acc:#61CE70;
+  --green-soft:#e9f1e7;
+  --green-soft-2:#f5f9f4;
+  --text:#333;
+  --muted:#5d6b5c;
+  --line:rgba(53,78,51,.16);
+  --container:1260px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Plus Jakarta Sans",sans-serif;font-weight:300;font-size:16px;line-height:1.65;color:var(--text);background:#fff;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--container);margin:0 auto;padding:0 24px}
+a{color:var(--green);text-decoration:none}
+a:hover{text-decoration:underline}
+section p a,.faq p a,.benefits li a,.steps li a,.note a{color:#2c7a3d;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;font-weight:400}
+section p a:hover,.faq p a:hover{color:var(--green-acc)}
+
+.mockbar{background:#1d2b1c;color:#cfe0cd;font-size:13px;padding:8px 0;text-align:center;letter-spacing:.02em}
+.mockbar strong{color:#fff;font-weight:600}
+
+.topbar{background:var(--green);color:rgba(255,255,255,.85);font-size:13.5px;font-weight:300}
+.topbar .wrap{display:flex;gap:28px;align-items:center;min-height:44px;flex-wrap:wrap}
+.topbar span{display:inline-flex;align-items:center;gap:8px}
+.topbar .dot{width:14px;height:14px;border-radius:50%;border:1px solid rgba(255,255,255,.5);display:inline-block;flex:0 0 auto}
+
+.hero{position:relative;background:#2a3a28 url('https://agria.pl/wp-content/uploads/2026/03/agria-rolnictwo-1-scaled.webp') center 40%/cover no-repeat;color:#fff}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,32,19,.64) 0%,rgba(20,32,19,.44) 45%,rgba(20,32,19,.8) 100%)}
+.hero>*{position:relative;z-index:2}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:24px;flex-wrap:wrap}
+.nav img{height:34px;width:auto;display:block}
+.menu{display:flex;gap:26px;font-size:13.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase}
+.menu a{color:#fff}
+.btn-order{border:1px solid rgba(255,255,255,.75);border-radius:30px;padding:9px 20px;font-size:13px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:#fff}
+
+.hero-body{padding:74px 0 86px;max-width:840px}
+.eyebrow{display:inline-block;background:rgba(97,206,112,.9);color:#12240f;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:6px 14px;border-radius:30px;margin-bottom:20px}
+h1{font-size:52px;line-height:1.1;font-weight:700;margin:0 0 18px;letter-spacing:-.02em}
+.hero-lead{font-size:19px;font-weight:300;line-height:1.6;color:rgba(255,255,255,.93);margin:0 0 30px}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;border-radius:30px;padding:14px 28px;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;transition:.15s}
+.btn-primary{background:var(--green-acc);color:#12240f}
+.btn-primary:hover{background:#4fbe5f;text-decoration:none}
+.btn-ghost{border:1px solid rgba(255,255,255,.7);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12);text-decoration:none}
+.hero-meta{margin-top:26px;display:flex;gap:26px;flex-wrap:wrap;font-size:14px;color:rgba(255,255,255,.8)}
+.hero-meta b{color:#fff;font-weight:600}
+
+section{padding:64px 0}
+section.alt{background:var(--green-soft-2)}
+h2{font-size:32px;font-weight:600;color:var(--green);margin:0 0 22px;line-height:1.25;letter-spacing:-.01em}
+h3{font-size:20px;font-weight:600;color:var(--green);margin:32px 0 10px}
+p{margin:0 0 16px;max-width:78ch}
+.lead{font-size:18px;color:var(--muted)}
+
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;margin-top:28px}
+.panel{border:1px solid var(--line);border-radius:16px;padding:30px;background:#fff}
+.panel.hot{border-color:rgba(97,206,112,.55);box-shadow:0 0 0 3px rgba(97,206,112,.09)}
+.panel h3{margin:0 0 6px;font-size:22px}
+.panel .tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:#12240f;background:var(--green-acc);padding:5px 12px;border-radius:20px;margin-bottom:14px}
+.panel .tag.slow{background:var(--green-soft);color:var(--green)}
+.panel p{margin:0;color:var(--muted);font-size:15.5px}
+
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;margin-top:28px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px}
+.card h3{margin:0 0 10px;font-size:18px}
+.card p{margin:0;font-size:15px;color:var(--muted)}
+.card .val{font-size:13px;font-weight:600;color:var(--green-acc);text-transform:uppercase;letter-spacing:.08em;display:block;margin-bottom:12px}
+
+.benefits{list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:20px 34px}
+.benefits li{position:relative;padding-left:34px;font-size:15.5px;color:var(--muted)}
+.benefits li::before{content:"";position:absolute;left:0;top:7px;width:18px;height:18px;border-radius:50%;background:var(--green-acc)}
+.benefits li b{color:var(--green);font-weight:600}
+
+.steps{counter-reset:s;list-style:none;padding:0;margin:28px 0 0;display:grid;gap:16px}
+.steps li{counter-increment:s;position:relative;padding-left:56px;font-size:16px;color:var(--muted)}
+.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:36px;height:36px;border-radius:50%;background:var(--green);color:#fff;font-weight:600;font-size:15px;display:flex;align-items:center;justify-content:center}
+.steps li b{color:var(--green);font-weight:600}
+
+.table-scroll{overflow-x:auto;margin-top:24px;border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;min-width:700px;font-size:14.5px}
+th,td{text-align:left;padding:13px 18px;border-bottom:1px solid var(--line)}
+thead th{background:var(--green);color:#fff;font-weight:600;font-size:13px;letter-spacing:.05em;text-transform:uppercase;border-bottom:none}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:nth-child(even){background:var(--green-soft-2)}
+td:first-child{font-weight:500;color:var(--green)}
+
+.shortcut{background:var(--green-acc);border-radius:40px;padding:16px 26px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:34px}
+.shortcut .lbl{font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#12240f}
+.pill{background:var(--green);color:#fff;border-radius:30px;padding:11px 22px;font-size:13.5px;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+.pill.white{background:#fff;color:var(--green)}
+.pill:hover{text-decoration:none;opacity:.9}
+
+.faq{margin-top:26px;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 40px 18px 0;font-size:17px;font-weight:500;color:var(--green);position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:300;color:var(--green-acc)}
+.faq details[open] summary::after{content:"–"}
+.faq p{padding:0 0 20px;margin:0;color:var(--muted);font-size:15.5px}
+
+.ctablock{background:var(--green);color:#fff;border-radius:18px;padding:48px 44px;display:flex;justify-content:space-between;gap:32px;align-items:center;flex-wrap:wrap}
+.ctablock h2{color:#fff;margin:0 0 10px;font-size:28px}
+.ctablock p{color:rgba(255,255,255,.86);margin:0;max-width:56ch}
+.ctablock .phone{font-size:22px;font-weight:600;color:#fff;display:block;margin-top:14px}
+
+.note{background:var(--green-soft);border-left:4px solid var(--green-acc);border-radius:0 12px 12px 0;padding:20px 24px;margin-top:26px;font-size:15.5px;color:var(--green)}
+
+footer{background:#243020;color:rgba(255,255,255,.72);margin-top:70px;padding:52px 0 28px;font-size:14.5px}
+footer h4{color:#fff;font-size:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin:0 0 14px}
+footer a{color:rgba(255,255,255,.72);display:block;padding:4px 0}
+footer a:hover{color:#fff}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:34px}
+.fbot{border-top:1px solid rgba(255,255,255,.13);margin-top:34px;padding-top:20px;font-size:13px;color:rgba(255,255,255,.5)}
+
+@media(max-width:900px){
+  .benefits{grid-template-columns:1fr}
+  h1{font-size:36px}
+  .menu{display:none}
+  section{padding:46px 0}
+  h2{font-size:26px}
+  .ctablock{padding:32px 26px}
+}
+</style>
+</head>
+<body>
+
+<div class="mockbar">MOCKUP · landing <strong>/wapno-nawozowe/</strong> · AGRIA × Auranet · 06.08.2026 · <strong>nieopublikowany</strong> — widok poglądowy do akceptu</div>
+
+<div class="topbar">
+  <div class="wrap">
+    <span><i class="dot"></i> Poniedziałek – Piątek: 08.00 – 16.00</span>
+    <span><i class="dot"></i> Tarnów, Warsztatowa 5</span>
+    <span><i class="dot"></i> biuro@agria.pl</span>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="nav">
+    <div class="wrap">
+      <img src="https://agria.pl/wp-content/uploads/2026/03/agria-logo-poziom-2026-biale.png" alt="AGRIA">
+      <nav class="menu">
+        <a href="#">Oferta</a><a href="#">Kalkulator wapnowania</a><a href="#">Wsparcie</a><a href="#">O firmie</a><a href="#">Kontakt</a>
+      </nav>
+      <span class="btn-order">Zamówienia</span>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="hero-body">
+      <span class="eyebrow">Wapnowanie pożniwne 2026</span>
+      <h1>Wapno nawozowe</h1>
+      <p class="hero-lead">Wapno do odkwaszania gleb w dwóch grupach: <b>tlenkowe</b> — szybkie, o wysokiej reaktywności, oraz <b>węglanowe</b> — łagodne i długodziałające. Oba dostępne również w wersji z magnezem. Dobieramy produkt do wyników badania gleby, kategorii agronomicznej i możliwości sprzętowych gospodarstwa.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#kontakt">Zapytaj o ofertę — podaj tonaż</a>
+        <a class="btn btn-ghost" href="#dobor">Jak dobrać wapno</a>
+      </div>
+      <div class="hero-meta">
+        <span><b>13 produktów</b> rolniczych</span>
+        <span><b>Luz 24–27 t</b> · big-bag · worki</span>
+        <span><b>Od 1989 roku</b></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Tlenkowe czy węglanowe — na czym polega różnica</h2>
+    <p class="lead">To pierwsza decyzja przy doborze wapna i najczęstsze źródło nieporozumień.</p>
+    <div class="split">
+      <div class="panel hot">
+        <span class="tag">Szybkie · 2–4 tygodnie</span>
+        <h3>Wapno tlenkowe (palone)</h3>
+        <p>Reaguje z wilgocią gleby natychmiast, wydzielając ciepło. Stosuje się je tam, gdzie odczyn trzeba poprawić szybko oraz na glebach średnich i ciężkich. Jest ostre — na glebach lekkich i przy niskiej zawartości próchnicy trzeba je dawkować ostrożnie.</p>
+      </div>
+      <div class="panel">
+        <span class="tag slow">Długodziałające · 3–6 miesięcy</span>
+        <h3>Wapno węglanowe</h3>
+        <p>Działa stopniowo. Nie wypala materii organicznej, dlatego jest bezpieczne na glebach lekkich i piaszczystych, w gospodarstwach ekologicznych, sadach i uprawach wieloletnich.</p>
+      </div>
+    </div>
+    <div class="note"><b>Magnez.</b> Na glebach lekkich deficyt wapnia i magnezu praktycznie zawsze idzie w parze. Wapno z magnezem uzupełnia oba pierwiastki jednym zabiegiem — magnez w formie węglanowej uwalnia się stopniowo i nie zakwasza gleby tak jak siarczan magnezu.</div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Wapno nawozowe tlenkowe — szybkie działanie</h2>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Produkt</th><th>CaO / MgO</th><th>Frakcja</th><th>Dawkowanie</th><th>Producent</th></tr></thead>
+        <tbody>
+          <tr><td>Agrobielik 70</td><td>min. 70% CaO</td><td>0–2 mm</td><td>2–6 t/ha</td><td>Nordkalk</td></tr>
+          <tr><td>Agrobielik 90</td><td>min. 90% CaO</td><td>2–8 mm</td><td>1–3 t/ha</td><td>Nordkalk</td></tr>
+          <tr><td>Oxyfertil 90</td><td>min. 90% CaO</td><td>3–8 mm</td><td>1–3 t/ha</td><td>Lhoist</td></tr>
+          <tr><td>Tlenkowe z magnezem</td><td>70% CaO + 25% MgO</td><td>0–1 mm</td><td>1–1,5 t/ha</td><td>Lhoist</td></tr>
+          <tr><td>Mieszanka tlenkowo-węglanowa</td><td>min. 70% CaO</td><td>zmienna</td><td>2–6 t/ha</td><td>Nordkalk</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:18px">Reaktywność ~100% (Agrobielik 70, mieszanka) lub bardzo wysoka (Agrobielik 90, Oxyfertil 90). Efekt w 2–4 tygodnie, dla frakcji kruszonych 7–14 dni.</p>
+    <p><b>Agrobielik 70</b> i <b>kreda nawozowa</b> są dopuszczone także do korekty pH w stawach hodowlanych — istotne dla gospodarstw rolno-hodowlanych.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Wapno nawozowe węglanowe — działanie długofalowe</h2>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Produkt</th><th>CaO / MgO</th><th>Forma</th><th>Frakcja</th><th>Dawkowanie</th></tr></thead>
+        <tbody>
+          <tr><td>Węglanowe odmiana 04</td><td>min. 50% CaO</td><td>sypkie</td><td>0–2 mm</td><td>1,5–6 t/ha</td></tr>
+          <tr><td>Węglanowe granulowane</td><td>min. 50% CaO</td><td>granulat</td><td>3–6 mm</td><td>1–6 t/ha</td></tr>
+          <tr><td>Węglanowe z Mg odmiana 04</td><td>min. 41% CaO + min. 8% MgO</td><td>sypkie</td><td>0–2 mm</td><td>1,5–6 t/ha</td></tr>
+          <tr><td>Węglanowe z Mg odmiana 05</td><td>25–37% CaO + 8–20% MgO</td><td>sypkie</td><td>0–2 mm</td><td>1,5–6 t/ha</td></tr>
+          <tr><td>Węglanowe z Mg granulowane</td><td>min. 31% CaO + 16% MgO</td><td>granulat</td><td>3–6 mm</td><td>1–6 t/ha</td></tr>
+          <tr><td>Kreda nawozowa granulowana</td><td>min. 50% CaO</td><td>granulat</td><td>3–6 mm</td><td>0,5–1,5 t/ha</td></tr>
+          <tr><td>Kreda nawozowa sypka</td><td>min. 50% CaO</td><td>sypkie</td><td>zmienna</td><td>3–6 t/ha</td></tr>
+          <tr><td>Dolomit</td><td>CaO + MgO min. 45%, w tym MgO min. 15%</td><td>sypkie</td><td>0–2 mm</td><td>1,5–6 t/ha</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:18px">Reaktywność ~70–90%, działanie 3–6 miesięcy. Wersje granulowane wysiewa się standardowym siewnikiem nawozowym razem z NPK — szerzej na stronie <a href="/wapno-granulowane/">wapno granulowane</a>.</p>
+    <p>Pełne karty produktowe i atesty: <a href="/do-pobrania/">Do pobrania</a>.</p>
+  </div>
+</section>
+
+<section class="alt" id="dobor">
+  <div class="wrap">
+    <h2>Jak dobrać wapno do gleby</h2>
+    <ol class="steps">
+      <li><b>Odczyn i kategoria agronomiczna</b> — wynik badania gleby wyznacza potrzebę wapnowania i dopuszczalną dawkę.</li>
+      <li><b>Tempo, jakiego potrzebujesz</b> — pole wolne po żniwach i czas do siewu przesądzają, czy sięgnąć po tlenkowe (2–4 tygodnie), czy węglanowe (3–6 miesięcy).</li>
+      <li><b>Zawartość magnezu</b> — przy niedoborze wybierz produkt z MgO zamiast osobnego nawozu magnezowego.</li>
+      <li><b>Sprzęt</b> — masz siewnik nawozowy, nie masz rozsiewacza wapna? Wybierz granulat.</li>
+    </ol>
+    <p style="margin-top:28px">Dawkę wyliczysz w <a href="/kalkulator-wapnowania/">kalkulatorze wapnowania</a>. Metodykę zabiegu opisujemy w przewodniku <a href="/wapnowanie-gleby/">Wapnowanie gleby</a> i w poradniku <a href="/jak-stosowac-wapno-nawozowe/">Jak stosować wapno nawozowe</a>.</p>
+    <p>Jeśli nie masz pewności — prześlij wyniki badania gleby, dobierzemy produkt i dawkę.</p>
+    <div class="shortcut">
+      <span class="lbl">Na skróty:</span>
+      <a class="pill" href="/kalkulator-wapnowania/">Kalkulator wapnowania</a>
+      <a class="pill white" href="tel:+48146218821">Zadzwoń: 14 621 88 21</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Formy dostawy i logistyka</h2>
+    <p>Wapno nawozowe wydajemy w formach dopasowanych do skali zamówienia:</p>
+    <div class="grid-3">
+      <div class="card"><span class="val">Luz 24–27 t</span><p>Dostawy całopojazdowe, w wannach na pole lub w beczkach do silosu.</p></div>
+      <div class="card"><span class="val">Big-bag 500 / 600 / 1000 kg</span><p>Standard przy zamówieniach polowych.</p></div>
+      <div class="card"><span class="val">Worki 20 / 25 / 40 kg</span><p>Mniejsze powierzchnie, sady, hurtownie.</p></div>
+    </div>
+    <p style="margin-top:30px"><b>Własna flota 3–24 t</b> obsługuje zarówno pojedynczą paletę, jak i pełny samochód. Rozładunek HDS lub wywrotką, w zależności od formy dostawy. Towar wydajemy z <b>magazynów w Niedomicach i Radgoszczy</b> oraz z magazynów producenckich w całej Polsce.</p>
+    <p>Termin realizacji: <b>2–5 dni roboczych</b>, zamówienia pilne <b>24–48 h</b> w miarę dostępności.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Współpraca B2B</h2>
+    <ul class="benefits">
+      <li><b>Kontrakty roczne i przetargi</b> — dokumentacja techniczna pod postępowania, zarezerwowany wolumen na sezon.</li>
+      <li><b>Terminy płatności 14 / 30 / 60 dni</b> dla stałych odbiorców.</li>
+      <li><b>Doradztwo przy doborze</b> na podstawie wyników badania gleby.</li>
+      <li><b>Atesty, karty produktowe i karty charakterystyki</b> dostępne przed zamówieniem.</li>
+    </ul>
+    <p style="margin-top:28px">AGRIA działa od <b>1989 roku</b> — trzy pokolenia w branży surowców wapniowych. Surowce od producentów: Nordkalk, Lhoist, Grankal, Industria, Siarkopol.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Najczęstsze pytania</h2>
+    <div class="faq">
+      <details open><summary>Jakie wapno nawozowe jest najlepsze?</summary><p>Zależy od gleby i terminu. Na gleby średnie i ciężkie, przy potrzebie szybkiej poprawy odczynu — tlenkowe (70–90% CaO, efekt w 2–4 tygodnie). Na gleby lekkie i piaszczyste oraz w gospodarstwach ekologicznych — węglanowe, działające 3–6 miesięcy.</p></details>
+      <details><summary>Ile wapna nawozowego na hektar?</summary><p>Od 0,5 do 6 t/ha w zależności od produktu i potrzeb gleby. Wapno tlenkowe 1–6 t/ha, węglanowe 1,5–6 t/ha, kreda granulowana 0,5–1,5 t/ha. Dawkę wylicz w kalkulatorze wapnowania.</p></details>
+      <details><summary>Kiedy wysiewać wapno nawozowe?</summary><p>Najczęściej pożniwnie, od sierpnia do października, gdy pole jest wolne. Wapno tlenkowe zdąży zadziałać przed siewem ozimin, węglanowe pracuje do kolejnego sezonu.</p></details>
+      <details><summary>Czym różni się odmiana 04 od 05?</summary><p>Zawartością składników. Odmiana 04 wapna z magnezem to min. 41% CaO i min. 8% MgO, odmiana 05 to 25–37% CaO i 8–20% MgO — wyższy udział magnezu przy niższym wapniu.</p></details>
+      <details><summary>Czy wapno nawozowe można mieszać z NPK?</summary><p>Wersje granulowane 3–6 mm wysiewa się standardowym siewnikiem nawozowym razem z NPK, jednym przejazdem. Wapna sypkiego i tlenkowego nie łączy się z nawozami azotowymi.</p></details>
+      <details><summary>W jakich ilościach realizujecie dostawy?</summary><p>Od worka po dostawy całopojazdowe 24–27 t. Własna flota 3–24 t pozwala obsłużyć oba końce tego zakresu.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" style="padding-top:0">
+  <div class="wrap">
+    <div class="ctablock">
+      <div>
+        <h2>Planujesz wapnowanie pożniwne?</h2>
+        <p>Podaj tonaż, lokalizację i wyniki badania gleby — dobierzemy produkt i przygotujemy ofertę z terminem dostawy.</p>
+        <a class="phone" href="tel:+48146218821">+48 14 621 88 21</a>
+      </div>
+      <a class="btn btn-primary" href="/kontakt/">Zapytaj o ofertę</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h4>Informacje</h4>
+        <a href="#">Kalkulator wapnowania</a><a href="#">Poradniki</a><a href="#">Do pobrania</a><a href="#">O firmie</a><a href="#">RODO</a><a href="#">Kontakt</a>
+      </div>
+      <div>
+        <h4>Oferta</h4>
+        <a href="#">Rolnictwo – wapno nawozowe</a><a href="#">Oczyszczalnie</a><a href="#">Budownictwo</a><a href="#">Paszarstwo</a>
+      </div>
+      <div>
+        <h4>Godziny otwarcia</h4>
+        <p style="margin:0;color:rgba(255,255,255,.72)">Poniedziałek – Piątek: 8:00 – 16:00</p>
+      </div>
+      <div>
+        <h4>AGRIA Sp. z o.o.</h4>
+        <p style="margin:0;color:rgba(255,255,255,.72)">Tarnów, Warsztatowa 5<br>tel. +48 14 621 88 21<br>biuro@agria.pl</p>
+      </div>
+    </div>
+    <div class="fbot">Mockup poglądowy — układ i treść landingu przed publikacją. Zdjęcie i logo pobierane z agria.pl.</div>
+  </div>
+</footer>
+
+</body>
+</html>
