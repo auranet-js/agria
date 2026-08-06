@@ -10,7 +10,8 @@
 
 ### Ustalenia handlowe
 - **Kasjan potwierdził telefonicznie 05.08: 3 800 zł/mies. przez 3 miesiące** (2 000 SEO + 1 200 budżet reklamowy + 600 obsługa kampanii). Akceptacja dotychczasowego modelu.
-- **Start kampanii: połowa sierpnia** (decyzja Janka 06.08), budżet reklamowy sierpnia proporcjonalny ~600 zł za pół miesiąca. Obsługa kampanii (600) naliczana od września — sierpień to rozbieg w ramach opieki.
+- **Start kampanii: połowa sierpnia** (decyzja Janka 06.08). **Budżet reklamowy sierpnia w PEŁNEJ kwocie 1 200 zł, nie proporcjonalnie** (korekta Janka 06.08): budżet to nie opłata za miesiąc, tylko zasilenie konta Google — przy starcie 14.08 zejdzie ~600-700 zł, reszta buforuje wrzesień. **Powód jest cash-flow'owy: Auranet zasila konto z góry, a fakturę za sierpień klient płaci we wrześniu — przy kwocie proporcjonalnej Janek kredytowałby kampanię z własnych pieniędzy.** Obsługa kampanii (600) naliczana od września — sierpień to rozbieg w ramach opieki.
+- Sierpień = **2 000 + 1 200 = 3 200 zł**; wrz/paź/lis = 3 800 zł.
 - **Kampanie: rolnictwo (rdzeń) + brandowa.** Stabilizacja gruntów i paszarstwo **nie wchodzą teraz** — trzymane jako rotacja pozasezonowa.
 - **Bez załącznika PDF** — całość w treści maila.
 - Zobowiązanie: setup + 3 miesiące (wrz/paź/lis), potem decyzja. Nic nie przedłuża się automatycznie (wzorzec z oferty Karolinex, mail 06.08).
@@ -90,11 +91,13 @@ Kasjan potwierdził w rozmowie plan na najbliższe miesiące, więc rozpisuję g
 
 **Koszty:**
 
-- **sierpień** — 2 000 zł opieka + ok. 600 zł budżetu reklamowego za pół miesiąca = **2 600 zł netto**
-  *(przygotowanie i uruchomienie kampanii bez dopłaty)*
+- **sierpień** — 2 000 zł opieka + 1 200 zł budżet reklamowy = **3 200 zł netto**
+  *(przygotowanie i uruchomienie kampanii bez dopłaty — za sam start nie liczymy nic)*
 - **wrzesień, październik, listopad** — 2 000 zł opieka + 1 200 zł budżet reklamowy + 600 zł prowadzenie kampanii = **3 800 zł netto miesięcznie**
 
 **1 200 zł to nie jest nasze wynagrodzenie** — te pieniądze idą w całości do Google na wyświetlanie reklam. Nasza część to 2 000 zł za stronę i pozycjonowanie plus 600 zł za prowadzenie kampanii.
+
+Jedna uwaga do sierpnia: skoro startujemy w połowie miesiąca, to z tych 1 200 zł zdążymy wydać mniej więcej połowę. **Reszta nie przepada** — budżet reklamowy nie jest opłatą za miesiąc, tylko środkami na koncie Google, które wydają się na bieżąco. To, co zostanie z sierpnia, pracuje we wrześniu. W praktyce wchodzicie we wrzesień z zapasem, a nie od zera.
 
 Umawiamy się na **trzy miesiące kampanii** — wrzesień, październik, listopad. Po nich siadamy do liczb i decydujecie, czy i w jakiej skali idziemy dalej. Nic nie przedłuża się samo. Trzy miesiące to najkrótszy sensowny okres: pierwszy to zbieranie danych, dopiero dwa kolejne pokazują, co realnie działa.
 
@@ -153,7 +156,7 @@ Sprawdziliśmy też, czy budżet nie jest przestrzelony w drugą stronę — nie
 **Czego potrzebujemy od Was, żeby ruszyć:**
 
 1. **Decyzji, co reklamy mają robić w pierwszej kolejności** — telefon do biura czy zapytanie ofertowe przez formularz. Od tego zależy, jak budujemy kampanię. Najlepiej omówmy to telefonicznie w tym tygodniu, bo to jedyna rzecz, która blokuje start.
-2. **Formy rozliczenia budżetu reklamowego** — albo wpinamy w konto kartę płatniczą firmy, albo płacimy my i refakturujemy na Was. Jak Wam wygodniej.
+2. **Formy rozliczenia budżetu reklamowego** — albo wpinamy w konto kartę płatniczą firmy, albo zasilamy konto my i refakturujemy na Was. Jak Wam wygodniej. Przy drugim wariancie budżet wpłacamy z góry, żeby kampania nie stanęła w środku sezonu z powodu wyczerpanego salda.
 
 **Za co bierzemy odpowiedzialność, a czego nie obiecujemy.** Odpowiadamy za to, że kampanie będą poprawnie zbudowane i prowadzone, że budżet nie będzie przepalany na przypadkowe kliknięcia, że będziecie dokładnie wiedzieć, ile zapytań przyszło z reklam i za jaką kwotę. Nie obiecujemy konkretnej liczby zamówień ani tego, że każde kliknięcie zamieni się w klienta — na to wpływa cena, dostępność, sezon i konkurencja, a te rzeczy są poza reklamą. Obiecujemy natomiast, że po trzech miesiącach będziecie mieli twarde dane do decyzji, a nie wrażenia.
 
