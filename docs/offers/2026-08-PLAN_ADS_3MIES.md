@@ -10,11 +10,12 @@
 
 ### Ustalenia handlowe
 - **Kasjan potwierdził telefonicznie 05.08: 3 800 zł/mies. przez 3 miesiące** (2 000 SEO + 1 200 budżet reklamowy + 600 obsługa kampanii). Akceptacja dotychczasowego modelu.
-- **Start kampanii: połowa sierpnia** (decyzja Janka 06.08). **Budżet reklamowy sierpnia w PEŁNEJ kwocie 1 200 zł, nie proporcjonalnie** (korekta Janka 06.08): budżet to nie opłata za miesiąc, tylko zasilenie konta Google — przy starcie 14.08 zejdzie ~600-700 zł, reszta buforuje wrzesień. **Powód jest cash-flow'owy: Auranet zasila konto z góry, a fakturę za sierpień klient płaci we wrześniu — przy kwocie proporcjonalnej Janek kredytowałby kampanię z własnych pieniędzy.** Obsługa kampanii (600) naliczana od września — sierpień to rozbieg w ramach opieki.
-- Sierpień = **2 000 + 1 200 = 3 200 zł**; wrz/paź/lis = 3 800 zł.
+- **Ujednolicenie 06.08 (Janek): 3 800 zł/mies. już od SIERPNIA**, nie 3 200. Obsługa kampanii (600) naliczana od miesiąca, w którym kampania istnieje — czyli od sierpnia. Okres: **sierpień–listopad**, jedna kwota przez cały czas trwania. Powód: jedna liczba jest czytelniejsza dla klienta i prostsza w fakturowaniu niż dwie różne. **Setup (8–10 h) nadal bez dopłaty** — to argument wartości, zostaje w mailu.
+- **Start kampanii: połowa sierpnia** (decyzja Janka 06.08). **Budżet reklamowy sierpnia w PEŁNEJ kwocie 1 200 zł, nie proporcjonalnie** (korekta Janka 06.08): budżet to nie opłata za miesiąc, tylko zasilenie konta Google — przy starcie 14.08 zejdzie ~600-700 zł, reszta buforuje wrzesień. **Powód jest cash-flow'owy: Auranet zasila konto z góry, a fakturę za sierpień klient płaci we wrześniu — przy kwocie proporcjonalnej Janek kredytowałby kampanię z własnych pieniędzy.**
+- **Sierpień, wrzesień, październik, listopad = 3 800 zł netto miesięcznie** (2 000 + 1 200 + 600). NIGDY nie podawać sumy za cztery miesiące.
 - **Kampanie: rolnictwo (rdzeń) + brandowa.** Stabilizacja gruntów i paszarstwo **nie wchodzą teraz** — trzymane jako rotacja pozasezonowa.
 - **Bez załącznika PDF** — całość w treści maila.
-- Zobowiązanie: setup + 3 miesiące (wrz/paź/lis), potem decyzja. Nic nie przedłuża się automatycznie (wzorzec z oferty Karolinex, mail 06.08).
+- Zobowiązanie: **do końca listopada**, potem decyzja. Nic nie przedłuża się automatycznie (wzorzec z oferty Karolinex, mail 06.08). Listopad domyka jesienny sezon, więc decyzja zapada na komplecie danych.
 
 ### Sezonowość — dane DataForSEO (12 mies., PL, pull 2026-08-06)
 
@@ -89,17 +90,20 @@ Cześć Kasjan, Paweł,
 
 Kasjan potwierdził w rozmowie plan na najbliższe miesiące, więc rozpisuję go konkretnie. Zaczynam od kosztów, bo i tak od nich zaczynacie — reszta jest poniżej, dla chętnych.
 
-**Koszty:**
+**Koszty — od sierpnia do listopada: 3 800 zł netto miesięcznie.**
 
-- **sierpień** — 2 000 zł opieka + 1 200 zł budżet reklamowy = **3 200 zł netto**
-  *(przygotowanie i uruchomienie kampanii bez dopłaty — za sam start nie liczymy nic)*
-- **wrzesień, październik, listopad** — 2 000 zł opieka + 1 200 zł budżet reklamowy + 600 zł prowadzenie kampanii = **3 800 zł netto miesięcznie**
+Na tę kwotę składa się:
+- **2 000 zł** — opieka nad stroną i pozycjonowanie (bez zmian, jak dotychczas),
+- **1 200 zł** — budżet reklamowy,
+- **600 zł** — prowadzenie kampanii.
 
-**1 200 zł to nie jest nasze wynagrodzenie** — te pieniądze idą w całości do Google na wyświetlanie reklam. Nasza część to 2 000 zł za stronę i pozycjonowanie plus 600 zł za prowadzenie kampanii.
+**1 200 zł to nie jest nasze wynagrodzenie** — te pieniądze idą w całości do Google na wyświetlanie reklam. Nasza część to 2 000 zł plus 600 zł.
 
-Jedna uwaga do sierpnia: skoro startujemy w połowie miesiąca, to z tych 1 200 zł zdążymy wydać mniej więcej połowę. **Reszta nie przepada** — budżet reklamowy nie jest opłatą za miesiąc, tylko środkami na koncie Google, które wydają się na bieżąco. To, co zostanie z sierpnia, pracuje we wrześniu. W praktyce wchodzicie we wrzesień z zapasem, a nie od zera.
+**Przygotowanie i uruchomienie kampanii robimy bez dopłaty** — założenie konta, spięcie z pomiarem na stronie, zbudowanie kampanii, dobór haseł, teksty reklam. To osiem–dziesięć godzin pracy i zwykle osobno wyceniana pozycja; u Was wchodzi w ramach opieki.
 
-Umawiamy się na **trzy miesiące kampanii** — wrzesień, październik, listopad. Po nich siadamy do liczb i decydujecie, czy i w jakiej skali idziemy dalej. Nic nie przedłuża się samo. Trzy miesiące to najkrótszy sensowny okres: pierwszy to zbieranie danych, dopiero dwa kolejne pokazują, co realnie działa.
+Jedna uwaga do sierpnia: skoro startujemy w połowie miesiąca, to z 1 200 zł budżetu zdążymy wydać mniej więcej połowę. **Reszta nie przepada** — budżet reklamowy nie jest opłatą za miesiąc, tylko środkami na koncie Google, które wydają się na bieżąco. To, co zostanie z sierpnia, pracuje we wrześniu. W praktyce wchodzicie we wrzesień z zapasem, a nie od zera.
+
+Umawiamy się **do końca listopada**. Potem siadamy do liczb i decydujecie, czy i w jakiej skali idziemy dalej. Nic nie przedłuża się samo. To najkrótszy sensowny okres: pierwszy miesiąc to zbieranie danych, dopiero kolejne pokazują, co realnie działa — a listopadem domykamy cały jesienny sezon, więc decyzję podejmiecie na komplecie danych.
 
 **A teraz dlaczego akurat tak, i dlaczego zaczynamy już w sierpniu.**
 
