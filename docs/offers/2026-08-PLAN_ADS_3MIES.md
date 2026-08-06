@@ -1,4 +1,4 @@
-# Plan Google Ads + SEO na 3 miesiące — AGRIA (sierpień–listopad 2026)
+# Plan Google Ads + SEO na 3 miesiące — AGRIA (sierpień–październik 2026)
 
 **Do:** Kasjan (`biuro@aseosystem.pl`) + Paweł Bigos (`pawel.bigos@agria.pl`) — Janek wysyła z `js@auranet.com.pl`.
 **Temat:** agria.pl — plan działań na najbliższe trzy miesiące
@@ -10,12 +10,15 @@
 
 ### Ustalenia handlowe
 - **Kasjan potwierdził telefonicznie 05.08: 3 800 zł/mies. przez 3 miesiące** (2 000 SEO + 1 200 budżet reklamowy + 600 obsługa kampanii). Akceptacja dotychczasowego modelu.
-- **Ujednolicenie 06.08 (Janek): 3 800 zł/mies. już od SIERPNIA**, nie 3 200. Obsługa kampanii (600) naliczana od miesiąca, w którym kampania istnieje — czyli od sierpnia. Okres: **sierpień–listopad**, jedna kwota przez cały czas trwania. Powód: jedna liczba jest czytelniejsza dla klienta i prostsza w fakturowaniu niż dwie różne. **Setup (8–10 h) nadal bez dopłaty** — to argument wartości, zostaje w mailu.
+- **Ujednolicenie 06.08 (Janek): 3 800 zł/mies. już od SIERPNIA**, nie 3 200. Obsługa kampanii (600) naliczana od miesiąca, w którym kampania istnieje — czyli od sierpnia. Okres: **sierpień, wrzesień, październik** — jedna kwota przez cały czas trwania. Powód: jedna liczba jest czytelniejsza dla klienta i prostsza w fakturowaniu niż dwie różne. **Setup (8–10 h) nadal bez dopłaty** — to argument wartości, zostaje w mailu.
 - **Start kampanii: połowa sierpnia** (decyzja Janka 06.08). **Budżet reklamowy sierpnia w PEŁNEJ kwocie 1 200 zł, nie proporcjonalnie** (korekta Janka 06.08): budżet to nie opłata za miesiąc, tylko zasilenie konta Google — przy starcie 14.08 zejdzie ~600-700 zł, reszta buforuje wrzesień. **Powód jest cash-flow'owy: Auranet zasila konto z góry, a fakturę za sierpień klient płaci we wrześniu — przy kwocie proporcjonalnej Janek kredytowałby kampanię z własnych pieniędzy.**
-- **Sierpień, wrzesień, październik, listopad = 3 800 zł netto miesięcznie** (2 000 + 1 200 + 600). NIGDY nie podawać sumy za cztery miesiące.
+- **Sierpień, wrzesień, październik = 3 800 zł netto miesięcznie** (2 000 + 1 200 + 600). NIGDY nie podawać sumy wielomiesięcznej.
+- **Listopada NIE planujemy w ogóle** (Janek 06.08). Po trzech miesiącach klient tnie albo decyduje o kontynuacji — nie wpisujemy mu z góry kosztu listopada ani prac na listopad, bo to zakłada decyzję, której jeszcze nie podjął.
+- ⚠️ **Trzy miesiące znaczy TRZY — liczone od startu kampanii (sierpień).** Wariant „sierpień–listopad" był moją nadinterpretacją i został odrzucony przez Janka 06.08: *„Kasjan godził się na 3800 przez 3 miesiące, jest początek sierpnia, co kombinujesz?"*. Nie rozciągać okresu zaakceptowanego przez klienta.
 - **Kampanie: rolnictwo (rdzeń) + brandowa.** Stabilizacja gruntów i paszarstwo **nie wchodzą teraz** — trzymane jako rotacja pozasezonowa.
 - **Bez załącznika PDF** — całość w treści maila.
-- Zobowiązanie: **do końca listopada**, potem decyzja. Nic nie przedłuża się automatycznie (wzorzec z oferty Karolinex, mail 06.08). Listopad domyka jesienny sezon, więc decyzja zapada na komplecie danych.
+- **Mail NIE zadaje klientowi pytań** (decyzja Janka 06.08). Cel kampanii ustala Janek jako ich marketing — nie konsultuje go z klientem („to ja jestem ekspertem od marketingu u nich, mam zadzwonić do siebie?"). Do maila wchodzi jako decyzja: kampanie kierujemy na telefon do biura + zapytanie przez formularz, oba mierzone. **Budżet: Janek opłaca z góry i podpina własną kartę, chyba że klient zdecyduje inaczej** — tryb oznajmujący z opcją opt-out, nie pytanie. Zakończenie maila bez CTA proszącego o odpowiedź.
+- Zobowiązanie: **sierpień–październik**, potem decyzja. Nic nie przedłuża się automatycznie (wzorzec z oferty Karolinex, mail 06.08).
 
 ### Sezonowość — dane DataForSEO (12 mies., PL, pull 2026-08-06)
 
@@ -78,7 +81,7 @@ Kampania startuje 24/7, bez day-partingu. Po pierwszym miesiącu Google Ads dost
 | Budowa odnośników zewnętrznych | AGRIA: zerowy budżet LB | **Nie luka.** AGRIA ma 339 linków / 108 domen vs Biovita 181/99 — profil jest mocniejszy od konkurenta, który wygrywa architekturą treści, nie linkami |
 | Rozpiska fraz i tematów w załączniku | Decyzja Janka: bez załącznika | Świadome |
 
-**Luka własna, spoza porównania:** plan 6-miesięczny kończy się w listopadzie, a **grudzień–marzec nie jest zaplanowany** — to dokładnie moment, gdy rolnictwo zapada się z 5 400 do 2 400 i kampanie muszą przeskoczyć na paszarstwo i budownictwo. W mailu pokazuję to jako perspektywę, nie jako zobowiązanie.
+**Luka własna, spoza porównania:** plan 6-miesięczny kończy się w listopadzie, a grudzień–marzec nie jest zaplanowany — to moment, gdy rolnictwo zapada się z 5 400 do 2 400 i kampanie musiałyby przeskoczyć na paszarstwo (kreda pastewna, popyt płaski) i budownictwo (hydratyzowane, szczyt marzec). **Do maila NIE wchodzi** (decyzja Janka 06.08: *„będziemy się tym martwić w październiku... jak będzie wynik to będzie o czym z nim rozmawiać, nie przeginaj"*). Trzymamy jako materiał na rozmowę przy podsumowaniu trzech miesięcy — argumentem będzie wynik, nie wizja.
 
 **Ryzyko do pilnowania (wewnętrznie):** sierpień jest przeciążony — setup Ads (8–10 h) + landingi produktowe z M3 + P0 indeksacyjne + CWV. Landingi produktowe są warunkiem sensownych kampanii (kierowanie reklam na stronę bez dopasowanej treści = wyższy koszt kliknięcia). Kolejność: landing „wapno granulowane" i „wapno nawozowe" **przed** startem kampanii, reszta w trakcie.
 
@@ -90,7 +93,7 @@ Cześć Kasjan, Paweł,
 
 Kasjan potwierdził w rozmowie plan na najbliższe miesiące, więc rozpisuję go konkretnie. Zaczynam od kosztów, bo i tak od nich zaczynacie — reszta jest poniżej, dla chętnych.
 
-**Koszty — od sierpnia do listopada: 3 800 zł netto miesięcznie.**
+**Koszty — sierpień, wrzesień, październik: 3 800 zł netto miesięcznie.**
 
 Na tę kwotę składa się:
 - **2 000 zł** — opieka nad stroną i pozycjonowanie (bez zmian, jak dotychczas),
@@ -101,9 +104,11 @@ Na tę kwotę składa się:
 
 **Przygotowanie i uruchomienie kampanii robimy bez dopłaty** — założenie konta, spięcie z pomiarem na stronie, zbudowanie kampanii, dobór haseł, teksty reklam. To osiem–dziesięć godzin pracy i zwykle osobno wyceniana pozycja; u Was wchodzi w ramach opieki.
 
+**Budżet reklamowy opłacam z góry i podpinam do swojej karty** — chyba że zdecydujecie inaczej i wolicie wpiąć własną. Rozliczam go potem fakturą, tak jak resztę. Płacę z góry po to, żeby kampania nie stanęła w środku sezonu z powodu wyczerpanego salda.
+
 Jedna uwaga do sierpnia: skoro startujemy w połowie miesiąca, to z 1 200 zł budżetu zdążymy wydać mniej więcej połowę. **Reszta nie przepada** — budżet reklamowy nie jest opłatą za miesiąc, tylko środkami na koncie Google, które wydają się na bieżąco. To, co zostanie z sierpnia, pracuje we wrześniu. W praktyce wchodzicie we wrzesień z zapasem, a nie od zera.
 
-Umawiamy się **do końca listopada**. Potem siadamy do liczb i decydujecie, czy i w jakiej skali idziemy dalej. Nic nie przedłuża się samo. To najkrótszy sensowny okres: pierwszy miesiąc to zbieranie danych, dopiero kolejne pokazują, co realnie działa — a listopadem domykamy cały jesienny sezon, więc decyzję podejmiecie na komplecie danych.
+Umawiamy się na **trzy miesiące kampanii — sierpień, wrzesień, październik**. Potem siadamy do liczb i decydujecie, czy i w jakiej skali idziemy dalej. Nic nie przedłuża się samo. Trzy miesiące to najkrótszy sensowny okres: pierwszy to zbieranie danych, dopiero kolejne pokazują, co realnie działa.
 
 **A teraz dlaczego akurat tak, i dlaczego zaczynamy już w sierpniu.**
 
@@ -121,6 +126,8 @@ Dlatego **nie czekamy do 1 września.** Uruchamiamy reklamy w połowie sierpnia,
 
 1. **Kampania na wapno nawozowe** — rdzeń, pod hasła o największym wolumenie: wapno granulowane, wapno nawozowe, wapno magnezowe, kreda nawozowa, wapno węglanowe i tlenkowe. To tu jest sezon i to tu idzie większość budżetu.
 2. **Kampania na markę** — „Agria", „Agrobielik", „Bielik", „Oxyfertil". Kosztuje grosze za kliknięcie, a pilnuje, żeby konkurencja nie wyświetlała się na Waszą nazwę. Tego typu kampania to ubezpieczenie, nie źródło nowego ruchu.
+
+Kampanie kierujemy na dwa działania: **telefon do biura i zapytanie ofertowe przez formularz**. Oba są mierzone, więc będzie dokładnie widać, ile kontaktów przyszło z reklamy, z jakiego hasła i jakim kosztem.
 
 Świadomie **nie** puszczamy na razie reklam na oczyszczalnie i stawy rybne. Sprawdziliśmy: te hasła mają w reklamach Google zerowy wolumen — nikt ich tak nie wpisuje. Ten segment zdobywa się treścią techniczną i przetargami, i tak też go prowadzimy po stronie pozycjonowania. Wydawanie tam budżetu reklamowego byłoby wyrzuceniem pieniędzy.
 
@@ -146,25 +153,14 @@ Sprawdziliśmy też, czy budżet nie jest przestrzelony w drugą stronę — nie
 - Wizytówka Google: opis, kategorie, zdjęcia, publikacje.
 
 **Październik** — drugi szczyt sezonu, największy nacisk.
-- Wapno palone ma szczyt właśnie w październiku i listopadzie (3 600 wyszukań) — rozszerzamy kampanię o ten kierunek.
+- Wapno palone szczytuje właśnie w październiku (3 600 wyszukań) — rozszerzamy kampanię o ten kierunek.
 - Strona i treści pod stabilizację gruntów oraz budownictwo.
 - Kampania pracuje już na wygrzanych danych, więc to miesiąc o najlepszym stosunku kosztu do efektu.
+- Na koniec miesiąca podsumowanie trzech miesięcy reklam: ile zapytań, z jakich haseł, jakim kosztem — na tej podstawie decydujecie, co dalej.
 
-**Listopad** — domknięcie sezonu i przygotowanie pod wiosnę.
-- Podsumowanie trzech miesięcy reklam: ile zapytań, z jakich haseł, jakim kosztem.
-- Treści pod wiosenny szczyt 2027 — publikujemy z wyprzedzeniem, żeby Google zdążył je pokazać, zanim ruszy sezon.
-- Zestaw najczęstszych pytań klientów, pod wyszukiwanie głosowe i odpowiedzi sztucznej inteligencji w Google.
+**Za co bierzemy odpowiedzialność, a czego nie obiecujemy.** Odpowiadamy za to, że kampanie będą poprawnie zbudowane i prowadzone, że budżet nie będzie przepalany na przypadkowe kliknięcia, że będziecie dokładnie wiedzieć, ile zapytań przyszło z reklam i za jaką kwotę. Nie obiecujemy konkretnej liczby zamówień ani tego, że każde kliknięcie zamieni się w klienta — na to wpływa cena, dostępność, sezon i konkurencja, a te rzeczy są poza reklamą. Obiecujemy natomiast, że pod koniec października będziecie mieli twarde dane do decyzji, a nie wrażenia.
 
-**Co potem, po sezonie** — dla porządku, żebyście wiedzieli, dokąd to zmierza. W grudniu i styczniu wyszukiwania wapna nawozowego spadają o ponad połowę. Wtedy nie ma sensu utrzymywać tych samych reklam. Sensowne jest przełączenie budżetu na to, co sprzedaje się przez cały rok albo szczytuje wiosną: **kredę pastewną** (popyt płaski przez dwanaście miesięcy) i **wapno hydratyzowane** (szczyt w marcu, budownictwo). W lutym zaczynamy rozgrzewkę pod wiosenny szczyt, który przypada na marzec. To jest rozmowa na listopad — wspominam o tym teraz, żeby było widać, że plan nie kończy się wraz z sezonem.
-
-**Czego potrzebujemy od Was, żeby ruszyć:**
-
-1. **Decyzji, co reklamy mają robić w pierwszej kolejności** — telefon do biura czy zapytanie ofertowe przez formularz. Od tego zależy, jak budujemy kampanię. Najlepiej omówmy to telefonicznie w tym tygodniu, bo to jedyna rzecz, która blokuje start.
-2. **Formy rozliczenia budżetu reklamowego** — albo wpinamy w konto kartę płatniczą firmy, albo zasilamy konto my i refakturujemy na Was. Jak Wam wygodniej. Przy drugim wariancie budżet wpłacamy z góry, żeby kampania nie stanęła w środku sezonu z powodu wyczerpanego salda.
-
-**Za co bierzemy odpowiedzialność, a czego nie obiecujemy.** Odpowiadamy za to, że kampanie będą poprawnie zbudowane i prowadzone, że budżet nie będzie przepalany na przypadkowe kliknięcia, że będziecie dokładnie wiedzieć, ile zapytań przyszło z reklam i za jaką kwotę. Nie obiecujemy konkretnej liczby zamówień ani tego, że każde kliknięcie zamieni się w klienta — na to wpływa cena, dostępność, sezon i konkurencja, a te rzeczy są poza reklamą. Obiecujemy natomiast, że po trzech miesiącach będziecie mieli twarde dane do decyzji, a nie wrażenia.
-
-Dajcie znać, kiedy możemy pogadać o celu kampanii — resztę mamy przygotowaną.
+Jeśli nie macie uwag, ruszamy zgodnie z planem.
 
 Pozdrawiam,
 Janek
