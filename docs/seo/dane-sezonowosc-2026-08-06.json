@@ -1,0 +1,1375 @@
+{
+    "version": "0.1.20260731",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.2009 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "08060824-1748-0367-0000-353e11cd94d7",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "3.0665 sec.",
+            "cost": 0.09,
+            "result_count": 20,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "keywords": [
+                    "wapno nawozowe",
+                    "wapno granulowane",
+                    "wapno palone",
+                    "wapno rolnicze",
+                    "wapno nawozowe cena",
+                    "wapno do gleby",
+                    "wapno magnezowe",
+                    "kreda nawozowa",
+                    "wapno hydratyzowane",
+                    "stabilizacja gruntu",
+                    "wapno do stawow",
+                    "higienizacja osadow sciekowych",
+                    "wapno tlenkowe",
+                    "wapno weglanowe",
+                    "odkwaszanie gleby",
+                    "wapnowanie gleby",
+                    "wapno nawozowe granulowane",
+                    "wapno do stabilizacji gruntow",
+                    "wapno palone mielone",
+                    "kreda pastewna"
+                ],
+                "location_code": 2616,
+                "language_code": "pl",
+                "search_partners": false
+            },
+            "result": [
+                {
+                    "keyword": "wapno nawozowe",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 1300,
+                    "low_top_of_page_bid": 0.16,
+                    "high_top_of_page_bid": 1.43,
+                    "cpc": 0.62,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 1300
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno granulowane",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 5400,
+                    "low_top_of_page_bid": 0.13,
+                    "high_top_of_page_bid": 1.15,
+                    "cpc": 0.48,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 4400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 4400
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno palone",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 52,
+                    "search_volume": 2400,
+                    "low_top_of_page_bid": 0.02,
+                    "high_top_of_page_bid": 0.27,
+                    "cpc": 0.08,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 1600
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno rolnicze",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 390,
+                    "low_top_of_page_bid": 0.2,
+                    "high_top_of_page_bid": 0.89,
+                    "cpc": 0.59,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 390
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno nawozowe cena",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 91,
+                    "search_volume": 90,
+                    "low_top_of_page_bid": 0.19,
+                    "high_top_of_page_bid": 6.56,
+                    "cpc": 0.66,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 90
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno do gleby",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 90,
+                    "low_top_of_page_bid": 0.06,
+                    "high_top_of_page_bid": 0.41,
+                    "cpc": 0.15,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 90
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno magnezowe",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 2400,
+                    "low_top_of_page_bid": 0.1,
+                    "high_top_of_page_bid": 0.37,
+                    "cpc": 0.16,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 4400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 2400
+                        }
+                    ]
+                },
+                {
+                    "keyword": "kreda nawozowa",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 1000,
+                    "low_top_of_page_bid": 0.11,
+                    "high_top_of_page_bid": 0.92,
+                    "cpc": 0.25,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 1000
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno hydratyzowane",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 96,
+                    "search_volume": 2400,
+                    "low_top_of_page_bid": 0.03,
+                    "high_top_of_page_bid": 0.2,
+                    "cpc": 0.06,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 2400
+                        }
+                    ]
+                },
+                {
+                    "keyword": "stabilizacja gruntu",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 42,
+                    "search_volume": 720,
+                    "low_top_of_page_bid": 0.76,
+                    "high_top_of_page_bid": 3.19,
+                    "cpc": 2.65,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 720
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno do stawow",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "higienizacja osadow sciekowych",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "wapno tlenkowe",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 720,
+                    "low_top_of_page_bid": 0.04,
+                    "high_top_of_page_bid": 0.38,
+                    "cpc": 0.14,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 1000
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno weglanowe",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 99,
+                    "search_volume": 320,
+                    "low_top_of_page_bid": 0.18,
+                    "high_top_of_page_bid": 0.47,
+                    "cpc": 0.23,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 390
+                        }
+                    ]
+                },
+                {
+                    "keyword": "odkwaszanie gleby",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 98,
+                    "search_volume": 260,
+                    "low_top_of_page_bid": 0.23,
+                    "high_top_of_page_bid": 0.54,
+                    "cpc": 0.32,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 210
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapnowanie gleby",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 69,
+                    "search_volume": 1000,
+                    "low_top_of_page_bid": 0.03,
+                    "high_top_of_page_bid": 1.03,
+                    "cpc": 1.64,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 590
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno nawozowe granulowane",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 390,
+                    "low_top_of_page_bid": 0.16,
+                    "high_top_of_page_bid": 0.71,
+                    "cpc": 0.67,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 390
+                        }
+                    ]
+                },
+                {
+                    "keyword": "wapno do stabilizacji gruntow",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "wapno palone mielone",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 74,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 0.13,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "kreda pastewna",
+                    "spell": null,
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 2400,
+                    "low_top_of_page_bid": 0.03,
+                    "high_top_of_page_bid": 0.22,
+                    "cpc": 0.12,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 1900
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
