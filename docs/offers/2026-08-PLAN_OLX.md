@@ -123,6 +123,22 @@ Przyczyna: kontener GTM jest wpięty i opublikowany, tag GA4 odpala się na All 
 
 **Do decyzji Janka:** czy CMP wchodzi do planu jako osobna pozycja przed startem Ads, i czy ten temat w ogóle pojawia się w mailu o OLX, czy idzie osobno. Do czasu rozstrzygnięcia **głównym miernikiem OLX zostają statystyki OLX** (`advert_views`, `phone_views` mierzone przyrostowo), a GA4 jest pomocniczy — i tak trzeba to klientowi napisać, zamiast obiecywać pomiar, którego nie ma.
 
+### Jak mierzymy ten kanał
+
+| Miernik | Skąd | Uwaga |
+|---|---|---|
+| `advert_views`, `phone_views` per ogłoszenie | Partner API, `scripts/olx/olx-snapshot`, przyrostowo co tydzień | **Miernik główny.** Niezależny od stanu analityki na stronie |
+| Wiadomości OLX | `/partner/threads` | Marginalne: 1 wątek wobec 209 telefonów. Monitorujemy, nie liczymy na to |
+| Ruch OLX → agria.pl | UTM na linku Strony firmowej | **Pomocniczy** i zaniżony, dopóki nie ma CMP (patrz FLAGA) |
+
+Link do ustawienia w panelu po zakupie pakietu (funkcja pakietu Premium „Link do zewnętrznej strony WWW"):
+
+```
+https://agria.pl/?utm_source=olx&utm_medium=marketplace&utm_campaign=olx-nawozy-2026-08
+```
+
+**QR-kod na grafikach zostaje bez UTM w tej rundzie.** Prowadzi do `/kalkulator-wapnowania/` (5 odsłon w 90 dni), ale zmiana adresu w kodzie oznacza przerobienie ośmiu grafik, a plików źródłowych nie ma w repo — istnieją tylko jako obrazy na CDN OLX. Do zrobienia przy najbliższej rewizji grafik, razem z ujęciami pod zastosowanie (staw, sad, oczyszczalnia), których w kicie brakuje.
+
 ### Ryzyka do pilnowania
 
 - **Sierpień jest przeciążony** — plan Ads już to odnotowuje (setup Ads + landingi M3 + P0 indeksacyjne + CWV). OLX dokłada wystawienie 100 ogłoszeń. Samo wystawienie jest zautomatyzowane, ale rotacja i reakcja na dane to praca cotygodniowa.
