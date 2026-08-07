@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+# OLX Partner API — helper dla konta ogloszeniowego AGRIA (aplikacja „Agria.pl", client_id 203091).
+#
+#   olx-agria url          — generuje jednorazowy state + URL autoryzacji (otworzyc BEDAC ZALOGOWANYM NA KONTO AGRII)
+#   olx-agria status       — pokazuje stan tokenow
+#   olx-agria refresh      — odswieza access_token refresh_tokenem
+#   olx-agria api <sciezka> [curl-args...]  — wywolanie API, np. olx-agria api /partner/adverts
+set -euo pipefail
+
+SECRETS="$HOME/domains/auratest.pl/olx-private"
+ENV_FILE="$SECRETS/agria-app.env"
+TOKENS="$SECRETS/agria-tokens.json"
+STATE_FILE="$SECRETS/agria-state.txt"
+REDIRECT_URI="https://auratest.pl/olx/agria-callback.php"
+API_BASE="https://www.olx.pl/api"
+
+[ -r "$ENV_FILE" ] || { echo "brak $ENV_FILE" >&2; exit 1; }
+# shellcheck disable=SC1090
+source "$ENV_FILE"
+
+case "${1:-}" in
+  url)
+    state=$(head -c 24 /dev/urandom | od -An -tx1 | tr -d ' \n')
+    printf '%s' "$state" > "$STATE_FILE"
+    chmod 600 "$STATE_FILE"
+    scope_enc=$(printf '%s' "$OLX_SCOPE" | sed 's/ /%20/g')
+    redirect_enc=$(printf '%s' "$REDIRECT_URI" | sed 's|:|%3A|g; s|/|%2F|g')
+    echo "UWAGA: przed otwarciem zaloguj przegladarke na konto OLX AGRII (nie js@auranet.com.pl)."
+    echo
+    echo "https://www.olx.pl/oauth/authorize/?client_id=${OLX_CLIENT_ID}&response_type=code&state=${state}&scope=${scope_enc}&redirect_uri=${redirect_enc}"
+    ;;
+  status)
+    [ -r "$TOKENS" ] || { echo "brak tokenow — uruchom: olx-agria url"; exit 1; }
+    python3 - "$TOKENS" <<'PY'
+import json, sys, time
+d = json.load(open(sys.argv[1]))
+exp = d.get("expires_at", 0)
+left = int(exp - time.time())
+print("scope:        ", d.get("scope", "?"))
+print("access_token: ", "wazny" if left > 0 else "WYGASL", f"({left//60} min)")
+print("refresh_token:", "jest" if d.get("refresh_token") else "BRAK")
+PY
+    ;;
+  refresh)
+    [ -r "$TOKENS" ] || { echo "brak tokenow — uruchom: olx-agria url"; exit 1; }
+    rt=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1])).get("refresh_token",""))' "$TOKENS")
+    [ -n "$rt" ] || { echo "brak refresh_token w $TOKENS" >&2; exit 1; }
+    resp=$(curl -sS -X POST "$API_BASE/open/oauth/token" \
+      -H 'Content-Type: application/json' \
+      -d "{\"grant_type\":\"refresh_token\",\"client_id\":\"$OLX_CLIENT_ID\",\"client_secret\":\"$OLX_CLIENT_SECRET\",\"refresh_token\":\"$rt\"}")
+    echo "$resp" | python3 - "$TOKENS" <<'PY'
+import json, sys, time
+raw = sys.stdin.read()
+d = json.loads(raw)
+if "access_token" not in d:
+    sys.exit("blad odswiezania: " + raw)
+d["obtained_at"] = int(time.time())
+d["expires_at"] = int(time.time()) + int(d.get("expires_in", 0))
+json.dump(d, open(sys.argv[1], "w"), indent=2)
+print("odswiezone, wazny do", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(d["expires_at"])))
+PY
+    chmod 600 "$TOKENS"
+    ;;
+  api)
+    [ -r "$TOKENS" ] || { echo "brak tokenow — uruchom: olx-agria url"; exit 1; }
+    path="${2:-}"; shift 2 || true
+    [ -n "$path" ] || { echo "uzycie: olx-agria api /partner/adverts" >&2; exit 1; }
+    at=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["access_token"])' "$TOKENS")
+    curl -sS "$API_BASE$path" -H "Authorization: Bearer $at" -H 'Version: 2.0' "$@"
+    ;;
+  *)
+    sed -n '2,9p' "$0"
+    exit 1
+    ;;
+esac

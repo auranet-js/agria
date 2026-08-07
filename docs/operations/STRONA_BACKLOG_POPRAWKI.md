@@ -80,6 +80,23 @@
 
 ---
 
+## Partia #2 — mail Pawła 2026-08-07
+
+### STR-08 · Nowe atesty i karty charakterystyki na `/do-pobrania/` 🟢
+**Zgłoszenie:** „przesyłam zaktualizowane atesty oraz karty charakterystyki do wrzucenia na stronę."
+**Materiały (8 PDF, w mailu [201], kopie w `/tmp/claude-mails/201/`):**
+- Atesty (skany bez warstwy tekstowej — mapowanie do produktów wizualnie): `Atest Jażwica.pdf`, `Atest Laskowa.pdf`, `Atest Winna.pdf`, `ATEST wapno nawozowe odm. 01.pdf`, `2025 - ATEST wapno nawozowe odm. 02.pdf`
+- Karty charakterystyki **Nordkalk Wapno Sp. z o.o.**, wydanie 1.1, aktualizacja **26.03.2025**: `Karta-charakterystyki-CaO_-Sitkowka-2025.pdf` (tlenek wapnia, indeks KCH/1), `Karta-charakterystyki-CaOH2_Sitkowka.pdf` (diwodorotlenek wapnia, KCH/3), `Karta-charakterystyki-CaCO3_kreda-techniczna_ZS-2025.pdf` (węglan wapnia, KCH/5)
+**Do zrobienia:** przemianować wg konwencji, wgrać FTP do `wp-content/uploads/2026/08/`, dopiąć do właściwych sekcji strony 731 (`_elementor_data`) — atesty do „Atesty i opinie", karty Nordkalk do „Karty charakterystyki". Sprawdzić, czy nowe karty **zastępują** obecne wersje (3 pozycje w sekcji charakterystyk mogą być starsze) — stare wtedy zdjąć, nie dublować.
+**Po wdrożeniu:** wyczyścić `_elementor_element_cache`, cache-bust przy weryfikacji, zgłosić `/do-pobrania/` do reindeksacji (ta strona nie miała crawlu od 12.04).
+
+### STR-09 · Usunięcie sekcji „Certyfikaty" z `/do-pobrania/` 🟢
+**Zgłoszenie:** „proszę również usunąć wszystkie certyfikaty — na ten moment nie są potrzebne, a część z nich jest już nieaktualna. Nie każdy produkt będzie miał nowe certyfikaty."
+**Zakres:** cała sekcja (5 pozycji, w tym znany duplikat linku poz. 1 = poz. 2 i literówki „ertyfikat"). Znika przy okazji dług z STR-04.
+**Uwaga:** usuwamy sekcję w całości wraz z nagłówkiem — nie zostawiać pustej listy.
+
+---
+
 ## Wątki poboczne (nie-stronowe, do śledzenia)
 
 - **Wizytówka Google (GBP):** Paweł nie kojarzy maila o wizytówce — zadzwoni do P. Stanisława, dopyta czy to kontakt poprzedniego operatora. Jeśli nie — odzysk przez pomoc Google. *Nasza rola:* wsparcie przy odzysku dostępu, gdy Paweł da znać.
