@@ -14,8 +14,26 @@
 |---|---|
 | Kto wystawia | **My, przez Partner API.** Każdy zapis na koncie klienta po jego „ok" |
 | Pakiet | **Premium 100 w kategorii Nawozy — 719,99 zł brutto/mies.** |
-| Prowadzenie OLX w wycenie | **Osobna pozycja. Kwota do podania przez Janka** — nie wpisuję żadnej liczby (`feedback_no_made_up_pricing_without_approval`) |
+| Wycena Auranet | **Setup 1 500 zł netto jednorazowo + 300 zł netto/mies.** Zatwierdzone przez Janka 07.08 |
 | Panel OLX | Odczytany 07.08 z zalogowanego konta AGRII |
+
+### Dlaczego setup ciężki, a prowadzenie lekkie
+
+Janek zakwestionował pierwotną propozycję miesięcznej stawki rzędu prowadzenia Ads (600–800 zł) pytaniem, czy kanał nie chodzi sam. **Miał rację i to jest sprawdzalne na koncie AGRII.**
+
+`auto_extend` odnawia ogłoszenia automatycznie — ale **tylko dopóki żyje pakiet**. Widać to co do minuty: jedyne ogłoszenie z włączonym auto_extend (858802418) odnowiło się **18.07 o 08:43:52**, a pakiet wygasł **18.07 o 08:55**. Zdążyło wziąć ostatnią jednostkę. Pozostałe 17 zgasło. To samo ogłoszenie spróbuje odnowić się 17.08 i padnie, jeśli pakietu nie będzie.
+
+Wniosek: przy opłaconym pakiecie i auto_extend na wszystkich ogłoszeniach **kanał nie wymaga cotygodniowej obsługi**. Realna praca to:
+
+| Co | Kiedy |
+|---|---|
+| Odczyt pomiaru i korekta — zabić martwe tytuły, powielić działające | raz po 2–3 tygodniach, potem rzadziej |
+| Rewizja sezonowa asortymentu i siatki miast | 2–3× w roku (listopad: wapno palone; grudzień–marzec: paszarstwo i budownictwo) |
+| Aktualizacja cen po nowym cenniku Pawła | jedna komenda `--update`, minuty |
+
+Stąd 300 zł/mies., nie 800. Setup 1 500 zł pokrywa research z 07.08 (panel, 1 204 ogłoszenia rynku, regulamin, korekty cenowe), 100 gotowych ogłoszeń z parametrami i zdjęciami, pipeline API oraz uruchomiony pomiar. **Dzisiejszy czas jest zaszyty w setupie — bez osobnej pozycji „analiza" w mailu.**
+
+Rewizja sezonowa nie wchodzi do tej wyceny — pojawi się jako osobna pozycja, gdy wypadnie (najbliższa: listopad).
 
 ### Skąd Premium 100, a nie Megapakiet
 
@@ -125,15 +143,18 @@ Dotychczas kupowaliście Megapakiet na 20 ogłoszeń za 336 zł. W kategorii Naw
 
 Promowanie wypada blado w porównaniu: jedno wyróżnienie na 30 dni kosztuje 105 zł, czyli tyle, co dziewięć ogłoszeń. Rynek to potwierdza — dwaj najwięksi sprzedawcy w tej kategorii mają odpowiednio **zero i 24 promowania przy 191 i 161 ogłoszeniach**. Wygrywają liczbą ofert i tym, w ilu miejscowościach są widoczni, a nie wyróżnieniami.
 
-**Koszty miesięcznie:**
+**Koszty:**
 
 | Pozycja | Kto płaci | Kwota |
 |---|---|---|
-| Pakiet 100 ogłoszeń OLX | AGRIA, bezpośrednio do OLX | **720 zł brutto** |
+| Pakiet 100 ogłoszeń OLX | AGRIA, bezpośrednio do OLX | **720 zł brutto miesięcznie** |
 | Wyróżnienia i promowania | — | **0 zł** — świadomie nie wchodzimy |
-| Przygotowanie i prowadzenie kanału | Auranet | *[do uzupełnienia]* |
+| Uruchomienie kanału | Auranet | **1 500 zł netto, jednorazowo** |
+| Prowadzenie | Auranet | **300 zł netto miesięcznie** |
 
-**720 zł to nie jest nasze wynagrodzenie** — te pieniądze idą w całości do OLX za publikację ogłoszeń, tak samo jak budżet reklamowy idzie do Google.
+**720 zł to nie jest nasze wynagrodzenie** — te pieniądze idą w całości do OLX za publikację ogłoszeń, tak samo jak budżet reklamowy idzie do Google. Uwaga: pakiet jest ważny 30 dni, więc to opłata cykliczna, nie jednorazowa.
+
+**Dlaczego uruchomienie kosztuje więcej niż prowadzenie.** Bo tak to naprawdę wygląda. Uruchomienie to sto ogłoszeń z parametrami wziętymi z Waszych kart produktowych, dobór miejscowości pod każdy produkt, przegląd całej kategorii na OLX, sprawdzenie regulaminu i zbudowanie narzędzia, które wystawia i mierzy to automatycznie. Potem **kanał w dużej mierze chodzi sam** — ogłoszenia odnawiają się automatycznie, dopóki pakiet jest opłacony. Prowadzenie to odczyt danych, wygaszenie ofert, które nie działają, powielenie tych, które łapią, i podmiana cen, gdy się zmienią. Nie ma powodu, żeby brać za to tyle, co za prowadzenie kampanii reklamowych.
 
 **Co pokazały Wasze własne dane.**
 
@@ -143,7 +164,9 @@ Dwie rzeczy z tych danych warto wiedzieć:
 
 **Pierwsza — tytuł decyduje.** Ogłoszenie zatytułowane „Do stawu…" zebrało 94 odsłony telefonu, czyli **45% wszystkich kontaktów z całego konta**. Ta sama oferta, te same zdjęcia, ale tytuł mówiący, do czego to służy, zamiast „Najtaniej!". Dlatego nowe ogłoszenia budujemy pod konkretne zastosowanie: do stawu, na odkwaszanie gleb ciężkich, pod rzepak, do paszy.
 
-**Druga — ogłoszenia gasły po cichu.** Automatyczne przedłużanie było włączone na jednym ogłoszeniu z dwudziestu. Reszta wygasała bez ostrzeżenia. To już poprawione i przy nowych ogłoszeniach ustawiamy je od razu.
+**Druga — ogłoszenia gasły po cichu.** Automatyczne przedłużanie było włączone na jednym ogłoszeniu z dwudziestu. To jedno przedłużyło się 18 lipca o 8:43, kwadrans przed wygaśnięciem pakietu — i dlatego jako jedyne żyje do dziś. Pozostałych siedemnaście zgasło tego samego ranka. Przy nowych ogłoszeniach automatyczne przedłużanie ustawiamy od razu na wszystkich.
+
+Warto przy tym wiedzieć, że przedłużanie działa **tylko dopóki pakiet jest opłacony**. To ogłoszenie, które przetrwało, spróbuje odnowić się 17 sierpnia i też padnie, jeśli pakietu nie będzie. Dlatego pakiet trzeba odnawiać co miesiąc — pilnujemy tego my i przypominamy przed terminem.
 
 **Co uruchamiamy:**
 
@@ -161,7 +184,7 @@ Policzyliśmy to na Waszych danych, nie na wróżeniu — na grupie 16 ogłosze�
 - realnie: **około 75**,
 - optymistycznie, jeśli tytuły pod zastosowanie zadziałają tak jak „Do stawu": **około 115**.
 
-Przy 720 zł za pakiet to od 6 do 29 zł za jeden telefon od zainteresowanego.
+Licząc wszystko, co kanał kosztuje miesięcznie — pakiet i prowadzenie razem, czyli 1 020 zł — wychodzi **od 9 do 41 zł za jeden telefon od zainteresowanego**.
 
 **Za co bierzemy odpowiedzialność, a czego nie obiecujemy.** Odpowiadamy za to, że ogłoszenia będą poprawnie zbudowane, zgodne z regulaminem OLX, oparte na Waszych realnych parametrach i cenach, że nie będą gasnąć po cichu i że co tydzień będziemy wiedzieć, które działają, a które nie. Nie obiecujemy konkretnej liczby zamówień — na to wpływa cena, dostępność, transport i sezon, a te rzeczy są poza kanałem. Obiecujemy natomiast, że pod koniec października będziecie mieli twarde liczby do decyzji.
 
@@ -173,6 +196,8 @@ Przy 720 zł za pakiet to od 6 do 29 zł za jeden telefon od zainteresowanego.
 - **koniec października** — podsumowanie razem z reklamami: ile zapytań, z których produktów i miejscowości, jakim kosztem. Na tej podstawie decydujecie, czy idziemy dalej i w jakiej skali.
 
 Nic nie przedłuża się samo. Sierpień–październik to szczyt sezonu dla rolnictwa, więc to jest właściwy moment, żeby to sprawdzić — a listopad domyka jeszcze wapno palone.
+
+Jedna rzecz na później: zestaw produktów i miejscowości jest dobrany pod sezon rolniczy. W okolicach listopada wypada go przestawić — wapno palone wchodzi w swój szczyt, a zimą sensowniejsze są kreda pastewna i wapno hydratyzowane pod budownictwo. Wrócimy do tego, gdy będziemy podsumowywać październik.
 
 **Dwie rzeczy do Was.**
 
