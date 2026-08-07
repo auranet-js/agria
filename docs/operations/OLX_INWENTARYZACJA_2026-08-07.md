@@ -64,8 +64,10 @@ Dla skali: 209 odsłon telefonu z OLX wobec **221 kliknięć z całego organiku 
 
 ## 4. Wnioski wstępne (przed rekomendacją dla klienta)
 
-1. **Pytanie „30 czy 10" jest źle postawione.** Różnicy nie robi liczba slotów ani miasto, tylko **intencja w tytule**. „Do stawu" bije kopie „Najtaniej!" o rząd wielkości przy tej samej ofercie i tych samych zdjęciach.
-2. **Geo-multiplikacja ma słabą stopę zwrotu** — ~110 wyświetleń i 3 telefony na duplikat.
+> **Korekta 07.08 wieczorem** — punkt 2 poniżej został obalony przez dane rynkowe, patrz `OLX_KONKURENCJA_2026-08-07.md` §2. Geo-multiplikacja **jest** modelem tej kategorii; AGRIA prowadziła ją w 1/8 skali lidera i na jednym produkcie. Punkt 1 się broni.
+
+1. **Intencja w tytule robi różnicę.** „Do stawu" bije kopie „Najtaniej!" o rząd wielkości przy tej samej ofercie i tych samych zdjęciach.
+2. ~~**Geo-multiplikacja ma słabą stopę zwrotu** — ~110 wyświetleń i 3 telefony na duplikat.~~ → liderzy rynku robią dokładnie to samo, tylko na 9–26 różnych ofertach × 120–161 miast.
 3. **Stawy działają na OLX, choć w Google Ads mają zerowy wolumen** (patrz memory `project_agria_ads_sezonowosc`). Kanały nie są wymienne — segment martwy w płatnym wyszukiwaniu potrafi być najmocniejszy na marketplace.
 4. `auto_extend` jest włączony na **jednym** z 20 ogłoszeń — reszta wygasa cicho.
 5. **Rozjazd cenowy:** opis aktywnego ogłoszenia mówi „600 zł brutto/t" przy worku 40 kg, a cennik z 07.08 daje 19 zł/szt = 475 zł/t netto. Do uspójnienia razem z wdrożeniem cen na stronie.
