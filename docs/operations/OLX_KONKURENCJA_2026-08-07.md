@@ -36,6 +36,39 @@ Promowanych jest **266 z 1 166 ogłoszeń (23%)**, ale dwaj najwięksi gracze pr
 
 **To odpowiada na pytanie Pawła wprost: między „30 ogłoszeń" a „10 + promowanie" rynek wybiera wolumen.** Promowanie ma sens punktowo — na tych ofertach, które już dowiodły skuteczności.
 
+## 3a. Korekta 07.08 wieczorem — §4 i §5 były zbudowane na złych danych
+
+Przy budowie ogłoszeń wróciłem do surowych danych rynkowych i **dwa wnioski poniżej nie wytrzymały weryfikacji**. Zostawiam oryginalne §4 i §5 poniżej, żeby było widać, co się zmieniło i dlaczego.
+
+**(A) Ceny na OLX w polu „cena" nie są porównywalne — nie ma tam jednostki.**
+
+Na 1 204 ogłoszenia w kategorii **tylko 36 podaje cenę za tonę w treści opisu**. Pozostałe wpisują w pole ceny liczbę bez jednostki: raz za tonę, raz za worek, raz za big-bag, a często wartość-wabik pod sortowanie „od najtańszych" (23 ogłoszenia mają w polu ceny poniżej 10 zł, jedno 0,99 zł). Mediana liczona z tego pola mierzy zachowanie sprzedawców w rankingu, nie poziom cen.
+
+**(B) Po odfiltrowaniu do cen faktycznie porównywalnych AGRIA nie jest droga.** Porównanie loco (wszyscy kwotują loco + transport osobno, tak jak AGRIA):
+
+| Produkt | AGRIA zł/t netto loco | Porównywalna oferta OLX | Pozycja |
+|---|---|---|---|
+| Węglanowe bez Mg odm. 04 | **57** | Morawica odm. 04, CaO 50–55%: **57,40 netto** loco kopalnia | parytet co do złotówki |
+| Węglanowe z Mg odm. 05 | **36** | Józefka odm. 03, CaO+MgO min. 50%: **41,67 netto** loco kopalnia | AGRIA taniej |
+| Węglanowe z Mg odm. 04 | **50** | j.w. 41,67 | nieco drożej |
+| Tlenkowe odm. 02 (70% CaO) luz | **220** | PHU Harabin, odm. 02 atestowana, luz: **210** | parytet |
+| Kreda nawozowa sypka | **125** | jedyna porównywalna: 185 | AGRIA taniej |
+| Granulowane big-bag | **350–410** | rynek granulowanych 350–420 | w rynku |
+
+Wcześniejsza „mediana węglanowych 41 zł" powstała m.in. z **sześciu kopii jednego ogłoszenia** (ten sam sprzedawca, ta sama treść, 30 zł) — jeden wystawca ważył w medianie jak sześciu.
+
+**Co z tego wynika operacyjnie:** odpada rekomendacja z §7, żeby wycinać węglanowe i kredę z OLX z powodu ceny. **Ceny AGRII są w rynku w każdej porównywalnej pozycji.** Zostaje natomiast druga rzecz, którą widać w danych Harabina: sprzedaje on **wapno nieatestowane (odsypy z wagi) po 78 zł/t** obok atestowanego po 210. To jest ta „tania konkurencja z OLX", której obawia się Paweł — i to nie jest ten sam produkt. Argumentem AGRII jest atest per partia, nie obniżka.
+
+**(C) Tlenkowych na OLX nie jest trzy, tylko 65 — i mają swojego lidera.**
+
+§5 mówił o „trzech ogłoszeniach wapna tlenkowego". To był efekt liczenia wyłącznie ofert z jawną ceną tonową. Po klasyfikacji po treści: **65 ogłoszeń tlenkowych/palonych**, z czego **39 to jeden sprzedawca — „Wapna Świętokrzyskie"**, 36 miast, 14 promowanych.
+
+Jego model jest inny niż AGRO-KOTYNII: **39 ogłoszeń = 39 różnych tytułów**, każdy upchany frazami („Wapno Nawozowe Magnezowe, Kreda, Węglanowe, Tlenkowe") i hakiem („DOTACJE", „bez pośredników", „Producent", „Najtaniej"). Cena w polu zwykle 30 zł — wabik.
+
+Nisza tlenkowa **istnieje, ale jest węższa, niż wyglądała**: nie „pustka", tylko jeden aktywny gracz obsługujący 36 miast frazami ogólnymi. AGRIA ma wobec niego dwie przewagi, których on nie ma: konkretny produkt z nazwą i atestem zamiast worka fraz, oraz własne dane pokazujące, że **zastosowanie stawowe konwertuje** — a on stawów nie adresuje w żadnym tytule.
+
+---
+
 ## 4. Ceny AGRII na tle rynku — tu jest problem
 
 Ceny z OLX porównywalne tonowo (odfiltrowane po jednostce z tytułu i opisu):
@@ -69,4 +102,8 @@ Marka wychodzi poza AGRIĘ tylko raz: „Wapno tlenkowe AGROBIELIK 50, odm. 04" 
 
 ## 7. Do rozmowy z Pawłem
 
-Ceny węglanowych i kredy sypkiej są na OLX o 25–40% powyżej mediany rynkowej. To nie znaczy, że są złe — znaczy, że **OLX nie jest dla nich właściwym kanałem**. Warto, żeby Paweł świadomie zdecydował: albo te produkty na OLX nie idą, albo idą z komunikatem opartym na czymś innym niż cena (atesty, stabilność dostaw, ciągłość produkcji z jednego złoża).
+> **Nieaktualne — patrz §3a(B).** Ten punkt opierał się na medianie z pola „cena", które nie ma jednostki. Po odfiltrowaniu do porównywalnych ofert loco ceny AGRII są w rynku, a węglanowe i kreda nie wymagają decyzji „wycinamy z OLX".
+
+~~Ceny węglanowych i kredy sypkiej są na OLX o 25–40% powyżej mediany rynkowej. To nie znaczy, że są złe — znaczy, że **OLX nie jest dla nich właściwym kanałem**.~~
+
+Co zostaje do rozmowy z Pawłem: **obawa o „tanią konkurencję" jest uzasadniona, ale dotyczy innego produktu.** Konkurenci sprzedają obok atestowanego wapna również materiał nieatestowany (odsypy z wagi, 78 zł/t u Harabina wobec 210 zł/t za atestowane). Klient na OLX widzi obie liczby i nie odróżnia produktów. To jest realny temat do komunikatu — nie obniżka.

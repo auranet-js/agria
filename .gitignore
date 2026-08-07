@@ -78,3 +78,6 @@ __pycache__/
 ~$*.docx
 ~$*.xlsx
 ~$*.pptx
+
+# Lista 53 tys. miast OLX — 7,8 MB, odtwarzalna z /partner/cities (scripts/olx/plan.py pobiera sama)
+data/olx/cities-all.json

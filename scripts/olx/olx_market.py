@@ -16,8 +16,13 @@ def fetch(params):
 def crawl(category_id, max_pages=20, limit=50):
     out, seen = [], set()
     for page in range(max_pages):
-        d = fetch({"offset": page * limit, "limit": limit, "category_id": category_id,
-                   "sort_by": "created_at:desc"})
+        try:
+            d = fetch({"offset": page * limit, "limit": limit, "category_id": category_id,
+                       "sort_by": "created_at:desc"})
+        except urllib.error.HTTPError as exc:
+            # OLX odcina paginacje w okolicach offsetu 1000 — konczymy tym, co zebrane
+            print(f"  stop na offsecie {page*limit}: HTTP {exc.code}", file=sys.stderr)
+            break
         items = d.get("data", [])
         if not items:
             break

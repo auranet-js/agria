@@ -1,0 +1,149 @@
+#!/usr/bin/env python3
+"""Snapshot statystyk ogłoszeń OLX konta AGRII + różnica między snapshotami.
+
+Statystyki z Partner API są KUMULATYWNE od utworzenia ogłoszenia (część z 2023 r.),
+więc wskaźnik miesięczny da się policzyć tylko przyrostowo: snapshot → odczekaj → snapshot → diff.
+
+Użycie:
+    olx-snapshot                      — zrób snapshot do data/olx/snapshots/YYYY-MM-DD-HHMM.json
+    olx-snapshot --diff A.json B.json — przyrost między dwoma snapshotami (B - A)
+    olx-snapshot --diff-last          — przyrost między dwoma ostatnimi snapshotami
+"""
+import json
+import os
+import subprocess
+import sys
+from datetime import datetime, timezone
+
+HELPER = os.path.expanduser("~/bin/olx-agria")
+SNAPDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "olx", "snapshots")
+
+# Na koncie wisi prywatne ogłoszenie Pawła (mieszkanie, kat. 15) — nie jest ofertą AGRII
+# i zawyża statystyki o ~630 wyświetleń / 10 telefonów. Liczymy je osobno.
+PRIVATE_CATEGORIES = {15}
+
+
+def is_agria(row):
+    return row.get("category_id") not in PRIVATE_CATEGORIES
+
+
+def api(path):
+    out = subprocess.run([HELPER, "api", path], capture_output=True, text=True, check=True).stdout
+    return json.loads(out)
+
+
+def take_snapshot():
+    adverts = []
+    offset = 0
+    while True:
+        page = api(f"/partner/adverts?limit=100&offset={offset}")["data"]
+        adverts += page
+        if len(page) < 100:
+            break
+        offset += 100
+
+    rows = []
+    for a in adverts:
+        try:
+            st = api(f"/partner/adverts/{a['id']}/statistics")["data"]
+        except Exception as exc:  # ogłoszenie usunięte / brak dostępu — nie przerywamy snapshotu
+            st = {"error": str(exc)}
+        rows.append({
+            "id": a["id"],
+            "title": a["title"],
+            "status": a["status"],
+            "category_id": a["category_id"],
+            "city_id": (a.get("location") or {}).get("city_id"),
+            "price": (a.get("price") or {}).get("value"),
+            "created_at": a.get("created_at"),
+            "activated_at": a.get("activated_at"),
+            "valid_to": a.get("valid_to"),
+            "auto_extend": a.get("auto_extend_enabled"),
+            "advert_views": st.get("advert_views"),
+            "phone_views": st.get("phone_views"),
+            "users_observing": st.get("users_observing"),
+        })
+
+    threads = []
+    offset = 0
+    while True:
+        page = api(f"/partner/threads?limit=100&offset={offset}")["data"]
+        threads += page
+        if len(page) < 100:
+            break
+        offset += 100
+
+    now = datetime.now(timezone.utc).astimezone()
+    agria = [r for r in rows if is_agria(r)]
+    snap = {
+        "taken_at": now.isoformat(timespec="seconds"),
+        "adverts_count": len(rows),
+        "agria_adverts_count": len(agria),
+        "totals": {
+            "advert_views": sum(r["advert_views"] or 0 for r in agria),
+            "phone_views": sum(r["phone_views"] or 0 for r in agria),
+            "threads": len(threads),
+            "messages": sum(t.get("total_count", 0) for t in threads),
+        },
+        "totals_incl_private": {
+            "advert_views": sum(r["advert_views"] or 0 for r in rows),
+            "phone_views": sum(r["phone_views"] or 0 for r in rows),
+        },
+        "adverts": rows,
+        "threads": [{"id": t["id"], "advert_id": t["advert_id"], "created_at": t["created_at"],
+                     "total_count": t.get("total_count"), "unread_count": t.get("unread_count")} for t in threads],
+    }
+
+    os.makedirs(SNAPDIR, exist_ok=True)
+    path = os.path.join(SNAPDIR, now.strftime("%Y-%m-%d-%H%M") + ".json")
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(snap, fh, ensure_ascii=False, indent=1)
+    print(f"snapshot: {os.path.relpath(path)}")
+    print(f"  ogłoszeń AGRII: {snap['agria_adverts_count']} (z {snap['adverts_count']} na koncie)"
+          f"  wyświetlenia: {snap['totals']['advert_views']}"
+          f"  telefony: {snap['totals']['phone_views']}  wątki: {snap['totals']['threads']}")
+    return path
+
+
+def diff(path_a, path_b):
+    a = json.load(open(path_a, encoding="utf-8"))
+    b = json.load(open(path_b, encoding="utf-8"))
+    ai = {r["id"]: r for r in a["adverts"]}
+    ta = datetime.fromisoformat(a["taken_at"])
+    tb = datetime.fromisoformat(b["taken_at"])
+    days = (tb - ta).total_seconds() / 86400 or 1e-9
+
+    print(f"Okres: {a['taken_at']} → {b['taken_at']}  ({days:.2f} dnia)")
+    print(f"{'wyśw.':>7} {'tel.':>6} {'status':<10} tytuł")
+    tv = tp = 0
+    for r in b["adverts"]:
+        if not is_agria(r):
+            continue
+        prev = ai.get(r["id"])
+        dv = (r["advert_views"] or 0) - ((prev or {}).get("advert_views") or 0)
+        dp = (r["phone_views"] or 0) - ((prev or {}).get("phone_views") or 0)
+        tv += dv
+        tp += dp
+        flag = "" if prev else "  [NOWE]"
+        print(f"{dv:>7} {dp:>6} {r['status']:<10} {r['title'][:60]}{flag}")
+    print("-" * 78)
+    cr = (tp / tv * 100) if tv else 0
+    print(f"RAZEM przyrost: {tv} wyświetleń, {tp} odsłon telefonu, CR {cr:.1f}%")
+    print(f"Tempo: {tv/days:.1f} wyświetleń/dobę, {tp/days:.2f} telefonów/dobę")
+    act = [r for r in b["adverts"] if r["status"] == "active" and is_agria(r)]
+    if act:
+        print(f"Na aktywne ogłoszenie ({len(act)} szt.): {tv/days*30/len(act):.0f} wyświetleń/mies, "
+              f"{tp/days*30/len(act):.1f} telefonów/mies")
+
+
+if __name__ == "__main__":
+    if "--diff-last" in sys.argv:
+        files = sorted(os.path.join(SNAPDIR, f) for f in os.listdir(SNAPDIR) if f.endswith(".json"))
+        if len(files) < 2:
+            sys.exit("potrzebne co najmniej 2 snapshoty")
+        diff(files[-2], files[-1])
+    elif "--diff" in sys.argv:
+        i = sys.argv.index("--diff")
+        diff(sys.argv[i + 1], sys.argv[i + 2])
+    else:
+        take_snapshot()
