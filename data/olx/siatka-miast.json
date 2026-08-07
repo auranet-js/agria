@@ -1,0 +1,1122 @@
+{
+ "agrobielik-70-staw": [
+  {
+   "km": 118,
+   "udzial": 0.134,
+   "popyt": 850,
+   "ogl_rynku": 12,
+   "wynik": 1887.1,
+   "region": "Mazowieckie",
+   "name": "Grójec",
+   "city_id": 81563,
+   "region_id": 2
+  },
+  {
+   "km": 161,
+   "udzial": 0.183,
+   "popyt": 850,
+   "ogl_rynku": 12,
+   "wynik": 1782.3,
+   "region": "Mazowieckie",
+   "name": "Warszawa",
+   "city_id": 17871,
+   "region_id": 2
+  },
+  {
+   "km": 192,
+   "udzial": 0.219,
+   "popyt": 850,
+   "ogl_rynku": 13,
+   "wynik": 1752.9,
+   "region": "Mazowieckie",
+   "name": "Siedlce",
+   "city_id": 15459,
+   "region_id": 2
+  },
+  {
+   "km": 77,
+   "udzial": 0.087,
+   "popyt": 850,
+   "ogl_rynku": 7,
+   "wynik": 1613.1,
+   "region": "Mazowieckie",
+   "name": "Radom",
+   "city_id": 14673,
+   "region_id": 2
+  },
+  {
+   "km": 105,
+   "udzial": 0.12,
+   "popyt": 410,
+   "ogl_rynku": 8,
+   "wynik": 793.2,
+   "region": "Śląskie",
+   "name": "Częstochowa",
+   "city_id": 4765,
+   "region_id": 6
+  },
+  {
+   "km": 184,
+   "udzial": 0.209,
+   "popyt": 410,
+   "ogl_rynku": 8,
+   "wynik": 712.6,
+   "region": "Śląskie",
+   "name": "Racibórz",
+   "city_id": 53689,
+   "region_id": 6
+  },
+  {
+   "km": 137,
+   "udzial": 0.156,
+   "popyt": 410,
+   "ogl_rynku": 6,
+   "wynik": 673.5,
+   "region": "Śląskie",
+   "name": "Bielsko-Biała",
+   "city_id": 3231,
+   "region_id": 6
+  },
+  {
+   "km": 16,
+   "udzial": 0.018,
+   "popyt": 350,
+   "ogl_rynku": 6,
+   "wynik": 668.8,
+   "region": "Małopolskie",
+   "name": "Tarnów",
+   "city_id": 17369,
+   "region_id": 4
+  },
+  {
+   "km": 70,
+   "udzial": 0.079,
+   "popyt": 350,
+   "ogl_rynku": 6,
+   "wynik": 627.2,
+   "region": "Małopolskie",
+   "name": "Kraków",
+   "city_id": 8959,
+   "region_id": 4
+  },
+  {
+   "km": 201,
+   "udzial": 0.228,
+   "popyt": 320,
+   "ogl_rynku": 11,
+   "wynik": 614.0,
+   "region": "Wielkopolskie",
+   "name": "Kalisz",
+   "city_id": 7509,
+   "region_id": 1
+  },
+  {
+   "km": 124,
+   "udzial": 0.141,
+   "popyt": 410,
+   "ogl_rynku": 4,
+   "wynik": 566.6,
+   "region": "Śląskie",
+   "name": "Katowice",
+   "city_id": 7691,
+   "region_id": 6
+  },
+  {
+   "km": 148,
+   "udzial": 0.168,
+   "popyt": 240,
+   "ogl_rynku": 15,
+   "wynik": 553.8,
+   "region": "Lubelskie",
+   "name": "Lublin",
+   "city_id": 10119,
+   "region_id": 8
+  },
+  {
+   "km": 43,
+   "udzial": 0.049,
+   "popyt": 350,
+   "ogl_rynku": 4,
+   "wynik": 535.6,
+   "region": "Małopolskie",
+   "name": "Proszowice",
+   "city_id": 71541,
+   "region_id": 4
+  },
+  {
+   "km": 64,
+   "udzial": 0.072,
+   "popyt": 350,
+   "ogl_rynku": 4,
+   "wynik": 522.5,
+   "region": "Małopolskie",
+   "name": "Miechów",
+   "city_id": 11533,
+   "region_id": 4
+  }
+ ],
+ "agrobielik-70-gleba": [
+  {
+   "km": 118,
+   "udzial": 0.134,
+   "popyt": 1020,
+   "ogl_rynku": 12,
+   "wynik": 2264.6,
+   "region": "Mazowieckie",
+   "name": "Grójec",
+   "city_id": 81563,
+   "region_id": 2
+  },
+  {
+   "km": 161,
+   "udzial": 0.183,
+   "popyt": 1020,
+   "ogl_rynku": 12,
+   "wynik": 2138.7,
+   "region": "Mazowieckie",
+   "name": "Warszawa",
+   "city_id": 17871,
+   "region_id": 2
+  },
+  {
+   "km": 192,
+   "udzial": 0.219,
+   "popyt": 1020,
+   "ogl_rynku": 13,
+   "wynik": 2103.4,
+   "region": "Mazowieckie",
+   "name": "Siedlce",
+   "city_id": 15459,
+   "region_id": 2
+  },
+  {
+   "km": 77,
+   "udzial": 0.087,
+   "popyt": 1020,
+   "ogl_rynku": 7,
+   "wynik": 1935.7,
+   "region": "Mazowieckie",
+   "name": "Radom",
+   "city_id": 14673,
+   "region_id": 2
+  },
+  {
+   "km": 105,
+   "udzial": 0.12,
+   "popyt": 530,
+   "ogl_rynku": 8,
+   "wynik": 1025.3,
+   "region": "Śląskie",
+   "name": "Częstochowa",
+   "city_id": 4765,
+   "region_id": 6
+  },
+  {
+   "km": 184,
+   "udzial": 0.209,
+   "popyt": 530,
+   "ogl_rynku": 8,
+   "wynik": 921.2,
+   "region": "Śląskie",
+   "name": "Racibórz",
+   "city_id": 53689,
+   "region_id": 6
+  },
+  {
+   "km": 16,
+   "udzial": 0.018,
+   "popyt": 470,
+   "ogl_rynku": 6,
+   "wynik": 898.1,
+   "region": "Małopolskie",
+   "name": "Tarnów",
+   "city_id": 17369,
+   "region_id": 4
+  },
+  {
+   "km": 137,
+   "udzial": 0.156,
+   "popyt": 530,
+   "ogl_rynku": 6,
+   "wynik": 870.6,
+   "region": "Śląskie",
+   "name": "Bielsko-Biała",
+   "city_id": 3231,
+   "region_id": 6
+  },
+  {
+   "km": 70,
+   "udzial": 0.079,
+   "popyt": 470,
+   "ogl_rynku": 6,
+   "wynik": 842.2,
+   "region": "Małopolskie",
+   "name": "Kraków",
+   "city_id": 8959,
+   "region_id": 4
+  },
+  {
+   "km": 80,
+   "udzial": 0.091,
+   "popyt": 360,
+   "ogl_rynku": 9,
+   "wynik": 753.5,
+   "region": "Podkarpackie",
+   "name": "Rzeszów",
+   "city_id": 15241,
+   "region_id": 17
+  },
+  {
+   "km": 124,
+   "udzial": 0.141,
+   "popyt": 530,
+   "ogl_rynku": 4,
+   "wynik": 732.4,
+   "region": "Śląskie",
+   "name": "Katowice",
+   "city_id": 7691,
+   "region_id": 6
+  },
+  {
+   "km": 43,
+   "udzial": 0.049,
+   "popyt": 470,
+   "ogl_rynku": 4,
+   "wynik": 719.3,
+   "region": "Małopolskie",
+   "name": "Proszowice",
+   "city_id": 71541,
+   "region_id": 4
+  }
+ ],
+ "agrobielik-90": [
+  {
+   "km": 192,
+   "udzial": 0.064,
+   "popyt": 1020,
+   "ogl_rynku": 13,
+   "wynik": 2519.2,
+   "region": "Mazowieckie",
+   "name": "Siedlce",
+   "city_id": 15459,
+   "region_id": 2
+  },
+  {
+   "km": 118,
+   "udzial": 0.039,
+   "popyt": 1020,
+   "ogl_rynku": 12,
+   "wynik": 2513.1,
+   "region": "Mazowieckie",
+   "name": "Grójec",
+   "city_id": 81563,
+   "region_id": 2
+  },
+  {
+   "km": 105,
+   "udzial": 0.035,
+   "popyt": 530,
+   "ogl_rynku": 8,
+   "wynik": 1123.7,
+   "region": "Śląskie",
+   "name": "Częstochowa",
+   "city_id": 4765,
+   "region_id": 6
+  },
+  {
+   "km": 184,
+   "udzial": 0.061,
+   "popyt": 530,
+   "ogl_rynku": 8,
+   "wynik": 1093.1,
+   "region": "Śląskie",
+   "name": "Racibórz",
+   "city_id": 53689,
+   "region_id": 6
+  },
+  {
+   "km": 16,
+   "udzial": 0.005,
+   "popyt": 470,
+   "ogl_rynku": 6,
+   "wynik": 909.8,
+   "region": "Małopolskie",
+   "name": "Tarnów",
+   "city_id": 17369,
+   "region_id": 4
+  },
+  {
+   "km": 70,
+   "udzial": 0.023,
+   "popyt": 470,
+   "ogl_rynku": 6,
+   "wynik": 893.4,
+   "region": "Małopolskie",
+   "name": "Kraków",
+   "city_id": 8959,
+   "region_id": 4
+  },
+  {
+   "km": 201,
+   "udzial": 0.067,
+   "popyt": 370,
+   "ogl_rynku": 11,
+   "wynik": 858.0,
+   "region": "Wielkopolskie",
+   "name": "Kalisz",
+   "city_id": 7509,
+   "region_id": 1
+  },
+  {
+   "km": 80,
+   "udzial": 0.027,
+   "popyt": 360,
+   "ogl_rynku": 9,
+   "wynik": 806.8,
+   "region": "Podkarpackie",
+   "name": "Rzeszów",
+   "city_id": 15241,
+   "region_id": 17
+  },
+  {
+   "km": 40,
+   "udzial": 0.013,
+   "popyt": 360,
+   "ogl_rynku": 7,
+   "wynik": 738.5,
+   "region": "Podkarpackie",
+   "name": "Mielec",
+   "city_id": 32399,
+   "region_id": 17
+  },
+  {
+   "km": 148,
+   "udzial": 0.049,
+   "popyt": 280,
+   "ogl_rynku": 15,
+   "wynik": 738.1,
+   "region": "Lubelskie",
+   "name": "Lublin",
+   "city_id": 10119,
+   "region_id": 8
+  }
+ ],
+ "oxyfertil-90": [
+  {
+   "km": 244,
+   "udzial": 0.077,
+   "popyt": 1020,
+   "ogl_rynku": 13,
+   "wynik": 2483.6,
+   "region": "Mazowieckie",
+   "name": "Siedlce",
+   "city_id": 15459,
+   "region_id": 2
+  },
+  {
+   "km": 191,
+   "udzial": 0.06,
+   "popyt": 1020,
+   "ogl_rynku": 12,
+   "wynik": 2458.3,
+   "region": "Mazowieckie",
+   "name": "Grójec",
+   "city_id": 81563,
+   "region_id": 2
+  },
+  {
+   "km": 52,
+   "udzial": 0.016,
+   "popyt": 530,
+   "ogl_rynku": 8,
+   "wynik": 1145.4,
+   "region": "Śląskie",
+   "name": "Racibórz",
+   "city_id": 53689,
+   "region_id": 6
+  },
+  {
+   "km": 73,
+   "udzial": 0.023,
+   "popyt": 530,
+   "ogl_rynku": 8,
+   "wynik": 1137.6,
+   "region": "Śląskie",
+   "name": "Częstochowa",
+   "city_id": 4765,
+   "region_id": 6
+  },
+  {
+   "km": 16,
+   "udzial": 0.005,
+   "popyt": 470,
+   "ogl_rynku": 6,
+   "wynik": 910.0,
+   "region": "Małopolskie",
+   "name": "Tarnów",
+   "city_id": 17369,
+   "region_id": 4
+  },
+  {
+   "km": 70,
+   "udzial": 0.022,
+   "popyt": 470,
+   "ogl_rynku": 6,
+   "wynik": 894.4,
+   "region": "Małopolskie",
+   "name": "Kraków",
+   "city_id": 8959,
+   "region_id": 4
+  },
+  {
+   "km": 132,
+   "udzial": 0.042,
+   "popyt": 370,
+   "ogl_rynku": 11,
+   "wynik": 881.1,
+   "region": "Wielkopolskie",
+   "name": "Kalisz",
+   "city_id": 7509,
+   "region_id": 1
+  },
+  {
+   "km": 80,
+   "udzial": 0.025,
+   "popyt": 360,
+   "ogl_rynku": 9,
+   "wynik": 807.9,
+   "region": "Podkarpackie",
+   "name": "Rzeszów",
+   "city_id": 15241,
+   "region_id": 17
+  }
+ ],
+ "weglanowe-granulowane": [
+  {
+   "km": 195,
+   "udzial": 0.139,
+   "popyt": 1140,
+   "ogl_rynku": 12,
+   "wynik": 2516.3,
+   "region": "Mazowieckie",
+   "name": "Warszawa",
+   "city_id": 17871,
+   "region_id": 2
+  },
+  {
+   "km": 246,
+   "udzial": 0.176,
+   "popyt": 1140,
+   "ogl_rynku": 13,
+   "wynik": 2480.0,
+   "region": "Mazowieckie",
+   "name": "Mława",
+   "city_id": 102207,
+   "region_id": 2
+  },
+  {
+   "km": 84,
+   "udzial": 0.06,
+   "popyt": 550,
+   "ogl_rynku": 10,
+   "wynik": 1240.0,
+   "region": "Łódzkie",
+   "name": "Łódź",
+   "city_id": 10609,
+   "region_id": 7
+  },
+  {
+   "km": 80,
+   "udzial": 0.057,
+   "popyt": 530,
+   "ogl_rynku": 9,
+   "wynik": 1150.6,
+   "region": "Podkarpackie",
+   "name": "Rzeszów",
+   "city_id": 15241,
+   "region_id": 17
+  },
+  {
+   "km": 168,
+   "udzial": 0.12,
+   "popyt": 460,
+   "ogl_rynku": 15,
+   "wynik": 1122.3,
+   "region": "Lubelskie",
+   "name": "Lublin",
+   "city_id": 10119,
+   "region_id": 8
+  },
+  {
+   "km": 91,
+   "udzial": 0.065,
+   "popyt": 480,
+   "ogl_rynku": 11,
+   "wynik": 1115.6,
+   "region": "Wielkopolskie",
+   "name": "Kalisz",
+   "city_id": 7509,
+   "region_id": 1
+  },
+  {
+   "km": 68,
+   "udzial": 0.049,
+   "popyt": 550,
+   "ogl_rynku": 7,
+   "wynik": 1088.2,
+   "region": "Łódzkie",
+   "name": "Piotrków Trybunalski",
+   "city_id": 13573,
+   "region_id": 7
+  },
+  {
+   "km": 40,
+   "udzial": 0.029,
+   "popyt": 530,
+   "ogl_rynku": 7,
+   "wynik": 1070.2,
+   "region": "Podkarpackie",
+   "name": "Mielec",
+   "city_id": 32399,
+   "region_id": 17
+  },
+  {
+   "km": 111,
+   "udzial": 0.079,
+   "popyt": 530,
+   "ogl_rynku": 6,
+   "wynik": 949.4,
+   "region": "Śląskie",
+   "name": "Bielsko-Biała",
+   "city_id": 3231,
+   "region_id": 6
+  },
+  {
+   "km": 95,
+   "udzial": 0.068,
+   "popyt": 480,
+   "ogl_rynku": 6,
+   "wynik": 870.8,
+   "region": "Wielkopolskie",
+   "name": "Ostrów Wielkopolski",
+   "city_id": 70249,
+   "region_id": 1
+  },
+  {
+   "km": 218,
+   "udzial": 0.156,
+   "popyt": 460,
+   "ogl_rynku": 8,
+   "wynik": 853.2,
+   "region": "Lubelskie",
+   "name": "Radzyń Podlaski",
+   "city_id": 14721,
+   "region_id": 8
+  },
+  {
+   "km": 91,
+   "udzial": 0.065,
+   "popyt": 390,
+   "ogl_rynku": 9,
+   "wynik": 839.8,
+   "region": "Dolnośląskie",
+   "name": "Wrocław",
+   "city_id": 19701,
+   "region_id": 3
+  }
+ ],
+ "weglanowe-magnez-granulowane": [
+  {
+   "km": 195,
+   "udzial": 0.132,
+   "popyt": 1360,
+   "ogl_rynku": 12,
+   "wynik": 3028.2,
+   "region": "Mazowieckie",
+   "name": "Warszawa",
+   "city_id": 17871,
+   "region_id": 2
+  },
+  {
+   "km": 246,
+   "udzial": 0.166,
+   "popyt": 1360,
+   "ogl_rynku": 13,
+   "wynik": 2992.7,
+   "region": "Mazowieckie",
+   "name": "Mława",
+   "city_id": 102207,
+   "region_id": 2
+  },
+  {
+   "km": 168,
+   "udzial": 0.114,
+   "popyt": 650,
+   "ogl_rynku": 15,
+   "wynik": 1597.6,
+   "region": "Lubelskie",
+   "name": "Lublin",
+   "city_id": 10119,
+   "region_id": 8
+  },
+  {
+   "km": 84,
+   "udzial": 0.057,
+   "popyt": 690,
+   "ogl_rynku": 10,
+   "wynik": 1561.0,
+   "region": "Łódzkie",
+   "name": "Łódź",
+   "city_id": 10609,
+   "region_id": 7
+  },
+  {
+   "km": 68,
+   "udzial": 0.046,
+   "popyt": 690,
+   "ogl_rynku": 7,
+   "wynik": 1369.0,
+   "region": "Łódzkie",
+   "name": "Piotrków Trybunalski",
+   "city_id": 13573,
+   "region_id": 7
+  },
+  {
+   "km": 218,
+   "udzial": 0.147,
+   "popyt": 650,
+   "ogl_rynku": 8,
+   "wynik": 1217.6,
+   "region": "Lubelskie",
+   "name": "Radzyń Podlaski",
+   "city_id": 14721,
+   "region_id": 8
+  },
+  {
+   "km": 95,
+   "udzial": 0.064,
+   "popyt": 650,
+   "ogl_rynku": 6,
+   "wynik": 1183.9,
+   "region": "Wielkopolskie",
+   "name": "Ostrów Wielkopolski",
+   "city_id": 70249,
+   "region_id": 1
+  },
+  {
+   "km": 130,
+   "udzial": 0.088,
+   "popyt": 650,
+   "ogl_rynku": 6,
+   "wynik": 1153.4,
+   "region": "Wielkopolskie",
+   "name": "Konin",
+   "city_id": 8523,
+   "region_id": 1
+  },
+  {
+   "km": 127,
+   "udzial": 0.086,
+   "popyt": 460,
+   "ogl_rynku": 9,
+   "wynik": 968.6,
+   "region": "Dolnośląskie",
+   "name": "Wrocław",
+   "city_id": 19701,
+   "region_id": 3
+  },
+  {
+   "km": 137,
+   "udzial": 0.093,
+   "popyt": 530,
+   "ogl_rynku": 6,
+   "wynik": 935.7,
+   "region": "Śląskie",
+   "name": "Bielsko-Biała",
+   "city_id": 3231,
+   "region_id": 6
+  }
+ ],
+ "kreda-nawozowa-sypka": [
+  {
+   "km": 84,
+   "udzial": 0.168,
+   "popyt": 520,
+   "ogl_rynku": 7,
+   "wynik": 899.7,
+   "region": "Mazowieckie",
+   "name": "Radom",
+   "city_id": 14673,
+   "region_id": 2
+  },
+  {
+   "km": 96,
+   "udzial": 0.191,
+   "popyt": 520,
+   "ogl_rynku": 5,
+   "wynik": 753.5,
+   "region": "Mazowieckie",
+   "name": "Zwoleń",
+   "city_id": 78099,
+   "region_id": 2
+  },
+  {
+   "km": 215,
+   "udzial": 0.43,
+   "popyt": 520,
+   "ogl_rynku": 10,
+   "wynik": 711.3,
+   "region": "Mazowieckie",
+   "name": "Płońsk",
+   "city_id": 92951,
+   "region_id": 2
+  },
+  {
+   "km": 216,
+   "udzial": 0.433,
+   "popyt": 520,
+   "ogl_rynku": 10,
+   "wynik": 707.1,
+   "region": "Mazowieckie",
+   "name": "Płock",
+   "city_id": 13663,
+   "region_id": 2
+  },
+  {
+   "km": 69,
+   "udzial": 0.138,
+   "popyt": 300,
+   "ogl_rynku": 7,
+   "wynik": 538.0,
+   "region": "Podkarpackie",
+   "name": "Mielec",
+   "city_id": 32399,
+   "region_id": 17
+  },
+  {
+   "km": 89,
+   "udzial": 0.177,
+   "popyt": 300,
+   "ogl_rynku": 6,
+   "wynik": 480.2,
+   "region": "Podkarpackie",
+   "name": "Dębica",
+   "city_id": 23239,
+   "region_id": 17
+  },
+  {
+   "km": 70,
+   "udzial": 0.14,
+   "popyt": 300,
+   "ogl_rynku": 4,
+   "wynik": 415.1,
+   "region": "Podkarpackie",
+   "name": "Tarnobrzeg",
+   "city_id": 56407,
+   "region_id": 17
+  },
+  {
+   "km": 160,
+   "udzial": 0.32,
+   "popyt": 300,
+   "ogl_rynku": 6,
+   "wynik": 397.3,
+   "region": "Podkarpackie",
+   "name": "Jarosław",
+   "city_id": 7127,
+   "region_id": 17
+  },
+  {
+   "km": 61,
+   "udzial": 0.122,
+   "popyt": 230,
+   "ogl_rynku": 4,
+   "wynik": 324.9,
+   "region": "Małopolskie",
+   "name": "Miechów",
+   "city_id": 11533,
+   "region_id": 4
+  },
+  {
+   "km": 63,
+   "udzial": 0.127,
+   "popyt": 230,
+   "ogl_rynku": 4,
+   "wynik": 323.2,
+   "region": "Małopolskie",
+   "name": "Proszowice",
+   "city_id": 71541,
+   "region_id": 4
+  }
+ ],
+ "kreda-nawozowa-granulowana": [
+  {
+   "km": 49,
+   "udzial": 0.03,
+   "popyt": 520,
+   "ogl_rynku": 10,
+   "wynik": 1209.5,
+   "region": "Mazowieckie",
+   "name": "Sokołów Podlaski",
+   "city_id": 15963,
+   "region_id": 2
+  },
+  {
+   "km": 198,
+   "udzial": 0.121,
+   "popyt": 520,
+   "ogl_rynku": 13,
+   "wynik": 1206.3,
+   "region": "Mazowieckie",
+   "name": "Mława",
+   "city_id": 102207,
+   "region_id": 2
+  },
+  {
+   "km": 40,
+   "udzial": 0.025,
+   "popyt": 300,
+   "ogl_rynku": 7,
+   "wynik": 608.4,
+   "region": "Podkarpackie",
+   "name": "Mielec",
+   "city_id": 32399,
+   "region_id": 17
+  },
+  {
+   "km": 39,
+   "udzial": 0.024,
+   "popyt": 300,
+   "ogl_rynku": 6,
+   "wynik": 569.9,
+   "region": "Podkarpackie",
+   "name": "Dębica",
+   "city_id": 23239,
+   "region_id": 17
+  },
+  {
+   "km": 46,
+   "udzial": 0.028,
+   "popyt": 180,
+   "ogl_rynku": 8,
+   "wynik": 384.5,
+   "region": "Lubelskie",
+   "name": "Radzyń Podlaski",
+   "city_id": 14721,
+   "region_id": 8
+  },
+  {
+   "km": 134,
+   "udzial": 0.082,
+   "popyt": 250,
+   "ogl_rynku": 4,
+   "wynik": 369.4,
+   "region": "Śląskie",
+   "name": "Katowice",
+   "city_id": 7691,
+   "region_id": 6
+  },
+  {
+   "km": 43,
+   "udzial": 0.026,
+   "popyt": 230,
+   "ogl_rynku": 4,
+   "wynik": 360.4,
+   "region": "Małopolskie",
+   "name": "Proszowice",
+   "city_id": 71541,
+   "region_id": 4
+  },
+  {
+   "km": 66,
+   "udzial": 0.04,
+   "popyt": 230,
+   "ogl_rynku": 4,
+   "wynik": 355.4,
+   "region": "Małopolskie",
+   "name": "Miechów",
+   "city_id": 11533,
+   "region_id": 4
+  }
+ ],
+ "weglanowe-odmiana-04": [
+  {
+   "km": 85,
+   "udzial": 0.372,
+   "popyt": 570,
+   "ogl_rynku": 7,
+   "wynik": 744.2,
+   "region": "Mazowieckie",
+   "name": "Radom",
+   "city_id": 14673,
+   "region_id": 2
+  },
+  {
+   "km": 99,
+   "udzial": 0.433,
+   "popyt": 570,
+   "ogl_rynku": 5,
+   "wynik": 579.3,
+   "region": "Mazowieckie",
+   "name": "Zwoleń",
+   "city_id": 78099,
+   "region_id": 2
+  },
+  {
+   "km": 66,
+   "udzial": 0.29,
+   "popyt": 570,
+   "ogl_rynku": 3,
+   "wynik": 560.7,
+   "region": "Mazowieckie",
+   "name": "Iłża",
+   "city_id": 115571,
+   "region_id": 2
+  },
+  {
+   "km": 71,
+   "udzial": 0.311,
+   "popyt": 570,
+   "ogl_rynku": 3,
+   "wynik": 544.5,
+   "region": "Mazowieckie",
+   "name": "Przysucha",
+   "city_id": 53591,
+   "region_id": 2
+  },
+  {
+   "km": 95,
+   "udzial": 0.415,
+   "popyt": 270,
+   "ogl_rynku": 6,
+   "wynik": 307.2,
+   "region": "Podkarpackie",
+   "name": "Dębica",
+   "city_id": 23239,
+   "region_id": 17
+  },
+  {
+   "km": 45,
+   "udzial": 0.197,
+   "popyt": 230,
+   "ogl_rynku": 4,
+   "wynik": 297.3,
+   "region": "Małopolskie",
+   "name": "Miechów",
+   "city_id": 11533,
+   "region_id": 4
+  },
+  {
+   "km": 78,
+   "udzial": 0.342,
+   "popyt": 250,
+   "ogl_rynku": 5,
+   "wynik": 294.5,
+   "region": "Wielkopolskie",
+   "name": "Kępno",
+   "city_id": 135303,
+   "region_id": 1
+  },
+  {
+   "km": 78,
+   "udzial": 0.34,
+   "popyt": 270,
+   "ogl_rynku": 4,
+   "wynik": 286.8,
+   "region": "Podkarpackie",
+   "name": "Tarnobrzeg",
+   "city_id": 56407,
+   "region_id": 17
+  },
+  {
+   "km": 73,
+   "udzial": 0.319,
+   "popyt": 250,
+   "ogl_rynku": 4,
+   "wynik": 273.9,
+   "region": "Śląskie",
+   "name": "Katowice",
+   "city_id": 7691,
+   "region_id": 6
+  },
+  {
+   "km": 75,
+   "udzial": 0.33,
+   "popyt": 190,
+   "ogl_rynku": 7,
+   "wynik": 264.6,
+   "region": "Łódzkie",
+   "name": "Piotrków Trybunalski",
+   "city_id": 13573,
+   "region_id": 7
+  }
+ ],
+ "kreda-pastewna": [
+  {
+   "km": 200,
+   "udzial": 0.264,
+   "popyt": 480,
+   "ogl_rynku": 10,
+   "wynik": 847.4,
+   "region": "Mazowieckie",
+   "name": "Płock",
+   "city_id": 13663,
+   "region_id": 2
+  },
+  {
+   "km": 210,
+   "udzial": 0.276,
+   "popyt": 480,
+   "ogl_rynku": 10,
+   "wynik": 832.8,
+   "region": "Mazowieckie",
+   "name": "Płońsk",
+   "city_id": 92951,
+   "region_id": 2
+  },
+  {
+   "km": 264,
+   "udzial": 0.347,
+   "popyt": 480,
+   "ogl_rynku": 13,
+   "wynik": 826.9,
+   "region": "Mazowieckie",
+   "name": "Mława",
+   "city_id": 102207,
+   "region_id": 2
+  },
+  {
+   "km": 219,
+   "udzial": 0.289,
+   "popyt": 480,
+   "ogl_rynku": 10,
+   "wynik": 818.9,
+   "region": "Mazowieckie",
+   "name": "Sokołów Podlaski",
+   "city_id": 15963,
+   "region_id": 2
+  },
+  {
+   "km": 180,
+   "udzial": 0.236,
+   "popyt": 260,
+   "ogl_rynku": 6,
+   "wynik": 386.3,
+   "region": "Wielkopolskie",
+   "name": "Ostrów Wielkopolski",
+   "city_id": 70249,
+   "region_id": 1
+  },
+  {
+   "km": 149,
+   "udzial": 0.196,
+   "popyt": 260,
+   "ogl_rynku": 5,
+   "wynik": 374.4,
+   "region": "Wielkopolskie",
+   "name": "Kępno",
+   "city_id": 135303,
+   "region_id": 1
+  }
+ ]
+}

@@ -14,7 +14,7 @@
 |---|---|
 | Kto wystawia | **My, przez Partner API.** Każdy zapis na koncie klienta po jego „ok" |
 | Pakiet | **Premium 100 w kategorii Nawozy — 719,99 zł brutto/mies.** |
-| Wycena Auranet | **Setup 1 500 zł netto jednorazowo + 300 zł netto/mies.** Zatwierdzone przez Janka 07.08 |
+| Wycena Auranet | **Setup 1 800 zł netto jednorazowo + 300 zł netto/mies.** Zatwierdzone przez Janka 07.08 |
 | Panel OLX | Odczytany 07.08 z zalogowanego konta AGRII |
 
 ### Dlaczego setup ciężki, a prowadzenie lekkie
@@ -31,9 +31,88 @@ Wniosek: przy opłaconym pakiecie i auto_extend na wszystkich ogłoszeniach **ka
 | Rewizja sezonowa asortymentu i siatki miast | 2–3× w roku (listopad: wapno palone; grudzień–marzec: paszarstwo i budownictwo) |
 | Aktualizacja cen po nowym cenniku Pawła | jedna komenda `--update`, minuty |
 
-Stąd 300 zł/mies., nie 800. Setup 1 500 zł pokrywa research z 07.08 (panel, 1 204 ogłoszenia rynku, regulamin, korekty cenowe), 100 gotowych ogłoszeń z parametrami i zdjęciami, pipeline API oraz uruchomiony pomiar. **Dzisiejszy czas jest zaszyty w setupie — bez osobnej pozycji „analiza" w mailu.**
+Stąd 300 zł/mies., nie 800. **Dzisiejszy czas jest zaszyty w setupie — bez osobnej pozycji „analiza" w mailu.**
 
 Rewizja sezonowa nie wchodzi do tej wyceny — pojawi się jako osobna pozycja, gdy wypadnie (najbliższa: listopad).
+
+### Co obejmuje setup 1 800 zł — rozpiska
+
+| Blok | Zakres |
+|---|---|
+| Rozpoznanie kanału | Spięcie Partner API z kontem AGRII, inwentaryzacja 20 ogłoszeń i ich statystyk, ustalenie mechaniki pakietów i `auto_extend` z panelu, cennik pakietów i promowań, przegląd regulaminu pod kątem geo-multiplikacji, danych kontaktowych i linków |
+| Analiza rynku | 2 486 ogłoszeń z dwóch podkategorii, 544 sprzedawców — profile liderów, rotacja, promowanie, struktura tytułów, ceny sprowadzone do porównywalnych (loco, za tonę) |
+| Model doboru miejscowości | Wolumen wyszukiwań per województwo z DataForSEO, zakłady wysyłkowe per produkt z kart produktowych, koszt transportu jako udział w cenie tony → siatka liczona, nie zgadywana |
+| Treści | 10 pozycji asortymentowych, tytuły pod intencję, opisy z parametrami zaciąganymi z kart produktowych, ceny z jednostką i klauzulą, dobór zdjęć per produkt z kitu brandowego |
+| Narzędzia | Generator ogłoszeń i pipeline wystawiania przez API, rejestr chroniący przed dublowaniem, tryb aktualizacji treści i cen na wszystkich ogłoszeniach naraz |
+| Pomiar | Baseline statystyk konta, cotygodniowy snapshot przyrostowy, monitoring konkurencji z diffem tydzień do tygodnia |
+
+Stan na wieczór 07.08: **rozpoznanie, analiza rynku, model doboru miejscowości, treści, narzędzia i pomiar — zrobione.** Pilot wystawiony i zweryfikowany. Zostaje masówka po zakupie pakietu.
+
+### Co obejmuje 300 zł/mies — rozpiska
+
+| Czynność | Rytm |
+|---|---|
+| Snapshot statystyk własnych ogłoszeń + odczyt przyrostu | co tydzień, zautomatyzowane |
+| **Monitoring konkurencji**: kto wszedł i wypadł, czy podmieniają tytuły, czy przestawiają miejscowości, ile odświeżają, czy zaczynają promować | co tydzień, zautomatyzowane, `market_snapshot.py --diff-last` |
+| Wygaszenie ofert bez wyników, powielenie działających | raz w miesiącu |
+| Aktualizacja cen po nowym cenniku | na żądanie, jedna komenda na wszystkie ogłoszenia |
+| Przypomnienie o odnowieniu pakietu przed wygaśnięciem | co miesiąc |
+
+### Monitoring konkurencji — co konkretnie mierzymy
+
+Baseline zebrany 07.08: `data/olx/market/2026-08-07.json`, **2 486 ogłoszeń od 544 sprzedawców** z kategorii Nawozy i Pozostałe rolnicze. OLX nie udostępnia statystyk cudzych ogłoszeń, ale publiczne API oddaje `created_time` i `last_refresh_time`, więc mierzalne jest:
+
+| Sprzedawca | Ogłoszeń | Unikalnych tytułów | Miast | Promowanych | Mediana wieku ogłoszenia |
+|---|---|---|---|---|---|
+| 699-712-071 | **510** | 55 | 361 | 0 | 240 dni |
+| AGRO-KOTYNIA | 162 | 9 | 162 | 25 | **1 670 dni** |
+| Ewelina | 103 | 7 | 101 | 0 | **0,3 dnia** |
+| PPHU „Marcin" | 100 | 90 | 91 | 0 | **2 706 dni** |
+| EMPRO | 99 | 44 | 96 | 0 | 931 dni |
+| Wapna Świętokrzyskie | 39 | 39 | 36 | 14 | — |
+
+Widać z tego dwie różne strategie: **utrzymywanie tych samych ogłoszeń latami** (AGRO-KOTYNIA 4,5 roku, PPHU Marcin 7,4 roku) wobec **kasowania i wystawiania od nowa** (Ewelina — 103 ogłoszenia o medianie wieku 0,3 dnia). Pierwsza buduje staż, druga daje świeżą datę kosztem jednostek pakietu. Nasze dane własne sugerują, że staż ma znaczenie (trzy najstarsze ogłoszenia AGRII odpowiadają za 71% kontaktów), więc idziemy pierwszą drogą.
+
+**Czego świadomie nie twierdzimy:** 94% ogłoszeń w kategorii ma `last_refresh_time` młodszy niż 3 dni. Kuszące jest wywnioskowanie, że wszyscy codziennie płacą za odświeżanie — ale przy 544 sprzedawcach, w tym drobnych prywatnych, to nieprawdopodobne. Bardziej prawdopodobne, że pole odzwierciedla też odświeżenia po stronie OLX. **Nie budujemy na tym wniosków** — rozstrzygnie to dopiero różnica między snapshotami, pierwsza 14.08.
+
+### Ile konkurenci mogą z tego mieć — ostrożnie
+
+Podstawiając nasz zmierzony wskaźnik (22,4 wyświetlenia na ogłoszenie miesięcznie, CR 3,35% na telefon):
+
+| Sprzedawca | Ogłoszeń | Szacowane wyświetlenia/mies. | Szacowane telefony/mies. | Koszt pakietu/mies. |
+|---|---|---|---|---|
+| 699-712-071 | 510 | ~11 400 | ~380 | ~3 600 zł (3 pakiety) |
+| AGRO-KOTYNIA | 162 | ~3 600 | ~120 | ~1 200 zł |
+| **AGRIA po zmianie** | **100** | **~2 240** | **~75** | **720 zł** |
+
+**Ile z tych telefonów zamienia się w zamówienia — nie wiemy i nie udajemy, że wiemy.** To zależy od ceny, dostępności i transportu, czyli od rzeczy poza kanałem. Ale sam koszt kontaktu — rzędu 10 zł — mówi, dlaczego ci ludzie utrzymują setki ogłoszeń latami.
+
+### Siatka miast — dlaczego wygląda tak, a nie inaczej
+
+Pierwsza wersja siatki była dobrana ręcznie „pod stawy" i „pod rolnictwo". **To było zgadywanie i zostało wyrzucone.** Obecna (`scripts/olx/grid.py` → `data/olx/siatka-miast.json`) liczy się z trzech rzeczy:
+
+1. **Popyt per województwo** — wolumen wyszukiwań 11 fraz w 16 województwach (DataForSEO, Google Ads, pull 07.08). Mazowieckie 3 010/mies., Śląskie 1 630, Małopolskie 1 450, na końcu Lubuskie 220 i Opolskie 250.
+2. **Zasięg miejscowości** — liczba **różnych** sprzedawców wystawiających tam wapno. Liczba ogłoszeń nie nadaje się na tę miarę: Łomianki mają ich 24, ale prawie wszystkie od jednego geo-spamera. Po przejściu na liczbę sprzedawców na czoło wychodzą realne ośrodki rolnicze: Lublin 15, Siedlce 13, Mława 13, Grójec 12, Kalisz 11, Kielce 11, Łomża 11.
+3. **Ekonomika transportu** — i to jest czynnik, który przesądza.
+
+**Sprzedajemy na tony loco magazyn, więc o zasięgu decyduje stosunek kosztu przewozu do ceny towaru.** Przy zestawie 24 t i stawce rzędu 6 zł/km wychodzi około **0,25 zł za tonę na kilometr** (*założenie do potwierdzenia u Pawła — on kwotuje transport indywidualnie, więc zna realną stawkę*). Przyjmując, że transport nie powinien przekraczać połowy ceny towaru:
+
+| Produkt | zł/t | Sensowny zasięg |
+|---|---|---|
+| Węglanowe z Mg odm. 05 | 36 | **72 km** |
+| Węglanowe odm. 04 | 57 | **114 km** |
+| Kreda nawozowa sypka | 125 | 250 km |
+| Kreda pastewna | 190 | 380 km |
+| Agrobielik 70 luz | 220 | 440 km |
+| Węglanowe granulowane | 350 | 700 km |
+| Agrobielik 90 / Oxyfertil 90 | 750–790 | cała Polska |
+| Wapno palone mielone | 950 | cała Polska |
+
+**Odpowiedź na pytanie „czy sprzedawanie tego do Gdańska ma sens": zależy od produktu.** Gdańsk to ~500 km od Niedomic. Dla wapna węglanowego po 57 zł/t transport wyniósłby ~125 zł na tonie — ponad dwukrotność ceny towaru. Bez sensu. Dla Agrobielika 90 po 750 zł/t to ~17% ceny — jak najbardziej. Dlatego **każdy produkt ma własną siatkę miast**, a nie jedną wspólną.
+
+Dochodzi rzecz, która wyszła dopiero przy tej analizie: **wysyłka nie idzie z Niedomic.** Karty produktowe wskazują różne zakłady per produkt — kreda nawozowa granulowana z Kornicy (08-205, pod Siedlcami), węglanowe odm. 04 z Góraźdżec i Tarnowa Opolskiego, kreda sypka z Pierzchnicy, kreda pastewna z Bukowej i Celin. Kreda granulowana ma więc do Siedlec 38 km, a nie 250.
+
+Efekt: **100 ogłoszeń w 33 miejscowościach, 8 województwach, maksymalnie 4 ogłoszenia na miasto.** Węższy zasięg geograficzny niż u liderów — ale to nie jest zaniedbanie, tylko konsekwencja tego, że sprzedajemy towar masowy loco. Model oznacza cztery ogłoszenia, w których transport zjada ponad 40% ceny (Dębica, Płock, Płońsk, Zwoleń) — do przejrzenia przy pierwszej korekcie.
 
 ### Skąd Premium 100, a nie Megapakiet
 
@@ -165,7 +244,7 @@ Promowanie wypada blado w porównaniu: jedno wyróżnienie na 30 dni kosztuje 10
 |---|---|---|
 | Pakiet 100 ogłoszeń OLX | AGRIA, bezpośrednio do OLX | **720 zł brutto miesięcznie** |
 | Wyróżnienia i promowania | — | **0 zł** — świadomie nie wchodzimy |
-| Uruchomienie kanału | Auranet | **1 500 zł netto, jednorazowo** |
+| Uruchomienie kanału | Auranet | **1 800 zł netto, jednorazowo** |
 | Prowadzenie | Auranet | **300 zł netto miesięcznie** |
 
 **720 zł to nie jest nasze wynagrodzenie** — te pieniądze idą w całości do OLX za publikację ogłoszeń, tak samo jak budżet reklamowy idzie do Google. Uwaga: pakiet jest ważny 30 dni, więc to opłata cykliczna, nie jednorazowa.
@@ -186,7 +265,15 @@ Warto przy tym wiedzieć, że przedłużanie działa **tylko dopóki pakiet jest
 
 **Co uruchamiamy:**
 
-**100 ogłoszeń: dziesięć produktów rozstawionych w 56 miejscowościach.** Dotychczas była to jedna oferta powielona na 18 miast — teraz każdy produkt dostaje własne ogłoszenie z własnymi parametrami, a miejscowości dobieramy pod segment: wapno do stawów w rejonach stawowych, kreda pastewna w rejonach drobiarskich, wapno na odkwaszanie w rejonach o intensywnej produkcji roślinnej.
+**100 ogłoszeń: dziesięć produktów rozstawionych w 33 miejscowościach.** Dotychczas była to jedna oferta powielona na 18 miast — teraz każdy produkt dostaje własne ogłoszenie z własnymi parametrami i **własną listą miejscowości**.
+
+Miejscowości nie dobieraliśmy na wyczucie. Policzyliśmy je z trzech rzeczy: ile razy w danym województwie ludzie szukają w Google Waszych produktów, ilu różnych sprzedawców wapna wystawia się w danym mieście, i — najważniejsze — **ile kosztuje tam dowieźć tonę w stosunku do jej ceny**.
+
+Ten trzeci czynnik przesądza. Sprzedajecie loco magazyn, a przewóz zestawu 24 t kosztuje mniej więcej 0,25 zł za tonę na każdy kilometr. Dla wapna węglanowego po 57 zł za tonę oznacza to, że po stu kilometrach transport dorównuje cenie towaru — więc ogłoszenie tego produktu w Gdańsku byłoby ogłoszeniem, z którego nikt nie kupi. Dla Agrobielika 90 po 750 zł za tonę ten sam Gdańsk to kilkanaście procent ceny, czyli normalna transakcja.
+
+Dlatego **każdy produkt ma inny zasięg**: węglanowe luzem trzymamy w promieniu stu kilometrów od zakładu, kredę sypką do dwustu pięćdziesięciu, a wapno tlenkowe 90 i palone mielone możemy wozić przez całą Polskę. Jedna uwaga: jeśli stawka 0,25 zł za tonokilometr jest u Was inna, dajcie znać — przeliczymy siatkę, bo to ona wyznacza całą geografię.
+
+Przy okazji wyszła rzecz przydatna: część produktów nie jedzie z Niedomic. Kreda nawozowa granulowana wysyłana jest z Kornicy pod Siedlcami, więc na Mazowszu i Podlasiu jest znacznie tańsza w dostawie, niż wynikałoby to z odległości od Tarnowa.
 
 Ogłoszenia dostają parametry prosto z kart produktowych ze strony — zawartość CaO, reaktywność, frakcję, dawkowanie, producenta — plus cenę **z jednostką i informacją, że jest netto loco magazyn**. To brzmi drobiazgowo, ale jest istotne: w tej kategorii większość ogłoszeń podaje w polu ceny liczbę bez jednostki, często zaniżoną, żeby wypaść wyżej przy sortowaniu po cenie. Na 1 204 ogłoszenia tylko 36 podaje cenę za tonę. Uczciwa cena z jednostką odróżnia ofertę od tych, które wyglądają tanio tylko na liście.
 
