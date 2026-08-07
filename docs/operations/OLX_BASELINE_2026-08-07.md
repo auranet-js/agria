@@ -142,3 +142,44 @@ Regulamin Serwisu OLX.pl, pkt 4 „Zasady publikacji Ogłoszeń":
 4. **Adres WWW — droga jest, ale nie w opisie.** Zakaz z regulaminu dotyczy odnośników *„prowadzących Użytkowników do serwisów świadczących takie same lub podobne usługi jak Grupa OLX"*, czyli konkurencyjnych serwisów ogłoszeniowych; agria.pl nim nie jest. Sformułowanie jest jednak na tyle szerokie, że **nie warto tego testować w opisie**. Bezpieczna droga jest jawna: **„Link do zewnętrznej strony WWW" to funkcja pakietu** (Start i Premium) — link z UTM idzie na **Stronę firmową OLX**.
 
    Zastrzeżenie do QR-kodu na grafikach: regulamin mówi wprost, że *„Treść Ogłoszenia stanowią również dodane w ramach niego zdjęcia oraz tytuł"* — więc QR formalnie jest treścią ogłoszenia. Chodzi tam od roku bez interwencji OLX, ale to jest tolerancja, nie zgoda. Zostawiamy, dokładając UTM, i nie budujemy na nim jedynej ścieżki pomiaru.
+
+## 7. Pomiar po stronie strony — znaleziona przyczyna martwej analityki
+
+Prompt kazał sprawdzić, czy w ogóle cokolwiek mierzymy, zanim zaczniemy mierzyć OLX. Sprawdziłem — **nie mierzymy**, i wiadomo dlaczego.
+
+### Skala rozjazdu
+
+| Okres | GA4 | GSC |
+|---|---|---|
+| lipiec 2026 | 148 sesji, z tego **5 z Organic Search** | **221 kliknięć** |
+| 90 dni (10.05–07.08) | 206 sesji: 187 direct, 8 google/organic, 1 ecosia, 1 brave | — |
+
+**Osiem sesji organicznych w trzy miesiące** wobec 221 kliknięć w samym lipcu. To nie jest przesunięta atrybucja — to brak pomiaru.
+
+Przy okazji: `/kalkulator-wapnowania/`, czyli cel QR-kodu z ogłoszeń OLX, ma **5 odsłon w 90 dni**. Sesji ze źródłem zawierającym „olx" — **zero w dwunastu miesiącach**.
+
+### Przyczyna
+
+Kontener GTM-TDC85TQN jest wpięty na każdej stronie i **opublikowany** (wersja 4), tag „GA4 – Google Tag" odpala się na All Pages, wszystkie 9 tagów aktywne. Konfiguracja jest poprawna. Problem jest jedno piętro wyżej — w tagu „Consent Default Denied", który odpala się na Consent Initialization:
+
+```js
+gtag('consent', 'default', {
+  'ad_storage': 'denied', 'ad_user_data': 'denied',
+  'ad_personalization': 'denied', 'analytics_storage': 'denied',
+  'wait_for_update': 500, 'region': ['EEA','PL']
+});
+```
+
+To jest poprawne domyślne ustawienie Consent Mode v2. Brakuje drugiej połowy: **na agria.pl nie ma żadnego mechanizmu, który kiedykolwiek wywoła `gtag('consent','update', … granted)`.** W renderze nie ma banera zgody ani żadnego CMP — z wtyczek widoczne są wyłącznie Elementor, Elementor Pro i WooCommerce (GTM jest wpięty przez Elementor Custom Code, świadomie bez GTM4WP/Complianz).
+
+Efekt: dla każdego odwiedzającego z Polski `analytics_storage` zostaje `denied` **na zawsze**. GA4 działa w trybie bezcookie'owych pingów — nie ma identyfikatora użytkownika, nie ma ciągłości sesji, nie ma na czym oprzeć atrybucji źródła. Stąd 90% „Direct" i stąd garść sesji zamiast setek.
+
+### Co to znaczy dla OLX
+
+**UTM-y w linkach zrobimy i mają sens** — parametry z adresu trafiają do pingu niezależnie od cookies, więc ruch z OLX będzie rozpoznawalny co do źródła. Ale będzie **mocno zaniżony ilościowo**, dopóki zgoda nie zacznie być udzielana.
+
+Dlatego **głównym miernikiem kanału OLX zostają statystyki OLX** — `advert_views` i `phone_views` z Partner API, mierzone przyrostowo (§1). GA4 jest miernikiem pomocniczym i tak trzeba go opisać klientowi, zamiast obiecywać pomiar, którego dziś nie ma.
+
+### To jest zadanie poza OLX
+
+Wdrożenie CMP dotyczy całego projektu, nie tego wątku — bez niego nie mierzymy ani SEO, ani Ads, ani OLX. Jest to jednocześnie wymóg prawny (RODO/EAA), więc nie jest to wybór między „mierzyć" a „nie mierzyć", tylko między „mieć zgodę i mierzyć" a „nie mieć i nie mierzyć". **Do wpisania jako osobna pozycja w planie M3/M4** — tutaj tylko odnotowane, bo bez tego liczby w dokumencie dla AGRII byłyby obietnicą bez pokrycia.
