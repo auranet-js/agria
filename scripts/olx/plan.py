@@ -79,6 +79,7 @@ PRODUKTY = [
     {
         "wc_id": 310, "sku": "AGR-001", "karta": "agrobielik-70",
         "tytul": "Wapno do stawu — tlenkowe palone 70% CaO, atest, od 220 zł/t",
+        "lead": "Wapno tlenkowe palone do przygotowania stawu przed zalaniem i do zabiegów w sezonie. Podnosi pH wody, odkaża dno i przyspiesza mineralizację mułu, zwiększając pojemność użytkową stawu. Reakcja egzotermiczna — działanie widoczne w 2–3 tygodnie.",
         "intencja": "rybactwo — pH wody, mineralizacja mułu",
         "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem (całopojazdowo), 400 zł/t w big-bag",
         "pule": ["stawy"], "ile": 14,
@@ -87,6 +88,7 @@ PRODUKTY = [
     {
         "wc_id": 310, "sku": "AGR-001", "karta": "agrobielik-70",
         "tytul": "Odkwaszanie gleb ciężkich — wapno tlenkowe 70% CaO, od 220 zł/t",
+        "lead": "Wapno tlenkowe palone do szybkiego odkwaszania gleb średnich i ciężkich. Reaktywność bliska 100% oznacza, że efekt widać w 2–4 tygodnie, a nie w kolejnym sezonie. Uregulowany odczyn odblokowuje składniki pokarmowe już zalegające w glebie.",
         "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich",
         "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem (całopojazdowo), 400 zł/t w big-bag",
         "pule": ["gleby_ciezkie"], "ile": 12,
@@ -94,6 +96,7 @@ PRODUKTY = [
     {
         "wc_id": 311, "sku": "AGR-002", "karta": "agrobielik-90",
         "tytul": "Wapno tlenkowe 90% CaO — frakcja 0–3 i 2–8 mm, od 750 zł/t",
+        "lead": "Najwyższa koncentracja tlenku wapnia w ofercie — 90% CaO. Wyższa koncentracja to mniejsza dawka na hektar i mniej ton do przewiezienia i rozsiania. Dostępne w dwóch frakcjach: 0–3 mm do szybkiego działania i 2–8 mm do wysiewu rozsiewaczem.",
         "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar",
         "cena_pole": 750, "cena_opis": "0–3 mm: 750 zł/t luz, 850 zł/t big-bag · 2–8 mm: 850 / 940 zł/t",
         "pule": ["gleby_ciezkie", "wielkopolska"], "ile": 10,
@@ -102,6 +105,7 @@ PRODUKTY = [
     {
         "wc_id": 312, "sku": "AGR-003", "karta": "oxyfertil-90",
         "tytul": "Oxyfertil 90 — wapno tlenkowe 90% CaO w big-bag, od 790 zł/t",
+        "lead": "Wapno tlenkowe 90% CaO w big-bagach, sprzedawane od jednej tony — bez minimum całopojazdowego. Rozwiązanie dla gospodarstw, które potrzebują wysokiej koncentracji CaO, ale nie zamawiają 24 ton naraz.",
         "intencja": "rolnictwo — dostawa od 1 tony, bez całopojazdowego minimum",
         "cena_pole": 790, "cena_opis": "790 zł/t netto, big-bag od 1 tony",
         "pule": ["wielkopolska", "mazowsze"], "ile": 8,
@@ -109,6 +113,7 @@ PRODUKTY = [
     {
         "wc_id": 314, "sku": "AGR-008", "karta": "weglanowe-granulowane",
         "tytul": "Wapno granulowane pod rzepak i zboża — wysiew rozsiewaczem, od 350 zł/t",
+        "lead": "Wapno węglanowe w granulacie — do wysiewu własnym rozsiewaczem nawozów, bez usługi wapnowania i bez pylenia. Pozwala wapnować w terminie, który pasuje do zabiegu, a nie do dostępności usługodawcy.",
         "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania",
         "cena_pole": 350, "cena_opis": "350 zł/t big-bag od 1 t · 380 zł/t w workach 25 kg",
         "pule": ["wielkopolska", "mazowsze"], "ile": 12,
@@ -116,6 +121,7 @@ PRODUKTY = [
     {
         "wc_id": 317, "sku": "AGR-011", "karta": "weglanowe-magnez-granulowane",
         "tytul": "Wapno granulowane z magnezem — uzupełnienie MgO, od 370 zł/t",
+        "lead": "Wapno węglanowo-magnezowe w granulacie — odkwasza i jednocześnie uzupełnia magnez. Do gleb lekkich i stanowisk z rozpoznanym niedoborem MgO. Wysiew własnym rozsiewaczem.",
         "intencja": "rolnictwo — niedobory magnezu, gleby lekkie",
         "cena_pole": 370, "cena_opis": "370 zł/t big-bag od 1 t · 410 zł/t w workach 25 kg",
         "pule": ["wielkopolska", "poludnie_zachod"], "ile": 10,
@@ -123,6 +129,7 @@ PRODUKTY = [
     {
         "wc_id": 306, "sku": "AGR-014", "karta": "kreda-nawozowa-sypka",
         "tytul": "Kreda nawozowa luzem — odkwaszanie całopojazdowe, od 125 zł/t",
+        "lead": "Kreda nawozowa luzem do odkwaszania większych areałów. Węglanowa forma działa łagodnie i długo, bez ryzyka poparzenia roślin. Dostawa całopojazdowa 24 t.",
         "intencja": "rolnictwo — duże areały, dostawa 24 t",
         "cena_pole": 125, "cena_opis": "125 zł/t netto luzem, dostawa całopojazdowa 24 t",
         "pule": ["gleby_ciezkie", "mazowsze"], "ile": 10,
@@ -130,6 +137,7 @@ PRODUKTY = [
     {
         "wc_id": 305, "sku": "AGR-013", "karta": "kreda-nawozowa-granulowana",
         "tytul": "Kreda nawozowa granulowana — big-bag od 1 t, od 410 zł/t",
+        "lead": "Kreda nawozowa w granulacie, big-bag od jednej tony. Łagodne, rozłożone w czasie odkwaszanie przy wysiewie własnym rozsiewaczem — dla gospodarstw, które nie zamawiają dostaw całopojazdowych.",
         "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem",
         "cena_pole": 410, "cena_opis": "410 zł/t big-bag od 1 t · 490 zł/t w workach 25 kg",
         "pule": ["poludnie_zachod", "wielkopolska"], "ile": 8,
@@ -137,6 +145,7 @@ PRODUKTY = [
     {
         "wc_id": 315, "sku": "AGR-006", "karta": "weglanowe-odmiana-04",
         "tytul": "Wapno węglanowe odm. 04 luzem — 57 zł/t netto loco, dostawa 24 t",
+        "lead": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.",
         "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar",
         "cena_pole": 57, "cena_opis": "57 zł/t netto loco magazyn, dostawa całopojazdowa 24 t",
         "pule": ["mazowsze", "poludnie_zachod"], "ile": 10,
@@ -145,6 +154,7 @@ PRODUKTY = [
     {
         "wc_id": 307, "sku": "AGR-015", "karta": "kreda-pastewna",
         "tytul": "Kreda pastewna dla bydła i drobiu — wapń w paszy, od 190 zł/t",
+        "lead": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.",
         "intencja": "paszarstwo — suplementacja wapnia",
         "cena_pole": 190, "cena_opis": "190 zł/t netto luzem · 610 zł/t w workach 30 kg",
         "pule": ["paszarstwo"], "ile": 6,
@@ -230,7 +240,7 @@ if __name__ == "__main__":
         for c in pick_cities(p["pule"], p["ile"], city_idx, used):
             plan.append({
                 "wc_id": p["wc_id"], "sku": p["sku"], "karta": p["karta"],
-                "title": p["tytul"], "intencja": p["intencja"],
+                "title": p["tytul"], "lead": p["lead"], "intencja": p["intencja"],
                 "category_id": CAT_NAWOZY,
                 "price": p["cena_pole"], "cena_opis": p["cena_opis"],
                 "city": c["name"], "city_id": c["city_id"], "region_id": c["region_id"],
