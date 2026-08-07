@@ -133,7 +133,11 @@ if __name__ == "__main__":
             "category_id": row["category_id"],
             "advertiser_type": "business",
             "external_id": f"agria-{row['sku']}-{row['city_id']}",
-            "contact": {"name": "AGRIA Sp. z o.o."},
+            # Telefon MUSI tu być: pominięty w pilocie dał ogłoszenie bez numeru, czyli bez
+            # kanału, który odpowiada za wszystkie 209 kontaktów na tym koncie. To jest
+            # jednocześnie właściwe miejsce na dane kontaktowe wg regulaminu — pole formularza,
+            # nie treść opisu.
+            "contact": {"name": "AGRIA Sp. z o.o.", "phone": "664 393 062"},
             "location": {"city_id": row["city_id"]},
             "images": zdjecia,
             "price": {"value": row["price"], "currency": "PLN", "negotiable": True},
