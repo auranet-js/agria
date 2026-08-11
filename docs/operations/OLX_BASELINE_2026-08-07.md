@@ -80,6 +80,27 @@ To domyka pytanie z inwentaryzacji: **17 ogłoszeń wygasło 18.07 z końcem 30-
 
 I daje drugą, ważniejszą rzecz: **AGRIA kupowała pakiety pięć razy w ciągu trzynastu miesięcy, nieregularnie.** Ogłoszenia były więc na antenie mniej więcej **150 dni z 395** — mniej niż 40% czasu. Dlatego przelicznik „wyświetlenia ÷ wiek ogłoszenia" z §2 zaniża tempo o czynnik rzędu **2,5×**. To nie jest kanał, który „słabo działał" — to kanał włączany co jakiś czas.
 
+### Ścieżka zakupu — zweryfikowana na żywo w panelu (11.08)
+
+Panel → Pakiety → **Kup pakiet ogłoszeń** → kategoria **Rolnictwo** → z listy podkategorii **Nawozy**
+→ ekran „Kup pakiet" z suwakiem liczby ogłoszeń i trzema wariantami. To nie jest teoria z Centrum
+Pomocy, tylko przeklikana ścieżka na koncie AGRII (bez finalizacji zakupu).
+
+Co pokazuje ekran przy **200 ogłoszeniach**:
+
+| Wariant | Cena | Za ogłoszenie | Uwagi |
+|---|---|---|---|
+| Start | **niedostępny** | — | „Pakiet dostępny dla: 5, 10, 20 ogłoszeń" |
+| **Premium** | **1 199,99 zł** | **6,00 zł** | 1× odświeżenie każdego ogłoszenia, 90 dni statystyk, logo i baner, ulepszona ministrona |
+| Mega | 2 199,99 zł | 11,00 zł | 2× odświeżenie, poza tym to samo |
+
+**Maksimum w jednym zakupie to 200 ogłoszeń** — suwak ma progi 5 / 10 / 20 / 50 / 100 / 200 i nic
+wyżej. Wejście na 400 wymagałoby dwóch zakupów i **nadal nie wiemy, czy się sumują** — tego nie da
+się sprawdzić inaczej niż kupując.
+
+Korekta wobec Centrum Pomocy: podawało tam Megapakiet 200 za 2 399,99 zł, a w panelu jest
+**2 199,99 zł**. Cena Premium 200 zgadza się co do grosza.
+
 ### Cennik pakietów (brutto, płatność online, stan 07.08.2026)
 
 | Liczba ogłoszeń | Start (Nawozy) | Premium (Nawozy) | Megapakiet |

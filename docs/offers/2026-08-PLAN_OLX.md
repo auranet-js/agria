@@ -107,7 +107,7 @@ Trzy zastrzeżenia, zanim ktokolwiek podniesie skalę:
 
 1. **Prognoza zakłada stały wskaźnik na ogłoszenie**, a to jest optymistyczne. Sto pierwszych miejscowości to te o najwyższym popycie; dwusetna i trzysetna są niżej w rankingu i będą pracować słabiej. Ile słabiej — nie wiemy.
 2. **Cały rachunek stoi na kohorcie 16 ogłoszeń.** Podnoszenie stawki pięciokrotnie na niesprawdzonym wskaźniku to ryzyko po stronie klienta, nie naszej.
-3. **Nie zweryfikowaliśmy, czy dwa pakiety w jednej kategorii sumują się na jednym koncie.** Do sprawdzenia przed rekomendacją 300+.
+3. **Maksimum w jednym zakupie to 200 ogłoszeń** — zweryfikowane 11.08 w panelu, suwak ma progi 5/10/20/50/100/200 i nic wyżej. Wejście na 400 to dwa osobne zakupy i **nadal nie wiadomo, czy się sumują**; sprawdzić się tego nie da inaczej niż kupując.
 
 **Argument, który to wszystko zmienia: skalowanie w górę nie wymaga drugiego setupu.** Treści, model doboru miejscowości i narzędzia już są. Rozszerzenie ze 100 na 200 to zmiana jednej liczby w konfiguracji i dopłata do pakietu — nie kolejne 1 800 zł. Dlatego **100 to punkt pomiarowy, a nie sufit**, a decyzja o 200 jest krokiem za 480 zł dostępnym po pierwszym pomiarze.
 
