@@ -87,6 +87,32 @@ Podstawiając nasz zmierzony wskaźnik (22,4 wyświetlenia na ogłoszenie miesi�
 
 **Ile z tych telefonów zamienia się w zamówienia — nie wiemy i nie udajemy, że wiemy.** To zależy od ceny, dostępności i transportu, czyli od rzeczy poza kanałem. Ale sam koszt kontaktu — rzędu 10 zł — mówi, dlaczego ci ludzie utrzymują setki ogłoszeń latami.
 
+### Dlaczego 100, a nie 300 albo 500 — i ile by to kosztowało
+
+Pytanie zasadne, bo lider kategorii ma 510 ogłoszeń. **Sufit techniczny nas nie ogranicza:** po nałożeniu filtrów (miasto ma popyt w swoim województwie, jest tam co najmniej dwóch innych sprzedawców wapna, transport mieści się w połowie ceny tony) zostaje **2 708 sensownych kombinacji produkt–miejscowość**. Miejsca jest na kilkanaście razy więcej ogłoszeń, niż planujemy.
+
+Ogranicza nas cennik i brak zmierzonego wskaźnika. Pakiet Premium w Nawozach kończy się na 200 sztukach, więc powyżej trzeba składać z kilku:
+
+| Ogłoszeń | Pakiet brutto/mies. | zł za ogłoszenie | Szac. telefonów/mies. | Koszt kanału/mies. | Koszt kontaktu |
+|---|---|---|---|---|---|
+| 100 | 719,99 | 7,20 | ~75 | 1 020 zł | 13,59 zł |
+| **200** | **1 199,99** | **6,00** | ~150 | 1 500 zł | **9,99 zł** |
+| 300 | 1 919,98 | 6,40 | ~225 | 2 220 zł | 9,86 zł |
+| 400 | 2 399,98 | 6,00 | ~300 | 2 700 zł | 9,00 zł |
+| 500 | 3 119,97 | 6,24 | ~375 | 3 420 zł | 9,12 zł |
+
+Z tego wychodzi rzecz niewygodna dla rekomendacji „100": **200 ogłoszeń ma najniższy koszt jednostkowy w całej tabeli (6,00 zł) i kosztuje tylko 480 zł więcej niż 100.** Powyżej dwustu koszt jednostkowy przestaje spadać, bo składamy pakiety z progów.
+
+Trzy zastrzeżenia, zanim ktokolwiek podniesie skalę:
+
+1. **Prognoza zakłada stały wskaźnik na ogłoszenie**, a to jest optymistyczne. Sto pierwszych miejscowości to te o najwyższym popycie; dwusetna i trzysetna są niżej w rankingu i będą pracować słabiej. Ile słabiej — nie wiemy.
+2. **Cały rachunek stoi na kohorcie 16 ogłoszeń.** Podnoszenie stawki pięciokrotnie na niesprawdzonym wskaźniku to ryzyko po stronie klienta, nie naszej.
+3. **Nie zweryfikowaliśmy, czy dwa pakiety w jednej kategorii sumują się na jednym koncie.** Do sprawdzenia przed rekomendacją 300+.
+
+**Argument, który to wszystko zmienia: skalowanie w górę nie wymaga drugiego setupu.** Treści, model doboru miejscowości i narzędzia już są. Rozszerzenie ze 100 na 200 to zmiana jednej liczby w konfiguracji i dopłata do pakietu — nie kolejne 1 800 zł. Dlatego **100 to punkt pomiarowy, a nie sufit**, a decyzja o 200 jest krokiem za 480 zł dostępnym po pierwszym pomiarze.
+
+**Do decyzji Janka:** czy w mailu proponujemy 100 z jawnie zapisaną opcją wejścia na 200 po pierwszym pomiarze, czy od razu 200 — skoro jednostkowo jest tańsze, a różnica to 480 zł.
+
 ### Siatka miast — dlaczego wygląda tak, a nie inaczej
 
 Pierwsza wersja siatki była dobrana ręcznie „pod stawy" i „pod rolnictwo". **To było zgadywanie i zostało wyrzucone.** Obecna (`scripts/olx/grid.py` → `data/olx/siatka-miast.json`) liczy się z trzech rzeczy:
