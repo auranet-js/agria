@@ -1,6 +1,7 @@
 {
  "agrobielik-70-staw": [
   {
+   "zaklad": "Sitkówka",
    "km": 118,
    "udzial": 0.134,
    "popyt": 850,
@@ -13,6 +14,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 161,
    "udzial": 0.183,
    "popyt": 850,
@@ -25,6 +27,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 192,
    "udzial": 0.219,
    "popyt": 850,
@@ -37,6 +40,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 255,
    "udzial": 0.29,
    "popyt": 850,
@@ -49,6 +53,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.228,
    "popyt": 850,
@@ -61,6 +66,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.228,
    "popyt": 850,
@@ -73,6 +79,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.228,
    "popyt": 320,
@@ -85,6 +92,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Sitkówka",
    "km": 105,
    "udzial": 0.12,
    "popyt": 410,
@@ -97,6 +105,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Sitkówka",
    "km": 184,
    "udzial": 0.209,
    "popyt": 410,
@@ -109,6 +118,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Sitkówka",
    "km": 180,
    "udzial": 0.204,
    "popyt": 240,
@@ -121,6 +131,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Niedomice",
    "km": 106,
    "udzial": 0.12,
    "popyt": 350,
@@ -133,6 +144,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 137,
    "udzial": 0.156,
    "popyt": 410,
@@ -145,6 +157,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 16,
    "udzial": 0.018,
    "popyt": 350,
@@ -157,6 +170,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 70,
    "udzial": 0.079,
    "popyt": 350,
@@ -169,6 +183,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 124,
    "udzial": 0.141,
    "popyt": 410,
@@ -181,6 +196,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 61,
    "udzial": 0.069,
    "popyt": 350,
@@ -193,6 +209,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 148,
    "udzial": 0.168,
    "popyt": 240,
@@ -205,6 +222,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Niedomice",
    "km": 43,
    "udzial": 0.049,
    "popyt": 350,
@@ -217,6 +235,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 108,
    "udzial": 0.123,
    "popyt": 410,
@@ -229,6 +248,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Sitkówka",
    "km": 212,
    "udzial": 0.241,
    "popyt": 320,
@@ -241,6 +261,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Niedomice",
    "km": 29,
    "udzial": 0.033,
    "popyt": 350,
@@ -253,6 +274,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 222,
    "udzial": 0.252,
    "popyt": 320,
@@ -267,6 +289,7 @@
  ],
  "agrobielik-70-gleba": [
   {
+   "zaklad": "Sitkówka",
    "km": 118,
    "udzial": 0.134,
    "popyt": 1020,
@@ -279,6 +302,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 161,
    "udzial": 0.183,
    "popyt": 1020,
@@ -291,6 +315,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 192,
    "udzial": 0.219,
    "popyt": 1020,
@@ -303,6 +328,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 255,
    "udzial": 0.29,
    "popyt": 1020,
@@ -315,6 +341,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.228,
    "popyt": 1020,
@@ -327,6 +354,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.228,
    "popyt": 1020,
@@ -339,6 +367,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 105,
    "udzial": 0.12,
    "popyt": 530,
@@ -351,6 +380,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.228,
    "popyt": 370,
@@ -363,6 +393,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Sitkówka",
    "km": 184,
    "udzial": 0.209,
    "popyt": 530,
@@ -375,6 +406,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 106,
    "udzial": 0.12,
    "popyt": 470,
@@ -387,6 +419,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 16,
    "udzial": 0.018,
    "popyt": 470,
@@ -399,6 +432,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 137,
    "udzial": 0.156,
    "popyt": 530,
@@ -411,6 +445,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 70,
    "udzial": 0.079,
    "popyt": 470,
@@ -423,6 +458,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 180,
    "udzial": 0.204,
    "popyt": 280,
@@ -435,6 +471,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.091,
    "popyt": 360,
@@ -447,6 +484,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 61,
    "udzial": 0.069,
    "popyt": 470,
@@ -459,6 +497,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 124,
    "udzial": 0.141,
    "popyt": 530,
@@ -471,6 +510,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 43,
    "udzial": 0.049,
    "popyt": 470,
@@ -483,6 +523,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 40,
    "udzial": 0.046,
    "popyt": 360,
@@ -495,6 +536,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.091,
    "popyt": 360,
@@ -509,6 +551,7 @@
  ],
  "agrobielik-90": [
   {
+   "zaklad": "Sitkówka",
    "km": 192,
    "udzial": 0.064,
    "popyt": 1020,
@@ -521,6 +564,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 118,
    "udzial": 0.039,
    "popyt": 1020,
@@ -533,6 +577,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 161,
    "udzial": 0.054,
    "popyt": 1020,
@@ -545,6 +590,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 255,
    "udzial": 0.085,
    "popyt": 1020,
@@ -557,6 +603,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.067,
    "popyt": 370,
@@ -569,6 +616,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Sitkówka",
    "km": 105,
    "udzial": 0.035,
    "popyt": 530,
@@ -581,6 +629,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Sitkówka",
    "km": 184,
    "udzial": 0.061,
    "popyt": 530,
@@ -593,6 +642,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 106,
    "udzial": 0.035,
    "popyt": 470,
@@ -605,6 +655,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 137,
    "udzial": 0.046,
    "popyt": 530,
@@ -617,6 +668,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Sitkówka",
    "km": 180,
    "udzial": 0.06,
    "popyt": 280,
@@ -629,6 +681,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Niedomice",
    "km": 16,
    "udzial": 0.005,
    "popyt": 470,
@@ -641,6 +694,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 70,
    "udzial": 0.023,
    "popyt": 470,
@@ -653,6 +707,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 124,
    "udzial": 0.041,
    "popyt": 530,
@@ -665,6 +720,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.027,
    "popyt": 360,
@@ -677,6 +733,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 61,
    "udzial": 0.02,
    "popyt": 470,
@@ -689,6 +746,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.027,
    "popyt": 360,
@@ -701,6 +759,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 40,
    "udzial": 0.013,
    "popyt": 360,
@@ -713,6 +772,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Sitkówka",
    "km": 148,
    "udzial": 0.049,
    "popyt": 280,
@@ -727,6 +787,7 @@
  ],
  "oxyfertil-90": [
   {
+   "zaklad": "Niedomice",
    "km": 244,
    "udzial": 0.077,
    "popyt": 1020,
@@ -739,6 +800,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Niedomice",
    "km": 191,
    "udzial": 0.06,
    "popyt": 1020,
@@ -751,6 +813,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Niedomice",
    "km": 232,
    "udzial": 0.073,
    "popyt": 1020,
@@ -763,6 +826,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Tarnów Opolski",
    "km": 323,
    "udzial": 0.102,
    "popyt": 1020,
@@ -775,6 +839,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Tarnów Opolski",
    "km": 132,
    "udzial": 0.042,
    "popyt": 370,
@@ -787,6 +852,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Góraźdżce",
    "km": 52,
    "udzial": 0.016,
    "popyt": 530,
@@ -799,6 +865,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Góraźdżce",
    "km": 73,
    "udzial": 0.023,
    "popyt": 530,
@@ -811,6 +878,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 106,
    "udzial": 0.033,
    "popyt": 470,
@@ -823,6 +891,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Góraźdżce",
    "km": 106,
    "udzial": 0.033,
    "popyt": 530,
@@ -835,6 +904,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 218,
    "udzial": 0.069,
    "popyt": 280,
@@ -847,6 +917,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Niedomice",
    "km": 16,
    "udzial": 0.005,
    "popyt": 470,
@@ -859,6 +930,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 70,
    "udzial": 0.022,
    "popyt": 470,
@@ -871,6 +943,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Góraźdżce",
    "km": 73,
    "udzial": 0.023,
    "popyt": 530,
@@ -883,6 +956,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.025,
    "popyt": 360,
@@ -897,6 +971,7 @@
  ],
  "weglanowe-granulowane": [
   {
+   "zaklad": "Draby",
    "km": 164,
    "udzial": 0.117,
    "popyt": 1140,
@@ -909,6 +984,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Draby",
    "km": 195,
    "udzial": 0.139,
    "popyt": 1140,
@@ -921,6 +997,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Niedomice",
    "km": 244,
    "udzial": 0.175,
    "popyt": 1140,
@@ -933,6 +1010,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Draby",
    "km": 246,
    "udzial": 0.176,
    "popyt": 1140,
@@ -945,6 +1023,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Draby",
    "km": 91,
    "udzial": 0.065,
    "popyt": 480,
@@ -957,6 +1036,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Niedomice",
    "km": 218,
    "udzial": 0.156,
    "popyt": 460,
@@ -969,6 +1049,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Draby",
    "km": 84,
    "udzial": 0.06,
    "popyt": 550,
@@ -981,6 +1062,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.057,
    "popyt": 530,
@@ -993,6 +1075,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Draby",
    "km": 35,
    "udzial": 0.025,
    "popyt": 530,
@@ -1005,6 +1088,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 168,
    "udzial": 0.12,
    "popyt": 460,
@@ -1017,6 +1101,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Tarnów Opolski",
    "km": 56,
    "udzial": 0.04,
    "popyt": 530,
@@ -1029,6 +1114,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Draby",
    "km": 68,
    "udzial": 0.049,
    "popyt": 550,
@@ -1041,6 +1127,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Niedomice",
    "km": 106,
    "udzial": 0.076,
    "popyt": 530,
@@ -1053,6 +1140,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 40,
    "udzial": 0.029,
    "popyt": 530,
@@ -1065,6 +1153,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.057,
    "popyt": 530,
@@ -1077,6 +1166,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 16,
    "udzial": 0.011,
    "popyt": 530,
@@ -1089,6 +1179,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 39,
    "udzial": 0.028,
    "popyt": 530,
@@ -1101,6 +1192,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Draby",
    "km": 94,
    "udzial": 0.067,
    "popyt": 550,
@@ -1113,6 +1205,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Niedomice",
    "km": 70,
    "udzial": 0.05,
    "popyt": 530,
@@ -1125,6 +1218,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Draby",
    "km": 136,
    "udzial": 0.097,
    "popyt": 550,
@@ -1139,6 +1233,7 @@
  ],
  "weglanowe-magnez-granulowane": [
   {
+   "zaklad": "Draby",
    "km": 164,
    "udzial": 0.111,
    "popyt": 1360,
@@ -1151,6 +1246,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Draby",
    "km": 195,
    "udzial": 0.132,
    "popyt": 1360,
@@ -1163,6 +1259,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Niedomice",
    "km": 244,
    "udzial": 0.165,
    "popyt": 1360,
@@ -1175,6 +1272,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Draby",
    "km": 246,
    "udzial": 0.166,
    "popyt": 1360,
@@ -1187,6 +1285,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Draby",
    "km": 91,
    "udzial": 0.061,
    "popyt": 650,
@@ -1199,6 +1298,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Niedomice",
    "km": 218,
    "udzial": 0.147,
    "popyt": 650,
@@ -1211,6 +1311,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Niedomice",
    "km": 168,
    "udzial": 0.114,
    "popyt": 650,
@@ -1223,6 +1324,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Draby",
    "km": 84,
    "udzial": 0.057,
    "popyt": 690,
@@ -1235,6 +1337,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Draby",
    "km": 68,
    "udzial": 0.046,
    "popyt": 690,
@@ -1247,6 +1350,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Draby",
    "km": 94,
    "udzial": 0.063,
    "popyt": 690,
@@ -1259,6 +1363,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Draby",
    "km": 136,
    "udzial": 0.092,
    "popyt": 690,
@@ -1271,6 +1376,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Niedomice",
    "km": 160,
    "udzial": 0.108,
    "popyt": 650,
@@ -1283,6 +1389,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Draby",
    "km": 95,
    "udzial": 0.064,
    "popyt": 650,
@@ -1295,6 +1402,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Draby",
    "km": 130,
    "udzial": 0.088,
    "popyt": 650,
@@ -1307,6 +1415,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Draby",
    "km": 35,
    "udzial": 0.024,
    "popyt": 530,
@@ -1319,6 +1428,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Draby",
    "km": 63,
    "udzial": 0.043,
    "popyt": 650,
@@ -1331,6 +1441,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Niedomice",
    "km": 212,
    "udzial": 0.143,
    "popyt": 650,
@@ -1343,6 +1454,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Draby",
    "km": 121,
    "udzial": 0.082,
    "popyt": 530,
@@ -1357,6 +1469,7 @@
  ],
  "kreda-nawozowa-sypka": [
   {
+   "zaklad": "Pierzchnica",
    "km": 96,
    "udzial": 0.191,
    "popyt": 520,
@@ -1369,6 +1482,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 215,
    "udzial": 0.43,
    "popyt": 520,
@@ -1381,6 +1495,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 216,
    "udzial": 0.433,
    "popyt": 520,
@@ -1393,6 +1508,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 218,
    "udzial": 0.435,
    "popyt": 520,
@@ -1405,6 +1521,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 175,
    "udzial": 0.35,
    "popyt": 520,
@@ -1417,6 +1534,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 147,
    "udzial": 0.295,
    "popyt": 520,
@@ -1429,6 +1547,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 69,
    "udzial": 0.138,
    "popyt": 300,
@@ -1441,6 +1560,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 118,
    "udzial": 0.237,
    "popyt": 300,
@@ -1453,6 +1573,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 89,
    "udzial": 0.177,
    "popyt": 300,
@@ -1465,6 +1586,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 135,
    "udzial": 0.271,
    "popyt": 300,
@@ -1477,6 +1599,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 70,
    "udzial": 0.14,
    "popyt": 300,
@@ -1489,6 +1612,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 160,
    "udzial": 0.32,
    "popyt": 300,
@@ -1501,6 +1625,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 119,
    "udzial": 0.238,
    "popyt": 230,
@@ -1513,6 +1638,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 78,
    "udzial": 0.157,
    "popyt": 230,
@@ -1525,6 +1651,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 88,
    "udzial": 0.177,
    "popyt": 230,
@@ -1537,6 +1664,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Pierzchnica",
    "km": 143,
    "udzial": 0.286,
    "popyt": 180,
@@ -1551,6 +1679,7 @@
  ],
  "kreda-nawozowa-granulowana": [
   {
+   "zaklad": "Kornica",
    "km": 49,
    "udzial": 0.03,
    "popyt": 520,
@@ -1563,6 +1692,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Kornica",
    "km": 134,
    "udzial": 0.081,
    "popyt": 520,
@@ -1575,6 +1705,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Kornica",
    "km": 175,
    "udzial": 0.107,
    "popyt": 520,
@@ -1587,6 +1718,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Kornica",
    "km": 218,
    "udzial": 0.133,
    "popyt": 520,
@@ -1599,6 +1731,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.049,
    "popyt": 300,
@@ -1611,6 +1744,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 40,
    "udzial": 0.025,
    "popyt": 300,
@@ -1623,6 +1757,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 80,
    "udzial": 0.049,
    "popyt": 300,
@@ -1635,6 +1770,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Niedomice",
    "km": 39,
    "udzial": 0.024,
    "popyt": 300,
@@ -1647,6 +1783,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Kornica",
    "km": 105,
    "udzial": 0.064,
    "popyt": 180,
@@ -1659,6 +1796,7 @@
    "region_id": 8
   },
   {
+   "zaklad": "Niedomice",
    "km": 137,
    "udzial": 0.084,
    "popyt": 250,
@@ -1671,6 +1809,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 61,
    "udzial": 0.037,
    "popyt": 230,
@@ -1683,6 +1822,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Niedomice",
    "km": 134,
    "udzial": 0.082,
    "popyt": 250,
@@ -1695,6 +1835,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Niedomice",
    "km": 43,
    "udzial": 0.026,
    "popyt": 230,
@@ -1707,6 +1848,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Kornica",
    "km": 103,
    "udzial": 0.063,
    "popyt": 180,
@@ -1721,6 +1863,7 @@
  ],
  "weglanowe-odmiana-04": [
   {
+   "zaklad": "Celiny",
    "km": 99,
    "udzial": 0.433,
    "popyt": 570,
@@ -1733,6 +1876,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 66,
    "udzial": 0.29,
    "popyt": 570,
@@ -1745,6 +1889,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 71,
    "udzial": 0.311,
    "popyt": 570,
@@ -1757,6 +1902,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 85,
    "udzial": 0.372,
    "popyt": 570,
@@ -1769,6 +1915,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 106,
    "udzial": 0.466,
    "popyt": 570,
@@ -1781,6 +1928,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 91,
    "udzial": 0.401,
    "popyt": 570,
@@ -1793,6 +1941,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 76,
    "udzial": 0.332,
    "popyt": 270,
@@ -1805,6 +1954,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Celiny",
    "km": 95,
    "udzial": 0.415,
    "popyt": 270,
@@ -1817,6 +1967,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Tarnów Opolski",
    "km": 78,
    "udzial": 0.342,
    "popyt": 250,
@@ -1829,6 +1980,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Celiny",
    "km": 78,
    "udzial": 0.34,
    "popyt": 270,
@@ -1841,6 +1993,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Celiny",
    "km": 17,
    "udzial": 0.074,
    "popyt": 110,
@@ -1853,6 +2006,7 @@
    "region_id": 13
   },
   {
+   "zaklad": "Góraźdżce",
    "km": 73,
    "udzial": 0.319,
    "popyt": 250,
@@ -1865,6 +2019,7 @@
    "region_id": 6
   },
   {
+   "zaklad": "Celiny",
    "km": 63,
    "udzial": 0.275,
    "popyt": 230,
@@ -1877,6 +2032,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Bukowa",
    "km": 75,
    "udzial": 0.33,
    "popyt": 190,
@@ -1889,6 +2045,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Bukowa",
    "km": 45,
    "udzial": 0.197,
    "popyt": 230,
@@ -1901,6 +2058,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Góraźdżce",
    "km": 106,
    "udzial": 0.463,
    "popyt": 250,
@@ -1915,6 +2073,7 @@
  ],
  "kreda-pastewna": [
   {
+   "zaklad": "Bukowa",
    "km": 200,
    "udzial": 0.264,
    "popyt": 480,
@@ -1927,6 +2086,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Bukowa",
    "km": 210,
    "udzial": 0.276,
    "popyt": 480,
@@ -1939,6 +2099,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 219,
    "udzial": 0.289,
    "popyt": 480,
@@ -1951,6 +2112,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 99,
    "udzial": 0.13,
    "popyt": 480,
@@ -1963,6 +2125,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 270,
    "udzial": 0.355,
    "popyt": 480,
@@ -1975,6 +2138,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Celiny",
    "km": 240,
    "udzial": 0.316,
    "popyt": 480,
@@ -1987,6 +2151,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Bukowa",
    "km": 180,
    "udzial": 0.236,
    "popyt": 260,
@@ -1999,6 +2164,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Bukowa",
    "km": 149,
    "udzial": 0.196,
    "popyt": 260,
@@ -2011,6 +2177,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Bukowa",
    "km": 201,
    "udzial": 0.264,
    "popyt": 260,
@@ -2023,6 +2190,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Bukowa",
    "km": 196,
    "udzial": 0.258,
    "popyt": 260,
@@ -2035,6 +2203,7 @@
    "region_id": 1
   },
   {
+   "zaklad": "Bukowa",
    "km": 118,
    "udzial": 0.155,
    "popyt": 170,
@@ -2047,6 +2216,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Bukowa",
    "km": 204,
    "udzial": 0.268,
    "popyt": 260,
@@ -2061,6 +2231,7 @@
  ],
  "weglanowe-magnez-odmiana-04": [
   {
+   "zaklad": "Chęciny",
    "km": 63,
    "udzial": 0.315,
    "popyt": 570,
@@ -2073,6 +2244,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Chęciny",
    "km": 67,
    "udzial": 0.335,
    "popyt": 570,
@@ -2085,6 +2257,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Chęciny",
    "km": 99,
    "udzial": 0.497,
    "popyt": 570,
@@ -2097,6 +2270,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Chęciny",
    "km": 82,
    "udzial": 0.409,
    "popyt": 570,
@@ -2109,6 +2283,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Chęciny",
    "km": 91,
    "udzial": 0.453,
    "popyt": 570,
@@ -2121,6 +2296,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Chęciny",
    "km": 14,
    "udzial": 0.068,
    "popyt": 110,
@@ -2133,6 +2309,7 @@
    "region_id": 13
   },
   {
+   "zaklad": "Chęciny",
    "km": 69,
    "udzial": 0.344,
    "popyt": 230,
@@ -2145,6 +2322,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Chęciny",
    "km": 89,
    "udzial": 0.443,
    "popyt": 270,
@@ -2157,6 +2335,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Chęciny",
    "km": 59,
    "udzial": 0.294,
    "popyt": 230,
@@ -2169,6 +2348,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Chęciny",
    "km": 87,
    "udzial": 0.433,
    "popyt": 190,
@@ -2181,6 +2361,7 @@
    "region_id": 7
   },
   {
+   "zaklad": "Chęciny",
    "km": 68,
    "udzial": 0.34,
    "popyt": 230,
@@ -2193,6 +2374,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Chęciny",
    "km": 87,
    "udzial": 0.437,
    "popyt": 190,
@@ -2207,6 +2389,7 @@
  ],
  "weglanowe-magnez-odmiana-05": [
   {
+   "zaklad": "Łagów",
    "km": 44,
    "udzial": 0.306,
    "popyt": 570,
@@ -2219,6 +2402,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Kostomłoty Drugie",
    "km": 52,
    "udzial": 0.359,
    "popyt": 570,
@@ -2231,6 +2415,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Łagów",
    "km": 69,
    "udzial": 0.481,
    "popyt": 570,
@@ -2243,6 +2428,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Łagów",
    "km": 70,
    "udzial": 0.486,
    "popyt": 570,
@@ -2255,6 +2441,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Łagów",
    "km": 49,
    "udzial": 0.342,
    "popyt": 270,
@@ -2267,6 +2454,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Kostomłoty Drugie",
    "km": 10,
    "udzial": 0.066,
    "popyt": 110,
@@ -2279,6 +2467,7 @@
    "region_id": 13
   },
   {
+   "zaklad": "Łagów",
    "km": 57,
    "udzial": 0.395,
    "popyt": 270,
@@ -2291,6 +2480,7 @@
    "region_id": 17
   },
   {
+   "zaklad": "Kostomłoty Drugie",
    "km": 69,
    "udzial": 0.482,
    "popyt": 230,
@@ -2305,6 +2495,7 @@
  ],
  "mieszanka-tlenkowo-weglanowa": [
   {
+   "zaklad": "Sitkówka",
    "km": 94,
    "udzial": 0.195,
    "popyt": 1020,
@@ -2317,6 +2508,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.418,
    "popyt": 1020,
@@ -2329,6 +2521,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 201,
    "udzial": 0.418,
    "popyt": 1020,
@@ -2341,6 +2534,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 212,
    "udzial": 0.441,
    "popyt": 1020,
@@ -2353,6 +2547,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 167,
    "udzial": 0.347,
    "popyt": 1020,
@@ -2365,6 +2560,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 141,
    "udzial": 0.293,
    "popyt": 1020,
@@ -2377,6 +2573,7 @@
    "region_id": 2
   },
   {
+   "zaklad": "Sitkówka",
    "km": 72,
    "udzial": 0.15,
    "popyt": 470,
@@ -2389,6 +2586,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 135,
    "udzial": 0.28,
    "popyt": 470,
@@ -2401,6 +2599,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 64,
    "udzial": 0.133,
    "popyt": 470,
@@ -2413,6 +2612,7 @@
    "region_id": 4
   },
   {
+   "zaklad": "Sitkówka",
    "km": 108,
    "udzial": 0.225,
    "popyt": 530,

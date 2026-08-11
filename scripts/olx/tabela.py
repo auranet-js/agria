@@ -19,18 +19,18 @@ def wiersze():
         yield {
             "lp": i, "sku": r["sku"], "tytul": r["title"], "cena": r["price"],
             "cena_opis": r["cena_opis"], "miasto": r["city"],
-            "woj": REG.get(r["region_id"], "?"), "km": r["km_z_zakladu"],
+            "woj": REG.get(r["region_id"], "?"), "zaklad": r["zaklad"], "km": r["km_z_zakladu"],
             "transport": r["transport_udzial"],
         }
 
 
 def markdown():
     rows = list(wiersze())
-    out = ["| # | SKU | Ogłoszenie | Cena w polu | Miejscowość | Województwo | km z zakładu | Transport jako % ceny |",
-           "|---|---|---|---|---|---|---|---|"]
+    out = ["| # | SKU | Ogłoszenie | Cena w polu | Miejscowość | Województwo | Zakład wysyłkowy | km z zakładu | Transport jako % ceny |",
+           "|---|---|---|---|---|---|---|---|---|"]
     for r in rows:
         out.append(f"| {r['lp']} | {r['sku']} | {r['tytul']} | {r['cena']} zł | {r['miasto']} | "
-                   f"{r['woj']} | {r['km']} | {r['transport']*100:.0f}% |")
+                   f"{r['woj']} | {r['zaklad']} | {r['km']} | {r['transport']*100:.0f}% |")
     return "\n".join(out)
 
 
@@ -45,15 +45,15 @@ def html():
         r0 = g[0]
         wiersze_html = "\n".join(
             f"<tr><td>{r['lp']}</td><td>{r['miasto']}</td><td>{r['woj']}</td>"
-            f"<td class='num'>{r['km']}</td>"
+            f"<td class='zak'>{r['zaklad']}</td><td class='num'>{r['km']}</td>"
             f"<td class='num {'hot' if r['transport'] > 0.4 else ''}'>{r['transport']*100:.0f}%</td></tr>"
             for r in g)
         czesci.append(f"""<section>
 <h2>{tytul}</h2>
 <p class="meta"><strong>{r0['sku']}</strong> · cena w polu ogłoszenia: <strong>{r0['cena']} zł</strong>
-· {r0['cena_opis']} · <strong>{len(g)}</strong> ogłoszeń</p>
+· {r0['cena_opis']} · <strong>{len(g)}</strong> ogłoszeń · wysyłka z: {', '.join(sorted({x['zaklad'] for x in g}))}</p>
 <table><thead><tr><th>#</th><th>Miejscowość</th><th>Województwo</th>
-<th>km z zakładu</th><th>Transport / cena</th></tr></thead>
+<th>Zakład wysyłkowy</th><th>km z zakładu</th><th>Transport / cena</th></tr></thead>
 <tbody>{wiersze_html}</tbody></table>
 </section>""")
 
@@ -79,6 +79,7 @@ th {{ font-weight:600; color:var(--slabe); font-size:.8rem; text-transform:upper
 tbody tr:nth-child(even) {{ background:var(--pas); }}
 .num {{ text-align:right; font-variant-numeric:tabular-nums; }}
 .hot {{ color:var(--hot); font-weight:600; }}
+.zak {{ color:var(--slabe); }}
 </style>
 <h1>AGRIA — rozpiska ogłoszeń OLX</h1>
 <p class="lead">Stan na 7 sierpnia 2026. <strong>{len(rows)} ogłoszeń</strong>, {len(grupy)} pozycji asortymentowych,

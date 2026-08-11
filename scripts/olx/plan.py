@@ -189,7 +189,7 @@ if __name__ == "__main__":
                 "category_id": CAT_NAWOZY,
                 "price": p["cena_pole"], "cena_opis": p["cena_opis"],
                 "city": c["name"], "city_id": c["city_id"], "region_id": c["region_id"],
-                "km_z_zakladu": c["km"], "transport_udzial": c["udzial"],
+                "zaklad": c["zaklad"], "km_z_zakladu": c["km"], "transport_udzial": c["udzial"],
                 "spec": (spec or {}).get("spec", {}),
                 "uwaga": p.get("uwaga"),
             })

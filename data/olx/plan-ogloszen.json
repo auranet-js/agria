@@ -13,6 +13,7 @@
   "city": "Grójec",
   "city_id": 81563,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 118,
   "transport_udzial": 0.134,
   "spec": {
@@ -47,6 +48,7 @@
   "city": "Warszawa",
   "city_id": 17871,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 161,
   "transport_udzial": 0.183,
   "spec": {
@@ -81,6 +83,7 @@
   "city": "Siedlce",
   "city_id": 15459,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 192,
   "transport_udzial": 0.219,
   "spec": {
@@ -115,6 +118,7 @@
   "city": "Mława",
   "city_id": 102207,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 255,
   "transport_udzial": 0.29,
   "spec": {
@@ -149,6 +153,7 @@
   "city": "Płock",
   "city_id": 13663,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.228,
   "spec": {
@@ -183,6 +188,7 @@
   "city": "Płońsk",
   "city_id": 92951,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.228,
   "spec": {
@@ -217,6 +223,7 @@
   "city": "Kalisz",
   "city_id": 7509,
   "region_id": 1,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.228,
   "spec": {
@@ -251,6 +258,7 @@
   "city": "Częstochowa",
   "city_id": 4765,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 105,
   "transport_udzial": 0.12,
   "spec": {
@@ -285,6 +293,7 @@
   "city": "Racibórz",
   "city_id": 53689,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 184,
   "transport_udzial": 0.209,
   "spec": {
@@ -319,6 +328,7 @@
   "city": "Radzyń Podlaski",
   "city_id": 14721,
   "region_id": 8,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 180,
   "transport_udzial": 0.204,
   "spec": {
@@ -353,6 +363,7 @@
   "city": "Zator",
   "city_id": 41301,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 106,
   "transport_udzial": 0.12,
   "spec": {
@@ -387,6 +398,7 @@
   "city": "Bielsko-Biała",
   "city_id": 3231,
   "region_id": 6,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 137,
   "transport_udzial": 0.156,
   "spec": {
@@ -421,6 +433,7 @@
   "city": "Tarnów",
   "city_id": 17369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 16,
   "transport_udzial": 0.018,
   "spec": {
@@ -455,6 +468,7 @@
   "city": "Kraków",
   "city_id": 8959,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 70,
   "transport_udzial": 0.079,
   "spec": {
@@ -489,6 +503,7 @@
   "city": "Katowice",
   "city_id": 7691,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 124,
   "transport_udzial": 0.141,
   "spec": {
@@ -523,6 +538,7 @@
   "city": "Nowy Sącz",
   "city_id": 33369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 61,
   "transport_udzial": 0.069,
   "spec": {
@@ -557,6 +573,7 @@
   "city": "Lublin",
   "city_id": 10119,
   "region_id": 8,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 148,
   "transport_udzial": 0.168,
   "spec": {
@@ -591,6 +608,7 @@
   "city": "Proszowice",
   "city_id": 71541,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 43,
   "transport_udzial": 0.049,
   "spec": {
@@ -625,6 +643,7 @@
   "city": "Dąbrowa Górnicza",
   "city_id": 4905,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 108,
   "transport_udzial": 0.123,
   "spec": {
@@ -659,6 +678,7 @@
   "city": "Ostrów Wielkopolski",
   "city_id": 70249,
   "region_id": 1,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 212,
   "transport_udzial": 0.241,
   "spec": {
@@ -693,6 +713,7 @@
   "city": "Brzesko",
   "city_id": 42791,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 29,
   "transport_udzial": 0.033,
   "spec": {
@@ -727,6 +748,7 @@
   "city": "Konin",
   "city_id": 8523,
   "region_id": 1,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 222,
   "transport_udzial": 0.252,
   "spec": {
@@ -761,6 +783,7 @@
   "city": "Grójec",
   "city_id": 81563,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 118,
   "transport_udzial": 0.134,
   "spec": {
@@ -795,6 +818,7 @@
   "city": "Warszawa",
   "city_id": 17871,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 161,
   "transport_udzial": 0.183,
   "spec": {
@@ -829,6 +853,7 @@
   "city": "Siedlce",
   "city_id": 15459,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 192,
   "transport_udzial": 0.219,
   "spec": {
@@ -863,6 +888,7 @@
   "city": "Mława",
   "city_id": 102207,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 255,
   "transport_udzial": 0.29,
   "spec": {
@@ -897,6 +923,7 @@
   "city": "Płock",
   "city_id": 13663,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.228,
   "spec": {
@@ -931,6 +958,7 @@
   "city": "Płońsk",
   "city_id": 92951,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.228,
   "spec": {
@@ -965,6 +993,7 @@
   "city": "Częstochowa",
   "city_id": 4765,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 105,
   "transport_udzial": 0.12,
   "spec": {
@@ -999,6 +1028,7 @@
   "city": "Kalisz",
   "city_id": 7509,
   "region_id": 1,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.228,
   "spec": {
@@ -1033,6 +1063,7 @@
   "city": "Racibórz",
   "city_id": 53689,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 184,
   "transport_udzial": 0.209,
   "spec": {
@@ -1067,6 +1098,7 @@
   "city": "Zator",
   "city_id": 41301,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 106,
   "transport_udzial": 0.12,
   "spec": {
@@ -1101,6 +1133,7 @@
   "city": "Tarnów",
   "city_id": 17369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 16,
   "transport_udzial": 0.018,
   "spec": {
@@ -1135,6 +1168,7 @@
   "city": "Bielsko-Biała",
   "city_id": 3231,
   "region_id": 6,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 137,
   "transport_udzial": 0.156,
   "spec": {
@@ -1169,6 +1203,7 @@
   "city": "Kraków",
   "city_id": 8959,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 70,
   "transport_udzial": 0.079,
   "spec": {
@@ -1203,6 +1238,7 @@
   "city": "Radzyń Podlaski",
   "city_id": 14721,
   "region_id": 8,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 180,
   "transport_udzial": 0.204,
   "spec": {
@@ -1237,6 +1273,7 @@
   "city": "Rzeszów",
   "city_id": 15241,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.091,
   "spec": {
@@ -1271,6 +1308,7 @@
   "city": "Nowy Sącz",
   "city_id": 33369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 61,
   "transport_udzial": 0.069,
   "spec": {
@@ -1305,6 +1343,7 @@
   "city": "Katowice",
   "city_id": 7691,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 124,
   "transport_udzial": 0.141,
   "spec": {
@@ -1339,6 +1378,7 @@
   "city": "Proszowice",
   "city_id": 71541,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 43,
   "transport_udzial": 0.049,
   "spec": {
@@ -1373,6 +1413,7 @@
   "city": "Mielec",
   "city_id": 32399,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 40,
   "transport_udzial": 0.046,
   "spec": {
@@ -1407,6 +1448,7 @@
   "city": "Krosno",
   "city_id": 9359,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.091,
   "spec": {
@@ -1441,6 +1483,7 @@
   "city": "Siedlce",
   "city_id": 15459,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 192,
   "transport_udzial": 0.064,
   "spec": {
@@ -1475,6 +1518,7 @@
   "city": "Grójec",
   "city_id": 81563,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 118,
   "transport_udzial": 0.039,
   "spec": {
@@ -1509,6 +1553,7 @@
   "city": "Warszawa",
   "city_id": 17871,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 161,
   "transport_udzial": 0.054,
   "spec": {
@@ -1543,6 +1588,7 @@
   "city": "Mława",
   "city_id": 102207,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 255,
   "transport_udzial": 0.085,
   "spec": {
@@ -1577,6 +1623,7 @@
   "city": "Kalisz",
   "city_id": 7509,
   "region_id": 1,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.067,
   "spec": {
@@ -1611,6 +1658,7 @@
   "city": "Częstochowa",
   "city_id": 4765,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 105,
   "transport_udzial": 0.035,
   "spec": {
@@ -1645,6 +1693,7 @@
   "city": "Racibórz",
   "city_id": 53689,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 184,
   "transport_udzial": 0.061,
   "spec": {
@@ -1679,6 +1728,7 @@
   "city": "Zator",
   "city_id": 41301,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 106,
   "transport_udzial": 0.035,
   "spec": {
@@ -1713,6 +1763,7 @@
   "city": "Bielsko-Biała",
   "city_id": 3231,
   "region_id": 6,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 137,
   "transport_udzial": 0.046,
   "spec": {
@@ -1747,6 +1798,7 @@
   "city": "Radzyń Podlaski",
   "city_id": 14721,
   "region_id": 8,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 180,
   "transport_udzial": 0.06,
   "spec": {
@@ -1781,6 +1833,7 @@
   "city": "Tarnów",
   "city_id": 17369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 16,
   "transport_udzial": 0.005,
   "spec": {
@@ -1815,6 +1868,7 @@
   "city": "Kraków",
   "city_id": 8959,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 70,
   "transport_udzial": 0.023,
   "spec": {
@@ -1849,6 +1903,7 @@
   "city": "Katowice",
   "city_id": 7691,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 124,
   "transport_udzial": 0.041,
   "spec": {
@@ -1883,6 +1938,7 @@
   "city": "Rzeszów",
   "city_id": 15241,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.027,
   "spec": {
@@ -1917,6 +1973,7 @@
   "city": "Nowy Sącz",
   "city_id": 33369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 61,
   "transport_udzial": 0.02,
   "spec": {
@@ -1951,6 +2008,7 @@
   "city": "Krosno",
   "city_id": 9359,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.027,
   "spec": {
@@ -1985,6 +2043,7 @@
   "city": "Mielec",
   "city_id": 32399,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 40,
   "transport_udzial": 0.013,
   "spec": {
@@ -2019,6 +2078,7 @@
   "city": "Lublin",
   "city_id": 10119,
   "region_id": 8,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 148,
   "transport_udzial": 0.049,
   "spec": {
@@ -2053,6 +2113,7 @@
   "city": "Siedlce",
   "city_id": 15459,
   "region_id": 2,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 244,
   "transport_udzial": 0.077,
   "spec": {
@@ -2088,6 +2149,7 @@
   "city": "Grójec",
   "city_id": 81563,
   "region_id": 2,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 191,
   "transport_udzial": 0.06,
   "spec": {
@@ -2123,6 +2185,7 @@
   "city": "Warszawa",
   "city_id": 17871,
   "region_id": 2,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 232,
   "transport_udzial": 0.073,
   "spec": {
@@ -2158,6 +2221,7 @@
   "city": "Mława",
   "city_id": 102207,
   "region_id": 2,
+  "zaklad": "Tarnów Opolski",
   "km_z_zakladu": 323,
   "transport_udzial": 0.102,
   "spec": {
@@ -2193,6 +2257,7 @@
   "city": "Kalisz",
   "city_id": 7509,
   "region_id": 1,
+  "zaklad": "Tarnów Opolski",
   "km_z_zakladu": 132,
   "transport_udzial": 0.042,
   "spec": {
@@ -2228,6 +2293,7 @@
   "city": "Racibórz",
   "city_id": 53689,
   "region_id": 6,
+  "zaklad": "Góraźdżce",
   "km_z_zakladu": 52,
   "transport_udzial": 0.016,
   "spec": {
@@ -2263,6 +2329,7 @@
   "city": "Częstochowa",
   "city_id": 4765,
   "region_id": 6,
+  "zaklad": "Góraźdżce",
   "km_z_zakladu": 73,
   "transport_udzial": 0.023,
   "spec": {
@@ -2298,6 +2365,7 @@
   "city": "Zator",
   "city_id": 41301,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 106,
   "transport_udzial": 0.033,
   "spec": {
@@ -2333,6 +2401,7 @@
   "city": "Bielsko-Biała",
   "city_id": 3231,
   "region_id": 6,
+  "zaklad": "Góraźdżce",
   "km_z_zakladu": 106,
   "transport_udzial": 0.033,
   "spec": {
@@ -2368,6 +2437,7 @@
   "city": "Radzyń Podlaski",
   "city_id": 14721,
   "region_id": 8,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 218,
   "transport_udzial": 0.069,
   "spec": {
@@ -2403,6 +2473,7 @@
   "city": "Tarnów",
   "city_id": 17369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 16,
   "transport_udzial": 0.005,
   "spec": {
@@ -2438,6 +2509,7 @@
   "city": "Kraków",
   "city_id": 8959,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 70,
   "transport_udzial": 0.022,
   "spec": {
@@ -2473,6 +2545,7 @@
   "city": "Katowice",
   "city_id": 7691,
   "region_id": 6,
+  "zaklad": "Góraźdżce",
   "km_z_zakladu": 73,
   "transport_udzial": 0.023,
   "spec": {
@@ -2508,6 +2581,7 @@
   "city": "Rzeszów",
   "city_id": 15241,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.025,
   "spec": {
@@ -2543,6 +2617,7 @@
   "city": "Grójec",
   "city_id": 81563,
   "region_id": 2,
+  "zaklad": "Draby",
   "km_z_zakladu": 164,
   "transport_udzial": 0.117,
   "spec": {
@@ -2577,6 +2652,7 @@
   "city": "Warszawa",
   "city_id": 17871,
   "region_id": 2,
+  "zaklad": "Draby",
   "km_z_zakladu": 195,
   "transport_udzial": 0.139,
   "spec": {
@@ -2611,6 +2687,7 @@
   "city": "Siedlce",
   "city_id": 15459,
   "region_id": 2,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 244,
   "transport_udzial": 0.175,
   "spec": {
@@ -2645,6 +2722,7 @@
   "city": "Mława",
   "city_id": 102207,
   "region_id": 2,
+  "zaklad": "Draby",
   "km_z_zakladu": 246,
   "transport_udzial": 0.176,
   "spec": {
@@ -2679,6 +2757,7 @@
   "city": "Kalisz",
   "city_id": 7509,
   "region_id": 1,
+  "zaklad": "Draby",
   "km_z_zakladu": 91,
   "transport_udzial": 0.065,
   "spec": {
@@ -2713,6 +2792,7 @@
   "city": "Radzyń Podlaski",
   "city_id": 14721,
   "region_id": 8,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 218,
   "transport_udzial": 0.156,
   "spec": {
@@ -2747,6 +2827,7 @@
   "city": "Łódź",
   "city_id": 10609,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 84,
   "transport_udzial": 0.06,
   "spec": {
@@ -2781,6 +2862,7 @@
   "city": "Rzeszów",
   "city_id": 15241,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.057,
   "spec": {
@@ -2815,6 +2897,7 @@
   "city": "Częstochowa",
   "city_id": 4765,
   "region_id": 6,
+  "zaklad": "Draby",
   "km_z_zakladu": 35,
   "transport_udzial": 0.025,
   "spec": {
@@ -2849,6 +2932,7 @@
   "city": "Lublin",
   "city_id": 10119,
   "region_id": 8,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 168,
   "transport_udzial": 0.12,
   "spec": {
@@ -2883,6 +2967,7 @@
   "city": "Racibórz",
   "city_id": 53689,
   "region_id": 6,
+  "zaklad": "Tarnów Opolski",
   "km_z_zakladu": 56,
   "transport_udzial": 0.04,
   "spec": {
@@ -2917,6 +3002,7 @@
   "city": "Piotrków Trybunalski",
   "city_id": 13573,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 68,
   "transport_udzial": 0.049,
   "spec": {
@@ -2951,6 +3037,7 @@
   "city": "Zator",
   "city_id": 41301,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 106,
   "transport_udzial": 0.076,
   "spec": {
@@ -2985,6 +3072,7 @@
   "city": "Mielec",
   "city_id": 32399,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 40,
   "transport_udzial": 0.029,
   "spec": {
@@ -3019,6 +3107,7 @@
   "city": "Krosno",
   "city_id": 9359,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.057,
   "spec": {
@@ -3053,6 +3142,7 @@
   "city": "Tarnów",
   "city_id": 17369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 16,
   "transport_udzial": 0.011,
   "spec": {
@@ -3087,6 +3177,7 @@
   "city": "Dębica",
   "city_id": 23239,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 39,
   "transport_udzial": 0.028,
   "spec": {
@@ -3121,6 +3212,7 @@
   "city": "Tomaszów Mazowiecki",
   "city_id": 56509,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 94,
   "transport_udzial": 0.067,
   "spec": {
@@ -3155,6 +3247,7 @@
   "city": "Kraków",
   "city_id": 8959,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 70,
   "transport_udzial": 0.05,
   "spec": {
@@ -3189,6 +3282,7 @@
   "city": "Łowicz",
   "city_id": 10603,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 136,
   "transport_udzial": 0.097,
   "spec": {
@@ -3223,6 +3317,7 @@
   "city": "Grójec",
   "city_id": 81563,
   "region_id": 2,
+  "zaklad": "Draby",
   "km_z_zakladu": 164,
   "transport_udzial": 0.111,
   "spec": {
@@ -3257,6 +3352,7 @@
   "city": "Warszawa",
   "city_id": 17871,
   "region_id": 2,
+  "zaklad": "Draby",
   "km_z_zakladu": 195,
   "transport_udzial": 0.132,
   "spec": {
@@ -3291,6 +3387,7 @@
   "city": "Siedlce",
   "city_id": 15459,
   "region_id": 2,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 244,
   "transport_udzial": 0.165,
   "spec": {
@@ -3325,6 +3422,7 @@
   "city": "Mława",
   "city_id": 102207,
   "region_id": 2,
+  "zaklad": "Draby",
   "km_z_zakladu": 246,
   "transport_udzial": 0.166,
   "spec": {
@@ -3359,6 +3457,7 @@
   "city": "Kalisz",
   "city_id": 7509,
   "region_id": 1,
+  "zaklad": "Draby",
   "km_z_zakladu": 91,
   "transport_udzial": 0.061,
   "spec": {
@@ -3393,6 +3492,7 @@
   "city": "Radzyń Podlaski",
   "city_id": 14721,
   "region_id": 8,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 218,
   "transport_udzial": 0.147,
   "spec": {
@@ -3427,6 +3527,7 @@
   "city": "Lublin",
   "city_id": 10119,
   "region_id": 8,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 168,
   "transport_udzial": 0.114,
   "spec": {
@@ -3461,6 +3562,7 @@
   "city": "Łódź",
   "city_id": 10609,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 84,
   "transport_udzial": 0.057,
   "spec": {
@@ -3495,6 +3597,7 @@
   "city": "Piotrków Trybunalski",
   "city_id": 13573,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 68,
   "transport_udzial": 0.046,
   "spec": {
@@ -3529,6 +3632,7 @@
   "city": "Tomaszów Mazowiecki",
   "city_id": 56509,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 94,
   "transport_udzial": 0.063,
   "spec": {
@@ -3563,6 +3667,7 @@
   "city": "Łowicz",
   "city_id": 10603,
   "region_id": 7,
+  "zaklad": "Draby",
   "km_z_zakladu": 136,
   "transport_udzial": 0.092,
   "spec": {
@@ -3597,6 +3702,7 @@
   "city": "Puławy",
   "city_id": 71757,
   "region_id": 8,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 160,
   "transport_udzial": 0.108,
   "spec": {
@@ -3631,6 +3737,7 @@
   "city": "Ostrów Wielkopolski",
   "city_id": 70249,
   "region_id": 1,
+  "zaklad": "Draby",
   "km_z_zakladu": 95,
   "transport_udzial": 0.064,
   "spec": {
@@ -3665,6 +3772,7 @@
   "city": "Konin",
   "city_id": 8523,
   "region_id": 1,
+  "zaklad": "Draby",
   "km_z_zakladu": 130,
   "transport_udzial": 0.088,
   "spec": {
@@ -3699,6 +3807,7 @@
   "city": "Częstochowa",
   "city_id": 4765,
   "region_id": 6,
+  "zaklad": "Draby",
   "km_z_zakladu": 35,
   "transport_udzial": 0.024,
   "spec": {
@@ -3733,6 +3842,7 @@
   "city": "Kępno",
   "city_id": 135303,
   "region_id": 1,
+  "zaklad": "Draby",
   "km_z_zakladu": 63,
   "transport_udzial": 0.043,
   "spec": {
@@ -3767,6 +3877,7 @@
   "city": "Chełm",
   "city_id": 4271,
   "region_id": 8,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 212,
   "transport_udzial": 0.143,
   "spec": {
@@ -3801,6 +3912,7 @@
   "city": "Racibórz",
   "city_id": 53689,
   "region_id": 6,
+  "zaklad": "Draby",
   "km_z_zakladu": 121,
   "transport_udzial": 0.082,
   "spec": {
@@ -3835,6 +3947,7 @@
   "city": "Zwoleń",
   "city_id": 78099,
   "region_id": 2,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 96,
   "transport_udzial": 0.191,
   "spec": {
@@ -3869,6 +3982,7 @@
   "city": "Płońsk",
   "city_id": 92951,
   "region_id": 2,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 215,
   "transport_udzial": 0.43,
   "spec": {
@@ -3903,6 +4017,7 @@
   "city": "Płock",
   "city_id": 13663,
   "region_id": 2,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 216,
   "transport_udzial": 0.433,
   "spec": {
@@ -3937,6 +4052,7 @@
   "city": "Sokołów Podlaski",
   "city_id": 15963,
   "region_id": 2,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 218,
   "transport_udzial": 0.435,
   "spec": {
@@ -3971,6 +4087,7 @@
   "city": "Mińsk Mazowiecki",
   "city_id": 11729,
   "region_id": 2,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 175,
   "transport_udzial": 0.35,
   "spec": {
@@ -4005,6 +4122,7 @@
   "city": "Garwolin",
   "city_id": 23883,
   "region_id": 2,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 147,
   "transport_udzial": 0.295,
   "spec": {
@@ -4039,6 +4157,7 @@
   "city": "Mielec",
   "city_id": 32399,
   "region_id": 17,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 69,
   "transport_udzial": 0.138,
   "spec": {
@@ -4073,6 +4192,7 @@
   "city": "Rzeszów",
   "city_id": 15241,
   "region_id": 17,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 118,
   "transport_udzial": 0.237,
   "spec": {
@@ -4107,6 +4227,7 @@
   "city": "Dębica",
   "city_id": 23239,
   "region_id": 17,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 89,
   "transport_udzial": 0.177,
   "spec": {
@@ -4141,6 +4262,7 @@
   "city": "Krosno",
   "city_id": 9359,
   "region_id": 17,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 135,
   "transport_udzial": 0.271,
   "spec": {
@@ -4175,6 +4297,7 @@
   "city": "Tarnobrzeg",
   "city_id": 56407,
   "region_id": 17,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 70,
   "transport_udzial": 0.14,
   "spec": {
@@ -4209,6 +4332,7 @@
   "city": "Jarosław",
   "city_id": 7127,
   "region_id": 17,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 160,
   "transport_udzial": 0.32,
   "spec": {
@@ -4243,6 +4367,7 @@
   "city": "Zator",
   "city_id": 41301,
   "region_id": 4,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 119,
   "transport_udzial": 0.238,
   "spec": {
@@ -4277,6 +4402,7 @@
   "city": "Tarnów",
   "city_id": 17369,
   "region_id": 4,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 78,
   "transport_udzial": 0.157,
   "spec": {
@@ -4311,6 +4437,7 @@
   "city": "Kraków",
   "city_id": 8959,
   "region_id": 4,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 88,
   "transport_udzial": 0.177,
   "spec": {
@@ -4345,6 +4472,7 @@
   "city": "Lublin",
   "city_id": 10119,
   "region_id": 8,
+  "zaklad": "Pierzchnica",
   "km_z_zakladu": 143,
   "transport_udzial": 0.286,
   "spec": {
@@ -4379,6 +4507,7 @@
   "city": "Sokołów Podlaski",
   "city_id": 15963,
   "region_id": 2,
+  "zaklad": "Kornica",
   "km_z_zakladu": 49,
   "transport_udzial": 0.03,
   "spec": {
@@ -4413,6 +4542,7 @@
   "city": "Ostrołęka",
   "city_id": 13147,
   "region_id": 2,
+  "zaklad": "Kornica",
   "km_z_zakladu": 134,
   "transport_udzial": 0.081,
   "spec": {
@@ -4447,6 +4577,7 @@
   "city": "Płońsk",
   "city_id": 92951,
   "region_id": 2,
+  "zaklad": "Kornica",
   "km_z_zakladu": 175,
   "transport_udzial": 0.107,
   "spec": {
@@ -4481,6 +4612,7 @@
   "city": "Płock",
   "city_id": 13663,
   "region_id": 2,
+  "zaklad": "Kornica",
   "km_z_zakladu": 218,
   "transport_udzial": 0.133,
   "spec": {
@@ -4515,6 +4647,7 @@
   "city": "Rzeszów",
   "city_id": 15241,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.049,
   "spec": {
@@ -4549,6 +4682,7 @@
   "city": "Mielec",
   "city_id": 32399,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 40,
   "transport_udzial": 0.025,
   "spec": {
@@ -4583,6 +4717,7 @@
   "city": "Krosno",
   "city_id": 9359,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 80,
   "transport_udzial": 0.049,
   "spec": {
@@ -4617,6 +4752,7 @@
   "city": "Dębica",
   "city_id": 23239,
   "region_id": 17,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 39,
   "transport_udzial": 0.024,
   "spec": {
@@ -4651,6 +4787,7 @@
   "city": "Lublin",
   "city_id": 10119,
   "region_id": 8,
+  "zaklad": "Kornica",
   "km_z_zakladu": 105,
   "transport_udzial": 0.064,
   "spec": {
@@ -4685,6 +4822,7 @@
   "city": "Bielsko-Biała",
   "city_id": 3231,
   "region_id": 6,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 137,
   "transport_udzial": 0.084,
   "spec": {
@@ -4719,6 +4857,7 @@
   "city": "Nowy Sącz",
   "city_id": 33369,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 61,
   "transport_udzial": 0.037,
   "spec": {
@@ -4753,6 +4892,7 @@
   "city": "Katowice",
   "city_id": 7691,
   "region_id": 6,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 134,
   "transport_udzial": 0.082,
   "spec": {
@@ -4787,6 +4927,7 @@
   "city": "Proszowice",
   "city_id": 71541,
   "region_id": 4,
+  "zaklad": "Niedomice",
   "km_z_zakladu": 43,
   "transport_udzial": 0.026,
   "spec": {
@@ -4821,6 +4962,7 @@
   "city": "Puławy",
   "city_id": 71757,
   "region_id": 8,
+  "zaklad": "Kornica",
   "km_z_zakladu": 103,
   "transport_udzial": 0.063,
   "spec": {
@@ -4855,6 +4997,7 @@
   "city": "Zwoleń",
   "city_id": 78099,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 99,
   "transport_udzial": 0.433,
   "spec": {
@@ -4889,6 +5032,7 @@
   "city": "Iłża",
   "city_id": 115571,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 66,
   "transport_udzial": 0.29,
   "spec": {
@@ -4923,6 +5067,7 @@
   "city": "Przysucha",
   "city_id": 53591,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 71,
   "transport_udzial": 0.311,
   "spec": {
@@ -4957,6 +5102,7 @@
   "city": "Radom",
   "city_id": 14673,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 85,
   "transport_udzial": 0.372,
   "spec": {
@@ -4991,6 +5137,7 @@
   "city": "Białobrzegi",
   "city_id": 2151,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 106,
   "transport_udzial": 0.466,
   "spec": {
@@ -5025,6 +5172,7 @@
   "city": "Gózd",
   "city_id": 133761,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 91,
   "transport_udzial": 0.401,
   "spec": {
@@ -5059,6 +5207,7 @@
   "city": "Mielec",
   "city_id": 32399,
   "region_id": 17,
+  "zaklad": "Celiny",
   "km_z_zakladu": 76,
   "transport_udzial": 0.332,
   "spec": {
@@ -5093,6 +5242,7 @@
   "city": "Dębica",
   "city_id": 23239,
   "region_id": 17,
+  "zaklad": "Celiny",
   "km_z_zakladu": 95,
   "transport_udzial": 0.415,
   "spec": {
@@ -5127,6 +5277,7 @@
   "city": "Kępno",
   "city_id": 135303,
   "region_id": 1,
+  "zaklad": "Tarnów Opolski",
   "km_z_zakladu": 78,
   "transport_udzial": 0.342,
   "spec": {
@@ -5161,6 +5312,7 @@
   "city": "Tarnobrzeg",
   "city_id": 56407,
   "region_id": 17,
+  "zaklad": "Celiny",
   "km_z_zakladu": 78,
   "transport_udzial": 0.34,
   "spec": {
@@ -5195,6 +5347,7 @@
   "city": "Kielce",
   "city_id": 7971,
   "region_id": 13,
+  "zaklad": "Celiny",
   "km_z_zakladu": 17,
   "transport_udzial": 0.074,
   "spec": {
@@ -5229,6 +5382,7 @@
   "city": "Katowice",
   "city_id": 7691,
   "region_id": 6,
+  "zaklad": "Góraźdżce",
   "km_z_zakladu": 73,
   "transport_udzial": 0.319,
   "spec": {
@@ -5263,6 +5417,7 @@
   "city": "Proszowice",
   "city_id": 71541,
   "region_id": 4,
+  "zaklad": "Celiny",
   "km_z_zakladu": 63,
   "transport_udzial": 0.275,
   "spec": {
@@ -5297,6 +5452,7 @@
   "city": "Piotrków Trybunalski",
   "city_id": 13573,
   "region_id": 7,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 75,
   "transport_udzial": 0.33,
   "spec": {
@@ -5331,6 +5487,7 @@
   "city": "Miechów",
   "city_id": 11533,
   "region_id": 4,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 45,
   "transport_udzial": 0.197,
   "spec": {
@@ -5365,6 +5522,7 @@
   "city": "Bielsko-Biała",
   "city_id": 3231,
   "region_id": 6,
+  "zaklad": "Góraźdżce",
   "km_z_zakladu": 106,
   "transport_udzial": 0.463,
   "spec": {
@@ -5399,6 +5557,7 @@
   "city": "Płock",
   "city_id": 13663,
   "region_id": 2,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 200,
   "transport_udzial": 0.264,
   "spec": {
@@ -5429,6 +5588,7 @@
   "city": "Płońsk",
   "city_id": 92951,
   "region_id": 2,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 210,
   "transport_udzial": 0.276,
   "spec": {
@@ -5459,6 +5619,7 @@
   "city": "Sokołów Podlaski",
   "city_id": 15963,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 219,
   "transport_udzial": 0.289,
   "spec": {
@@ -5489,6 +5650,7 @@
   "city": "Zwoleń",
   "city_id": 78099,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 99,
   "transport_udzial": 0.13,
   "spec": {
@@ -5519,6 +5681,7 @@
   "city": "Ostrołęka",
   "city_id": 13147,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 270,
   "transport_udzial": 0.355,
   "spec": {
@@ -5549,6 +5712,7 @@
   "city": "Ciechanów",
   "city_id": 25555,
   "region_id": 2,
+  "zaklad": "Celiny",
   "km_z_zakladu": 240,
   "transport_udzial": 0.316,
   "spec": {
@@ -5579,6 +5743,7 @@
   "city": "Ostrów Wielkopolski",
   "city_id": 70249,
   "region_id": 1,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 180,
   "transport_udzial": 0.236,
   "spec": {
@@ -5609,6 +5774,7 @@
   "city": "Kępno",
   "city_id": 135303,
   "region_id": 1,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 149,
   "transport_udzial": 0.196,
   "spec": {
@@ -5639,6 +5805,7 @@
   "city": "Konin",
   "city_id": 8523,
   "region_id": 1,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 201,
   "transport_udzial": 0.264,
   "spec": {
@@ -5669,6 +5836,7 @@
   "city": "Pleszew",
   "city_id": 13627,
   "region_id": 1,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 196,
   "transport_udzial": 0.258,
   "spec": {
@@ -5699,6 +5867,7 @@
   "city": "Łódź",
   "city_id": 10609,
   "region_id": 7,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 118,
   "transport_udzial": 0.155,
   "spec": {
@@ -5729,6 +5898,7 @@
   "city": "Krotoszyn",
   "city_id": 66605,
   "region_id": 1,
+  "zaklad": "Bukowa",
   "km_z_zakladu": 204,
   "transport_udzial": 0.268,
   "spec": {
@@ -5759,6 +5929,7 @@
   "city": "Przysucha",
   "city_id": 53591,
   "region_id": 2,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 63,
   "transport_udzial": 0.315,
   "spec": {
@@ -5793,6 +5964,7 @@
   "city": "Iłża",
   "city_id": 115571,
   "region_id": 2,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 67,
   "transport_udzial": 0.335,
   "spec": {
@@ -5827,6 +5999,7 @@
   "city": "Zwoleń",
   "city_id": 78099,
   "region_id": 2,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 99,
   "transport_udzial": 0.497,
   "spec": {
@@ -5861,6 +6034,7 @@
   "city": "Radom",
   "city_id": 14673,
   "region_id": 2,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 82,
   "transport_udzial": 0.409,
   "spec": {
@@ -5895,6 +6069,7 @@
   "city": "Gózd",
   "city_id": 133761,
   "region_id": 2,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 91,
   "transport_udzial": 0.453,
   "spec": {
@@ -5929,6 +6104,7 @@
   "city": "Kielce",
   "city_id": 7971,
   "region_id": 13,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 14,
   "transport_udzial": 0.068,
   "spec": {
@@ -5963,6 +6139,7 @@
   "city": "Proszowice",
   "city_id": 71541,
   "region_id": 4,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 69,
   "transport_udzial": 0.344,
   "spec": {
@@ -5997,6 +6174,7 @@
   "city": "Tarnobrzeg",
   "city_id": 56407,
   "region_id": 17,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 89,
   "transport_udzial": 0.443,
   "spec": {
@@ -6031,6 +6209,7 @@
   "city": "Miechów",
   "city_id": 11533,
   "region_id": 4,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 59,
   "transport_udzial": 0.294,
   "spec": {
@@ -6065,6 +6244,7 @@
   "city": "Piotrków Trybunalski",
   "city_id": 13573,
   "region_id": 7,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 87,
   "transport_udzial": 0.433,
   "spec": {
@@ -6099,6 +6279,7 @@
   "city": "Słomniki",
   "city_id": 15773,
   "region_id": 4,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 68,
   "transport_udzial": 0.34,
   "spec": {
@@ -6133,6 +6314,7 @@
   "city": "Tomaszów Mazowiecki",
   "city_id": 56509,
   "region_id": 7,
+  "zaklad": "Chęciny",
   "km_z_zakladu": 87,
   "transport_udzial": 0.437,
   "spec": {
@@ -6167,6 +6349,7 @@
   "city": "Iłża",
   "city_id": 115571,
   "region_id": 2,
+  "zaklad": "Łagów",
   "km_z_zakladu": 44,
   "transport_udzial": 0.306,
   "spec": {
@@ -6202,6 +6385,7 @@
   "city": "Przysucha",
   "city_id": 53591,
   "region_id": 2,
+  "zaklad": "Kostomłoty Drugie",
   "km_z_zakladu": 52,
   "transport_udzial": 0.359,
   "spec": {
@@ -6237,6 +6421,7 @@
   "city": "Radom",
   "city_id": 14673,
   "region_id": 2,
+  "zaklad": "Łagów",
   "km_z_zakladu": 69,
   "transport_udzial": 0.481,
   "spec": {
@@ -6272,6 +6457,7 @@
   "city": "Gózd",
   "city_id": 133761,
   "region_id": 2,
+  "zaklad": "Łagów",
   "km_z_zakladu": 70,
   "transport_udzial": 0.486,
   "spec": {
@@ -6307,6 +6493,7 @@
   "city": "Tarnobrzeg",
   "city_id": 56407,
   "region_id": 17,
+  "zaklad": "Łagów",
   "km_z_zakladu": 49,
   "transport_udzial": 0.342,
   "spec": {
@@ -6342,6 +6529,7 @@
   "city": "Kielce",
   "city_id": 7971,
   "region_id": 13,
+  "zaklad": "Kostomłoty Drugie",
   "km_z_zakladu": 10,
   "transport_udzial": 0.066,
   "spec": {
@@ -6377,6 +6565,7 @@
   "city": "Gorzyce",
   "city_id": 27357,
   "region_id": 17,
+  "zaklad": "Łagów",
   "km_z_zakladu": 57,
   "transport_udzial": 0.395,
   "spec": {
@@ -6412,6 +6601,7 @@
   "city": "Miechów",
   "city_id": 11533,
   "region_id": 4,
+  "zaklad": "Kostomłoty Drugie",
   "km_z_zakladu": 69,
   "transport_udzial": 0.482,
   "spec": {
@@ -6447,6 +6637,7 @@
   "city": "Zwoleń",
   "city_id": 78099,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 94,
   "transport_udzial": 0.195,
   "spec": {
@@ -6481,6 +6672,7 @@
   "city": "Płock",
   "city_id": 13663,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.418,
   "spec": {
@@ -6515,6 +6707,7 @@
   "city": "Płońsk",
   "city_id": 92951,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 201,
   "transport_udzial": 0.418,
   "spec": {
@@ -6549,6 +6742,7 @@
   "city": "Sokołów Podlaski",
   "city_id": 15963,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 212,
   "transport_udzial": 0.441,
   "spec": {
@@ -6583,6 +6777,7 @@
   "city": "Mińsk Mazowiecki",
   "city_id": 11729,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 167,
   "transport_udzial": 0.347,
   "spec": {
@@ -6617,6 +6812,7 @@
   "city": "Garwolin",
   "city_id": 23883,
   "region_id": 2,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 141,
   "transport_udzial": 0.293,
   "spec": {
@@ -6651,6 +6847,7 @@
   "city": "Proszowice",
   "city_id": 71541,
   "region_id": 4,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 72,
   "transport_udzial": 0.15,
   "spec": {
@@ -6685,6 +6882,7 @@
   "city": "Nowy Sącz",
   "city_id": 33369,
   "region_id": 4,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 135,
   "transport_udzial": 0.28,
   "spec": {
@@ -6719,6 +6917,7 @@
   "city": "Miechów",
   "city_id": 11533,
   "region_id": 4,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 64,
   "transport_udzial": 0.133,
   "spec": {
@@ -6753,6 +6952,7 @@
   "city": "Dąbrowa Górnicza",
   "city_id": 4905,
   "region_id": 6,
+  "zaklad": "Sitkówka",
   "km_z_zakladu": 108,
   "transport_udzial": 0.225,
   "spec": {

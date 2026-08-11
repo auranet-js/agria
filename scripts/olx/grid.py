@@ -92,8 +92,9 @@ def ocena(miasto, zaklady, cena_t, frazy, popyt, rynek, wlasne=None):
     Bez tego czynnika model wybiera wsie najbliżej zakładu, gdzie w wyszukiwaniu lokalnym
     nie ma kogo dosięgnąć.
     """
-    dyst = min(km((float(miasto["latitude"]), float(miasto["longitude"])), ZAKLADY[z])
-               for z in zaklady)
+    zaklad, dyst = min(
+        ((z, km((float(miasto["latitude"]), float(miasto["longitude"])), ZAKLADY[z]))
+         for z in zaklady), key=lambda x: x[1])
     udzial = transport_udzial(dyst, cena_t)
     if udzial > 0.5:
         return None
@@ -113,7 +114,7 @@ def ocena(miasto, zaklady, cena_t, frazy, popyt, rynek, wlasne=None):
     if w:
         zasieg_miasta *= min(max(w["wskaznik"], 0.5), 2.0)
 
-    return {"km": round(dyst), "udzial": round(udzial, 3), "popyt": p, "ogl_rynku": ogl,
+    return {"zaklad": zaklad, "km": round(dyst), "udzial": round(udzial, 3), "popyt": p, "ogl_rynku": ogl,
             "wlasny_wskaznik": (w or {}).get("wskaznik"),
             "wynik": round(p * zasieg_miasta * (1 - udzial), 1), "region": region}
 
