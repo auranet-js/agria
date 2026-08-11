@@ -226,89 +226,92 @@ https://agria.pl/?utm_source=olx&utm_medium=marketplace&utm_campaign=olx-nawozy-
 
 ---
 
-## Treść maila
+## Treść maila (v2 — pod akcept, 07.08 wieczorem)
 
 Cześć Kasjan, Paweł,
 
-Paweł pytał, czy kupować dalej pakiet 30 ogłoszeń, czy wziąć mniejszy i skupić się na promowaniu. Sprawdziliśmy to na danych — Waszych i rynkowych — i odpowiedź jest jednoznaczna, więc zaczynam od niej.
+Paweł pytał, czy kupować dalej pakiet ogłoszeń na OLX i czy nie lepiej wziąć mniejszy, a skupić się na promowaniu. Zamiast odpowiadać z głowy, rozebraliśmy tę kategorię na czynniki pierwsze — przejrzeliśmy blisko dwa i pół tysiąca ogłoszeń od pięciuset czterdziestu sprzedawców, zestawiliśmy to z Waszymi własnymi wynikami z trzech lat, sprawdziliśmy cennik OLX i regulamin, i policzyliśmy, dokąd w ogóle opłaca się wozić towar. Poniżej wynik i gotowy plan.
 
-**Wolumen, nie promowanie. I taniej niż dotychczas za ogłoszenie.**
+**Zacznę od tego, co Paweł przeczuwał: tak, na tym da się zarabiać.**
 
-Dotychczas kupowaliście Megapakiet na 20 ogłoszeń za 336 zł. W kategorii Nawozy jest pakiet, w którym **100 ogłoszeń kosztuje 720 zł** — czyli 7,20 zł za ogłoszenie zamiast 16,80 zł. Pięć razy więcej ogłoszeń za dwukrotnie wyższą kwotę.
+Największy sprzedawca w tej kategorii trzyma **510 ogłoszeń w 361 miejscowościach**. Kolejny — 162 ogłoszenia. Trzeci i czwarty po sto. To nie są przypadkowe wystawki: część z tych ogłoszeń wisi tam **od siedmiu lat**. Nikt nie utrzymuje setki ofert przez siedem lat dla sportu.
 
-Promowanie wypada blado w porównaniu: jedno wyróżnienie na 30 dni kosztuje 105 zł, czyli tyle, co dziewięć ogłoszeń. Rynek to potwierdza — dwaj najwięksi sprzedawcy w tej kategorii mają odpowiednio **zero i 24 promowania przy 191 i 161 ogłoszeniach**. Wygrywają liczbą ofert i tym, w ilu miejscowościach są widoczni, a nie wyróżnieniami.
+Podstawiając wskaźniki zmierzone na Waszym własnym koncie, sprzedawca ze 162 ogłoszeniami zbiera rzędu **120 telefonów miesięcznie**, płacąc OLX około 1 200 zł. To jakieś dziesięć złotych za kontakt z zainteresowanym. Ile z tego zamienia w zamówienia — tego nie wiemy i nie będę zgadywał. Ale koszt pozyskania kontaktu na tym poziomie tłumaczy, dlaczego oni tam siedzą.
 
-**Koszty:**
+**Ale nie wygrywają promowaniem — i to jest ważne, bo kosztowałoby Was najwięcej.**
 
-| Pozycja | Kto płaci | Kwota |
-|---|---|---|
-| Pakiet 100 ogłoszeń OLX | AGRIA, bezpośrednio do OLX | **720 zł brutto miesięcznie** |
-| Wyróżnienia i promowania | — | **0 zł** — świadomie nie wchodzimy |
-| Uruchomienie kanału | Auranet | **1 800 zł netto, jednorazowo** |
-| Prowadzenie | Auranet | **300 zł netto miesięcznie** |
+Sprawdziliśmy to wprost: dwaj najwięksi gracze mają odpowiednio **zero i 24 wyróżnienia przy 510 i 162 ogłoszeniach**. Wyróżnienie jednego ogłoszenia na 30 dni kosztuje 105 zł — tyle, co dziewięć zwykłych ogłoszeń. Rynek wybiera liczbę ofert i liczbę miejscowości, nie wyróżnienia. My też.
 
-**720 zł to nie jest nasze wynagrodzenie** — te pieniądze idą w całości do OLX za publikację ogłoszeń, tak samo jak budżet reklamowy idzie do Google. Uwaga: pakiet jest ważny 30 dni, więc to opłata cykliczna, nie jednorazowa.
+**Wasze własne dane mówią to samo, tylko dobitniej.**
 
-**Dlaczego uruchomienie kosztuje więcej niż prowadzenie.** Bo tak to naprawdę wygląda. Uruchomienie to sto ogłoszeń z parametrami wziętymi z Waszych kart produktowych, dobór miejscowości pod każdy produkt, przegląd całej kategorii na OLX, sprawdzenie regulaminu i zbudowanie narzędzia, które wystawia i mierzy to automatycznie. Potem **kanał w dużej mierze chodzi sam** — ogłoszenia odnawiają się automatycznie, dopóki pakiet jest opłacony. Prowadzenie to odczyt danych, wygaszenie ofert, które nie działają, powielenie tych, które łapią, i podmiana cen, gdy się zmienią. Nie ma powodu, żeby brać za to tyle, co za prowadzenie kampanii reklamowych.
+Konto ma dziś jedno aktywne ogłoszenie — siedemnaście wygasło 18 lipca razem z końcem opłaconego pakietu, w środku sezonu. Przez cały czas działania te ogłoszenia zebrały **7 273 wyświetlenia i 209 odsłon numeru telefonu**. Dla porównania: cały ruch z Google na agria.pl dał w lipcu 221 kliknięć. To nie jest kanał poboczny — to drugi kanał tej samej wielkości co wyszukiwarka.
 
-**Co pokazały Wasze własne dane.**
+Dwie rzeczy wyszły z tych danych, które od razu wykorzystujemy:
 
-Konto ma dziś jedno aktywne ogłoszenie — 17 wygasło 18 lipca razem z końcem opłaconego pakietu. Przez cały czas działania te ogłoszenia zebrały **7 273 wyświetlenia i 209 odsłon numeru telefonu**. Dla porównania: cały ruch z Google na agria.pl dał w lipcu 221 kliknięć. **To nie jest kanał poboczny.**
+**Tytuł decyduje o wszystkim.** Ogłoszenie zatytułowane „Do stawu…" zebrało 94 odsłony telefonu — **45% wszystkich kontaktów z całego konta**. Ta sama oferta, te same zdjęcia, ale tytuł mówiący, do czego to służy, zamiast „Najtaniej!". Nowe ogłoszenia budujemy więc pod konkretne zastosowanie.
 
-Dwie rzeczy z tych danych warto wiedzieć:
+**Ogłoszenia gasły po cichu.** Automatyczne przedłużanie było włączone na jednym ogłoszeniu z dwudziestu. To jedno przedłużyło się 18 lipca o 8:43, kwadrans przed wygaśnięciem pakietu — i tylko dlatego żyje do dziś. Pozostałych siedemnaście padło tego samego ranka i nikt tego nie zauważył. Przy nowych ustawiamy przedłużanie od razu na wszystkich i pilnujemy terminu pakietu.
 
-**Pierwsza — tytuł decyduje.** Ogłoszenie zatytułowane „Do stawu…" zebrało 94 odsłony telefonu, czyli **45% wszystkich kontaktów z całego konta**. Ta sama oferta, te same zdjęcia, ale tytuł mówiący, do czego to służy, zamiast „Najtaniej!". Dlatego nowe ogłoszenia budujemy pod konkretne zastosowanie: do stawu, na odkwaszanie gleb ciężkich, pod rzepak, do paszy.
+**Co jest gotowe.**
 
-**Druga — ogłoszenia gasły po cichu.** Automatyczne przedłużanie było włączone na jednym ogłoszeniu z dwudziestu. To jedno przedłużyło się 18 lipca o 8:43, kwadrans przed wygaśnięciem pakietu — i dlatego jako jedyne żyje do dziś. Pozostałych siedemnaście zgasło tego samego ranka. Przy nowych ogłoszeniach automatyczne przedłużanie ustawiamy od razu na wszystkich.
+Nie przysyłam Wam koncepcji do przedyskutowania, tylko plan, który czeka na uruchomienie. **Sto ogłoszeń jest przygotowanych** — dziesięć produktów, każdy z własnym opisem, parametrami zaciągniętymi wprost z Waszych kart produktowych i cenami z cennika, który Paweł przysłał 7 sierpnia. Pierwsze ogłoszenie już wisi na koncie jako sprawdzian, że wszystko przechodzi poprawnie.
 
-Warto przy tym wiedzieć, że przedłużanie działa **tylko dopóki pakiet jest opłacony**. To ogłoszenie, które przetrwało, spróbuje odnowić się 17 sierpnia i też padnie, jeśli pakietu nie będzie. Dlatego pakiet trzeba odnawiać co miesiąc — pilnujemy tego my i przypominamy przed terminem.
+Ogłoszenia podają cenę **z jednostką i informacją, że jest netto loco magazyn**. To wygląda na drobiazg, a jest przewagą: na blisko dwa i pół tysiąca ogłoszeń w tej kategorii tylko trzydzieści sześć podaje cenę za tonę. Reszta wpisuje gołą liczbę, często zaniżoną, żeby wypaść wyżej przy sortowaniu po cenie. Uczciwa cena z jednostką odróżnia Waszą ofertę od tych, które wyglądają tanio tylko na liście.
 
-**Co uruchamiamy:**
+**Przy okazji sprawdziliśmy obawę o tanią konkurencję i wygląda ona inaczej, niż się wydaje.** Wasze ceny są w rynku w każdej porównywalnej pozycji: wapno węglanowe 57 zł/t przy 57,40 zł/t z kopalni Morawica, kreda 125 zł/t przy 185 zł/t u konkurencji, wapno tlenkowe 220 zł/t przy 210 zł/t u najbliższego dostawcy. Te naprawdę tanie oferty to w dużej części **wapno nieatestowane** — odsypy z wagi po 78 zł za tonę, sprzedawane obok atestowanego po 210 zł przez tego samego sprzedawcę. To nie jest ten sam produkt. Nie ma sensu z tym konkurować ceną; ma sens pokazywać atest, co robimy w każdym opisie.
 
-**100 ogłoszeń: dziesięć produktów rozstawionych w 33 miejscowościach.** Dotychczas była to jedna oferta powielona na 18 miast — teraz każdy produkt dostaje własne ogłoszenie z własnymi parametrami i **własną listą miejscowości**.
+**Gdzie wystawiamy — i dlaczego nie wszędzie.**
 
-Miejscowości nie dobieraliśmy na wyczucie. Policzyliśmy je z trzech rzeczy: ile razy w danym województwie ludzie szukają w Google Waszych produktów, ilu różnych sprzedawców wapna wystawia się w danym mieście, i — najważniejsze — **ile kosztuje tam dowieźć tonę w stosunku do jej ceny**.
+Dotychczas była to jedna oferta powielona na 18 miast. Teraz każdy produkt ma własne ogłoszenie i **własną listę miejscowości**, policzoną, a nie dobraną na oko. Braliśmy pod uwagę, ile razy w danym województwie ludzie szukają Waszych produktów w Google, ilu różnych sprzedawców wapna jest już w danym mieście, i — najważniejsze — **ile kosztuje tam dowieźć tonę w stosunku do jej ceny**.
 
-Ten trzeci czynnik przesądza. Sprzedajecie loco magazyn, a przewóz zestawu 24 t kosztuje mniej więcej 0,25 zł za tonę na każdy kilometr. Dla wapna węglanowego po 57 zł za tonę oznacza to, że po stu kilometrach transport dorównuje cenie towaru — więc ogłoszenie tego produktu w Gdańsku byłoby ogłoszeniem, z którego nikt nie kupi. Dla Agrobielika 90 po 750 zł za tonę ten sam Gdańsk to kilkanaście procent ceny, czyli normalna transakcja.
+Ten ostatni czynnik przesądza o wszystkim. Sprzedajecie loco magazyn, a przewóz zestawu 24 t kosztuje mniej więcej 25 groszy za tonę na każdy kilometr. Dla wapna węglanowego po 57 zł za tonę oznacza to, że po stu kilometrach transport dorównuje cenie towaru — więc ogłoszenie tego produktu w Gdańsku byłoby ogłoszeniem, z którego nikt nie kupi. Dla Agrobielika 90 po 750 zł za tonę ten sam Gdańsk to kilkanaście procent ceny, czyli normalna transakcja.
 
-Dlatego **każdy produkt ma inny zasięg**: węglanowe luzem trzymamy w promieniu stu kilometrów od zakładu, kredę sypką do dwustu pięćdziesięciu, a wapno tlenkowe 90 i palone mielone możemy wozić przez całą Polskę. Jedna uwaga: jeśli stawka 0,25 zł za tonokilometr jest u Was inna, dajcie znać — przeliczymy siatkę, bo to ona wyznacza całą geografię.
+Dlatego **każdy produkt ma inny zasięg**: węglanowe luzem trzymamy w promieniu około stu kilometrów od zakładu, kredę sypką do dwustu pięćdziesięciu, a wapno tlenkowe 90 i palone mielone możemy wozić przez całą Polskę. Razem wychodzi sto ogłoszeń w trzydziestu trzech miejscowościach.
 
-Przy okazji wyszła rzecz przydatna: część produktów nie jedzie z Niedomic. Kreda nawozowa granulowana wysyłana jest z Kornicy pod Siedlcami, więc na Mazowszu i Podlasiu jest znacznie tańsza w dostawie, niż wynikałoby to z odległości od Tarnowa.
+Dwie rzeczy do sprawdzenia po Waszej stronie. Po pierwsze: jeśli realna stawka za transport jest inna niż te 25 groszy za tonokilometr, dajcie znać — przeliczymy siatkę, bo to ona wyznacza całą geografię. Po drugie, przydatne odkrycie: **część produktów nie jedzie z Niedomic**. Kreda nawozowa granulowana wysyłana jest z Kornicy pod Siedlcami, więc na Mazowszu i Podlasiu jest w dostawie znacznie tańsza, niż wynikałoby z odległości od Tarnowa. To poszerza zasięg, o którym pewnie nie myśleliście w tych kategoriach.
 
-Ogłoszenia dostają parametry prosto z kart produktowych ze strony — zawartość CaO, reaktywność, frakcję, dawkowanie, producenta — plus cenę **z jednostką i informacją, że jest netto loco magazyn**. To brzmi drobiazgowo, ale jest istotne: w tej kategorii większość ogłoszeń podaje w polu ceny liczbę bez jednostki, często zaniżoną, żeby wypaść wyżej przy sortowaniu po cenie. Na 1 204 ogłoszenia tylko 36 podaje cenę za tonę. Uczciwa cena z jednostką odróżnia ofertę od tych, które wyglądają tanio tylko na liście.
+**Ile to może dać.**
 
-**Przy okazji sprawdziliśmy obawę o tanią konkurencję.** Wasze ceny są w rynku w każdej porównywalnej pozycji — wapno węglanowe 57 zł/t przy 57,40 zł/t z kopalni Morawica, kreda 125 zł/t przy 185 zł/t u konkurencji, wapno tlenkowe 220 zł/t przy 210 zł/t u najbliższego dostawcy. Tanie oferty, które widać na OLX, to w dużej części **wapno nieatestowane** — odsypy z wagi po 78 zł za tonę, sprzedawane obok atestowanego po 210 zł przez tego samego sprzedawcę. To nie jest ten sam produkt i nie ma sensu z tym konkurować ceną. Ma sens pokazywać atest.
-
-**Ile zapytań to może dać.**
-
-Policzyliśmy to na Waszych danych, nie na wróżeniu — na grupie 16 ogłoszeń o znanej historii publikacji. Przy 100 ogłoszeniach i pakiecie utrzymywanym bez przerw:
+Policzyliśmy na Waszych danych, na grupie szesnastu ogłoszeń o znanej historii publikacji. Przy stu ogłoszeniach i pakiecie utrzymywanym bez przerw:
 
 - ostrożnie: **około 25 telefonów miesięcznie**,
 - realnie: **około 75**,
 - optymistycznie, jeśli tytuły pod zastosowanie zadziałają tak jak „Do stawu": **około 115**.
 
-Licząc wszystko, co kanał kosztuje miesięcznie — pakiet i prowadzenie razem, czyli 1 020 zł — wychodzi **od 9 do 41 zł za jeden telefon od zainteresowanego**.
+Przy koszcie kanału 1 020 zł miesięcznie wychodzi **od 9 do 41 zł za jeden telefon od zainteresowanego**.
 
-**Za co bierzemy odpowiedzialność, a czego nie obiecujemy.** Odpowiadamy za to, że ogłoszenia będą poprawnie zbudowane, zgodne z regulaminem OLX, oparte na Waszych realnych parametrach i cenach, że nie będą gasnąć po cichu i że co tydzień będziemy wiedzieć, które działają, a które nie. Nie obiecujemy konkretnej liczby zamówień — na to wpływa cena, dostępność, transport i sezon, a te rzeczy są poza kanałem. Obiecujemy natomiast, że pod koniec października będziecie mieli twarde liczby do decyzji.
+**Koszty — całość, żeby był pełny obraz.**
+
+| Pozycja | Miesięcznie | Do kogo trafia |
+|---|---|---|
+| Opieka nad stroną i pozycjonowanie | 2 000 zł netto | Auranet |
+| Budżet reklamowy Google | 1 200 zł netto | Google |
+| Prowadzenie kampanii Google Ads | 600 zł netto | Auranet |
+| **Pakiet 100 ogłoszeń OLX** | **720 zł brutto** | **OLX** |
+| **Prowadzenie OLX** | **300 zł netto** | **Auranet** |
+
+Trzy pierwsze pozycje to ustalone wcześniej 3 800 zł. **OLX dokłada 720 zł do OLX i 300 zł do nas.** Do tego **jednorazowo 1 800 zł netto za uruchomienie kanału** — sto ogłoszeń, analiza rynku, model doboru miejscowości i narzędzia, które to wystawiają i mierzą. Część tej pracy jest już wykonana; fakturujemy ją raz i nie wraca.
+
+Z tych kwot **1 200 zł idzie do Google, a 720 zł do OLX** — to nie jest nasze wynagrodzenie, tylko opłata za wyświetlanie. Jedna uwaga do pakietu OLX: jest ważny 30 dni, więc to opłata cykliczna. Pilnujemy terminu i przypominamy przed wygaśnięciem, żeby nie powtórzyła się sytuacja z 18 lipca.
+
+**Dlaczego uruchomienie kosztuje więcej niż prowadzenie.** Bo tak to naprawdę wygląda. Ciężka praca jest na starcie — sto ogłoszeń, przegląd kategorii, model geografii, narzędzia. Potem **kanał w dużej mierze chodzi sam**: ogłoszenia odnawiają się automatycznie, dopóki pakiet jest opłacony. Prowadzenie to odczyt danych, wygaszenie ofert bez wyników, powielenie tych, które łapią, podmiana cen gdy się zmienią, i cotygodniowy podgląd, co robi konkurencja. Nie ma powodu brać za to tyle, co za prowadzenie kampanii reklamowych.
 
 **Harmonogram — te same trzy miesiące co reklamy.**
 
-- **połowa sierpnia** — zakup pakietu i wystawienie stu ogłoszeń,
+- **po Waszej akceptacji** — zakup pakietu i wystawienie stu ogłoszeń, to kwestia jednego dnia,
 - **koniec sierpnia** — pierwszy pomiar i korekta tytułów oraz miejscowości na podstawie danych,
-- **wrzesień i październik** — prowadzenie, rotacja ofert, reagowanie na to, co się sprawdza,
+- **wrzesień i październik** — prowadzenie, rotacja ofert, obserwacja konkurencji,
 - **koniec października** — podsumowanie razem z reklamami: ile zapytań, z których produktów i miejscowości, jakim kosztem. Na tej podstawie decydujecie, czy idziemy dalej i w jakiej skali.
 
-Nic nie przedłuża się samo. Sierpień–październik to szczyt sezonu dla rolnictwa, więc to jest właściwy moment, żeby to sprawdzić — a listopad domyka jeszcze wapno palone.
+Nic nie przedłuża się samo. Sierpień, wrzesień i październik to szczyt sezonu dla rolnictwa, a listopad domyka wapno palone — dlatego zależy nam, żeby ruszyć w tym tygodniu, a nie od września. Każdy tydzień zwłoki to tydzień szczytu, którego się nie odrobi.
 
-Jedna rzecz na później: zestaw produktów i miejscowości jest dobrany pod sezon rolniczy. W okolicach listopada wypada go przestawić — wapno palone wchodzi w swój szczyt, a zimą sensowniejsze są kreda pastewna i wapno hydratyzowane pod budownictwo. Wrócimy do tego, gdy będziemy podsumowywać październik.
+Na później jedna rzecz: zestaw produktów i miejscowości jest dobrany pod sezon rolniczy. W okolicach listopada wypada go przestawić — wapno palone wchodzi w swój szczyt, a zimą sensowniejsze są kreda pastewna i wapno hydratyzowane pod budownictwo. Wrócimy do tego przy podsumowaniu października.
 
-**Dwie rzeczy do Was.**
+**Za co bierzemy odpowiedzialność, a czego nie obiecujemy.** Odpowiadamy za to, że ogłoszenia będą poprawnie zbudowane, zgodne z regulaminem OLX, oparte na Waszych realnych parametrach i cenach, że nie będą gasnąć po cichu i że co tydzień będziemy wiedzieć, które działają, a które nie. Nie obiecujemy konkretnej liczby zamówień — na to wpływa cena, dostępność, transport i sezon, a te rzeczy są poza kanałem. Obiecujemy natomiast, że pod koniec października będziecie mieli twarde liczby do decyzji, a nie wrażenia.
 
-Konto OLX działa na prywatnym adresie Gmail, a hasło przyszło do nas zwykłym mailem. Warto je zmienić i włączyć logowanie dwuskładnikowe.
+Jeszcze jedno, drobne, ale warte zrobienia: konto OLX działa na prywatnym adresie Gmail, a hasło przyszło do nas zwykłym mailem. Warto je zmienić i włączyć logowanie dwuskładnikowe.
 
-I druga: ceny w ogłoszeniach ustawiamy zgodnie z cennikiem, który Paweł przysłał 7 sierpnia. Jeśli coś się w nim zmieni, dajcie znać — poprawimy we wszystkich ogłoszeniach naraz.
-
-Jeśli nie macie uwag, kupujemy pakiet i ruszamy.
+Dajcie akcept, a kupujemy pakiet i ogłoszenia idą na antenę tego samego dnia.
 
 Pozdrawiam,
 Janek
