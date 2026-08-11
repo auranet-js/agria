@@ -298,6 +298,11 @@ I to ten dostęp pokazał rzeczy, o których z panelu nie było jak się dowiedz
 
 Nie przysyłam Wam koncepcji do przedyskutowania, tylko plan, który czeka na uruchomienie. **Dwieście ogłoszeń jest przygotowanych** — trzynaście pozycji asortymentowych, każda z własnym opisem, parametrami zaciągniętymi wprost z Waszych kart produktowych i cenami z cennika, który Paweł przysłał 7 sierpnia. Pierwsze ogłoszenie już wisi na koncie jako sprawdzian, że wszystko przechodzi poprawnie.
 
+**Całą rozpiskę możecie zobaczyć tutaj — wszystkie dwieście pozycji, produkt po produkcie:**
+https://auratest.pl/fe4f58fec53ctmp/agria-olx-tabela-2026-08-07.html
+
+Przy każdym ogłoszeniu widać miejscowość, cenę, zakład, z którego towar jedzie, odległość i to, jaką część ceny tony zjada tam transport.
+
 Ogłoszenia podają cenę **z jednostką i informacją, że jest netto loco magazyn**. To wygląda na drobiazg, a jest przewagą: na blisko dwa i pół tysiąca ogłoszeń w tej kategorii tylko trzydzieści sześć podaje cenę za tonę. Reszta wpisuje gołą liczbę, często zaniżoną, żeby wypaść wyżej przy sortowaniu po cenie. Uczciwa cena z jednostką odróżnia Waszą ofertę od tych, które wyglądają tanio tylko na liście.
 
 **Przy okazji sprawdziliśmy obawę o tanią konkurencję i wygląda ona inaczej, niż się wydaje.** Wasze ceny są w rynku w każdej porównywalnej pozycji: wapno węglanowe 57 zł/t przy 57,40 zł/t z kopalni Morawica, kreda 125 zł/t przy 185 zł/t u konkurencji, wapno tlenkowe 220 zł/t przy 210 zł/t u najbliższego dostawcy. Te naprawdę tanie oferty to w dużej części **wapno nieatestowane** — odsypy z wagi po 78 zł za tonę, sprzedawane obok atestowanego po 210 zł przez tego samego sprzedawcę. To nie jest ten sam produkt. Nie ma sensu z tym konkurować ceną; ma sens pokazywać atest, co robimy w każdym opisie.
@@ -332,7 +337,7 @@ Przy koszcie kanału 1 500 zł miesięcznie wychodzi **od 6,50 do 30 zł za jede
 | **Pakiet 200 ogłoszeń OLX** | **1 200 zł brutto** | **OLX** |
 | **Prowadzenie OLX** | **300 zł netto** | **Auranet** |
 
-Trzy pierwsze pozycje to ustalone wcześniej 3 800 zł. **OLX dokłada 1 200 zł do OLX i 300 zł do nas.** Do tego **jednorazowo 1 800 zł netto za uruchomienie kanału** — dwieście ogłoszeń, analiza rynku, model doboru miejscowości i narzędzia, które to wystawiają i mierzą. Część tej pracy jest już wykonana; fakturujemy ją raz i nie wraca.
+Trzy pierwsze pozycje to ustalone wcześniej 3 800 zł. **OLX dokłada 1 200 zł do OLX i 300 zł do nas.** Do tego **jednorazowo 1 800 zł netto za uruchomienie kanału** — dwieście ogłoszeń, analiza rynku, model doboru miejscowości i narzędzia, które to wystawiają i mierzą. Ta pozycja jest już w większości wykonana: **poszło na to cztery godziny pracy analitycznej i przygotowawczej**, zanim ten mail powstał. Fakturujemy ją raz i nie wraca — kolejne miesiące to już tylko pakiet i prowadzenie.
 
 Z tych kwot **1 200 zł idzie do Google, a kolejne 1 200 zł do OLX** — to nie jest nasze wynagrodzenie, tylko opłata za wyświetlanie. Jedna uwaga do pakietu OLX: jest ważny 30 dni, więc to opłata cykliczna. Pilnujemy terminu i przypominamy przed wygaśnięciem, żeby nie powtórzyła się sytuacja z 18 lipca.
 
