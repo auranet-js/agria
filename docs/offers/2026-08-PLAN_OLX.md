@@ -339,16 +339,22 @@ Przy koszcie kanału 1 500 zł miesięcznie wychodzi **od 6,50 do 30 zł za jede
 
 Trzy pierwsze pozycje to ustalone wcześniej 3 800 zł. **OLX dokłada 1 200 zł do OLX i 300 zł do nas.** Do tego **jednorazowo 1 800 zł netto za uruchomienie kanału** — dwieście ogłoszeń, analiza rynku, model doboru miejscowości i narzędzia, które to wystawiają i mierzą. Ta pozycja jest już w większości wykonana: **poszło na to cztery godziny pracy analitycznej i przygotowawczej**, zanim ten mail powstał. Fakturujemy ją raz i nie wraca — kolejne miesiące to już tylko pakiet i prowadzenie.
 
-Z tych kwot **1 200 zł idzie do Google, a kolejne 1 200 zł do OLX** — to nie jest nasze wynagrodzenie, tylko opłata za wyświetlanie. Jedna uwaga do pakietu OLX: jest ważny 30 dni, więc to opłata cykliczna. Pilnujemy terminu i przypominamy przed wygaśnięciem, żeby nie powtórzyła się sytuacja z 18 lipca.
+Z tych kwot **1 200 zł idzie do Google, a kolejne 1 200 zł do OLX** — to nie jest nasze wynagrodzenie, tylko opłata za wyświetlanie.
+
+**Pakiet kupujecie Wy, ze swojego konta OLX** — my nie mamy tam dostępu do płatności i nie chcemy go mieć. Konkretnie chodzi o **Pakiet Premium na 200 ogłoszeń w kategorii Nawozy, 1 199,99 zł brutto**, płatność online. To nie jest ten sam produkt, który kupowaliście dotąd: dotychczasowy Megapakiet na 20 ogłoszeń kosztował 336 zł, czyli 16,80 zł za ogłoszenie, a tu wychodzi **6,00 zł** — najniższa stawka w całym cenniku OLX dla tej kategorii. Megapakiet pozwalał wystawiać też w innych działach rolniczych, ale sprawdziliśmy i cała konkurencja wapniarska siedzi w Nawozach, więc płaciliście za możliwość, której nikt nie wykorzystuje.
+
+Jedna uwaga do pakietu: jest ważny 30 dni, więc to opłata cykliczna. Pilnujemy terminu i przypominamy przed wygaśnięciem, żeby nie powtórzyła się sytuacja z 18 lipca.
 
 **Dlaczego uruchomienie kosztuje więcej niż prowadzenie.** Bo tak to naprawdę wygląda. Ciężka praca jest na starcie — dwieście ogłoszeń, przegląd kategorii, model geografii, narzędzia. Potem **kanał w dużej mierze chodzi sam**: ogłoszenia odnawiają się automatycznie, dopóki pakiet jest opłacony. Prowadzenie to odczyt danych, wygaszenie ofert bez wyników, powielenie tych, które łapią, podmiana cen gdy się zmienią, i cotygodniowy podgląd, co robi konkurencja. Nie ma powodu brać za to tyle, co za prowadzenie kampanii reklamowych.
 
 **Harmonogram — te same trzy miesiące co reklamy.**
 
-- **po Waszej akceptacji** — zakup pakietu i wystawienie dwustu ogłoszeń, to kwestia jednego dnia,
+- **po Waszej akceptacji** — kupujecie pakiet w panelu OLX, my tego samego dnia wystawiamy dwieście ogłoszeń,
 - **koniec sierpnia** — pierwszy pomiar i korekta tytułów oraz miejscowości na podstawie danych,
 - **wrzesień i październik** — prowadzenie, rotacja ofert, obserwacja konkurencji,
 - **koniec października** — podsumowanie razem z reklamami: ile zapytań, z których produktów i miejscowości, jakim kosztem. Na tej podstawie decydujecie, czy idziemy dalej i w jakiej skali.
+
+Co do skali: **da się pójść wyżej niż 200** i cena za ogłoszenie już nie rośnie — czterysta ogłoszeń to ta sama stawka sześciu złotych za sztukę, a miejsca w tej kategorii starczy na wielokrotnie więcej. Nie proponujemy tego teraz z jednego powodu i nie jest nim koszt: **przy dwustu ogłoszeniach mówimy o jakichś siedmiu telefonach dziennie, przy czterystu o czternastu.** Zanim podniesiemy skalę, warto zobaczyć, ile realnie ich schodzi i czy dział handlowy nadąża z oddzwanianiem. Telefon, który zostaje bez odpowiedzi, kosztuje więcej niż ogłoszenie, którego nie wystawiliśmy. Wrócimy do tego przy podsumowaniu, mając liczby.
 
 Nic nie przedłuża się samo. Sierpień, wrzesień i październik to szczyt sezonu dla rolnictwa, a listopad domyka wapno palone — dlatego zależy nam, żeby ruszyć w tym tygodniu, a nie od września. Każdy tydzień zwłoki to tydzień szczytu, którego się nie odrobi.
 
@@ -358,7 +364,7 @@ Na później jedna rzecz: zestaw produktów i miejscowości jest dobrany pod sez
 
 Jeszcze jedno, drobne, ale warte zrobienia: konto OLX działa na prywatnym adresie Gmail, a hasło przyszło do nas zwykłym mailem. Warto je zmienić i włączyć logowanie dwuskładnikowe.
 
-Dajcie akcept, a kupujemy pakiet i ogłoszenia idą na antenę tego samego dnia.
+Dajcie akcept, a ogłoszenia pójdą na antenę tego samego dnia, w którym pakiet będzie opłacony.
 
 Pozdrawiam,
 Janek
