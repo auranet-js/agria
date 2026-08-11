@@ -1,0 +1,1047 @@
+{
+ "data": "2026-08-11",
+ "gsc": {
+  "okno": {
+   "startDate": "2026-07-12",
+   "endDate": "2026-08-08"
+  },
+  "calosc": {
+   "klik": 261,
+   "wysw": 14413,
+   "poz": 7.8
+  },
+  "urle": {
+   "/wapnowanie-gleby/": {
+    "klik": 59,
+    "wysw": 9867,
+    "poz": 6.8
+   },
+   "/kalkulator-wapnowania/": {
+    "klik": 23,
+    "wysw": 420,
+    "poz": 6.2
+   },
+   "/wapno-nawozowe-rolnictwo/": {
+    "klik": 12,
+    "wysw": 693,
+    "poz": 9.8
+   },
+   "/wapno-granulowane/": null,
+   "/wapno-do-stabilizacji-gruntow/": null,
+   "/": {
+    "klik": 52,
+    "wysw": 1141,
+    "poz": 13.1
+   }
+  },
+  "frazy": {
+   "wapno nawozowe": [
+    {
+     "url": "/wapno-nawozowe-rolnictwo/",
+     "klik": 1,
+     "wysw": 221,
+     "poz": 10.9
+    }
+   ],
+   "wapno granulowane": [
+    {
+     "url": "/wapnowanie-gleby/",
+     "klik": 0,
+     "wysw": 14,
+     "poz": 2.1
+    }
+   ],
+   "ile wapna na hektar": [
+    {
+     "url": "/wapnowanie-gleby/",
+     "klik": 2,
+     "wysw": 899,
+     "poz": 9.0
+    }
+   ],
+   "ile wapna granulowanego na hektar": [
+    {
+     "url": "/wapnowanie-gleby/",
+     "klik": 1,
+     "wysw": 791,
+     "poz": 7.9
+    }
+   ],
+   "wapno bielik": [
+    {
+     "url": "/wapno-hydratyzowane/wapno-hydratyzowane-bielik-luz/",
+     "klik": 1,
+     "wysw": 10,
+     "poz": 13
+    },
+    {
+     "url": "/",
+     "klik": 0,
+     "wysw": 6,
+     "poz": 34.2
+    },
+    {
+     "url": "/wapno-hydratyzowane/",
+     "klik": 0,
+     "wysw": 3,
+     "poz": 58.7
+    },
+    {
+     "url": "/wapno-hydratyzowane/bielik/",
+     "klik": 0,
+     "wysw": 2,
+     "poz": 16.5
+    },
+    {
+     "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+     "klik": 0,
+     "wysw": 1,
+     "poz": 62
+    }
+   ],
+   "wapnowanie gleby": [
+    {
+     "url": "/wapnowanie-gleby/",
+     "klik": 0,
+     "wysw": 3,
+     "poz": 22.3
+    }
+   ]
+  }
+ },
+ "indeksacja": {
+  "https://agria.pl/wapno-granulowane/": {
+   "verdict": "NEUTRAL",
+   "coverage": "URL is unknown to Google",
+   "lastCrawl": null
+  },
+  "https://agria.pl/wapno-nawozowe/": {
+   "verdict": "NEUTRAL",
+   "coverage": "URL is unknown to Google",
+   "lastCrawl": null
+  }
+ },
+ "widocznosc": {
+  "agria.pl": {
+   "fraz_top30": 6,
+   "fraz_top10": 0,
+   "fraz_top3": 0,
+   "wolumen_top10": 0,
+   "wg_typu": {},
+   "top10": []
+  },
+  "polcalc.pl": {
+   "fraz_top30": 172,
+   "fraz_top10": 122,
+   "fraz_top3": 52,
+   "wolumen_top10": 71010,
+   "wg_typu": {
+    "blog/poradnik": {
+     "fraz": 116,
+     "wolumen": 67460
+    },
+    "produkt/kategoria": {
+     "fraz": 5,
+     "wolumen": 3160
+    },
+    "home": {
+     "fraz": 1,
+     "wolumen": 390
+    }
+   },
+   "top10": [
+    {
+     "kw": "rekultywacja",
+     "poz": 3,
+     "vol": 2900,
+     "url": "/blog/rekultywacja-gleby-jakie-sposoby-sa-najlepsze/"
+    },
+    {
+     "kw": "nawozy azotowe",
+     "poz": 5,
+     "vol": 2400,
+     "url": "/blog/nawozy-azotowe-w-praktyce-kiedy-jak-i-w-jakiej-ilosci-stosowac-azot-w-uprawach/"
+    },
+    {
+     "kw": "wapno magnezowe",
+     "poz": 10,
+     "vol": 2400,
+     "url": "/produkty/wapno-nawozowe-weglanowo-magnezowe-radkowit/"
+    },
+    {
+     "kw": "wapno na trawnik",
+     "poz": 3,
+     "vol": 2400,
+     "url": "/blog/wapnowanie-trawnika-jak-kiedy-i-czym-poradnik-krok-po-kroku/"
+    },
+    {
+     "kw": "niedobór wapnia objawy",
+     "poz": 7,
+     "vol": 1900,
+     "url": "/blog/objawy-niedoboru-wapnia-u-roslin-jak-je-rozpoznac-i-im-zapobiegac/"
+    },
+    {
+     "kw": "gleby bielicowe",
+     "poz": 5,
+     "vol": 1600,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "kiedy sadzić pomidory do gruntu",
+     "poz": 3,
+     "vol": 1600,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "kreda pastewna dla kur",
+     "poz": 7,
+     "vol": 1600,
+     "url": "/blog/kreda-pastewna-wlasciwosci-zastosowanie-i-wplyw-na-zdrowie-zwierzat-gospodarskich/"
+    },
+    {
+     "kw": "rodzaj gleby",
+     "poz": 6,
+     "vol": 1600,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "rodzaje gleb",
+     "poz": 3,
+     "vol": 1600,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "rodzaje gleby",
+     "poz": 3,
+     "vol": 1600,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "uprawa pomidorów w gruncie",
+     "poz": 1,
+     "vol": 1600,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "gleby",
+     "poz": 4,
+     "vol": 1300,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "gleby w polsce",
+     "poz": 3,
+     "vol": 1300,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "mączka bazaltowa zastosowanie",
+     "poz": 3,
+     "vol": 1300,
+     "url": "/blog/maczka-bazaltowa-naturalne-wsparcie-dla-gleby-i-roslin/"
+    },
+    {
+     "kw": "wapno węglanowe",
+     "poz": 7,
+     "vol": 1300,
+     "url": "/blog/wapno-weglanowe-a-pierwiastki-plonotworcze/"
+    },
+    {
+     "kw": "wapnowanie trawnika",
+     "poz": 2,
+     "vol": 1300,
+     "url": "/blog/wapnowanie-trawnika-jak-kiedy-i-czym-poradnik-krok-po-kroku/"
+    },
+    {
+     "kw": "badania gleby",
+     "poz": 9,
+     "vol": 1000,
+     "url": "/blog/badanie-gleby-porady-dla-rolnika/"
+    },
+    {
+     "kw": "badanie gleby",
+     "poz": 9,
+     "vol": 1000,
+     "url": "/blog/badanie-gleby-porady-dla-rolnika/"
+    },
+    {
+     "kw": "kiedy wapnować trawnik",
+     "poz": 6,
+     "vol": 1000,
+     "url": "/blog/wapnowanie-trawnika-jak-kiedy-i-czym-poradnik-krok-po-kroku/"
+    },
+    {
+     "kw": "ph gleby",
+     "poz": 8,
+     "vol": 1000,
+     "url": "/blog/jak-sprawdzic-kwasowosc-gleby/"
+    },
+    {
+     "kw": "wapno do trawnika",
+     "poz": 3,
+     "vol": 1000,
+     "url": "/blog/wapnowanie-trawnika-jak-kiedy-i-czym-poradnik-krok-po-kroku/"
+    },
+    {
+     "kw": "wapnowanie gleby",
+     "poz": 1,
+     "vol": 1000,
+     "url": "/blog/wapnowanie-gleby/"
+    },
+    {
+     "kw": "jak sadzić pomidory do gruntu",
+     "poz": 3,
+     "vol": 880,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "jaki nawóz pod ziemniaki",
+     "poz": 10,
+     "vol": 880,
+     "url": "/blog/uprawa-ziemniakow-kiedy-i-czym-nawozic-ziemniaki/"
+    },
+    {
+     "kw": "pomidory gruntowe",
+     "poz": 1,
+     "vol": 880,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "uprawa pomidorów",
+     "poz": 9,
+     "vol": 880,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "czarnoziemy",
+     "poz": 2,
+     "vol": 720,
+     "url": "/blog/czym-charakteryzuja-sie-czarnoziemy-i-gdzie-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "ile wapna na ha",
+     "poz": 1,
+     "vol": 720,
+     "url": "/blog/ile-wapna-granulowanego-na-hektar/"
+    },
+    {
+     "kw": "ile wapna na hektar",
+     "poz": 1,
+     "vol": 720,
+     "url": "/blog/ile-wapna-granulowanego-na-hektar/"
+    },
+    {
+     "kw": "kreda dla kur",
+     "poz": 10,
+     "vol": 720,
+     "url": "/blog/kreda-pastewna-wlasciwosci-zastosowanie-i-wplyw-na-zdrowie-zwierzat-gospodarskich/"
+    },
+    {
+     "kw": "mączka bazaltowa kiedy stosować",
+     "poz": 3,
+     "vol": 720,
+     "url": "/blog/maczka-bazaltowa-naturalne-wsparcie-dla-gleby-i-roslin/"
+    },
+    {
+     "kw": "rabarbar uprawa",
+     "poz": 4,
+     "vol": 720,
+     "url": "/blog/uprawa-rabarbaru-kiedy-jak-i-czym-nawozic/"
+    },
+    {
+     "kw": "rędziny gleba",
+     "poz": 9,
+     "vol": 720,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "wapno tlenkowe",
+     "poz": 8,
+     "vol": 720,
+     "url": "/blog/wapno-tlenkowe-czy-weglanowe-ktore-wybrac/"
+    },
+    {
+     "kw": "żyzna gleba",
+     "poz": 8,
+     "vol": 720,
+     "url": "/blog/zyzna-gleba-sprawdzone-metody-nawozenia-i-wapnowania/"
+    },
+    {
+     "kw": "gleba brunatna",
+     "poz": 4,
+     "vol": 590,
+     "url": "/blog/charakterystyka-gleb-brunatnych-i-ich-wystepowanie-na-terenie-polski/"
+    },
+    {
+     "kw": "gleby płowe",
+     "poz": 10,
+     "vol": 590,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "kiedy sypać wapno na trawnik",
+     "poz": 5,
+     "vol": 590,
+     "url": "/blog/wapnowanie-trawnika-jak-kiedy-i-czym-poradnik-krok-po-kroku/"
+    },
+    {
+     "kw": "nawozy bogate w potas i fosfor",
+     "poz": 10,
+     "vol": 590,
+     "url": "/blog/nawozy-potasowo-fosforowe-rola-potasu-i-fosforu-w-rozwoju-roslin-i-budowaniu-plonu/"
+    },
+    {
+     "kw": "objawy niedoboru wapnia",
+     "poz": 6,
+     "vol": 590,
+     "url": "/blog/objawy-niedoboru-wapnia-u-roslin-jak-je-rozpoznac-i-im-zapobiegac/"
+    },
+    {
+     "kw": "co sadzić po pomidorach",
+     "poz": 10,
+     "vol": 480,
+     "url": "/blog/plodozmian-warzyw-jakie-warzywa-sadzic-po-sobie/"
+    },
+    {
+     "kw": "co zrobić żeby cebula rosła w korzeń",
+     "poz": 8,
+     "vol": 480,
+     "url": "/blog/jak-uprawiac-cebule-by-osiagnac-wysokie-plony/"
+    },
+    {
+     "kw": "ile wapna granulowanego na ha",
+     "poz": 1,
+     "vol": 480,
+     "url": "/blog/ile-wapna-granulowanego-na-hektar/"
+    },
+    {
+     "kw": "ile wapna granulowanego na hektar",
+     "poz": 1,
+     "vol": 480,
+     "url": "/blog/ile-wapna-granulowanego-na-hektar/"
+    },
+    {
+     "kw": "jaka ziemią pod maliny",
+     "poz": 7,
+     "vol": 480,
+     "url": "/blog/jak-wapnowac-maliny-uprawa-malin/"
+    },
+    {
+     "kw": "pomidory polne",
+     "poz": 2,
+     "vol": 480,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "sadzenie pomidorów do gruntu",
+     "poz": 3,
+     "vol": 480,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "w jakich odstępach sadzić pomidory",
+     "poz": 4,
+     "vol": 480,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "co siać po cebuli",
+     "poz": 4,
+     "vol": 390,
+     "url": "/blog/plodozmian-warzyw-jakie-warzywa-sadzic-po-sobie/"
+    },
+    {
+     "kw": "czarnoziemy w polsce",
+     "poz": 2,
+     "vol": 390,
+     "url": "/blog/czym-charakteryzuja-sie-czarnoziemy-i-gdzie-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "czy mączka bazaltowa jest szkodliwa",
+     "poz": 7,
+     "vol": 390,
+     "url": "/blog/maczka-bazaltowa-naturalne-wsparcie-dla-gleby-i-roslin/"
+    },
+    {
+     "kw": "gleb",
+     "poz": 2,
+     "vol": 390,
+     "url": "/blog/jakie-gleby-wystepuja-w-polsce/"
+    },
+    {
+     "kw": "gleby brunatne",
+     "poz": 6,
+     "vol": 390,
+     "url": "/blog/charakterystyka-gleb-brunatnych-i-ich-wystepowanie-na-terenie-polski/"
+    },
+    {
+     "kw": "jak hodować pomidory",
+     "poz": 4,
+     "vol": 390,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "jak pielęgnować pomidory",
+     "poz": 5,
+     "vol": 390,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "jak zmierzyć ph gleby",
+     "poz": 7,
+     "vol": 390,
+     "url": "/blog/jak-sprawdzic-kwasowosc-gleby/"
+    },
+    {
+     "kw": "jakie wapno na trawnik",
+     "poz": 2,
+     "vol": 390,
+     "url": "/blog/wapnowanie-trawnika-jak-kiedy-i-czym-poradnik-krok-po-kroku/"
+    },
+    {
+     "kw": "kiedy pomidory do gruntu",
+     "poz": 6,
+     "vol": 390,
+     "url": "/blog/ogrod-i-ogrodek-dzialkowy-jak-uprawiac-pomidory-gruntowe/"
+    },
+    {
+     "kw": "kiedy sadzić rabarbar",
+     "poz": 1,
+     "vol": 390,
+     "url": "/blog/uprawa-rabarbaru-kiedy-jak-i-czym-nawozic/"
+    }
+   ]
+  },
+  "biovita.com.pl": {
+   "fraz_top30": 64,
+   "fraz_top10": 31,
+   "fraz_top3": 20,
+   "wolumen_top10": 32830,
+   "wg_typu": {
+    "produkt/kategoria": {
+     "fraz": 26,
+     "wolumen": 30340
+    },
+    "home": {
+     "fraz": 5,
+     "wolumen": 2490
+    }
+   },
+   "top10": [
+    {
+     "kw": "ziemia uniwersalna",
+     "poz": 3,
+     "vol": 5400,
+     "url": "/pl/29-ziemia-uniwersalna.html"
+    },
+    {
+     "kw": "włókno kokosowe",
+     "poz": 4,
+     "vol": 2900,
+     "url": "/pl/316-wlokno-kokosowe-podloze-rozluznione-coco-peat-frakcja-10mm-5l.html"
+    },
+    {
+     "kw": "kreda",
+     "poz": 3,
+     "vol": 2400,
+     "url": "/pl/314-kreda-do-warzyw-i-ogrodu-z-magnezem.html"
+    },
+    {
+     "kw": "torf odkwaszony",
+     "poz": 2,
+     "vol": 2400,
+     "url": "/pl/204-torf-odkwaszony.html"
+    },
+    {
+     "kw": "wapno do bielenia drzew",
+     "poz": 1,
+     "vol": 1900,
+     "url": "/pl/155-wapno-do-bielenia-drzew.html"
+    },
+    {
+     "kw": "ziemia do pomidorów",
+     "poz": 3,
+     "vol": 1600,
+     "url": "/pl/243-ziemia-do-warzyw-i-pomidorow-bio.html"
+    },
+    {
+     "kw": "wapno nawozowe",
+     "poz": 1,
+     "vol": 1300,
+     "url": "/pl/16-wapno-nawozowe.html"
+    },
+    {
+     "kw": "ziemia do palm",
+     "poz": 8,
+     "vol": 1300,
+     "url": "/pl/23-ziemia-do-palm-juk-i-dracen.html"
+    },
+    {
+     "kw": "ziemia do sukulentów",
+     "poz": 6,
+     "vol": 1300,
+     "url": "/pl/25-ziemia-do-kaktusow-i-sukulentow.html"
+    },
+    {
+     "kw": "ziemia uniwersalna 50l",
+     "poz": 10,
+     "vol": 1300,
+     "url": "/pl/29-ziemia-uniwersalna.html"
+    },
+    {
+     "kw": "biovita",
+     "poz": 1,
+     "vol": 1000,
+     "url": "/"
+    },
+    {
+     "kw": "ziemia bigos",
+     "poz": 8,
+     "vol": 1000,
+     "url": "/pl/345-ziemia-do-roslin-domowych-zielonych-podloze-ziemia-bigos.html"
+    },
+    {
+     "kw": "manure",
+     "poz": 3,
+     "vol": 880,
+     "url": "/en/166-dried-cow-manure-bucket.html"
+    },
+    {
+     "kw": "ziemia do wysiewu",
+     "poz": 2,
+     "vol": 880,
+     "url": "/pl/21-ziemia-do-wysiewu-nasion-z-wloknem-kokosowym.html"
+    },
+    {
+     "kw": "substrat torfowy",
+     "poz": 3,
+     "vol": 720,
+     "url": "/pl/41-substrat-torfowy.html"
+    },
+    {
+     "kw": "ziemia do róż",
+     "poz": 1,
+     "vol": 720,
+     "url": "/pl/267-ziemia-do-roz.html"
+    },
+    {
+     "kw": "biovita hurtownia ogrodnicza",
+     "poz": 2,
+     "vol": 590,
+     "url": "/"
+    },
+    {
+     "kw": "ziemia do paproci",
+     "poz": 3,
+     "vol": 590,
+     "url": "/pl/24-ziemia-do-paproci.html"
+    },
+    {
+     "kw": "ziemia do pelargonii",
+     "poz": 7,
+     "vol": 590,
+     "url": "/pl/19-ziemia-do-pelargonii-i-roslin-balkonowych.html"
+    },
+    {
+     "kw": "balicka 100 kraków",
+     "poz": 10,
+     "vol": 480,
+     "url": "/pl/Informacje/8-oddzialy"
+    },
+    {
+     "kw": "kreda granulowana",
+     "poz": 5,
+     "vol": 480,
+     "url": "/pl/303-kreda-trawnikowa-granulowana.html"
+    },
+    {
+     "kw": "ziemia do draceny",
+     "poz": 2,
+     "vol": 480,
+     "url": "/pl/23-ziemia-do-palm-juk-i-dracen.html"
+    },
+    {
+     "kw": "ziemia do ziół",
+     "poz": 2,
+     "vol": 480,
+     "url": "/pl/242-ziemia-do-ziol-bio.html"
+    },
+    {
+     "kw": "ziemia do tui",
+     "poz": 8,
+     "vol": 390,
+     "url": "/pl/35-ziemia-do-iglakow-i-roslin-kwasolubnych.html"
+    },
+    {
+     "kw": "bio vita",
+     "poz": 2,
+     "vol": 320,
+     "url": "/"
+    },
+    {
+     "kw": "bio-vita",
+     "poz": 2,
+     "vol": 320,
+     "url": "/"
+    },
+    {
+     "kw": "biovita tenczynek",
+     "poz": 1,
+     "vol": 260,
+     "url": "/"
+    },
+    {
+     "kw": "grys marmurowy",
+     "poz": 9,
+     "vol": 260,
+     "url": "/pl/10-grys-bialy-marmurowy-8-16mm.html"
+    },
+    {
+     "kw": "wapno do bielenia",
+     "poz": 1,
+     "vol": 210,
+     "url": "/pl/155-wapno-do-bielenia-drzew.html"
+    },
+    {
+     "kw": "wapno do drzew",
+     "poz": 2,
+     "vol": 210,
+     "url": "/pl/155-wapno-do-bielenia-drzew.html"
+    },
+    {
+     "kw": "substrat torfowy 250l",
+     "poz": 10,
+     "vol": 170,
+     "url": "/pl/210-substrat-torfowy-z-absorbentem-duze-opakowanie.html"
+    }
+   ]
+  },
+  "orcal.pl": {
+   "fraz_top30": 20,
+   "fraz_top10": 12,
+   "fraz_top3": 3,
+   "wolumen_top10": 9330,
+   "wg_typu": {
+    "produkt/kategoria": {
+     "fraz": 6,
+     "wolumen": 7410
+    },
+    "blog/poradnik": {
+     "fraz": 5,
+     "wolumen": 1440
+    },
+    "home": {
+     "fraz": 1,
+     "wolumen": 480
+    }
+   },
+   "top10": [
+    {
+     "kw": "wapno granulowane",
+     "poz": 10,
+     "vol": 5400,
+     "url": "/wapno-weglanowe-granulowane/"
+    },
+    {
+     "kw": "wapno tlenkowe",
+     "poz": 6,
+     "vol": 720,
+     "url": "/wapno-tlenkowe-granulowane/"
+    },
+    {
+     "kw": "kwaśna ziemia",
+     "poz": 5,
+     "vol": 590,
+     "url": "/wiedza/kwasna-gleba/"
+    },
+    {
+     "kw": "kreda granulowana",
+     "poz": 8,
+     "vol": 480,
+     "url": "/kreda-nawozowa-granulowana/"
+    },
+    {
+     "kw": "orichalk",
+     "poz": 10,
+     "vol": 480,
+     "url": "/"
+    },
+    {
+     "kw": "wapno węglanowe granulowane",
+     "poz": 6,
+     "vol": 390,
+     "url": "/wapno-weglanowe-granulowane/"
+    },
+    {
+     "kw": "jak odkwasić ziemię",
+     "poz": 9,
+     "vol": 260,
+     "url": "/wiedza/jak-odkwasic-glebe/"
+    },
+    {
+     "kw": "materia organiczna",
+     "poz": 10,
+     "vol": 210,
+     "url": "/wiedza/materia-organiczna/"
+    },
+    {
+     "kw": "określa ph gleby",
+     "poz": 8,
+     "vol": 210,
+     "url": "/wiedza/ph-gleby/"
+    },
+    {
+     "kw": "orcal cena",
+     "poz": 2,
+     "vol": 210,
+     "url": "/zamowienia/"
+    },
+    {
+     "kw": "wapno orcal",
+     "poz": 1,
+     "vol": 210,
+     "url": "/wapno-organiczne/"
+    },
+    {
+     "kw": "ph obojętne",
+     "poz": 2,
+     "vol": 170,
+     "url": "/wiedza/ph-gleby/"
+    }
+   ]
+  }
+ },
+ "serp": {
+  "wapno nawozowe": {
+   "agria_poz": null,
+   "agria_url": null,
+   "top5": [
+    {
+     "poz": 1,
+     "domena": "www.olx.pl",
+     "url": "https://www.olx.pl/rolnictwo/q-wapno-nawozowe/?srsltid=AfmBOoooK4irQrlibYGSZ0SmiNkaHRCg-PjJ36Oz7k8szDm88HgBWye-"
+    },
+    {
+     "poz": 2,
+     "domena": "sklep.agrosklad.com.pl",
+     "url": "https://sklep.agrosklad.com.pl/159-wapno-nawozowe"
+    },
+    {
+     "poz": 3,
+     "domena": "www.holcim.pl",
+     "url": "https://www.holcim.pl/wapna-nawozowe"
+    },
+    {
+     "poz": 4,
+     "domena": "industria.eu",
+     "url": "https://industria.eu/baza-wiedzy/wapno-nawozowe-zalety-i-zastosowanie/"
+    },
+    {
+     "poz": 5,
+     "domena": "sklep.rolmat.pl",
+     "url": "https://sklep.rolmat.pl/Wapno-nawozowe-granulowane-POLCALC-BB-500KG-1szt?srsltid=AfmBOoqtK26rHZSrNs-8X769SEggXKxkEnilIf467qZOIUFWqbD1UJbY"
+    }
+   ],
+   "bloki": {
+    "related_searches": 2,
+    "organic": 18,
+    "local_pack": 12,
+    "people_also_ask": 1,
+    "images": 2
+   }
+  },
+  "wapno granulowane": {
+   "agria_poz": null,
+   "agria_url": null,
+   "top5": [
+    {
+     "poz": 1,
+     "domena": "www.olx.pl",
+     "url": "https://www.olx.pl/rolnictwo/q-wapno-granulowane/?srsltid=AfmBOoprGmxIYwKmiVzAntDkEDgeNPhesJS5lk1iD_DQf_CCECvYzChY"
+    },
+    {
+     "poz": 2,
+     "domena": "sklep.rolmat.pl",
+     "url": "https://sklep.rolmat.pl/Wapno-nawozowe-granulowane-POLCALC-BB-500KG-1szt?srsltid=AfmBOoqr4mGU7MsCJ4zC4wymkwDcPf7kJJmyz0UdpQFEg7iDRDxi-5lK"
+    },
+    {
+     "poz": 3,
+     "domena": "ph70.pl",
+     "url": "https://ph70.pl/wapno-granulowane-wszystko-co-musisz-o-nim-wiedziec/"
+    },
+    {
+     "poz": 4,
+     "domena": "osadkowski.pl",
+     "url": "https://osadkowski.pl/blog-agrotechnika/wapno-granulowane-kiedy-warto-je-stosowac?srsltid=AfmBOoqeNbMxhoimb9R0HDJiVjN1vIQQfXPlcXH3uOdrkpNwzwnxA9cY"
+    },
+    {
+     "poz": 5,
+     "domena": "www.tygodnik-rolniczy.pl",
+     "url": "https://www.tygodnik-rolniczy.pl/rynki-rolne/ceny-nawozow/500-kg-zamiast-kilku-ton-tak-dziala-nowoczesne-wapno-granulowane-2669579"
+    }
+   ],
+   "bloki": {
+    "people_also_ask": 1,
+    "related_searches": 2,
+    "organic": 18,
+    "images": 2
+   }
+  },
+  "wapno palone": {
+   "agria_poz": null,
+   "agria_url": null,
+   "top5": [
+    {
+     "poz": 1,
+     "domena": "www.leroymerlin.pl",
+     "url": "https://www.leroymerlin.pl/produkty/budowa/beton-cement-zaprawa-tynk/cementy-i-wapna/wapno/wapno-palone-p.html?srsltid=AfmBOoo3gC-InJjSATNkfnvWPgplkbK7TZpU4j9Q1ielfnPVmOLbM6QE"
+    },
+    {
+     "poz": 2,
+     "domena": "ifarmer.pl",
+     "url": "https://ifarmer.pl/product-pol-6038-Wapno-tlenkowe-palone-Dobromir-25-kg.html"
+    },
+    {
+     "poz": 3,
+     "domena": "pl.wikipedia.org",
+     "url": "https://pl.wikipedia.org/wiki/Tlenek_wapnia"
+    },
+    {
+     "poz": 4,
+     "domena": "allegro.pl",
+     "url": "https://allegro.pl/listing?string=wapno%20palone&srsltid=AfmBOopGn_LcjhLJ-eBieVH6fiFAxSJCQcL4iJRK9Qgw2MZDeRjRcMED"
+    },
+    {
+     "poz": 5,
+     "domena": "www.lhoist.com",
+     "url": "https://www.lhoist.com/pl-PL/produkty-i-uslugi/material/wapno-wapno-palone"
+    }
+   ],
+   "bloki": {
+    "related_searches": 2,
+    "video": 1,
+    "organic": 17,
+    "ai_overview": 1,
+    "people_also_ask": 1,
+    "images": 1,
+    "knowledge_graph": 1
+   }
+  },
+  "wapno magnezowe": {
+   "agria_poz": null,
+   "agria_url": null,
+   "top5": [
+    {
+     "poz": 1,
+     "domena": "www.olx.pl",
+     "url": "https://www.olx.pl/rolnictwo/q-wapno-magnezowe/?srsltid=AfmBOopdmYY_aanDOsNh5tziXwe5LzVqyA523mu6qCf4QmHazSjzqJDY"
+    },
+    {
+     "poz": 2,
+     "domena": "ph70.pl",
+     "url": "https://ph70.pl/wapno-magnezowe-dolomit/"
+    },
+    {
+     "poz": 3,
+     "domena": "sklep.firmafrankiewicz.pl",
+     "url": "https://sklep.firmafrankiewicz.pl/produkt/wapno-magnezowe-1000-kg/"
+    },
+    {
+     "poz": 4,
+     "domena": "industria.eu",
+     "url": "https://industria.eu/baza-wiedzy/porownanie-wapna-weglanowego-i-magnezowego/"
+    },
+    {
+     "poz": 5,
+     "domena": "sklep.rolmat.pl",
+     "url": "https://sklep.rolmat.pl/Wapno-magnezowe-granulowane-SuperMag-BB-500kg-1szt?srsltid=AfmBOorsJbeHkdKEO3zCxBmNbayFW3YFHbr5sSAhGY0_wX6NQczjPknm"
+    }
+   ],
+   "bloki": {
+    "related_searches": 2,
+    "organic": 17,
+    "ai_overview": 1,
+    "people_also_ask": 1,
+    "images": 2
+   }
+  },
+  "kreda nawozowa": {
+   "agria_poz": null,
+   "agria_url": null,
+   "top5": [
+    {
+     "poz": 1,
+     "domena": "nawozy24.com",
+     "url": "https://nawozy24.com/p/kreda-nawozowa-granukalk/?srsltid=AfmBOooAYWZFmw2KGqoFN-HE3rEzYgnAqfFkhHAKmNiY8d7846Z8duuQ"
+    },
+    {
+     "poz": 2,
+     "domena": "www.olx.pl",
+     "url": "https://www.olx.pl/rolnictwo/q-kreda-nawozowa-granulowana/?srsltid=AfmBOoroCG_k5XIsY7-uSolM7uUOjyH1_gsftuegMXx1nPYJO3f9kUPV"
+    },
+    {
+     "poz": 3,
+     "domena": "witex24.pl",
+     "url": "https://witex24.pl/produkt/Artykuly-pl,Artykuly-ogrodnicze-i-lesne-pl,Nawozy-pl/1110003582225-wokas-kreda-granulowana-500-kg-big-bag/2662?srsltid=AfmBOoofo2WoqtXWNXq8ZtxcPJvbw0bblIwfjLA9AaJR3Th6-2jGwJ_O"
+    },
+    {
+     "poz": 4,
+     "domena": "orcal.pl",
+     "url": "https://orcal.pl/kreda-nawozowa-granulowana/"
+    },
+    {
+     "poz": 5,
+     "domena": "biatom.pl",
+     "url": "https://biatom.pl/nawozy/1759-kreda-25kg-nawozowa-wapno-granulowane-ogrodnicze-wapniak-caco-5901828773334.html?srsltid=AfmBOooOcjsBEytqO6rWvon8CWopd-8nKRX9iFtIE6i8kJud3p5I4-DV"
+    }
+   ],
+   "bloki": {
+    "related_searches": 2,
+    "organic": 17,
+    "ai_overview": 1,
+    "people_also_ask": 1,
+    "images": 2
+   }
+  },
+  "wapno hydratyzowane": {
+   "agria_poz": null,
+   "agria_url": null,
+   "top5": [
+    {
+     "poz": 1,
+     "domena": "unibuild.pl",
+     "url": "https://unibuild.pl/sklep/wapno-hydratyzowane-natura/"
+    },
+    {
+     "poz": 2,
+     "domena": "sklep.ramex.pl",
+     "url": "https://sklep.ramex.pl/pl/951-wapno?srsltid=AfmBOoo3PGb0mSAng5MgP6C-uzc5ac49nCChTFbbLX1y3Ng4lT4ToG0e"
+    },
+    {
+     "poz": 3,
+     "domena": "epicentra.pl",
+     "url": "https://epicentra.pl/pl/blog/wapno-hydratyzowane-czy-wapno-palone-roznice-i-zastosowania-1748599608.html"
+    },
+    {
+     "poz": 4,
+     "domena": "allegro.pl",
+     "url": "https://allegro.pl/listing?string=wapno%20hydratyzowane&srsltid=AfmBOooIWZkqWdWCzIxYU4dnzknrbnhSs1bZR_k29eRvtIj1FqM2VUm7"
+    },
+    {
+     "poz": 5,
+     "domena": "www.leroymerlin.pl",
+     "url": "https://www.leroymerlin.pl/produkty/budowa/beton-cement-zaprawa-tynk/cementy-i-wapna/wapno/?srsltid=AfmBOooqergH088ytBNUQ2enwNaDmQhsQ2z0V7zSo6C-k1wxxUFqWOFF"
+    }
+   ],
+   "bloki": {
+    "related_searches": 2,
+    "organic": 18,
+    "featured_snippet": 1,
+    "people_also_ask": 1,
+    "images": 1,
+    "knowledge_graph": 1
+   }
+  }
+ },
+ "koszt_usd": 0.1004
+}
