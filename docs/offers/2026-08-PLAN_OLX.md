@@ -252,6 +252,20 @@ Dwie rzeczy wyszły z tych danych, które od razu wykorzystujemy:
 
 **Ogłoszenia gasły po cichu.** Automatyczne przedłużanie było włączone na jednym ogłoszeniu z dwudziestu. To jedno przedłużyło się 18 lipca o 8:43, kwadrans przed wygaśnięciem pakietu — i tylko dlatego żyje do dziś. Pozostałych siedemnaście padło tego samego ranka i nikt tego nie zauważył. Przy nowych ustawiamy przedłużanie od razu na wszystkich i pilnujemy terminu pakietu.
 
+**Podpięliśmy się bezpośrednio do systemu OLX i to jest rzecz, która zmienia sposób prowadzenia tego kanału.**
+
+OLX udostępnia firmom bezpośredni dostęp do danych i do zarządzania ogłoszeniami — poza panelem, którego używa się ręcznie. Uruchomiliśmy go na Waszym koncie i spięliśmy z naszymi narzędziami analitycznymi. Co to daje w praktyce:
+
+**Widzimy wynik każdego ogłoszenia osobno, tydzień po tygodniu.** Panel OLX pokazuje liczby narastająco od dnia założenia ogłoszenia — z oferty wystawionej w 2023 roku nie da się wyczytać, ile zrobiła w zeszłym miesiącu. My pobieramy stan co tydzień i liczymy różnicę, więc widać przyrost, a nie sumę z trzech lat. Bez tego prognoza w tym mailu byłaby zgadywaniem, a nie rachunkiem.
+
+**Sto ogłoszeń wystawiamy i zmieniamy jedną operacją.** Gdy Paweł przyśle nowy cennik, ceny podmieniają się we wszystkich ogłoszeniach w kilka minut — zamiast stu poprawek ręcznie w panelu. Tak samo z tytułami, opisami i zdjęciami.
+
+**Automatycznego przedłużania pilnuje system, nie czyjaś pamięć.** To właśnie ono zawiodło 18 lipca.
+
+**Widzimy, co robi konkurencja — co tydzień.** Pobieramy całą kategorię i porównujemy z poprzednim tygodniem: kto doszedł, kto zniknął, kto podmienił tytuły, kto przestawił miejscowości, kto zaczął płacić za wyróżnienia. To pierwszy raz, gdy tę kategorię da się obserwować systematycznie, a nie przez zaglądanie na OLX od czasu do czasu.
+
+I to ten dostęp pokazał rzeczy, o których z panelu nie było jak się dowiedzieć: że jedno ogłoszenie odpowiada za 45% wszystkich kontaktów, że automatyczne przedłużanie działało na jednym z dwudziestu, i że pakiet wygasł kwadrans po tym, jak jedyne chronione ogłoszenie zdążyło się odnowić.
+
 **Co jest gotowe.**
 
 Nie przysyłam Wam koncepcji do przedyskutowania, tylko plan, który czeka na uruchomienie. **Sto ogłoszeń jest przygotowanych** — dziesięć produktów, każdy z własnym opisem, parametrami zaciągniętymi wprost z Waszych kart produktowych i cenami z cennika, który Paweł przysłał 7 sierpnia. Pierwsze ogłoszenie już wisi na koncie jako sprawdzian, że wszystko przechodzi poprawnie.
