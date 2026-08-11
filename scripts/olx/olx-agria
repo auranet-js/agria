@@ -48,12 +48,19 @@ PY
     resp=$(curl -sS -X POST "$API_BASE/open/oauth/token" \
       -H 'Content-Type: application/json' \
       -d "{\"grant_type\":\"refresh_token\",\"client_id\":\"$OLX_CLIENT_ID\",\"client_secret\":\"$OLX_CLIENT_SECRET\",\"refresh_token\":\"$rt\"}")
-    echo "$resp" | python3 - "$TOKENS" <<'PY'
+    # Odpowiedz przekazujemy ARGUMENTEM, nie przez pipe: `python3 - ... <<'PY'` bierze skrypt
+    # z heredoca, ktory nadpisuje stdin, wiec sys.stdin.read() zwracal pusty ciag i refresh
+    # wywalal sie na JSONDecodeError. Blad wyszedl dopiero przy pierwszym realnym wygasnieciu.
+    python3 - "$TOKENS" "$resp" <<'PY'
 import json, sys, time
-raw = sys.stdin.read()
-d = json.loads(raw)
+raw = sys.argv[2]
+try:
+    d = json.loads(raw)
+except json.JSONDecodeError:
+    sys.exit("blad odswiezania, odpowiedz nie jest JSON-em: " + raw[:300])
 if "access_token" not in d:
     sys.exit("blad odswiezania: " + raw)
+d.setdefault("refresh_token", json.load(open(sys.argv[1])).get("refresh_token"))
 d["obtained_at"] = int(time.time())
 d["expires_at"] = int(time.time()) + int(d.get("expires_in", 0))
 json.dump(d, open(sys.argv[1], "w"), indent=2)

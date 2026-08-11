@@ -41,7 +41,7 @@ PRODUKTY = [
         "tytul": "Wapno do stawu — tlenkowe palone 70% CaO, atest, od 220 zł/t",
         "lead": "Wapno tlenkowe palone do przygotowania stawu przed zalaniem i do zabiegów w sezonie. Podnosi pH wody, odkaża dno i przyspiesza mineralizację mułu, zwiększając pojemność użytkową stawu. Reakcja egzotermiczna — działanie widoczne w 2–3 tygodnie.",
         "intencja": "rybactwo — pH wody, mineralizacja mułu",
-        "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem (całopojazdowo), 400 zł/t w big-bag",
+        "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem, loco magazyn · dostępne również w big-bagach i workach",
         "pule": ["stawy"], "ile": 14,
         "uwaga": "wzorzec potwierdzony danymi konta: 94 odsłony telefonu = 45% kontaktów",
     },
@@ -51,7 +51,7 @@ PRODUKTY = [
         "tytul": "Odkwaszanie gleb ciężkich — wapno tlenkowe 70% CaO, od 220 zł/t",
         "lead": "Wapno tlenkowe palone do szybkiego odkwaszania gleb średnich i ciężkich. Reaktywność bliska 100% oznacza, że efekt widać w 2–4 tygodnie, a nie w kolejnym sezonie. Uregulowany odczyn odblokowuje składniki pokarmowe już zalegające w glebie.",
         "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich",
-        "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem (całopojazdowo), 400 zł/t w big-bag",
+        "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem, loco magazyn · dostępne również w big-bagach i workach",
         "pule": ["gleby_ciezkie"], "ile": 12,
     },
     {
@@ -60,7 +60,7 @@ PRODUKTY = [
         "tytul": "Wapno tlenkowe 90% CaO — frakcja 0–3 i 2–8 mm, od 750 zł/t",
         "lead": "Najwyższa koncentracja tlenku wapnia w ofercie — 90% CaO. Wyższa koncentracja to mniejsza dawka na hektar i mniej ton do przewiezienia i rozsiania. Dostępne w dwóch frakcjach: 0–3 mm do szybkiego działania i 2–8 mm do wysiewu rozsiewaczem.",
         "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar",
-        "cena_pole": 750, "cena_opis": "0–3 mm: 750 zł/t luz, 850 zł/t big-bag · 2–8 mm: 850 / 940 zł/t",
+        "cena_pole": 750, "cena_opis": "od 750 zł/t netto luzem, loco magazyn · frakcje 0–3 mm i 2–8 mm",
         "pule": ["gleby_ciezkie", "wielkopolska"], "ile": 10,
         "uwaga": "w tej frakcji na OLX brak porównywalnej oferty",
     },
@@ -70,7 +70,7 @@ PRODUKTY = [
         "tytul": "Oxyfertil 90 — wapno tlenkowe 90% CaO w big-bag, od 790 zł/t",
         "lead": "Wapno tlenkowe 90% CaO w big-bagach, sprzedawane od jednej tony — bez minimum całopojazdowego. Rozwiązanie dla gospodarstw, które potrzebują wysokiej koncentracji CaO, ale nie zamawiają 24 ton naraz.",
         "intencja": "rolnictwo — dostawa od 1 tony, bez całopojazdowego minimum",
-        "cena_pole": 790, "cena_opis": "790 zł/t netto, big-bag od 1 tony",
+        "cena_pole": 790, "cena_opis": "od 790 zł/t netto, loco magazyn · dostawa od 1 tony",
         "pule": ["wielkopolska", "mazowsze"], "ile": 8,
     },
     {
@@ -79,7 +79,7 @@ PRODUKTY = [
         "tytul": "Wapno granulowane pod rzepak i zboża — wysiew rozsiewaczem, od 350 zł/t",
         "lead": "Wapno węglanowe w granulacie — do wysiewu własnym rozsiewaczem nawozów, bez usługi wapnowania i bez pylenia. Pozwala wapnować w terminie, który pasuje do zabiegu, a nie do dostępności usługodawcy.",
         "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania",
-        "cena_pole": 350, "cena_opis": "350 zł/t big-bag od 1 t · 380 zł/t w workach 25 kg",
+        "cena_pole": 350, "cena_opis": "od 350 zł/t netto, loco magazyn · dostawa od 1 tony, dostępne też w workach 25 kg",
         "pule": ["wielkopolska", "mazowsze"], "ile": 12,
     },
     {
@@ -88,7 +88,7 @@ PRODUKTY = [
         "tytul": "Wapno granulowane z magnezem — uzupełnienie MgO, od 370 zł/t",
         "lead": "Wapno węglanowo-magnezowe w granulacie — odkwasza i jednocześnie uzupełnia magnez. Do gleb lekkich i stanowisk z rozpoznanym niedoborem MgO. Wysiew własnym rozsiewaczem.",
         "intencja": "rolnictwo — niedobory magnezu, gleby lekkie",
-        "cena_pole": 370, "cena_opis": "370 zł/t big-bag od 1 t · 410 zł/t w workach 25 kg",
+        "cena_pole": 370, "cena_opis": "od 370 zł/t netto, loco magazyn · dostawa od 1 tony, dostępne też w workach 25 kg",
         "pule": ["wielkopolska", "poludnie_zachod"], "ile": 10,
     },
     {
@@ -106,7 +106,7 @@ PRODUKTY = [
         "tytul": "Kreda nawozowa granulowana — big-bag od 1 t, od 410 zł/t",
         "lead": "Kreda nawozowa w granulacie, big-bag od jednej tony. Łagodne, rozłożone w czasie odkwaszanie przy wysiewie własnym rozsiewaczem — dla gospodarstw, które nie zamawiają dostaw całopojazdowych.",
         "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem",
-        "cena_pole": 410, "cena_opis": "410 zł/t big-bag od 1 t · 490 zł/t w workach 25 kg",
+        "cena_pole": 410, "cena_opis": "od 410 zł/t netto, loco magazyn · dostawa od 1 tony, dostępne też w workach 25 kg",
         "pule": ["poludnie_zachod", "wielkopolska"], "ile": 8,
     },
     {
@@ -125,7 +125,7 @@ PRODUKTY = [
         "tytul": "Kreda pastewna dla bydła i drobiu — wapń w paszy, od 190 zł/t",
         "lead": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.",
         "intencja": "paszarstwo — suplementacja wapnia",
-        "cena_pole": 190, "cena_opis": "190 zł/t netto luzem · 610 zł/t w workach 30 kg",
+        "cena_pole": 190, "cena_opis": "od 190 zł/t netto luzem, loco magazyn · dostępna również w workach 30 kg",
         "pule": ["paszarstwo"], "ile": 6,
     },
     {

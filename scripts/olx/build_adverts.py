@@ -25,35 +25,50 @@ SPECS = os.path.join(D, "product-specs.json")
 OUT = os.path.join(D, "adverts-payload.json")
 
 CDN = "https://ireland.apollo.olxcdn.com/v1/files/{}-PL/image;s=1000x700"
+WLASNE = "https://auratest.pl/agria-olx/agria-{}.jpg"
 
-# Kit grafik brandowych Auranetu, już na CDN OLX (8 zdjęć z ogłoszenia 930166743).
-# Kolejność zgodna z tym, co widać na każdej: to są plansze porównawcze frakcji.
+# Zdjęcia produktowe to POŁÓWKI plansz Auranetu — jedna plansza = dwa produkty obok siebie,
+# więc w ogłoszeniu jednego produktu pokazywaliśmy też drugi. Cięcie robi `scripts/olx/zdjecia.py`,
+# on też usuwa plakietkę z kodem QR (regulamin OLX traktuje zdjęcia jako treść ogłoszenia).
+# Zdjęcia realne — worki, big-bagi, kadr otwierający — nie miały kodu i zostają na CDN OLX.
 FOTO = {
-    "hero":            "bszde7mjrgep2",  # „WAPNA NAWOZOWE" — ciągnik na polu
-    "tlenkowe_drobne": "ehrko21q6pcg",   # Agrobielik 70 0–2 mm | Agrobielik 90 0–3 mm
-    "tlenkowe_grube":  "c7x3u8i4d8672",  # Agrobielik 90 2–8 mm | Oxyfertil 90 3–8 mm
-    "weglanowe_sypkie": "mfbvu7uouj6o",  # węglanowe sypkie z magnezem | bez magnezu
-    "weglanowe_granul": "eq6zi11x7gdq",  # węglanowe granulowane z magnezem | bez magnezu
-    "kreda":           "6mrdec42b9il",   # kreda sypka | kreda granulowana
-    "worki":           "df737gqzimu12",  # palety z workami wapna tlenkowego
-    "bigbagi":         "03yl2d0fc5313",  # big-bagi Agrobielik w magazynie
+    "hero":    CDN.format("bszde7mjrgep2"),   # „WAPNA NAWOZOWE" — ciągnik na polu
+    "worki":   CDN.format("df737gqzimu12"),   # palety z workami wapna tlenkowego
+    "bigbagi": CDN.format("03yl2d0fc5313"),   # big-bagi Agrobielik w magazynie
+    "agrobielik-70":            WLASNE.format("agrobielik-70"),
+    "agrobielik-90-0-3":        WLASNE.format("agrobielik-90-0-3"),
+    "agrobielik-90-2-8":        WLASNE.format("agrobielik-90-2-8"),
+    "oxyfertil-90":             WLASNE.format("oxyfertil-90"),
+    "weglanowe-z-magnezem":     WLASNE.format("weglanowe-z-magnezem"),
+    "weglanowe-bez-magnezu":    WLASNE.format("weglanowe-bez-magnezu"),
+    "granulowane-z-magnezem":   WLASNE.format("granulowane-z-magnezem"),
+    "granulowane-bez-magnezu":  WLASNE.format("granulowane-bez-magnezu"),
+    "kreda-sypka":              WLASNE.format("kreda-sypka"),
+    "kreda-granulowana":        WLASNE.format("kreda-granulowana"),
 }
 
-# Zdjęcie wiodące dobrane do produktu — pierwsze zdjęcie decyduje o kliknięciu z listy.
+# Pierwsze zdjęcie decyduje o kliknięciu z listy, więc na czele idzie kadr TEGO produktu.
 GALERIE = {
-    "agrobielik-70":              ["tlenkowe_drobne", "bigbagi", "worki", "hero"],
-    "agrobielik-90":              ["tlenkowe_drobne", "tlenkowe_grube", "bigbagi", "hero"],
-    "oxyfertil-90":               ["tlenkowe_grube", "bigbagi", "hero"],
-    "weglanowe-granulowane":      ["weglanowe_granul", "bigbagi", "hero"],
-    "weglanowe-magnez-granulowane": ["weglanowe_granul", "bigbagi", "hero"],
-    "kreda-nawozowa-sypka":       ["kreda", "hero", "bigbagi"],
-    "kreda-nawozowa-granulowana": ["kreda", "bigbagi", "hero"],
-    "weglanowe-odmiana-04":       ["weglanowe_sypkie", "hero", "bigbagi"],
-    "kreda-pastewna":             ["kreda", "worki", "hero"],
-    "weglanowe-magnez-odmiana-04": ["weglanowe_sypkie", "hero", "bigbagi"],
-    "weglanowe-magnez-odmiana-05": ["weglanowe_sypkie", "hero", "bigbagi"],
-    "mieszanka-tlenkowo-weglanowa": ["tlenkowe_drobne", "weglanowe_sypkie", "hero"],
+    "agrobielik-70":               ["agrobielik-70", "bigbagi", "worki", "hero"],
+    "agrobielik-90":               ["agrobielik-90-0-3", "agrobielik-90-2-8", "bigbagi", "hero"],
+    "oxyfertil-90":                ["oxyfertil-90", "bigbagi", "hero"],
+    "weglanowe-granulowane":       ["granulowane-bez-magnezu", "bigbagi", "hero"],
+    "weglanowe-magnez-granulowane": ["granulowane-z-magnezem", "bigbagi", "hero"],
+    "kreda-nawozowa-sypka":        ["kreda-sypka", "hero", "bigbagi"],
+    "kreda-nawozowa-granulowana":  ["kreda-granulowana", "bigbagi", "hero"],
+    "weglanowe-odmiana-04":        ["weglanowe-bez-magnezu", "hero", "bigbagi"],
+    "weglanowe-magnez-odmiana-04": ["weglanowe-z-magnezem", "hero", "bigbagi"],
+    "weglanowe-magnez-odmiana-05": ["weglanowe-z-magnezem", "hero", "bigbagi"],
+    # mieszanka to faktycznie połączenie dwóch materiałów, więc pokazujemy oba
+    "mieszanka-tlenkowo-weglanowa": ["agrobielik-70", "weglanowe-bez-magnezu", "hero"],
+    # kreda pastewna nie ma własnej planszy — miniaturą są jej zdjęcia frakcji z karty
+    # produktowej; „worki" tu nie wchodzą, bo to worki wapna tlenkowego, czyli innego produktu
+    "kreda-pastewna":              ["hero"],
 }
+
+# Produkty bez własnej planszy: zdjęcia z karty produktowej idą PRZED kadrami z kitu,
+# żeby miniaturą był ten produkt, a nie ogólny kadr otwierający.
+BEZ_PLANSZY = {"kreda-pastewna"}
 
 # Które parametry z karty produktowej wchodzą do opisu i w jakiej kolejności.
 PARAMETRY = ["Zawartość CaO", "Zawartość CaO+MgO", "Zawartość MgO", "Reaktywność",
@@ -124,11 +139,10 @@ if __name__ == "__main__":
         if not klucze:
             bledy.append(f"brak galerii dla {row['karta']}")
             klucze = ["hero"]
-        zdjecia = [{"url": CDN.format(FOTO[k])} for k in klucze]
-        # domknięcie galerii zdjęciem produktowym z karty na agria.pl (8 to limit OLX)
-        for u in specs.get(row["karta"], {}).get("images", [])[:2]:
-            if len(zdjecia) < 8:
-                zdjecia.append({"url": u})
+        z_kitu = [{"url": FOTO[k]} for k in klucze]
+        ze_strony = [{"url": u} for u in specs.get(row["karta"], {}).get("images", [])[:4]]
+        zdjecia = (ze_strony + z_kitu) if row["karta"] in BEZ_PLANSZY else (z_kitu + ze_strony)
+        zdjecia = zdjecia[:8]  # limit OLX dla kategorii 4368
 
         out.append({
             "title": row["title"][:70],
