@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plan 100 ogłoszeń OLX dla AGRII — produkty, tytuły pod intencję, siatka miast.
+"""Plan 200 ogłoszeń OLX dla AGRII — produkty, tytuły pod intencję, siatka miast.
 
 Wejście: data/olx/product-specs.json (parametry z renderu kart agria.pl) + cennik
 z docs/operations/CENNIK_PAWEL_2026-08-07.md (przepisany tutaj jako ceny „od").
@@ -32,7 +32,7 @@ CAT_NAWOZY = 4368
 # tu listy miast dobrane „pod stawy" i „pod rolnictwo" z głowy — to było zgadywanie.
 # Wejście: data/olx/siatka-miast.json (uruchom najpierw `python3 scripts/olx/grid.py`).
 
-# 10 pozycji × przypisana liczba miast = 100 ogłoszeń.
+# 13 pozycji × przypisana liczba miast = 200 ogłoszeń.
 # Ceny: netto, loco magazyn (CENNIK_PAWEL_2026-08-07.md). W tytule podajemy jednostkę.
 PRODUKTY = [
     {
@@ -128,8 +128,34 @@ PRODUKTY = [
         "cena_pole": 190, "cena_opis": "190 zł/t netto luzem · 610 zł/t w workach 30 kg",
         "pule": ["paszarstwo"], "ile": 6,
     },
+    {
+        "siatka": "weglanowe-magnez-odmiana-04",
+        "wc_id": 318, "sku": "AGR-009", "karta": "weglanowe-magnez-odmiana-04",
+        "tytul": "Wapno magnezowe odm. 04 luzem — 50 zł/t netto loco, dostawa 24 t",
+        "lead": "Wapno węglanowo-magnezowe odmiany 04 luzem. Odkwasza i jednocześnie uzupełnia magnez, którego brakuje na glebach lekkich i przy intensywnym nawożeniu potasem. Działa łagodnie i długo, bez ryzyka poparzenia roślin.",
+        "intencja": "rolnictwo — odkwaszanie z uzupełnieniem magnezu, duże areały",
+        "cena_pole": 50, "cena_opis": "50 zł/t netto loco magazyn, dostawa całopojazdowa 24 t",
+        "ile": 12,
+    },
+    {
+        "siatka": "weglanowe-magnez-odmiana-05",
+        "wc_id": 319, "sku": "AGR-010", "karta": "weglanowe-magnez-odmiana-05",
+        "tytul": "Wapno magnezowe luzem odm. 05 — magnez i odkwaszanie, 36 zł/t netto",
+        "lead": "Wapno węglanowo-magnezowe odmiany 05 — najniższy koszt odkwaszania z magnezem w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.",
+        "intencja": "rolnictwo — najniższy koszt tony przy uzupełnieniu magnezu",
+        "cena_pole": 36, "cena_opis": "36 zł/t netto loco magazyn, dostawa całopojazdowa 24 t",
+        "ile": 8,
+    },
+    {
+        "siatka": "mieszanka-tlenkowo-weglanowa",
+        "wc_id": 308, "sku": "AGR-005", "karta": "mieszanka-tlenkowo-weglanowa",
+        "tytul": "Mieszanka tlenkowo-węglanowa — szybkie i długie działanie, od 120 zł/t",
+        "lead": "Połączenie wapna tlenkowego i węglanowego w jednym produkcie. Część tlenkowa podnosi pH szybko, część węglanowa utrzymuje efekt przez kolejne miesiące. Rozwiązanie dla stanowisk, gdzie potrzebna jest i szybka reakcja, i trwałość.",
+        "intencja": "rolnictwo — szybki start odkwaszania z długim podtrzymaniem",
+        "cena_pole": 120, "cena_opis": "120 zł/t netto loco magazyn, dostawa całopojazdowa 24 t",
+        "ile": 10,
+    },
 ]
-
 
 def wczytaj_siatke():
     path = os.path.join(HERE, "..", "..", "data", "olx", "siatka-miast.json")
@@ -158,7 +184,7 @@ if __name__ == "__main__":
               f"({(naj['udzial'] if naj else 0)*100:>2.0f}% ceny)")
         for c in miasta:
             plan.append({
-                "wc_id": p["wc_id"], "sku": p["sku"], "karta": p["karta"],
+                "wc_id": p["wc_id"], "sku": p["sku"], "karta": p["karta"], "siatka": p["siatka"],
                 "title": p["tytul"], "lead": p["lead"], "intencja": p["intencja"],
                 "category_id": CAT_NAWOZY,
                 "price": p["cena_pole"], "cena_opis": p["cena_opis"],

@@ -1,0 +1,85 @@
+{
+ "mediana_kohorty": 101.5,
+ "miasta": {
+  "Przemyśl|Podkarpackie": {
+   "wyswietlenia": 110,
+   "telefony": 3,
+   "wskaznik": 1.08
+  },
+  "Dzierżoniów|Dolnośląskie": {
+   "wyswietlenia": 119,
+   "telefony": 7,
+   "wskaznik": 1.17
+  },
+  "Zamość|Lubelskie": {
+   "wyswietlenia": 93,
+   "telefony": 1,
+   "wskaznik": 0.92
+  },
+  "Kielce|Świętokrzyskie": {
+   "wyswietlenia": 113,
+   "telefony": 7,
+   "wskaznik": 1.11
+  },
+  "Bilcza|Świętokrzyskie": {
+   "wyswietlenia": 74,
+   "telefony": 5,
+   "wskaznik": 0.73
+  },
+  "Miechów|Małopolskie": {
+   "wyswietlenia": 89,
+   "telefony": 3,
+   "wskaznik": 0.88
+  },
+  "Krosno|Podkarpackie": {
+   "wyswietlenia": 196,
+   "telefony": 10,
+   "wskaznik": 1.93
+  },
+  "Nowy Sącz|Małopolskie": {
+   "wyswietlenia": 126,
+   "telefony": 4,
+   "wskaznik": 1.24
+  },
+  "Zator|Małopolskie": {
+   "wyswietlenia": 213,
+   "telefony": 8,
+   "wskaznik": 2.1
+  },
+  "Radom|Mazowieckie": {
+   "wyswietlenia": 65,
+   "telefony": 1,
+   "wskaznik": 0.64
+  },
+  "Radzyń Podlaski|Lubelskie": {
+   "wyswietlenia": 164,
+   "telefony": 1,
+   "wskaznik": 1.62
+  },
+  "Kalisz|Wielkopolskie": {
+   "wyswietlenia": 142,
+   "telefony": 3,
+   "wskaznik": 1.4
+  },
+  "Dynów|Podkarpackie": {
+   "wyswietlenia": 75,
+   "telefony": 3,
+   "wskaznik": 0.74
+  },
+  "Jurków|Małopolskie": {
+   "wyswietlenia": 73,
+   "telefony": 2,
+   "wskaznik": 0.72
+  },
+  "Kędzierzyn-Koźle|Opolskie": {
+   "wyswietlenia": 68,
+   "telefony": 2,
+   "wskaznik": 0.67
+  },
+  "Włoszczowa|Świętokrzyskie": {
+   "wyswietlenia": 70,
+   "telefony": 0,
+   "wskaznik": 0.69
+  }
+ }
+}

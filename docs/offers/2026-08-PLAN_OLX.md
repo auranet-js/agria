@@ -13,7 +13,7 @@
 | Rzecz | Decyzja |
 |---|---|
 | Kto wystawia | **My, przez Partner API.** Każdy zapis na koncie klienta po jego „ok" |
-| Pakiet | **Premium 100 w kategorii Nawozy — 719,99 zł brutto/mies.** |
+| Pakiet | **Premium 200 w kategorii Nawozy — 1 199,99 zł brutto/mies.** Decyzja Janka 07.08: 200 zamiast 100, bo koszt jednostkowy jest najniższy w całym cenniku (6,00 zł wobec 7,20 zł), a różnica to 480 zł |
 | Wycena Auranet | **Setup 1 800 zł netto jednorazowo + 300 zł netto/mies.** Zatwierdzone przez Janka 07.08 |
 | Panel OLX | Odczytany 07.08 z zalogowanego konta AGRII |
 
@@ -83,7 +83,7 @@ Podstawiając nasz zmierzony wskaźnik (22,4 wyświetlenia na ogłoszenie miesi�
 |---|---|---|---|---|
 | 699-712-071 | 510 | ~11 400 | ~380 | ~3 600 zł (3 pakiety) |
 | AGRO-KOTYNIA | 162 | ~3 600 | ~120 | ~1 200 zł |
-| **AGRIA po zmianie** | **100** | **~2 240** | **~75** | **720 zł** |
+| **AGRIA po zmianie** | **200** | **~4 480** | **~150** | **1 200 zł** |
 
 **Ile z tych telefonów zamienia się w zamówienia — nie wiemy i nie udajemy, że wiemy.** To zależy od ceny, dostępności i transportu, czyli od rzeczy poza kanałem. Ale sam koszt kontaktu — rzędu 10 zł — mówi, dlaczego ci ludzie utrzymują setki ogłoszeń latami.
 
@@ -111,7 +111,7 @@ Trzy zastrzeżenia, zanim ktokolwiek podniesie skalę:
 
 **Argument, który to wszystko zmienia: skalowanie w górę nie wymaga drugiego setupu.** Treści, model doboru miejscowości i narzędzia już są. Rozszerzenie ze 100 na 200 to zmiana jednej liczby w konfiguracji i dopłata do pakietu — nie kolejne 1 800 zł. Dlatego **100 to punkt pomiarowy, a nie sufit**, a decyzja o 200 jest krokiem za 480 zł dostępnym po pierwszym pomiarze.
 
-**Do decyzji Janka:** czy w mailu proponujemy 100 z jawnie zapisaną opcją wejścia na 200 po pierwszym pomiarze, czy od razu 200 — skoro jednostkowo jest tańsze, a różnica to 480 zł.
+**Rozstrzygnięte 07.08: wchodzimy od razu na 200.** Powód: najniższy koszt jednostkowy w całym cenniku przy różnicy 480 zł, plus fakt, że skalowanie nie wymaga drugiego setupu, więc pieniądze idą w pakiet, a nie w pracę. Przy 200 dokładamy też trzy pozycje asortymentowe, których przy stu nie było — wapno magnezowe odm. 04 i 05 oraz mieszankę tlenkowo-węglanową — bo więcej tytułów to więcej fraz, na których jesteśmy widoczni.
 
 ### Siatka miast — dlaczego wygląda tak, a nie inaczej
 
@@ -138,9 +138,11 @@ Pierwsza wersja siatki była dobrana ręcznie „pod stawy" i „pod rolnictwo".
 
 Dochodzi rzecz, która wyszła dopiero przy tej analizie: **wysyłka nie idzie z Niedomic.** Karty produktowe wskazują różne zakłady per produkt — kreda nawozowa granulowana z Kornicy (08-205, pod Siedlcami), węglanowe odm. 04 z Góraźdżec i Tarnowa Opolskiego, kreda sypka z Pierzchnicy, kreda pastewna z Bukowej i Celin. Kreda granulowana ma więc do Siedlec 38 km, a nie 250.
 
-Efekt: **100 ogłoszeń w 33 miejscowościach, 8 województwach, maksymalnie 4 ogłoszenia na miasto.** Węższy zasięg geograficzny niż u liderów — ale to nie jest zaniedbanie, tylko konsekwencja tego, że sprzedajemy towar masowy loco. Model oznacza cztery ogłoszenia, w których transport zjada ponad 40% ceny (Dębica, Płock, Płońsk, Zwoleń) — do przejrzenia przy pierwszej korekcie.
+Do modelu wchodzi jeszcze czwarty czynnik, dołożony po pierwszej wersji: **własne wyniki AGRII per miasto**. Kohorta z lipca 2025 to szesnaście ogłoszeń o tej samej treści, tym samym wieku i tej samej historii pakietów, różniących się **wyłącznie miastem** — czyli jedyny czysty eksperyment, jaki mamy. Mediana 102 wyświetlenia, a rozrzut duży: Zator 213, Krosno 196, Radzyń Podlaski 164 wobec Radomia 65 i Kędzierzyna 68. Bez tego czynnika **Zator wypadał z siatki**, bo mało kto się tam wystawia — a to najlepsze miasto z całej partii i stolica polskiego karpia. Rynek nie wie tego, co my wiemy o własnych ogłoszeniach.
 
-### Skąd Premium 100, a nie Megapakiet
+Efekt: **200 ogłoszeń w 52 miejscowościach, 8 województwach, maksymalnie 6 ogłoszeń na miasto.** Węższy zasięg geograficzny niż u liderów — ale to nie jest zaniedbanie, tylko konsekwencja tego, że sprzedajemy towar masowy loco. Model oznacza 20 ogłoszeń, w których transport zjada ponad 40% ceny — do przejrzenia przy pierwszej korekcie.
+
+### Skąd Premium w Nawozach, a nie Megapakiet
 
 AGRIA kupowała **Megapakiet 20 za 335,99 zł** — pięć razy w trzynaście miesięcy, nieregularnie. Megapakiet daje wymienność podkategorii rolniczych; sprawdziłem, czy jej potrzebujemy:
 
@@ -153,13 +155,13 @@ AGRIA kupowała **Megapakiet 20 za 335,99 zł** — pięć razy w trzynaście mi
 
 Rynek jest w Nawozach. Wapno palone mielone dla oczyszczalni i hydratyzowane dla budownictwa leżą w zupełnie innym drzewie kategorii — **Megapakiet i tak by ich nie objął**. Płacenie za wymienność, której nie wykorzystamy, to 108 zł na każdych 20 ogłoszeniach.
 
-Koszt jednostkowy: Megapakiet 20 = **16,80 zł/ogłoszenie**, Premium Nawozy 100 = **7,20 zł**.
+Koszt jednostkowy: Megapakiet 20 = **16,80 zł/ogłoszenie**, Premium Nawozy 200 = **6,00 zł**.
 
 ### Odpowiedź na „30 ogłoszeń czy 10 + promowanie" — liczbowo
 
 Ceny promowania (dynamiczne, odczyt 07.08 na ogłoszeniu 858802418): Mini 13,08 · Midi 37,75 · **Maxi 104,89 zł**.
 
-Przy budżecie ~330 zł/mies.: 10 ogłoszeń + 2 promowania Maxi = 329,77 zł, albo 20 ogłoszeń bez promowania i 100 zł reszty. Jedno promowanie Maxi kosztuje tyle, co **dziewięć ogłoszeń** w Premium 100.
+Przy budżecie ~330 zł/mies.: 10 ogłoszeń + 2 promowania Maxi = 329,77 zł, albo 20 ogłoszeń bez promowania i 100 zł reszty. Jedno promowanie Maxi kosztuje tyle, co **siedemnaście ogłoszeń** w Premium 200.
 
 Do tego rynek: 699-712-071 ma **zero** promowanych przy 191 ogłoszeniach, AGRO-KOTYNIA 24 przy 161. **Wolumen, nie promowanie.** Promowanie zostawiamy jako narzędzie punktowe na ogłoszenia, które same dowiodą skuteczności — nie na start.
 
@@ -174,13 +176,13 @@ Kohorta zebrała **1 790 wyświetleń i 60 odsłon telefonu**, CR 3,35%.
 | ogłoszenia żyły cały czas od utworzenia (dolna granica) | **8,6** |
 | ogłoszenia żyły tylko w oknach pakietu (realne) | **22,4** |
 
-Stąd trzy scenariusze dla 100 ogłoszeń przy ciągłym pakiecie i włączonym auto_extend:
+Stąd trzy scenariusze dla 200 ogłoszeń przy ciągłym pakiecie i włączonym auto_extend:
 
 | Scenariusz | Założenie | Wyświetleń/mies. | CR | **Odsłon telefonu/mies.** | Koszt pakietu na kontakt |
 |---|---|---|---|---|---|
-| Pesymistyczny | dolna granica tempa, CR jak średnia konta (2,9%) | ~860 | 2,9% | **~25** | 29 zł |
-| Realny | tempo z okien pakietu, CR kohorty (3,35%) | ~2 240 | 3,35% | **~75** | 10 zł |
-| Optymistyczny | tytuły pod intencję i rozbicie na produkty podnoszą CR do 3,7% (poziom trafionego „Do stawu"), tempo +40% | ~3 100 | 3,7% | **~115** | 6 zł |
+| Pesymistyczny | dolna granica tempa, CR jak średnia konta (2,9%) | ~1 720 | 2,9% | **~50** | 30 zł |
+| Realny | tempo z okien pakietu, CR kohorty (3,35%) | ~4 480 | 3,35% | **~150** | 10 zł |
+| Optymistyczny | tytuły pod intencję i rozbicie na produkty podnoszą CR do 3,7% (poziom trafionego „Do stawu"), tempo +40% | ~6 200 | 3,7% | **~230** | 6,50 zł |
 
 Punkt odniesienia: **całe dotychczasowe konto dało 209 odsłon telefonu przez cały cykl życia** — a w lipcu cały organik agria.pl dał 221 kliknięć w GSC.
 
@@ -210,7 +212,7 @@ Regulamin OLX pkt 4:
 ### Stan wykonania na 07.08 wieczorem
 
 - **Baseline pomiarowy zrobiony** — `data/olx/snapshots/2026-08-07-1752.json`, 19 ogłoszeń / 7 273 wyświetlenia / 209 telefonów, bez prywatnego ogłoszenia Pawła. Kolejny snapshot **14.08**.
-- **100 ogłoszeń gotowych do wystawienia** — `data/olx/adverts-payload.json`: 10 produktów × 6–14 miast, 56 miast, każde zweryfikowane co do województwa. Parametry z renderu kart agria.pl, zdjęcia z kitu brandowego już na CDN OLX.
+- **200 ogłoszeń gotowych do wystawienia** — `data/olx/adverts-payload.json`: 13 pozycji × 8–22 miasta, 52 miejscowości. Parametry z renderu kart agria.pl, zdjęcia z kitu brandowego już na CDN OLX. Pełna rozpiska: `docs/offers/OLX_TABELA_OGLOSZEN.md`.
 - **Pilot wystawiony i zweryfikowany** — ogłoszenie 1089946612 („Wapno do stawu", Zator), status `limited` (czeka na jednostkę pakietu). Wykrył dwa błędy, oba naprawione: brak telefonu w kontakcie i to, że PUT w tym API podmienia cały zasób, więc `auto_extend` ustawiany łatką cicho nie wchodził — **dokładnie ten mechanizm zgasił konto 18.07**.
 - **Pipeline gotowy** — `scripts/olx/post_adverts.py` z trybami `--dry-run / --pilot / --all / --update / --auto-extend`, rejestr chroni przed dublowaniem.
 
@@ -246,7 +248,7 @@ https://agria.pl/?utm_source=olx&utm_medium=marketplace&utm_campaign=olx-nawozy-
 
 ### Ryzyka do pilnowania
 
-- **Sierpień jest przeciążony** — plan Ads już to odnotowuje (setup Ads + landingi M3 + P0 indeksacyjne + CWV). OLX dokłada wystawienie 100 ogłoszeń. Samo wystawienie jest zautomatyzowane, ale rotacja i reakcja na dane to praca cotygodniowa.
+- **Sierpień jest przeciążony** — plan Ads już to odnotowuje (setup Ads + landingi M3 + P0 indeksacyjne + CWV). OLX dokłada wystawienie 200 ogłoszeń. Samo wystawienie jest zautomatyzowane, ale rotacja i reakcja na dane to praca cotygodniowa.
 - **Konto jest prywatno-firmowe** — prywatny Gmail Pawła, prywatne ogłoszenie mieszkania na tym samym koncie, hasło przyszło mailem plaintextem. Do rozmowy: zmiana hasła + 2FA. Docelowo konto na adres firmowy AGRII, ale to decyzja klienta.
 - **Trzy najlepsze ogłoszenia (Piotrków, Tarnów ×2) mają staż** — 2023 i 2024 rok. Nie kasujemy ich, tylko aktualizujemy treść przez `--update`; nowe 100 wchodzi obok.
 
@@ -284,7 +286,7 @@ OLX udostępnia firmom bezpośredni dostęp do danych i do zarządzania ogłosze
 
 **Widzimy wynik każdego ogłoszenia osobno, tydzień po tygodniu.** Panel OLX pokazuje liczby narastająco od dnia założenia ogłoszenia — z oferty wystawionej w 2023 roku nie da się wyczytać, ile zrobiła w zeszłym miesiącu. My pobieramy stan co tydzień i liczymy różnicę, więc widać przyrost, a nie sumę z trzech lat. Bez tego prognoza w tym mailu byłaby zgadywaniem, a nie rachunkiem.
 
-**Sto ogłoszeń wystawiamy i zmieniamy jedną operacją.** Gdy Paweł przyśle nowy cennik, ceny podmieniają się we wszystkich ogłoszeniach w kilka minut — zamiast stu poprawek ręcznie w panelu. Tak samo z tytułami, opisami i zdjęciami.
+**Dwieście ogłoszeń wystawiamy i zmieniamy jedną operacją.** Gdy Paweł przyśle nowy cennik, ceny podmieniają się we wszystkich ogłoszeniach w kilka minut — zamiast dwustu poprawek ręcznie w panelu. Tak samo z tytułami, opisami i zdjęciami.
 
 **Automatycznego przedłużania pilnuje system, nie czyjaś pamięć.** To właśnie ono zawiodło 18 lipca.
 
@@ -294,7 +296,7 @@ I to ten dostęp pokazał rzeczy, o których z panelu nie było jak się dowiedz
 
 **Co jest gotowe.**
 
-Nie przysyłam Wam koncepcji do przedyskutowania, tylko plan, który czeka na uruchomienie. **Sto ogłoszeń jest przygotowanych** — dziesięć produktów, każdy z własnym opisem, parametrami zaciągniętymi wprost z Waszych kart produktowych i cenami z cennika, który Paweł przysłał 7 sierpnia. Pierwsze ogłoszenie już wisi na koncie jako sprawdzian, że wszystko przechodzi poprawnie.
+Nie przysyłam Wam koncepcji do przedyskutowania, tylko plan, który czeka na uruchomienie. **Dwieście ogłoszeń jest przygotowanych** — trzynaście pozycji asortymentowych, każdy z własnym opisem, parametrami zaciągniętymi wprost z Waszych kart produktowych i cenami z cennika, który Paweł przysłał 7 sierpnia. Pierwsze ogłoszenie już wisi na koncie jako sprawdzian, że wszystko przechodzi poprawnie.
 
 Ogłoszenia podają cenę **z jednostką i informacją, że jest netto loco magazyn**. To wygląda na drobiazg, a jest przewagą: na blisko dwa i pół tysiąca ogłoszeń w tej kategorii tylko trzydzieści sześć podaje cenę za tonę. Reszta wpisuje gołą liczbę, często zaniżoną, żeby wypaść wyżej przy sortowaniu po cenie. Uczciwa cena z jednostką odróżnia Waszą ofertę od tych, które wyglądają tanio tylko na liście.
 
@@ -306,19 +308,19 @@ Dotychczas była to jedna oferta powielona na 18 miast. Teraz każdy produkt ma 
 
 Ten ostatni czynnik przesądza o wszystkim. Sprzedajecie loco magazyn, a przewóz zestawu 24 t kosztuje mniej więcej 25 groszy za tonę na każdy kilometr. Dla wapna węglanowego po 57 zł za tonę oznacza to, że po stu kilometrach transport dorównuje cenie towaru — więc ogłoszenie tego produktu w Gdańsku byłoby ogłoszeniem, z którego nikt nie kupi. Dla Agrobielika 90 po 750 zł za tonę ten sam Gdańsk to kilkanaście procent ceny, czyli normalna transakcja.
 
-Dlatego **każdy produkt ma inny zasięg**: węglanowe luzem trzymamy w promieniu około stu kilometrów od zakładu, kredę sypką do dwustu pięćdziesięciu, a wapno tlenkowe 90 i palone mielone możemy wozić przez całą Polskę. Razem wychodzi sto ogłoszeń w trzydziestu trzech miejscowościach.
+Dlatego **każdy produkt ma inny zasięg**: węglanowe luzem trzymamy w promieniu około stu kilometrów od zakładu, kredę sypką do dwustu pięćdziesięciu, a wapno tlenkowe 90 i palone mielone możemy wozić przez całą Polskę. Razem wychodzi dwieście ogłoszeń w pięćdziesięciu dwóch miejscowościach.
 
 Dwie rzeczy do sprawdzenia po Waszej stronie. Po pierwsze: jeśli realna stawka za transport jest inna niż te 25 groszy za tonokilometr, dajcie znać — przeliczymy siatkę, bo to ona wyznacza całą geografię. Po drugie, przydatne odkrycie: **część produktów nie jedzie z Niedomic**. Kreda nawozowa granulowana wysyłana jest z Kornicy pod Siedlcami, więc na Mazowszu i Podlasiu jest w dostawie znacznie tańsza, niż wynikałoby z odległości od Tarnowa. To poszerza zasięg, o którym pewnie nie myśleliście w tych kategoriach.
 
 **Ile to może dać.**
 
-Policzyliśmy na Waszych danych, na grupie szesnastu ogłoszeń o znanej historii publikacji. Przy stu ogłoszeniach i pakiecie utrzymywanym bez przerw:
+Policzyliśmy na Waszych danych, na grupie szesnastu ogłoszeń o znanej historii publikacji. Przy dwustu ogłoszeniach i pakiecie utrzymywanym bez przerw:
 
-- ostrożnie: **około 25 telefonów miesięcznie**,
-- realnie: **około 75**,
-- optymistycznie, jeśli tytuły pod zastosowanie zadziałają tak jak „Do stawu": **około 115**.
+- ostrożnie: **około 50 telefonów miesięcznie**,
+- realnie: **około 150**,
+- optymistycznie, jeśli tytuły pod zastosowanie zadziałają tak jak „Do stawu": **około 230**.
 
-Przy koszcie kanału 1 020 zł miesięcznie wychodzi **od 9 do 41 zł za jeden telefon od zainteresowanego**.
+Przy koszcie kanału 1 500 zł miesięcznie wychodzi **od 6,50 do 30 zł za jeden telefon od zainteresowanego**.
 
 **Koszty — całość, żeby był pełny obraz.**
 
@@ -327,18 +329,18 @@ Przy koszcie kanału 1 020 zł miesięcznie wychodzi **od 9 do 41 zł za jeden t
 | Opieka nad stroną i pozycjonowanie | 2 000 zł netto | Auranet |
 | Budżet reklamowy Google | 1 200 zł netto | Google |
 | Prowadzenie kampanii Google Ads | 600 zł netto | Auranet |
-| **Pakiet 100 ogłoszeń OLX** | **720 zł brutto** | **OLX** |
+| **Pakiet 200 ogłoszeń OLX** | **1 200 zł brutto** | **OLX** |
 | **Prowadzenie OLX** | **300 zł netto** | **Auranet** |
 
-Trzy pierwsze pozycje to ustalone wcześniej 3 800 zł. **OLX dokłada 720 zł do OLX i 300 zł do nas.** Do tego **jednorazowo 1 800 zł netto za uruchomienie kanału** — sto ogłoszeń, analiza rynku, model doboru miejscowości i narzędzia, które to wystawiają i mierzą. Część tej pracy jest już wykonana; fakturujemy ją raz i nie wraca.
+Trzy pierwsze pozycje to ustalone wcześniej 3 800 zł. **OLX dokłada 1 200 zł do OLX i 300 zł do nas.** Do tego **jednorazowo 1 800 zł netto za uruchomienie kanału** — dwieście ogłoszeń, analiza rynku, model doboru miejscowości i narzędzia, które to wystawiają i mierzą. Część tej pracy jest już wykonana; fakturujemy ją raz i nie wraca.
 
-Z tych kwot **1 200 zł idzie do Google, a 720 zł do OLX** — to nie jest nasze wynagrodzenie, tylko opłata za wyświetlanie. Jedna uwaga do pakietu OLX: jest ważny 30 dni, więc to opłata cykliczna. Pilnujemy terminu i przypominamy przed wygaśnięciem, żeby nie powtórzyła się sytuacja z 18 lipca.
+Z tych kwot **1 200 zł idzie do Google, a kolejne 1 200 zł do OLX** — to nie jest nasze wynagrodzenie, tylko opłata za wyświetlanie. Jedna uwaga do pakietu OLX: jest ważny 30 dni, więc to opłata cykliczna. Pilnujemy terminu i przypominamy przed wygaśnięciem, żeby nie powtórzyła się sytuacja z 18 lipca.
 
-**Dlaczego uruchomienie kosztuje więcej niż prowadzenie.** Bo tak to naprawdę wygląda. Ciężka praca jest na starcie — sto ogłoszeń, przegląd kategorii, model geografii, narzędzia. Potem **kanał w dużej mierze chodzi sam**: ogłoszenia odnawiają się automatycznie, dopóki pakiet jest opłacony. Prowadzenie to odczyt danych, wygaszenie ofert bez wyników, powielenie tych, które łapią, podmiana cen gdy się zmienią, i cotygodniowy podgląd, co robi konkurencja. Nie ma powodu brać za to tyle, co za prowadzenie kampanii reklamowych.
+**Dlaczego uruchomienie kosztuje więcej niż prowadzenie.** Bo tak to naprawdę wygląda. Ciężka praca jest na starcie — dwieście ogłoszeń, przegląd kategorii, model geografii, narzędzia. Potem **kanał w dużej mierze chodzi sam**: ogłoszenia odnawiają się automatycznie, dopóki pakiet jest opłacony. Prowadzenie to odczyt danych, wygaszenie ofert bez wyników, powielenie tych, które łapią, podmiana cen gdy się zmienią, i cotygodniowy podgląd, co robi konkurencja. Nie ma powodu brać za to tyle, co za prowadzenie kampanii reklamowych.
 
 **Harmonogram — te same trzy miesiące co reklamy.**
 
-- **po Waszej akceptacji** — zakup pakietu i wystawienie stu ogłoszeń, to kwestia jednego dnia,
+- **po Waszej akceptacji** — zakup pakietu i wystawienie dwustu ogłoszeń, to kwestia jednego dnia,
 - **koniec sierpnia** — pierwszy pomiar i korekta tytułów oraz miejscowości na podstawie danych,
 - **wrzesień i październik** — prowadzenie, rotacja ofert, obserwacja konkurencji,
 - **koniec października** — podsumowanie razem z reklamami: ile zapytań, z których produktów i miejscowości, jakim kosztem. Na tej podstawie decydujecie, czy idziemy dalej i w jakiej skali.

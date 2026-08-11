@@ -83,7 +83,7 @@ def popyt_regionu(popyt, region, frazy):
     return sum(d.get(f, 0) for f in frazy)
 
 
-def ocena(miasto, zaklady, cena_t, frazy, popyt, rynek):
+def ocena(miasto, zaklady, cena_t, frazy, popyt, rynek, wlasne=None):
     """Wynik = popyt w województwie × zasięg miejscowości × ile z ceny zostaje po przewozie.
 
     „Zasięg miejscowości" mierzymy liczbą ogłoszeń wapniarskich, jakie rynek tam wystawia.
@@ -99,15 +99,26 @@ def ocena(miasto, zaklady, cena_t, frazy, popyt, rynek):
         return None
     region = REGION_NAZWA.get(miasto["region_id"])
     p = popyt_regionu(popyt, region, frazy)
-    ogl = rynek.get(f"{miasto['name']}|{region}", 0)
-    if ogl < 2:
+    klucz = f"{miasto['name']}|{region}"
+    ogl = rynek.get(klucz, 0)
+
+    # Dane własne biją proxy z rynku. Kohorta z lipca 2025 to szesnaście ogłoszeń o tej samej
+    # treści, tym samym wieku i tej samej historii pakietów, różniących się WYŁĄCZNIE miastem —
+    # czyli jedyny czysty eksperyment, jaki mamy. Zator zebrał 213 wyświetleń przy medianie 102
+    # i wypadał z siatki, bo mało kto się tam wystawia. Rynek nie wie tego, co my wiemy.
+    w = (wlasne or {}).get(klucz)
+    if ogl < 2 and not w:
         return None
-    zasieg_miasta = math.log(1 + ogl)
+    zasieg_miasta = math.log(1 + max(ogl, 2))
+    if w:
+        zasieg_miasta *= min(max(w["wskaznik"], 0.5), 2.0)
+
     return {"km": round(dyst), "udzial": round(udzial, 3), "popyt": p, "ogl_rynku": ogl,
+            "wlasny_wskaznik": (w or {}).get("wskaznik"),
             "wynik": round(p * zasieg_miasta * (1 - udzial), 1), "region": region}
 
 
-def siatka(produkt, kandydaci, popyt, rynek, zajete=None, maks_na_miasto=4,
+def siatka(produkt, kandydaci, popyt, rynek, wlasne=None, zajete=None, maks_na_miasto=6,
            maks_na_wojewodztwo=None):
     """Zwraca listę miejscowości pod jeden produkt, posortowaną wynikiem, z limitem na region.
 
@@ -117,12 +128,12 @@ def siatka(produkt, kandydaci, popyt, rynek, zajete=None, maks_na_miasto=4,
     więc zagęszczenie w jednym województwie jest u nich naturalne, nie jest błędem.
     """
     if maks_na_wojewodztwo is None:
-        maks_na_wojewodztwo = 2 if produkt["cena_t"] >= 350 else 4
+        maks_na_wojewodztwo = 4 if produkt["cena_t"] >= 350 else 6
     zajete = zajete if zajete is not None else {}
     oceny = []
     for miasto in kandydaci:
         o = ocena(miasto, produkt["zaklady"], produkt["cena_t"],
-                  KOSZYKI[produkt["koszyk"]], popyt, rynek)
+                  KOSZYKI[produkt["koszyk"]], popyt, rynek, wlasne)
         if o and o["popyt"] > 0:
             oceny.append(dict(o, name=miasto["name"], city_id=miasto["id"],
                               region_id=miasto["region_id"]))
@@ -145,26 +156,32 @@ def siatka(produkt, kandydaci, popyt, rynek, zajete=None, maks_na_miasto=4,
 
 # Produkty z zakładami wysyłkowymi wprost z kart produktowych agria.pl (pole „Magazyn").
 PRODUKTY = [
-    {"klucz": "agrobielik-70-staw", "cena_t": 220, "koszyk": "stawy", "ile": 14,
+    {"klucz": "agrobielik-70-staw", "cena_t": 220, "koszyk": "stawy", "ile": 22,
      "zaklady": ["Niedomice", "Sitkówka"]},
-    {"klucz": "agrobielik-70-gleba", "cena_t": 220, "koszyk": "tlenkowe", "ile": 12,
+    {"klucz": "agrobielik-70-gleba", "cena_t": 220, "koszyk": "tlenkowe", "ile": 20,
      "zaklady": ["Niedomice", "Sitkówka"]},
-    {"klucz": "agrobielik-90", "cena_t": 750, "koszyk": "tlenkowe", "ile": 10,
+    {"klucz": "agrobielik-90", "cena_t": 750, "koszyk": "tlenkowe", "ile": 18,
      "zaklady": ["Niedomice", "Sitkówka"]},
-    {"klucz": "oxyfertil-90", "cena_t": 790, "koszyk": "tlenkowe", "ile": 8,
+    {"klucz": "oxyfertil-90", "cena_t": 790, "koszyk": "tlenkowe", "ile": 14,
      "zaklady": ["Góraźdżce", "Tarnów Opolski", "Niedomice"]},
-    {"klucz": "weglanowe-granulowane", "cena_t": 350, "koszyk": "granulowane", "ile": 12,
+    {"klucz": "weglanowe-granulowane", "cena_t": 350, "koszyk": "granulowane", "ile": 20,
      "zaklady": ["Draby", "Niedomice", "Tarnów Opolski"]},
-    {"klucz": "weglanowe-magnez-granulowane", "cena_t": 370, "koszyk": "granulowane_mg", "ile": 10,
+    {"klucz": "weglanowe-magnez-granulowane", "cena_t": 370, "koszyk": "granulowane_mg", "ile": 18,
      "zaklady": ["Draby", "Niedomice"]},
-    {"klucz": "kreda-nawozowa-sypka", "cena_t": 125, "koszyk": "kreda", "ile": 10,
+    {"klucz": "kreda-nawozowa-sypka", "cena_t": 125, "koszyk": "kreda", "ile": 16,
      "zaklady": ["Pierzchnica"]},
-    {"klucz": "kreda-nawozowa-granulowana", "cena_t": 410, "koszyk": "kreda", "ile": 8,
+    {"klucz": "kreda-nawozowa-granulowana", "cena_t": 410, "koszyk": "kreda", "ile": 14,
      "zaklady": ["Kornica", "Niedomice"]},
-    {"klucz": "weglanowe-odmiana-04", "cena_t": 57, "koszyk": "weglanowe", "ile": 10,
+    {"klucz": "weglanowe-odmiana-04", "cena_t": 57, "koszyk": "weglanowe", "ile": 16,
      "zaklady": ["Bukowa", "Celiny", "Góraźdżce", "Tarnów Opolski"]},
-    {"klucz": "kreda-pastewna", "cena_t": 190, "koszyk": "pastewna", "ile": 6,
+    {"klucz": "kreda-pastewna", "cena_t": 190, "koszyk": "pastewna", "ile": 12,
      "zaklady": ["Bukowa", "Celiny"]},
+    {"klucz": "weglanowe-magnez-odmiana-04", "cena_t": 50, "koszyk": "weglanowe", "ile": 12,
+     "zaklady": ["Chęciny"]},
+    {"klucz": "weglanowe-magnez-odmiana-05", "cena_t": 36, "koszyk": "weglanowe", "ile": 8,
+     "zaklady": ["Kostomłoty Drugie", "Łagów"]},
+    {"klucz": "mieszanka-tlenkowo-weglanowa", "cena_t": 120, "koszyk": "tlenkowe", "ile": 10,
+     "zaklady": ["Sitkówka"]},
 ]
 
 if __name__ == "__main__":
@@ -186,9 +203,10 @@ if __name__ == "__main__":
 
     kandydaci = json.load(open(os.path.join(D, "miasta-kandydaci.json"), encoding="utf-8"))
     rynek = json.load(open(os.path.join(D, "miasta-rynek.json"), encoding="utf-8"))
+    wlasne = json.load(open(os.path.join(D, "wyniki-wlasne.json"), encoding="utf-8"))["miasta"]
     out, zajete = {}, {}
     for p in PRODUKTY:
-        s = siatka(p, kandydaci, popyt, rynek, zajete)
+        s = siatka(p, kandydaci, popyt, rynek, wlasne, zajete)
         out[p["klucz"]] = s
         naj, dal = s[0], max(s, key=lambda x: x["km"])
         print(f"{p['klucz']:<30}{p['cena_t']:>5} zł/t  {len(s):>3} miast  "

@@ -50,6 +50,9 @@ GALERIE = {
     "kreda-nawozowa-granulowana": ["kreda", "bigbagi", "hero"],
     "weglanowe-odmiana-04":       ["weglanowe_sypkie", "hero", "bigbagi"],
     "kreda-pastewna":             ["kreda", "worki", "hero"],
+    "weglanowe-magnez-odmiana-04": ["weglanowe_sypkie", "hero", "bigbagi"],
+    "weglanowe-magnez-odmiana-05": ["weglanowe_sypkie", "hero", "bigbagi"],
+    "mieszanka-tlenkowo-weglanowa": ["tlenkowe_drobne", "weglanowe_sypkie", "hero"],
 }
 
 # Które parametry z karty produktowej wchodzą do opisu i w jakiej kolejności.
@@ -132,7 +135,9 @@ if __name__ == "__main__":
             "description": tresc,
             "category_id": row["category_id"],
             "advertiser_type": "business",
-            "external_id": f"agria-{row['sku']}-{row['city_id']}",
+            # Klucz musi zawierać wariant, nie sam SKU: Agrobielik 70 idzie jako dwa różne
+            # ogłoszenia (do stawu / na odkwaszanie) i w 17 miastach oba wypadają w siatce.
+            "external_id": f"agria-{row['siatka']}-{row['city_id']}",
             # Telefon MUSI tu być: pominięty w pilocie dał ogłoszenie bez numeru, czyli bez
             # kanału, który odpowiada za wszystkie 209 kontaktów na tym koncie. To jest
             # jednocześnie właściwe miejsce na dane kontaktowe wg regulaminu — pole formularza,
@@ -142,7 +147,8 @@ if __name__ == "__main__":
             "images": zdjecia,
             "price": {"value": row["price"], "currency": "PLN", "negotiable": True},
             "attributes": [{"code": "state", "value": "new"}],
-            "_meta": {"karta": row["karta"], "sku": row["sku"], "city": row["city"],
+            "_meta": {"karta": row["karta"], "sku": row["sku"], "siatka": row["siatka"],
+                      "city": row["city"],
                       "intencja": row["intencja"]},
         })
 

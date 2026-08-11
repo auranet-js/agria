@@ -59,7 +59,7 @@ def html():
 
     miast = len({r["miasto"] for r in rows})
     woj = len({r["woj"] for r in rows})
-    return f"""<title>AGRIA — 100 ogłoszeń OLX, pełna rozpiska</title>
+    return f"""<title>AGRIA — rozpiska ogłoszeń OLX</title>
 <style>
 :root {{ --tlo:#fff; --tekst:#1b1b1b; --slabe:#666; --linia:#e2e2e2; --akcent:#354E33; --hot:#a33; --pas:#fafafa; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{
@@ -80,9 +80,9 @@ tbody tr:nth-child(even) {{ background:var(--pas); }}
 .num {{ text-align:right; font-variant-numeric:tabular-nums; }}
 .hot {{ color:var(--hot); font-weight:600; }}
 </style>
-<h1>AGRIA — 100 ogłoszeń OLX, pełna rozpiska</h1>
-<p class="lead">Stan na 7 sierpnia 2026. Dziesięć produktów, <strong>{miast} miejscowości</strong>,
-{woj} województw. Kolumna „transport / cena" pokazuje, jaką część ceny tony zjada przewóz
+<h1>AGRIA — rozpiska ogłoszeń OLX</h1>
+<p class="lead">Stan na 7 sierpnia 2026. <strong>{len(rows)} ogłoszeń</strong>, {len(grupy)} pozycji asortymentowych,
+<strong>{miast} miejscowości</strong>, {woj} województw. Kolumna „transport / cena" pokazuje, jaką część ceny tony zjada przewóz
 z najbliższego zakładu wysyłkowego — <span class="hot">czerwone</span> to pozycje powyżej 40%,
 do przejrzenia przy pierwszej korekcie.</p>
 <div class="scroll">{''.join(czesci)}</div>
@@ -91,7 +91,7 @@ do przejrzenia przy pierwszej korekcie.</p>
 
 if __name__ == "__main__":
     md = os.path.join(HERE, "..", "..", "docs", "offers", "OLX_TABELA_OGLOSZEN.md")
-    naglowek = ("# OLX — pełna rozpiska 100 ogłoszeń\n\n"
+    naglowek = ("# OLX — pełna rozpiska ogłoszeń\n\n"
                 "> Generowane z `data/olx/plan-ogloszen.json` przez `scripts/olx/tabela.py`.\n"
                 "> Nie edytować ręcznie — zmiany wprowadzać w `grid.py` / `plan.py` i przegenerować.\n\n")
     open(md, "w", encoding="utf-8").write(naglowek + markdown() + "\n")
