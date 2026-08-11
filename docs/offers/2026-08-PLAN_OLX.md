@@ -268,7 +268,7 @@ Podstawiając wskaźniki zmierzone na Waszym własnym koncie, sprzedawca ze 162 
 
 **Ale nie wygrywają promowaniem — i to jest ważne, bo kosztowałoby Was najwięcej.**
 
-Sprawdziliśmy to wprost: dwaj najwięksi gracze mają odpowiednio **zero i 24 wyróżnienia przy 510 i 162 ogłoszeniach**. Wyróżnienie jednego ogłoszenia na 30 dni kosztuje 105 zł — tyle, co dziewięć zwykłych ogłoszeń. Rynek wybiera liczbę ofert i liczbę miejscowości, nie wyróżnienia. My też.
+Sprawdziliśmy to wprost: dwaj najwięksi gracze mają odpowiednio **zero i 24 wyróżnienia przy 510 i 162 ogłoszeniach**. Wyróżnienie jednego ogłoszenia na 30 dni kosztuje 105 zł — tyle, co siedemnaście zwykłych ogłoszeń. Rynek wybiera liczbę ofert i liczbę miejscowości, nie wyróżnienia. My też.
 
 **Wasze własne dane mówią to samo, tylko dobitniej.**
 
@@ -296,7 +296,7 @@ I to ten dostęp pokazał rzeczy, o których z panelu nie było jak się dowiedz
 
 **Co jest gotowe.**
 
-Nie przysyłam Wam koncepcji do przedyskutowania, tylko plan, który czeka na uruchomienie. **Dwieście ogłoszeń jest przygotowanych** — trzynaście pozycji asortymentowych, każdy z własnym opisem, parametrami zaciągniętymi wprost z Waszych kart produktowych i cenami z cennika, który Paweł przysłał 7 sierpnia. Pierwsze ogłoszenie już wisi na koncie jako sprawdzian, że wszystko przechodzi poprawnie.
+Nie przysyłam Wam koncepcji do przedyskutowania, tylko plan, który czeka na uruchomienie. **Dwieście ogłoszeń jest przygotowanych** — trzynaście pozycji asortymentowych, każda z własnym opisem, parametrami zaciągniętymi wprost z Waszych kart produktowych i cenami z cennika, który Paweł przysłał 7 sierpnia. Pierwsze ogłoszenie już wisi na koncie jako sprawdzian, że wszystko przechodzi poprawnie.
 
 Ogłoszenia podają cenę **z jednostką i informacją, że jest netto loco magazyn**. To wygląda na drobiazg, a jest przewagą: na blisko dwa i pół tysiąca ogłoszeń w tej kategorii tylko trzydzieści sześć podaje cenę za tonę. Reszta wpisuje gołą liczbę, często zaniżoną, żeby wypaść wyżej przy sortowaniu po cenie. Uczciwa cena z jednostką odróżnia Waszą ofertę od tych, które wyglądają tanio tylko na liście.
 
