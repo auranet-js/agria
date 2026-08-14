@@ -2,6 +2,11 @@
   "permissions": {
     "allow": [
       "mcp__claude_ai_Agria_pl__*",
+      "mcp__agria__*",
+      "mcp__claude-in-chrome__*",
+      "Bash(bash scripts/google/ads_call.sh *)",
+      "Bash(python3 scripts/google/*)",
+      "Bash(python3 scripts/*)",
       "Edit(//home/host476470/projekty/agria/**)",
       "Write(//home/host476470/projekty/agria/**)",
       "Read(//tmp/**)",
