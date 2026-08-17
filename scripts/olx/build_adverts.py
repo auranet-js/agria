@@ -92,6 +92,14 @@ def sekcja(naglowek, spec, klucze):
     return f"{naglowek}\n" + "\n".join(linie) if linie else ""
 
 
+def tytul(t, bledy):
+    """OLX tnie tytuł na 150 znakach. Wcześniej ucinaliśmy po cichu i „…od 350 zł/t" wychodziło
+    jako „…od 350 zł/" na dwudziestu ogłoszeniach. Teraz to błąd, nie milczące obcięcie."""
+    if len(t) > 150:
+        bledy.append(f"TYTUŁ za długi ({len(t)} zn.): {t}")
+    return t[:150]
+
+
 def opis(row, spec):
     czesci = [row["lead"]]
 
@@ -106,7 +114,7 @@ def opis(row, spec):
     czesci.append(
         "FORMY DOSTAWY I CENA\n"
         f"• {row['cena_opis']}\n"
-        "• Ceny netto, loco magazyn — bez transportu. Transport wyceniamy indywidualnie "
+        "• Ceny netto, za sam towar — bez transportu. Transport wyceniamy indywidualnie "
         "w zależności od miejsca dostawy.\n"
         "• Możliwy odbiór własny.\n"
         "Ceny orientacyjne, nie stanowią oferty handlowej w rozumieniu Kodeksu cywilnego."
@@ -145,7 +153,7 @@ if __name__ == "__main__":
         zdjecia = zdjecia[:8]  # limit OLX dla kategorii 4368
 
         out.append({
-            "title": row["title"][:70],
+            "title": tytul(row["title"], bledy),
             "description": tresc,
             "category_id": row["category_id"],
             "advertiser_type": "business",
