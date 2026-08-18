@@ -125,9 +125,43 @@ i zakładu, więc obie osie zostają. Wariantów wyjdzie ok. 100–150; tworzone
 skryptem z cennika, nie ręcznie. Liczba nie jest problemem operacyjnym, bo cała edycja
 idzie przez jeden ekran cennika (niżej), a nie przez panel wariantów.
 
+**Trzecia oś tam, gdzie jest potrzebna: frakcja.** Agrobielik 90 ma w cenniku cztery ceny
+na jednej karcie WooCommerce — 0–3 mm po 750 zł/t luzem i 850 w big-bagu, 2–8 mm po 850 i 940.
+Bez wariantów nie da się tego zapisać; z wariantami wystarczy dołożyć `pa_agria-frakcja`
+jako oś dla tego jednego produktu. Przy okazji domyka to otwarte pytanie
+z `docs/catalog/CATALOG_VS_WC_GAP.md`.
+
+**Forma dostawy zmienia cenę tony, nie tylko opakowanie.** Agrobielik 70 luzem kosztuje
+220 zł/t, ten sam produkt w worku 20 kg — 11,50 zł za sztukę, czyli 575 zł/t. Różnica
+dwuipółkrotna. To jest właściwy powód, dla którego cennik musi mieć oś formy: nie chodzi
+o wygodę, tylko o to, że bez niej cennika nie da się zapisać.
+
+Ceny opakowań przychodzą od AGRII **za sztukę**, a w wariancie leżą przeliczone **na tonę**.
+Ekran wyceny pokazuje obie liczby, bo klient przez telefon pyta „ile za worek".
+
+**Podłoga cenowa.** Część cen została przez AGRIĘ podniesiona, żeby nie schodzić poniżej
+poziomu stałych odbiorców. Wariant trzyma więc obok ceny także cenę minimalną; handlowiec
+może zejść niżej, ale widzi, że schodzi poniżej podłogi. Nie blokada — ostrzeżenie.
+
 **Edycja przez własny ekran, nie przez panel wariantów.** Jedna tabela wszystkich pozycji
 z cenami do wpisania w miejscu, filtrowana po produkcie i zakładzie. Panel wariantów
 WooCommerce przy stu pozycjach jest nie do przejścia.
+
+### 4.1a. Skąd bierzemy cennik startowy
+
+Nie z pytania do AGRII — z **`docs/operations/CENNIK_PAWEL_2026-08-07.md`**, czyli cennika,
+który Paweł przysłał 7 sierpnia. Pokrywa 15 z 19 kart z podziałem na luz, big-bag i opakowania.
+
+Cennik nie ma podziału na zakłady, a ceny per kopalnia się różnią (4.1). Na start
+**powielamy tę samą cenę dla każdego zakładu, z którego dany produkt jedzie**, i AGRIA
+różnicuje je potem w ekranie cennika — poprawianie gotowej tabeli jest robotą na godzinę,
+wypełnianie pustej na kilka dni.
+
+Bez ceny zostają cztery karty: AGR-004 (tlenkowe z magnezem), AGR-007 (węglanowe bez Mg
+odm. 05), AGR-012 (Dolomit) i ID 303 (Kreda czarna jeziorna). Wariant powstaje, cena
+zostaje pusta, a ekran wyceny mówi wprost „brak ceny — ustal z Pawłem". Dolomit wart jest
+osobnej wzmianki przy rozmowie: fraza „dolomit" to 6 600 wyszukań miesięcznie, największy
+wolumen w projekcie.
 
 ### 4.2. Zakłady wysyłkowe
 
