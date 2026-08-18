@@ -1,6 +1,122 @@
 # PROJECT_STATE.md — Stan projektu AGRIA
 
-> Ostatnia aktualizacja: **2026-07-08** (M2: wdrożony poprawny rdzeń URL/taksonomii — patrz niżej). Plik aktualizowany przy istotnych zmianach. Czytany przez Claude'a na początku każdej sesji.
+> Ostatnia aktualizacja: **2026-08-18**. Plik aktualizowany przy istotnych zmianach.
+> Czytany przez Claude'a na początku każdej sesji. Najnowsze na górze, historia niżej.
+
+---
+
+## 2026-08-18 — pięć równoległych wątków
+
+Umowa: **6 × 2 000 PLN netto/mies**, zaakceptowana 27.05.2026. Sierpień = **M3**.
+Poniżej wszystko, co jest w toku — w jednym miejscu, żeby wątki się nie gubiły
+między sesjami.
+
+| # | Wątek | Stan | Następny ruch | Na kim |
+|---|---|---|---|---|
+| 1 | Content i SEO (M3) | połowa budżetu przesunięta na Ads | domknięcie zaległości M3 | Auranet |
+| 2 | Google Ads | **kampanie żywe od 13.08** | obserwacja, optymalizacja stawek | Auranet |
+| 3 | OLX | 200 ogłoszeń gotowych, **czeka na pakiet** | AGRIA kupuje pakiet + nanieść poprawki z 18.08 | AGRIA / Auranet |
+| 4 | Kalkulator wapnowania | zmodernizowany, **u Kazimierza do weryfikacji** | wdrożenie na produkcję (≈4 h) | Kazimierz → Auranet |
+| 5 | Ofertownik | spec gotowy — **projekt własny Auranet** | etap zerowy: audyt cen + próba wariantu | Auranet |
+
+---
+
+### 1. Content i SEO — M3 (sierpień)
+
+**Połowa budżetu miesiąca przesunięta na setup Google Ads.** To była świadoma decyzja
+handlowa: sezon rolniczy nie czeka, a kampania daje ruch od pierwszego dnia, podczas gdy
+treść potrzebuje tygodni na indeksację.
+
+W ramach setupu Ads powstały rzeczy, które służą też SEO i analityce: **GTM i GA4**
+(wzorzec z aseosystem, przez Elementor Custom Code), pomiar połączeń telefonicznych,
+oraz dwa landingi `/wapno-granulowane/` i `/wapno-nawozowe/`.
+
+**Landingi są celami reklam i stoją poza indeksem** — patrz ADR `2026-08-11-podzial-rol-ads-seo.md`
+i memory `project_agria_architektura_kanalow`. Powód jest zmierzony, nie teoretyczny:
+przy sześciu URL-ach na frazę „wapno bielik" pozycja spadła do 15,3, a frazy obsługiwane
+jednym adresem trzymają się w pierwszej dziesiątce. **Nie proponuj nowych landingów
+organicznych bez przeczytania tego ADR-a.**
+
+Zaległości z M2/M3 (indeksacja pięciu stron, `/do-pobrania/` bez crawlu od kwietnia,
+LCP mobile, GA4 bez zgód) — `project_agria_start_here_m2` i `docs/raporty/REWIZJA_STANU_2026-08-06.md`.
+
+### 2. Google Ads — żywe
+
+Konto **674-207-1446**, kampanie ENABLED od 13.08.
+
+| Kampania | Budżet | Strategia |
+|---|---|---|
+| AGRIA - Rolnictwo | 34 zł/dz | MANUAL_CPC |
+| AGRIA - Marka | 6 zł/dz | MANUAL_CPC |
+
+Sieć wyszukiwania bez partnerów i display, Polska w trybie „obecność", 34 słowa kluczowe
+w dopasowaniu ścisłym i do wyrażenia, 38 wykluczeń plus lista współdzielona.
+Pozycjonowanie: **dostawca całosamochodowy, nie sklep z workami**. Konwersja
+z połączeń, rotacja dwóch numerów (Paweł, Kazimierz).
+
+Odtworzenie: `scripts/google/ads_build_campaigns.py`, `scripts/google/ads_teksty_dostawca.py`.
+ADR: `docs/decyzje/2026-08-13-uruchomienie-kampanii-ads.md`. Sezonowość i dni tygodnia:
+memory `project_agria_ads_sezonowosc` (niedziela najmocniejsza — nie wyłączać weekendów).
+
+### 3. OLX — gotowe, czeka na decyzję AGRII
+
+**200 ogłoszeń**, 12 pozycji asortymentowych, 53 miejscowości, 9 województw — wystawiane
+przez oficjalne Partner API z konta AGRII. Treści, siatka miejscowości i spięcie z API
+są zrobione; czeka wyłącznie na **opłacenie pakietu Premium 200** (1 199,99 zł brutto,
+płaci AGRIA ze swojego konta).
+
+Wycena Auranet: **1 800 zł netto setup + 300 zł/mies** prowadzenia.
+
+Rozpiska klient-facing: `docs/offers/OLX_TABELA_OGLOSZEN.md`, wersja pokazana AGRII
+w sierpniu. Plan i ekonomika: `docs/offers/2026-08-PLAN_OLX.md`.
+
+**Do naniesienia przed publikacją:** poprawki treści ogłoszeń ustalone z Kazimierzem
+mailowo 18.08.
+
+### 4. Kalkulator wapnowania z modułem magnezowym
+
+Moduł `liming-calculator` w `agria-by-auranet` rozszerzony o magnez. Mockup:
+`mockups/agria-kalkulator-mg-test-2026-08-18.html`. **Kazimierz wprowadził dane
+i przekazał do weryfikacji 18.08.**
+
+Logika ustalona: cel domyślny = górna granica zawartości „wysokiej", dobór Mg-first
+z dopokryciem CaO. Cztery kwestie otwarte przed wdrożeniem — memory
+`project_agria_kalkulator_mg`.
+
+**Do rozliczenia: ≈4 h** (praca dotychczasowa plus wdrożenie na produkcję).
+
+### 5. Ofertownik — projekt własny Auranet
+
+**Nie jest pozycją billable dla AGRII na tym etapie.** Decyzja Janka 18.08:
+najpierw budujemy, potem pokazujemy gotowe i sprzedajemy. Rozpiska klient-facing
+istnieje (`docs/offers/OFERTOWNIK_ROZPISKA_2026-08-18.html`), ale **bez kwot**
+i nie idzie do klienta przed zbudowaniem.
+
+Spec: `docs/specs/2026-08-18-ofertownik-design.md`. Osobna wtyczka
+`agria-ofertownik-by-auranet`, cennik na wariantach WooCommerce, transport liczony poza
+WooCommerce, klient jako CPT.
+
+Pierwszy ruch (etap zerowy, jeszcze niezaczęty): audyt wycieku cen → próba konwersji
+jednego produktu na wariantowy → dopiero potem sprzątanie atrybutów i cennik
+z `docs/operations/CENNIK_PAWEL_2026-08-07.md`.
+
+---
+
+### Infrastruktura — co zmieniło się 18.08
+
+**Uruchomiony SSH do produkcji** (`ssh agria-prod`) z WP-CLI 2.4.0 — to jest kluczowa
+zmiana dla wszystkich wątków, bo dopiero teraz można wdrażać sprawnie: masowe zmiany,
+wtyczki, cache, eksporty. Wcześniej były tylko MCP (przez HTTP) i FTP (bez WP-CLI).
+Szczegóły i pułapki: `CLAUDE.md` sekcja Narzędzia.
+
+**Usunięta stara instalacja WordPressa** z katalogu produkcyjnego — miała publicznie
+dostępny ekran logowania. ADR: `docs/decyzje/2026-08-18-usuniecie-starej-instalacji-wp.md`.
+
+**Uporządkowany `CLAUDE.md`** — mapa repo, faktyczny zakres MCP (ma zapis od czerwca),
+wersje z sierpnia.
+
+---
+
 
 ---
 
