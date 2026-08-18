@@ -141,11 +141,16 @@ Trzy wiersze w opcji wtyczki. Nie wysyłka WooCommerce — ta liczy według stre
 i nie zna pojęcia „z którego zakładu towar wyjeżdża", a u AGRII cała stawka bierze się
 właśnie stąd (ten sam Radom to 90 km z Sitkówki albo 250 km z Niedomic, zależnie od produktu).
 
-| Metoda | zł/km netto | Przejazd | Ładowność | Wozi |
+| Metoda | Nalicza | Stawka netto | Ładowność | Wozi formy |
 |---|---|---|---|---|
-| Naczepa | 5,50 | w jedną stronę | 24 t | towar na paletach — big-bagi, worki |
-| Beczka silosowa | 4,80 | **liczony z dwóch stron** | 24 t | sypkie i kruszone, luzem |
-| Wanna | 4,20 | **liczony z dwóch stron** | 24 t | sypkie luzem |
+| Naczepa | za km, w jedną stronę | 5,50 zł | 24 t | Worek 25/30/40 kg, Big-bag 500/600/1000 kg |
+| Beczka silosowa | za km, **z dwóch stron** | 4,80 zł | 24 t | Luz — sypkie, kruszone |
+| Wanna | za km, **z dwóch stron** | 4,20 zł | 24 t | Luz — sypkie |
+| Kurier paletowy | **za paletę** | 120 zł | — | Worek 25/30/40 kg, Big-bag 500/600/1000 kg |
+
+Kurier ma jedną stawkę krajową i bierze paletę niezależnie od masy, także big-bag
+1000 kg (ustalenie z 18.08.2026 — świadomie proste). Odstępstwa, jeśli się zdarzą,
+handlowiec poprawia nadpisując kwotę w ofercie; nie ma dla nich reguł w kodzie.
 
 Ładowność 24 t domyślnie dla każdej metody, edytowalna osobno per metoda.
 
@@ -228,8 +233,18 @@ zmienić — decyduje też dostępność towaru, której narzędzie nie zna.
 
 ### 5.3. Dobór pojazdu i koszt przewozu
 
-Metoda wynika z formy towaru: paletowe (big-bag, worki) → naczepa; sypkie i kruszone
-luzem → wanna albo beczka silosowa. Handlowiec nie musi tego pamiętać, ale może zmienić.
+Metoda wynika z formy towaru. Luz jedzie wanną albo beczką silosową — kurier odpada,
+bo nie ma czego postawić na palecie. Formy paletowe mają natomiast **dwie metody naraz**:
+naczepę i kuriera.
+
+Rozstrzygamy je bez progu — narzędzie liczy oba warianty i pokazuje tańszy. Zero reguł
+do zapamiętania przez handlowca, zero konfiguracji do utrzymania. Punkt zrównania wypada
+przy `liczba palet = km / 21,8`, czyli przy 70 km naczepa przejmuje od czwartej palety,
+a przy 250 km dopiero od dwunastej. Kurier obsługuje więc dokładnie to, co ma obsługiwać:
+drobne zamówienia i pojedyncze palety w dalsze rejony.
+
+Handlowiec widzi wybraną metodę i może ją przełączyć — o dostępności auta wie więcej
+niż narzędzie.
 
 ```
 kursy       = ceil(tony / ładowność metody)
@@ -258,6 +273,9 @@ wyceniać poniżej palety: kto bierze jeden worek, nie potrzebuje oferty.
 Praktycznie: liczba palet zaokrągla się w górę, bo palety nie da się wypełnić w połowie.
 Dwa worki po 25 kg to już cała paleta — nie ma więc realnego przypadku „poniżej palety",
 jest tylko zamówienie tak małe, że nie warte oferty.
+
+Samo małe zamówienie przestaje być problemem cenowym z chwilą wejścia kuriera (5.3):
+jedna paleta to 120 zł przewozu, a nie 825 zł za podstawienie naczepy.
 
 ### 5.6. Trzy stany transportu
 
@@ -333,7 +351,7 @@ do klienta.
 
 **Przyjęte, do potwierdzenia u Pawła:**
 
-- ładowność 24 t dla każdej z trzech metod (edytowalna osobno);
+- ładowność 24 t dla każdej z trzech metod liczonych za kilometr (edytowalna osobno);
 - naczepa 5,50 zł/km w jedną stronę; beczka 4,80 i wanna 4,20 z dwóch stron;
 - „palety 25, 40" z notatki telefonicznej to gramatury worków (25 i 40 kg) układanych
   na palecie — zgodnie z wartościami `Worek 25 kg` i `Worek 40 kg` w atrybutach.
@@ -344,16 +362,9 @@ do klienta.
 - **cena tony różni się w zależności od kopalni i zakładu** — obie osie zostają
   w cenniku, ok. 150 wariantów, edycja przez jeden ekran zbiorczy;
 - **poniżej palety nie ofertujemy w ogóle** — patrz 5.5; paleta jest najmniejszą
-  jednostką miejsca na aucie, więc próg jest fizyczny, nie umowny.
-
-**Otwarte, dotyczy małych zamówień:**
-
-- **ile kosztuje przewóz jednej lub dwóch palet.** Stawka za kilometr dotyczy całego
-  auta, więc jedna paleta na 150 km wychodzi przy 5,50 zł/km na 825 zł — kwota
-  bez związku z towarem za kilkaset złotych. Albo istnieje osobna stawka za paletę
-  (spedycja zbiorcza), albo obowiązuje minimum kilku ton, albo takie zamówienia idą
-  wyłącznie na odbiór własny. Dotyczy to najczęstszego telefonu z OLX, gdzie ludzie
-  pytają o worki, nie o całe auta.
+  jednostką miejsca na aucie, więc próg jest fizyczny, nie umowny;
+- **przewóz małych ilości** — rozwiązany kurierem paletowym po 120 zł za paletę,
+  wybieranym automatycznie tam, gdzie wychodzi taniej od naczepy (4.3, 5.3).
 
 **Otwarte, niepilne:**
 
