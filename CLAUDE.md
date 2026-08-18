@@ -97,6 +97,35 @@ Ustalone przy restrukturyzacji 2026-05-19, obowiązują dalej:
 
 ## Narzędzia
 
+### SSH + WP-CLI (główne narzędzie do produkcji)
+
+```
+ssh agria-prod           # alias w ~/.ssh/config, klucz ~/secrets/agria/ssh/id_ed25519
+```
+
+Konto `server371853@server371853.nazwa.pl:22`, klucz `claude-agria-elara` (ed25519, bez hasła)
+wgrany do panelu nazwa.pl 18.08.2026. Dane: `~/secrets/agria/ssh.env`. Odcięcie = usunięcie
+jednej linii z listy kluczy w panelu.
+
+**Katalog domowy to już `ftp`** — `~` wskazuje na `/home/server371853/ftp`, więc ścieżki
+w rodzaju `~/ftp/...` trafiają w próżnię. WordPress stoi w **`~/agria.pl`** (tam `wp-config.php`,
+`wp-admin/`, `wp-content/`, a także `mcp/`).
+
+**WP-CLI 2.4.0** (`/usr/local/sbin/wp`, PHP 8.3.33). Wymaga `--path`:
+
+```
+wp core version --path=~/agria.pl
+wp plugin list --path=~/agria.pl
+```
+
+To jedyne narzędzie dające pełne WP-CLI — MCP i FTP tego nie zrobią. Ma pierwszeństwo
+przy operacjach na WordPressie: masowe zmiany, wtyczki, cache, eksport, migracje.
+
+**Sesje dawaj zbiorczo, nie po jednym poleceniu.** Przy diagnostyce składaj cały skrypt
+i wysyłaj przez `ssh agria-prod 'bash -s' <<'EOF'`, z `timeout N` na każdej komendzie
+osobno. Pojedyncze wywołania potrafiły wisieć bez wyraźnej przyczyny; skrypt zbiorczy
+z limitami czasu przechodzi.
+
 ### MCP `agria` (read **i write**, live na produkcji)
 
 Toole pod prefiksem `mcp__agria__*`, wtyczka token-gated (`X-MCP-Token`). Build 2.0.1
