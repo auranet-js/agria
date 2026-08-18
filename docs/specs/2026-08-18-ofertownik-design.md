@@ -120,8 +120,10 @@ wszystko liczy się na tony, bo tak wygląda handel i tak podane są ceny w ogł
 
 Uzasadnienie wyboru: dochodzi kopalnia albo forma dostawy → dopisujesz term i wariant,
 nikt nie rusza kodu. Własna tabela cennika wymagałaby własnego modelu relacji i własnego
-panelu na to samo. Wariantów wyjdzie ok. 100–150; tworzone jednorazowo skryptem z cennika,
-nie ręcznie.
+panelu na to samo. **Oś zakładu potwierdzona 18.08.2026** — cena tony różni się w zależności od kopalni
+i zakładu, więc obie osie zostają. Wariantów wyjdzie ok. 100–150; tworzone jednorazowo
+skryptem z cennika, nie ręcznie. Liczba nie jest problemem operacyjnym, bo cała edycja
+idzie przez jeden ekran cennika (niżej), a nie przez panel wariantów.
 
 **Edycja przez własny ekran, nie przez panel wariantów.** Jedna tabela wszystkich pozycji
 z cenami do wpisania w miejscu, filtrowana po produkcie i zakładzie. Panel wariantów
@@ -146,6 +148,11 @@ właśnie stąd (ten sam Radom to 90 km z Sitkówki albo 250 km z Niedomic, zale
 | Wanna | 4,20 | **liczony z dwóch stron** | 24 t | sypkie luzem |
 
 Ładowność 24 t domyślnie dla każdej metody, edytowalna osobno per metoda.
+
+**Paleta to jednostka miejsca na aucie, nie miary towaru.** Już dwa worki po 25 kg
+albo jeden 40-kilogramowy zajmują całą paletę — nie da się jej wypełnić w połowie
+i nie da się zamówić mniej. Big-bag zajmuje paletę tak samo jak te dwa worki.
+Górna pojemność palety per forma dostawy (ile worków, jaka masa) — parametr do ustalenia.
 
 **Uwaga do wcześniejszych wyliczeń:** siatka OLX (`grid.py`) liczyła 6 zł/km w jedną
 stronę jako założenie. Realnie wanna to 4,2 × 2 = 8,4 zł/km, więc udziały transportu
@@ -240,15 +247,17 @@ To jedyny element całości, który sam z siebie podnosi średnią wartość zam
 
 ### 5.5. Próg dolny
 
-**Nie liczymy niczego poniżej jednej palety.** Poniżej tego progu narzędzie nie podaje
-kwoty tylko komunikat, co zaproponować.
+**Jednostką najmniejszą jest paleta. Ofertownik nie wycenia niczego mniejszego** —
+rozstrzygnięcie z 18.08.2026, bez wyjątków i bez komunikatów specjalnych.
 
-Powód: stawka za kilometr załamuje się przy małych ilościach. Jedna paleta na 150 km
-to przy 5,5 zł/km 825 zł przewozu do towaru za ~150 zł — cena, której żaden handlowiec
-nie wypowie na głos. Jest to o tyle istotne, że **małe zamówienia to najczęstszy telefon
-z OLX** — tam ludzie szukają worków, nie całych aut.
+Powód jest logistyczny, nie cenowy: kurierzy detaliczni przyjmują przesyłki do 31 kg,
+a wapno w worku papierowym i tak nie nadaje się do obiegu paczkowego — pyli i rwie się.
+Nawet jeden worek jedzie więc na palecie. Skoro nie ma tańszej drogi, nie ma czego
+wyceniać poniżej palety: kto bierze jeden worek, nie potrzebuje oferty.
 
-Czym dokładnie ma być ten komunikat — patrz rozdz. 9, pozycja otwarta.
+Praktycznie: liczba palet zaokrągla się w górę, bo palety nie da się wypełnić w połowie.
+Dwa worki po 25 kg to już cała paleta — nie ma więc realnego przypadku „poniżej palety",
+jest tylko zamówienie tak małe, że nie warte oferty.
 
 ### 5.6. Trzy stany transportu
 
@@ -326,17 +335,25 @@ do klienta.
 
 - ładowność 24 t dla każdej z trzech metod (edytowalna osobno);
 - naczepa 5,50 zł/km w jedną stronę; beczka 4,80 i wanna 4,20 z dwóch stron;
-- „palety 25, 40" z notatki telefonicznej odczytane jako gramatura worków (25 i 40 kg),
-  co potwierdzają wartości `Worek 25 kg` i `Worek 40 kg` w atrybutach — do potwierdzenia,
-  bo alternatywny odczyt to liczba palet na naczepie;
-- minimum jedna paleta.
+- „palety 25, 40" z notatki telefonicznej to gramatury worków (25 i 40 kg) układanych
+  na palecie — zgodnie z wartościami `Worek 25 kg` i `Worek 40 kg` w atrybutach.
+  **Ile worków wchodzi na paletę i ile ton ona waży — nieustalone.**
 
-**Otwarte, blokujące fragment etapu 1:**
+**Rozstrzygnięte 18.08.2026 (było otwarte):**
 
-- **czy cena tony różni się w zależności od kopalni** — jeśli nie, oś zakładu wypada
-  z cennika i zostaje wyłącznie forma dostawy (ok. 40 wariantów zamiast 150);
-- **co narzędzie ma powiedzieć poniżej jednej palety** — odbiór własny, kurier paletowy
-  ze stałą stawką, czy minimum jednej tony (w ogłoszeniach OLX figuruje „dostawa od 1 tony").
+- **cena tony różni się w zależności od kopalni i zakładu** — obie osie zostają
+  w cenniku, ok. 150 wariantów, edycja przez jeden ekran zbiorczy;
+- **poniżej palety nie ofertujemy w ogóle** — patrz 5.5; paleta jest najmniejszą
+  jednostką miejsca na aucie, więc próg jest fizyczny, nie umowny.
+
+**Otwarte, dotyczy małych zamówień:**
+
+- **ile kosztuje przewóz jednej lub dwóch palet.** Stawka za kilometr dotyczy całego
+  auta, więc jedna paleta na 150 km wychodzi przy 5,50 zł/km na 825 zł — kwota
+  bez związku z towarem za kilkaset złotych. Albo istnieje osobna stawka za paletę
+  (spedycja zbiorcza), albo obowiązuje minimum kilku ton, albo takie zamówienia idą
+  wyłącznie na odbiór własny. Dotyczy to najczęstszego telefonu z OLX, gdzie ludzie
+  pytają o worki, nie o całe auta.
 
 **Otwarte, niepilne:**
 
