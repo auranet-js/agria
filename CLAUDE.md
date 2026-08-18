@@ -46,83 +46,54 @@ W skrócie: jesteś **strategiem marketingu B2B w branży surowcowej**, działaj
 
 ## Mapa repo
 
-```
-agria/
-├── CLAUDE.md                           ← ten plik (kontekst Claude Code)
-├── README.md                           ← opis repo dla człowieka
-├── .gitignore                          ← sekrety / backupy / edytory
-│
-├── docs/
-│   ├── MASTER_PROMPT.md                ← tożsamość Claude'a (read FIRST każdą sesję)
-│   ├── PROJECT_STATE.md                ← bieżący stan, decyzje, otwarte pytania
-│   │
-│   ├── strategy/
-│   │   ├── STRATEGY_2025_2026.md       ← strategia marketingowa B2B
-│   │   └── BUDGET_KPI.md               ← budżet + KPI kwartalnie
-│   │
-│   ├── seo/
-│   │   ├── SEO_AUDIT_PLAN.md           ← plan audytu zerowego (Auranet free)
-│   │   └── KEYWORDS_BASELINE.md        ← szkielet fraz (do uzupełnienia po audycie)
-│   │
-│   ├── catalog/
-│   │   ├── CATALOG_VS_WC_GAP.md        ← ⚠️ żywa mapa niespójności PDF↔WC↔spec
-│   │   ├── PRODUCTS_INVENTORY.md       ← stan WC (live z MCP, 2026-05-19)
-│   │   ├── PRINT_CATALOG_SPEC.md       ← plan katalogu (18 kart, INNY niż PDF!)
-│   │   ├── PRODUCT_DATA_MAPPING.md     ← mapping WC→druk (22 produkty)
-│   │   ├── DESIGN_SPEC.md              ← spec InDesign (paleta, fonty, layout)
-│   │   └── EXTENDSCRIPT_RULES.md       ← gotchas ExtendScript / JSX
-│   │
-│   ├── brand/
-│   │   └── IDENTITY.md                 ← logo, paleta, fonty, ToV
-│   │
-│   ├── technical/
-│   │   ├── INFRASTRUCTURE.md           ← stack, hosting, dostępy (placeholder!)
-│   │   └── MCP_TOOLS.md                ← narzędzia MCP Agria.pl
-│   │
-│   ├── offers/
-│   │   └── AURANET_2000PLN_MONTHLY.md  ← oferta 6-miesięczna dla klienta
-│   │
-│   ├── operations/
-│   │   └── WORKING_AGREEMENT.md        ← zasady współpracy Auranet ↔ AGRIA
-│   │
-│   └── audits/                         ← (puste, na SEO_AUDIT_RESULTS itd.)
-│
-└── assets/
-    ├── brand/
-    │   └── agria-logo.png              ← logo (transparent PNG, zielony ~#1B7339)
-    └── print/
-        ├── catalog/
-        │   ├── Agria-katalog-2026-05-04-web.pdf      ← realizowany katalog 24str
-        │   ├── HISTORICAL_BRIEF_2026-02-05.txt       ← brief początkowy (stara paleta!)
-        │   └── jsx/
-        │       └── agrobielik-70.jsx                  ← wzorcowy skrypt InDesign
-        └── ulotka-dl/
-            ├── ulotka-dl-2026-05-18-front.jpg
-            └── ulotka-dl-2026-05-18-back.jpg
-```
+| Katalog | Co tam leży |
+|---|---|
+| `docs/` (korzeń) | `MASTER_PROMPT.md` — tożsamość Claude'a, czytana pierwsza; `PROJECT_STATE.md`; prompt startowy bieżącego miesiąca |
+| `docs/ads/` | Google Ads — setup kampanii, stawki, harmonogram |
+| `docs/audits/` | deliverables audytowe — baseline, audyt treści, keyword research, plan on-page |
+| `docs/brand/` | identyfikacja wizualna |
+| `docs/catalog/` | katalog drukowany — spec, mapping produktów, reguły ExtendScript, mapa niespójności PDF↔WC |
+| `docs/decyzje/` | ADR, `YYYY-MM-DD-temat.md` |
+| `docs/offers/` | oferty i rozpiski klient-facing |
+| `docs/operations/` | dane operacyjne od AGRII i z rynku — cenniki, inwentaryzacje OLX, konkurencja |
+| `docs/prompty/` | prompty startowe pod konkretne wątki |
+| `docs/przypomnienia/` | zrzuty kontekstu pod przypominajkę kalendarzową |
+| `docs/raporty/` | raporty miesięczne dla klienta |
+| `docs/seo/` | plany, baseline, keywords, sezonowość |
+| `docs/sesje/` | domknięcia wątków |
+| `docs/specs/` | specy projektowe nowych narzędzi |
+| `docs/strategy/` | strategia, budżet, KPI |
+| `docs/technical/` | infrastruktura, MCP |
+| `assets/` | binaria i materiały gotowe — `brand/`, `print/catalog/`, `print/ulotka-dl/`, `offers/`, `mockups/` |
+| `data/` | dane robocze skryptów — dziś `olx/` (siatka miast, plan ogłoszeń, snapshoty rynku) |
+| `mockups/` | makiety HTML do testów u klienta |
+| `scripts/` | skrypty — `olx/` (siatka, publikacja przez API), GSC, baseline SEO |
+| `src/` | kopie referencyjne kodu z produkcji — `plugins/agria-by-auranet/`, `mcp/` |
 
-**Source-of-truth dla struktury = filesystem.** Jeśli ten wydruk się zdezaktualizuje, ufaj `find` / `ls`.
+W korzeniu repo: `CLAUDE.md` (ten plik) i `README.md`.
+
+**Source-of-truth dla struktury = filesystem.** Ta tabela mówi, *co gdzie trzymamy*, i nie wylicza
+plików — te sprawdzaj przez `ls` / `find`. Poprzednia wersja była drzewem katalogów z nazwami
+plików i zdezaktualizowała się dwukrotnie (maj → sierpień 2026: przybyło siedem katalogów
+w `docs/` i cztery w korzeniu, żaden nie trafił do wydruku).
 
 ---
 
-## Uzasadnienie struktury
+## Zasady struktury
 
-Wybór został przemyślany podczas restrukturyzacji 2026-05-19. Logika:
+Ustalone przy restrukturyzacji 2026-05-19, obowiązują dalej:
 
-1. **`docs/` zawiera markdowny, `assets/` zawiera binaria.** Twardy podział — żaden binary nie ląduje w `docs/`, żaden markdown w `assets/`.
-2. **`docs/<dziedzina>/`** zamiast płaskiej listy — łatwiejsza nawigacja, jasne kategorie (strategy / seo / catalog / brand / technical / offers / operations / audits).
-3. **`assets/print/<materiał>/`** zamiast jednego płaskiego `assets/` — produkujemy wiele materiałów drukowanych (katalog 24str + ulotka DL + wizytówki + reprint), każdy zasługuje na własny folder z plikami źródłowymi i finalnymi.
-4. **`assets/print/catalog/jsx/`** — placeholder na 17 skryptów ExtendScript (jeden per karta produktu) generowanych w przyszłej iteracji z MCP `catalog_product`.
-5. **Historyczny brief 2026-02-05** zostaje (jako `HISTORICAL_BRIEF`), ale wyraźnie oznaczony — to wycofana wersja koncepcji (stara paleta + 18 kart vs realne 17). Wartość: pokazuje co odpadło i dlaczego.
-6. **`docs/audits/` z `.gitkeep`** — przygotowane miejsce na deliverables audytu SEO (SEO_AUDIT_RESULTS, SECURITY_AUDIT, raporty miesięczne klienta).
-7. **`docs/catalog/CATALOG_VS_WC_GAP.md`** — nowy dokument zrodzony z restrukturyzacji. Bez niego trzy plany (spec / mapping / faktyczny PDF) by się rozjeżdżały po cichu.
-
-**Czego nie zrobiłem (świadomie):**
-- nie zbudowałem `docs/decyzje/` (ADR) — chwilowo brak ADR-ów, gdy się pojawią, ADR-y typu `2026-MM-DD-decyzja-cement-w-katalogu.md` dodam,
-- nie utworzyłem `docs/landing-pages/` ani `docs/content-calendar/` — to powstanie po audycie SEO (puste foldery są drift),
-- nie rozdzieliłem `assets/print/catalog/` na `source/` + `finals/` — przy jednym PDF, jednym TXT briefie i jednym JSX overkill.
-
----
+1. **`docs/` trzyma dokumenty, `assets/` materiały gotowe.** W `docs/` markdown, a wyjątkowo
+   HTML tam, gdzie dokument jest rozpiską do pokazania klientowi. W `assets/` binaria i pliki
+   finalne: logo, PDF-y drukarskie, zdjęcia, makiety wysłane klientowi.
+2. **`docs/<dziedzina>/`** zamiast płaskiej listy — kategoria wynika z tego, do czego dokument
+   służy, nie z tego, kiedy powstał.
+3. **`assets/print/<materiał>/`** — każdy materiał drukowany ma własny folder z plikami
+   źródłowymi i finalnymi.
+4. **Katalog zakładamy dopiero wtedy, gdy ma co przyjąć.** Puste foldery to drift.
+5. **`docs/catalog/CATALOG_VS_WC_GAP.md`** — mapa niespójności między katalogiem drukowanym,
+   WooCommerce i planami. Dokument historyczny: pokazuje, co się kiedy rozjechało, i **nie jest
+   listą braków w ofercie** (patrz memory `project_agria_catalog_decisions`).
 
 ## Narzędzia
 
