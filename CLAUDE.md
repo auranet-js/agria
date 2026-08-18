@@ -32,10 +32,10 @@ W skrócie: jesteś **strategiem marketingu B2B w branży surowcowej**, działaj
 
 ---
 
-## Stan faktyczny (maj 2026)
+## Stan faktyczny (sierpień 2026)
 
-- Strona **agria.pl** działa na **WordPress 6.9.4 + WooCommerce 10.6.1**, motyw `Agria By Auranet 2.0.0`, PHP 8.3.30, hosting nazwa.pl (server371853), db_prefix `wpfz_`.
-- **19 produktów WooCommerce** opublikowanych — z tego 17 ma karty w realizowanym katalogu drukowanym (PDF 24str z 2026-05-04). **Wszystkie produkty mają `sku = null`** ⚠️.
+- Strona **agria.pl** działa na **WordPress 7.0.4 + WooCommerce 10.9.3**, motyw `Agria By Auranet 2.0.0`, PHP 8.3.33, hosting nazwa.pl (server371853), db_prefix `wpfz_`. Wersje sprawdzaj przez MCP `status` — zmieniają się między sesjami.
+- **19 produktów WooCommerce** opublikowanych — z tego 17 ma karty w realizowanym katalogu drukowanym (PDF 24str z 2026-05-04). SKU `AGR-001`…`AGR-018` przy 18 z 19; brak przy ID 303 (Kreda czarna jeziorna). **Ceny `_price` puste przy wszystkich** — tryb katalogu.
 - Pluginy aktywne: Elementor + Pro 3.35, JetSmartFilters, RankMath SEO + Pro, Premmerce Permalink Manager, UpdraftPlus, sierotki (Orphans).
 - Materiały drukowane: katalog 24 stron (17 kart produktów + 7 stron firmowych) — produkcja, ulotka DL (gotowa 2026-05-18), wizytówki w produkcji, folder gotowy.
 - Identyfikacja wizualna: **paleta Elementor Global Colors** (główny `#354E33`, akcent `#61CE70`), fonty **Plus Jakarta Sans + Bai Jamjuree**. Stara paleta `#1B4D3E + #9ACD32` z briefu z lutego 2026 **wycofana** — pozostała w `assets/print/catalog/HISTORICAL_BRIEF_2026-02-05.txt`.
@@ -64,9 +64,9 @@ W skrócie: jesteś **strategiem marketingu B2B w branży surowcowej**, działaj
 | `docs/specs/` | specy projektowe nowych narzędzi |
 | `docs/strategy/` | strategia, budżet, KPI |
 | `docs/technical/` | infrastruktura, MCP |
-| `assets/` | binaria i materiały gotowe — `brand/`, `print/catalog/`, `print/ulotka-dl/`, `offers/`, `mockups/` |
+| `assets/` | binaria i materiały gotowe — `brand/`, `print/catalog/`, `print/ulotka-dl/`, `offers/` |
 | `data/` | dane robocze skryptów — dziś `olx/` (siatka miast, plan ogłoszeń, snapshoty rynku) |
-| `mockups/` | makiety HTML do testów u klienta |
+| `mockups/` | makiety HTML — landingi i kalkulatory pokazywane klientowi przed wdrożeniem |
 | `scripts/` | skrypty — `olx/` (siatka, publikacja przez API), GSC, baseline SEO |
 | `src/` | kopie referencyjne kodu z produkcji — `plugins/agria-by-auranet/`, `mcp/` |
 
@@ -97,23 +97,31 @@ Ustalone przy restrukturyzacji 2026-05-19, obowiązują dalej:
 
 ## Narzędzia
 
-### MCP `Agria.pl` (read-only, live na produkcji)
+### MCP `agria` (read **i write**, live na produkcji)
 
-W Claude Code toole pod prefixem `mcp__claude_ai_Agria_pl__*`:
+Toole pod prefiksem `mcp__agria__*`, wtyczka token-gated (`X-MCP-Token`). Build 2.0.1
+z hakiem `mcp-ext.php`; rozszerzenie ext-1.2 z 14.07.2026.
 
-- `status` — wersje PHP/WP/WC, motyw, prefix DB
-- `wc_products_list` — lista produktów (id, name, sku, status, categories, modified)
-- `wc_product` — surowe dane produktu po ID (meta, atrybuty, pricing, warianty)
-- `catalog_product` — produkt sparsowany pod format katalogu drukowanego (15 parametrów, formy dostawy)
-- `wc_options` — opcje WooCommerce (waluta, magazyn, podatki)
-- `query_db` — SELECT (read-only) na bazie WP
-- `read_file`, `list_dir` — pliki w `wp-content/`
-- `plugins_list` — aktywne wtyczki + wersje
-- `stats` — statystyki sklepu
+**Odczyt:** `status` (wersje PHP/WP/WC, motyw, prefix) · `wc_products_list` · `wc_product`
+(surowe dane po ID) · `wc_options` · `query_db` (SELECT) · `read_file`, `list_dir` ·
+`plugins_list` · `stats` · `logs`
 
-**Brak** zapisu — żadnego UPDATE/INSERT/DELETE z poziomu MCP. Operacje pisania = WP-CLI po SSH lub REST API.
+**Zapis:** `update_post_content` · `update_postmeta` · `query_db_write` ·
+`wc_product_attributes` (get/set — pusta lista **usuwa** atrybut z `_product_attributes`) ·
+`write_file` · `backup_file` · `db_export` (zrzut tabel poza web root) · `cron`
 
-W Claude.ai web te same toole nazywają się `Agria.pl:status` itd. — funkcjonalnie identyczne. Pełna spec: `docs/technical/MCP_TOOLS.md`.
+Zapis idzie **prosto na produkcję** — każda operacja pisząca po zgodzie Janka w czacie.
+Przed większą zmianą: `backup_file` albo `db_export`.
+
+`catalog_product` (produkt sparsowany pod katalog drukowany) **zgubiony** przy przebudowie
+na build zadaniowy — był w pierwszej wersji, nie ma go dziś. Pełna spec: `docs/technical/MCP_TOOLS.md`
+(uwaga: ten dokument opisuje jeszcze stan read-only).
+
+### FTP nazwa.pl
+
+Plain FTP (nie SFTP), dane w `~/secrets/agria/ftp.txt` + `netrc`. Pełny odczyt i zapis na
+root WordPressa łącznie z `.htaccess` — odblokowuje przekierowania i nagłówki bezpieczeństwa
+bez czyjejkolwiek pomocy. **Nie daje** wykonywania WP-CLI.
 
 ### Git / GitHub
 
@@ -138,13 +146,14 @@ W Claude.ai web te same toole nazywają się `Agria.pl:status` itd. — funkcjon
 
 ---
 
-## Bieżące priorytety (maj–czerwiec 2026)
+## Co teraz robimy
 
-1. **Audyt techniczny + on-page agria.pl** — `docs/seo/SEO_AUDIT_PLAN.md`, deliverable do `docs/audits/SEO_AUDIT_RESULTS.md` (utworzyć po wykonaniu).
-2. **Domknięcie oferty 6-mies** — `docs/offers/AURANET_2000PLN_MONTHLY.md`, prezentacja zarządowi AGRIA.
-3. **Generacja JSX dla pozostałych 16 kart katalogu** (PDF już ma 17 — wzorzec Agrobielik 70 w `assets/print/catalog/jsx/agrobielik-70.jsx`).
-4. **Wdrożenie analityki** — GA4 + GSC + GTM (placeholder pod konto Auranet, do przekazania klientowi).
-5. **Rozstrzygnięcie decyzji z `CATALOG_VS_WC_GAP.md`** — cement/kruszywo/drogowe (czy do WC?), Kreda czarna jeziorna (publish vs decyzja „wycięta"), warianty Agrobielika 90, SKU dla 19 produktów.
+Nie trzymamy tego w tym pliku — statyczna lista priorytetów rozjeżdża się z rzeczywistością
+tak samo jak drzewo katalogów. Bieżący stan i następny ruch:
+
+- **`docs/PROMPT_M3_START_2026-08.md`** — prompt startowy bieżącego miesiąca, czytaj go po `MASTER_PROMPT.md`;
+- **`docs/PROJECT_STATE.md`** — stan projektu;
+- **`git log --oneline -20`** — co faktycznie zrobione, zanim powiesz, że coś jest do zrobienia.
 
 ---
 
