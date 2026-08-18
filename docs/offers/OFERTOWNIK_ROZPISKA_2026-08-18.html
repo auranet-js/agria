@@ -1,0 +1,202 @@
+<title>AGRIA — ofertownik</title>
+<style>
+:root { --tlo:#fff; --tekst:#1b1b1b; --slabe:#666; --linia:#e2e2e2; --akcent:#354E33; --hot:#a33; --pas:#fafafa; --ok:#2d6a2d; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --tlo:#151715; --tekst:#e8e8e6; --slabe:#9a9a95; --linia:#2c2f2c; --akcent:#8fbf87; --hot:#e08d8d; --pas:#1b1e1b; --ok:#8fbf87; } }
+:root[data-theme="dark"] { --tlo:#151715; --tekst:#e8e8e6; --slabe:#9a9a95; --linia:#2c2f2c; --akcent:#8fbf87; --hot:#e08d8d; --pas:#1b1e1b; --ok:#8fbf87; }
+body { background:var(--tlo); color:var(--tekst); font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;
+  max-width:60rem; margin:0 auto; padding:2rem 1.2rem 4rem; }
+h1 { font-size:1.6rem; margin:0 0 .3rem; }
+h2 { font-size:1.05rem; margin:0 0 .2rem; color:var(--akcent); }
+h3 { font-size:.95rem; margin:2.4rem 0 .8rem; color:var(--akcent); }
+.lead { color:var(--slabe); margin:0 0 2rem; }
+.meta { color:var(--slabe); font-size:.88rem; margin:.6rem 0; }
+section { margin:0 0 2.2rem; }
+.scroll { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:.9rem; }
+th, td { text-align:left; padding:.35rem .6rem; border-bottom:1px solid var(--linia); }
+th { font-weight:600; color:var(--slabe); font-size:.8rem; text-transform:uppercase; letter-spacing:.03em; }
+tbody tr:nth-child(even) { background:var(--pas); }
+.num { text-align:right; font-variant-numeric:tabular-nums; }
+.slabe { color:var(--slabe); font-weight:400; }
+.hot { color:var(--hot); font-weight:600; }
+.ok { color:var(--ok); font-weight:600; }
+.karta { border:1px solid var(--linia); border-radius:.4rem; padding:1rem 1.2rem; margin:.8rem 0 .6rem; }
+.etyk { color:var(--slabe); font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; margin:1rem 0 .15rem; }
+.karta .etyk:first-child { margin-top:0; }
+.tyt { font-size:1.05rem; font-weight:600; margin:0; }
+/* makieta ekranu */
+.ekran { border:1px solid var(--linia); border-radius:.5rem; overflow:hidden; margin:1rem 0; }
+.ekran-pas { background:var(--pas); padding:.5rem .9rem; font-size:.78rem; color:var(--slabe);
+  text-transform:uppercase; letter-spacing:.05em; border-bottom:1px solid var(--linia); }
+.ekran-tresc { padding:1rem 1.2rem; }
+.pole { display:flex; flex-wrap:wrap; gap:.5rem 1rem; align-items:baseline; padding:.45rem 0;
+  border-bottom:1px dashed var(--linia); }
+.pole:last-child { border-bottom:0; }
+.pole b { min-width:11rem; font-weight:400; color:var(--slabe); font-size:.85rem; }
+.wpis { border:1px solid var(--linia); border-radius:.25rem; padding:.15rem .5rem; background:var(--pas); }
+.wynik { margin-top:1rem; padding-top:.8rem; border-top:2px solid var(--akcent); }
+.wynik .pole b { color:var(--tekst); }
+.suma { font-size:1.15rem; font-weight:700; }
+.podp { background:var(--pas); border-left:3px solid var(--akcent); padding:.7rem .9rem;
+  margin:.9rem 0; font-size:.9rem; border-radius:0 .3rem .3rem 0; }
+ul { padding-left:1.2rem; }
+li { margin:.3rem 0; }
+</style>
+
+<h1>AGRIA — ofertownik. Wycena w trakcie rozmowy</h1>
+<p class="lead">Propozycja narzędzia, 18 sierpnia 2026. Pomysł wziął się z tabeli w rozpisce ogłoszeń
+OLX — tej, w której przy każdej miejscowości stało, z którego zakładu towar jedzie, ile to kilometrów
+i jaką część ceny zjada przewóz. Skoro to policzyliśmy dla dwustu ogłoszeń, można policzyć
+i dla telefonu, który za chwilę odbierze handlowiec.</p>
+
+<section>
+<h2>Problem, o który chodzi</h2>
+<p>Dzwoni klient i pyta o cenę. Żeby odpowiedzieć, handlowiec musi w trakcie rozmowy złożyć trzy rzeczy:
+cenę towaru, koszt przewozu z właściwego zakładu — a ten jest inny dla każdego produktu — i przeliczenie
+jednostek, w których myśli klient (hektary, worki, palety), na tony, w których liczy się cena.</p>
+<p>Dziś robi to z głowy. Wychodzi z tego albo „oddzwonię", albo liczba podana z wyczucia.
+Ani jedno, ani drugie nie jest dobre: pierwsze oddaje klienta konkurencji na czas oczekiwania,
+drugie zdarza się rozminąć z rzeczywistym kosztem auta.</p>
+</section>
+
+<section>
+<h2>Jak to wygląda w praktyce</h2>
+<p class="meta">Handlowiec ma to otwarte przez cały dzień. Wpisuje trzy rzeczy, cena pojawia się od razu —
+w trakcie mówienia, nie po wysłaniu formularza.</p>
+
+<div class="ekran">
+<div class="ekran-pas">Nowa wycena</div>
+<div class="ekran-tresc">
+<div class="pole"><b>Miejscowość klienta</b> <span class="wpis">Mława, mazowieckie</span></div>
+<div class="pole"><b>Produkt</b> <span class="wpis">Agrobielik 70 — wapno tlenkowe 70% CaO</span></div>
+<div class="pole"><b>Forma</b> <span class="wpis">Luz</span></div>
+<div class="pole"><b>Ilość</b> <span class="wpis">24 t</span>
+  <span class="slabe">albo podaj hektary — przeliczy z kalkulatora dawki</span></div>
+
+<div class="wynik">
+<div class="pole"><b>Jedzie z zakładu</b> Sitkówka <span class="slabe">— najbliższy, który ma ten produkt</span></div>
+<div class="pole"><b>Odległość</b> 300 km <span class="slabe">trasą, nie w linii prostej</span></div>
+<div class="pole"><b>Transport</b> wanna, 4,20 zł/km, kurs liczony w dwie strony
+  <span class="slabe">= 2 520 zł za auto</span></div>
+<div class="pole"><b>Towar</b> 220 zł/t × 24 t <span class="slabe">= 5 280 zł</span></div>
+<div class="pole"><b>Cena z dostawą</b> <span class="ok">325 zł/t</span></div>
+<div class="pole"><b class="suma">Razem netto</b> <span class="suma">7 800 zł</span></div>
+</div>
+</div>
+</div>
+
+<p class="meta">Każdą z tych liczb handlowiec może poprawić — bo negocjuje. Jednym kliknięciem
+wraca do wyliczonej. To, co podał, i to, co proponowało narzędzie, zapisują się obok siebie.</p>
+</section>
+
+<section>
+<h2>Trzy rzeczy, które to zmienia</h2>
+
+<h3>1. Klient słyszy cenę od razu</h3>
+<p>Zamiast „policzę i oddzwonię" — konkretna liczba w trakcie rozmowy, z rozbiciem na towar i przewóz.
+Handlowiec nie musi pamiętać, że kreda granulowana jedzie z Kornicy, a Agrobielik z Niedomic albo
+Sitkówki, ani ile to kilometrów. Wybiera najbliższy zakład, który ten produkt ma, i może go zmienić,
+jeśli akurat wie o czymś, czego narzędzie nie wie.</p>
+
+<h3>2. Widać, ile kosztuje niedopełnione auto</h3>
+<p>Przewóz płaci się za pojazd, nie za tonę. Klient zamawiający 14 ton płaci za transport tyle samo,
+co zamawiający 24 — tylko rozkłada to na mniej ton. Narzędzie mówi o tym wprost przy każdej wycenie:</p>
+
+<div class="podp">
+<strong>Do pełnego auta brakuje 10 t.</strong> Przy 14 t przewóz wychodzi 180 zł/t i cena końcowa
+400 zł/t. Przy pełnych 24 t przewóz spada do 105 zł/t, a cena końcowa do <strong>325 zł/t</strong> —
+klient płaci za tonę o 75 zł mniej, kupując więcej.
+</div>
+
+<p>To jedyny element całości, który sam z siebie podnosi wartość zamówienia. Handlowiec dostaje
+gotowy argument, zamiast liczyć go w pamięci przy każdym telefonie.</p>
+
+<h3>3. Drobne zamówienia przestają być kłopotem</h3>
+<p>Z ogłoszeń OLX najczęściej dzwonią ludzie po worki, nie po całe auta. Dla nich podstawienie
+naczepy nie ma sensu, więc narzędzie liczy równolegle przesyłkę paletową i wybiera to, co tańsze:</p>
+
+<div class="scroll"><table>
+<thead><tr><th>Zamówienie</th><th>Naczepą</th><th>Paletowo</th><th>Co proponuje</th></tr></thead>
+<tbody>
+<tr><td>10 worków 25 kg wapna granulowanego pod Warszawę</td>
+  <td class="num">1 073 zł</td><td class="num">120 zł</td><td class="ok">paleta — 120 zł</td></tr>
+<tr><td>4 big-bagi do Krakowa, 70 km</td>
+  <td class="num">385 zł</td><td class="num">480 zł</td><td class="ok">naczepa — 385 zł</td></tr>
+<tr><td>6 palet do Warszawy, 160 km</td>
+  <td class="num">880 zł</td><td class="num">720 zł</td><td class="ok">paleta — 720 zł</td></tr>
+</tbody></table></div>
+
+<p class="meta">Żadnego progu do zapamiętania — narzędzie liczy oba warianty i pokazuje tańszy.
+Im dalej, tym więcej palet opłaca się wysłać przesyłką; blisko naczepa przejmuje już od czwartej.</p>
+</section>
+
+<section>
+<h2>Co z tego zostaje po rozmowie</h2>
+<p>Każda wycena zapisuje się jako oferta: co, dla kogo, po ile, kto ją wystawił i skąd przyszedł
+kontakt — z ogłoszenia, z reklamy, ze strony czy z polecenia. Klient, jeśli poda NIP, pobiera się
+z rejestru firm; jeśli nie, wystarczy numer telefonu.</p>
+<p>Oferta zostaje taka, jaka była w chwili rozmowy — późniejsza zmiana cennika jej nie przelicza.
+Klient, który oddzwoni za miesiąc, usłyszy dokładnie to, co usłyszał za pierwszym razem.</p>
+
+<p>Z tego samego zapisu wychodzi obraz, którego dziś nie ma:</p>
+<ul>
+<li>ile wycen padło w miesiącu, na jakie produkty i w jakich rejonach,</li>
+<li>o ile schodzi się poniżej cennika — kto, na czym i przy którym kanale,</li>
+<li>który kanał faktycznie przynosi rozmowy: ogłoszenia, reklama, strona czy polecenia,</li>
+<li>ile z wycen kończy się zamówieniem.</li>
+</ul>
+<p class="meta">Ta ostatnia rzecz jest o tyle istotna, że dziś ocena kanałów opiera się na tym,
+ile razy ktoś zobaczył numer telefonu. To pokazuje zainteresowanie, ale nie mówi, co się z niego
+zrobiło. Oferty domykają ten łańcuch.</p>
+</section>
+
+<section>
+<h2>Jak to powstaje</h2>
+<p>Narzędzie wchodzi jako część Waszej strony — tam, gdzie już są produkty, ich parametry
+i zdjęcia — pod osobnym adresem dostępnym po zalogowaniu. Rolnik wchodzący na agria.pl
+niczego nie zobaczy i nic się dla niego nie zmieni.</p>
+
+<div class="scroll"><table>
+<thead><tr><th>Etap</th><th>Co obejmuje</th><th>Efekt</th></tr></thead>
+<tbody>
+<tr><td>Przygotowanie</td>
+  <td>uporządkowanie danych produktowych, wprowadzenie cennika w podziale na zakłady i formy dostawy</td>
+  <td>jedna tabela, w której widać wszystkie ceny naraz</td></tr>
+<tr><td>Wycena</td>
+  <td>ekran wyceny, dobór zakładu i środka transportu, odległości, zapis oferty, wydruk</td>
+  <td>handlowiec przestaje liczyć na kartce</td></tr>
+<tr><td>Obraz sprzedaży</td>
+  <td>karta klienta z historią, dane firm po NIP, źródła kontaktu, zestawienia</td>
+  <td>widać, który kanał sprzedaje i gdzie schodzi marża</td></tr>
+<tr><td>Domknięcie</td>
+  <td>kilka pozycji na jedno auto, wycena prosto z zapytania ze strony, wysyłka oferty do klienta</td>
+  <td>obieg od zapytania do oferty bez przepisywania</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>Co jest potrzebne, żeby ruszyć</h2>
+<p>Po Waszej stronie prawie nic — dane już mamy.</p>
+
+<p><strong>Cennik wypełniamy sami</strong>, z tego, który przysłaliście 7 sierpnia. Pokrywa
+15 z 19 pozycji, z podziałem na sprzedaż luzem, w big-bagach i w opakowaniach. Rozpisujemy go
+na zakłady wysyłkowe — tam, gdzie produkt jedzie z kilku miejsc, na start wszędzie wchodzi
+ta sama cena. Różnice między kopalniami poprawiacie potem w jednej tabeli, na gotowym;
+to inna robota niż wypełnianie pustego arkusza.</p>
+
+<p>Cztery pozycje nie mają jeszcze ceny: wapno tlenkowe z magnezem, węglanowe bez magnezu
+odmiana 05, dolomit i kreda czarna. Uruchomienia nie blokują — narzędzie pokaże przy nich
+„do ustalenia". Dolomit warto uzupełnić przy pierwszej okazji, bo z całego asortymentu
+to właśnie jego szuka w internecie najwięcej osób.</p>
+
+<p><strong>Stawki przewozu też mamy od Was</strong> — 5,50 zł/km naczepą, 4,80 beczką
+silosową i 4,20 wanną, 24 tony na auto, 120 zł za paletę wysyłaną osobno. Wchodzą jako
+punkt wyjścia i zmieniamy je w każdej chwili, gdyby rozjechały się z rzeczywistością.</p>
+
+<p>Zostaje właściwie jedno pytanie: <strong>ile worków wchodzi na paletę</strong> —
+potrzebne, żeby przeliczać zamówienia podane w workach na miejsce na aucie.</p>
+
+<p class="meta">Reszta — produkty, parametry, zakłady wysyłkowe, odległości — jest policzona
+przy okazji ogłoszeń i wchodzi bez dodatkowej pracy.</p>
+</section>
