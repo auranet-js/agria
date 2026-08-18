@@ -36,16 +36,35 @@ Nie sklep internetowy, nie samoobsługa dla rolnika — narzędzie wewnętrzne.
 
 ## 2. Gdzie to żyje
 
-**Moduł `quote-tool` we wtyczce `agria-by-auranet`** na agria.pl.
+**Osobna wtyczka `agria-ofertownik-by-auranet`** na agria.pl — nie moduł w `agria-by-auranet`
+(decyzja Janka 18.08.2026).
 
-Decyzja zapadła po sprawdzeniu stanu faktycznego (rozdz. 3): strona ma już modularną
-wtyczkę Auranet z jawnym autoloaderem, produkty z parametrami i zdjęciami, konta
-Pawła i Kazimierza, oraz dwa moduły, które ofertownik wykorzysta zamiast dublować.
-Osobna instancja wymagałaby przepisania tych 19 produktów i pilnowania, żeby się
-nie rozjechały ze stroną.
+Narzędzie stoi na stronie AGRII, bo tam są produkty z parametrami i zdjęciami oraz konta
+zespołu; osobna instancja wymagałaby przepisania tych 19 produktów i pilnowania, żeby się
+nie rozjechały. Ale **własna wtyczka, nie moduł tamtej** — z trzech powodów:
 
-Rejestracja modułu = dopisanie `'quote-tool'` do tablicy w `agria_load_modules()`
-(`agria-by-auranet.php`).
+- `security-geoblock.php` nosi w nagłówku ostrzeżenie, że reinstalacja albo nadpisanie
+  `agria-by-auranet` kasuje blokadę bez śladu. Każde wgranie tamtej wtyczki jest okazją
+  do zdjęcia geobloku po cichu; ofertownik obok redukuje liczbę takich okazji do zera;
+- ofertownik można włączyć i wyłączyć jednym kliknięciem, nie ruszając niczego,
+  co obsługuje stronę sprzedażową;
+- rozwój i testy idą na żywym serwerze bez ryzyka dla działającej witryny.
+
+**Praca i testy na produkcji są tu dopuszczalne** — zespół AGRII nie korzysta na co dzień
+z panelu, a wtyczka nic nie renderuje dla odwiedzających. Warunek zostaje jeden i twardy:
+dopóki nie dotyka danych sklepu. Wyjątek od tego warunku — konwersja produktów na wariantowe
+— jest opisany w 7.3 i wymaga osobnej próby.
+
+### 2a. Zależności od `agria-by-auranet`
+
+Ofertownik korzysta z dwóch rzeczy tamtej wtyczki, ale **żadna nie jest wymagana do działania**:
+`liming-calculator` (przeliczanie hektarów na tony) i CPT `agria_inquiry` (zapytania ze strony,
+etap 3). Obie sprawdzane przed użyciem; gdy ich nie ma, odpowiednie pole po prostu się nie
+pojawia. Wyłączenie jednej wtyczki nie może psuć drugiej.
+
+Prefiks funkcji i opcji: `agria_of_` — rozłączny z `agria_` tamtej wtyczki. Typy wpisów
+zostają w rodzinie nazw (`agria_quote`, `agria_client`), bo to kwestia czytelności listy
+w panelu, nie kolizji.
 
 **Ekran pod `/wycena/`** — pełnoekranowy front za logowaniem, nie wp-admin. Handlowiec
 trzyma to otwarte przez cały dzień; wp-admin ładuje się wolniej i ma pasek boczny,
@@ -363,6 +382,20 @@ od ładowności, usunięcie martwych taksonomii, uzupełnienie SKU przy ID 303.
 Przy cenniku na wariantach każdy duplikat to osobna cena do wpisania i osobne miejsce,
 w którym handlowiec zobaczy „brak ceny". Sprzątanie ma zresztą wartość niezależną
 od ofertownika — te same śmieciowe wartości widzi dziś rolnik na kartach produktów.
+
+### 7.3. Próba konwersji na jednym produkcie
+
+Cennik na wariantach wymaga zmiany typu produktu z prostego na wariantowy. **To zmiana
+w danych sklepu, nie w naszej wtyczce** — osobna wtyczka przed nią nie chroni. WooCommerce
+renderuje produkt wariantowy inaczej niż prosty: zamiast opisu pojawiają się listy wyboru
+atrybutów. Możliwe, że w trybie katalogu nie zmieni to niczego widocznego; możliwe też,
+że rolnik zobaczy na karcie Agrobielika rozwijaną listę kopalni.
+
+Dlatego: konwersja **jednego** produktu, obejrzenie jego karty na żywo, decyzja. Dopiero
+potem pozostałe osiemnaście. Jeśli karta się rozjedzie, do wyboru: ukrycie selektorów
+filtrem w module `catalog-mode`, albo powrót do cennika we własnej tabeli — model cen
+(zakład × forma × frakcja) i ekran edycji pozostają wtedy bez zmian, zmienia się wyłącznie
+miejsce zapisu.
 
 ---
 
