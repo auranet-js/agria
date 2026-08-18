@@ -32,36 +32,36 @@ CAT_NAWOZY = 4368
 # tu listy miast dobrane „pod stawy" i „pod rolnictwo" z głowy — to było zgadywanie.
 # Wejście: data/olx/siatka-miast.json (uruchom najpierw `python3 scripts/olx/grid.py`).
 
-# 13 pozycji × przypisana liczba miast = 200 ogłoszeń.
+# 12 pozycji × przypisana liczba miast = 200 ogłoszeń.
 # Ceny: netto, loco magazyn (CENNIK_PAWEL_2026-08-07.md). W tytule podajemy jednostkę.
 PRODUKTY = [
     {
         "siatka": "agrobielik-70-staw",
         "wc_id": 310, "sku": "AGR-001", "karta": "agrobielik-70",
-        "tytul": "Wapno do stawu, tlenkowe palone 70% CaO, odkażanie dna i podniesienie pH wody, atest OSChR, luzem i big bag, od 220 zł/t",
+        "tytul": "Wapno do stawu, Agrobielik 70, tlenkowe palone 70% CaO, odkażanie dna i podniesienie pH wody, atest OSChR, luzem i big bag, od 220 zł/t",
         "lead": "Wapno tlenkowe palone do przygotowania stawu przed zalaniem i do zabiegów w sezonie. Podnosi pH wody, odkaża dno i przyspiesza mineralizację mułu, zwiększając pojemność użytkową stawu. Reakcja egzotermiczna — działanie widoczne w 2–3 tygodnie.",
         "intencja": "rybactwo — pH wody, mineralizacja mułu",
         "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem — cena za towar, bez transportu · dostępne również w big-bagach i workach",
-        "pule": ["stawy"], "ile": 14,
+        "pule": ["stawy"], "ile": 22,
         "uwaga": "wzorzec potwierdzony danymi konta: 94 odsłony telefonu = 45% kontaktów",
     },
     {
         "siatka": "agrobielik-70-gleba",
         "wc_id": 310, "sku": "AGR-001", "karta": "agrobielik-70",
-        "tytul": "Wapno do odkwaszania gleb ciężkich, tlenkowe palone 70% CaO, szybkie działanie, atest OSChR, luzem i big bag, od 220 zł/t",
+        "tytul": "Wapno do odkwaszania gleb ciężkich, Agrobielik 70, tlenkowe palone 70% CaO, szybkie działanie, atest OSChR, luzem i big bag, od 220 zł/t",
         "lead": "Wapno tlenkowe palone do szybkiego odkwaszania gleb średnich i ciężkich. Reaktywność bliska 100% oznacza, że efekt widać w 2–4 tygodnie, a nie w kolejnym sezonie. Uregulowany odczyn odblokowuje składniki pokarmowe już zalegające w glebie.",
         "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich",
         "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem — cena za towar, bez transportu · dostępne również w big-bagach i workach",
-        "pule": ["gleby_ciezkie"], "ile": 12,
+        "pule": ["gleby_ciezkie"], "ile": 30,
     },
     {
         "siatka": "agrobielik-90",
         "wc_id": 311, "sku": "AGR-002", "karta": "agrobielik-90",
-        "tytul": "Wapno tlenkowe 90% CaO pod zboża i rzepak, frakcja 0-3 i 2-8 mm, mniejsza dawka na hektar, atest OSChR, od 750 zł/t",
+        "tytul": "Wapno tlenkowe 90% CaO, Agrobielik 90, pod zboża i rzepak, frakcja 0-3 i 2-8 mm, mniejsza dawka na hektar, atest OSChR, od 750 zł/t",
         "lead": "Najwyższa koncentracja tlenku wapnia w ofercie — 90% CaO. Wyższa koncentracja to mniejsza dawka na hektar i mniej ton do przewiezienia i rozsiania. Dostępne w dwóch frakcjach: 0–3 mm do szybkiego działania i 2–8 mm do wysiewu rozsiewaczem.",
         "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar",
         "cena_pole": 750, "cena_opis": "od 750 zł/t netto luzem — cena za towar, bez transportu · frakcje 0–3 mm i 2–8 mm",
-        "pule": ["gleby_ciezkie", "wielkopolska"], "ile": 10,
+        "pule": ["gleby_ciezkie", "wielkopolska"], "ile": 25,
         "uwaga": "w tej frakcji na OLX brak porównywalnej oferty",
     },
     {
@@ -71,7 +71,7 @@ PRODUKTY = [
         "lead": "Wapno tlenkowe 90% CaO w big-bagach, sprzedawane od jednej tony — bez minimum całopojazdowego. Rozwiązanie dla gospodarstw, które potrzebują wysokiej koncentracji CaO, ale nie zamawiają 24 ton naraz.",
         "intencja": "rolnictwo — dostawa od 1 tony, bez całopojazdowego minimum",
         "cena_pole": 790, "cena_opis": "od 790 zł/t netto — cena za towar, bez transportu · dostawa od 1 tony",
-        "pule": ["wielkopolska", "mazowsze"], "ile": 8,
+        "pule": ["wielkopolska", "mazowsze"], "ile": 7,
     },
     {
         "siatka": "weglanowe-granulowane",
@@ -80,7 +80,7 @@ PRODUKTY = [
         "lead": "Wapno węglanowe w granulacie — do wysiewu własnym rozsiewaczem nawozów, bez usługi wapnowania i bez pylenia. Pozwala wapnować w terminie, który pasuje do zabiegu, a nie do dostępności usługodawcy.",
         "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania",
         "cena_pole": 350, "cena_opis": "od 350 zł/t netto — cena za towar, bez transportu · dostawa od 1 tony, dostępne też w workach 25 kg",
-        "pule": ["wielkopolska", "mazowsze"], "ile": 12,
+        "pule": ["wielkopolska", "mazowsze"], "ile": 20,
     },
     {
         "siatka": "weglanowe-magnez-granulowane",
@@ -89,7 +89,7 @@ PRODUKTY = [
         "lead": "Wapno węglanowo-magnezowe w granulacie — odkwasza i jednocześnie uzupełnia magnez. Do gleb lekkich i stanowisk z rozpoznanym niedoborem MgO. Wysiew własnym rozsiewaczem.",
         "intencja": "rolnictwo — niedobory magnezu, gleby lekkie",
         "cena_pole": 370, "cena_opis": "od 370 zł/t netto — cena za towar, bez transportu · dostawa od 1 tony, dostępne też w workach 25 kg",
-        "pule": ["wielkopolska", "poludnie_zachod"], "ile": 10,
+        "pule": ["wielkopolska", "poludnie_zachod"], "ile": 18,
     },
     {
         "siatka": "kreda-nawozowa-sypka",
@@ -98,7 +98,7 @@ PRODUKTY = [
         "lead": "Kreda nawozowa luzem do odkwaszania większych areałów. Węglanowa forma działa łagodnie i długo, bez ryzyka poparzenia roślin. Dostawa całopojazdowa 24 t.",
         "intencja": "rolnictwo — duże areały, dostawa 24 t",
         "cena_pole": 125, "cena_opis": "125 zł/t netto za towar, bez transportu · dostawa całopojazdowa 24 t",
-        "pule": ["gleby_ciezkie", "mazowsze"], "ile": 10,
+        "pule": ["gleby_ciezkie", "mazowsze"], "ile": 16,
     },
     {
         "siatka": "kreda-nawozowa-granulowana",
@@ -107,7 +107,7 @@ PRODUKTY = [
         "lead": "Kreda nawozowa w granulacie, big-bag od jednej tony. Łagodne, rozłożone w czasie odkwaszanie przy wysiewie własnym rozsiewaczem — dla gospodarstw, które nie zamawiają dostaw całopojazdowych.",
         "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem",
         "cena_pole": 410, "cena_opis": "od 410 zł/t netto — cena za towar, bez transportu · dostawa od 1 tony, dostępne też w workach 25 kg",
-        "pule": ["poludnie_zachod", "wielkopolska"], "ile": 8,
+        "pule": ["poludnie_zachod", "wielkopolska"], "ile": 14,
     },
     {
         "siatka": "weglanowe-odmiana-04",
@@ -116,7 +116,7 @@ PRODUKTY = [
         "lead": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.",
         "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar",
         "cena_pole": 57, "cena_opis": "57 zł/t netto za towar, bez transportu · dostawa całopojazdowa 24 t",
-        "pule": ["mazowsze", "poludnie_zachod"], "ile": 10,
+        "pule": ["mazowsze", "poludnie_zachod"], "ile": 16,
         "uwaga": "cena w parytecie z kopalnią Morawica (57,40 zł/t netto loco)",
     },
     {
@@ -126,7 +126,7 @@ PRODUKTY = [
         "lead": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.",
         "intencja": "paszarstwo — suplementacja wapnia",
         "cena_pole": 190, "cena_opis": "od 190 zł/t netto luzem — cena za towar, bez transportu · dostępna również w workach 30 kg",
-        "pule": ["paszarstwo"], "ile": 6,
+        "pule": ["paszarstwo"], "ile": 12,
     },
     {
         "siatka": "weglanowe-magnez-odmiana-04",
@@ -145,15 +145,6 @@ PRODUKTY = [
         "intencja": "rolnictwo — najniższy koszt tony przy uzupełnieniu magnezu",
         "cena_pole": 36, "cena_opis": "36 zł/t netto za towar, bez transportu · dostawa całopojazdowa 24 t",
         "ile": 8,
-    },
-    {
-        "siatka": "mieszanka-tlenkowo-weglanowa",
-        "wc_id": 308, "sku": "AGR-005", "karta": "mieszanka-tlenkowo-weglanowa",
-        "tytul": "Wapno tlenkowo-węglanowe do gleb kwaśnych, szybkie i długie działanie, luzem, dostawa 24 t, atest OSChR, od 120 zł/t",
-        "lead": "Połączenie wapna tlenkowego i węglanowego w jednym produkcie. Część tlenkowa podnosi pH szybko, część węglanowa utrzymuje efekt przez kolejne miesiące. Rozwiązanie dla stanowisk, gdzie potrzebna jest i szybka reakcja, i trwałość.",
-        "intencja": "rolnictwo — szybki start odkwaszania z długim podtrzymaniem",
-        "cena_pole": 120, "cena_opis": "120 zł/t netto za towar, bez transportu · dostawa całopojazdowa 24 t",
-        "ile": 10,
     },
 ]
 

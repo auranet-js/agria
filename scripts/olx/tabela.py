@@ -64,6 +64,7 @@ w treści opisu. To ważne, bo odsłona numeru jest u Was źródłem praktycznie
 def podsumowanie(rows):
     grup = len({r["tytul"] for r in rows})
     miast = len({r["miasto"] for r in rows})
+    woj = len({r["woj"] for r in rows})
     pozycje = []
     for tytul in dict.fromkeys(r["tytul"] for r in rows):
         g = [r for r in rows if r["tytul"] == tytul]
@@ -72,7 +73,7 @@ def podsumowanie(rows):
     return f"""<section>
 <h2>Co uruchamiamy</h2>
 <p><strong>{len(rows)} ogłoszeń</strong> w kategorii Rolnictwo &gt; Nawozy: {grup} pozycji
-asortymentowych rozłożonych na <strong>{miast} miejscowości</strong> w 8 województwach.
+asortymentowych rozłożonych na <strong>{miast} miejscowości</strong> w {woj} województwach.
 Każde ogłoszenie ma własny tytuł pod zastosowanie, własną miejscowość i pełne parametry z karty
 produktowej. Wystawiamy je my, przez oficjalne API OLX, z Waszego konta.</p>
 <h2>Kwoty</h2>

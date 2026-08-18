@@ -120,7 +120,7 @@ def ocena(miasto, zaklady, cena_t, frazy, popyt, rynek, wlasne=None):
 
 
 def siatka(produkt, kandydaci, popyt, rynek, wlasne=None, zajete=None, maks_na_miasto=6,
-           maks_na_wojewodztwo=None):
+           maks_na_wojewodztwo=None, wybrane=None):
     """Zwraca listę miejscowości pod jeden produkt, posortowaną wynikiem, z limitem na region.
 
     Limit na województwo jest adaptacyjny. Produkty drogie (od 350 zł/t) uniosą transport
@@ -131,6 +131,7 @@ def siatka(produkt, kandydaci, popyt, rynek, wlasne=None, zajete=None, maks_na_m
     if maks_na_wojewodztwo is None:
         maks_na_wojewodztwo = 4 if produkt["cena_t"] >= 350 else 6
     zajete = zajete if zajete is not None else {}
+    wybrane = wybrane if wybrane is not None else {}
     oceny = []
     for miasto in kandydaci:
         o = ocena(miasto, produkt["zaklady"], produkt["cena_t"],
@@ -143,6 +144,14 @@ def siatka(produkt, kandydaci, popyt, rynek, wlasne=None, zajete=None, maks_na_m
     for o in oceny:
         if len(out) >= produkt["ile"]:
             break
+        if produkt.get("maks_km") and o["km"] > produkt["maks_km"]:
+            continue
+        # Oba wapna tlenkowe 90% CaO różnią się opakowaniem i minimum dostawy, nie towarem.
+        # W jednej miejscowości konkurowałyby ze sobą w tym samym wyszukiwaniu, więc
+        # rozdzielamy je geograficznie. Warianty ZASTOSOWANIA (staw / gleba) to inna sprawa
+        # — te celowo mogą stać obok siebie, bo trafiają w różne zapytania.
+        if any(o["city_id"] in wybrane.get(k, set()) for k in produkt.get("unikaj", ())):
+            continue
         if na_region.get(o["region_id"], 0) >= maks_na_wojewodztwo:
             continue
         # Globalny limit na miejscowość: dziesięć naszych ogłoszeń w jednym mieście
@@ -159,12 +168,16 @@ def siatka(produkt, kandydaci, popyt, rynek, wlasne=None, zajete=None, maks_na_m
 PRODUKTY = [
     {"klucz": "agrobielik-70-staw", "cena_t": 220, "koszyk": "stawy", "ile": 22,
      "zaklady": ["Niedomice", "Sitkówka"]},
-    {"klucz": "agrobielik-70-gleba", "cena_t": 220, "koszyk": "tlenkowe", "ile": 20,
+    {"klucz": "agrobielik-70-gleba", "cena_t": 220, "koszyk": "tlenkowe", "ile": 30,
      "zaklady": ["Niedomice", "Sitkówka"]},
-    {"klucz": "agrobielik-90", "cena_t": 750, "koszyk": "tlenkowe", "ile": 18,
+    {"klucz": "oxyfertil-90", "cena_t": 790, "koszyk": "tlenkowe", "ile": 7,
+     "maks_km": 150,
+     # Oxyfertil trzymamy przy zakładach opolskich — Niedomice wypadły świadomie, żeby
+     # ogłoszenia stały tam, skąd towar realnie jedzie najkrócej.
+     "zaklady": ["Góraźdżce", "Tarnów Opolski"]},
+    {"klucz": "agrobielik-90", "cena_t": 750, "koszyk": "tlenkowe", "ile": 25,
+     "unikaj": ["oxyfertil-90"],
      "zaklady": ["Niedomice", "Sitkówka"]},
-    {"klucz": "oxyfertil-90", "cena_t": 790, "koszyk": "tlenkowe", "ile": 14,
-     "zaklady": ["Góraźdżce", "Tarnów Opolski", "Niedomice"]},
     {"klucz": "weglanowe-granulowane", "cena_t": 350, "koszyk": "granulowane", "ile": 20,
      "zaklady": ["Draby", "Niedomice", "Tarnów Opolski"]},
     {"klucz": "weglanowe-magnez-granulowane", "cena_t": 370, "koszyk": "granulowane_mg", "ile": 18,
@@ -181,8 +194,6 @@ PRODUKTY = [
      "zaklady": ["Chęciny"]},
     {"klucz": "weglanowe-magnez-odmiana-05", "cena_t": 36, "koszyk": "weglanowe", "ile": 8,
      "zaklady": ["Kostomłoty Drugie", "Łagów"]},
-    {"klucz": "mieszanka-tlenkowo-weglanowa", "cena_t": 120, "koszyk": "tlenkowe", "ile": 10,
-     "zaklady": ["Sitkówka"]},
 ]
 
 if __name__ == "__main__":
@@ -205,9 +216,10 @@ if __name__ == "__main__":
     kandydaci = json.load(open(os.path.join(D, "miasta-kandydaci.json"), encoding="utf-8"))
     rynek = json.load(open(os.path.join(D, "miasta-rynek.json"), encoding="utf-8"))
     wlasne = json.load(open(os.path.join(D, "wyniki-wlasne.json"), encoding="utf-8"))["miasta"]
-    out, zajete = {}, {}
+    out, zajete, wybrane = {}, {}, {}
     for p in PRODUKTY:
-        s = siatka(p, kandydaci, popyt, rynek, wlasne, zajete)
+        s = siatka(p, kandydaci, popyt, rynek, wlasne, zajete, wybrane=wybrane)
+        wybrane[p["klucz"]] = {m["city_id"] for m in s}
         out[p["klucz"]] = s
         naj, dal = s[0], max(s, key=lambda x: x["km"])
         print(f"{p['klucz']:<30}{p['cena_t']:>5} zł/t  {len(s):>3} miast  "
