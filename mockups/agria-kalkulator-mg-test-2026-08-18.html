@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kalkulator wapnowania + magnez — WERSJA TESTOWA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* === Style produkcyjne kalkulatora (calculator.css, CI #009140) === */
+body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; background: #f4f6f4; margin: 0; padding: 24px 16px; }
+.agria-calc { max-width: 800px; margin: 0 auto; color: #333; }
+.agria-calc__header { text-align: center; margin-bottom: 32px; }
+.agria-calc__title { font-size: 28px; font-weight: 700; color: #009140; margin: 0 0 8px; }
+.agria-calc__subtitle { font-size: 15px; color: #666; margin: 0; }
+.agria-calc__form { border: 2px solid #009140; border-radius: 8px; padding: 32px; background: #fff; }
+.agria-calc__step { margin-bottom: 24px; }
+.agria-calc__step:last-child { margin-bottom: 0; }
+.agria-calc__step--hidden { display: none; }
+.agria-calc__label { display: block; font-size: 14px; font-weight: 600; color: #333; margin-bottom: 8px; }
+.agria-calc__step-num { display: inline-block; background: #009140; color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 10px; margin-right: 8px; text-transform: uppercase; }
+.agria-calc__select, .agria-calc__input { width: 100%; box-sizing: border-box; padding: 10px 12px; font-size: 15px; font-family: inherit; border: 1px solid #ccc; border-radius: 6px; background: #fff; }
+.agria-calc__select:focus, .agria-calc__input:focus { outline: 2px solid #009140; border-color: #009140; }
+.agria-calc__hint { display: block; font-size: 12px; color: #888; margin-top: 6px; }
+.agria-calc__btn { display: inline-block; background: #009140; color: #fff; font-size: 15px; font-weight: 700; font-family: inherit; padding: 12px 28px; border: 2px solid #009140; border-radius: 6px; cursor: pointer; text-decoration: none; }
+.agria-calc__btn:hover { background: #007433; border-color: #007433; }
+.agria-calc__btn--outline { background: #fff; color: #009140; }
+.agria-calc__btn--outline:hover { background: #eef7f1; color: #007433; }
+.agria-calc__results { margin-top: 24px; }
+.agria-calc__result-box { border: 2px solid #009140; border-radius: 8px; padding: 24px; background: #eef7f1; text-align: center; margin-bottom: 20px; }
+.agria-calc__result-box--ok { background: #eef7f1; }
+.agria-calc__result-header { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #007433; margin-bottom: 8px; }
+.agria-calc__result-value { font-size: 32px; font-weight: 700; color: #009140; }
+.agria-calc__result-total { font-size: 15px; color: #333; margin-top: 6px; }
+.agria-calc__result-split { font-size: 14px; color: #666; margin-top: 4px; }
+.agria-calc__result-source { font-size: 12px; color: #888; margin-top: 10px; }
+.agria-calc__disclaimer { font-size: 12px; color: #888; margin-top: 16px; }
+.agria-calc__disclaimer p { margin: 4px 0; }
+.agria-calc__cta { display: flex; gap: 12px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+/* === Nowe style — moduł magnezowy (wersja testowa) === */
+.test-banner { max-width: 800px; margin: 0 auto 24px; background: #b7791f; color: #fff; font-size: 13px; font-weight: 600; padding: 10px 16px; border-radius: 6px; text-align: center; }
+.mg-box { border: 2px solid #1d6fa5; border-radius: 8px; padding: 24px; background: #eaf3fa; margin-bottom: 20px; }
+.mg-box__header { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #155a87; margin-bottom: 10px; text-align: center; }
+.mg-badge { display: inline-block; font-size: 13px; font-weight: 700; padding: 4px 14px; border-radius: 14px; color: #fff; }
+.mg-badge--bniska { background: #c0392b; }
+.mg-badge--niska { background: #e67e22; }
+.mg-badge--srednia { background: #009140; }
+.mg-badge--wysoka { background: #1d6fa5; }
+.mg-badge--bwysoka { background: #5b6770; }
+.mg-box__value { font-size: 26px; font-weight: 700; color: #155a87; text-align: center; margin-top: 10px; }
+.mg-box__note { font-size: 14px; color: #333; margin-top: 10px; text-align: center; }
+.mg-box__sub { font-size: 12px; color: #667; margin-top: 8px; text-align: center; }
+.tbl-wrap { overflow-x: auto; }
+table.mg-tbl { width: 100%; border-collapse: collapse; font-size: 13px; background: #fff; }
+table.mg-tbl th { background: #009140; color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; }
+table.mg-tbl td { padding: 8px 10px; border-bottom: 1px solid #e0e6e0; }
+table.mg-tbl tr:nth-child(even) td { background: #f6faf7; }
+table.mg-tbl td.num { text-align: right; white-space: nowrap; }
+.section-title { font-size: 20px; font-weight: 700; color: #354E33; margin: 48px 0 12px; }
+.section-desc { font-size: 14px; color: #555; margin: 0 0 16px; }
+.sim-wrap { max-width: 800px; margin: 0 auto; }
+.ref-tbl caption { caption-side: top; text-align: left; font-size: 13px; font-weight: 600; color: #354E33; padding-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<div class="test-banner">⚠ WERSJA TESTOWA (18.08.2026) — mockup rozszerzenia o magnez. Nie jest podpięta do agria.pl. Logika CaO odwzorowana 1:1 z produkcji (IUNG-PIB).</div>
+
+<div id="agria-liming-calc" class="agria-calc">
+
+    <div class="agria-calc__header">
+        <h2 class="agria-calc__title">Kalkulator wapnowania</h2>
+        <p class="agria-calc__subtitle">Oblicz zalecaną dawkę wapna dla Twojej gleby wg metodyki IUNG-PIB Puławy — teraz z oceną zasobności w magnez</p>
+    </div>
+
+    <div class="agria-calc__form">
+
+        <!-- KROK 1 -->
+        <div class="agria-calc__step">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 1</span> Rodzaj użytku rolnego</label>
+            <select id="agria-usage-type" class="agria-calc__select">
+                <option value="">Wybierz</option>
+                <option value="grunty_orne">Grunty orne</option>
+                <option value="uzytki_zielone">Użytki zielone</option>
+            </select>
+        </div>
+
+        <!-- KROK 2A -->
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step2-arable">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 2</span> Kategoria agronomiczna gleby</label>
+            <select id="agria-soil-category" class="agria-calc__select">
+                <option value="">Wybierz</option>
+                <option value="bardzo_lekka">Bardzo lekka (piasek luźny, 0-10% frakcji &lt;0,02 mm)</option>
+                <option value="lekka">Lekka (piasek gliniasty, 11-20% frakcji &lt;0,02 mm)</option>
+                <option value="srednia">Średnia (glina lekka, 21-35% frakcji &lt;0,02 mm)</option>
+                <option value="ciezka">Ciężka (glina średnia/ciężka, &gt;35% frakcji &lt;0,02 mm)</option>
+            </select>
+        </div>
+
+        <!-- KROK 2B -->
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step2-grassland">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 2</span> Zawartość węgla organicznego (C) w glebie</label>
+            <select id="agria-carbon-class" class="agria-calc__select">
+                <option value="">Wybierz</option>
+                <option value="c_below_2_5">&lt; 2,5% C (gleba mineralna, niska zawartość próchnicy)</option>
+                <option value="c_2_6_to_5">2,6 – 5,0% C (gleba mineralna, średnia zawartość próchnicy)</option>
+                <option value="c_5_1_to_10">5,1 – 10,0% C (gleba mineralna, wysoka zawartość próchnicy)</option>
+                <option value="c_above_10">&gt; 10% C (gleba organiczna)</option>
+            </select>
+            <span class="agria-calc__hint">Wartość z badania gleby (OSChR). Jeśli nie znasz — wybierz 2,6–5,0%.</span>
+        </div>
+
+        <!-- KROK 3: pH -->
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step3">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 3</span> Aktualne zbadane pH gleby</label>
+            <select id="agria-ph" class="agria-calc__select"><option value="">Wybierz</option></select>
+        </div>
+
+        <!-- KROK 3B: Mg (NOWE, opcjonalne — aktywowane checkboxem) -->
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step3-mg">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 3b</span> Zawartość magnezu (Mg) w glebie — pole nieobowiązkowe</label>
+            <label style="display:flex; align-items:center; gap:8px; font-size:14px; cursor:pointer;">
+                <input type="checkbox" id="agria-mg-enable" style="width:18px; height:18px; accent-color:#009140;">
+                Znam zawartość magnezu z badania gleby
+            </label>
+            <div id="agria-mg-input-wrap" class="agria-calc__step--hidden" style="margin-top:10px;">
+                <input type="number" id="agria-mg" class="agria-calc__input" min="0" max="99" step="0.1" placeholder="np. 3,5">
+                <span class="agria-calc__hint">Podaj wynik badania gleby w <strong>mg Mg / 100 g gleby</strong> (badanie OSChR, metoda Schachtschabela). Maksimum dla wybranej gleby ustawia się automatycznie — wartości powyżej są przycinane.</span>
+            </div>
+            <span class="agria-calc__hint" id="agria-mg-off-hint">Jeśli nie znasz — zostaw odznaczone, kalkulator policzy samo wapnowanie.</span>
+        </div>
+
+        <!-- KROK 3C: grupa gleby dla Mg przy użytkach zielonych (NOWE) -->
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step3-mg-soil">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 3c</span> Grupa mechaniczna gleby (potrzebna do oceny magnezu)</label>
+            <select id="agria-mg-soil" class="agria-calc__select">
+                <option value="">Wybierz</option>
+                <option value="bardzo_lekka">Bardzo lekka</option>
+                <option value="lekka">Lekka</option>
+                <option value="srednia">Średnia</option>
+                <option value="ciezka">Ciężka</option>
+            </select>
+            <span class="agria-calc__hint">Granice zasobności w Mg zależą od grupy gleby. Bez tej informacji ocena magnezu zostanie pominięta.</span>
+        </div>
+
+        <!-- KROK 3D: docelowa zawartość Mg (NOWE) -->
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step3-mg-target">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 3d</span> Docelowa zawartość Mg po nawożeniu</label>
+            <input type="number" id="agria-mg-target" class="agria-calc__input" step="0.1" placeholder="">
+            <span class="agria-calc__hint" id="agria-mg-target-hint"></span>
+        </div>
+
+        <!-- KROK 4 -->
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step4">
+            <label class="agria-calc__label"><span class="agria-calc__step-num">Krok 4</span> Wielkość działki (ha)</label>
+            <input type="number" id="agria-area" class="agria-calc__input" min="0.01" max="9999" step="0.01" value="1" placeholder="np. 12,5">
+            <span class="agria-calc__hint">Wpisz powierzchnię pola w hektarach. Domyślnie: 1 ha.</span>
+        </div>
+
+        <div class="agria-calc__step agria-calc__step--hidden" id="agria-step-submit">
+            <button type="button" id="agria-calc-submit" class="agria-calc__btn">Oblicz dawkę</button>
+        </div>
+
+    </div>
+
+    <!-- WYNIKI -->
+    <div id="agria-calc-results" class="agria-calc__results agria-calc__step--hidden">
+
+        <div class="agria-calc__result-box" id="agria-cao-box">
+            <div class="agria-calc__result-header">Zalecana dawka wapna</div>
+            <div class="agria-calc__result-value"><span id="agria-result-dose">0,00</span> t CaO / ha</div>
+            <div id="agria-result-total" class="agria-calc__result-total"></div>
+            <div id="agria-result-split" class="agria-calc__result-split"></div>
+            <div class="agria-calc__result-source">wg IUNG-PIB Puławy (Jadczyszyn, 2021)</div>
+        </div>
+
+        <div class="agria-calc__result-box agria-calc__result-box--ok agria-calc__step--hidden" id="agria-cao-zero-box">
+            <div class="agria-calc__result-header">Wapnowanie zbędne</div>
+            <p>Przy aktualnym pH Twojej gleby wapnowanie nie jest konieczne. Zalecamy kontrolne badanie gleby za 3–4 lata.</p>
+        </div>
+
+        <!-- NOWE: wynik magnezowy -->
+        <div class="mg-box agria-calc__step--hidden" id="agria-mg-box">
+            <div class="mg-box__header">Zasobność gleby w magnez</div>
+            <div style="text-align:center;"><span id="agria-mg-badge" class="mg-badge">—</span></div>
+            <div class="mg-box__value agria-calc__step--hidden" id="agria-mg-dose-line"><span id="agria-mg-dose">0</span> kg Mg / ha</div>
+            <div class="mg-box__note" id="agria-mg-note"></div>
+            <div class="mg-box__sub" id="agria-mg-sub"></div>
+        </div>
+
+        <!-- NOWE: produkty magnezowe (dobór: najpierw Mg, potem CaO) -->
+        <div class="agria-calc__step--hidden" id="agria-mg-products">
+            <h3 style="font-size:16px; color:#354E33; margin:24px 0 10px;">Dobór nawozu — krok 1: pokryj magnez</h3>
+            <p class="agria-calc__hint" style="margin:0 0 10px;">Dawkę nawozu magnezowego ustala niedobór magnezu. Wapno, którego przy tej dawce zabraknie, dopokrywasz w kroku 2 zwykłym wapnem bez magnezu.</p>
+            <div class="tbl-wrap"><table class="mg-tbl" id="agria-mg-products-tbl"></table></div>
+            <p class="agria-calc__hint" style="margin-top:8px;" id="agria-mg-products-note"></p>
+        </div>
+
+        <!-- Produkty wg CaO — gdy magnez niepodany lub bez niedoboru (jak w kalkulatorze produkcyjnym) -->
+        <div class="agria-calc__step--hidden" id="agria-cao-products">
+            <h3 style="font-size:16px; color:#354E33; margin:24px 0 10px;">Dopasowane nawozy wapniowe AGRIA — przeliczone dawki</h3>
+            <div class="tbl-wrap"><table class="mg-tbl" id="agria-cao-products-tbl"></table></div>
+        </div>
+
+        <div class="agria-calc__disclaimer">
+            <p>* Dawka nawozu = dawka CaO [t/ha] &divide; (% CaO w nawozie &divide; 100)</p>
+            <p>* Jeśli dawka przekracza 4 t na glebach lekkich lub 5 t na ciężkich — należy ją podzielić na 2 aplikacje.</p>
+            <p>* Przelicznik magnezu: podniesienie zawartości o 1 mg Mg/100 g gleby = 30 kg czystego Mg na hektar.</p>
+        </div>
+
+        <div class="agria-calc__cta">
+            <button type="button" id="agria-calc-reset" class="agria-calc__btn agria-calc__btn--outline">Oblicz ponownie</button>
+            <a href="https://agria.pl/kontakt/" class="agria-calc__btn">Zapytaj o cenę</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- ============ SYMULACJA ============ -->
+<div class="sim-wrap">
+    <h2 class="section-title">Symulacja — jak moduł magnezowy ocenia i dawkuje</h2>
+    <p class="section-desc">Tabela wygenerowana tym samym kodem, który liczy wynik w kalkulatorze powyżej. Cel nawożenia wybiera użytkownik w widełkach: od dolnej granicy „średniej" do górnej granicy „wysokiej" (wartość domyślna). Dawka czystego Mg = (cel − zawartość zbadana) × 30 kg/ha.</p>
+    <div class="tbl-wrap"><table class="mg-tbl" id="sim-tbl"></table></div>
+
+    <h2 class="section-title">Tabela referencyjna — granice zasobności (mg Mg / 100 g gleby)</h2>
+    <div class="tbl-wrap">
+    <table class="mg-tbl ref-tbl">
+        <tr><th>Ocena zawartości</th><th>Bardzo lekkie</th><th>Lekkie</th><th>Średnie</th><th>Ciężkie</th></tr>
+        <tr><td>Bardzo niska</td><td>do 1,0</td><td>do 2,0</td><td>do 3,0</td><td>do 4,0</td></tr>
+        <tr><td>Niska</td><td>1,1–2,0</td><td>2,1–3,0</td><td>3,1–5,0</td><td>4,1–6,0</td></tr>
+        <tr><td>Średnia</td><td>2,1–4,0</td><td>3,1–5,0</td><td>5,1–7,0</td><td>6,1–10,0</td></tr>
+        <tr><td>Wysoka</td><td>4,1–6,0</td><td>5,1–7,0</td><td>7,1–9,0</td><td>10,1–14,0</td></tr>
+        <tr><td>Bardzo wysoka</td><td>od 6,1</td><td>od 7,1</td><td>od 9,1</td><td>od 14,1</td></tr>
+    </table>
+    </div>
+</div>
+
+<script>
+(function () {
+'use strict';
+
+/* ====== DANE IUNG (1:1 z class-iung-data.php) ====== */
+var ARABLE = {
+ bardzo_lekka: {'5.0':[0.2,0.2,0],'4.9':[0.5,0.5,0],'4.8':[0.8,0.8,0],'4.7':[1.0,1.0,0],'4.6':[1.3,1.3,0],'4.5':[1.6,1.6,0],'4.4':[1.8,1.8,0],'4.3':[2.0,2.0,0],'4.2':[2.2,2.2,0],'4.1':[2.4,2.4,0],'4.0':[2.8,2.8,0],'3.9':[3.1,3.1,0],'3.8':[3.4,3.4,0]},
+ lekka: {'5.5':[0.2,0.2,0],'5.4':[0.5,0.5,0],'5.3':[0.9,0.9,0],'5.2':[1.2,1.2,0],'5.1':[1.5,1.5,0],'5.0':[1.8,1.8,0],'4.9':[2.1,2.1,0],'4.8':[2.3,2.3,0],'4.7':[2.6,2.6,0],'4.6':[2.9,2.9,0],'4.5':[3.1,3.1,0],'4.4':[3.4,3.4,0],'4.3':[4.5,3.5,1.0],'4.2':[4.7,3.5,1.2],'4.1':[5.5,3.5,2.0],'4.0':[5.9,3.5,2.4],'3.9':[6.3,3.5,2.8],'3.8':[6.5,3.5,3.0]},
+ srednia: {'6.0':[0.4,0.4,0],'5.9':[0.8,0.8,0],'5.8':[1.2,1.2,0],'5.7':[1.6,1.6,0],'5.6':[2.0,2.0,0],'5.5':[2.4,2.4,0],'5.4':[2.8,2.8,0],'5.3':[3.2,3.2,0],'5.2':[3.6,3.6,0],'5.1':[3.9,3.9,0],'5.0':[4.2,4.2,0],'4.9':[4.4,4.4,0],'4.8':[4.8,4.8,0],'4.7':[5.0,5.0,0],'4.6':[5.4,5.0,0.4],'4.5':[5.8,5.0,0.8],'4.4':[6.2,5.0,1.2],'4.3':[6.4,5.0,1.4],'4.2':[6.6,5.0,1.6],'4.1':[7.0,5.0,2.0],'4.0':[7.4,5.0,2.4],'3.9':[7.8,5.0,2.8]},
+ ciezka: {'6.3':[0.2,0.2,0],'6.2':[0.2,0.2,0],'6.1':[0.5,0.5,0],'6.0':[0.8,0.8,0],'5.9':[1.0,1.0,0],'5.8':[1.5,1.5,0],'5.7':[2.0,2.0,0],'5.6':[2.5,2.5,0],'5.5':[3.0,3.0,0],'5.4':[3.5,3.5,0],'5.3':[3.8,3.8,0],'5.2':[4.1,4.1,0],'5.1':[4.5,4.5,0],'5.0':[4.8,4.8,0],'4.9':[5.1,5.1,0],'4.8':[5.4,5.4,0],'4.7':[5.7,5.7,0],'4.6':[5.8,5.8,0],'4.5':[6.0,6.0,0],'4.4':[7.0,6.0,1.0],'4.3':[7.5,6.0,1.5],'4.2':[8.0,6.0,2.0],'4.1':[9.0,6.0,3.0],'4.0':[9.8,6.0,3.8],'3.9':[10.8,6.0,4.8]}
+};
+var GRASS = {'3.8':[1.5,2.0,3.0,3.0],'3.9':[1.5,2.0,3.0,3.0],'4.0':[1.5,2.0,3.0,3.0],'4.1':[1.5,2.0,3.0,3.0],'4.2':[1.5,2.0,3.0,2.9],'4.3':[1.5,2.0,3.0,2.8],'4.4':[1.5,2.0,3.0,2.7],'4.5':[1.5,2.0,3.0,2.4],'4.6':[1.5,1.9,2.9,2.1],'4.7':[1.3,1.8,2.8,1.7],'4.8':[1.2,1.7,2.7,1.3],'4.9':[1.1,1.6,2.6,0.9],'5.0':[1.0,1.5,2.5,0.5],'5.1':[0.9,0.9,0.0,0.0],'5.2':[0.8,0.8,0.0,0.0],'5.3':[0.7,0.7,0.0,0.0],'5.4':[0.6,0.6,0.0,0.0],'5.5':[0.5,0.5,0.0,0.0],'5.6':[0.0,0.5,0.0,0.0],'5.7':[0.0,0.4,0.0,0.0],'5.8':[0.0,0.3,0.0,0.0],'5.9':[0.0,0.2,0.0,0.0]};
+var CARBON_IDX = { c_below_2_5: 0, c_2_6_to_5: 1, c_5_1_to_10: 2, c_above_10: 3 };
+
+/* ====== MODUŁ MAGNEZOWY (NOWY) ======
+ * Granice ocen: [bardzo niska ≤ t0 | niska ≤ t1 | średnia ≤ t2 | wysoka ≤ t3 | bardzo wysoka > t3]
+ * Cel nawożenia: dolna granica przedziału „średnia" = t1 + 0,1.
+ * Przelicznik: +1 mg Mg/100 g gleby = 30 kg czystego Mg / ha.
+ */
+var MG_THRESHOLDS = {
+    bardzo_lekka: [1.0, 2.0, 4.0, 6.0],
+    lekka:        [2.0, 3.0, 5.0, 7.0],
+    srednia:      [3.0, 5.0, 7.0, 9.0],
+    ciezka:       [4.0, 6.0, 10.0, 14.0]
+};
+var MG_KG_PER_UNIT = 30;      // kg Mg/ha na +1 mg/100 g
+var MG_TO_MGO = 40.304/24.305; // 1 kg Mg = 1,658 kg MgO
+var GROUP_LABELS = { bardzo_lekka: 'Bardzo lekka', lekka: 'Lekka', srednia: 'Średnia', ciezka: 'Ciężka' };
+
+/* Zakres celu: min = dolna granica „średniej", max = górna granica „wysokiej" */
+function targetRange(group) {
+    var t = MG_THRESHOLDS[group];
+    return t ? { min: Math.round((t[1] + 0.1) * 10) / 10, max: t[3] } : null;
+}
+
+function assessMg(group, mg, target) {
+    var t = MG_THRESHOLDS[group];
+    if (!t) return null;
+    var cls, key;
+    if      (mg <= t[0]) { cls = 'Bardzo niska';  key = 'bniska'; }
+    else if (mg <= t[1]) { cls = 'Niska';         key = 'niska'; }
+    else if (mg <= t[2]) { cls = 'Średnia';       key = 'srednia'; }
+    else if (mg <= t[3]) { cls = 'Wysoka';        key = 'wysoka'; }
+    else                 { cls = 'Bardzo wysoka'; key = 'bwysoka'; }
+
+    var range = targetRange(group);
+    // cel: wybrany przez użytkownika, przycięty do zakresu; domyślnie górna granica „wysokiej"
+    var tgt = (typeof target === 'number' && !isNaN(target)) ? target : range.max;
+    tgt = Math.min(Math.max(tgt, range.min), range.max);
+    tgt = Math.round(tgt * 10) / 10;
+
+    var deficit = Math.max(0, Math.round((tgt - mg) * 10) / 10);
+    var needs = deficit > 0;
+    var doseMg  = Math.round(deficit * MG_KG_PER_UNIT * 10) / 10;
+    var doseMgO = Math.round(doseMg * MG_TO_MGO * 10) / 10;
+
+    return { cls: cls, key: key, target: tgt, range: range, deficit: deficit, doseMg: doseMg, doseMgO: doseMgO, needs: needs };
+}
+
+/* ====== Produkty magnezowe AGRIA (stan WooCommerce 18.08.2026, wartości min. gwarantowane) ====== */
+var MG_PRODUCTS = [
+    { name: 'Wapno nawozowe tlenkowe zawierające magnez', mgo: 25, cao: 70, url: 'https://agria.pl/?p=313', note: 'wartość deklarowana: min. 70% CaO' },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez granulowane', mgo: 16, cao: 31, url: 'https://agria.pl/?p=317', note: '' },
+    { name: 'Dolomit', mgo: 15, cao: 30, url: 'https://agria.pl/?p=302', note: 'deklaracja: CaO+MgO min. 45%, w tym MgO min. 15%' },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 04', mgo: 8, cao: 41, url: 'https://agria.pl/?p=318', note: '' },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 05', mgo: 8, cao: 25, url: 'https://agria.pl/?p=319', note: 'deklaracja: MgO 8–20%, CaO 25–37% (przyjęto dolne)' }
+];
+
+/* ====== DOM / flow (odwzorowany z produkcyjnego calculator.js) ====== */
+var $ = function (id) { return document.getElementById(id); };
+var usageType = $('agria-usage-type'), step2Arable = $('agria-step2-arable'), step2Grass = $('agria-step2-grassland'),
+    soilCategory = $('agria-soil-category'), carbonClass = $('agria-carbon-class'), step3 = $('agria-step3'),
+    phSelect = $('agria-ph'), step3mg = $('agria-step3-mg'), mgInput = $('agria-mg'),
+    mgEnable = $('agria-mg-enable'), mgInputWrap = $('agria-mg-input-wrap'),
+    step3mgSoil = $('agria-step3-mg-soil'), mgSoil = $('agria-mg-soil'),
+    step3mgTarget = $('agria-step3-mg-target'), mgTarget = $('agria-mg-target'), mgTargetHint = $('agria-mg-target-hint'),
+    step4 = $('agria-step4'), areaInput = $('agria-area'), stepSubmit = $('agria-step-submit'),
+    results = $('agria-calc-results');
+
+function show(el) { el.classList.remove('agria-calc__step--hidden'); }
+function hide(el) { el.classList.add('agria-calc__step--hidden'); }
+function fmt(n, d) { return n.toFixed(d === undefined ? 2 : d).replace('.', ','); }
+
+function phKeys(obj) {
+    return Object.keys(obj).sort(function (a, b) { return parseFloat(b) - parseFloat(a); });
+}
+function populatePh(values) {
+    phSelect.innerHTML = '<option value="">Wybierz</option>';
+    values.forEach(function (ph) {
+        var o = document.createElement('option');
+        o.value = ph; o.textContent = ph.replace('.', ',');
+        phSelect.appendChild(o);
+    });
+}
+
+usageType.addEventListener('change', function () {
+    hide(step2Arable); hide(step2Grass); hide(step3); hide(step3mg); hide(step3mgSoil); hide(step3mgTarget); hide(step4); hide(stepSubmit); hide(results);
+    soilCategory.value = ''; carbonClass.value = ''; phSelect.value = ''; mgInput.value = ''; mgSoil.value = ''; mgTarget.value = '';
+    mgEnable.checked = false; hide(mgInputWrap);
+    if (this.value === 'grunty_orne') show(step2Arable);
+    else if (this.value === 'uzytki_zielone') show(step2Grass);
+});
+
+/* Checkbox Mg: zaznaczenie odsłania input z wpisaną wartością minimalną */
+mgEnable.addEventListener('change', function () {
+    if (this.checked) {
+        show(mgInputWrap);
+        if (mgInput.value === '') mgInput.value = mgInput.getAttribute('min') || '0';
+        mgInput.dispatchEvent(new Event('input'));
+        mgInput.focus(); mgInput.select();
+    } else {
+        mgInput.value = '';
+        hide(mgInputWrap); hide(step3mgSoil); hide(step3mgTarget);
+    }
+});
+
+soilCategory.addEventListener('change', function () {
+    hide(step4); hide(stepSubmit); hide(results); phSelect.value = '';
+    if (this.value) { populatePh(phKeys(ARABLE[this.value])); show(step3); show(step3mg); }
+    else { hide(step3); hide(step3mg); }
+    updateTargetField();
+});
+
+carbonClass.addEventListener('change', function () {
+    hide(step4); hide(stepSubmit); hide(results); phSelect.value = '';
+    if (this.value) { populatePh(phKeys(GRASS)); show(step3); show(step3mg); }
+    else { hide(step3); hide(step3mg); }
+});
+
+phSelect.addEventListener('change', function () {
+    if (this.value) { show(step4); show(stepSubmit); } else { hide(step4); hide(stepSubmit); }
+});
+
+/* Aktualna grupa gleby dla oceny Mg (orne: krok 2, zielone: krok 3c) */
+function mgGroup() {
+    return usageType.value === 'grunty_orne' ? soilCategory.value : mgSoil.value;
+}
+
+/* Pole celu: pokazuj gdy wpisano Mg i znamy grupę; zakres min–max wg grupy */
+function updateTargetField() {
+    var group = mgGroup();
+    if (mgInput.value === '' || !group) { hide(step3mgTarget); return; }
+    var r = targetRange(group);
+    // blokada zbadanej zawartości: maksimum dla tej gleby (górna granica „wysokiej")
+    mgInput.setAttribute('max', r.max);
+    var mgVal = parseFloat(String(mgInput.value).replace(',', '.'));
+    if (!isNaN(mgVal) && mgVal > r.max) { mgInput.value = String(r.max); }
+    mgTarget.setAttribute('min', r.min); mgTarget.setAttribute('max', r.max);
+    // domyślnie górna granica „wysokiej"; przytnij wcześniejszy wybór do nowego zakresu
+    var cur = parseFloat(String(mgTarget.value).replace(',', '.'));
+    if (isNaN(cur) || cur < r.min || cur > r.max) mgTarget.value = String(r.max);
+    mgTargetHint.textContent = 'Proponowany cel dla gleby „' + GROUP_LABELS[group].toLowerCase() + '": ' + fmt(r.max, 1) + ' mg/100 g (górna granica zawartości wysokiej). Możesz obniżyć — minimum to ' + fmt(r.min, 1) + ' mg/100 g (dolna granica zawartości średniej).';
+    show(step3mgTarget);
+}
+
+/* Mg wpisany przy użytkach zielonych → poproś o grupę gleby */
+mgInput.addEventListener('input', function () {
+    if (usageType.value === 'uzytki_zielone' && this.value !== '') show(step3mgSoil);
+    else hide(step3mgSoil);
+    updateTargetField();
+});
+mgSoil.addEventListener('change', updateTargetField);
+
+$('agria-calc-submit').addEventListener('click', function () {
+    var usage = usageType.value, ph = phSelect.value;
+    var area = parseFloat(areaInput.value) || 1;
+    var dose = null;
+
+    if (usage === 'grunty_orne') dose = (ARABLE[soilCategory.value] || {})[ph] || null;
+    else if (usage === 'uzytki_zielone') {
+        var row = GRASS[ph];
+        if (row) { var d = row[CARBON_IDX[carbonClass.value] !== undefined ? CARBON_IDX[carbonClass.value] : 1]; dose = [d, d, 0]; }
+    }
+    if (!dose) { alert('Brak danych dla podanych parametrów. Sprawdź wartość pH.'); return; }
+
+    renderCaO(dose, area);
+    var mgTableShown = renderMg(area, dose);
+    // gdy tabela Mg-first nie wyświetla się (brak Mg lub brak niedoboru) — standardowy dobór wg CaO jak na produkcji
+    var caoProd = $('agria-cao-products');
+    if (!mgTableShown && dose[0] > 0) { renderCaOProducts(dose, area); show(caoProd); }
+    else hide(caoProd);
+    show(results);
+    results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
+$('agria-calc-reset').addEventListener('click', function () {
+    usageType.value = '';
+    usageType.dispatchEvent(new Event('change'));
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+function renderCaO(dose, area) {
+    var box = $('agria-cao-box'), zero = $('agria-cao-zero-box');
+    if (dose[0] <= 0) { hide(box); show(zero); return; }
+    hide(zero); show(box);
+    $('agria-result-dose').textContent = fmt(dose[0]);
+    $('agria-result-total').textContent = 'Na całe pole (' + fmt(area) + ' ha): ' + fmt(dose[0] * area) + ' t CaO';
+    $('agria-result-split').textContent = dose[2] > 0
+        ? 'Dawkę podziel na dwie aplikacje: I — ' + fmt(dose[1]) + ' t/ha, II — ' + fmt(dose[2]) + ' t/ha (po 2–3 latach).'
+        : '';
+}
+
+function renderMg(area, caoDose) {
+    var mgBox = $('agria-mg-box'), prodBox = $('agria-mg-products');
+    hide(mgBox); hide(prodBox);
+
+    var raw = mgInput.value;
+    if (raw === '') return false; // pole opcjonalne — bez wpisu nic nie pokazujemy
+
+    var mg = parseFloat(String(raw).replace(',', '.'));
+    if (isNaN(mg) || mg < 0) return false;
+
+    var group = mgGroup();
+    if (!group) { // użytki zielone bez wskazanej grupy
+        show(mgBox);
+        $('agria-mg-badge').textContent = 'Brak oceny';
+        $('agria-mg-badge').className = 'mg-badge mg-badge--bwysoka';
+        hide($('agria-mg-dose-line'));
+        $('agria-mg-note').textContent = 'Aby ocenić zasobność w magnez, wskaż grupę mechaniczną gleby (krok 3c).';
+        $('agria-mg-sub').textContent = '';
+        return false;
+    }
+
+    var target = parseFloat(String(mgTarget.value).replace(',', '.'));
+    var a = assessMg(group, mg, target);
+    show(mgBox);
+    $('agria-mg-badge').textContent = a.cls;
+    $('agria-mg-badge').className = 'mg-badge mg-badge--' + a.key;
+
+    if (a.needs) {
+        show($('agria-mg-dose-line'));
+        $('agria-mg-dose').textContent = fmt(a.doseMg, 0);
+        $('agria-mg-note').innerHTML = 'Zawartość ' + a.cls.toLowerCase() + ' (' + fmt(mg, 1) + ' mg/100 g przy glebie: ' + GROUP_LABELS[group].toLowerCase() + '). Aby osiągnąć wybrany cel <strong>' + fmt(a.target, 1) + ' mg/100 g</strong>, uzupełnij <strong>' + fmt(a.deficit, 1) + ' mg/100 g</strong> — czyli <strong>' + fmt(a.doseMg, 0) + ' kg czystego Mg/ha</strong> (&asymp; ' + fmt(a.doseMgO, 0) + ' kg MgO/ha).';
+        $('agria-mg-sub').textContent = 'Na całe pole (' + fmt(area) + ' ha): ' + fmt(a.doseMg * area, 0) + ' kg Mg ≈ ' + fmt(a.doseMgO * area, 0) + ' kg MgO. Przelicznik: +1 mg Mg/100 g = 30 kg Mg/ha. Zakres celu dla tej gleby: ' + fmt(a.range.min, 1) + '–' + fmt(a.range.max, 1) + ' mg/100 g.';
+        renderMgProducts(a, caoDose, area);
+        show(prodBox);
+        return true;
+    } else {
+        hide($('agria-mg-dose-line'));
+        if (a.key === 'wysoka' || a.key === 'bwysoka') {
+            $('agria-mg-note').textContent = 'Zawartość magnezu ' + a.cls.toLowerCase() + ' — nie stosuj nawozów magnezowych. Do wapnowania wybierz wapno bez magnezu.';
+        } else {
+            $('agria-mg-note').textContent = 'Zbadana zawartość (' + fmt(mg, 1) + ' mg/100 g) osiąga już wybrany cel ' + fmt(a.target, 1) + ' mg/100 g — nawożenie magnezem nie jest konieczne. Przy wapnowaniu możesz wybrać wapno z magnezem, aby utrzymać poziom.';
+        }
+        $('agria-mg-sub').textContent = 'Wynik: ' + fmt(mg, 1) + ' mg Mg/100 g gleby (gleba: ' + GROUP_LABELS[group].toLowerCase() + ').';
+    }
+    return false;
+}
+
+/* Produkt referencyjny do dopokrycia CaO w kroku 2 */
+var CAO_TOPUP = { name: 'Agrobielik 70 (wapno tlenkowe, 70% CaO)', cao: 70 };
+
+/* ====== Produkty wapniowe — 1:1 z produkcyjnego matchera ======
+ * (segment rolnictwo/sadownictwo, bez #304 malarska i #307 pastewna;
+ *  %CaO = pierwsza liczba ze sluga pa_min-cao, jak w extract_cao_percent) */
+var CAO_PRODUCTS = [
+    { name: 'Wapno nawozowe tlenkowe Agrobielik 90', cao: 90, type: 'tlenkowe' },
+    { name: 'Wapno nawozowe tlenkowe Oxyfertil 90', cao: 90, type: 'tlenkowe' },
+    { name: 'Wapno nawozowe tlenkowe Agrobielik 70', cao: 70, type: 'tlenkowe' },
+    { name: 'Wapno nawozowe tlenkowe zawierające magnez', cao: 70, type: 'tlenkowe' },
+    { name: 'Mieszanka tlenkowo-węglanowa', cao: 70, type: 'mieszanka' },
+    { name: 'Kreda nawozowa granulowana', cao: 50, type: 'weglanowe' },
+    { name: 'Kreda nawozowa sypka', cao: 50, type: 'weglanowe' },
+    { name: 'Wapno nawozowe węglanowe bez magnezu granulowane', cao: 50, type: 'weglanowe' },
+    { name: 'Wapno nawozowe węglanowe bez magnezu — Odmiana 04', cao: 50, type: 'weglanowe' },
+    { name: 'Dolomit', cao: 45, type: 'weglanowe' },
+    { name: 'Kreda czarna (jeziorna) z kwasami humusowymi', cao: 44, type: 'weglanowe' },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 04', cao: 41, type: 'weglanowe' },
+    { name: 'Wapno nawozowe węglanowe bez magnezu — Odmiana 05', cao: 40, type: 'weglanowe' },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez granulowane', cao: 31, type: 'weglanowe' },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 05', cao: 25, type: 'weglanowe' }
+];
+var TYPE_LABELS = { tlenkowe: 'Wapno tlenkowe (szybkie działanie)', mieszanka: 'Mieszanka tlenkowo-węglanowa', weglanowe: 'Wapno węglanowe (działanie długotrwałe)' };
+
+function renderCaOProducts(caoDose, area) {
+    var tbl = $('agria-cao-products-tbl');
+    // sortowanie jak w produkcji: tlenkowe → mieszanka → węglanowe, wewnątrz rosnąco wg dawki
+    var order = { tlenkowe: 1, mieszanka: 2, weglanowe: 3 };
+    var rows = CAO_PRODUCTS.map(function (p) {
+        return { p: p, dose: caoDose[0] / (p.cao / 100), d1: caoDose[1] / (p.cao / 100), d2: caoDose[2] > 0 ? caoDose[2] / (p.cao / 100) : 0 };
+    }).sort(function (x, y) {
+        return (order[x.p.type] - order[y.p.type]) || (x.dose - y.dose);
+    });
+    var html = '<tr><th>Typ</th><th>Nawóz</th><th style="text-align:right">CaO</th><th style="text-align:right">Dawka [t/ha]</th><th style="text-align:right">Na pole (' + fmt(area) + ' ha) [t]</th></tr>';
+    rows.forEach(function (r) {
+        html += '<tr><td style="font-size:12px;">' + TYPE_LABELS[r.p.type] + '</td><td>' + r.p.name + '</td>' +
+            '<td class="num">' + r.p.cao + '%</td>' +
+            '<td class="num"><strong>' + fmt(r.dose) + '</strong>' + (r.d2 > 0 ? '<br><span style="font-size:11px;color:#888">I: ' + fmt(r.d1) + ' + II: ' + fmt(r.d2) + '</span>' : '') + '</td>' +
+            '<td class="num">' + fmt(r.dose * area) + '</td></tr>';
+    });
+    tbl.innerHTML = html;
+}
+
+function renderMgProducts(a, caoDose, area) {
+    var tbl = $('agria-mg-products-tbl');
+    var needCaO = caoDose[0]; // t CaO/ha wg IUNG
+    var html = '<tr><th>Nawóz (od najwyższej zawartości MgO)</th><th style="text-align:right">MgO</th><th style="text-align:right">CaO</th><th style="text-align:right">Dawka wg Mg*<br>[t/ha]</th><th style="text-align:right">CaO pokryte tą dawką<br>[t CaO/ha]</th><th style="text-align:right">CaO do dopokrycia<br>[t CaO/ha]</th><th style="text-align:right">Krok 2: + ' + CAO_TOPUP.name + '<br>[t/ha]</th></tr>';
+
+    var sorted = MG_PRODUCTS.slice().sort(function (x, y) { return y.mgo - x.mgo; });
+    sorted.forEach(function (p) {
+        var byMg     = (a.doseMgO / (p.mgo / 100)) / 1000;                  // t nawozu/ha wg Mg
+        var caoGiven = byMg * (p.cao / 100);                                 // t CaO/ha przy tej dawce
+        var caoLeft  = Math.max(0, Math.round((needCaO - caoGiven) * 100) / 100); // t CaO/ha brakujące
+        var topup    = caoLeft > 0 ? caoLeft / (CAO_TOPUP.cao / 100) : 0;   // t Agrobielika/ha
+        html += '<tr><td>' + p.name + (p.note ? '<br><span style="font-size:11px;color:#888">' + p.note + '</span>' : '') + '</td>' +
+            '<td class="num">' + p.mgo + '%</td><td class="num">' + p.cao + '%</td>' +
+            '<td class="num"><strong>' + fmt(byMg) + '</strong></td>' +
+            '<td class="num">' + fmt(caoGiven) + (needCaO > 0 ? ' z ' + fmt(needCaO) : '') + '</td>' +
+            '<td class="num">' + (needCaO > 0 ? (caoLeft > 0 ? fmt(caoLeft) : '<span style="color:#009140;font-weight:700">pokryte ✓</span>') : '—') + '</td>' +
+            '<td class="num">' + (caoLeft > 0 ? '<strong>' + fmt(topup) + '</strong>' : '—') + '</td></tr>';
+    });
+    tbl.innerHTML = html;
+
+    var note = '* Kolejność doboru: dawkę nawozu magnezowego ustala niedobór Mg (' + fmt(a.doseMg, 0) + ' kg Mg/ha ≈ ' + fmt(a.doseMgO, 0) + ' kg MgO/ha). ';
+    note += needCaO > 0
+        ? 'Potrzeba wapnowania wg IUNG: ' + fmt(needCaO) + ' t CaO/ha — jeśli nawóz magnezowy jej nie domyka, różnicę uzupełnij wapnem bez magnezu (przeliczono na Agrobielik 70; 1 t CaO = ' + fmt(1 / (CAO_TOPUP.cao / 100)) + ' t nawozu).'
+        : 'Wapnowanie przy tym pH nie jest wymagane — stosujesz sam nawóz magnezowy.';
+    $('agria-mg-products-note').textContent = note;
+}
+
+/* ====== SYMULACJA ====== */
+(function renderSim() {
+    var tbl = $('sim-tbl');
+    var samples = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 8.0, 10.5, 12.0, 15.0];
+    var html = '<tr><th>Grupa gleby</th><th style="text-align:right">Mg zbadane<br>[mg/100 g]</th><th>Ocena</th><th style="text-align:right">Zakres celu<br>[mg/100 g]</th><th style="text-align:right">Dawka Mg przy<br>celu min [kg/ha]</th><th style="text-align:right">Dawka Mg przy<br>celu max [kg/ha]</th></tr>';
+    ['bardzo_lekka', 'lekka', 'srednia', 'ciezka'].forEach(function (g) {
+        var r = targetRange(g);
+        samples.forEach(function (mg) {
+            var aMin = assessMg(g, mg, r.min);
+            var aMax = assessMg(g, mg, r.max);
+            html += '<tr><td>' + GROUP_LABELS[g] + '</td><td class="num">' + fmt(mg, 1) + '</td>' +
+                '<td><span class="mg-badge mg-badge--' + aMin.key + '" style="font-size:11px;padding:2px 10px;">' + aMin.cls + '</span></td>' +
+                '<td class="num">' + fmt(r.min, 1) + '–' + fmt(r.max, 1) + '</td>' +
+                '<td class="num">' + (aMin.needs ? '<strong>' + fmt(aMin.doseMg, 0) + '</strong> (&asymp; ' + fmt(aMin.doseMgO, 0) + ' MgO)' : '—') + '</td>' +
+                '<td class="num">' + (aMax.needs ? '<strong>' + fmt(aMax.doseMg, 0) + '</strong> (&asymp; ' + fmt(aMax.doseMgO, 0) + ' MgO)' : '—') + '</td></tr>';
+        });
+    });
+    tbl.innerHTML = html;
+})();
+
+})();
+</script>
+</body>
+</html>
