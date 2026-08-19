@@ -48,6 +48,7 @@ function agria_load_modules(): void {
         'product-video',
         'scroll-to-top',
         'seo-head',
+        'legacy-urls',
         // Kolejne moduły dodawaj tutaj:
         'liming-calculator',
         'inquiry-form',
