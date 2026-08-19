@@ -66,6 +66,9 @@ if ( ! function_exists( 'agria_geoblock' ) ) {
 		$ua        = $_SERVER['HTTP_USER_AGENT'] ?? '';
 		$good_bots = array(
 			'Googlebot', 'Storebot-Google', 'Google-InspectionTool', 'Google-Extended',
+			// Pomiar wydajnosci: bez tego PSI/Lighthouse (fetch z USA) dostaje 403
+			// i zwraca NOT_HTML, wiec Core Web Vitals sa niemierzalne. Dodane 2026-08-19.
+			'Chrome-Lighthouse', 'Google-PageSpeed', 'GoogleOther',
 			'AdsBot-Google', 'AdsBot-Google-Mobile', 'Google-Safety', 'Mediapartners-Google',
 			'bingbot', 'BingPreview', 'Slurp', 'DuckDuckBot', 'Applebot', 'YandexBot',
 			'facebookexternalhit', 'facebookcatalog', 'LinkedInBot', 'Twitterbot',
