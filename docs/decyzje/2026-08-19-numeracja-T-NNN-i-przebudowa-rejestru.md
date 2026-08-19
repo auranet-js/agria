@@ -57,7 +57,8 @@ potwierdzone porównaniem z dwoma projektami, gdzie to działa:
 | T-028 | DUP-01 | 15 starych `post_type=produkt` równolegle do 19 WC | 🔴 teraz — znalezione 19.08 |
 | T-029 | P1-7 | login admina `js` w schema na froncie | 🔴 teraz — bezpieczeństwo, 65 dni |
 | T-030 | P0-2b | brak LocalBusiness dla Niedomic i Radgoszczy | 🔴 wrzesień |
-| T-031 | P0-4 | LCP mobile — dziś niemierzalny | 🔴 wrzesień |
+| **T-048** | **GEO-01** | **geoblok odcina Lighthouse/PSI — nie da się mierzyć wydajności** | 🔴 **teraz** |
+| T-031 | P0-4 | LCP mobile — niemierzalny, dopóki stoi T-048 | 🔴 wrzesień, **po T-048** |
 | T-032 | P0-3 | 301 dla `/kategoria-produktu/*` | 🔵 teraz — odblokowane od 18.08 |
 | T-033 | P1-9 | zgody i pomiar GA4 | 🔵 do rozstrzygnięcia |
 | T-034 | P0-5 | Premmerce DOM-XSS | 🔵 do rozstrzygnięcia |
@@ -72,8 +73,14 @@ potwierdzone porównaniem z dwoma projektami, gdzie to działa:
 | T-046 | GBP-01 | optymalizacja wizytówki Tarnów | 🔴 teraz — obiecane na piśmie w M2 |
 | T-047 | GBP-02 | odzysk wizytówek Niedomice i Radgoszcz | 🟡 czeka na dostęp |
 
-**Kolejka „teraz" po przejściu mapy — 12 pozycji:** T-008, T-009, T-010, T-011, T-026, T-027,
-T-028, T-029, T-032, T-039, T-042, T-046.
+**Kolejka „teraz" po przejściu mapy — 13 pozycji:** T-008, T-009, T-010, T-011, T-026, T-027,
+T-028, T-029, T-032, T-039, T-042, T-046, **T-048**.
+
+**T-048 (dawne GEO-01) dopisane po pełnym odczycie rejestru** — wypadło z pierwszej wersji mapy.
+Waży więcej, niż wygląda: geoblok wdrożony 14.08 (`src/plugins/agria-by-auranet/security-geoblock.php`)
+przy odrzuceniu zwraca `Content-Type: text/plain`, a whitelist `$good_bots` nie zawiera
+`Chrome-Lighthouse` — więc PSI dostaje `NOT_HTML` i **cała mierzalność wydajności stoi**.
+Fix to jedna linia, ale na produkcji, więc czeka na zgodę. Kolejność wymuszona: T-048 → pomiar → T-031.
 
 ## Konsekwencje
 
