@@ -39,12 +39,11 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 
 # KOLEJKA
 
-## 🔴 Teraz — 10 pozycji, nic ich nie blokuje
+## 🔴 Teraz — 9 pozycji, nic ich nie blokuje
 
 | ID | Zadanie | Linia | Zakr. | Dowód / kontekst |
 |---|---|---|---|---|
-| **T-010** | **Widełki „od X zł/t netto" w treści 15 kart** (H2 + akapit) + 2 landingi Ads + poradnik cenowy + link z huba `[P 07.08]` | Ceny | R | **PRIORYTET 1. 12 dni od cennika, 6 od akceptu mockupu przez Janka 13.08.** MCP 19.08: `19 produktów / 19 bez _price / 0 ze słowem „cena" w treści`. Rozpiska: `docs/operations/CEN_LISTA_URL_2026-08-13.md`, ceny: `CENNIK_PAWEL_2026-08-07.md`. **Koszt zwłoki zmierzony:** kampania Rolnictwo wydała 199,62 zł w 6 dni przy 0 konwersji, 33% wydatku to zapytania cenowe lądujące na stronach bez ceny |
-| **T-011** | Nagłówki H2 z frazą cenową („wapno granulowane cena", „agrobielik cena") `[J 19.08]` | Ceny | R | 0 z 19 kart ma dziś nagłówek cenowy. Idzie razem z T-010. Prompt: `docs/prompty/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md` |
+| **T-010** | **Widełki „od X zł/t netto"** — pozostały **landingi Ads (2), poradnik cenowy, link z huba** `[P 07.08]` | Ceny | R | **Karty zrobione 19.08 15:35 — 15/19 ma cenę w treści** (było 0/19), `_price` nadal puste w 19/19, Store API zwraca wyłącznie `"price":"0"`. Zasada cenowa ustalona 19.08: **cena wiodąca = najtańsza dostępna forma hurtowa** (luz tam, gdzie jest; big-bag przy granulatach; worki przy kredzie malarskiej, która luzem nie występuje), worki wyłącznie **w zł/t, nigdy w zł/szt.** Cztery karty bez wyceny Pawła nietknięte (Dolomit, Kreda czarna, Tlenkowe z Mg, Węglanowe odm. 05). Rozpiska: `docs/operations/CEN_LISTA_URL_2026-08-13.md`. **Do zrobienia: `/wapno-granulowane/` i `/wapno-nawozowe/` (treść + `noindex, follow`), poradnik `/ile-kosztuje-wapnowanie-hektara/`, link kontekstowy z `/wapnowanie-gleby/`** |
 | **T-027** | `/do-pobrania/` — zgłoszenie do reindeksacji | SEO | R | **Zgłoszone 19.08 15:16 UTC** przez `~/bin/index-submit` (1 URL, `OK`, zużycie 1/100; log `~/.claude/indexing-submit.log`). Strona zgłoszona **już po** T-008 i T-009. Stan przed: `BLOCKED_BY_META_TAG`, ostatni crawl 2026-04-12, live `index, follow`. **Dowodem domknięcia jest zmiana werdyktu GSC, nie zgłoszenie** — recheck 22.08 (+72 h) i 02.09 (+14 dni) |
 | **T-028** | **15 opublikowanych `post_type=produkt` (ID 60–74)** równolegle do 19 produktów WC `[A 19.08]` | SEO | R | **Znalezione 19.08, nieujęte w żadnym dokumencie.** `/produkt/agrobielik-70/` i `/produkt/dolomit/` → HTTP 200. Wcześniejsza notatka mówiła o trzech (67, 68, 69) — jest piętnaście. Agrobielik 70 pod dwoma adresami, oba zbierają wyświetlenia w GSC |
 | **T-029** | **Login admina `js` eksponowany w schema** | SEO | R | 19.08: front zwraca `"@type":"Person"`, `"name":"js"` ×2. Zgłoszone w audycie 15.06, otwarte **65 dni** |
@@ -154,10 +153,11 @@ sześć pozycji miało w papierach „niezrobione", a są zrobione.
 | Porządek dokumentacji: `FAKTY_KLIENTA.md`, rejestr, rozbiórka `MASTER_PROMPT`, `CLAUDE.md` na wzorcu Primy/Victorini | commity `2109a2f`, `33fddef`, `a0b07b4` | R | 5 h* |
 | **T-008** — 8 atestów i kart charakterystyki Nordkalku na `/do-pobrania/` | Wdrożone 19.08 15:14. 8 PDF-ów wgranych FTP-em do `uploads/2026/08/`, **wszystkie HTTP 200**. Strona ID 731 zmieniona w **obu warstwach**: `_elementor_data` 14 478 → 13 138 B, `post_content` 36 782 → 35 599 B. Render (Chrome MCP): **22 karty produktu · 4 karty charakterystyki · 5 atestów**, 31 linków PDF, wszystkie 200. „Nordkalk" na froncie: 6 wystąpień (było 0). Backup: `agria-backups/przed-T-008-T-009-20260819-151022.sql` (17 tys. wierszy) | R | 2,5 h |
 | **T-009** — usunięcie sekcji „Certyfikaty" z `/do-pobrania/` | Wdrożone 19.08 15:14, jedną edycją z T-008. Front: **0 wystąpień „ertyfikat"** (było 7), 0 wystąpień „CEM/Dyckerhoff/ISO 9001". Sekcja zniknęła z nagłówkiem, bez pustej ramki. Znikł przy okazji duplikat linku (poz. 1 = poz. 2) i literówki w nazwach plików. **Atest OSChR i 4 karty charakterystyki nietknięte.** Strona: HTTP 200, 0,34 s; `/`, `/oferta/`, `/kontakt/`, `/kalkulator-wapnowania/` → 200 | R | z T-008 |
+| **T-010 (część: 15 kart)** + **T-011** — widełki cenowe i nagłówki H2 z frazą cenową | Wdrożone 19.08 15:35. **15/15 kart ma na froncie `<h2>` z frazą cenową i akapit z widełkami** (weryfikacja `curl` per URL). `_price` puste w **19/19**, Store API `"price":"0"` — warstwa ofertownika nietknięta. Schema bez `Offer`. Jeden `<h1>` na kartę. Cztery karty bez wyceny nietknięte (0 wystąpień „zł/t netto", HTTP 200). Trzy karty renderujące z Elementora (307, 310, 320) zmienione **w obu warstwach**. Render potwierdzony Chrome MCP na `/wapno-nawozowe-rolnictwo/agrobielik-70/`: blok stoi między specyfikacją a FAQ. Backup: `agria-backups/przed-T-010-20260819-153153.sql` | R | 3 h |
 
-**⚠️ M3 kończy się za 12 dni z trzynastoma pozycjami w kolejce „teraz", w tym z T-010 —
-zleceniem kompletnym, zaakceptowanym i niewykonanym od 12 dni.** To jest jedyna liczba,
-która ma znaczenie przy planowaniu reszty sierpnia.
+**Stan na 19.08 wieczorem: z trzynastu pozycji „teraz" zamkniętych jest pięć** (T-048, T-008,
+T-009, T-011 i główna część T-010 — 15 kart z ceną). W kolejce zostaje dziewięć, w tym T-027
+czekające wyłącznie na werdykt Google. **Do końca M3 dwanaście dni.**
 
 ---
 
