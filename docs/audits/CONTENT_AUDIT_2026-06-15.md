@@ -1,5 +1,12 @@
 # Content audit + topic clusters + kalendarz M2–M6 — AGRIA
 
+> **STATUS: CZĘŚCIOWO UNIEWAŻNIONY (2026-08-19).** Sekcja **§3 „Topic clusters (hub & spoke)”**
+> — HUB Rolnictwo / Rybactwo / Oczyszczalnie — **jest nieaktualna i nie wolno jej realizować.**
+> Zdjął ją ADR `docs/decyzje/2026-08-11-podzial-rol-ads-seo.md`: landingi i huby segmentowe istnieją
+> wyłącznie jako cele Google Ads, poza indeksem, bo zmierzono kanibalizację (6 URL-i na frazę
+> „wapno bielik” → pozycja 15,3). Reszta dokumentu — inwentarz treści i kalendarz — nadal ważna.
+> Aktualny stan zobowiązań: `docs/REJESTR_ZOBOWIAZAN.md`.
+
 > Deliverable M1 #4. Data: 2026-06-15. Źródła: live MCP Agria (inwentarz treści), `KEYWORD_RESEARCH_2026-05-19.md` (112 fraz / 8 klastrów), `ONPAGE_PLAN_2026-05-20.md`.
 
 ## ⚠️ KOREKTA (2026-06-15, po decyzji Janka)

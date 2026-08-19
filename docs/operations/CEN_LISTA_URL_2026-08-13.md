@@ -21,7 +21,13 @@ Zgodnie z ADR landingi obsługują wyłącznie ruch płatny. **Nie trafiają do 
 
 ## B. W indeksie — karty produktowe z ceną (15 URL)
 
-Cena „od" w WooCommerce. Odblokowuje `offers` w schema `Product`, dziś generowanej przez Rank Math bez oferty.
+**KOREKTA 19.08.2026 (ADR `docs/decyzje/2026-08-19-dwie-warstwy-cen.md`): NIE ustawiamy ceny
+w WooCommerce.** Pierwotny zapis brzmiał „cena od w WC, odblokowuje `offers` w schema” — **jest
+nieaktualny**. Cena wchodzi **wyłącznie jako treść** (H2 z frazą cenową + akapit), `_price` zostaje
+puste, wariantów nie tworzymy. Schema `Product`/`offers` budujemy **ręcznie, odzwierciedlając treść**.
+Ceny w strukturze produktu to osobna, **niejawna** warstwa pod ofertownik.
+Kwoty w tabeli poniżej pozostają aktualne — zmienia się wyłącznie miejsce publikacji, i **tylko
+w przeliczeniu na tonę** (ceny za sztukę worka nie idą na stronę).
 
 | # | URL | SKU | Cena „od" |
 |---|---|---|---|

@@ -163,9 +163,23 @@ bez czyjejkolwiek pomocy. **Nie daje** wykonywania WP-CLI.
 
 ## Jak pracować w tym repo
 
-1. **Każda sesja → przeczytaj `docs/MASTER_PROMPT.md` PIERWSZY.** Tożsamość operacyjna nie negocjowana.
+1. **Lista wejściowa — obowiązkowa, w tej kolejności, ZANIM cokolwiek doradzisz.** Prompt startowy
+   wątku dobiera lekturę pod temat i tego nie zastępuje — te cztery pliki czytasz zawsze, niezależnie
+   od tego, czym wątek się zajmuje:
+   1. **`docs/MASTER_PROMPT.md`** — tożsamość operacyjna, nie negocjowana;
+   2. **`docs/REJESTR_ZOBOWIAZAN.md`** — co zlecone i jeszcze niezamknięte, na siedmiu liniach usługowych.
+      **Zanim zaproponujesz cokolwiek nowego, sprawdź, czy nie stoi tam to samo, zlecone i niezrobione.**
+      Sekcja „Unieważnione" mówi, czego NIE proponować (landingi organiczne, huby segmentowe);
+   3. **`docs/PROJECT_STATE.md`** — stan wątków i kontekst „dlaczego tak";
+   4. **`docs/FAKTY_KLIENTA.md`** — produkty, producenci, ceny, ludzie, ustalenia handlowe
+      i komunikacyjne, każdy fakt z datą i źródłem. **Zanim zapytasz Janka o cokolwiek dotyczącego
+      klienta, sprawdź, czy nie stoi to tam.** Sekcja „Czego nie wiemy" mówi, co wolno dopytać.
+
+   Fakty handlowe **nie są wiedzą wątkową** — obowiązują niezależnie od tego, czy wątek dotyczy Ads,
+   OLX-a, SEO czy ofertownika. Źródła surowe: `docs/operations/CENNIK_PAWEL_2026-08-07.md` (cennik
+   od Pawła) i `docs/operations/CEN_LISTA_URL_2026-08-13.md` (rozpiska cen per URL).
 2. **Sprawdź MCP `status`** zanim cokolwiek powiesz o produkcji — stan zmienia się między sesjami.
-3. **Nie zmieniaj danych w bazie produkcyjnej bez wyraźnej zgody w czacie.** MCP jest read-only, ale gdyby pojawiły się toole zapisujące — zgoda Janka per operacja.
+3. **Nie zmieniaj danych w bazie produkcyjnej bez wyraźnej zgody w czacie.** MCP ma zapis od czerwca 2026 (`update_post_content`, `update_postmeta`, `query_db_write`, `write_file`, `wc_product_attributes`) i idzie prosto na produkcję — zgoda Janka per operacja, `backup_file` albo `db_export` przed większą zmianą.
 4. **Sekrety nie idą do repo.** `wp-config.php`, `.env`, klucze API, hasła FTP — nigdy. Trzymane lokalnie u operatora.
 5. **Język dokumentacji: polski.** Identyfikatory, klucze, kod — angielski/oryginalny gdzie naturalny.
 6. **Branch dla większych zmian** (`feature/...`), drobne na `main` bezpośrednio.
@@ -180,9 +194,17 @@ bez czyjejkolwiek pomocy. **Nie daje** wykonywania WP-CLI.
 Nie trzymamy tego w tym pliku — statyczna lista priorytetów rozjeżdża się z rzeczywistością
 tak samo jak drzewo katalogów. Bieżący stan i następny ruch:
 
-- **`docs/PROMPT_M3_START_2026-08.md`** — prompt startowy bieżącego miesiąca, czytaj go po `MASTER_PROMPT.md`;
-- **`docs/PROJECT_STATE.md`** — stan projektu;
-- **`git log --oneline -20`** — co faktycznie zrobione, zanim powiesz, że coś jest do zrobienia.
+- **`docs/REJESTR_ZOBOWIAZAN.md`** — co zlecone i niezamknięte, per linia usługowa, ze statusem i dowodem;
+- **`docs/PROJECT_STATE.md`** — stan wątków i kontekst decyzji;
+- **`docs/PROMPT_M3_START_2026-08.md`** — prompt startowy bieżącego miesiąca;
+- **`git log --oneline -20`** — co faktycznie wytworzone.
+
+**Uwaga na granicę między dwoma ostatnimi.** Globalna reguła „wyprowadzaj stan z `git log`, nigdy
+z ręcznie utrzymywanej listy" mówi prawdę o tym, co **napisaliśmy**, i milczy o tym, co **zlecone
+i niezrobione** — commit opisuje wytworzony artefakt, nie stan obowiązku. Rozpiska do wykonania
+commituje się identycznie jak wykonanie (dowód: `5c35591` wymienia `CEN_LISTA_URL` obok rzeczy
+faktycznie wdrożonych, a ceny na stronie nie stanęły). Dlatego wymiar statusu trzyma
+`REJESTR_ZOBOWIAZAN.md` i **commit zamykający pozycję aktualizuje jej wiersz w tym samym commicie.**
 
 ---
 

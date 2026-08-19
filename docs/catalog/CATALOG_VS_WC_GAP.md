@@ -1,5 +1,11 @@
 # Katalog drukowany ↔ WooCommerce ↔ Spec — mapa niespójności
 
+> **STATUS: HISTORYCZNY — mapa, nie lista braków (2026-08-19).** Dokument pokazuje, co i kiedy
+> rozjechało się między katalogiem drukowanym, WooCommerce i specem planistycznym. **Nie jest listą
+> luk w ofercie i nie wolno z niego wyprowadzać propozycji rozbudowy asortymentu.** Oferta WC jest
+> kompletna (19 produktów); AGRIA nie sprzedaje kruszyw ani produktów drogowych — decyzja Janka
+> 15.06, patrz memory `project_agria_catalog_decisions`.
+
 > Wygenerowane 2026-05-19 podczas restrukturyzacji repo. Audit krzyżowy:
 > - **PDF**: `assets/print/catalog/Agria-katalog-2026-05-04-web.pdf` (realizowany, 24 strony)
 > - **WC**: live z `mcp__claude_ai_Agria_pl__wc_products_list` (19 produktów, stan 2026-05-19)

@@ -1,5 +1,12 @@
 # Plan on-page — backlog P0/P1/P2 per miesiąc (M2–M6)
 
+> **STATUS: HISTORYCZNY — statusy nieaktualne (2026-08-19).** Tabela „Status P0 na dziś” zamarła
+> na 15.06. Weryfikacja na produkcji 19.08 pokazała, że **sześć pozycji opisanych tu jako niezrobione
+> jest zrobionych** (P0-2 schema, P1-1 nagłówki bezpieczeństwa, P1-2 title home, P1-4 `product_cat`
+> w sitemapie, P1-5 SKU, P1-6 literówki), a P1-9 jest błędny — CMP (Complianz 7.5.7.2) **jest**
+> zainstalowany. **Nie czytaj stąd statusów** — aktualne trzyma `docs/REJESTR_ZOBOWIAZAN.md`.
+> Wartość tego dokumentu to rozbicie prac na miesiące i wyceny czasowe, nie stan wykonania.
+
 > Deliverable M1 #5. Data: 2026-06-15. Źródło: `SEO_AUDIT_RESULTS.md` (5×P0 / 9×P1 / 8×P2) + stan live na 2026-06-15.
 > **Zasada zakresu:** M1 = analityka + TEN plan. Wdrożenie P0/P1/P2 rozłożone na M2–M6 (`M1_KICKOFF.md` §Korekta zakresu).
 

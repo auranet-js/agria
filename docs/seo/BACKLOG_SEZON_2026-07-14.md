@@ -1,5 +1,12 @@
 # BACKLOG — kampania sezonowa 2026 (wapnowanie pożniwne)
 
+> **STATUS: CZĘŚCIOWO UNIEWAŻNIONY (2026-08-19).** **Bloki C4–C7, D1–D4 i E1–E3 są zdjęte z zakresu**
+> przez ADR `docs/decyzje/2026-08-11-podzial-rol-ads-seo.md` — landingi organiczne nie powstają,
+> bo zmierzono kanibalizację. C2 i C3 powstały, ale jako cele Ads poza indeksem, nie jako strony
+> organiczne. Bloki A i B są w większości wykonane (weryfikacja na produkcji 19.08). Nadal ważne:
+> rozstrzygnięcie MOQ, granica profesjonalista/hobbysta, parametry normowe Bielika, lista pytań F.
+> Aktualny stan zobowiązań: `docs/REJESTR_ZOBOWIAZAN.md`.
+
 > Data: 2026-07-14. Kontekst: `ROZPISKA_INTENCJA_WOLUMENOWA_2026-07-14.md`.
 > **Zegar:** szczyt sezonu = sierpień–październik. Rozgrzanie nowej strony w Google = 2–6 tygodni. Nasza własna oferta dla AGRIA mówi: *„treści przygotowujemy z wyprzedzeniem ok. 6 tygodni przed szczytem sezonu"*. Dziś mamy 14 lipca — **jesteśmy po terminie, który sami wyznaczyliśmy.**
 > Źródło parametrów produktowych: `Agria-katalog-2026-05-13-druk.pdf` (Drive).

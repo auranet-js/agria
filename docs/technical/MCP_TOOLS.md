@@ -1,5 +1,10 @@
 # MCP Agria.pl — narzędzia dostępne dla Claude'a
 
+> **STATUS: NIEAKTUALNY W CZĘŚCI O UPRAWNIENIACH (2026-08-19).** MCP `agria` **ma zapis od czerwca 2026**
+> (`update_post_content`, `update_postmeta`, `query_db_write`, `write_file`, `backup_file`, `db_export`,
+> `wc_product_attributes`, `cron`) i idzie prosto na produkcję. Aktualny wykaz narzędzi:
+> `CLAUDE.md` → sekcja Narzędzia oraz memory `project_agria_mcp_writebuild`.
+
 > Lista narzędzi MCP serwera `Agria.pl` skonfigurowanych w środowisku Claude. Wszystkie read-only (na czas obecny).
 
 ---

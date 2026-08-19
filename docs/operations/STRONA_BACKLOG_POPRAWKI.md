@@ -2,8 +2,10 @@
 
 > Żywy backlog poprawek zgłaszanych przez klienta (Paweł Bigos, AGRIA).
 > Paweł dosyła kolejne partie — dokument otwarty, dopisujemy na bieżąco.
-> Wdrożenie: **SSH / WP-CLI** na nazwa.pl (MCP Agria = read-only, nie do zapisu).
-> Status na: 2026-06-29. Źródło partii #1: mail Pawła z 2026-06-15 20:30 (fwd Janka, [73]).
+> Wdrożenie: **SSH / WP-CLI** na nazwa.pl albo **MCP `agria`** (ma zapis od czerwca 2026).
+> Status na: 2026-06-29 dla partii #1. **STR-08 i STR-09 zweryfikowane na produkcji 19.08 — oba nadal OTWARTE.**
+> Wymiar zobowiązań i terminy: `docs/REJESTR_ZOBOWIAZAN.md`.
+> Źródło partii #1: mail Pawła z 2026-06-15 20:30 (fwd Janka, [73]).
 
 ---
 
