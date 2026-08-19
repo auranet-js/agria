@@ -171,8 +171,17 @@ przed rozliczeniem budżetu.
   obłożone transportem. **Nigdzie nie ujawniane, dane wewnętrzne.** Ofertownik jest projektem
   własnym Auranet, więc tym bardziej nie jest to materiał do publikacji.
   To nie są te same kwoty w tym samym miejscu i nigdy nie były.
-- **Ceny na stronie: widełki „od X zł/t netto”**, nigdy pełny cennik. Cena nigdy nie występuje sama —
-  zawsze z warunkiem dostawy, dwa punkty odniesienia na grupę. Decyzja Janka 06.08.
+- **Ceny na stronie: JEDNA kwota „od X zł/t netto” na kartę** — najtańsza dostępna forma hurtowa,
+  **zawsze ze swoim warunkiem** („od 220 zł/t netto przy dostawie całosamochodowej 24 t”).
+  Pozostałe formy wymieniamy **bez kwot**: „dostępny także w big-bagach od 1 tony oraz w workach
+  20 kg i 40 kg, w sprzedaży hurtowej”. **Decyzja Janka 19.08** — zastępuje regułę „dwa punkty
+  odniesienia” z 06.08.
+  **Powód:** druga kwota podnosiła próg wejścia zamiast go obniżać. Zmierzone na 15 kartach:
+  Agrobielik 70 dawał skok 220 → 400 zł/t (**+82 %**), kreda pastewna 190 → 610 (**+221 %**).
+  Słowo „od” niesie całą informację o widełkach, a pytanie o cenę big-bagu trafia tam, gdzie ma
+  trafiać — do handlowca. Warunek przy cenie wiodącej jest obowiązkowy: samo „od 220 zł/t”
+  czyta się tak, jakby dotyczyło worka.
+- **Nigdy pełny cennik** i nigdy cena za sztukę — wyłącznie przeliczenia na tonę.
 - **Ceny za worki — decyzja otwarta.** Paweł podał ceny workowe i w tym samym mailu napisał:
   *„na ten moment nie będziemy prowadzić sprzedaży po worku”*. Cała zgoda na publikację cen opierała się
   na tym, że cena tonowa odsiewa detalistę, a „11,50 zł za worek” robi odwrotnie. **Rekomendacja: publikować
