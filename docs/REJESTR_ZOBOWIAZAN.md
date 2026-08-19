@@ -39,16 +39,13 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 
 # KOLEJKA
 
-## 🔴 Teraz — 13 pozycji, nic ich nie blokuje
+## 🔴 Teraz — 10 pozycji, nic ich nie blokuje
 
 | ID | Zadanie | Linia | Zakr. | Dowód / kontekst |
 |---|---|---|---|---|
 | **T-010** | **Widełki „od X zł/t netto" w treści 15 kart** (H2 + akapit) + 2 landingi Ads + poradnik cenowy + link z huba `[P 07.08]` | Ceny | R | **PRIORYTET 1. 12 dni od cennika, 6 od akceptu mockupu przez Janka 13.08.** MCP 19.08: `19 produktów / 19 bez _price / 0 ze słowem „cena" w treści`. Rozpiska: `docs/operations/CEN_LISTA_URL_2026-08-13.md`, ceny: `CENNIK_PAWEL_2026-08-07.md`. **Koszt zwłoki zmierzony:** kampania Rolnictwo wydała 199,62 zł w 6 dni przy 0 konwersji, 33% wydatku to zapytania cenowe lądujące na stronach bez ceny |
 | **T-011** | Nagłówki H2 z frazą cenową („wapno granulowane cena", „agrobielik cena") `[J 19.08]` | Ceny | R | 0 z 19 kart ma dziś nagłówek cenowy. Idzie razem z T-010. Prompt: `docs/prompty/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md` |
-| **T-008** | 8 nowych atestów + karty charakterystyki Nordkalk na `/do-pobrania/` `[P 07.08]` | Strona | R | **12 dni.** 19.08: strona ma **0 wystąpień „Sitkówka"** — kart nie ma. Materiały w mailu [201] |
-| **T-009** | Usunięcie sekcji „Certyfikaty" z `/do-pobrania/` `[P 07.08]` | Strona | R | **12 dni.** 19.08: **7 wystąpień „certyfikat"** — sekcja stoi, z duplikatem linku i literówkami „ertyfikat". **Jedna wizyta z T-008** (ID 731, `_elementor_data`) |
-| **T-027** | `/do-pobrania/` — zgłoszenie do reindeksacji | SEO | R | GSC 19.08: `BLOCKED_BY_META_TAG`, **ostatni crawl 2026-04-12**. Live ma `index, follow` — Google nie wrócił. **Po T-008/009**, żeby zgłosić stronę już poprawioną |
-| **T-048** | **Geoblok odcinał Lighthouse/PSI — kod poprawiony, dowód niezdobyty** `[A 19.08]` | SEO | R | **Kod wdrożony na produkcji 19.08 13:14** — `grep` na żywym pliku potwierdza `Chrome-Lighthouse`, `Google-PageSpeed`, `GoogleOther` w `$good_bots` (backup: `security-geoblock.php.bak-2026-08-19`). Kopia referencyjna w repo zsynchronizowana, commit `34cd965`. **Weryfikacja PSI nieudana 19.08: `Quota exceeded … Queries per day` na projekcie GCP 583797351490** — dzienna pula wyczerpana. **Do zamknięcia: powtórzyć PSI po resecie kwoty (20.08) i wpisać wynik tutaj.** Dopiero wtedy ✅ i przeniesienie do dziennika M3. Odblokowuje T-031 |
+| **T-027** | `/do-pobrania/` — zgłoszenie do reindeksacji | SEO | R | **Zgłoszone 19.08 15:16 UTC** przez `~/bin/index-submit` (1 URL, `OK`, zużycie 1/100; log `~/.claude/indexing-submit.log`). Strona zgłoszona **już po** T-008 i T-009. Stan przed: `BLOCKED_BY_META_TAG`, ostatni crawl 2026-04-12, live `index, follow`. **Dowodem domknięcia jest zmiana werdyktu GSC, nie zgłoszenie** — recheck 22.08 (+72 h) i 02.09 (+14 dni) |
 | **T-028** | **15 opublikowanych `post_type=produkt` (ID 60–74)** równolegle do 19 produktów WC `[A 19.08]` | SEO | R | **Znalezione 19.08, nieujęte w żadnym dokumencie.** `/produkt/agrobielik-70/` i `/produkt/dolomit/` → HTTP 200. Wcześniejsza notatka mówiła o trzech (67, 68, 69) — jest piętnaście. Agrobielik 70 pod dwoma adresami, oba zbierają wyświetlenia w GSC |
 | **T-029** | **Login admina `js` eksponowany w schema** | SEO | R | 19.08: front zwraca `"@type":"Person"`, `"name":"js"` ×2. Zgłoszone w audycie 15.06, otwarte **65 dni** |
 | **T-026** | Indeksacja — sześć URL-i poza indeksem | SEO | R | GSC 19.08. **„Google nieznany" (4):** `/ile-wapna-granulowanego-na-ha/`, `/jak-stosowac-wapno-nawozowe/`, `/higienizacja-osadow-sciekowych-wapnem/`, `/kreda-malarska/`. **„Wykryta, niezindeksowana" (2):** `/wapno-nawozowe-na-trawnik/`, `/wapno-do-stabilizacji-gruntow/`. Mimo 3× Indexing API. Reszta portfela zdrowa — 11 URL-i PASS ze świeżym crawlem |
@@ -73,7 +70,7 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 | ID | Zadanie | Linia | Zakr. | Uwagi |
 |---|---|---|---|---|
 | **T-044** | Wdrożenie modułu Mg w kalkulatorze na produkcję | Kalkulator | P ≈4 h | Po T-043. **4 kwestie otwarte** przed wdrożeniem — memory `project_agria_kalkulator_mg` |
-| **T-031** | CWV mobile — LCP | SEO | R | **Zablokowane przez T-048** (kod poprawiony, pomiar czeka na reset kwoty PSI). CrUX zwraca „data not found" (za mały ruch). Proxy z Elary 19.08: główna **TTFB 1,27 s przy cache-miss, HTML 154 KB**; karta produktu TTFB 0,35 s. Ostatni pełny pomiar 03.08: LCP 7,4 s. **Kolejność: T-048 → pomiar → optymalizacja** |
+| **T-031** | CWV mobile — LCP | SEO | R | **Odblokowane 19.08 — T-048 zamknięty, PSI mierzy.** Pomiar 19.08 17:03: **mobile LCP 7,3 s, score 0,69**; **desktop LCP 1,5 s, score 0,95** — problem jest wyłącznie mobilny. TBT 80 ms i CLS 0,002 są dobre, więc to ciężki zasób, nie JavaScript. CrUX „data not found" (za mały ruch). Proxy z Elary 19.08: główna **TTFB 1,27 s przy cache-miss, HTML 154 KB**; karta produktu TTFB 0,35 s |
 | **T-030** | LocalBusiness ×2 (Niedomice, Radgoszcz) w schema | SEO | R | Front ma tylko `Organization`. Dane oddziałów mamy z T-003 |
 | **T-045** | Ofertownik, etap zerowy: audyt wycieku cen → konwersja jednego produktu na wariantowy → sprzątanie atrybutów → cennik | Ofertownik | **W** | Niezaczęty, osobny wątek (rozdzielony od T-010 decyzją 19.08). Spec: `docs/specs/2026-08-18-ofertownik-design.md`. **Audyt wycieku cen to warunek bezpieczeństwa danych, nie porządki** — ceny wariantów WC są domyślnie widoczne na froncie, w REST API, w feedach i w schema Rank Matha, a ta warstwa ma pozostać **niejawna** |
 | — | Menu: powrót pozycji Sadownictwo / Rybactwo / Hurtownie | Strona | R | Zdjęte 30.07 jako `draft`. Wracają **razem z treścią**, nie z landingami — memory `project_agria_nav_debt_m4`. Przypomnienie: `docs/przypomnienia/2026-09-01-menu-segmenty-m4.md` |
@@ -148,13 +145,15 @@ sześć pozycji miało w papierach „niezrobione", a są zrobione.
 | Co dostarczone | Dowód | Zakr. | h |
 |---|---|---|---|
 | Uruchomienie kampanii Google Ads, konto 674-207-1446 | ADR `2026-08-13-uruchomienie-kampanii-ads.md`, kampanie żywe od 13.08 | P | 5 h* |
-| Geoblok bezpieczeństwa | `src/plugins/agria-by-auranet/security-geoblock.php`, wdrożony 14.08 — **skutek uboczny: T-048** | R | 5 h* |
+| Geoblok bezpieczeństwa | `src/plugins/agria-by-auranet/security-geoblock.php`, wdrożony 14.08. **T-048 domknięty 19.08:** boty pomiarowe dopisane do `$good_bots` (commit `34cd965`, backup `security-geoblock.php.bak-2026-08-19`), PSI 19.08 17:03 przechodzi — mobile score 0,69 / LCP 7,3 s, desktop 0,95 / LCP 1,5 s, `runtimeError: None`, `finalUrl: https://agria.pl/`. `AdsBot-Google` na liście (linia 64) — reklamy mają dostęp do landingów. Zwykły ruch: HTTP 200. Pomiary: `tmp/psi-T048-2026-08-19-1703.json` | R | 5 h* + 0,3 h |
 | OLX: treści, siatka 53 miejscowości, spięcie z Partner API | `data/olx/`, `scripts/olx/` — czeka wyłącznie na pakiet Premium po stronie AGRII | P | 5 h* |
 | Mockup kalkulatora z modułem Mg | `mockups/agria-kalkulator-mg-test-2026-08-18.html`, przekazany Kazimierzowi 18.08 | P | 5 h* |
 | Dostęp SSH do produkcji + WP-CLI | klucz `claude-agria-elara` wgrany 18.08, `~/secrets/agria/ssh.env` | R | 5 h* |
 | ADR dwie warstwy cen | `docs/decyzje/2026-08-19-dwie-warstwy-cen.md` | R | 5 h* |
 | Spec ofertownika | `docs/specs/2026-08-18-ofertownik-design.md` | W | 5 h* |
 | Porządek dokumentacji: `FAKTY_KLIENTA.md`, rejestr, rozbiórka `MASTER_PROMPT`, `CLAUDE.md` na wzorcu Primy/Victorini | commity `2109a2f`, `33fddef`, `a0b07b4` | R | 5 h* |
+| **T-008** — 8 atestów i kart charakterystyki Nordkalku na `/do-pobrania/` | Wdrożone 19.08 15:14. 8 PDF-ów wgranych FTP-em do `uploads/2026/08/`, **wszystkie HTTP 200**. Strona ID 731 zmieniona w **obu warstwach**: `_elementor_data` 14 478 → 13 138 B, `post_content` 36 782 → 35 599 B. Render (Chrome MCP): **22 karty produktu · 4 karty charakterystyki · 5 atestów**, 31 linków PDF, wszystkie 200. „Nordkalk" na froncie: 6 wystąpień (było 0). Backup: `agria-backups/przed-T-008-T-009-20260819-151022.sql` (17 tys. wierszy) | R | 2,5 h |
+| **T-009** — usunięcie sekcji „Certyfikaty" z `/do-pobrania/` | Wdrożone 19.08 15:14, jedną edycją z T-008. Front: **0 wystąpień „ertyfikat"** (było 7), 0 wystąpień „CEM/Dyckerhoff/ISO 9001". Sekcja zniknęła z nagłówkiem, bez pustej ramki. Znikł przy okazji duplikat linku (poz. 1 = poz. 2) i literówki w nazwach plików. **Atest OSChR i 4 karty charakterystyki nietknięte.** Strona: HTTP 200, 0,34 s; `/`, `/oferta/`, `/kontakt/`, `/kalkulator-wapnowania/` → 200 | R | z T-008 |
 
 **⚠️ M3 kończy się za 12 dni z trzynastoma pozycjami w kolejce „teraz", w tym z T-010 —
 zleceniem kompletnym, zaakceptowanym i niewykonanym od 12 dni.** To jest jedyna liczba,
