@@ -15,9 +15,14 @@ Wątek: SEO on-page dla agria.pl — ceny i nagłówki cenowe na kartach produkt
 Przeczytaj najpierw:
 - docs/sesje/2026-08-18-ads-dzien5-diagnoza.md (skąd się wziął ten wątek — sekcje 2 i 4)
 - docs/decyzje/2026-08-11-podzial-rol-ads-seo.md (dokąd wolno kierować ruch)
-- docs/operations/CEN_LISTA_URL_2026-08-13.md (cennik od Pawła, 15 pozycji)
-- memory: project_agria_ceny_strategia, project_agria_render_caching,
-  project_agria_architektura_kanalow, feedback_agria_bez_zargonu_loco
+- docs/decyzje/2026-08-19-dwie-warstwy-cen.md (JAK wchodzi cena — czytaj przed rozpiską)
+- docs/operations/CEN_LISTA_URL_2026-08-13.md (rozpiska per URL; sekcja B ma korektę z 19.08 —
+  pierwotnie mowila o cenie w WooCommerce, co jest juz nieaktualne)
+- docs/operations/CENNIK_PAWEL_2026-08-07.md (kwoty zrodlowe, 15 z 19 kart)
+- docs/REJESTR_ZOBOWIAZAN.md (pozycje CEN-01 i CEN-02) + docs/FAKTY_KLIENTA.md
+- memory: project_agria_dwie_warstwy_cen, project_agria_ceny_strategia,
+  project_agria_render_caching, project_agria_architektura_kanalow,
+  feedback_agria_bez_zargonu_loco
 
 
 PUNKT WYJŚCIA — ustalony 19.08, nie sprawdzaj od nowa
@@ -39,15 +44,36 @@ Płacimy za ruch, który odbija się od strony bez ceny.
 
 1. GDZIE WCHODZI CENA I W JAKIEJ FORMIE
 
-Rozstrzygnij i wykonaj — to jest decyzja marketingowa, więc podejmujemy ją my
-(MASTER_PROMPT, „Kto podejmuje decyzje marketingowe"):
-- czy widełki idą na karty produktów, na landingi Ads, czy na oba,
-- czy forma to „od X zł/t netto", przedział „X–Y zł/t", czy „od X zł/t przy dostawie
-  całosamochodowej",
-- czy powstaje osobna sekcja cenowa, czy cena wchodzi w istniejącą „Specyfikację techniczną".
+ROZSTRZYGNIĘTE 19.08 — NIE OTWIERAJ TEGO PONOWNIE (ADR docs/decyzje/2026-08-19-dwie-warstwy-cen.md):
+
+Ceny w tym projekcie zyja w DWOCH niezaleznych warstwach i nigdy nie byly ta sama cena.
+Ty robisz wylacznie warstwe A.
+
+  A. TRESC SEO (ten watek) — cena istnieje TYLKO jako tresc strony: <h2> z fraza cenowa
+     + akapit z widelkami, warunkiem dostawy i klauzula prawna. Cel: rankowac na klaster
+     cenowy. Wchodzi na karty produktow ORAZ na oba landingi Ads.
+
+  B. OFERTOWNIK (osobny watek, NIE dotykasz) — ceny w wariantach WooCommerce i w cenniku
+     wtyczki agria-ofertownik-by-auranet, rozne per zaklad, obłozone transportem.
+     NIEJAWNE. Ofertownik jest projektem wlasnym Auranet.
+
+Z tego wynikaja trzy zakazy, ktorych zlamanie psuje warstwe B:
+- NIE ustawiasz _price w WooCommerce. Karty zostaja w trybie katalogu (dzis 19/19 bez ceny).
+- NIE tworzysz wariantow ani atrybutow cenowych.
+- Schema Product/offers budujesz RECZNIE, odzwierciedlajac to, co napisales w tresci —
+  nie zaciagasz jej z _price, wariantow ani atrybutow. Karta emituje dzis Product
+  z 18 PropertyValue i ZEREM offers (sprawdzone 19.08 na /wapno-nawozowe-rolnictwo/agrobielik-70/),
+  wiec miejsce jest puste. Sposob wstawienia (custom schema Rank Matha vs wlasny JSON-LD
+  w agria-by-auranet z wyciszeniem automatu) — to jedyna rzecz do rozstrzygniecia tutaj.
+
+Do decyzji zostaje wylacznie forma redakcyjna: czy „od X zl/t netto" czy „X–Y zl/t",
+i czy powstaje osobna sekcja cenowa czy cena wchodzi w istniejaca „Specyfikacje techniczna".
 
 Twarde ograniczenia, których nie negocjujemy:
-- NIGDY ceny za worek ani za 25 kg — pozycjonowanie „dostawca całosamochodowy, nie sklep"
+- NIGDY ceny za sztuke worka — WYLACZNIE przeliczenia na tone (decyzja Janka 19.08).
+  Pawel podal ceny workowe i w tym samym mailu z 07.08 napisal „na ten moment nie bedziemy
+  prowadzic sprzedazy po worku"; „11,50 zl za worek 20 kg" dziala odwrotnie niz filtr,
+  ktory miala pelnic cena tonowa. Pozycjonowanie: „dostawca calosamochodowy, nie sklep"
   (memory project_agria_ads_kampanie_zywe),
 - NIGDY progu ilościowego („minimum 24 t") — prośba Pawła przy STR-02,
 - ZERO żargonu: nie „loco magazyn", tylko „cena za towar, bez transportu"
