@@ -32,7 +32,7 @@ cd agria
 claude
 ```
 
-Claude przeczyta `CLAUDE.md` przy starcie → następnie zaczyna od `docs/MASTER_PROMPT.md` (tożsamość operacyjna) i `docs/PROJECT_STATE.md` (bieżący stan).
+Claude przeczyta `CLAUDE.md` przy starcie → następnie `docs/REJESTR_ZOBOWIAZAN.md` (co zlecone i niezamknięte). `docs/FAKTY_KLIENTA.md` otwiera, gdy temat dotyka oferty, cen, ludzi lub ustaleń handlowych.
 
 ### Praca z dokumentacją bez Claude'a
 

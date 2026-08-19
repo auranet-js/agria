@@ -18,8 +18,8 @@
 |---|---|---|
 | Nazwa | AGRIA Sp. z o.o. | KRS |
 | KRS / NIP | 0000170666 / 8730006657 | raport M2, ścieżka odzysku GBP |
-| Od kiedy | **1989 r.** — 37 lat, trzy pokolenia, firma rodzinna | katalog drukowany, `MASTER_PROMPT.md` |
-| Centrala | Tarnów, ul. Warsztatowa 5 | `MASTER_PROMPT.md` |
+| Od kiedy | **1989 r.** — 37 lat, trzy pokolenia, firma rodzinna | katalog drukowany 2026-05 (str. firmowe) |
+| Centrala | Tarnów, ul. Warsztatowa 5 | katalog drukowany 2026-05, stopka agria.pl |
 | Magazyny własne | **Niedomice** (33-132), **Radgoszcz** | jw. |
 | Branża | surowce wapniowe i mineralne, sprzedaż **hurtowa i detaliczna** | oferta handlowa AGRII |
 | Marki | **Agrobielik** (wapno tlenkowe), **Bielik** (hydratyzowane) — **to marki Nordkalku, nie AGRII** | SERP 19.08: `agrobielik` → osadkowski.pl, nordkalk-wapno.pl, agrotrzcina.pl, agria.pl (poz. 4), allegro, ceneo, olx |
@@ -93,18 +93,19 @@ słowo „cena” w treści w 0/19. Patrz `REJESTR_ZOBOWIAZAN.md` → CEN-01.
 
 ## 4. Producenci i relacja
 
-**W bazie jest dziesięciu producentów, nie dwóch.** `MASTER_PROMPT.md` wymienia „Nordkalk (Sitkówka)
-i Trzuskawica" — **Trzuskawicy nie ma w danych produktowych ani razu**, a Lhoist, którego MASTER_PROMPT
-nie wymienia, ma najwięcej pozycji.
+**W bazie jest dziesięciu producentów, nie dwóch.** Wcześniejszy `MASTER_PROMPT.md` (usunięty 19.08.2026)
+wymieniał „Nordkalk (Sitkówka) i Trzuskawica" i był czytany pierwszy w każdej sesji — **Trzuskawicy nie ma
+w danych produktowych ani razu**, a Lhoist, którego tamten plik nie wymieniał, ma najwięcej pozycji.
+Ta tabela jest jedynym źródłem.
 
 | Producent | Ile produktów | Uwaga |
 |---|---|---|
-| **Lhoist** | 6 | najliczniejszy, nieobecny w MASTER_PROMPT |
+| **Lhoist** | 6 | najliczniejszy, nieobecny w usuniętym MASTER_PROMPT |
 | **Nordkalk** | 5 | marki Agrobielik i Bielik, zakład Sitkówka; karty produktowe CL 90-S / CL 90-Q |
 | **Grankal** | 3 | |
 | Celiny (Hochel Group) | 3 | osobno istnieje term „Kopalnia Celiny” (1) — duplikat do sprzątnięcia |
 | Siarkopol, KZK Kornica, Kopalnia Drugnia, Jażwica (Industria), Laskowa, Winna (Industria) | po 1 | |
-| **Trzuskawica** | **0** | wymieniona w MASTER_PROMPT, brak w danych. Karty dostawcy na `/do-pobrania/` są Trzuskawica/Kujawy — to materiały, nie przypisanie produktu |
+| **Trzuskawica** | **0** | wymieniana w usuniętym MASTER_PROMPT, brak w danych. Karty dostawcy na `/do-pobrania/` są Trzuskawica/Kujawy — to materiały, nie przypisanie produktu |
 
 **AGRIA jest dostawcą, nie producentem surowca.** Agrobielik i Bielik to produkty Nordkalku sprzedawane
 przez wielu dystrybutorów — AGRIA jest jednym z nich (SERP 19.08).

@@ -1,219 +1,162 @@
-# CLAUDE.md — projekt AGRIA Sp. z o.o.
+# CLAUDE.md — AGRIA (agria.pl)
 
-> Plik startowy dla Claude Code. Czytany automatycznie przy każdej sesji w tym repo.
-> Wersja: 1.0 (2026-05-19, restrukturyzacja repo z surowych materiałów)
-
----
-
-## Czym jest ten projekt
-
-Repozytorium robocze i baza wiedzy dla projektu **AGRIA Sp. z o.o.** — rodzinnej firmy z **37-letnią tradycją** (od 1989 r., trzy pokolenia) w branży surowców wapniowych i mineralnych. Marka **Agrobielik** (wapno tlenkowe), **Bielik** (hydratyzowane), **AGRIA** (firma).
-
-Segmenty: rolnictwo + sadownictwo, rybactwo, oczyszczalnie ścieków, budownictwo, drogownictwo, hurtownie, paszarstwo.
-
-**Wykonawca:** Auranet (Tarnów). **Klient:** AGRIA Sp. z o.o. (centrala Tarnów ul. Warsztatowa 5, magazyny operacyjne Niedomice + Radgoszcz).
-
-**Status handlowy:** Auranet zbudował identyfikację, stronę, ulotkę i katalog drukowany (Faza I). Teraz domyka pakiet utrzymaniowo-rozwojowy **~2 000 PLN netto / mies × 6 mies**, etap zerowy = **audyt techniczny + on-page SEO na koszt Auranet** jako baseline pod ofertę.
-
-Repo zawiera **dokumentację, strategię, audyty, plany prac i materiały marketingowe** — nie kod produkcyjny strony (agria.pl stoi na nazwa.pl).
+> **Repo:** `agria` (GitHub: `auranet-js/agria`) | **Wersja:** 2.0 (2026-08-19)
+> **Uzupełnia:** `~/.claude/CLAUDE.md` (globalny) + `~/projekty/CLAUDE.md` (cross-project)
+>
+> Ten plik trzyma **fakty operacyjne**: gdzie stoi produkcja, czym się do niej dostać, czego nie ruszać.
+> **Nie trzyma stanu prac ani listy zadań** — od tego jest `docs/REJESTR_ZOBOWIAZAN.md`.
 
 ---
 
-## Twoja rola w tym projekcie
+## 1. Co to za projekt
 
-Tożsamość operacyjna Claude'a definiuje **`docs/MASTER_PROMPT.md`** — przeczytaj go **przed pierwszą merytoryczną odpowiedzią w każdej sesji**.
+**AGRIA Sp. z o.o.** — firma rodzinna od 1989 r., surowce wapniowe i mineralne, sprzedaż hurtowa B2B.
+Centrala Tarnów (Warsztatowa 5), magazyny Niedomice i Radgoszcz. **Auranet jest jej działem marketingu**
+— stronę zbudowaliśmy my, prowadzimy ją na retainerze 2 000 netto/mies (+ Ads i OLX osobno).
 
-W skrócie: jesteś **strategiem marketingu B2B w branży surowcowej**, działającym jak Fractional CMO firmy tradycyjnej (nie agencji). Każda rekomendacja musi:
-- pasować do realnej oferty AGRIA (zakres zamknięty w MASTER_PROMPT),
-- być wdrażalna operacyjnie (logistyka, sezonowość, magazyny),
-- wspierać sprzedaż B2B / instytucjonalną, nie lifestyle.
-
-**Cross-project zasada Auranet:** komunikacja firmowa do klientów wychodzi **wyłącznie do Janka na `js@auranet.com.pl`** — nigdy bezpośrednio do klienta. Drafty maili, raporty miesięczne, oferty, follow-upy lecą do gate'a Janka, on przekazuje. To dotyczy też SMTP w pluginach WP, n8n, cronów.
+Fakty o produktach, cenach, ludziach i ustaleniach handlowych: **`docs/FAKTY_KLIENTA.md`**.
+Nie zgaduj i nie dopytuj Janka, zanim tam nie zajrzysz.
 
 ---
 
-## Stan faktyczny (sierpień 2026)
+## 2. Środowisko
 
-- Strona **agria.pl** działa na **WordPress 7.0.4 + WooCommerce 10.9.3**, motyw `Agria By Auranet 2.0.0`, PHP 8.3.33, hosting nazwa.pl (server371853), db_prefix `wpfz_`. Wersje sprawdzaj przez MCP `status` — zmieniają się między sesjami.
-- **19 produktów WooCommerce** opublikowanych — z tego 17 ma karty w realizowanym katalogu drukowanym (PDF 24str z 2026-05-04). SKU `AGR-001`…`AGR-018` przy 18 z 19; brak przy ID 303 (Kreda czarna jeziorna). **Ceny `_price` puste przy wszystkich** — tryb katalogu.
-- Pluginy aktywne: Elementor + Pro 3.35, JetSmartFilters, RankMath SEO + Pro, Premmerce Permalink Manager, UpdraftPlus, sierotki (Orphans).
-- Materiały drukowane: katalog 24 stron (17 kart produktów + 7 stron firmowych) — produkcja, ulotka DL (gotowa 2026-05-18), wizytówki w produkcji, folder gotowy.
-- Identyfikacja wizualna: **paleta Elementor Global Colors** (główny `#354E33`, akcent `#61CE70`), fonty **Plus Jakarta Sans + Bai Jamjuree**. Stara paleta `#1B4D3E + #9ACD32` z briefu z lutego 2026 **wycofana** — pozostała w `assets/print/catalog/HISTORICAL_BRIEF_2026-02-05.txt`.
-
-**Mapa niespójności PDF ↔ WC ↔ specy planistyczne:** `docs/catalog/CATALOG_VS_WC_GAP.md` — kluczowy dokument do pracy z katalogiem.
-
----
-
-## Mapa repo
-
-| Katalog | Co tam leży |
+| Parametr | Wartość |
 |---|---|
-| `docs/` (korzeń) | `MASTER_PROMPT.md` — tożsamość Claude'a, czytana pierwsza; `PROJECT_STATE.md`; prompt startowy bieżącego miesiąca |
-| `docs/ads/` | Google Ads — setup kampanii, stawki, harmonogram |
-| `docs/audits/` | deliverables audytowe — baseline, audyt treści, keyword research, plan on-page |
-| `docs/brand/` | identyfikacja wizualna |
-| `docs/catalog/` | katalog drukowany — spec, mapping produktów, reguły ExtendScript, mapa niespójności PDF↔WC |
-| `docs/decyzje/` | ADR, `YYYY-MM-DD-temat.md` |
-| `docs/offers/` | oferty i rozpiski klient-facing |
-| `docs/operations/` | dane operacyjne od AGRII i z rynku — cenniki, inwentaryzacje OLX, konkurencja |
-| `docs/prompty/` | prompty startowe pod konkretne wątki |
-| `docs/przypomnienia/` | zrzuty kontekstu pod przypominajkę kalendarzową |
-| `docs/raporty/` | raporty miesięczne dla klienta |
-| `docs/seo/` | plany, baseline, keywords, sezonowość |
-| `docs/sesje/` | domknięcia wątków |
-| `docs/specs/` | specy projektowe nowych narzędzi |
-| `docs/strategy/` | strategia, budżet, KPI |
-| `docs/technical/` | infrastruktura, MCP |
-| `assets/` | binaria i materiały gotowe — `brand/`, `print/catalog/`, `print/ulotka-dl/`, `offers/` |
-| `data/` | dane robocze skryptów — dziś `olx/` (siatka miast, plan ogłoszeń, snapshoty rynku) |
-| `mockups/` | makiety HTML — landingi i kalkulatory pokazywane klientowi przed wdrożeniem |
-| `scripts/` | skrypty — `olx/` (siatka, publikacja przez API), GSC, baseline SEO |
-| `src/` | kopie referencyjne kodu z produkcji — `plugins/agria-by-auranet/`, `mcp/` |
+| Domena | `agria.pl` |
+| Hosting | **nazwa.pl** — `server371853.nazwa.pl` (NIE Elara/Hostido) |
+| Root WP | **`~/agria.pl`** = `/home/server371853/ftp/agria.pl` |
+| WordPress / WooCommerce | 7.0.4 / 10.9.3 — **sprawdzaj przez MCP `status`**, zmienia się między sesjami |
+| PHP | 8.3.33 |
+| DB prefix | **`wpfz_`** (nigdy `wp_`) |
+| Motyw | `Agria By Auranet` 2.0.0 |
+| Builder | Elementor + Elementor Pro 3.35 |
+| SEO | Rank Math + PRO |
+| Inne wtyczki | JetSmartFilters, Premmerce Permalink Manager, UpdraftPlus, Orphans (sierotki) |
+| CDN | nazwa.pl — **każda zmiana wymaga cache-bustu**, patrz §4 |
 
-W korzeniu repo: `CLAUDE.md` (ten plik) i `README.md`.
+**Katalog domowy to już `ftp`** — `~` wskazuje na `/home/server371853/ftp`, więc ścieżki `~/ftp/...`
+trafiają w próżnię.
 
-**Source-of-truth dla struktury = filesystem.** Ta tabela mówi, *co gdzie trzymamy*, i nie wylicza
-plików — te sprawdzaj przez `ls` / `find`. Poprzednia wersja była drzewem katalogów z nazwami
-plików i zdezaktualizowała się dwukrotnie (maj → sierpień 2026: przybyło siedem katalogów
-w `docs/` i cztery w korzeniu, żaden nie trafił do wydruku).
+### Cztery kanały dostępu
 
----
+| Kanał | Do czego | Czego NIE zrobi |
+|---|---|---|
+| **SSH** `ssh agria-prod` | powłoka, **WP-CLI 2.4.0** (`/usr/local/sbin/wp`, wymaga `--path=~/agria.pl`), masowe operacje, migracje | — |
+| **MCP `agria`** `mcp__agria__*` | szybki odczyt i zapis, `query_db`, `logs`, `db_export`, `wc_product_attributes` | WP-CLI |
+| **FTP** (plain, nie SFTP) | root WP łącznie z **`.htaccess`** — przekierowania i nagłówki | WP-CLI, DB-write |
+| **Chrome MCP** | front i panel oczami klienta — **weryfikacja renderu**, patrz §4 | — |
 
-## Zasady struktury
+Sekrety: `~/secrets/agria/` (`ssh.env`, `ftp.txt`, `netrc`, `olx.txt`). Klucz SSH `claude-agria-elara`
+(ed25519), odcięcie = usunięcie jednej linii w panelu nazwa.pl.
 
-Ustalone przy restrukturyzacji 2026-05-19, obowiązują dalej:
-
-1. **`docs/` trzyma dokumenty, `assets/` materiały gotowe.** W `docs/` markdown, a wyjątkowo
-   HTML tam, gdzie dokument jest rozpiską do pokazania klientowi. W `assets/` binaria i pliki
-   finalne: logo, PDF-y drukarskie, zdjęcia, makiety wysłane klientowi.
-2. **`docs/<dziedzina>/`** zamiast płaskiej listy — kategoria wynika z tego, do czego dokument
-   służy, nie z tego, kiedy powstał.
-3. **`assets/print/<materiał>/`** — każdy materiał drukowany ma własny folder z plikami
-   źródłowymi i finalnymi.
-4. **Katalog zakładamy dopiero wtedy, gdy ma co przyjąć.** Puste foldery to drift.
-5. **`docs/catalog/CATALOG_VS_WC_GAP.md`** — mapa niespójności między katalogiem drukowanym,
-   WooCommerce i planami. Dokument historyczny: pokazuje, co się kiedy rozjechało, i **nie jest
-   listą braków w ofercie** (patrz memory `project_agria_catalog_decisions`).
-
-## Narzędzia
-
-### SSH + WP-CLI (główne narzędzie do produkcji)
-
-```
-ssh agria-prod           # alias w ~/.ssh/config, klucz ~/secrets/agria/ssh/id_ed25519
-```
-
-Konto `server371853@server371853.nazwa.pl:22`, klucz `claude-agria-elara` (ed25519, bez hasła)
-wgrany do panelu nazwa.pl 18.08.2026. Dane: `~/secrets/agria/ssh.env`. Odcięcie = usunięcie
-jednej linii z listy kluczy w panelu.
-
-**Katalog domowy to już `ftp`** — `~` wskazuje na `/home/server371853/ftp`, więc ścieżki
-w rodzaju `~/ftp/...` trafiają w próżnię. WordPress stoi w **`~/agria.pl`** (tam `wp-config.php`,
-`wp-admin/`, `wp-content/`, a także `mcp/`).
-
-**WP-CLI 2.4.0** (`/usr/local/sbin/wp`, PHP 8.3.33). Wymaga `--path`:
-
-```
-wp core version --path=~/agria.pl
-wp plugin list --path=~/agria.pl
-```
-
-To jedyne narzędzie dające pełne WP-CLI — MCP i FTP tego nie zrobią. Ma pierwszeństwo
-przy operacjach na WordPressie: masowe zmiany, wtyczki, cache, eksport, migracje.
-
-**Sesje dawaj zbiorczo, nie po jednym poleceniu.** Przy diagnostyce składaj cały skrypt
-i wysyłaj przez `ssh agria-prod 'bash -s' <<'EOF'`, z `timeout N` na każdej komendzie
-osobno. Pojedyncze wywołania potrafiły wisieć bez wyraźnej przyczyny; skrypt zbiorczy
-z limitami czasu przechodzi.
-
-### MCP `agria` (read **i write**, live na produkcji)
-
-Toole pod prefiksem `mcp__agria__*`, wtyczka token-gated (`X-MCP-Token`). Build 2.0.1
-z hakiem `mcp-ext.php`; rozszerzenie ext-1.2 z 14.07.2026.
-
-**Odczyt:** `status` (wersje PHP/WP/WC, motyw, prefix) · `wc_products_list` · `wc_product`
-(surowe dane po ID) · `wc_options` · `query_db` (SELECT) · `read_file`, `list_dir` ·
-`plugins_list` · `stats` · `logs`
-
-**Zapis:** `update_post_content` · `update_postmeta` · `query_db_write` ·
-`wc_product_attributes` (get/set — pusta lista **usuwa** atrybut z `_product_attributes`) ·
-`write_file` · `backup_file` · `db_export` (zrzut tabel poza web root) · `cron`
-
-Zapis idzie **prosto na produkcję** — każda operacja pisząca po zgodzie Janka w czacie.
-Przed większą zmianą: `backup_file` albo `db_export`.
-
-`catalog_product` (produkt sparsowany pod katalog drukowany) **zgubiony** przy przebudowie
-na build zadaniowy — był w pierwszej wersji, nie ma go dziś. Pełna spec: `docs/technical/MCP_TOOLS.md`
-(uwaga: ten dokument opisuje jeszcze stan read-only).
-
-### FTP nazwa.pl
-
-Plain FTP (nie SFTP), dane w `~/secrets/agria/ftp.txt` + `netrc`. Pełny odczyt i zapis na
-root WordPressa łącznie z `.htaccess` — odblokowuje przekierowania i nagłówki bezpieczeństwa
-bez czyjejkolwiek pomocy. **Nie daje** wykonywania WP-CLI.
-
-### Git / GitHub
-
-- Repo: `git@github.com:auranet-js/agria.git`
-- Branch domyślny: `main`
-- Convention commitów: `[obszar] krótki opis` po polsku (np. `[docs] mapa niespójności PDF↔WC`, `[feat] schema Product na produktach WC`)
-- Branche tematyczne: `feature/seo-audit-q2-2026`, `audit/...`, `offer/...`
+**Sesje SSH dawaj zbiorczo**, nie po jednym poleceniu — `ssh agria-prod 'bash -s' <<'EOF'` z `timeout N`
+na każdej komendzie. Pojedyncze wywołania potrafią wisieć; skrypt zbiorczy z limitami przechodzi.
 
 ---
 
-## Jak pracować w tym repo
+## 3. MCP `agria` — pełen zakres
 
-1. **Lista wejściowa — obowiązkowa, w tej kolejności, ZANIM cokolwiek doradzisz.** Prompt startowy
-   wątku dobiera lekturę pod temat i tego nie zastępuje — te cztery pliki czytasz zawsze, niezależnie
-   od tego, czym wątek się zajmuje:
-   1. **`docs/MASTER_PROMPT.md`** — tożsamość operacyjna, nie negocjowana;
-   2. **`docs/REJESTR_ZOBOWIAZAN.md`** — co zlecone i jeszcze niezamknięte, na siedmiu liniach usługowych.
-      **Zanim zaproponujesz cokolwiek nowego, sprawdź, czy nie stoi tam to samo, zlecone i niezrobione.**
-      Sekcja „Unieważnione" mówi, czego NIE proponować (landingi organiczne, huby segmentowe);
-   3. **`docs/PROJECT_STATE.md`** — stan wątków i kontekst „dlaczego tak";
-   4. **`docs/FAKTY_KLIENTA.md`** — produkty, producenci, ceny, ludzie, ustalenia handlowe
-      i komunikacyjne, każdy fakt z datą i źródłem. **Zanim zapytasz Janka o cokolwiek dotyczącego
-      klienta, sprawdź, czy nie stoi to tam.** Sekcja „Czego nie wiemy" mówi, co wolno dopytać.
+Wtyczka token-gated (`X-MCP-Token`), build 2.0.1 + hak `mcp-ext.php`, rozszerzenie ext-1.2.
 
-   Fakty handlowe **nie są wiedzą wątkową** — obowiązują niezależnie od tego, czy wątek dotyczy Ads,
-   OLX-a, SEO czy ofertownika. Źródła surowe: `docs/operations/CENNIK_PAWEL_2026-08-07.md` (cennik
-   od Pawła) i `docs/operations/CEN_LISTA_URL_2026-08-13.md` (rozpiska cen per URL).
-2. **Sprawdź MCP `status`** zanim cokolwiek powiesz o produkcji — stan zmienia się między sesjami.
-3. **Nie zmieniaj danych w bazie produkcyjnej bez wyraźnej zgody w czacie.** MCP ma zapis od czerwca 2026 (`update_post_content`, `update_postmeta`, `query_db_write`, `write_file`, `wc_product_attributes`) i idzie prosto na produkcję — zgoda Janka per operacja, `backup_file` albo `db_export` przed większą zmianą.
-4. **Sekrety nie idą do repo.** `wp-config.php`, `.env`, klucze API, hasła FTP — nigdy. Trzymane lokalnie u operatora.
-5. **Język dokumentacji: polski.** Identyfikatory, klucze, kod — angielski/oryginalny gdzie naturalny.
-6. **Branch dla większych zmian** (`feature/...`), drobne na `main` bezpośrednio.
-7. **Commit / push** — wykonujesz wtedy, gdy Janek wyraźnie poprosi. Drobne automaty (jeden plik, oczywiste) możesz zaproponować + zrobić; większe zmiany cross-doc — zawsze po „ok".
-8. **Drop na auratest** (zgodnie z globalnym CLAUDE.md sekcja 11): gdy generujesz coś do oceny merytorycznej (raport, draft oferty, eksport), wrzuć **proaktywnie** do `~/domains/auratest.pl/public_html/fe4f58fec53ctmp/<klient>-<typ>-YYYY-MM-DD.<ext>` i podaj URL `https://auratest.pl/fe4f58fec53ctmp/...`. Drobne zmiany w kodzie repo czytane w terminalu/Sublime — bez drop.
-9. **Komunikacja firmowa do klienta** → wyłącznie przez Janka (`js@auranet.com.pl`). Patrz globalny CLAUDE.md sekcja 13 + `feedback_never_email_clients_directly`.
+**Odczyt:** `status` · `wc_products_list` · `wc_product` · `wc_options` · `query_db` (SELECT) ·
+`read_file` · `list_dir` · `plugins_list` · `stats` · `logs`
+**Zapis:** `update_post_content` · `update_postmeta` · `query_db_write` · `wc_product_attributes`
+(get/set — **pusta lista usuwa** atrybut z `_product_attributes`) · `write_file` · `backup_file` ·
+`db_export` (zrzut tabel poza web root) · `cron`
+
+`catalog_product` **zgubiony** przy przebudowie na build zadaniowy — nie ma go dziś.
+Spec: `docs/technical/MCP_TOOLS.md` (opisuje jeszcze stan read-only).
 
 ---
 
-## Co teraz robimy
+## 4. Strefy kruche — nie ruszaj bez diagnozy
 
-Nie trzymamy tego w tym pliku — statyczna lista priorytetów rozjeżdża się z rzeczywistością
-tak samo jak drzewo katalogów. Bieżący stan i następny ruch:
-
-- **`docs/REJESTR_ZOBOWIAZAN.md`** — co zlecone i niezamknięte, per linia usługowa, ze statusem i dowodem;
-- **`docs/PROJECT_STATE.md`** — stan wątków i kontekst decyzji;
-- **`docs/PROMPT_M3_START_2026-08.md`** — prompt startowy bieżącego miesiąca;
-- **`git log --oneline -20`** — co faktycznie wytworzone.
-
-**Uwaga na granicę między dwoma ostatnimi.** Globalna reguła „wyprowadzaj stan z `git log`, nigdy
-z ręcznie utrzymywanej listy" mówi prawdę o tym, co **napisaliśmy**, i milczy o tym, co **zlecone
-i niezrobione** — commit opisuje wytworzony artefakt, nie stan obowiązku. Rozpiska do wykonania
-commituje się identycznie jak wykonanie (dowód: `5c35591` wymienia `CEN_LISTA_URL` obok rzeczy
-faktycznie wdrożonych, a ceny na stronie nie stanęły). Dlatego wymiar statusu trzyma
-`REJESTR_ZOBOWIAZAN.md` i **commit zamykający pozycję aktualizuje jej wiersz w tym samym commicie.**
+1. **Parametry produktu żyją w czterech warstwach naraz**: atrybuty `pa_*` (często niewidoczne na froncie),
+   tabela w `post_content`, tabela w `_elementor_data`, meta SEO. Zmiana w jednej nie przechodzi
+   na pozostałe. **Weryfikuj RENDER przez Chrome MCP, nie bazę.**
+2. **Elementor cache** — `_elementor_element_cache` trzyma stary HTML. Czyść na `a:0:{}`.
+   Strony **307 / 310 / 320 renderują z `_elementor_data`, NIE z `post_content`** — edycja treści
+   posta nic tam nie zmienia.
+3. **Sitemapa RankMath cache'uje się w PLIKACH** `uploads/rank-math/*.xml` — nie w bazie.
+   Usuwanie przez FTP.
+4. **CDN nazwa.pl** — po każdej zmianie cache-bust, inaczej weryfikujesz stan sprzed godziny.
+5. **`_price` puste we wszystkich 19 produktach to DECYZJA, nie brak.** Tryb katalogu. Ceny mają
+   **dwie niezależne warstwy** (treść SEO vs ofertownik) — `docs/FAKTY_KLIENTA.md` §7 i ADR
+   `docs/decyzje/2026-08-19-dwie-warstwy-cen.md`. **Nie ustawiaj `_price` ani wariantów pod publikację.**
+6. **Landingi buduj z gotowego wzorca** — obejrzyj działającą stronę przez Chrome MCP i powiel strukturę.
+   Surowy HTML w `post_content` renderuje się bez layoutu (`/wapno-granulowane/` stał pusty tydzień
+   z reklamami wycelowanymi na niego).
 
 ---
 
-## Co zostało zrobione w restrukturyzacji 2026-05-19
+## 5. Czego NIE wolno bez pytania
 
-- Rozpakowane archiwum bootstrapowe (`agria-repo-content.tar.gz/.zip`), bootstrap pliki usunięte (`SETUP_INSTRUCTION.md` + archiwa).
-- Pliki binarne przeniesione do `assets/<dziedzina>/`. Logo do `assets/brand/`, PDF + JSX + TXT brief do `assets/print/catalog/`, ulotka DL do `assets/print/ulotka-dl/`.
-- 18 markdownów przeczytanych + porównanych z PDF (przez `pdftotext`) + ulotką (przez `magick resize` → multimodal read).
-- Live MCP zapytany — 19 produktów potwierdzonych, 10 pluginów, motyw `Agria By Auranet 2.0.0`.
-- Wykryte i udokumentowane niespójności PDF ↔ WC ↔ spec → `docs/catalog/CATALOG_VS_WC_GAP.md` (kluczowy nowy dokument).
-- `TREE.md` usunięty (auto-dezaktualizujący się duplikat `ls`).
-- CLAUDE.md, README.md, .gitignore napisane od nowa.
+- **Pisać do produkcji** — MCP idzie prosto na żywą stronę. Zgoda Janka **per operacja**,
+  `backup_file` albo `db_export` przed większą zmianą.
+- Ustawiać cen w WooCommerce (`_price`, warianty) — patrz §4 pkt 5.
+- Zgłaszać URL-e do **Google Indexing API** inaczej niż przez `~/bin/index-submit` (wspólna pula 200/dobę
+  na wszystkie projekty, globalny CLAUDE.md §10a).
+- Modyfikować `.htaccess` — pokaż diff, czekaj na „ok".
+- Wysyłać cokolwiek do klienta. **Wszystko przez Janka na `js@auranet.com.pl`**, kanał `~/bin/send-to-jan`.
+- Publikować cen ofertownika w jakiejkolwiek formie (front, REST, feed, schema).
+
+---
+
+## 6. Kolejka zadań
+
+**Jedna i jedyna lista: [`docs/REJESTR_ZOBOWIAZAN.md`](docs/REJESTR_ZOBOWIAZAN.md).**
+Nie prowadź listy tutaj i nie wyprowadzaj statusu z `git log` — commit opisuje **wytworzony artefakt**,
+nie stan obowiązku. Rozpiska do wykonania commituje się identycznie jak wykonanie.
+
+W rejestrze: **KOLEJKA** (teraz / czeka na AGRIĘ / zaplanowane) + **DZIENNIK** miesięczny pod raport.
+Numeracja `T-NNN`. Sekcja **„Unieważnione"** mówi, czego NIE proponować.
+**Commit zamykający pozycję aktualizuje jej wiersz w tym samym commicie.**
+
+---
+
+## 7. Brand i komunikacja — skrót
+
+- **Marki:** `Agrobielik` (wapno tlenkowe), `Bielik` (hydratyzowane), `AGRIA` (firma).
+  Agrobielik i Bielik to **produkty Nordkalku**, AGRIA jest dystrybutorem — nie producentem.
+- **Głos:** fakty, parametry, zastosowania. B2B surowcowe, zero lifestyle'u i marketingowej nowomowy.
+- **Zero żargonu** — odbiorcą jest rolnik, nie spedytor. Zamiast „loco magazyn" → „cena za towar,
+  bez transportu". Dotyczy też MOQ, franco, EXW, HDS.
+- **Nie krytykujemy stanu strony** w komunikacji do klienta — zbudował ją Auranet.
+  Framing rozwojowy: „uruchamiamy / wzmacniamy / optymalizujemy".
+- **Auranet decyduje** o kampaniach, treściach i priorytetach; klient o budżecie i faktach handlowych.
+  Maile w trybie oznajmującym, opt-out zamiast opt-in.
+- **Parametry produktów wyłącznie z kart producentów** (Nordkalk, Lhoist) i rozporządzeń — nigdy
+  z rozumowania. 17 kart leży publicznie na `/do-pobrania/`.
+- **Landingi tylko jako cele Ads, poza indeksem** — kanibalizacja zmierzona (ADR 2026-08-11).
+  Organik idzie treścią.
+
+Reszta reguł ładuje się z memory (`feedback_agria_*`) — nie duplikuj ich tutaj.
+
+---
+
+## 8. Kontakty
+
+| Kto | Rola | Jak |
+|---|---|---|
+| **Paweł Bigos** | główny kontakt operacyjny, akceptuje zmiany | **telefon Janka**, nie mail — 664 393 062 |
+| **Kazimierz Nowak** | merytoryka: kalkulator, treści OLX | mail + telefon — 781 875 411 |
+| **Kasjan** | decyzja o budżecie | **nie kontaktujemy się bezpośrednio** |
+| Auranet (Janek) | prowadzenie projektu | js@auranet.com.pl |
+
+---
+
+## 9. Konwencja commitów i struktura
+
+Format `[obszar] krótki opis` po polsku. Obszary: `docs`, `feat`, `fix`, `content`, `seo`, `ads`,
+`olx`, `chore`. Branch domyślny `main`, większe zmiany na `feature/...`.
+
+| Katalog | Co tam |
+|---|---|
+| `docs/` | dokumentacja — `REJESTR_ZOBOWIAZAN.md`, `FAKTY_KLIENTA.md` w korzeniu, reszta w `docs/<dziedzina>/` |
+| `assets/` | binaria i materiały gotowe — brand, druk, oferty |
+| `src/` | kopie referencyjne kodu z produkcji (`plugins/`, `mcp/`) — **snapshoty, nie źródło prawdy** |
+| `scripts/`, `data/`, `mockups/` | skrypty, dane robocze, makiety HTML |
+
+**Source of truth dla kodu = serwer**, nie `src/`. Przed pracą sprawdź aktualność przez MCP `read_file`.
+**Source of truth dla struktury = filesystem** — powyższa tabela mówi, co gdzie trzymamy, nie wylicza plików.

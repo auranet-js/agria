@@ -9,7 +9,7 @@
 ## 0. Zanim cokolwiek zrobisz — wczytaj stan i ZWERYFIKUJ GO NA ŻYWO
 
 1. **Memory projektu:** `~/.claude/projects/-home-host476470-projekty-agria/memory/MEMORY.md`, obowiązkowo `project_agria_start_here_m2`, `project_agria_ads_sezonowosc`, `project_agria_render_caching`, `project_agria_mcp_writebuild`, `feedback_agria_prefer_mcp_curl_allowlisted`, `feedback_agria_no_self_criticism_built_site`.
-2. **Tożsamość:** `docs/MASTER_PROMPT.md` — w szczególności sekcja **„Kto podejmuje decyzje marketingowe"**. Auranet JEST działem marketingu AGRII. Decyzje marketingowe podejmujemy my, klienta pytamy wyłącznie o fakty produktowe.
+2. **Tożsamość:** ładuje się z memory `feedback_agria_auranet_decyduje` + `CLAUDE.md` §7. Auranet JEST działem marketingu AGRII. Decyzje marketingowe podejmujemy my, klienta pytamy wyłącznie o fakty produktowe. (`docs/MASTER_PROMPT.md` usunięty 19.08.2026 — dublował globalny CLAUDE.md i podawał nieaktualnych producentów.)
 3. **Repo:** `docs/raporty/2026-07.md` (raport M2 — pełna diagnoza), `docs/offers/2026-08-PLAN_ADS_3MIES.md` (co obiecaliśmy klientowi), `docs/seo/BACKLOG_SEZON_2026-07-14.md` (bloki A–F), `docs/seo/ROZPISKA_INTENCJA_WOLUMENOWA_2026-07-14.md`.
 4. **Commity:** `git log --since=2026-07-25 --pretty=format:'%ad %h %s' --date=short`.
 
