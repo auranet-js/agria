@@ -43,8 +43,8 @@ drogowego). Decyzja Janka 15.06 — memory `project_agria_catalog_decisions`. Dr
 | **Paweł Bigos** | główny kontakt operacyjny, akceptuje zmiany na stronie, przysyła cenniki i materiały | **telefon Janka, nie mail.** Nie pisać draftów z frameworkami klasyfikacji (A/B/C/D) — agencyjna formalizacja jest nieadekwatna. Tel. **664 393 062** | memory `feedback_agria_pawel_relacja_telefoniczna`; numery z maila 01.07 |
 | **Kazimierz Nowak** | strona merytoryczna — dane do kalkulatora, treści ogłoszeń OLX | mail + telefon. Tel. **781 875 411** (Radgoszcz) | mail 18.08 (kalkulator, poprawki OLX) |
 | **Kasjan** | decyzja o budżecie — to z nim Paweł konsultował akcept oferty | nie kontaktujemy się bezpośrednio | akcept oferty 27.05 |
-| **P. Stanisław** | odszedł z działu sprzedaży; miał kontakt do starego operatora wizytówek Google | — | STR-06, diagnoza GBP 01.07 |
-| Bogdan, Joanna, Małgorzata | Dział sprzedaży / Biuro Sprzedaży — **skład niepotwierdzony** | — | STR-06, blokada od 65 dni |
+| **P. Stanisław** | odszedł z działu sprzedaży; miał kontakt do starego operatora wizytówek Google | — | T-006, diagnoza GBP 01.07 |
+| Bogdan, Joanna, Małgorzata | Dział sprzedaży / Biuro Sprzedaży — **skład niepotwierdzony** | — | T-006, blokada od 65 dni |
 
 **Numery na stronie:** Tarnów `604 428 782`, Niedomice `664 393 062` (Paweł), Radgoszcz `781 875 411` (Kazimierz).
 Numer `660 768 691` **usunięty całkowicie** (osoba na L4) — mail Pawła 01.07.
@@ -87,7 +87,7 @@ Dolomit boli najbardziej — fraza „dolomit" to **6 600 wyszukań/mies.**, naj
 dwukrotnie drożej od węglanowego bez magnezu (57), a chemicznie oba to węglan wapnia.
 
 **Stan na stronie (MCP, 19.08): żaden z 19 produktów nie ma ceny** — `_price` puste w 19/19,
-słowo „cena” w treści w 0/19. Patrz `REJESTR_ZOBOWIAZAN.md` → CEN-01.
+słowo „cena” w treści w 0/19. Patrz `REJESTR_ZOBOWIAZAN.md` → T-010.
 
 ---
 
@@ -113,7 +113,7 @@ przez wielu dystrybutorów — AGRIA jest jednym z nich (SERP 19.08).
 **Dług danych:** taksonomia producentów ma duplikaty termów — „Kopalnia Jażwica” vs „Kopalnia Jażwica (Industria)”,
 „Kopalnia Winna” vs „Kopalnia Winna (Industria)”, „Kopalnia Celiny” vs „Celiny (Hochel Group)”. Analogicznie
 lokalizacje: „Chęciny (26-060)” vs „26-060 Chęciny (26-060)”, „Góraźdzce” vs „Gorażdże”, „Częstochowa” ×2.
-To jest robota z etapu zerowego ofertownika (OFE-01), nie osobne zadanie.
+To jest robota z etapu zerowego ofertownika (T-045), nie osobne zadanie.
 
 **Parametry produktowe bierzemy wyłącznie z kart producentów** (Nordkalk, Lhoist…) i rozporządzeń,
 nigdy z rozumowania — memory `feedback_agria_params_from_datasheets`. 17 kart jest publicznie
@@ -150,7 +150,7 @@ nie liczy się strefami WooCommerce.
 | Komunikacja budżetu | **tylko miesięcznie** (2 000/mies). **Nigdy suma całkowita** — 12 000 to zakaz | memory `feedback_agria_offer_mail_structure` |
 | Google Ads | osobna pozycja, media **1 200 zł/mies**, kampanie żywe od 13.08, plan na 3 miesiące | ADR 13.08 |
 | OLX | osobna pozycja: **1 800 zł netto setup + 300 zł/mies**; pakiet Premium 200 (1 199,99 brutto) **kupuje AGRIA** | wycena 07.08, mail 11.08 |
-| Kalkulator Mg | **≈4 h** do rozliczenia | PROJECT_STATE 18.08 |
+| Kalkulator Mg | **≈4 h** do rozliczenia | ustalenie 18.08, rejestr T-043/T-044 |
 | Ofertownik | **projekt własny Auranet**, nie billable na tym etapie — najpierw budujemy, potem sprzedajemy | decyzja Janka 18.08 |
 | Poza zakresem ryczałtu | social media, sesje zdjęciowe, Google Ads | `AURANET_2000PLN_MONTHLY.md` |
 
@@ -176,10 +176,10 @@ przed rozliczeniem budżetu.
 - **Ceny za worki — decyzja otwarta.** Paweł podał ceny workowe i w tym samym mailu napisał:
   *„na ten moment nie będziemy prowadzić sprzedaży po worku”*. Cała zgoda na publikację cen opierała się
   na tym, że cena tonowa odsiewa detalistę, a „11,50 zł za worek” robi odwrotnie. **Rekomendacja: publikować
-  wyłącznie przeliczenia na tonę.** Bez decyzji Janka nie ruszamy części workowej CEN-01.
+  wyłącznie przeliczenia na tonę.** Bez decyzji Janka nie ruszamy części workowej T-010.
 - **Zero żargonu.** Odbiorcą jest rolnik, nie spedytor. Zamiast „loco magazyn" → **„cena za towar, bez transportu"**.
   Dotyczy też MOQ, franco, EXW, HDS. Memory `feedback_agria_bez_zargonu_loco`.
-- **Bez progu ilościowego.** Paweł zdjął formy dostawy z kart, bo „zapis nas ogranicza" (STR-02).
+- **Bez progu ilościowego.** Paweł zdjął formy dostawy z kart, bo „zapis nas ogranicza" (T-002).
   Nie piszemy „minimum 24 t", tylko „przy 24 t cena wynosi od X".
 - **Klauzula prawna zostaje:** „ceny orientacyjne, netto, nie stanowią oferty handlowej w rozumieniu
   Kodeksu cywilnego". Dopisek „mniejsze ilości — wycena indywidualna" Paweł kazał usunąć (ceny obejmują już 0,5–1 t).
@@ -194,13 +194,13 @@ przed rozliczeniem budżetu.
 
 Kolejność wg tego, co blokują. Pozycje rejestru w nawiasach.
 
-1. **Czy AGRIA jest autoryzowanym dystrybutorem Nordkalku?** *(blokuje ADS-02)*
+1. **Czy AGRIA jest autoryzowanym dystrybutorem Nordkalku?** *(blokuje T-040)*
    Licytować na cudzy znak towarowy wolno w Google Ads zawsze; **użyć nazwy „Nordkalk" w treści reklamy
    wolno tylko odsprzedawcy.** Sprawdzone 19.08: odpowiedzi nie ma nigdzie w repo ani w memory. Nie zgadywać.
-2. **Aktualny skład działu sprzedaży** — imiona, role, telefony, obsługiwane segmenty. *(blokuje STR-06, 65 dni)*
+2. **Aktualny skład działu sprzedaży** — imiona, role, telefony, obsługiwane segmenty. *(blokuje T-006, 65 dni)*
 3. **Czy budownictwo i drogownictwo to realne segmenty sprzedaży?** *(wpływa na zakres treści i `/oferta/`)*
 4. **Ceny dla czterech brakujących kart** — Dolomit (302), Kreda czarna (303), Tlenkowe z Mg (313),
-   Węglanowe odm. 05 (316). Dolomit priorytetowo: 6 600 wyszukań/mies. *(rozszerza CEN-01)*
+   Węglanowe odm. 05 (316). Dolomit priorytetowo: 6 600 wyszukań/mies. *(rozszerza T-010)*
 5. **Potwierdzenie anomalii cenowych** — odm. 05 taniej niż odm. 04; kreda sypka drożej niż węglanowe.
 6. **Zgoda na przywrócenie form dostawy jako atutu**, nie jako MOQ.
 7. **Errata do katalogu drukowanego:** pH >16 przy wapnie palonym (skala kończy się na 14),

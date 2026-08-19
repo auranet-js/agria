@@ -92,4 +92,4 @@ Otwórz interesujące pliki w edytorze (Sublime, VS Code, Obsidian). Najważniej
 2. Oferta 6-miesięczna ~2 000 PLN netto/mies × 6 mies = 12 000 PLN netto pakiet.
 3. Po akceptacji: comiesięczna realizacja (technical + on-page + 2 artykuły + analityka + raport).
 
-Pełen stan: `docs/PROJECT_STATE.md`.
+Pełen stan: `docs/REJESTR_ZOBOWIAZAN.md` (kolejka + dziennik).

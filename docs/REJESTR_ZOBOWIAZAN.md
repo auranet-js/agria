@@ -1,230 +1,164 @@
-# Rejestr zobowiązań — AGRIA
+# Rejestr zadań — AGRIA
 
-> **Do czego to służy.** Git i dokumenty w `docs/` zapisują to, co **napisaliśmy**. Ten plik zapisuje
-> to, co **zlecone i jeszcze niezamknięte** — jedyny wymiar, którego commit z natury nie niesie,
-> bo commit opisuje wytworzony artefakt, a nie stan obowiązku.
+> **JEDNA I JEDYNA lista zadań projektu.** Niezależnie od tego, czy temat zgłosił Paweł, Kazimierz,
+> Janek czy Claude — wchodzi tutaj i tylko tutaj.
 >
-> **Czytany obowiązkowo na starcie każdej sesji w tym repo** (patrz `CLAUDE.md` → „Jak pracować w tym repo").
-> Zanim zaproponujesz cokolwiek nowego, sprawdź, czy nie stoi tu coś zleconego i niezrobionego.
+> **Dwie części, dwa czytania.** Góra (`KOLEJKA`) odpowiada na „co robimy teraz i co nas blokuje".
+> Dół (`DZIENNIK`) odpowiada na „co dostarczyliśmy w miesiącu X" — materiał do raportu miesięcznego.
 >
-> Stan na: **2026-08-19**. Weryfikacja: MCP `query_db`, `curl` na produkcji, GSC URL Inspection API,
-> Google Ads API, PSI/CrUX — tego dnia, nie z dokumentów.
+> Git zapisuje to, co **napisaliśmy**. Ten plik zapisuje to, co **zlecone i jeszcze niezamknięte** —
+> wymiar, którego commit z natury nie niesie, bo opisuje artefakt, nie stan obowiązku.
+>
+> Stan na **2026-08-19**. Weryfikacja tego dnia: MCP `query_db`, `curl` na produkcji,
+> GSC URL Inspection API, Google Ads API, PSI/CrUX — nie z dokumentów.
+> Numeracja `T-NNN` od 19.08.2026, mapowanie starych ID na końcu pliku
+> (ADR `docs/decyzje/2026-08-19-numeracja-T-NNN-i-przebudowa-rejestru.md`).
+
+## Jak to działa
+
+**Zasady zapisu:**
+
+1. **Nowy temat = nowy wiersz od razu**, w momencie zgłoszenia. Nie „zapamiętam".
+2. **Zawsze źródło i data zgłoszenia** — `[P]` Paweł · `[K]` Kazimierz · `[J]` Janek · `[A]` Auranet-Claude.
+3. **Commit zamykający pozycję zmienia jej wiersz w tym samym commicie** i wpisuje hash do „Dowodu".
+   **Wiersz bez dowodu nie ma prawa mieć ✅.**
+4. **Godziny wpisuj przy domknięciu, do dziennika.** AGRIA jest na ryczałcie — klient godzin nie widzi,
+   my ich potrzebujemy, żeby wiedzieć, czy pakiet się spina. `5 h*` = wartość nieodtworzona wstecz,
+   znacznik, nie pomiar.
+5. **Przed raportem miesięcznym skonfrontuj dziennik z `git log --since=… --until=…`.** Ręczna lista
+   zawsze się rozjeżdża — to jest powód, dla którego ten plik powstał.
+6. **Numer zadania wchodzi w nazwy plików** — prompt, audyt, raport i mail dostają prefiks `T-NNN`.
+
+**Status:** 🔴 na nas, nic nie blokuje · 🟡 czeka na AGRIĘ · 🔵 zakres do rozstrzygnięcia ·
+⚪ robi AGRIA · ✅ zamknięte i zweryfikowane · ⛔ unieważnione, nie wykonywać
+
+**Zakres:** **R** ryczałt 2 000 netto/mies (M1–M6, akcept 27.05) · **P** poza ryczałtem, osobna
+pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo robota po stronie AGRII
 
 ---
 
-## Jak czytać
+# KOLEJKA
 
-**Status:**
+## 🔴 Teraz — 13 pozycji, nic ich nie blokuje
 
-| Status | Znaczenie |
-|---|---|
-| ✅ **ZAMKNIĘTE** | wykonane i zweryfikowane na produkcji — kolumna „Dowód" mówi czym |
-| 🔴 **OTWARTE — na nas** | zlecone, zaakceptowane, niewykonane; nic nie blokuje poza naszą kolejnością |
-| 🟡 **OTWARTE — blokada** | czeka na dane, decyzję albo płatność po stronie AGRII |
-| 🔵 **OTWARTE — do rozstrzygnięcia** | zakres miękki albo sprzeczny z późniejszą decyzją |
-| ⚪ **PO STRONIE KLIENTA** | robi AGRIA, nie nasze zadanie — śledzimy, nie wykonujemy |
-| ⛔ **UNIEWAŻNIONE** | późniejsza decyzja zdjęła to z zakresu — zostaje dla historii, **nie wykonywać** |
-
-**Zakres (rozliczenie):**
-
-| Znacznik | Znaczenie |
-|---|---|
-| **R** | ryczałt — mieści się w 2 000 zł netto/mies (umowa M1–M6, akcept 27.05.2026) |
-| **P** | poza ryczałtem — osobna pozycja handlowa, kwota podana tam, gdzie udokumentowana |
-| **W** | własne Auranet — nie fakturujemy AGRII na tym etapie |
-| **K** | po stronie AGRII — ich koszt albo ich robota |
-
-**Reguła aktualizacji:** commit, który zamyka pozycję, zmienia tu wiersz w tym samym commicie
-i wpisuje swój hash do kolumny „Dowód". Wiersz bez dowodu nie ma prawa mieć statusu ✅.
-
----
-
-## Linie usługowe — skrót
-
-| # | Linia | Otwarte | Najstarsze otwarte | Zakres | Na kim |
-|---|---|---|---|---|---|
-| 1 | Strona — backlog Pawła (STR) | 4 | 15.06.2026 (STR-06) | R | Auranet / AGRIA |
-| 2 | **Ceny i nagłówki cenowe** | 2 | 07.08.2026 | R | **Auranet** |
-| 3 | SEO on-page i content (M1–M6) | 8 | 19.05.2026 (P0-4) | R | Auranet |
-| 4 | Google Ads | 2 | 19.08.2026 | P — media 1 200 zł/mies | Auranet / AGRIA |
-| 5 | OLX | 2 | 18.08.2026 | P — 1 800 setup + 300/mies | AGRIA / Auranet |
-| 6 | Kalkulator wapnowania (moduł Mg) | 2 | 18.08.2026 | P — ≈4 h | Kazimierz → Auranet |
-| 7 | Ofertownik | 1 | 18.08.2026 | W | Auranet |
-| 8 | Wizytówki Google (GBP) | 2 | 15.07.2026 | R | Auranet / AGRIA |
-
-**Razem otwartych: 23.** Z tego na nas bez żadnej blokady: **13**.
-
----
-
-## 1. Strona — backlog poprawek Pawła
-
-Źródło: `docs/operations/STRONA_BACKLOG_POPRAWKI.md`. Partia #1 — mail Pawła 15.06, partia #2 — mail 07.08.
-Cała linia w ryczałcie (**R**).
-
-| ID | Co zlecone | Zlecił / kiedy | Status | Dowód / blokada |
+| ID | Zadanie | Linia | Zakr. | Dowód / kontekst |
 |---|---|---|---|---|
-| STR-01 | Kalkulator bez kredy pastewnej i malarskiej | Paweł 15.06 | ✅ | wdrożone 18.06, `post__not_in [304,307]`, readback z serwera |
-| STR-02 | Formy dostawy zdjęte ze specyfikacji 19 kart + FAQ | Paweł 15.06 | ✅ | wdrożone 29.06, commit `1cc6bd8`, 19/19 zweryfikowane |
-| STR-03 | Telefony na mapie zgodne z oddziałami, `660` usunięty | Paweł 15.06 | ✅ | wdrożone 01.07, commit `1dfe5c5`, zero wystąpień `660` na froncie |
-| STR-04 | Karty produktu i charakterystyki na `/do-pobrania/` | Paweł 15.06 | ✅ | wdrożone 29.06, 22 pozycje w sekcji, live-zweryfikowane |
-| STR-05 | Zdjęcia produktów zgodne z katalogiem | Paweł 15.06 | ✅ | wdrożone 29.06 |
-| STR-06 | Przebudowa sekcji „Dział sprzedaży" po odejściu P. Stanisława | Paweł 15.06 | 🟡 | **65 dni**. Blokada: aktualny skład działu (imiona, role, telefony) — pytanie do Pawła. Przy okazji: zepsuty `href` Kazimierza (`http://+48 781 875 411`) |
-| STR-07 | Korekta interpunkcji w tekstach | Paweł 15.06 | ⚪ | robi Paweł, czekamy na finalny tekst |
-| STR-08 | 8 nowych atestów + karty charakterystyki Nordkalk na `/do-pobrania/` | Paweł 07.08 | 🔴 | **12 dni**. Sprawdzone 19.08: strona ma **0 wystąpień „Sitkówka"** — nowych kart Nordkalku nie ma. Materiały w mailu [201] |
-| STR-09 | Usunięcie całej sekcji „Certyfikaty" z `/do-pobrania/` | Paweł 07.08 | 🔴 | **12 dni**. Sprawdzone 19.08: **7 wystąpień „certyfikat"** — sekcja stoi, razem z duplikatem linku i literówkami „ertyfikat" |
+| **T-010** | **Widełki „od X zł/t netto" w treści 15 kart** (H2 + akapit) + 2 landingi Ads + poradnik cenowy + link z huba `[P 07.08]` | Ceny | R | **PRIORYTET 1. 12 dni od cennika, 6 od akceptu mockupu przez Janka 13.08.** MCP 19.08: `19 produktów / 19 bez _price / 0 ze słowem „cena" w treści`. Rozpiska: `docs/operations/CEN_LISTA_URL_2026-08-13.md`, ceny: `CENNIK_PAWEL_2026-08-07.md`. **Koszt zwłoki zmierzony:** kampania Rolnictwo wydała 199,62 zł w 6 dni przy 0 konwersji, 33% wydatku to zapytania cenowe lądujące na stronach bez ceny |
+| **T-011** | Nagłówki H2 z frazą cenową („wapno granulowane cena", „agrobielik cena") `[J 19.08]` | Ceny | R | 0 z 19 kart ma dziś nagłówek cenowy. Idzie razem z T-010. Prompt: `docs/prompty/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md` |
+| **T-008** | 8 nowych atestów + karty charakterystyki Nordkalk na `/do-pobrania/` `[P 07.08]` | Strona | R | **12 dni.** 19.08: strona ma **0 wystąpień „Sitkówka"** — kart nie ma. Materiały w mailu [201] |
+| **T-009** | Usunięcie sekcji „Certyfikaty" z `/do-pobrania/` `[P 07.08]` | Strona | R | **12 dni.** 19.08: **7 wystąpień „certyfikat"** — sekcja stoi, z duplikatem linku i literówkami „ertyfikat". **Jedna wizyta z T-008** (ID 731, `_elementor_data`) |
+| **T-027** | `/do-pobrania/` — zgłoszenie do reindeksacji | SEO | R | GSC 19.08: `BLOCKED_BY_META_TAG`, **ostatni crawl 2026-04-12**. Live ma `index, follow` — Google nie wrócił. **Po T-008/009**, żeby zgłosić stronę już poprawioną |
+| **T-048** | **Geoblok odcina Lighthouse/PSI — nie da się mierzyć wydajności** `[A 19.08]` | SEO | R | PSI zwraca `NOT_HTML — served as MIME type text/plain`; geoblok z 14.08 (`src/plugins/agria-by-auranet/security-geoblock.php`) przy odrzuceniu robi `header('Content-Type: text/plain')` + `exit('Forbidden')`. Whitelist `$good_bots` ma Googlebota, AdsBota i Google-InspectionTool, **nie ma `Chrome-Lighthouse`** — a PSI fetchuje z USA. Fix: dopisać `Chrome-Lighthouse`, `Google-PageSpeed`, `GoogleOther`. **Jedna linia, ale zmiana na produkcji — czeka na zgodę.** Blokuje T-031 |
+| **T-028** | **15 opublikowanych `post_type=produkt` (ID 60–74)** równolegle do 19 produktów WC `[A 19.08]` | SEO | R | **Znalezione 19.08, nieujęte w żadnym dokumencie.** `/produkt/agrobielik-70/` i `/produkt/dolomit/` → HTTP 200. Wcześniejsza notatka mówiła o trzech (67, 68, 69) — jest piętnaście. Agrobielik 70 pod dwoma adresami, oba zbierają wyświetlenia w GSC |
+| **T-029** | **Login admina `js` eksponowany w schema** | SEO | R | 19.08: front zwraca `"@type":"Person"`, `"name":"js"` ×2. Zgłoszone w audycie 15.06, otwarte **65 dni** |
+| **T-026** | Indeksacja — sześć URL-i poza indeksem | SEO | R | GSC 19.08. **„Google nieznany" (4):** `/ile-wapna-granulowanego-na-ha/`, `/jak-stosowac-wapno-nawozowe/`, `/higienizacja-osadow-sciekowych-wapnem/`, `/kreda-malarska/`. **„Wykryta, niezindeksowana" (2):** `/wapno-nawozowe-na-trawnik/`, `/wapno-do-stabilizacji-gruntow/`. Mimo 3× Indexing API. Reszta portfela zdrowa — 11 URL-i PASS ze świeżym crawlem |
+| **T-032** | 301 dla `/kategoria-produktu/*` | SEO | R | Niezweryfikowane. **Odblokowane od 18.08** (SSH + `.htaccess`) |
+| **T-039** | Korekty kampanii Marka: wykluczenia opakowaniowe, stawka Brand 0,50 → 3,00 zł, grupa „Producent" `[A]` | Ads | P | **Marka nie wydała ani grosza przez sześć dni emisji** (Ads API 19.08) — przy 0,50 zł nie wchodzimy do aukcji. Rekomendacja czeka na „działaj", punkt decyzyjny 7–10 dni |
+| **T-042** | Poprawki treści ogłoszeń ustalone z Kazimierzem `[K mail 18.08]` | OLX | P | Na nas, przed publikacją |
+| **T-046** | Optymalizacja profilu GBP **Tarnów** (opis, kategorie, zdjęcia, publikacje) | GBP | R | Profil dostępny od 15.07, optymalizacja **obiecana klientowi na piśmie** w raporcie M2 jako zadanie sierpnia. Brak śladu wykonania. **Do końca M3 zostało 12 dni** |
 
-**Uwaga:** STR-08 i STR-09 to jedna wizyta na tej samej stronie (ID 731, `_elementor_data`) — robi się je razem.
-Do tego dochodzi P0-6b: `/do-pobrania/` trzeba zgłosić do ponownego crawlu, bo Google trzyma na niej werdykt z kwietnia (niżej).
+## 🟡 Czeka na AGRIĘ
 
----
-
-## 2. Ceny i nagłówki cenowe na stronie — zakres **R**
-
-**To jest pozycja, przez którą powstał ten rejestr.** Zlecenie kompletne, zaakceptowane dwustronnie,
-rozpisane co do URL-a — i niewykonane.
-
-| ID | Co zlecone | Zlecił / kiedy | Status | Dowód / blokada |
-|---|---|---|---|---|
-| CEN-01 | Widełki „od X zł/t netto" **w treści** 15 kart (H2 + akapit) + 2 landingi Ads + poradnik cenowy + link z huba | Paweł przysłał cennik 07.08; **mockup zaakceptowany przez Janka 13.08** | 🔴 | **12 dni od cennika, 6 od akceptu.** MCP 19.08: `19 produktów / 19 bez _price / 0 ze słowem „cena" w treści`. Rozpiska: `docs/operations/CEN_LISTA_URL_2026-08-13.md`, ceny: `CENNIK_PAWEL_2026-08-07.md` |
-| CEN-02 | Nagłówki H2 z frazą cenową na kartach („wapno granulowane cena", „wapno nawozowe cena", „agrobielik cena") | Janek, ustnie, potwierdzone 19.08 | 🔴 | Sprawdzone 19.08: **0 z 19 kart** ma nagłówek cenowy. Prompt wykonawczy: `docs/prompty/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md` |
-
-**Koszt tego, że stoi — zmierzony, nie szacowany.** Kampania Rolnictwo wydała **199,62 zł w sześć dni**
-(Ads API, 19.08) przy zerowej liczbie konwersji, a z diagnozy dnia 5 wynika, że **33% tego wydatku**
-to zapytania cenowe (`wapno granulowane cena`, `ile kosztuje tona wapna granulowanego`,
-`wapno nawozowe cena za tonę`) lądujące na stronach bez ceny. Klaster cenowy w organiku:
-~1 320 wyszukiwań/mies., zerowa obecność AGRII.
-
-**Ograniczenia twarde przy wykonaniu** (memory `project_agria_ceny_strategia`, `feedback_agria_bez_zargonu_loco`):
-cena nigdy sama — zawsze z warunkiem dostawy, dwa punkty odniesienia na grupę; nigdy pełny cennik
-i nigdy ceny za worek jako komunikat główny; nigdy progu ilościowego; zero żargonu („loco" zakazane);
-adnotacja „ceny orientacyjne, nie stanowią oferty w rozumieniu KC"; pole edytowalne, żeby Paweł
-zmieniał je w minuty.
-
-**Sposób wykonania — rozstrzygnięty 19.08** (ADR `docs/decyzje/2026-08-19-dwie-warstwy-cen.md`,
-memory `project_agria_dwie_warstwy_cen`):
-
-- cena idzie **wyłącznie w treść** — `<h2>` z frazą cenową + akapit z widełkami i warunkiem dostawy;
-- **`_price` w WooCommerce zostaje puste**, wariantów ani atrybutów cenowych nie tworzymy;
-- **schema `Product`/`offers` budujemy ręcznie z treści**, nie z bazy. Karta emituje dziś `Product`
-  z 18 `PropertyValue` i zerem `offers` (sprawdzone 19.08) — miejsce jest puste;
-- **wyłącznie przeliczenia na tonę.** Ceny za sztukę worka nie idą na stronę (decyzja Janka 19.08,
-  wobec zdania Pawła z 07.08: na ten moment nie będzie sprzedaży po worku);
-- **OFE-01 nie jest warunkiem wstępnym** — powiązanie odpadło, bo CEN-01 nie dotyka struktury
-  produktu. Ofertownik idzie osobnym wątkiem.
-
----
-
-## 3. SEO on-page i content (M1–M6) — zakres **R**
-
-Źródła: `docs/audits/ONPAGE_BACKLOG_M2-M6_2026-06-15.md`, `docs/seo/BACKLOG_SEZON_2026-07-14.md`,
-`docs/audits/SEO_AUDIT_RESULTS.md`. **Kolumna „Dowód" to weryfikacja z 19.08, nie przepisany status
-z dokumentu** — sześć pozycji miało w papierach „niezrobione", a są zrobione.
-
-### Zamknięte (zweryfikowane 19.08)
-
-| ID | Zadanie | Dowód z produkcji |
-|---|---|---|
-| P0-2a | Schema Organization zamiast „My Blog" | front: `"@type":"Organization"`, `"name":"AGRIA Sp. z o.o."` |
-| P1-1 | Nagłówki bezpieczeństwa | `curl -I`: HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy (4 z 6 — brak CSP i Permissions-Policy) |
-| P1-2 | Title strony głównej skrócony | 56 znaków, `rank_math_title` na ID 321 |
-| P1-4 | `product_cat` w sitemapie | `product_cat-sitemap.xml` obecny w indeksie sitemap |
-| P1-5 | SKU dla produktów | 18 z 19 ma `AGR-0xx`; #303 świadomie bez (decyzja katalogowa) |
-| P1-6 | Literówki w nazwach produktów | `post_title`: „węglanowe", „zawierające" — poprawne w 19/19 |
-| A1 | Sitemapa RankMath po migracji URL | `product-sitemap.xml` z aktualnymi adresami |
-| A3 | `/cart/` poza sitemapą | `page-sitemap.xml`: 11 URL-i, `/cart/` nieobecny |
-| B1 | Meta title + description na stronach statycznych | 6 z 6 (oferta, o-firmie, poradniki, kalkulator, do-pobrania, kontakt) |
-| B2 | Bielik #309 on-page | `Wapno hydratyzowane Bielik CL 90-S \| CaO+MgO 90%` — parametry normowe z karty Nordkalk |
-| B6 | pH wapna palonego („>16" było fizycznie niemożliwe) | render karty: `pH >12` |
-| B7 | „35 lat" → „37 lat" | 0 wystąpień „35 lat" na `/`, `/o-firmie/`, `/oferta/` |
-| C1 | Landing `/wapno-do-stabilizacji-gruntow/` | ID 2745, HTTP 200, w sitemapie |
-| — | Landingi Ads poza indeksem | `/wapno-granulowane/`, `/wapno-nawozowe/`: HTTP 200, `noindex, follow` |
-| — | Demo-produkt motywu z indeksu | `/produkt/organic-pineapple/` → HTTP 404 |
-
-### Otwarte
-
-| ID | Zadanie | Status | Dowód / blokada |
+| ID | Zadanie | Czeka od | Na co konkretnie |
 |---|---|---|---|
-| **GEO-01** | **Geoblok odcina Lighthouse/PSI — nie da się mierzyć CWV** | 🔴 | **Znalezione 19.08.** PSI zwraca `NOT_HTML — served as MIME type text/plain`; geoblok (`security-geoblock.php`, wdrożony 14.08) przy odrzuceniu robi dokładnie `header('Content-Type: text/plain')` + `exit('Forbidden')`. Whitelist `$good_bots` ma Googlebota, AdsBota i Google-InspectionTool, **nie ma `Chrome-Lighthouse`** — a PSI fetchuje z USA. Fix: dopisać `Chrome-Lighthouse`, `Google-PageSpeed`, `GoogleOther` do listy. **Jedna linia, ale to zmiana na produkcji — czeka na zgodę** |
-| P0-4 | **CWV mobile — LCP** | 🔴 | **Niemierzalne dziś obiema drogami:** PSI blokuje GEO-01, CrUX zwraca „data not found" (za mały ruch, żeby origin trafił do zbioru). Proxy z Elary 19.08: strona główna **TTFB 1,27 s przy cache-miss, HTML 154 KB**; karta produktu TTFB 0,35 s. Ostatni pełny pomiar 03.08: LCP 7,4 s. **Kolejność: GEO-01 → pomiar → dopiero optymalizacja** |
-| P0-6 | **Indeksacja — sześć URL-i poza indeksem** | 🔴 | GSC URL Inspection 19.08. **„Adres URL jest Google nieznany" (4):** `/ile-wapna-granulowanego-na-ha/`, `/jak-stosowac-wapno-nawozowe/`, `/higienizacja-osadow-sciekowych-wapnem/`, `/kreda-malarska/`. **„Wykryta, niezindeksowana" (2):** `/wapno-nawozowe-na-trawnik/`, `/wapno-do-stabilizacji-gruntow/`. Mimo 3× Indexing API. Reszta portfela zdrowa — 11 URL-i PASS ze świeżym crawlem (09–18.08), hub `/wapnowanie-gleby/` crawl 15.08 |
-| P0-6b | `/do-pobrania/` — werdykt z kwietnia | 🔴 | GSC 19.08: „Strona wykluczona za pomocą tagu **noindex**", `BLOCKED_BY_META_TAG`, **ostatni crawl 2026-04-12**. Live ma `index, follow` — Google po prostu nie wrócił. Zgłosić do reindeksacji razem ze STR-08/09 |
-| P1-7 | **Login admina `js` eksponowany w schema** | 🔴 | Sprawdzone 19.08: front zwraca `"@type":"Person"`, `"name":"js"` ×2. Zgłoszone w audycie 15.06, otwarte **65 dni** |
-| P0-2b | LocalBusiness ×2 (Niedomice, Radgoszcz) w schema | 🔴 | Front ma tylko `Organization`. Dane oddziałów mamy z STR-03 |
-| DUP-01 | **15 opublikowanych `post_type=produkt` (ID 60–74)** równolegle do 19 produktów WC | 🔴 | **Znalezione 19.08, nieujęte w żadnym dokumencie.** `/produkt/agrobielik-70/` i `/produkt/dolomit/` → HTTP 200. Wcześniejsza notatka mówiła o trzech (67, 68, 69) — jest piętnaście. Do tego Agrobielik 70 pod dwoma adresami w WC, oba zbierają wyświetlenia w GSC |
-| P0-3 | 301 dla `/kategoria-produktu/*` | 🔵 | Niezweryfikowane. Odblokowane od 18.08 (SSH + `.htaccess`) |
-| P1-9 | Zgody / pomiar GA4 | 🔵 | **Korekta stanu wiedzy:** Complianz Privacy Suite premium **7.5.7.2 jest aktywny** i leci na froncie (95 wystąpień `cmplz`). Memory `project_agria_ga4_consent_blocker` i backlog on-page twierdzą, że CMP nie ma — **to nieprawda**. GA4 mimo to nie mierzy (5 sesji organicznych vs 221 kliknięć GSC w lipcu). Problem jest w konfiguracji zgód, nie w braku bannera — rediagnoza od zera |
-| P0-5 | Premmerce DOM-XSS | 🔵 | Zainstalowana **2.3.13**, podatna była 2.3.11. Changelogu nie da się sprawdzić publicznie — wtyczki nie ma w repozytorium wp.org (`premmerce-permalink-manager` → „Plugin not found"). Do potwierdzenia u vendora albo z pliku `readme.txt` na serwerze |
+| **T-006** | Przebudowa sekcji „Dział sprzedaży" po odejściu P. Stanisława `[P 15.06]` | **65 dni** | aktualny skład działu — imiona, role, telefony, segmenty. Przy okazji: zepsuty `href` Kazimierza (`http://+48 781 875 411`) |
+| **T-040** | Teksty reklam z nazwą „Nordkalk" `[A]` | 19.08 | **status autoryzowanego dystrybutora.** Licytować na cudzy znak wolno zawsze, użyć w treści — tylko odsprzedawcy. W repo tej informacji nie ma (sprawdzone `grep` po `docs/` i memory) — **nie zgadywać** |
+| **T-041** | Publikacja 200 ogłoszeń OLX | 18.08 | **pakiet Premium 200 kupuje AGRIA** (1 199,99 zł brutto, zakres **K**). Treści, siatka 53 miejscowości i spięcie z Partner API gotowe |
+| **T-043** | Weryfikacja mockupu kalkulatora Mg przez Kazimierza | 18.08 | `mockups/agria-kalkulator-mg-test-2026-08-18.html` przekazany 18.08 |
+| **T-047** | Odzysk profili GBP **Niedomice** i **Radgoszcz** | 15.07 | dostęp. Ścieżka: Request access z konta Auranet + weryfikacja własności (KRS 0000170666, NIP 8730006657). **W komunikacji do klienta przemilczeć multi-location**, dopóki brak dostępu |
+| **T-007** | Korekta interpunkcji w tekstach `[P 15.06]` | 15.06 | finalny tekst — ⚪ robi Paweł sam |
 
-### Unieważnione — nie wykonywać
+## 📅 Zaplanowane — wrzesień (M4)
+
+| ID | Zadanie | Linia | Zakr. | Uwagi |
+|---|---|---|---|---|
+| **T-044** | Wdrożenie modułu Mg w kalkulatorze na produkcję | Kalkulator | P ≈4 h | Po T-043. **4 kwestie otwarte** przed wdrożeniem — memory `project_agria_kalkulator_mg` |
+| **T-031** | CWV mobile — LCP | SEO | R | **Zablokowane przez T-048.** CrUX zwraca „data not found" (za mały ruch). Proxy z Elary 19.08: główna **TTFB 1,27 s przy cache-miss, HTML 154 KB**; karta produktu TTFB 0,35 s. Ostatni pełny pomiar 03.08: LCP 7,4 s. **Kolejność: T-048 → pomiar → optymalizacja** |
+| **T-030** | LocalBusiness ×2 (Niedomice, Radgoszcz) w schema | SEO | R | Front ma tylko `Organization`. Dane oddziałów mamy z T-003 |
+| **T-045** | Ofertownik, etap zerowy: audyt wycieku cen → konwersja jednego produktu na wariantowy → sprzątanie atrybutów → cennik | Ofertownik | **W** | Niezaczęty, osobny wątek (rozdzielony od T-010 decyzją 19.08). Spec: `docs/specs/2026-08-18-ofertownik-design.md`. **Audyt wycieku cen to warunek bezpieczeństwa danych, nie porządki** — ceny wariantów WC są domyślnie widoczne na froncie, w REST API, w feedach i w schema Rank Matha, a ta warstwa ma pozostać **niejawna** |
+| — | Menu: powrót pozycji Sadownictwo / Rybactwo / Hurtownie | Strona | R | Zdjęte 30.07 jako `draft`. Wracają **razem z treścią**, nie z landingami — memory `project_agria_nav_debt_m4`. Przypomnienie: `docs/przypomnienia/2026-09-01-menu-segmenty-m4.md` |
+
+## 🔵 Do rozstrzygnięcia — zakres miękki
+
+| ID | Zadanie | Co rozstrzygnąć |
+|---|---|---|
+| **T-033** | Zgody / pomiar GA4 | **Korekta stanu wiedzy:** Complianz Privacy Suite premium **7.5.7.2 jest aktywny** i leci na froncie (95 wystąpień `cmplz`). Memory `project_agria_ga4_consent_blocker` i backlog on-page twierdzą, że CMP nie ma — **to nieprawda**. GA4 mimo to nie mierzy (5 sesji organicznych vs 221 kliknięć GSC w lipcu). Problem jest w konfiguracji zgód, nie w braku bannera — **rediagnoza od zera** |
+| **T-034** | Premmerce DOM-XSS | Zainstalowana **2.3.13**, podatna była 2.3.11. Changelogu nie da się sprawdzić publicznie — wtyczki nie ma w repozytorium wp.org. Do potwierdzenia u vendora albo z `readme.txt` na serwerze |
+
+## ⛔ Unieważnione — nie wykonywać
 
 | ID | Co | Czym unieważnione |
 |---|---|---|
-| C4–C7 | Landingi organiczne `/wapno-palone/`, `/wapno-magnezowe/`, `/wapno-hydratyzowane/`, `/kreda-nawozowa/` | ADR `2026-08-11-podzial-rol-ads-seo.md` + memory `project_agria_architektura_kanalow`: **landingi wyłącznie jako cele Ads, poza indeksem**. Powód zmierzony: 6 URL-i na frazę „wapno bielik" → pozycja 15,3; frazy z jednym URL-em w TOP10. Organik idzie treścią |
-| E1–E3 | Landingi segmentowe `/wapno-do-stawow/`, `/wapno-do-sadu/`, hub Oczyszczalnie | jw. Menu (Sadownictwo/Rybactwo/Hurtownie) zdjęte 30.07 jako `draft`, wraca we wrześniu **razem z treścią**, nie z landingami — memory `project_agria_nav_debt_m4` |
-| D1–D4 | `/transport-i-dostawa/`, sekcja B2B, formularz z tonażem, formy dostawy z powrotem na karty | częściowo sprzeczne ze STR-02 (Paweł kazał zdjąć formy dostawy). D4 wymaga jego zgody (F1) — bez niej nie ruszać |
-| HUB-VI | Plan hub-and-spoke per segment z `CONTENT_AUDIT_2026-06-15.md` §3 (HUB Rolnictwo / Rybactwo / Oczyszczalnie) | jw. **Dokument nie ma o tym ani słowa** — to jest źródło powtarzających się propozycji „zróbmy huby". Oznaczony nagłówkiem statusu 19.08 |
+| **T-035** | Landingi organiczne `/wapno-palone/`, `/wapno-magnezowe/`, `/wapno-hydratyzowane/`, `/kreda-nawozowa/` | ADR `2026-08-11-podzial-rol-ads-seo.md` + memory `project_agria_architektura_kanalow`: **landingi wyłącznie jako cele Ads, poza indeksem**. Powód zmierzony: 6 URL-i na frazę „wapno bielik" → pozycja 15,3; frazy z jednym URL-em w TOP10. Organik idzie treścią |
+| **T-036** | Landingi segmentowe `/wapno-do-stawow/`, `/wapno-do-sadu/`, hub Oczyszczalnie | jw. Menu wraca we wrześniu z treścią, nie z landingami |
+| **T-037** | `/transport-i-dostawa/`, sekcja B2B, formularz z tonażem, formy dostawy z powrotem na karty | częściowo sprzeczne z T-002 (Paweł kazał zdjąć formy dostawy). Powrót wymaga jego zgody — bez niej nie ruszać |
+| **T-038** | Plan hub-and-spoke per segment (HUB Rolnictwo / Rybactwo / Oczyszczalnie) | jw. **`CONTENT_AUDIT_2026-06-15.md` §3 nie ma o tym ani słowa** — to jest źródło powtarzających się propozycji „zróbmy huby" |
 
 ---
 
-## 4. Google Ads — zakres **P** (media 1 200 zł/mies)
+# DZIENNIK
 
-Zobowiązanie: **3 miesiące kampanii**. ADR `2026-08-13-uruchomienie-kampanii-ads.md`. Konto 674-207-1446.
+Godziny z gwiazdką (`5 h*`) to **znacznik nieodtworzonej wartości**, nie pomiar — decyzja 19.08,
+gdy dziennik powstawał wstecz. Od M4 wpisujemy realne.
 
-**Stan konta na żywo (Ads API, 19.08, ostatnie 14 dni):**
+## M1 — czerwiec 2026 · ryczałt 2 000 netto
 
-| Kampania | Status | Budżet | Wyświetlenia | Kliknięcia | Koszt | Konwersje |
-|---|---|---|---|---|---|---|
-| AGRIA - Rolnictwo | ENABLED | 34 zł/dz | 682 | 100 | **199,62 zł** | 0 |
-| AGRIA - Marka | ENABLED | 6 zł/dz | **0** | **0** | **0,00 zł** | 0 |
-
-| ID | Co | Status | Dowód / blokada |
+| ID | Co dostarczone | Dowód | h |
 |---|---|---|---|
-| ADS-01 | Korekty na kampanii Marka: wykluczenia opakowaniowe, stawka Brand 0,50 → 3,00 zł, nowa grupa „Producent" | 🔴 | **Potwierdzone liczbami 19.08: Marka nie wydała ani grosza przez sześć dni emisji** — przy stawce 0,50 zł nie wchodzimy do aukcji. Rekomendacja czeka na „działaj", punkt decyzyjny 7–10 dni |
-| ADS-02 | Teksty reklam z nazwą „Nordkalk" | 🟡 | **Blokada: status autoryzowanego dystrybutora.** Licytować na cudzy znak wolno zawsze, użyć w treści — tylko odsprzedawcy. **W repo tej informacji nie ma** (sprawdzone `grep` po `docs/` i memory) — pytanie do Pawła, nie zgadywać |
-| — | Wiarygodność konwersji z połączeń | — | Zero konwersji przy 100 kliknięciach może być artefaktem pomiaru — zależy od P1-9. Nie optymalizować pod ten wskaźnik przed rediagnozą zgód |
+| T-001 | Kalkulator przestał proponować kredę pastewną i malarską | wdrożone 18.06, `post__not_in [304,307]`, readback z serwera | 5 h* |
+| T-002 | Formy dostawy zdjęte ze specyfikacji 19 kart + FAQ | wdrożone 29.06, commit `1cc6bd8`, 19/19 zweryfikowane | 5 h* |
+| T-004 | Karty produktu i charakterystyki na `/do-pobrania/` | wdrożone 29.06, 22 pozycje w sekcji, live-zweryfikowane | 5 h* |
+| T-005 | Zdjęcia produktów zgodne z katalogiem | wdrożone 29.06 | 5 h* |
 
-**Rozjazd do rozstrzygnięcia:** memory `project_agria_ads_sezonowosc` sygnalizuje różnicę **trzy vs cztery miesiące**
-kampanii między tym, co potwierdził Kasjan, a tym, co poszło w mailu. Do sprawdzenia przed rozliczeniem budżetu.
+## M2 — lipiec 2026 · ryczałt 2 000 netto
 
----
-
-## 5. OLX — zakres **P** (1 800 zł netto setup + 300 zł/mies)
-
-200 ogłoszeń, 12 pozycji asortymentowych, 53 miejscowości, 9 województw, publikacja przez Partner API.
-
-| ID | Co | Status | Dowód / blokada |
+| ID | Co dostarczone | Dowód | h |
 |---|---|---|---|
-| OLX-01 | Publikacja 200 ogłoszeń | 🟡 | Treści, siatka miast i spięcie z API gotowe. **Blokada: pakiet Premium 200 kupuje AGRIA** (1 199,99 zł brutto — zakres **K**) |
-| OLX-02 | Naniesienie poprawek treści ustalonych z Kazimierzem mailowo 18.08 | 🔴 | Na nas, przed publikacją |
+| T-003 | Telefony na mapie zgodne z oddziałami, numer `660` usunięty | wdrożone 01.07, commit `1dfe5c5`, zero wystąpień `660` na froncie | 5 h* |
+| — | Rdzeń URL/taksonomii — Blok A | wdrożone 08.07 na produkcji i w DB | 5 h* |
+| — | Raport miesięczny M2 dla AGRII | `docs/raporty/DOWODY_M2_2026-07.md` | 5 h* |
 
----
+## M1–M2 — blok SEO on-page (daty per pozycja nieodtworzone)
 
-## 6. Kalkulator wapnowania — moduł magnezowy — zakres **P** (≈4 h)
+Wszystkie **zweryfikowane na produkcji 19.08**, nie przepisane ze statusu w dokumencie —
+sześć pozycji miało w papierach „niezrobione", a są zrobione.
 
-| ID | Co | Status | Dowód / blokada |
+| ID | Co dostarczone | Dowód z produkcji 19.08 |
+|---|---|---|
+| T-012 | Schema Organization zamiast „My Blog" | `"@type":"Organization"`, `"name":"AGRIA Sp. z o.o."` |
+| T-013 | Nagłówki bezpieczeństwa | `curl -I`: HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy (4 z 6 — brak CSP i Permissions-Policy) |
+| T-014 | Title strony głównej skrócony | 56 znaków, `rank_math_title` na ID 321 |
+| T-015 | `product_cat` w sitemapie | `product_cat-sitemap.xml` obecny w indeksie |
+| T-016 | SKU dla produktów | 18 z 19 ma `AGR-0xx`; #303 świadomie bez (decyzja katalogowa) |
+| T-017 | Literówki w nazwach produktów | `post_title`: „węglanowe", „zawierające" — poprawne w 19/19 |
+| T-018 | Sitemapa RankMath po migracji URL | `product-sitemap.xml` z aktualnymi adresami |
+| T-019 | `/cart/` poza sitemapą | `page-sitemap.xml`: 11 URL-i, `/cart/` nieobecny |
+| T-020 | Meta title + description na stronach statycznych | 6 z 6 (oferta, o-firmie, poradniki, kalkulator, do-pobrania, kontakt) |
+| T-021 | Bielik #309 on-page | `Wapno hydratyzowane Bielik CL 90-S \| CaO+MgO 90%` — parametry normowe z karty Nordkalk |
+| T-022 | pH wapna palonego („>16" było fizycznie niemożliwe) | render karty: `pH >12` |
+| T-023 | „35 lat" → „37 lat" | 0 wystąpień „35 lat" na `/`, `/o-firmie/`, `/oferta/` |
+| T-024 | Landing `/wapno-do-stabilizacji-gruntow/` | ID 2745, HTTP 200, w sitemapie |
+| T-025 | Landingi Ads poza indeksem | `/wapno-granulowane/`, `/wapno-nawozowe/`: HTTP 200, `noindex, follow` |
+| — | Demo-produkt motywu zdjęty z indeksu | `/produkt/organic-pineapple/` → HTTP 404 |
+
+**Razem M1–M2: 14 pozycji SEO + 7 z tabel miesięcznych.**
+
+## M3 — sierpień 2026 (w toku, do 31.08) · ryczałt 2 000 netto + Ads 1 200 media + OLX
+
+| Co dostarczone | Dowód | Zakr. | h |
 |---|---|---|---|
-| KAL-01 | Weryfikacja mockupu przez Kazimierza | 🟡 | `mockups/agria-kalkulator-mg-test-2026-08-18.html` przekazany 18.08 |
-| KAL-02 | Wdrożenie modułu Mg na produkcję | 🔴 | Po weryfikacji. **4 kwestie otwarte** przed wdrożeniem — memory `project_agria_kalkulator_mg` |
+| Uruchomienie kampanii Google Ads, konto 674-207-1446 | ADR `2026-08-13-uruchomienie-kampanii-ads.md`, kampanie żywe od 13.08 | P | 5 h* |
+| Geoblok bezpieczeństwa | `src/plugins/agria-by-auranet/security-geoblock.php`, wdrożony 14.08 — **skutek uboczny: T-048** | R | 5 h* |
+| OLX: treści, siatka 53 miejscowości, spięcie z Partner API | `data/olx/`, `scripts/olx/` — czeka wyłącznie na pakiet Premium po stronie AGRII | P | 5 h* |
+| Mockup kalkulatora z modułem Mg | `mockups/agria-kalkulator-mg-test-2026-08-18.html`, przekazany Kazimierzowi 18.08 | P | 5 h* |
+| Dostęp SSH do produkcji + WP-CLI | klucz `claude-agria-elara` wgrany 18.08, `~/secrets/agria/ssh.env` | R | 5 h* |
+| ADR dwie warstwy cen | `docs/decyzje/2026-08-19-dwie-warstwy-cen.md` | R | 5 h* |
+| Spec ofertownika | `docs/specs/2026-08-18-ofertownik-design.md` | W | 5 h* |
+| Porządek dokumentacji: `FAKTY_KLIENTA.md`, rejestr, rozbiórka `MASTER_PROMPT`, `CLAUDE.md` na wzorcu Primy/Victorini | commity `2109a2f`, `33fddef`, `a0b07b4` | R | 5 h* |
 
----
-
-## 7. Ofertownik — zakres **W** (własne Auranet)
-
-**Nie jest pozycją billable dla AGRII na tym etapie** (decyzja Janka 18.08: najpierw budujemy, potem sprzedajemy).
-Rozpiska klient-facing istnieje, ale **bez kwot** i nie idzie do klienta przed zbudowaniem.
-
-| ID | Co | Status | Dowód / blokada |
-|---|---|---|---|
-| OFE-01 | Etap zerowy: audyt wycieku cen → konwersja jednego produktu na wariantowy → sprzątanie atrybutów → cennik | 🔴 | Niezaczęty, **osobny wątek** (rozdzielone od CEN-01 decyzją 19.08). Spec: `docs/specs/2026-08-18-ofertownik-design.md`. **Audyt wycieku cen to warunek bezpieczeństwa danych, nie porządki:** ceny wariantów WooCommerce są domyślnie widoczne na froncie, w REST API, w feedach i w schema Rank Matha, a ta warstwa ma pozostać **niejawna** |
-
----
-
-## 8. Wizytówki Google (GBP) — zakres **R**
-
-| ID | Co | Status | Dowód / blokada |
-|---|---|---|---|
-| GBP-01 | Optymalizacja profilu **Tarnów** (opis, kategorie, zdjęcia, publikacje) | 🔴 | Profil dostępny od 15.07, optymalizacja **obiecana klientowi na piśmie** w raporcie M2 jako zadanie sierpnia. Brak śladu wykonania. Do końca M3 zostało 12 dni |
-| GBP-02 | Odzysk profili **Niedomice** i **Radgoszcz** | 🟡 | Dostępu nadal brak. Ścieżka: Request access z konta Auranet + weryfikacja własności firmy (KRS 0000170666, NIP 8730006657). **W komunikacji do klienta przemilczeć multi-location** dopóki brak dostępu |
+**⚠️ M3 kończy się za 12 dni z trzynastoma pozycjami w kolejce „teraz", w tym z T-010 —
+zleceniem kompletnym, zaakceptowanym i niewykonanym od 12 dni.** To jest jedyna liczba,
+która ma znaczenie przy planowaniu reszty sierpnia.
 
 ---
 
@@ -234,27 +168,45 @@ Rozpiska klient-facing istnieje, ale **bez kwot** i nie idzie do klienta przed z
 |---|---|
 | **31.08** | Koniec M3. Raport miesięczny dla AGRII — punkt odniesienia `docs/raporty/DOWODY_M2_2026-07.md` |
 | **31.08** | Rozliczenie pierwszego miesiąca budżetu Ads (wydane 199,62 zł z 1 200 zł na 19.08) |
-| **01.09** | Przypomnienie kalendarzowe: menu — segmenty M4 (`docs/przypomnienia/2026-09-01-menu-segmenty-m4.md`) |
+| **01.09** | Przypomnienie kalendarzowe: menu — segmenty M4 |
 | **wrzesień** | Drugi impuls sezonu — wapnowanie pożniwne. Szczyty: `wapno granulowane` 14 800/mies. w sierpniu, `wapno palone` 9 900 w październiku |
-
----
 
 ## Pytania do Pawła — wiedza klienta, nie nasza
 
-Każde blokuje konkretną pozycję rejestru. Rozwinięcie: `docs/FAKTY_KLIENTA.md` → sekcja „Czego nie wiemy".
+Każde blokuje konkretną pozycję. Rozwinięcie: `docs/FAKTY_KLIENTA.md` → „Czego nie wiemy".
+**Forma: telefon Janka, nie mail z tabelą** — memory `feedback_agria_pawel_relacja_telefoniczna`.
 
-1. **Czy AGRIA jest autoryzowanym dystrybutorem Nordkalku?** → blokuje ADS-02.
-2. **Aktualny skład działu sprzedaży** (imiona, role, telefony, segmenty) → blokuje STR-06, 65 dni.
-3. **Czy budownictwo i drogownictwo to realne segmenty?** Oferta handlowa AGRII ich nie wymienia, katalog marketingowy tak.
-4. Zgoda na przywrócenie form dostawy jako atutu, nie MOQ → warunek D4.
-5. Błędy w katalogu drukowanym do erraty: pH >16 przy wapnie palonym, kreda pastewna opisana parametrami wapna tlenkowego, „35 lat" zamiast 37.
-6. Pozycja „Wapno hydratyzowane Bielik, worki 25 kg — 1245/SZT" w ofercie handlowej — niemal na pewno literówka (12,45).
+1. **Czy AGRIA jest autoryzowanym dystrybutorem Nordkalku?** → blokuje **T-040**.
+2. **Aktualny skład działu sprzedaży** (imiona, role, telefony, segmenty) → blokuje **T-006**, 65 dni.
+3. **Czy budownictwo i drogownictwo to realne segmenty?** Oferta handlowa ich nie wymienia, katalog tak.
+4. Zgoda na przywrócenie form dostawy jako atutu, nie MOQ → warunek części **T-037**.
+5. Ceny dla czterech brakujących kart — Dolomit (302), Kreda czarna (303), Tlenkowe z Mg (313),
+   Węglanowe odm. 05 (316). **Dolomit priorytetowo: 6 600 wyszukań/mies.** → rozszerza **T-010**.
+6. Błędy w katalogu drukowanym do erraty: pH >16 przy wapnie palonym, kreda pastewna opisana
+   parametrami wapna tlenkowego, „35 lat" zamiast 37.
+7. Pozycja „Wapno hydratyzowane Bielik, worki 25 kg — 1245/SZT" — niemal na pewno literówka (12,45).
 
 ---
 
+## Mapowanie starych ID → `T-NNN`
+
+Dokumenty historyczne (audyty z maja i czerwca, `CATALOG_VS_WC_GAP.md`) zachowują stare oznaczenia —
+to zapis stanu z tamtego dnia, nie żywy wskaźnik, nie przepisujemy ich.
+
+`STR-01…09` → `T-001…T-009` · `CEN-01` → `T-010` · `CEN-02` → `T-011` ·
+`P0-2a` → `T-012` · `P1-1` → `T-013` · `P1-2` → `T-014` · `P1-4` → `T-015` · `P1-5` → `T-016` ·
+`P1-6` → `T-017` · `A1` → `T-018` · `A3` → `T-019` · `B1` → `T-020` · `B2` → `T-021` · `B6` → `T-022` ·
+`B7` → `T-023` · `C1` → `T-024` · landingi Ads noindex → `T-025` ·
+`P0-6` → `T-026` · `P0-6b` → `T-027` · `DUP-01` → `T-028` · `P1-7` → `T-029` · `P0-2b` → `T-030` ·
+`P0-4` → `T-031` · `P0-3` → `T-032` · `P1-9` → `T-033` · `P0-5` → `T-034` ·
+`C4–C7` → `T-035` · `E1–E3` → `T-036` · `D1–D4` → `T-037` · `HUB-VI` → `T-038` ·
+`ADS-01` → `T-039` · `ADS-02` → `T-040` · `OLX-01` → `T-041` · `OLX-02` → `T-042` ·
+`KAL-01` → `T-043` · `KAL-02` → `T-044` · `OFE-01` → `T-045` · `GBP-01` → `T-046` · `GBP-02` → `T-047` ·
+`GEO-01` → `T-048`
+
 ## Czego ten rejestr nie zastępuje
 
-- **`docs/FAKTY_KLIENTA.md`** — co wiemy o kliencie (produkty, producenci, ceny, ludzie, ustalenia). Rejestr mówi *co wisi*, FAKTY *jak jest*.
-- **`docs/PROJECT_STATE.md`** — stan wątków i kontekst „dlaczego tak".
-- **ADR w `docs/decyzje/`** — decyzje z uzasadnieniem. Rejestr cytuje je w kolumnie „unieważnione czym", nie powiela.
+- **`docs/FAKTY_KLIENTA.md`** — co wiemy o kliencie (produkty, producenci, ceny, ludzie, ustalenia).
+  Rejestr mówi *co wisi*, FAKTY *jak jest*.
+- **ADR w `docs/decyzje/`** — decyzje z uzasadnieniem. Rejestr je cytuje, nie powiela.
 - **Git** — historia wykonania. Rejestr dokłada wymiar obowiązku, nie kopiuje commitów.
