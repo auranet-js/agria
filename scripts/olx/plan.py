@@ -48,7 +48,7 @@ PRODUKTY = [
     {
         "siatka": "agrobielik-70-gleba",
         "wc_id": 310, "sku": "AGR-001", "karta": "agrobielik-70",
-        "tytul": "Wapno do odkwaszania gleb ciężkich, Agrobielik 70, tlenkowe palone 70% CaO, szybkie działanie, atest OSChR, luzem i big bag, od 220 zł/t",
+        "tytul": "Wapno do odkwaszania gleb średnich i ciężkich, Agrobielik 70, tlenkowe palone 70% CaO, szybkie działanie, atest OSChR, luzem i big bag, od 220 zł/t",
         "lead": "Wapno tlenkowe palone do szybkiego odkwaszania gleb średnich i ciężkich. Reaktywność bliska 100% oznacza, że efekt widać w 2–4 tygodnie, a nie w kolejnym sezonie. Uregulowany odczyn odblokowuje składniki pokarmowe już zalegające w glebie.",
         "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich",
         "cena_pole": 220, "cena_opis": "od 220 zł/t netto luzem — cena za towar, bez transportu · dostępne również w big-bagach i workach",

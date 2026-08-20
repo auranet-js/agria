@@ -9,7 +9,7 @@
 > Git zapisuje to, co **napisaliśmy**. Ten plik zapisuje to, co **zlecone i jeszcze niezamknięte** —
 > wymiar, którego commit z natury nie niesie, bo opisuje artefakt, nie stan obowiązku.
 >
-> Stan na **2026-08-19**. Weryfikacja tego dnia: MCP `query_db`, `curl` na produkcji,
+> Stan na **2026-08-20** (aktualizacja kolejki: T-006, T-007, T-042). Bazowa weryfikacja **19.08**: MCP `query_db`, `curl` na produkcji,
 > GSC URL Inspection API, Google Ads API, PSI/CrUX — nie z dokumentów.
 > Numeracja `T-NNN` od 19.08.2026, mapowanie starych ID na końcu pliku
 > (ADR `docs/decyzje/2026-08-19-numeracja-T-NNN-i-przebudowa-rejestru.md`).
@@ -39,26 +39,23 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 
 # KOLEJKA
 
-## 🔴 Teraz — 5 pozycji, nic ich nie blokuje
+## 🔴 Teraz — 4 pozycje, nic ich nie blokuje
 
 | ID | Zadanie | Linia | Zakr. | Dowód / kontekst |
 |---|---|---|---|---|
 | **T-027** | `/do-pobrania/` — zgłoszenie do reindeksacji | SEO | R | **Zgłoszone 19.08 15:16 UTC** przez `~/bin/index-submit` (1 URL, `OK`, zużycie 1/100; log `~/.claude/indexing-submit.log`). Strona zgłoszona **już po** T-008 i T-009. Stan przed: `BLOCKED_BY_META_TAG`, ostatni crawl 2026-04-12, live `index, follow`. **Dowodem domknięcia jest zmiana werdyktu GSC, nie zgłoszenie** — recheck 22.08 (+72 h) i 02.09 (+14 dni). **Wzmocnienie 19.08 18:14:** sitemapa RankMath podawała dla tej strony `lastmod 2026-06-29` mimo dzisiejszej edycji (cache plikowy `uploads/rank-math/*.xml`, 6 plików z 14.07 i 13.08). Cache usunięty przez FTP po kopii `agria-backups/rank-math-cache-2026-08-19-1814.tgz`; sitemapa odbudowana i podaje teraz `2026-08-19T15:14:25`. Kontrola po odbudowie: 6 sitemap odpowiada 200, koszyk i zamówienie **nadal poza** sitemapą (T-019 nietknięte), 16 kart produktowych z dzisiejszą datą |
 | **T-026** | Indeksacja — sześć URL-i poza indeksem: **diagnoza gotowa, decyzja przed wykonaniem** | SEO | R | **Diagnoza 19.08: `docs/audits/T-026-diagnoza-indeksacji-2026-08-19.md`.** Przyczyna **nie jest techniczna** — wykluczone kolejno: sitemapa (pobrana 13.08, 0 błędów), odpowiedź dla Googlebota (200 + `index, follow` na wszystkich sześciu), `robots.txt`, `noindex` w sitemapie (zero stron), budżet crawlowy (strona główna crawlowana 18.08, kategoria 16.08, karta produktu 14.08). **Rozstrzygające:** `/wapnowanie-gleby/` i `/ile-wapna-granulowanego-na-ha/` powstały tego samego dnia — hub jest zaindeksowany i crawlowany 15.08, poradnik nigdy nie pobrany. **Dla każdego z sześciu adresów istnieje już inna strona AGRII rankująca na tę intencję** (hub na „ile wapna granulowanego na hektar" poz. 7,7 / 1 289 wyśw.; kategoria `/wapno-do-oczyszczalni/` na „higienizacja osadów ściekowych" 113 wyśw.; karta `/kreda-malarska/kreda-malarska/` poz. 8,9). Dwa adresy mają **zero popytu** na frazy tematyczne. **Nie zgłaszać czwarty raz do Indexing API.** Cztery scenariusze do decyzji Janka opisane w diagnozie |
 | **T-039** | Korekty kampanii Marka: wykluczenia opakowaniowe, stawka Brand 0,50 → 3,00 zł, grupa „Producent" `[A]` | Ads | P | **Marka nie wydała ani grosza przez sześć dni emisji** (Ads API 19.08) — przy 0,50 zł nie wchodzimy do aukcji. Rekomendacja czeka na „działaj", punkt decyzyjny 7–10 dni |
-| **T-042** | Poprawki treści ogłoszeń ustalone z Kazimierzem `[K mail 18.08]` | OLX | P | Na nas, przed publikacją |
 | **T-046** | Optymalizacja profilu GBP **Tarnów** (opis, kategorie, zdjęcia, publikacje) | GBP | R | Profil dostępny od 15.07, optymalizacja **obiecana klientowi na piśmie** w raporcie M2 jako zadanie sierpnia. Brak śladu wykonania. **Do końca M3 zostało 12 dni** |
 
 ## 🟡 Czeka na AGRIĘ
 
 | ID | Zadanie | Czeka od | Na co konkretnie |
 |---|---|---|---|
-| **T-006** | Przebudowa sekcji „Dział sprzedaży" po odejściu P. Stanisława `[P 15.06]` | **65 dni** | aktualny skład działu — imiona, role, telefony, segmenty. Przy okazji: zepsuty `href` Kazimierza (`http://+48 781 875 411`) |
 | **T-040** | Teksty reklam z nazwą „Nordkalk" `[A]` | 19.08 | **status autoryzowanego dystrybutora.** Licytować na cudzy znak wolno zawsze, użyć w treści — tylko odsprzedawcy. W repo tej informacji nie ma (sprawdzone `grep` po `docs/` i memory) — **nie zgadywać** |
 | **T-041** | Publikacja 200 ogłoszeń OLX | 18.08 | **pakiet Premium 200 kupuje AGRIA** (1 199,99 zł brutto, zakres **K**). Treści, siatka 53 miejscowości i spięcie z Partner API gotowe |
 | **T-043** | Weryfikacja mockupu kalkulatora Mg przez Kazimierza | 18.08 | `mockups/agria-kalkulator-mg-test-2026-08-18.html` przekazany 18.08 |
 | **T-047** | Odzysk profili GBP **Niedomice** i **Radgoszcz** | 15.07 | dostęp. Ścieżka: Request access z konta Auranet + weryfikacja własności (KRS 0000170666, NIP 8730006657). **W komunikacji do klienta przemilczeć multi-location**, dopóki brak dostępu |
-| **T-007** | Korekta interpunkcji w tekstach `[P 15.06]` | 15.06 | finalny tekst — ⚪ robi Paweł sam |
 
 ## 📅 Zaplanowane — wrzesień (M4)
 
@@ -85,6 +82,8 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 | **T-036** | Landingi segmentowe `/wapno-do-stawow/`, `/wapno-do-sadu/`, hub Oczyszczalnie | jw. Menu wraca we wrześniu z treścią, nie z landingami |
 | **T-037** | `/transport-i-dostawa/`, sekcja B2B, formularz z tonażem, formy dostawy z powrotem na karty | częściowo sprzeczne z T-002 (Paweł kazał zdjąć formy dostawy). Powrót wymaga jego zgody — bez niej nie ruszać |
 | **T-038** | Plan hub-and-spoke per segment (HUB Rolnictwo / Rybactwo / Oczyszczalnie) | jw. **`CONTENT_AUDIT_2026-06-15.md` §3 nie ma o tym ani słowa** — to jest źródło powtarzających się propozycji „zróbmy huby" |
+| **T-006** | Przebudowa sekcji „Dział sprzedaży" po odejściu P. Stanisława | **Zdjęte z kolejki decyzją Janka 20.08** `[J]`. Nie dopytywać Pawła o skład działu — pytanie wypada z listy. Otwarte osobno: zepsuty `href` telefonu Kazimierza (`http://+48 781 875 411`) — nie zgłoszone jako zadanie |
+| **T-007** | Korekta interpunkcji w tekstach | **Wykonane przez Pawła samodzielnie** (potwierdzenie Janka 20.08 `[J]`). Robota po stronie AGRII, nie nasz deliverable — poza dziennikiem |
 
 ---
 
@@ -155,9 +154,12 @@ sześć pozycji miało w papierach „niezrobione", a są zrobione.
 | **T-032** — 301 dla starej bazy `/kategoria-produktu/*` | Wdrożone 19.08 17:45 przez FTP. **Sześć reguł jawnych** w bloku `# BEGIN AGRIA 301` — po jednej na kategorię z `product_cat-sitemap.xml` plus sam prefiks. Reguła generyczna świadomie odrzucona: zamieniałaby natychmiastowe 404 nieistniejących adresów na 301 prowadzące do 404. Wynik: **5/5 kategorii → 301 na czysty URL**, czyste URL-e nadal 200, `/kategoria-produktu/` → `/oferta/`, `/kategoria-produktu/nieistnieje/` → **404** (bez zmian), pętli brak (2 skoki). **Reguły z lipca nietknięte** (`/wapno-nawozowe-hurt/`, `/wapno-do-sadu/`, `/kreda-pastewna/`, przekierowania produktowe — sprawdzone). Panel 302, `wp-login` 200, `/wp-json/` 200, Store API 200, `wp-cron` 200, siedem kluczowych stron 200, trzy sitemapy 200. **Kontekst:** GSC za 90 dni pokazuje dla `/kategoria-produktu/*` **zero wyświetleń** — canonical działał, więc 301 zamyka furtkę na przyszłość, nie odzyskuje ruchu. Kopia: `agria-backups/htaccess-przed-T032-*.txt`, snapshot w repo `src/htaccess/` | R | 1 h |
 | **T-028** — duplikaty pod starą bazą `/produkt/` + 15 osieroconych wpisów | Wdrożone 19.08 18:00. **Diagnoza wyjściowa w rejestrze była błędna:** HTTP 200 pod `/produkt/*` nie pochodziło od wpisów `post_type=produkt` — ten CPT **nie jest zarejestrowany w WordPressie** (`wp post-type list`). To była stara baza URL serwująca produkty WooCommerce. Zmierzone: **19 z 19 produktów** odpowiadało 200 pod obiema bazami. **Rozwiązanie: moduł `modules/legacy-urls/`** — hook `template_redirect` czyta adres kanoniczny z WooCommerce i robi 301. Wybrany zamiast 19 ręcznych reguł w `.htaccess`, bo adres docelowy zależy od kategorii i rozjechałby się przy pierwszej zmianie. Wynik: **19/19 → 301** na adres właściwy, adresy właściwe 200, `/produkt/nieistnieje/` → 404, brak pętli. Pierwsza wersja obsługiwała tylko GET — przy HEAD stary adres nadal dawał 200; warunek rozszerzony o HEAD i przetestowany. **Sieroty ID 60–74:** zero linków w treści, w Elementorze i w menu (sprawdzone `query_db`); `wp post delete` odmówił kosza (typ niezarejestrowany, wymagał `--force`), więc **status zmieniony na `draft`** — odwracalne, zamiast trwałego kasowania. **Kontekst:** GSC za 90 dni pokazuje pod `/produkt/*` wyłącznie demo-produkt motywu (`organic-pineapple`, 7 wyświetleń, już 404). Realne produkty nie zbierały tam ruchu — zysk to budżet crawlowy, nie pozycje | R | 2 h |
 
-**Stan na 19.08 wieczorem: z trzynastu pozycji „teraz" zamkniętych jest pięć** (T-048, T-008,
-T-009, T-011 i główna część T-010 — 15 kart z ceną). W kolejce zostaje dziewięć, w tym T-027
-czekające wyłącznie na werdykt Google. **Do końca M3 dwanaście dni.**
+| **T-042** — poprawki mockupu ogłoszeń OLX po uwagach Kazimierza | Wdrożone 20.08. Zakres doprecyzowany przez Janka: chodziło o mockup ogłoszeń, nie o teksty na stronie. **Jedna korekta merytoryczna:** tytuł ogłoszenia AGR-001 (Agrobielik 70) mówił „do odkwaszania gleb **ciężkich**", podczas gdy lead, `intencja` i pole `Zastosowanie funkcjonalne` w specyfikacji od początku mówiły „gleb **średnich i ciężkich**" — tytuł był węższy od produktu i odcinał gleby średnie. Poprawione w **czterech warstwach**: `scripts/olx/plan.py` (źródło generatora, żeby regeneracja nie cofnęła zmiany), `data/olx/plan-ogloszen.json` i `data/olx/adverts-payload.json` (30 rekordów każdy, oba przechodzą `json.load`), `docs/offers/OLX_TABELA_OGLOSZEN.md` (30 wierszy tabeli). Kontrola: **0 wystąpień starej frazy w całym repo**. **Reszta korekt Kazimierza zaakceptowana bez zmian** — treści idą w tej postaci do T-041 | P | 0,5 h |
+
+**Stan na 20.08: z trzynastu pozycji „teraz" zamkniętych jest sześć** (T-048, T-008, T-009,
+T-011, główna część T-010 — 15 kart z ceną — i T-042). W kolejce zostają cztery, w tym T-027
+czekające wyłącznie na werdykt Google. **T-006 i T-007 zdjęte z listy 20.08** (decyzja Janka /
+wykonane przez Pawła). **Do końca M3 jedenaście dni.**
 
 ---
 
@@ -176,14 +178,13 @@ Każde blokuje konkretną pozycję. Rozwinięcie: `docs/FAKTY_KLIENTA.md` → �
 **Forma: telefon Janka, nie mail z tabelą** — memory `feedback_agria_pawel_relacja_telefoniczna`.
 
 1. **Czy AGRIA jest autoryzowanym dystrybutorem Nordkalku?** → blokuje **T-040**.
-2. **Aktualny skład działu sprzedaży** (imiona, role, telefony, segmenty) → blokuje **T-006**, 65 dni.
-3. **Czy budownictwo i drogownictwo to realne segmenty?** Oferta handlowa ich nie wymienia, katalog tak.
-4. Zgoda na przywrócenie form dostawy jako atutu, nie MOQ → warunek części **T-037**.
-5. Ceny dla czterech brakujących kart — Dolomit (302), Kreda czarna (303), Tlenkowe z Mg (313),
+2. **Czy budownictwo i drogownictwo to realne segmenty?** Oferta handlowa ich nie wymienia, katalog tak.
+3. Zgoda na przywrócenie form dostawy jako atutu, nie MOQ → warunek części **T-037**.
+4. Ceny dla czterech brakujących kart — Dolomit (302), Kreda czarna (303), Tlenkowe z Mg (313),
    Węglanowe odm. 05 (316). **Dolomit priorytetowo: 6 600 wyszukań/mies.** → rozszerza **T-010**.
-6. Błędy w katalogu drukowanym do erraty: pH >16 przy wapnie palonym, kreda pastewna opisana
+5. Błędy w katalogu drukowanym do erraty: pH >16 przy wapnie palonym, kreda pastewna opisana
    parametrami wapna tlenkowego, „35 lat" zamiast 37.
-7. Pozycja „Wapno hydratyzowane Bielik, worki 25 kg — 1245/SZT" — niemal na pewno literówka (12,45).
+6. Pozycja „Wapno hydratyzowane Bielik, worki 25 kg — 1245/SZT" — niemal na pewno literówka (12,45).
 
 ---
 
