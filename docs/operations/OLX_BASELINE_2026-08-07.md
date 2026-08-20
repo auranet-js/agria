@@ -66,7 +66,19 @@ Konsekwencja dla pomiaru: link tekstowy odpada, **UTM wchodzi w QR-kod na grafik
 | `GET /partner/categories/{id}/attributes` | atrybuty kat. 4368: `state`, `bdo`, `delivery`; limit **8 zdjęć** |
 | `GET /partner/threads` | działa — **1 wątek, 6 wiadomości, zero nieprzeczytanych** |
 | `GET /partner/cities` \| `/regions` | 53 247 miast z lat/lon, 16 województw |
-| pakiety / płatności / limity | **nie istnieją w API** — stan pakietu tylko z panelu |
+| `GET /partner/cities/{id}/districts` | dzielnice miasta — **wymagane** dla dużych miast, patrz niżej |
+| `GET /partner/users/me/packets` | **działa** — nazwa pakietu, `size`, `left`, `active_to`, kategorie (sprawdzone 20.08.2026; wcześniejszy wpis „pakiety nie istnieją w API" był błędny) |
+| płatności / limity zapytań | nie ma w API — stan płatności tylko z panelu, budżet zapytań nieudokumentowany |
+
+**Duże miasta wymagają `district_id`.** POST bez tego pola kończy się `HTTP 400 · district_id:
+niepoprawna wartość` — sprawdzone 20.08 na Łodzi i Warszawie. Dotyczy siedmiu miast z siatki
+AGRII: Warszawa, Kraków, Łódź, Wrocław, Poznań, Katowice, Częstochowa (29 ogłoszeń).
+Mapa dzielnic centralnych siedzi w `scripts/olx/build_adverts.py` (stała `DISTRICTS`).
+
+**Statusy ogłoszenia po POST są przejściowe.** `new` i `disabled` tuż po wystawieniu nie znaczą
+odrzutu — moderacja przepuszcza ogłoszenie na `active` po **~2–3 minutach** (pomiar 20.08:
+17/17 ogłoszeń fazy pilotażowej, aktywacja 2 min 14 s – 2 min 58 s od POST). Werdykt negatywny
+to `moderated` / `blocked`.
 
 **Wiadomości OLX to w tej kategorii kanał marginalny** — 1 wątek wobec 209 odsłon telefonu. Kontakt idzie telefonem i tak trzeba to mierzyć.
 

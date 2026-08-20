@@ -65,7 +65,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871
+   "city_id": 17871,
+   "district_id": 351
   },
   "images": [
    {
@@ -395,7 +396,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 4765
+   "city_id": 4765,
+   "district_id": 83
   },
   "images": [
    {
@@ -725,7 +727,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959
+   "city_id": 8959,
+   "district_id": 273
   },
   "images": [
    {
@@ -780,7 +783,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7691
+   "city_id": 7691,
+   "district_id": 211
   },
   "images": [
    {
@@ -1275,7 +1279,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871
+   "city_id": 17871,
+   "district_id": 351
   },
   "images": [
    {
@@ -1550,7 +1555,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 4765
+   "city_id": 4765,
+   "district_id": 83
   },
   "images": [
    {
@@ -1880,7 +1886,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959
+   "city_id": 8959,
+   "district_id": 273
   },
   "images": [
    {
@@ -2100,7 +2107,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7691
+   "city_id": 7691,
+   "district_id": 211
   },
   "images": [
    {
@@ -2650,7 +2658,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 19701
+   "city_id": 19701,
+   "district_id": 387
   },
   "images": [
    {
@@ -2980,7 +2989,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871
+   "city_id": 17871,
+   "district_id": 351
   },
   "images": [
    {
@@ -3585,7 +3595,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 19701
+   "city_id": 19701,
+   "district_id": 387
   },
   "images": [
    {
@@ -3860,7 +3871,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 13983
+   "city_id": 13983,
+   "district_id": 327
   },
   "images": [
    {
@@ -3970,7 +3982,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10609
+   "city_id": 10609,
+   "district_id": 299
   },
   "images": [
    {
@@ -4355,7 +4368,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 4765
+   "city_id": 4765,
+   "district_id": 83
   },
   "images": [
    {
@@ -4520,7 +4534,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959
+   "city_id": 8959,
+   "district_id": 273
   },
   "images": [
    {
@@ -4575,7 +4590,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7691
+   "city_id": 7691,
+   "district_id": 211
   },
   "images": [
    {
@@ -4685,7 +4701,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871
+   "city_id": 17871,
+   "district_id": 351
   },
   "images": [
    {
@@ -4960,7 +4977,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10609
+   "city_id": 10609,
+   "district_id": 299
   },
   "images": [
    {
@@ -5070,7 +5088,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 4765
+   "city_id": 4765,
+   "district_id": 83
   },
   "images": [
    {
@@ -5620,7 +5639,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959
+   "city_id": 8959,
+   "district_id": 273
   },
   "images": [
    {
@@ -5785,7 +5805,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871
+   "city_id": 17871,
+   "district_id": 351
   },
   "images": [
    {
@@ -6115,7 +6136,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10609
+   "city_id": 10609,
+   "district_id": 299
   },
   "images": [
    {
@@ -6500,7 +6522,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 4765
+   "city_id": 4765,
+   "district_id": 83
   },
   "images": [
    {
@@ -6775,7 +6798,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871
+   "city_id": 17871,
+   "district_id": 351
   },
   "images": [
    {
@@ -7270,7 +7294,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 4765
+   "city_id": 4765,
+   "district_id": 83
   },
   "images": [
    {
@@ -8768,7 +8793,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959
+   "city_id": 8959,
+   "district_id": 273
   },
   "images": [
    {
@@ -8988,7 +9014,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7691
+   "city_id": 7691,
+   "district_id": 211
   },
   "images": [
    {
@@ -9758,7 +9785,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7691
+   "city_id": 7691,
+   "district_id": 211
   },
   "images": [
    {
@@ -9813,7 +9841,8 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959
+   "city_id": 8959,
+   "district_id": 273
   },
   "images": [
    {

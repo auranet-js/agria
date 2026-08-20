@@ -272,6 +272,24 @@ def tytul(t, bledy):
     return t[:150]
 
 
+# Siedem miast, w których OLX odrzuca POST z pustym district_id („niepoprawna wartość").
+# Wartości to dzielnice centralne, odczytane z GET /partner/cities/{id}/districts 20.08.
+DISTRICTS = {17871: 351,   # Warszawa — Śródmieście
+             4765: 83,     # Częstochowa — Śródmieście
+             8959: 273,    # Kraków — Stare Miasto
+             7691: 211,    # Katowice — Śródmieście
+             19701: 387,   # Wrocław — Śródmieście
+             13983: 327,   # Poznań — Stare Miasto
+             10609: 299}   # Łódź — Śródmieście
+
+
+def lokalizacja(city_id):
+    loc = {"city_id": city_id}
+    if city_id in DISTRICTS:
+        loc["district_id"] = DISTRICTS[city_id]
+    return loc
+
+
 def opis(row, spec):
     czesci = [row["lead"]]
 
@@ -344,7 +362,7 @@ if __name__ == "__main__":
             # jednocześnie właściwe miejsce na dane kontaktowe wg regulaminu — pole formularza,
             # nie treść opisu.
             "contact": {"name": "AGRIA Sp. z o.o.", "phone": "664 393 062"},
-            "location": {"city_id": row["city_id"]},
+            "location": lokalizacja(row["city_id"]),
             "images": zdjecia,
             "price": {"value": row["price"], "currency": "PLN", "negotiable": True},
             "attributes": [{"code": "state", "value": "new"}],

@@ -6,6 +6,8 @@ To pisze na koncie klienta. Domyślnie NIC nie wysyła — trzeba świadomie pod
     post_adverts.py --dry-run              podgląd, zero ruchu do OLX
     post_adverts.py --pilot 1              wystaw N pierwszych (pilot przed masówką)
     post_adverts.py --all                  wystaw resztę z ładunku
+    post_adverts.py --ids plik.txt         wystaw tylko wskazane external_id (po jednym w linii)
+    post_adverts.py --check                rozkład statusów ogłoszeń z rejestru wg API
     post_adverts.py --update               wgraj aktualną treść na już wystawione ogłoszenia
     post_adverts.py --auto-extend          włącz auto_extend na WSZYSTKICH ogłoszeniach konta
     post_adverts.py --status               co już wystawione wg lokalnego rejestru
@@ -13,12 +15,20 @@ To pisze na koncie klienta. Domyślnie NIC nie wysyła — trzeba świadomie pod
 Rejestr wystawionych: data/olx/posted.json (external_id → advert_id). Skrypt nigdy nie
 wystawia drugi raz tego samego external_id — można go bezpiecznie uruchomić ponownie.
 
+Bezpiecznik moderacyjny: przy --all/--ids co N ogłoszeń (--guard N, domyślnie 20) skrypt czyta
+GET /partner/adverts i przerywa serię, gdy którekolwiek ogłoszenie z rejestru ma status
+moderated/blocked — a `disabled` dopiero, gdy utrzyma się ponad 5 minut, bo tuż po POST jest
+stanem przejściowym (moderacja przepuszcza ogłoszenie na `active` po ~2-3 min).
+POST zwraca sukces niezależnie od werdyktu, który przychodzi po fakcie i po cichu — bez
+bezpiecznika można wypchnąć całość, zanim zobaczy się pierwszy odrzut.
+
 Uwaga o auto_extend: to on zdecydował, że konto zgasło 18.07 — był włączony na 1 z 20 ogłoszeń.
 """
 import json
 import os
 import subprocess
 import sys
+import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "..", "..", "data", "olx")
@@ -79,6 +89,92 @@ def post_one(item):
     return advert_id, None
 
 
+# Twardy odrzut moderacji — zatrzymuje serię natychmiast.
+BAD = ("moderated", "blocked")
+# Stan, który tuż po POST jest przejściowy: pomiar 20.08 na 42 ogłoszeniach — aktywacja
+# przychodzi 2 min 14 s – 2 min 58 s po wystawieniu, a do tego czasu ogłoszenie potrafi
+# stać w `disabled`. Alarmujemy dopiero, gdy utrzyma się dłużej niż KARENCJA.
+PODEJRZANE = ("disabled", "unconfirmed", "unpaid")
+KARENCJA = 300
+
+
+def notify(text):
+    """Telegram do Janka. Powiadomienie nigdy nie może wywrócić publikacji — stąd try."""
+    try:
+        d = os.path.expanduser("~/secrets/telegram")
+        tok = open(os.path.join(d, "bot-token.txt")).read().strip()
+        chat = open(os.path.join(d, "chat-id.txt")).read().strip()
+        subprocess.run(["curl", "-sS", "-o", "/dev/null",
+                        f"https://api.telegram.org/bot{tok}/sendMessage",
+                        "--data-urlencode", f"chat_id={chat}",
+                        "--data-urlencode", f"text={text}"], check=False, timeout=30)
+    except Exception as e:
+        print(f"  (Telegram nie poszedł: {e})")
+
+
+def account_statuses():
+    """{advert_id: (status, wiek w sekundach)} dla całego konta — API paginuje po 100."""
+    out, offset = {}, 0
+    teraz = time.time()
+    while True:
+        code, resp = call("GET", f"/partner/adverts?limit=100&offset={offset}")
+        if code != 200:
+            print(f"  UWAGA: nie mogę odczytać statusów, HTTP {code}")
+            return out
+        page = resp.get("data") or []
+        for a in page:
+            try:
+                wiek = teraz - time.mktime(time.strptime(a["created_at"], "%Y-%m-%d %H:%M:%S"))
+            except (KeyError, ValueError):
+                wiek = KARENCJA + 1
+            out[a["id"]] = (a["status"], wiek)
+        if len(page) < 100:
+            return out
+        offset += 100
+
+
+def moderation_check(reg, recheck=150):
+    """Zwraca listę (advert_id, status, opis) dla ogłoszeń z rejestru w złym statusie.
+
+    Pomiar 20.08: świeżo wystawione ogłoszenie potrafi przez ~3 minuty siedzieć w `disabled`,
+    zanim moderacja przepuści je na `active` (8/8 tak przeszło). Dlatego zły status
+    potwierdzamy drugim odczytem po pauzie — inaczej bezpiecznik zatrzymuje serię na
+    stanie przejściowym.
+    """
+    def zle():
+        st = account_statuses()
+        ours = {v["advert_id"]: v for v in reg.values()}
+        out = []
+        for aid, v in ours.items():
+            status, wiek = st.get(aid, (None, 0))
+            if status in BAD or (status in PODEJRZANE and wiek > KARENCJA):
+                out.append((aid, status, f"{v['city']} {v['title'][:44]}"))
+        return out
+
+    pierwsze = zle()
+    if not pierwsze or not recheck:
+        return pierwsze
+    print(f"  … {len(pierwsze)} ogłoszeń w złym statusie — sprawdzam ponownie za {recheck} s")
+    time.sleep(recheck)
+    return zle()
+
+
+def cmd_check(reg):
+    st = account_statuses()
+    ours = {v["advert_id"]: v for v in reg.values()}
+    licz = {}
+    for aid in ours:
+        k = st.get(aid, ("BRAK W API", 0))[0]
+        licz[k] = licz.get(k, 0) + 1
+    print(f"ogłoszeń w rejestrze: {len(ours)} | na koncie widocznych: {len(st)}")
+    for k, v in sorted(licz.items(), key=lambda x: -x[1]):
+        print(f"  {k:<16} {v}")
+    for aid, v in ours.items():
+        status = st.get(aid, ("BRAK W API", 0))[0]
+        if status in BAD or status in PODEJRZANE or aid not in st:
+            print(f"  !! {aid} {status:<12} {v['city']:<20} {v['title'][:44]}")
+
+
 def cmd_dry(items, reg):
     for i, it in enumerate(items, 1):
         mark = "JUŻ WYSTAWIONE" if it["external_id"] in reg else "do wystawienia"
@@ -90,13 +186,15 @@ def cmd_dry(items, reg):
     print("nic nie zostało wysłane do OLX (--dry-run)")
 
 
-def cmd_post(items, reg, limit):
+def cmd_post(items, reg, limit, guard=20):
     todo = [it for it in items if it["external_id"] not in reg][:limit]
     if not todo:
         return print("nic do wystawienia — wszystko z ładunku jest już w rejestrze")
-    print(f"wystawiam {len(todo)} ogłoszeń…")
+    print(f"wystawiam {len(todo)} ogłoszeń… (bezpiecznik moderacyjny co {guard})")
     ok = 0
-    for it in todo:
+    for i, it in enumerate(todo):
+        if i:
+            time.sleep(2)   # limitów API nikt nie udokumentował — nie strzelamy serią bez przerw
         advert_id, err = post_one(it)
         if err:
             print(f"  BŁĄD  {it['_meta']['city']:<20} {it['title'][:44]}\n        {err}")
@@ -108,7 +206,28 @@ def cmd_post(items, reg, limit):
         save_posted(reg)
         ok += 1
         print(f"  OK    {advert_id}  {it['_meta']['city']:<20} {it['title'][:44]}")
+        if guard and ok % guard == 0:
+            zle = moderation_check(reg)
+            if zle:
+                opis = "\n".join(f"{a} {s} — {t}" for a, s, t in zle)
+                print(f"\nSTOP — moderacja odrzuciła {len(zle)} ogłoszeń:\n{opis}")
+                notify(f"OLX AGRIA — STOP po {ok} ogłoszeniach.\n"
+                       f"Moderacja wstrzymała {len(zle)}:\n{opis}\n"
+                       f"Seria przerwana, reszta niewystawiona.")
+                sys.exit(1)
+            print(f"  … bezpiecznik: {ok} wystawionych, zero odrzutów")
     print(f"\nwystawione: {ok}/{len(todo)}. Rejestr: {os.path.relpath(POSTED)}")
+    # Kontrola końcowa: seria krótsza od --guard nie trafiłaby w sprawdzenie w pętli,
+    # a partia po produkcie zwykle ma mniej niż N ogłoszeń.
+    if ok:
+        zle = moderation_check(reg)
+        if zle:
+            opis = "\n".join(f"{a} {st} — {t}" for a, st, t in zle)
+            print(f"STOP — moderacja odrzuciła {len(zle)} ogłoszeń:\n{opis}")
+            notify(f"OLX AGRIA — STOP na koniec partii ({ok} wystawionych).\n"
+                   f"Moderacja wstrzymała {len(zle)}:\n{opis}")
+            sys.exit(1)
+        print("kontrola końcowa: zero odrzutów")
 
 
 PUT_FIELDS = ("title", "description", "category_id", "advertiser_type", "external_id",
@@ -170,7 +289,11 @@ if __name__ == "__main__":
     items = json.load(open(PAYLOAD, encoding="utf-8"))
     reg = load_posted()
 
-    if "--status" in args:
+    guard = int(args[args.index("--guard") + 1]) if "--guard" in args else 20
+
+    if "--check" in args:
+        cmd_check(reg)
+    elif "--status" in args:
         print(f"w rejestrze: {len(reg)} ogłoszeń")
         for eid, v in reg.items():
             print(f"  {v['advert_id']:>12}  {v['city']:<22} {v['title'][:52]}")
@@ -178,11 +301,19 @@ if __name__ == "__main__":
         cmd_auto_extend()
     elif "--update" in args:
         cmd_update(items, reg)
+    elif "--ids" in args:
+        wanted = [l.strip() for l in open(args[args.index("--ids") + 1], encoding="utf-8")
+                  if l.strip() and not l.startswith("#")]
+        wybrane = [it for it in items if it["external_id"] in set(wanted)]
+        brak = set(wanted) - {it["external_id"] for it in wybrane}
+        if brak:
+            sys.exit(f"external_id spoza ładunku: {sorted(brak)}")
+        cmd_post(wybrane, reg, len(wybrane), guard)
     elif "--pilot" in args:
         n = int(args[args.index("--pilot") + 1])
-        cmd_post(items, reg, n)
+        cmd_post(items, reg, n, guard)
     elif "--all" in args:
-        cmd_post(items, reg, len(items))
+        cmd_post(items, reg, len(items), guard)
     elif "--dry-run" in args:
         cmd_dry(items, reg)
     else:
