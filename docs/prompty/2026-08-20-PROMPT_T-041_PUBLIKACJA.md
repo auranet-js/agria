@@ -26,10 +26,16 @@ Przeczytaj najpierw:
 STAN ZMIERZONY 20.08 — punkt wyjścia, nie zakładaj innego:
 
 Payload `data/olx/adverts-payload.json`: 200 ogłoszeń, 11 kart, 53 miejscowości.
-Tytuły 123–141 znaków (limit 150). Opisy 3 518–4 479 znaków (limit 9 000).
+Tytuły 118–138 znaków (limit 150). Opisy 3 518–4 479 znaków (limit 9 000).
 Zdjęć na ogłoszenie: 7 w 186 pozycjach, 6 w 14 (kreda nawozowa granulowana — brak zdjęcia
 studyjnego, bo karta ID 305 ma na produkcji podpięte zdjęcie innego produktu).
-56 unikalnych adresów zdjęć, wszystkie odpowiadają HTTP 200.
+56 unikalnych adresów zdjęć, wszystkie odpowiadają HTTP 200, wszystkie z /agria-olx/v2/.
+Miniatur 12 — po jednej na siatkę, wariantów „-kontekst" i „-pryzma" z pierwszego podejścia
+w payloadzie NIE MA (sprawdzone: 0 wystąpień).
+
+Ogłoszenie pilotowe 1089946612 na koncie zgadza się z payloadem co do znaku: ten sam tytuł
+(123 zn.), ten sam opis (3 849 zn.), 7 zdjęć, status `active`. To jest wersja, która przeszła
+moderację — payload i produkcja nie rozjeżdżają się.
 
 Rejestr `data/olx/posted.json`: JEDNA pozycja — pilot 1089946612 (Zator).
 Do wystawienia zostaje 199. post_adverts.py nigdy nie wystawi drugi raz tego samego
@@ -63,8 +69,10 @@ CO ZROBIĆ, w tej kolejności:
 CZEGO NIE WOLNO COFNĄĆ — to są poprawki po odrzuceniu przez moderację 20.08:
 - Zero słowa „netto" i „brutto" w opisie. Pkt 4.4.c wymaga ceny końcowej.
 - Zero klauzuli „ceny orientacyjne, nie stanowią oferty handlowej". Ten sam punkt.
-- Zero worków w tytułach i w linii cenowej — worek to inna jednostka niż tona, więc
-  cena za tonę ich nie obejmuje. Big-bagi ZOSTAJĄ, bo są sprzedawane na tony.
+- Zero worków w TYTUŁACH i w LINII CENOWEJ — worek to inna jednostka niż tona, więc cena
+  za tonę ich nie obejmuje (sprawdzone: 0/200 w obu miejscach). Big-bagi ZOSTAJĄ, są w 136
+  tytułach, bo sprzedaje się je na tony. Worki występują wyłącznie w sekcji TRANSPORT
+  („Big-bagi i worki na paletach") — to zdanie Janka i ma tam zostać.
 - Zero numeru telefonu i e-maila w tytule i opisie. Kontakt tylko w polach formularza.
 - Zero kodów QR na zdjęciach produktowych. Kod jest wyłącznie na osobnej karcie
   z kalkulatorem, z UTM w utm_content.
