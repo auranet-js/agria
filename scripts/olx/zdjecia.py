@@ -23,7 +23,9 @@ import os
 import subprocess
 import sys
 
-CDN = "https://ireland.apollo.olxcdn.com/v1/files/{}-PL/image;s=1000x700"
+# CDN trzyma oryginały w 1500x1205 — przy s=1000x700 dostawaliśmy 871x700, czyli połówki
+# 435x700. Żądanie większego kadru daje połówki 750x1205, trzy razy więcej pikseli.
+CDN = "https://ireland.apollo.olxcdn.com/v1/files/{}-PL/image;s=2000x1400"
 
 PLANSZE = {
     "tlenkowe_drobne": "ehrko21q6pcg",   # Agrobielik 70 0–2 mm | Agrobielik 90 0–3 mm
@@ -63,21 +65,59 @@ PLAKIETKA = (0.385, 0.300, 0.637, 0.679)
 
 
 def zamaluj_kod(src, dst):
-    """Zakrywa plakietkę teksturą — osobno lewą i prawą połowę, próbką z tego samego pasa."""
+    """Zakrywa plakietkę z kodem QR teksturą z tej samej planszy — lustrzanym odbiciem sąsiedztwa.
+
+    Pierwsze podejście kopiowało próbkę z pasa oddalonego o ćwierć szerokości kadru i wklejało ją
+    na styk. Przy połówkach 435x700 nie było tego widać, przy 750x1205 łatka rzucała się w oczy:
+    twarda pionowa krawędź plus tekstura będąca dokładnym powtórzeniem tej obok. Samo rozmycie
+    krawędzi nie wystarczyło — plansza ma poziomy gradient oświetlenia, więc próbka z odległego
+    miejsca wnosiła skok jasności widoczny nawet przez piórko.
+
+    Rozwiązanie: łatkę robimy z pasa PRZYLEGŁEGO do plakietki i odbijamy go w poziomie. Odbicie
+    względem krawędzi plakietki sprawia, że tekstura przechodzi przez tę krawędź bez szwu, a że
+    próbka jest tuż obok — jasność zgadza się sama. Lewą połowę odbijamy względem lewej krawędzi,
+    prawą względem prawej; obie łatki spotykają się dokładnie na środku kadru, czyli w linii,
+    w której i tak tniemy planszę na dwa ogłoszenia.
+    """
     w, h = wymiary(src)
     fx0, fy0, fx1, fy1 = PLAKIETKA
     x0, y0, x1, y1 = round(fx0 * w), round(fy0 * h), round(fx1 * w), round(fy1 * h)
     srodek, bh = w // 2, y1 - y0
     lw, pw = srodek - x0, x1 - srodek
-    zrodlo_l = max(0, x0 - lw - round(w * 0.05))
-    zrodlo_p = min(w - pw - 1, x1 + round(w * 0.05))
+
+    # Samo odbicie daje ciągłość, ale zostawia widoczną symetrię wokół osi. Dlatego każdą łatkę
+    # składamy z DWÓCH odbitych pasów pobranych z różnej wysokości i mieszamy je gradientem:
+    # przy osi odbicia liczy się pas przylegający (ciągłość), dalej przechodzimy w drugi
+    # (symetria się rozmywa). Gradient jest poziomy, czarny przy osi, biały przy końcu łatki.
+    dy = round(h * 0.14)
+    tmp, maska = dst + ".tmp.png", dst + ".mask.png"
+    lat_l, lat_p = dst + ".l.png", dst + ".p.png"
+
+    def lataj(szer, zx, os_przy_lewej, cel):
+        """Składa jedną łatkę: dwa odbite pasy zmieszane gradientem od osi odbicia."""
+        y_alt = max(0, min(h - bh, y0 - dy))
+        kierunek = ["-rotate", "270"] if os_przy_lewej else ["-rotate", "90"]
+        subprocess.run(["magick",
+            "(", src, "-crop", f"{szer}x{bh}+{zx}+{y0}", "+repage", "-flop", ")",
+            "(", src, "-crop", f"{szer}x{bh}+{zx}+{y_alt}", "+repage", "-flop", ")",
+            "(", "-size", f"{bh}x{szer}", "gradient:black-white", *kierunek, ")",
+            "-composite", cel], check=True)
+
+    lataj(lw, x0 - lw, True, lat_l)     # oś przy lewej krawędzi łatki (x0)
+    lataj(pw, x1, False, lat_p)         # oś przy prawej krawędzi łatki (x1)
     subprocess.run([
         "magick", src,
-        "(", "+clone", "-crop", f"{lw}x{bh}+{zrodlo_l}+{y0}", "+repage", ")",
-        "-geometry", f"+{x0}+{y0}", "-composite",
-        "(", "+clone", "-crop", f"{pw}x{bh}+{zrodlo_p}+{y0}", "+repage", "-flop", ")",
-        "-geometry", f"+{srodek}+{y0}", "-composite",
-        "-quality", "94", dst], check=True)
+        lat_l, "-geometry", f"+{x0}+{y0}", "-composite",
+        lat_p, "-geometry", f"+{srodek}+{y0}", "-composite", tmp], check=True)
+    # piórko wygładza tylko górną i dolną krawędź łatki; boczne są ciągłe z definicji
+    piorko = max(10, round(h * 0.012))
+    subprocess.run([
+        "magick", "-size", f"{w}x{h}", "xc:black", "-fill", "white",
+        "-draw", f"rectangle {x0},{y0 + piorko} {x1},{y1 - piorko}",
+        "-blur", f"0x{piorko}", maska], check=True)
+    subprocess.run(["magick", src, tmp, maska, "-composite", "-quality", "94", dst], check=True)
+    for f in (tmp, maska, lat_l, lat_p):
+        os.remove(f)
 
 
 def polowa(src, strona, dst):

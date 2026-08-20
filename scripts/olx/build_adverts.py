@@ -7,11 +7,14 @@ Wyjście:  data/olx/adverts-payload.json
 Reguły treści wymuszone tu kodem, nie dobrą wolą:
 - ŻADNEGO numeru telefonu w opisie (regulamin OLX pkt 4: dane kontaktowe wyłącznie
   w polach formularza). Stare ogłoszenia AGRII kończyły się `6*6*4*3*9*3*0*6*2`.
-- Jedno ogłoszenie = jeden produkt. Bez list „w ofercie także…", bez „nawozów sztucznych"
-  (te są poza zakresem produktowym AGRII — docs/MASTER_PROMPT.md).
-- Parametry wyłącznie z kart produktowych agria.pl, zero wymyślania.
-- Cena zawsze z jednostką i z informacją netto/loco — to jest właśnie ta różnica
-  wobec wabików bez jednostki, którymi kategoria jest zapchana.
+- Jedno ogłoszenie = jeden produkt. Bez wyliczania innych pozycji z oferty i bez wymieniania
+  kilku form sprzedaży naraz — pkt 4.4.h Regulaminu OLX, zacytowany przy wstrzymaniu ogłoszenia
+  1089946612 dnia 20.08.
+- Cena KOŃCOWA, ze wskazaniem, czego dotyczy — pkt 4.4.c i 4.4.i. Żadnego „od", żadnej klauzuli
+  o cenach orientacyjnych. Bez określenia netto/brutto (decyzja Janka 20.08): regulamin wymaga
+  „Ceny końcowej w złotych polskich", słowo „brutto" pochodzi z artykułu pomocy, nie z 4.4.c.
+- Parametry wyłącznie z kart produktowych agria.pl, zero wymyślania — pkt 13.1.d zabrania
+  podawania nieprawdziwych informacji o Przedmiocie i zatajania istotnych.
 """
 import json
 import os
@@ -24,51 +27,84 @@ PLAN = os.path.join(D, "plan-ogloszen.json")
 SPECS = os.path.join(D, "product-specs.json")
 OUT = os.path.join(D, "adverts-payload.json")
 
-CDN = "https://ireland.apollo.olxcdn.com/v1/files/{}-PL/image;s=1000x700"
-WLASNE = "https://auratest.pl/agria-olx/agria-{}.jpg"
+V2 = "https://auratest.pl/agria-olx/v2/agria-{}.jpg"
 
-# Zdjęcia produktowe to POŁÓWKI plansz Auranetu — jedna plansza = dwa produkty obok siebie,
-# więc w ogłoszeniu jednego produktu pokazywaliśmy też drugi. Cięcie robi `scripts/olx/zdjecia.py`,
-# on też usuwa plakietkę z kodem QR (regulamin OLX traktuje zdjęcia jako treść ogłoszenia).
-# Zdjęcia realne — worki, big-bagi, kadr otwierający — nie miały kodu i zostają na CDN OLX.
-FOTO = {
-    "hero":    CDN.format("bszde7mjrgep2"),   # „WAPNA NAWOZOWE" — ciągnik na polu
-    "worki":   CDN.format("df737gqzimu12"),   # palety z workami wapna tlenkowego
-    "bigbagi": CDN.format("03yl2d0fc5313"),   # big-bagi Agrobielik w magazynie
-    "agrobielik-70":            WLASNE.format("agrobielik-70"),
-    "agrobielik-90-0-3":        WLASNE.format("agrobielik-90-0-3"),
-    "agrobielik-90-2-8":        WLASNE.format("agrobielik-90-2-8"),
-    "oxyfertil-90":             WLASNE.format("oxyfertil-90"),
-    "weglanowe-z-magnezem":     WLASNE.format("weglanowe-z-magnezem"),
-    "weglanowe-bez-magnezu":    WLASNE.format("weglanowe-bez-magnezu"),
-    "granulowane-z-magnezem":   WLASNE.format("granulowane-z-magnezem"),
-    "granulowane-bez-magnezu":  WLASNE.format("granulowane-bez-magnezu"),
-    "kreda-sypka":              WLASNE.format("kreda-sypka"),
-    "kreda-granulowana":        WLASNE.format("kreda-granulowana"),
+# GALERIA — osiem slotów, czyli limit kategorii 4368. Kolejność ustalona 20.08 po obejrzeniu
+# 214 pierwszych zdjęć konkurencji i po zmierzeniu, że miniatura na liście OLX to slot
+# `image;s=516x361`, POZIOMY, a CDN nie kadruje, tylko wpisuje zdjęcie w prostokąt.
+# Pionowa plansza 435x700 zajmowała w nim 43 % szerokości niezależnie od rozdzielczości —
+# dlatego pierwszy kadr jest poziomy 1500x1050, dokładnie w kształcie slotu.
+#
+#   1. miniatura zastosowaniowa (per SIATKA — inna dla stawu, inna dla gleby)
+#   2. zdjęcie studyjne produktu (kółko z karty produktowej, WEBP → JPG)
+#   3. karta katalogowa z parametrami (bez kodu QR i bez stopki z adresem i telefonem)
+#   4. pryzma z odniesieniem skali (per SIATKA) — archetyp nr 1 kategorii, 38 % pierwszych zdjęć
+#   5. big-bag — archetyp nr 2, 25 %
+#   6. plansza produktowa 750x1205 (makro materiału z podpisem)
+#   7. kadr otwierający „WAPNA NAWOZOWE"
+#   8. karta z kodem QR do kalkulatora (UTM z nazwą karty w utm_content)
+#
+# Sloty 1 i 4 zależą od SIATKI, nie od karty: Agrobielik 70 idzie jako dwa różne ogłoszenia
+# (do stawu / na odkwaszanie) i każde ma własny kontekst zastosowania.
+
+# karta produktowa → plansza z zdjecia.py. Kreda pastewna nie ma własnej planszy (plansze są
+# cięte po dwie z pięciu kadrów kitu), więc dostaje własne zdjęcie frakcji z karty produktowej.
+PLANSZA = {
+    "agrobielik-70": "agrobielik-70",
+    "agrobielik-90": "agrobielik-90-0-3",
+    "oxyfertil-90": "oxyfertil-90",
+    "weglanowe-granulowane": "granulowane-bez-magnezu",
+    "weglanowe-magnez-granulowane": "granulowane-z-magnezem",
+    "weglanowe-odmiana-04": "weglanowe-bez-magnezu",
+    "weglanowe-magnez-odmiana-04": "weglanowe-z-magnezem",
+    "weglanowe-magnez-odmiana-05": "weglanowe-z-magnezem",
+    "kreda-nawozowa-sypka": "kreda-sypka",
+    "kreda-nawozowa-granulowana": "kreda-granulowana",
+    "kreda-pastewna": "kreda-pastewna-frakcja",
 }
 
-# Pierwsze zdjęcie decyduje o kliknięciu z listy, więc na czele idzie kadr TEGO produktu.
-GALERIE = {
-    "agrobielik-70":               ["agrobielik-70", "bigbagi", "worki", "hero"],
-    "agrobielik-90":               ["agrobielik-90-0-3", "agrobielik-90-2-8", "bigbagi", "hero"],
-    "oxyfertil-90":                ["oxyfertil-90", "bigbagi", "hero"],
-    "weglanowe-granulowane":       ["granulowane-bez-magnezu", "bigbagi", "hero"],
-    "weglanowe-magnez-granulowane": ["granulowane-z-magnezem", "bigbagi", "hero"],
-    "kreda-nawozowa-sypka":        ["kreda-sypka", "hero", "bigbagi"],
-    "kreda-nawozowa-granulowana":  ["kreda-granulowana", "bigbagi", "hero"],
-    "weglanowe-odmiana-04":        ["weglanowe-bez-magnezu", "hero", "bigbagi"],
-    "weglanowe-magnez-odmiana-04": ["weglanowe-z-magnezem", "hero", "bigbagi"],
-    "weglanowe-magnez-odmiana-05": ["weglanowe-z-magnezem", "hero", "bigbagi"],
-    # mieszanka to faktycznie połączenie dwóch materiałów, więc pokazujemy oba
-    "mieszanka-tlenkowo-weglanowa": ["agrobielik-70", "weglanowe-bez-magnezu", "hero"],
-    # kreda pastewna nie ma własnej planszy — miniaturą są jej zdjęcia frakcji z karty
-    # produktowej; „worki" tu nie wchodzą, bo to worki wapna tlenkowego, czyli innego produktu
-    "kreda-pastewna":              ["hero"],
+# karta produktowa → strona katalogu druku 2026 (karty_katalogowe.py)
+KARTA_KATALOGOWA = {
+    "agrobielik-70": "karta-agrobielik-70",
+    "agrobielik-90": "karta-agrobielik-90-0-3",
+    "oxyfertil-90": "karta-oxyfertil-90",
+    "weglanowe-granulowane": "karta-weglanowe-granulowane",
+    "weglanowe-magnez-granulowane": "karta-weglanowe-magnez-granulowane",
+    "weglanowe-odmiana-04": "karta-weglanowe-odmiana-04",
+    "weglanowe-magnez-odmiana-04": "karta-weglanowe-magnez-odmiana-04",
+    "weglanowe-magnez-odmiana-05": "karta-weglanowe-magnez-odmiana-05",
+    "kreda-nawozowa-sypka": "karta-kreda-nawozowa-sypka",
+    "kreda-nawozowa-granulowana": "karta-kreda-nawozowa-granulowana",
+    "kreda-pastewna": "karta-kreda-pastewna",
 }
 
-# Produkty bez własnej planszy: zdjęcia z karty produktowej idą PRZED kadrami z kitu,
-# żeby miniaturą był ten produkt, a nie ogólny kadr otwierający.
-BEZ_PLANSZY = {"kreda-pastewna"}
+# Zdjęcia studyjne — kółka z kart produktowych agria.pl, robione w studio.
+# `kreda-nawozowa-granulowana` NIE MA tu wpisu świadomie: na produkcji karta ID 305 ma podpięte
+# `wapno-weglanowe-bez-magnezu-grankal-agria.webp`, czyli to samo zdjęcie co ID 314 (wapno
+# węglanowe granulowane). Pokazałaby więc inny produkt. Wróci, gdy karta dostanie własne zdjęcie.
+STUDIO = {k: f"studio-{k}" for k in (
+    "agrobielik-70", "agrobielik-90", "oxyfertil-90", "weglanowe-granulowane",
+    "weglanowe-magnez-granulowane", "weglanowe-odmiana-04", "weglanowe-magnez-odmiana-04",
+    "weglanowe-magnez-odmiana-05", "kreda-nawozowa-sypka", "kreda-pastewna")}
+
+
+def galeria(row, bledy):
+    """Składa listę zdjęć dla jednego ogłoszenia. Puste sloty wypadają, kolejność zostaje."""
+    karta, siatka = row["karta"], row["siatka"]
+    sloty = [
+        f"mini-{siatka}-kontekst",
+        STUDIO.get(karta),
+        KARTA_KATALOGOWA.get(karta),
+        f"mini-{siatka}-pryzma",
+        "bigbag",
+        PLANSZA.get(karta),
+        "hero",
+        f"info-{karta}",
+    ]
+    for nazwa, mapa in (("karta katalogowa", KARTA_KATALOGOWA), ("plansza", PLANSZA)):
+        if karta not in mapa:
+            bledy.append(f"brak wpisu {nazwa} dla {karta}")
+    return [{"url": V2.format(s)} for s in sloty if s][:8]
 
 # Które parametry z karty produktowej wchodzą do opisu i w jakiej kolejności.
 PARAMETRY = ["Zawartość CaO", "Zawartość CaO+MgO", "Zawartość MgO", "Reaktywność",
@@ -76,15 +112,147 @@ PARAMETRY = ["Zawartość CaO", "Zawartość CaO+MgO", "Zawartość MgO", "Reakt
 STOSOWANIE = ["Zastosowanie funkcjonalne", "Dawkowanie", "Szybkość działania",
               "Efekt zastosowania", "Dodatkowe zastosowanie"]
 
+# Kalkulator: kod QR prowadzi do niego z ostatniego zdjęcia w galerii (scripts/olx/karta_info.py).
+# W opisie NIE podajemy adresu WWW — w całej kategorii ma go 5 ogłoszeń na 1 204 i wygląda to
+# na obchodzenie filtra, nie na dozwoloną praktykę (OLX_BASELINE_2026-08-07.md).
+KALKULATOR = (
+    "POLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\n"
+    "Podajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar "
+    "i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. "
+    "Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\n"
+    "Wolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — "
+    "odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin "
+    "i na co uważać przy Twoim sprzęcie."
+)
+
+# WYŁĄCZONE 20.08 po werdykcie moderacji. Pkt 4.4.h Regulaminu: „jedno Ogłoszenie może dotyczyć
+# jednego Przedmiotu" — a to jest wyliczenie jedenastu innych. Sekcja weszła rano decyzją Janka
+# i wypadła tego samego dnia, gdy OLX zacytował ten punkt przy wstrzymaniu ogłoszenia 1089946612.
+# Zostaje w kodzie, bo 27,9 % żywych ogłoszeń kategorii ma podobne listy — jeśli okaże się,
+# że powodem było co innego, wraca jedną linią.
+# Wyliczenie z katalogu druku 2026 (17 kart produktowych) — nie z pamięci i nie z rozumowania.
+POZOSTALA_OFERTA = (
+    "POZOSTAŁA OFERTA\n"
+    "• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, "
+    "tlenkowe z magnezem\n"
+    "• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n"
+    "• Kreda nawozowa sypka i granulowana, kreda pastewna\n"
+    "• Dolomit, mieszanka tlenkowo-węglanowa\n"
+    "• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\n"
+    "Pytaj o dostępność i wycenę pod numerem z ogłoszenia."
+)
+
+# Transport. „Własny transport" deklaruje 4 % kategorii, wywrotkę 6 %, HDS 1 % (pomiar 20.08
+# na 1 105 opisach) — czyli kategoria mówi „z transportem", nie mówiąc czyim i czym. To jest
+# wolne miejsce i AGRIA ma czym je zająć. Decyzja Janka 20.08: NIE nazywamy magazynów,
+# NIE piszemy, czego kupujący potrzebuje do rozładunku, NIE podajemy stawek transportu.
+TRANSPORT = (
+    "TRANSPORT\n"
+    "• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem "
+    "z rynku.\n"
+    "• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n"
+    "• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n"
+    "• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy."
+)
+
+# Rozsiew: doradztwo, nie usługa (decyzja Janka 20.08). Sekcja jest twierdząca — mówi, co dajemy,
+# a nie czego nie robimy. Zdanie „usługi wysiewu nie wykonujemy" wypadło na jego polecenie:
+# ogłoszenie sprzedażowe nie jest miejscem na wyliczanie, czego nie ma w ofercie.
+ROZSIEW = (
+    "ROZSIEW I DOBÓR DAWKI\n"
+    "Doradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens "
+    "przy Twoim odczynie i rodzaju gleby."
+)
+
+# Dofinansowanie: kategoria gra tym hasłem w 423 ogłoszeniach na 1 105, ale prawie zawsze
+# ogólnikowo — „spełniamy wymagania dofinansowania" (115×), „zgodne z dofinansowaniem" (46×).
+# Konkretów nie podaje nikt: zero wystąpień NFOŚiGW, zero słowa „wniosek", 27 % wspomina fakturę.
+# Dlatego my mówimy DOKŁADNIE, co jest po naszej, a co po stronie kupującego — to jest realna
+# przewaga, a nie kolejne „spełniamy wymagania".
+
+# Nabór dotyczy WYŁĄCZNIE województwa łódzkiego, a siatka obejmuje dziewięć województw, więc
+# ten akapit wchodzi tylko na 12 ogłoszeń z region_id 7 (Łódź, Piotrków, Tomaszów, Łowicz).
+# Fakty zweryfikowane 20.08 na stronie NFOŚiGW, nie przepisane z drugiej ręki.
+REGION_LODZKIE = 7
+DOFINANSOWANIE_LODZKIE = (
+    "NABÓR W WOJEWÓDZTWIE ŁÓDZKIM\n"
+    "Na terenie województwa łódzkiego trwa nabór wniosków o dotację na wapnowanie gleb dla osób "
+    "fizycznych prowadzących działalność rolniczą, prowadzony przez Narodowy Fundusz Ochrony "
+    "Środowiska i Gospodarki Wodnej. Dotacja do 150 zł za tonę czystego składnika CaO lub "
+    "CaO+MgO, od 1 000 do 20 000 zł na wniosek, dla użytków rolnych o odczynie pH 5,5 lub "
+    "niższym. Jedna działka ewidencyjna nie częściej niż raz na cztery lata. Nabór do "
+    "31 sierpnia 2027 r. Szczegółowe warunki określa regulamin naboru."
+)
+
+# Dowód społeczny wyłącznie z faktów, które da się obronić: rok założenia, atest do każdej
+# partii, dwa magazyny, dostawy własną flotą (karta katalogowa 2026). Żadnych „setek zadowolonych
+# klientów" ani „numeru 1 w Polsce" — kategoria jest tym zapchana i to nic nie znaczy.
+DLACZEGO = (
+    "DLACZEGO AGRIA\n"
+    "• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n"
+    "• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek "
+    "przy rozładunku.\n"
+    "• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n"
+    "• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna."
+)
+
+# CTA na końcu, przed stopką. Bez numeru telefonu i bez adresu — regulamin OLX dopuszcza dane
+# kontaktowe wyłącznie w polach formularza, a walidacja API odrzuca je w opisie.
+KONTAKT = (
+    "MASZ PYTANIE? DZWOŃ ALBO NAPISZ\n"
+    "Nie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — "
+    "chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy "
+    "potrzebną ilość i koszt dostawy pod Twój adres."
+)
+
+# Dofinansowanie. 37 % opisów w kategorii obiecuje dotacje, ale to jest obietnica pusta w naszej
+# siatce: sprawdzone 20.08 — Mazowieckie (55 ogłoszeń) ma stronę programu z 2020 i nabór
+# 01.01.2020–31.12.2021, Małopolskie (33) pisze wprost „NABÓR ZAKOŃCZONY, wyczerpanie alokacji",
+# Wielkopolskie (21) zamknęło nabór 15.12.2023, a 02.08.2024 wyczerpał się krajowy limit
+# de minimis w rolnictwie. Otwarte jest Łódzkie (12 ogłoszeń) — ale to osobny program wojewódzki
+# na 2026, wyłącznie dla osób fizycznych. Dlatego NIE obiecujemy pieniędzy. Mówimy o dokumentach,
+# które AGRIA realnie wystawia, i odsyłamy po stan naboru do właściwego funduszu.
+DOFINANSOWANIE = (
+    "DOKUMENTY POD DOFINANSOWANIE\n"
+    "Do każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest "
+    "partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby "
+    "wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\n"
+    "Nabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają "
+    "inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan "
+    "w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz "
+    "wniosek."
+)
+
 STOPKA = (
     "DOKUMENTY\n"
     "Atest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne "
     "do pobrania oraz dostarczane przy dostawie.\n\n"
-    "AGRIA Sp. z o.o. — surowce wapniowe od 1989 r. Magazyny: Niedomice i Radgoszcz.\n"
+    "AGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\n"
     "Stabilne parametry. Pewne dostawy."
 )
 
 TELEFON = re.compile(r"(?:\d[\s\-\*\.]{0,2}){9,}")
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+")
+# Reguły walidacji z OpenAPI Partner API (sekcja „Validation rules"), nie z domysłów:
+# opis 80–9000 znaków, tytuł 16–150, wielkie litery ≤50 % tekstu, żaden z tych znaków
+# nie może wystąpić trzy razy pod rząd, e-maile i telefony zabronione w tytule i opisie.
+TROJKA = re.compile(r"([!?.,\-=+#%&@*_><:()|])\1\1")
+
+
+def sprawdz_regulyOLX(tytul_txt, opis_txt, etykieta, bledy):
+    if not 16 <= len(tytul_txt) <= 150:
+        bledy.append(f"TYTUŁ poza 16–150 znaków ({len(tytul_txt)}): {etykieta}")
+    if not 80 <= len(opis_txt) <= 9000:
+        bledy.append(f"OPIS poza 80–9000 znaków ({len(opis_txt)}): {etykieta}")
+    for nazwa, tekst in (("tytule", tytul_txt), ("opisie", opis_txt)):
+        m = TROJKA.search(tekst)
+        if m:
+            bledy.append(f"TRZY ZNAKI POD RZĄD w {nazwa} {etykieta}: {m.group(0)!r}")
+        litery = [c for c in tekst if c.isalpha()]
+        if litery and sum(c.isupper() for c in litery) / len(litery) > 0.5:
+            bledy.append(f"PONAD 50% WIELKICH LITER w {nazwa} {etykieta}")
+        if EMAIL.search(tekst):
+            bledy.append(f"E-MAIL w {nazwa} {etykieta}")
 
 
 def sekcja(naglowek, spec, klucze):
@@ -111,19 +279,32 @@ def opis(row, spec):
     if s:
         czesci.append(s)
 
+    # Z linii cenowej wypadły dwie rzeczy i tylko dwie: słowo „netto" oraz klauzula
+    # „Ceny orientacyjne, nie stanowią oferty handlowej w rozumieniu Kodeksu cywilnego"
+    # (pkt 4.4.c Regulaminu OLX — cena ma być końcowa). Worki wypadły, big-bagi zostają.
     czesci.append(
         "FORMY DOSTAWY I CENA\n"
         f"• {row['cena_opis']}\n"
-        "• Ceny netto, za sam towar — bez transportu. Transport wyceniamy indywidualnie "
+        "• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie "
         "w zależności od miejsca dostawy.\n"
-        "• Możliwy odbiór własny.\n"
-        "Ceny orientacyjne, nie stanowią oferty handlowej w rozumieniu Kodeksu cywilnego."
+        "• Możliwy odbiór własny."
     )
+    czesci.append(TRANSPORT)
+    czesci.append(ROZSIEW)
     # Pole „Magazyn" z karty produktowej wypisuje zakłady DOSTAWCÓW (Sitkówka, Bukowa, Celiny,
     # Góraźdżce…). W ogłoszeniu wystawionym w Płocku to tylko myli czytelnika, a przy okazji
-    # eksponuje strukturę zaopatrzenia. Magazyny AGRII są w stopce.
+    # eksponuje strukturę zaopatrzenia. Lokalizacji własnych magazynów też nie podajemy —
+    # decyzja Janka 20.08.
     if spec.get("Dostępność"):
         czesci.append(f"DOSTĘPNOŚĆ\n• {spec['Dostępność']}")
+    czesci.append(KALKULATOR)
+    czesci.append(DOFINANSOWANIE)
+    # Nabór łódzki obowiązuje tylko w jednym z dziewięciu województw siatki — 12 ogłoszeń.
+    if row.get("region_id") == REGION_LODZKIE:
+        czesci.append(DOFINANSOWANIE_LODZKIE)
+    czesci.append(POZOSTALA_OFERTA)
+    czesci.append(DLACZEGO)
+    czesci.append(KONTAKT)
     czesci.append(STOPKA)
     return "\n\n".join(c for c in czesci if c)
 
@@ -142,15 +323,9 @@ if __name__ == "__main__":
         m = TELEFON.search(tresc)
         if m:
             bledy.append(f"NUMER TELEFONU w opisie {row['karta']}: {m.group(0)!r}")
+        sprawdz_regulyOLX(row["title"], tresc, row["karta"], bledy)
 
-        klucze = GALERIE.get(row["karta"])
-        if not klucze:
-            bledy.append(f"brak galerii dla {row['karta']}")
-            klucze = ["hero"]
-        z_kitu = [{"url": FOTO[k]} for k in klucze]
-        ze_strony = [{"url": u} for u in specs.get(row["karta"], {}).get("images", [])[:4]]
-        zdjecia = (ze_strony + z_kitu) if row["karta"] in BEZ_PLANSZY else (z_kitu + ze_strony)
-        zdjecia = zdjecia[:8]  # limit OLX dla kategorii 4368
+        zdjecia = galeria(row, bledy)
 
         out.append({
             "title": tytul(row["title"], bledy),
