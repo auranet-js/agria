@@ -43,118 +43,98 @@ KLUCZ = os.path.expanduser("~/secrets/google/gemini-api-key.txt")
 
 MODEL = "gemini-3-pro-image"
 W, H = 1500, 1050          # dokładnie kształt slotu miniatury OLX
-PAS = 196                  # wysokość pasa z podpisem
+MARGINES = 46              # wspólny margines: od lewej, od dołu, od prawej
+WYS = 96                   # wysokość paska z korzyścią — ta sama co logo
+SCRIM = 0.42               # jaka część kadru od góry jest przyciemniona pod napis
+SZER_HASLA = 1180          # docelowa szerokość hasła; stopień pisma dobiera się sam
 CIEMNA = "#0A4030"         # zieleń marki, ta sama co stopka katalogu
 AKCENT = "#94C14D"         # jasna zieleń z podpisów plansz
 JASNY = "#EAF0E7"
 
-WSPOLNE = (
-    "Fotografia dokumentalna, poziomy kadr, obiektyw 35 mm, naturalne światło dzienne, "
-    "lekkie zachmurzenie, realistyczne proporcje i kolory, widoczny kurz i zabrudzenia sprzętu, "
-    "polski krajobraz rolniczy. Bez HDR, bez wyglądu zdjęcia stockowego. "
-    "BEZ ludzi i twarzy, BEZ czytelnych znaków firmowych i logotypów, BEZ tablic rejestracyjnych, "
-    "BEZ jakiegokolwiek tekstu, napisów, znaków wodnych i ramek. "
-    "Nie dodawaj podpisu do obrazu."
+# Szablon kadru — wzorzec Janka z 20.08. Próbka towaru leży na kontrolowanym zielonym
+# gradiencie, nie na ziemi obok łopaty czy palety. To jest różnica, która rozwiązuje problem
+# uziarnienia: przy obiekcie wielkości metra w kadrze generator MUSI narysować ziarno widoczne,
+# więc z 3–8 mm robił bryły wielkości pięści. Na gradiencie nie ma z czym porównywać, więc
+# proszek zostaje proszkiem, a granulat granulatem.
+SZABLON = (
+    "Create a photo that is to be a presentation product. The clear background of the photo "
+    "should be {tlo}. At the bottom left there should be a dark green blend background and "
+    "on this gradient there should be {material}. "
+    "No text, no logos, no people, no tools, no machinery in the foreground."
 )
 
-# siatka → (linia nadrzędna, nazwa produktu, dopisek frakcji, opis materiału,
-#           kontekst wariantu A „pryzma", kontekst wariantu B „transport lub zastosowanie")
+# tło · materiał · hasło (do czego) · korzyść (co z tego masz)
+# Materiał opisany UZIARNIENIEM Z KARTY PRODUKTOWEJ, nie porównaniem do grochu czy orzecha —
+# tak powstały kadry, w których „3–8 mm" wyglądało jak tłuczeń.
+# Hasło i korzyść wyprowadzone z pól `intencja` i `lead` w planie oraz z „Efektu zastosowania".
 SIATKI = {
-"agrobielik-70-gleba": (
-    "Wapno nawozowe tlenkowe", "Agrobielik 70", "0–2 mm",
-    "biały, bardzo drobny sypki materiał wapienny o konsystencji mąki, lekko zbrylony",
-    "duża pryzma usypana na ściernisku po zbiorach zbóż, wbita w nią zwykła szpadel-łopata "
-    "jako odniesienie skali, w drugim planie ciemna, ciężka gleba świeżo zaorana i pas drzew",
-    "trzyosiowa wywrotka z podniesioną skrzynią zsypuje ładunek na skraju zaoranego pola, "
-    "biały strumień materiału, ciężka gleba, jesienne popołudnie"),
 "agrobielik-70-staw": (
-    "Wapno nawozowe tlenkowe", "Agrobielik 70", "0–2 mm",
-    "biały, bardzo drobny sypki materiał wapienny o konsystencji mąki",
-    "pryzma usypana na grobli stawu hodowlanego, obok wiadro i łopata jako skala, "
-    "w tle spokojna tafla wody, trzciny i groble stawów karpiowych",
-    "brzeg dużego stawu hodowlanego wczesną wiosną, biały pas materiału rozsypany wzdłuż grobli, "
-    "trzciny, spokojna woda, mostek i mnich spustowy w oddali"),
+    "Wapno nawozowe tlenkowe Agrobielik 70 · 0–2 mm",
+    "a carp fish pond with reeds along the bank and calm water, early spring",
+    "a small pile of white powder with small lumps",
+    "Wapno do stawu", "Odkaża dno stawu"),
+"agrobielik-70-gleba": (
+    "Wapno nawozowe tlenkowe Agrobielik 70 · 0–2 mm",
+    "a field of dark heavy clay soil freshly ploughed, autumn, wide horizon",
+    "a small pile of white powder with small lumps",
+    "Wapno na gleby ciężkie", "Efekt w 2–4 tygodnie"),
 "agrobielik-90": (
-    "Wapno nawozowe tlenkowe", "Agrobielik 90", "0–3 mm",
-    "biały materiał wapienny, drobne nieregularne grudki wielkości ziarna grochu",
-    "pryzma na skraju dużego pola, obok wbita łopata jako skala, szerokie otwarte pole, "
-    "jesienne pochmurne światło",
-    "ciągnik z rozsiewaczem tarczowym rozsiewa biały materiał na dużym polu, widoczny wachlarz "
-    "wysiewu i smuga kurzu, ujęcie z boku z poziomu ziemi"),
+    "Wapno nawozowe tlenkowe Agrobielik 90 · 0–3 mm",
+    "a field divided vertically in half, one half ripe cereal grain, the other half "
+    "flowering rapeseed",
+    "a small pile of white powder with fine lumps",
+    "Wapno pod zboża i rzepak", "Mniejsza dawka na hektar"),
 "oxyfertil-90": (
-    "Wapno nawozowe tlenkowe", "Oxyfertil 90", "3–8 mm",
-    "białe kruszywo wapienne o ostrych krawędziach, wielkości od ziarna grochu do orzecha",
-    "niewielka pryzma kruszywa na betonowym placu gospodarstwa, obok drewniana paleta "
-    "jako odniesienie skali, w tle blaszana wiata",
-    "biały big-bag stojący na przyczepie rolniczej na podwórzu gospodarstwa, "
-    "ciągnik częściowo w kadrze, big-bag bez żadnych napisów ani nadruków"),
+    "Wapno nawozowe tlenkowe Oxyfertil 90 · 3–8 mm",
+    "a field divided vertically in half, one half is grain, half is rapeseed",
+    "a small pile of white crushed limestone chips",
+    "Wapno na mniejsze pole", "Już od 1 tony"),
 "weglanowe-granulowane": (
-    "Wapno nawozowe węglanowe", "Granulowane", "",
-    "kremowobiały granulat nawozowy — regularne kuleczki o średnicy 2–5 mm, pojedyncze ziarna "
-    "wyraźnie widoczne, jak granulat nawozu wysypany z worka; NIE piasek, NIE ziemia, NIE zboże",
-    "kopczyk granulatu na betonowym placu pod wiatą, sfotografowany z bliska pod kątem, "
-    "obok drewniana paleta jako skala, widoczna struktura pojedynczych kulek",
-    "rozsiewacz zawieszany za ciągnikiem, wypełniony kremowym granulatem, "
-    "pracuje na zielonym oziminie, ujęcie zza maszyny"),
+    "Wapno nawozowe węglanowe Granulowane · 3–6 mm",
+    "a field of flowering rapeseed in full bloom under a cloudy sky",
+    "a small pile of small round cream-coloured granules",
+    "Wapno do rozsiewacza", "Bez pylenia"),
 "weglanowe-magnez-granulowane": (
-    "Wapno węglanowe z magnezem", "Granulowane", "",
-    "jasnobeżowy granulat nawozowy — regularne kuleczki o średnicy 2–5 mm, pojedyncze ziarna "
-    "wyraźnie widoczne; NIE ziemniaki, NIE fasola, NIE kamienie, NIE bryły ziemi",
-    "kopczyk jasnobeżowego granulatu wysypany na skraju lekkiej piaszczystej gleby, ujęcie "
-    "z bliska pod kątem, obok wbita łopata jako skala, młody zasiew nieostro w tle",
-    "zbliżenie na lej rozsiewacza wypełniony jasnobeżowym granulatem o kuleczkach 2–5 mm, "
-    "w tle lekka piaszczysta gleba z młodym zasiewem, ciągnik częściowo w kadrze"),
+    "Wapno węglanowe z magnezem Granulowane · 3–6 mm",
+    "a light sandy field in early spring with a young green crop emerging in rows",
+    "a small pile of small round beige granules",
+    "Wapno na gleby lekkie", "Odkwasza i daje magnez"),
 "weglanowe-odmiana-04": (
-    "Wapno nawozowe węglanowe", "Odmiana 04", "",
-    "szarobiały, wilgotny sypki materiał wapienny z drobnymi bryłkami",
-    "bardzo duża pryzma usypana na skraju rozległego pola, dla skali obok stoi "
-    "drewniana paleta, szeroki kadr pokazujący wielkość hałdy",
-    "naczepa samowyładowcza wysypuje materiał na dużym ściernisku, biała smuga na ziemi, "
-    "rozległe pole ciągnące się po horyzont"),
+    "Wapno nawozowe węglanowe Odmiana 04 · 0–2 mm",
+    "a field after harvest, wheat stubble on the left and freshly ploughed dark soil on the right",
+    "a small pile of off-white loose limestone powder with small lumps",
+    "Wapno na duże areały", "Najniższy koszt hektara"),
 "weglanowe-magnez-odmiana-04": (
-    "Wapno węglanowe z magnezem", "Odmiana 04", "",
-    "szarobeżowy wilgotny sypki materiał wapienny",
-    "pryzma na dużym ściernisku, obok wbita łopata jako skala, jesienne pochmurne niebo, "
-    "rozległe pole",
-    "ciężarówka z przyczepą stoi na polnej drodze przy dużym polu, przy niej rozładowany "
-    "materiał w pryzmie, jesienny krajobraz"),
+    "Wapno węglanowe z magnezem Odmiana 04",
+    "a very wide field after harvest stretching to the horizon, cloudy autumn sky",
+    "a small pile of greyish-beige loose limestone powder",
+    "Wapno i magnez w jednym", "Odkwasza i daje magnez"),
 "weglanowe-magnez-odmiana-05": (
-    "Wapno węglanowe z magnezem", "Odmiana 05", "",
-    "szarobeżowy sypki materiał wapienny z widocznymi drobnymi bryłkami",
-    "pryzma na polu tuż po orce, wyraźne skiby ziemi, obok łopata jako skala",
-    "świeżo zaorane pole z wyraźnymi skibami, na pierwszym planie rozsypany szarobeżowy "
-    "materiał wapienny, w tle ciągnik z pługiem"),
+    "Wapno węglanowe z magnezem Odmiana 05",
+    "a field just after spring ploughing with clear furrows of moist soil",
+    "a small pile of greyish-beige loose limestone powder",
+    "Wapno na niedobór magnezu", "Magnez w najniższej cenie tony"),
 "kreda-nawozowa-sypka": (
-    "Kreda nawozowa", "Sypka", "",
-    "jasnobeżowa, miękka sypka kreda o drobnej strukturze",
-    "bardzo duża pryzma kredy na skraju rozległego pola, dla skali drewniana paleta obok, "
-    "szeroki kadr",
-    "naczepa samowyładowcza z podniesioną skrzynią wysypuje jasnobeżową kredę "
-    "na dużym areale, widoczny strumień materiału i chmura pyłu"),
+    "Kreda nawozowa Sypka",
+    "a wide field of ripe cereal grain under a slightly cloudy sky",
+    "a small pile of soft cream-coloured loose chalk",
+    "Kreda do wapnowania pola", "Bez ryzyka poparzenia"),
 "kreda-nawozowa-granulowana": (
-    "Kreda nawozowa", "Granulowana", "",
-    "śnieżnobiały granulat kredowy — regularne kuleczki o średnicy 2–5 mm, pojedyncze ziarna "
-    "wyraźnie widoczne; NIE proszek, NIE ciemny materiał, NIE obornik",
-    "niewielki kopczyk śnieżnobiałego granulatu na betonowym placu gospodarstwa, "
-    "obok metalowe wiadro jako skala, w tle stodoła",
-    "rozsiewacz zawieszany za małym ciągnikiem wysypuje ŚNIEŻNOBIAŁY granulat na niewielkim "
-    "polu, widoczna biała smuga materiału na ziemi, zabudowania gospodarstwa w tle"),
+    "Kreda nawozowa Granulowana · 3–6 mm",
+    "a small family farm field with farm buildings in the distance, spring",
+    "a small pile of small round snow-white granules",
+    "Kreda do rozsiewacza", "Big-bag już od 1 tony"),
 "kreda-pastewna": (
-    "Kreda", "Pastewna", "",
-    "bardzo drobny, śnieżnobiały proszek kredowy o konsystencji mąki",
-    "biały drobny proszek nasypany na stole paszowym obok paszy objętościowej, "
-    "obok metalowa miarka jako skala, wnętrze obory",
-    "wnętrze jasnej obory dla bydła mlecznego, stół paszowy z paszą, "
-    "na pierwszym planie biały proszek kredowy wymieszany z paszą, krowy nieostro w tle"),
+    "Kreda Pastewna",
+    "the inside of a bright dairy cattle barn with a feeding table and dairy cows out of focus",
+    "a small pile of very fine snow-white chalk powder",
+    "Kreda pastewna do paszy", "Bezpieczne źródło wapnia"),
 }
 
-WARIANTY = ("pryzma", "kontekst")
 
-
-def prompt_dla(siatka, wariant):
-    _, _, _, materiał, ka, kb = SIATKI[siatka]
-    scena = ka if wariant == "pryzma" else kb
-    return (f"{scena}. Materiał: {materiał}. {WSPOLNE}")
+def prompt_dla(siatka):
+    _, tlo, material, _, _ = SIATKI[siatka]
+    return SZABLON.format(tlo=tlo, material=material)
 
 
 def generuj(prompt, out_png):
@@ -179,37 +159,79 @@ def generuj(prompt, out_png):
     return "odpowiedź bez obrazu"
 
 
+def _etykieta(tekst, font, rozmiar, kolor, plik):
+    """Renderuje napis i PRZYCINA go do samego tuszu, więc znamy jego realne wymiary."""
+    subprocess.run(["magick", "-background", "none", "-fill", kolor, "-font", font,
+                    "-pointsize", str(rozmiar), f"label:{tekst}", "-trim", "+repage", plik],
+                   check=True)
+    w, h = subprocess.run(["magick", "identify", "-format", "%w %h", plik],
+                          capture_output=True, text=True, check=True).stdout.split()
+    return int(w), int(h)
+
+
+def _dopasuj(tekst, font, kolor, plik, cel, wg_szerokosci, start=100, lo=34, hi=136):
+    """Dobiera stopień pisma tak, żeby napis miał zadaną szerokość albo wysokość tuszu.
+
+    Bez tego długość hasła decydowałaby o wielkości liter — „Wapno do stawu" byłoby dwa razy
+    większe niż „Wapno na niedobór magnezu" i dwanaście kadrów nie trzymałoby się jako seria.
+    """
+    r = start
+    for _ in range(8):
+        w, h = _etykieta(tekst, font, r, kolor, plik)
+        masz = w if wg_szerokosci else h
+        if abs(masz - cel) <= max(3, cel // 100) or r >= hi or r <= lo:
+            break
+        r = max(lo, min(hi, round(r * cel / masz)))
+    return _etykieta(tekst, font, r, kolor, plik)
+
+
 def podpisz(src, dst, siatka):
-    """Kadruje do 1500×1050 i kładzie pas z nazwą produktu oraz logo."""
-    nad, nazwa, frakcja, *_ = SIATKI[siatka]
-    y_pasa = H - PAS
-    cmd = [
-        "magick", src,
-        "-resize", f"{W}x^", "-gravity", "center", "-extent", f"{W}x{H}",
-        # od tego miejsca współrzędne liczymy od lewego górnego rogu, nie od środka
+    """Kadruje do 1500×1050 i nakłada trzy warstwy komunikatu.
+
+    Układ zatwierdzony przez Janka 20.08, po trzech podejściach:
+      • u GÓRY, na miękkim przyciemnieniu — nazwa produktu z frakcją, pod nią wielkim krojem
+        ZASTOSOWANIE. Pas na dole odpadł, bo zasłaniał próbkę towaru leżącą w lewym dolnym rogu.
+      • w LEWYM DOLNYM rogu, na próbce — prosty pasek w jaskrawej zieleni marki z czarnymi
+        wersalikami: KORZYŚĆ.
+      • w PRAWYM DOLNYM rogu logo. Pasek i logo mają tę samą wysokość i wspólną linię dołu.
+
+    Przyciemnienie u góry nie jest ozdobą: bez niego napis ginie na jasnym łanie zbóż
+    i na piaszczystej glebie — sprawdzone na obu.
+    """
+    produkt, _, _, haslo, korzysc = SIATKI[siatka]
+    t = dst + ".t"
+    l1, l2, sc, lg, pk, pt_ = (t + x for x in ("1.png", "2.png", "s.png", "l.png", "k.png", "kt.png"))
+
+    w1, h1 = _etykieta(produkt, FONT_B, 44, "#CFE0C6", l1)
+    w2, h2 = _dopasuj(haslo, FONT_B, "white", l2, SZER_HASLA, True)
+
+    hs = round(H * SCRIM)
+    subprocess.run(["magick", "-size", f"{W}x{hs}", "gradient:black-none", "-alpha", "set",
+                    "-channel", "A", "-evaluate", "multiply", "0.62", "+channel", sc], check=True)
+    subprocess.run(["magick", LOGO, "-resize", f"x{WYS}",
+                    "(", "+clone", "-background", "black", "-shadow", "75x14+0+4", ")",
+                    "+swap", "-background", "none", "-layers", "merge", "+repage", lg], check=True)
+    lw, lh = (int(v) for v in subprocess.run(["magick", "identify", "-format", "%w %h", lg],
+                                             capture_output=True, text=True, check=True).stdout.split())
+    tw, th = _dopasuj(korzysc.upper(), FONT_B, "black", pt_, round(WYS * 0.40), False, 52, 34, 72)
+    bw = tw + 60
+    subprocess.run(["magick", "-size", f"{bw}x{WYS}", f"xc:{AKCENT}",
+                    pt_, "-gravity", "center", "-composite", pk], check=True)
+
+    y1 = MARGINES + 8
+    y2 = y1 + h1 + 22
+    subprocess.run([
+        "magick", src, "-resize", f"{W}x^", "-gravity", "center", "-extent", f"{W}x{H}",
         "-gravity", "NorthWest",
-        # pas
-        "-fill", CIEMNA, "-draw", f"rectangle 0,{y_pasa} {W},{H}",
-        # cienka linia akcentu nad pasem
-        "-fill", AKCENT, "-draw", f"rectangle 0,{y_pasa - 6} {W},{y_pasa}",
-        # linia nadrzędna
-        "-font", FONT_M, "-pointsize", "34", "-fill", JASNY,
-        "-annotate", f"+56+{y_pasa + 62}", nad,
-        # nazwa produktu
-        "-font", FONT_B, "-pointsize", "64", "-fill", AKCENT,
-        "-annotate", f"+56+{y_pasa + 132}", nazwa,
-    ]
-    if frakcja:
-        szer = subprocess.run(["magick", "-font", FONT_B, "-pointsize", "64",
-                               f"label:{nazwa}", "-format", "%w", "info:"],
-                              capture_output=True, text=True).stdout
-        x = 56 + int(szer) + 22
-        cmd += ["-font", FONT_M, "-pointsize", "40", "-fill", JASNY,
-                "-annotate", f"+{x}+{y_pasa + 130}", frakcja]
-    cmd += [LOGO, "-gravity", "NorthWest",
-            "-geometry", f"260x73+{W - 260 - 56}+{y_pasa + 62}", "-composite",
-            "-quality", "90", dst]
-    subprocess.run(cmd, check=True)
+        sc, "-geometry", "+0+0", "-composite",
+        l1, "-geometry", f"+{(W - w1) // 2}+{y1}", "-composite",
+        l2, "-geometry", f"+{(W - w2) // 2}+{y2}", "-composite",
+        pk, "-geometry", f"+{MARGINES}+{H - MARGINES - WYS}", "-composite",
+        lg, "-geometry", f"+{W - MARGINES - lw}+{H - MARGINES - lh}", "-composite",
+        "-quality", "90", dst], check=True)
+    for f in (l1, l2, sc, lg, pk, pt_):
+        if os.path.exists(f):
+            os.remove(f)
     return subprocess.run(["magick", "identify", "-format", "%wx%h %b", dst],
                           capture_output=True, text=True).stdout
 
@@ -225,12 +247,11 @@ if __name__ == "__main__":
     for siatka in wybor:
         if siatka not in SIATKI:
             print(f"  nieznana siatka: {siatka}"); continue
-        for w in WARIANTY:
-            png = os.path.join(surowe, f"{siatka}-{w}.png")
-            jpg = os.path.join(out, f"agria-mini-{siatka}-{w}.jpg")
-            if not os.path.exists(png):
-                blad = generuj(prompt_dla(siatka, w), png)
-                if blad:
-                    print(f"  BŁĄD {siatka}-{w}: {blad}"); continue
-            print(f"  agria-mini-{siatka}-{w}.jpg  {podpisz(png, jpg, siatka)}")
+        png = os.path.join(surowe, f"{siatka}.png")
+        jpg = os.path.join(out, f"agria-mini-{siatka}.jpg")
+        if not os.path.exists(png):
+            blad = generuj(prompt_dla(siatka), png)
+            if blad:
+                print(f"  BŁĄD {siatka}: {blad}"); continue
+        print(f"  agria-mini-{siatka}.jpg  {podpisz(png, jpg, siatka)}")
     print(f"→ {out}")

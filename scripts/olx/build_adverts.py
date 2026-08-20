@@ -35,14 +35,19 @@ V2 = "https://auratest.pl/agria-olx/v2/agria-{}.jpg"
 # Pionowa plansza 435x700 zajmowała w nim 43 % szerokości niezależnie od rozdzielczości —
 # dlatego pierwszy kadr jest poziomy 1500x1050, dokładnie w kształcie slotu.
 #
-#   1. miniatura zastosowaniowa (per SIATKA — inna dla stawu, inna dla gleby)
+#   1. miniatura zastosowaniowa (per SIATKA — inna dla stawu, inna dla gleby ciężkiej):
+#      próbka towaru na zielonym gradiencie marki, tło pod zastosowanie, u góry nazwa produktu
+#      i ZASTOSOWANIE, w lewym dolnym rogu pasek z KORZYŚCIĄ
 #   2. zdjęcie studyjne produktu (kółko z karty produktowej, WEBP → JPG)
 #   3. karta katalogowa z parametrami (bez kodu QR i bez stopki z adresem i telefonem)
-#   4. pryzma z odniesieniem skali (per SIATKA) — archetyp nr 1 kategorii, 38 % pierwszych zdjęć
-#   5. big-bag — archetyp nr 2, 25 %
-#   6. plansza produktowa 750x1205 (makro materiału z podpisem)
-#   7. kadr otwierający „WAPNA NAWOZOWE"
-#   8. karta z kodem QR do kalkulatora (UTM z nazwą karty w utm_content)
+#   4. big-bag — archetyp nr 2 kategorii, 25 % pierwszych zdjęć konkurencji
+#   5. plansza produktowa 750x1205 (makro materiału z podpisem)
+#   6. kadr otwierający „WAPNA NAWOZOWE"
+#   7. karta z kodem QR do kalkulatora (UTM z nazwą karty w utm_content)
+#
+# Drugi kadr generowany („pryzma ze skalą") wypadł 20.08: przy łopacie albo palecie w kadrze
+# generator musiał narysować ziarno widoczne i z uziarnienia 3–8 mm robił bryły wielkości
+# pięści. Uziarnienie pokazują teraz zdjęcia realne — studyjne kółko i plansza.
 #
 # Sloty 1 i 4 zależą od SIATKI, nie od karty: Agrobielik 70 idzie jako dwa różne ogłoszenia
 # (do stawu / na odkwaszanie) i każde ma własny kontekst zastosowania.
@@ -92,10 +97,9 @@ def galeria(row, bledy):
     """Składa listę zdjęć dla jednego ogłoszenia. Puste sloty wypadają, kolejność zostaje."""
     karta, siatka = row["karta"], row["siatka"]
     sloty = [
-        f"mini-{siatka}-kontekst",
+        f"mini-{siatka}",
         STUDIO.get(karta),
         KARTA_KATALOGOWA.get(karta),
-        f"mini-{siatka}-pryzma",
         "bigbag",
         PLANSZA.get(karta),
         "hero",
