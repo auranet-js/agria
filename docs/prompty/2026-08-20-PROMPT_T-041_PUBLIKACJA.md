@@ -59,12 +59,15 @@ CO ZROBIĆ, w tej kolejności:
    Moderator ocenia treść, nie liczbę — ma do oceny siedemnaście rzeczy, nie dwieście.
 
    FAZA 1 — po jednym ogłoszeniu na każdy z 17 wariantów, każde z innego miasta.
-   To pokrywa 100 % przestrzeni ryzyka. Odczekaj godzinę, policz statusy.
+   To pokrywa 100 % przestrzeni ryzyka. Odpytuj statusy co minutę — POMIAR Z 20.08:
+   po poprawce ogłoszenie przeszło z `new` na `active` w NIECAŁE 20 SEKUND. Wcześniejsza
+   próba, ta odrzucona, siedziała w `new` dłużej i werdykt `moderated` przyszedł po kilku
+   minutach. Czyli: kwadrans odpytywania wystarcza, godzina to marnowanie czasu.
    Nie ma trybu „wystaw wybrane warianty" — dopisz go albo wyfiltruj payload do listy
    external_id i podaj ją skryptowi.
 
    FAZA 2 — dopiero po potwierdzeniu, że 17 przeszło: reszta (182) partiami po 20–30,
-   z przerwami. Pozostałe ogłoszenia to permutacje treści, którą OLX już zaakceptował.
+   z krótkimi przerwami na odczyt statusów (nie na przeczekanie moderacji — ta jest szybka). Pozostałe ogłoszenia to permutacje treści, którą OLX już zaakceptował.
    Nikt nie musi przy tym siedzieć: `posted.json` zapisuje się po KAŻDYM ogłoszeniu,
    więc przerwanie w połowie niczego nie psuje — kolejne uruchomienie dokłada resztę.
    Rozważ crona na Elarze zamiast trzymania sesji.
