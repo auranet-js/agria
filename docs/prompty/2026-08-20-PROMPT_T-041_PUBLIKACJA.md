@@ -51,12 +51,49 @@ CO ZROBIĆ, w tej kolejności:
 1. TOKEN. `olx-agria refresh` przed startem. Token żyje 24 h i 20.08 padł w środku
    operacji — PUT zwrócił 401 invalid_token w połowie zadania.
 
-2. PARTIAMI, NIE NARAZ. Regulamin pkt 13.11 grozi zawieszeniem konta przy powtarzających
-   się naruszeniach, a moderację przeszedł dotąd JEDEN tytuł i JEDEN opis. Wystaw
-   kilkanaście pozycji z RÓŻNYCH kart produktowych (`--pilot N`), odczekaj na werdykt,
-   dopiero potem resztę. Status po POST to `new` — moderacja idzie po nim, nie przed.
-   Sprawdzaj GET /partner/adverts i licz statusy; `active` = przeszło, `moderated` =
-   negatywny werdykt, `blocked`/`disabled` = gorzej.
+2. TRZY FAZY, NIE „PARTIAMI NA OKO".
+   Kluczowy pomiar 20.08: **200 ogłoszeń to tylko 17 wariantów treści**. Unikalnych tytułów
+   jest 12, unikalnych zestawów zdjęć 12, unikalnych kombinacji tytuł+opis 17 (te dodatkowe
+   pięć to akapit o naborze łódzkim doklejony na 12 ogłoszeniach z region_id 7). Największa
+   grupa to 30 ogłoszeń o IDENTYCZNEJ treści, różniących się wyłącznie miastem.
+   Moderator ocenia treść, nie liczbę — ma do oceny siedemnaście rzeczy, nie dwieście.
+
+   FAZA 1 — po jednym ogłoszeniu na każdy z 17 wariantów, każde z innego miasta.
+   To pokrywa 100 % przestrzeni ryzyka. Odczekaj godzinę, policz statusy.
+   Nie ma trybu „wystaw wybrane warianty" — dopisz go albo wyfiltruj payload do listy
+   external_id i podaj ją skryptowi.
+
+   FAZA 2 — dopiero po potwierdzeniu, że 17 przeszło: reszta (182) partiami po 20–30,
+   z przerwami. Pozostałe ogłoszenia to permutacje treści, którą OLX już zaakceptował.
+   Nikt nie musi przy tym siedzieć: `posted.json` zapisuje się po KAŻDYM ogłoszeniu,
+   więc przerwanie w połowie niczego nie psuje — kolejne uruchomienie dokłada resztę.
+   Rozważ crona na Elarze zamiast trzymania sesji.
+
+   FAZA 3 — kontrola: rozkład statusów, auto_extend na wszystkich, zgodność posted.json z API.
+
+   Status po POST to `new` — moderacja idzie PO nim, nie przed. `active` = przeszło,
+   `moderated` = negatywny werdykt, `blocked`/`disabled` = gorzej.
+   Podział robimy PRODUKTAMI, nie obszarami: treść niesie produkt, obszar zmienia tylko city_id.
+
+2a. BEZPIECZNIK — DOPISZ GO, ZANIM RUSZYSZ FAZĘ 2.
+   `post_adverts.py` przerywa serię tylko wtedy, gdy PIERWSZE ogłoszenie zwróci błąd HTTP.
+   A moderacja przychodzi później i po cichu: POST kończy się sukcesem, status `new`,
+   i dopiero po chwili robi się `moderated`. Przy 182 ogłoszeniach oznacza to, że możemy
+   wypchnąć całość, zanim zobaczymy pierwszy negatywny werdykt.
+   Dopisz: co N ogłoszeń odczyt GET /partner/adverts i STOP, jeśli pojawi się choć jeden
+   status `moderated`, `blocked` albo `disabled`. Regulamin pkt 13.11 grozi zawieszeniem
+   konta przy powtarzających się naruszeniach — jedno wstrzymane ogłoszenie już mieliśmy 20.08.
+
+2b. LIMITY API — NIEZNANE, więc nie strzelaj seriami bez przerw.
+   W OpenAPI nie ma udokumentowanego budżetu zapytań: jest kod 429 „too many requests"
+   i pojedyncza wzmianka „throttling cost: 5" przy DELETE, bez podanego okna czasowego.
+   Nie zakładaj, że limitu nie ma — po prostu nie wiemy, gdzie jest.
+
+2c. NIE MA STANU „PRZYGOTOWANE, NIEOPUBLIKOWANE".
+   Statusy to `new`, `active`, `limited`, `moderated`, `blocked`, `removed_by_user`,
+   `outdated`, `unconfirmed`, `unpaid`. POST od razu wchodzi w moderację. Można wystawić
+   i natychmiast `deactivate`, ale to i tak zużywa miejsce z pakietu i przechodzi moderację,
+   więc nic nie daje.
 
 3. AUTO_EXTEND. `post_adverts.py` ustawia go osobnym PUT-em zaraz po POST, bo PUT w tym
    API podmienia CAŁY zasób — wysłanie samego {"auto_extend_enabled": true} kończy się
@@ -65,6 +102,12 @@ CO ZROBIĆ, w tej kolejności:
 
 4. DOWÓD DO REJESTRU. Liczba wystawionych, rozkład statusów, liczba z auto_extend,
    zrzut `posted.json`, kilka URL-i publicznych do sprawdzenia okiem.
+
+5. POWIADOMIENIE NA TELEGRAM. Janek nie siedzi przy tym i wraca po ~2 h. Po fazie 1
+   i po fazie 2 wyślij mu krótką wiadomość: ile wystawione, rozkład statusów, czy coś
+   poszło do wstrzymanych. Sekrety: `~/secrets/telegram/bot-token.txt` i `chat-id.txt`,
+   endpoint `https://api.telegram.org/bot<TOKEN>/sendMessage`.
+   Jeśli bezpiecznik z 2a przerwie serię — napisz OD RAZU, nie czekaj na koniec fazy.
 
 CZEGO NIE WOLNO COFNĄĆ — to są poprawki po odrzuceniu przez moderację 20.08:
 - Zero słowa „netto" i „brutto" w opisie. Pkt 4.4.c wymaga ceny końcowej.
