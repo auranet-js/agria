@@ -35,7 +35,7 @@ V2 = "https://auratest.pl/agria-olx/v2/agria-{}.jpg"
 # Pionowa plansza 435x700 zajmowała w nim 43 % szerokości niezależnie od rozdzielczości —
 # dlatego pierwszy kadr jest poziomy 1500x1050, dokładnie w kształcie slotu.
 #
-#   1. miniatura zastosowaniowa (per SIATKA — inna dla stawu, inna dla gleby ciężkiej):
+#   1. miniatura zastosowaniowa (per SIATKA — inna dla stawu, inna dla gleb średnich i ciężkich):
 #      próbka towaru na zielonym gradiencie marki, tło pod zastosowanie, u góry nazwa produktu
 #      i ZASTOSOWANIE, w lewym dolnym rogu pasek z KORZYŚCIĄ
 #   2. zdjęcie studyjne produktu (kółko z karty produktowej, WEBP → JPG)

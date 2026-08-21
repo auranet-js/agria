@@ -77,7 +77,7 @@ SIATKI = {
     "Wapno nawozowe tlenkowe Agrobielik 70 · 0–2 mm",
     "a field of dark heavy clay soil freshly ploughed, autumn, wide horizon",
     "a small pile of white powder with small lumps",
-    "Wapno na gleby ciężkie", "Efekt w 2–4 tygodnie"),
+    "Wapno na gleby średnie i ciężkie", "Efekt w 2–4 tygodnie"),
 "agrobielik-90": (
     "Wapno nawozowe tlenkowe Agrobielik 90 · 0–3 mm",
     "a field divided vertically in half, one half ripe cereal grain, the other half "
