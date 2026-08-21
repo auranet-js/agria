@@ -54,9 +54,18 @@ meta = d['meta']
 today = datetime.date.today().strftime('%d.%m.%Y')
 
 
+def klucz_daty(p):
+    """Sortowanie malejąco po dacie DD.MM; pozycje bez daty („—") lądują na końcu."""
+    try:
+        dd, mm = p['data'].split('.')
+        return (1, int(mm), int(dd))
+    except ValueError:
+        return (0, 0, 0)
+
+
 def blok_miesiaca(m):
     wiersze = []
-    for p in m['pozycje']:
+    for p in sorted(m['pozycje'], key=klucz_daty, reverse=True):
         if p.get('godz'):
             godz = fmt_h(p['godz']) + ('&nbsp;*' if p.get('znacznik') else '')
         else:
@@ -98,13 +107,13 @@ def blok_miesiaca(m):
 </table>"""
 
 
-def wiersz_kolejki(t):
+def wiersz_kolejki(t, nr):
     pytania = ''
     if t.get('pytania'):
         li = ''.join(f'<li>{esc(q)}</li>' for q in t['pytania'])
         pytania = f'<div class="pytania"><strong>Do rozstrzygnięcia:</strong><ul>{li}</ul></div>'
     return f"""<tr>
-<td><strong>{esc(t['tytul'])}</strong>
+<td><span class="nr">{nr}</span><strong>{esc(t['tytul'])}</strong>
 <div class="opis">{esc(t['opis'])}</div>{pytania}
 <div class="skala">{esc(t.get('kiedy', ''))}</div></td>
 <td class="num">{esc(t.get('godz', '—'))}</td></tr>"""
@@ -117,8 +126,9 @@ def wiersz_czekamy(t):
 <td class="num czeka">od {esc(t['od'])}</td></tr>"""
 
 
-miesiace_html = '\n'.join(blok_miesiaca(m) for m in d['miesiace'])
-kolejka_html = '\n'.join(wiersz_kolejki(t) for t in d['kolejka'])
+# najnowszy miesiąc u góry — dane w JSON trzymamy chronologicznie
+miesiace_html = '\n'.join(blok_miesiaca(m) for m in reversed(d['miesiace']))
+kolejka_html = '\n'.join(wiersz_kolejki(t, i) for i, t in enumerate(d['kolejka'], 1))
 czekamy_html = '\n'.join(wiersz_czekamy(t) for t in d.get('czekamy', []))
 
 suma_mierzone = sum(p.get('godz', 0) for m in d['miesiace'] for p in m['pozycje'] if not p.get('znacznik'))
@@ -163,6 +173,7 @@ td.num.czeka {{ font-weight: 500; color: var(--ink-3); font-size: 13px; }}
 td.data-col {{ white-space: nowrap; color: var(--ink-2); font-size: 13px; font-variant-numeric: tabular-nums; }}
 tfoot td {{ background: var(--accent-soft); font-weight: 700; font-size: 13.5px; }}
 .opis {{ color: var(--ink-2); font-weight: 400; margin-top: 4px; font-size: 14px; }}
+.nr {{ display: inline-block; min-width: 20px; font-size: 11px; font-weight: 700; color: #fff; background: var(--accent); border-radius: 4px; padding: 1px 5px; margin-right: 7px; text-align: center; vertical-align: 1px; }}
 .tid {{ display: inline-block; font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 6px; margin-right: 6px; vertical-align: 1px; font-variant-numeric: tabular-nums; }}
 .skala {{ color: var(--ink-3); font-size: 12.5px; margin-top: 6px; }}
 .pytania {{ margin-top: 8px; padding: 8px 12px; background: var(--accent-soft); border-radius: 6px; font-size: 13.5px; color: var(--ink-2); }}
@@ -204,7 +215,7 @@ footer {{ margin-top: 60px; padding-top: 16px; border-top: 1px solid var(--line)
 <h2>W kolejce</h2>
 {f'<p class="lead">{esc(d["kolejka_lead"])}</p>' if d.get('kolejka_lead') else ''}
 <table>
-<thead><tr><th>Zadanie</th><th class="num">h</th></tr></thead>
+<thead><tr><th>Zadanie — od najpilniejszego</th><th class="num">h</th></tr></thead>
 <tbody>
 {kolejka_html}
 </tbody>

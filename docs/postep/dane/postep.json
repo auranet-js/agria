@@ -45,35 +45,6 @@
    ]
   },
   {
-   "nazwa": "Lipiec 2026",
-   "pozycje": [
-    {
-     "data": "01.07",
-     "tytul": "Telefony na mapie zgodne z oddziałami",
-     "opis": "Numery przy Tarnowie, Niedomicach i Radgoszczy poprawione, nieaktualny numer z prefiksem 660 usunięty ze strony.",
-     "id": "T-003",
-     "godz": 5,
-     "znacznik": true
-    },
-    {
-     "data": "08.07",
-     "tytul": "Uporządkowane adresy stron i podział oferty",
-     "opis": "Adresy podstron i podział oferty na kategorie ustawione tak, żeby Google widział logiczną strukturę serwisu, a stare adresy nie prowadziły donikąd.",
-     "id": "—",
-     "godz": 5,
-     "znacznik": true
-    },
-    {
-     "data": "03.07",
-     "tytul": "Raport miesięczny za lipiec",
-     "opis": "Zestawienie wykonanych prac i wyników przekazane do AGRII.",
-     "id": "—",
-     "godz": 5,
-     "znacznik": true
-    }
-   ]
-  },
-  {
    "nazwa": "Czerwiec–lipiec · prace nad widocznością w Google",
    "uwaga": "Pakiet prac technicznych rozłożony na oba miesiące — pojedyncze pozycje bez osobnych dat, wszystkie sprawdzone na żywej stronie 19.08.",
    "pozycje": [
@@ -188,6 +159,35 @@
      "id": "—",
      "godz": 0,
      "znacznik": false
+    }
+   ]
+  },
+  {
+   "nazwa": "Lipiec 2026",
+   "pozycje": [
+    {
+     "data": "01.07",
+     "tytul": "Telefony na mapie zgodne z oddziałami",
+     "opis": "Numery przy Tarnowie, Niedomicach i Radgoszczy poprawione, nieaktualny numer z prefiksem 660 usunięty ze strony.",
+     "id": "T-003",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "08.07",
+     "tytul": "Uporządkowane adresy stron i podział oferty",
+     "opis": "Adresy podstron i podział oferty na kategorie ustawione tak, żeby Google widział logiczną strukturę serwisu, a stare adresy nie prowadziły donikąd.",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "03.07",
+     "tytul": "Raport miesięczny za lipiec",
+     "opis": "Zestawienie wykonanych prac i wyników przekazane do AGRII.",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true
     }
    ]
   },
