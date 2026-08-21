@@ -84,7 +84,7 @@ SIATKI = {
 "weglanowe-magnez-odmiana-04": (
     "A wide green field of vigorous cereal crop in early summer under a blue sky, rolling "
     "farmland to the horizon. " + WSPOLNE,
-    "Węglanowo-magnezowe · odmiana 04", "Wapń|i magnez", "Dwa składniki naraz"),
+    "Węglanowo-magnezowe · odmiana 04", "Z magnezem", "Dwa składniki naraz"),
 "weglanowe-magnez-odmiana-05": (
     "A sunny field of maize with strong green leaves under a deep blue sky with white clouds. "
     + WSPOLNE,
@@ -114,11 +114,11 @@ WARIANT_B = {
 "agrobielik-70-gleba": (
     "Close view of freshly ploughed heavy soil furrows glistening in the sun, green field "
     "margin and deep blue sky with clouds behind. " + WSPOLNE,
-    "Wzrost plonów do 20%"),
+    "Wzrost plonów"),
 "agrobielik-90": (
     "A dense field of ripe barley with heavy golden ears bending in the sun, deep blue sky. "
     + WSPOLNE,
-    "Wzrost plonów do 20%"),
+    "Wzrost plonów"),
 "oxyfertil-90": (
     "Two white big bags of fertiliser standing at the edge of a sunny green field, farm "
     "buildings far in the background, blue sky with white clouds. " + WSPOLNE,
