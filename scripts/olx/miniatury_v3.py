@@ -126,7 +126,7 @@ WARIANT_B = {
 "weglanowe-granulowane": (
     "A field of young winter cereal in even green rows stretching to the horizon in spring "
     "sunshine, blue sky. " + WSPOLNE,
-    "Własnym rozsiewaczem"),
+    "Bez pylenia"),
 "weglanowe-magnez-granulowane": (
     "A light sandy field with a young green crop and visible pale sandy soil between rows, "
     "sunny day, blue sky. " + WSPOLNE,
