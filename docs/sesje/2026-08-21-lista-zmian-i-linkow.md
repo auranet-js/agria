@@ -4,7 +4,7 @@
 > (wszystkie **HTTP 200**, TTFB 0,27–0,47 s) oraz obejrzane przez Puppeteer na emulacji
 > iPhone'a 390×844 DPR 2 i przez Chrome MCP na desktopie 1464×812.
 
-## A. Adresy edytowane bezpośrednio — 6
+## A. Adresy edytowane bezpośrednio — 7
 
 | URL | Co zmienione | Zadanie |
 |---|---|---|
@@ -12,8 +12,9 @@
 | `https://agria.pl/ile-wapna-granulowanego-na-ha/` | `rank_math_title` (61 → 55 zn.), `rank_math_description` | T-053 |
 | `https://agria.pl/jak-stosowac-wapno-nawozowe/` | meta, `focus_keyword`, **`post_title`**, **treść: terminarz IUNG** (tabela terminów, grupy upraw, ziemniaki/parch, lucerna, podział dawki) | T-053 + T-055 |
 | `https://agria.pl/kalkulator-wapnowania/` | `rank_math_title` (usunięte dublowanie frazy z hubem), `rank_math_description` | T-053 |
-| `https://agria.pl/wapno-granulowane/` | blok kontaktowy w hero (cena od 350 zł/t + „Zadzwoń 664 393 062” + godziny), kotwica `#oddzwonimy`, formularz, końcowe CTA | T-059 |
-| `https://agria.pl/wapno-nawozowe/` | jw., cena od 36 / od 220 zł/t | T-059 |
+| `https://agria.pl/wapno-granulowane/` | blok kontaktowy w hero, kotwica `#oddzwonimy`, formularz, końcowe CTA; **kolumna tekstu 852 px** (było 1440); **siatka 3 produktów** | T-059, T-063, T-064 |
+| `https://agria.pl/wapno-nawozowe/` | jw.; **kolumna tekstu 852 px**; **siatka 14 produktów** | T-059, T-063, T-064 |
+| `https://agria.pl/wapno-do-stabilizacji-gruntow/` | **kolumna tekstu 852 px**; **siatka 1 produktu** | T-063, T-064 |
 
 ## B. Adresy, którym zmienił się render przez naprawę szablonu (H1) — 11
 
