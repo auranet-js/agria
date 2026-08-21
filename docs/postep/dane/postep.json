@@ -1,0 +1,545 @@
+{
+ "_komentarz": "Zrodlo merytoryczne: docs/REJESTR_ZOBOWIAZAN.md. Ten plik to warstwa klient-facing — opisy pisane jezykiem klienta, bez zargonu i bez godzin (AGRIA jest na ryczalcie). Po domknieciu pozycji w rejestrze dopisz ja tutaj i przebuduj: python3 build_postep.py --deploy",
+ "meta": {
+  "tytul": "AGRIA — postęp prac i plan",
+  "podtytul": "agria.pl · strona, widoczność w Google, reklamy i OLX · Auranet (Jan Schenk)",
+  "lead": "Zestawienie prac od czerwca i kolejki. Godziny: wartości bez gwiazdki są mierzone, „5 h*” to znacznik wartości nieodtworzonej wstecz — rejestr zaczął je zapisywać dopiero 19.08. AGRIA jest na ryczałcie 2 000 netto miesięcznie, więc godziny służą nam do sprawdzania, czy pakiet się spina.",
+  "wewnetrzny": true
+ },
+ "miesiace": [
+  {
+   "nazwa": "Czerwiec 2026",
+   "pozycje": [
+    {
+     "data": "18.06",
+     "tytul": "Kalkulator wapnowania proponuje wyłącznie produkty na pole",
+     "opis": "Kalkulator przestał podpowiadać kredę pastewną i kredę malarską — to produkty do innych zastosowań, a pojawiały się w wynikach dla rolnika liczącego dawkę na hektar.",
+     "id": "T-001",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "29.06",
+     "tytul": "Formy dostawy zdjęte ze specyfikacji produktów",
+     "opis": "Zgodnie z ustaleniem z Pawłem formy dostawy zniknęły ze specyfikacji wszystkich 19 kart produktowych i z sekcji pytań.",
+     "id": "T-002",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "29.06",
+     "tytul": "Karty produktowe i charakterystyki do pobrania",
+     "opis": "Sekcja „Do pobrania” uzupełniona o karty produktów i karty charakterystyki — klient ściąga ten sam dokument, który dostaje od producenta.",
+     "id": "T-004",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "29.06",
+     "tytul": "Zdjęcia produktów zgodne z katalogiem",
+     "opis": "Zdjęcia na kartach doprowadzone do zgodności z katalogiem drukowanym.",
+     "id": "T-005",
+     "godz": 5,
+     "znacznik": true
+    }
+   ]
+  },
+  {
+   "nazwa": "Lipiec 2026",
+   "pozycje": [
+    {
+     "data": "01.07",
+     "tytul": "Telefony na mapie zgodne z oddziałami",
+     "opis": "Numery przy Tarnowie, Niedomicach i Radgoszczy poprawione, nieaktualny numer z prefiksem 660 usunięty ze strony.",
+     "id": "T-003",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "08.07",
+     "tytul": "Uporządkowane adresy stron i podział oferty",
+     "opis": "Adresy podstron i podział oferty na kategorie ustawione tak, żeby Google widział logiczną strukturę serwisu, a stare adresy nie prowadziły donikąd.",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "03.07",
+     "tytul": "Raport miesięczny za lipiec",
+     "opis": "Zestawienie wykonanych prac i wyników przekazane do AGRII.",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true
+    }
+   ]
+  },
+  {
+   "nazwa": "Czerwiec–lipiec · prace nad widocznością w Google",
+   "uwaga": "Pakiet prac technicznych rozłożony na oba miesiące — pojedyncze pozycje bez osobnych dat, wszystkie sprawdzone na żywej stronie 19.08.",
+   "pozycje": [
+    {
+     "data": "—",
+     "tytul": "Firma przedstawia się Google jako AGRIA",
+     "opis": "Dane firmy w kodzie strony podpisane nazwą i adresem AGRII zamiast domyślnej nazwy z szablonu.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Zabezpieczenia połączenia ze stroną",
+     "opis": "Dodane nagłówki, które wymuszają szyfrowane połączenie i blokują osadzanie strony w cudzych ramkach.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Tytuł strony głównej w wynikach wyszukiwania",
+     "opis": "Skrócony tak, żeby Google go nie ucinał w połowie.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Kategorie produktów zgłoszone do Google",
+     "opis": "Mapa strony przekazywana Google uzupełniona o kategorie oferty.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Numery katalogowe produktów",
+     "opis": "18 z 19 produktów ma własny numer katalogowy w systemie — jeden pozostaje bez, świadomie.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Literówki w nazwach produktów",
+     "opis": "Poprawione w nazwach wszystkich 19 kart.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Mapa strony po zmianie adresów",
+     "opis": "Przebudowana, żeby Google dostawał aktualne adresy, nie stare.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Koszyk poza mapą strony",
+     "opis": "Strona koszyka nie jest już zgłaszana do indeksowania — to strona techniczna, nie treść.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Opisy sześciu stron w wynikach wyszukiwania",
+     "opis": "Oferta, o firmie, poradniki, kalkulator, do pobrania i kontakt dostały własne tytuły i opisy wyświetlane w Google.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Karta wapna Bielik z parametrami z karty producenta",
+     "opis": "Parametry przepisane z karty Nordkalku, zgodnie z zasadą, że dane techniczne biorą się z dokumentów producenta.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Poprawiony odczyn wapna palonego",
+     "opis": "Na karcie widniała wartość fizycznie niemożliwa do osiągnięcia — zastąpiona wartością z karty.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Staż firmy zaktualizowany",
+     "opis": "„35 lat” zastąpione „37 lat” w całym serwisie.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Strona o stabilizacji gruntów",
+     "opis": "Nowa strona docelowa pod segment drogowo-budowlany.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "—",
+     "tytul": "Strony reklamowe wyłączone z wyników organicznych",
+     "opis": "Strony przygotowane pod kampanie Google Ads nie konkurują w wynikach z resztą serwisu.",
+     "id": "—",
+     "godz": 0,
+     "znacznik": false
+    }
+   ]
+  },
+  {
+   "nazwa": "Sierpień 2026",
+   "uwaga": "Miesiąc z trzema równoległymi kierunkami: uruchomienie reklam Google, wejście na OLX i przebudowa treści pod sezon jesienny.",
+   "pozycje": [
+    {
+     "data": "13.08",
+     "tytul": "Kampanie Google Ads uruchomione",
+     "opis": "Trzy kampanie na koncie AGRII, kierowane na rolnika kupującego całosamochodowo, nie na klienta detalicznego szukającego worka. Reklamy pokazują numer telefonu jako główną drogę kontaktu.",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "14.08",
+     "tytul": "Blokada ruchu spoza Polski",
+     "opis": "Strona odcina automaty i ruch zagraniczny zanim zacznie się ładować — mniej obciążenia i mniej fałszywych zapytań.",
+     "id": "T-048",
+     "godz": 5.3,
+     "znacznik": true
+    },
+    {
+     "data": "18.08",
+     "tytul": "Mockup kalkulatora z modułem magnezu",
+     "opis": "Wersja testowa kalkulatora uwzględniająca zawartość magnezu przekazana Kazimierzowi do oceny merytorycznej.",
+     "id": "T-043",
+     "godz": 5,
+     "znacznik": true
+    },
+    {
+     "data": "18.08",
+     "id": "T-045",
+     "godz": 5,
+     "znacznik": true,
+     "tytul": "Projekt ofertownika",
+     "opis": "Specyfikacja mechanizmu wystawiania ofert z cenami niejawnymi."
+    },
+    {
+     "data": "18.08",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true,
+     "tytul": "Dostęp SSH do produkcji i WP-CLI",
+     "opis": "Własny klucz dostępowy do serwera, odcinany jedną linią w panelu nazwa.pl. Odblokowało operacje masowe."
+    },
+    {
+     "data": "19.08",
+     "tytul": "Atesty i karty charakterystyki Nordkalku do pobrania",
+     "opis": "Osiem dokumentów dołożonych do sekcji „Do pobrania”. Sekcja ma dziś 22 karty produktów, 4 karty charakterystyki i 5 atestów.",
+     "id": "T-008",
+     "godz": 2.5,
+     "znacznik": false
+    },
+    {
+     "data": "19.08",
+     "tytul": "Uporządkowana sekcja dokumentów",
+     "opis": "Usunięte nieaktualne pozycje i zdublowany odnośnik. Atesty i karty charakterystyki zostały nietknięte.",
+     "id": "T-009",
+     "godz": 0,
+     "znacznik": false
+    },
+    {
+     "data": "19.08",
+     "tytul": "Ceny orientacyjne na 15 kartach produktów i stronach reklamowych",
+     "opis": "Każda karta z wyceną podaje jedną kwotę za tonę z warunkiem, do którego się odnosi. Wcześniej strona nie mówiła o cenie nic, a to pierwsze pytanie każdego rolnika.",
+     "id": "T-010/011",
+     "godz": 4.5,
+     "znacznik": false
+    },
+    {
+     "data": "19.08",
+     "tytul": "Stare adresy produktów prowadzą na aktualne",
+     "opis": "Wszystkie produkty i kategorie dostępne pod starymi adresami przekierowują teraz na adres właściwy, zamiast pokazywać tę samą treść dwa razy.",
+     "id": "T-028/032",
+     "godz": 3,
+     "znacznik": false
+    },
+    {
+     "data": "19.08",
+     "tytul": "Dane logowania administratora przestały być widoczne",
+     "opis": "Nazwa konta administratora była możliwa do odczytania z kodu strony na trzech drogach — wszystkie zamknięte.",
+     "id": "T-029",
+     "godz": 1.5,
+     "znacznik": false
+    },
+    {
+     "data": "19.08",
+     "tytul": "Odblokowany pomiar szybkości strony",
+     "opis": "Narzędzia pomiarowe Google były odcinane razem z automatami — dopisane do listy dozwolonych, dzięki czemu widzimy realne wyniki szybkości.",
+     "id": "T-048",
+     "godz": 0.3,
+     "znacznik": false
+    },
+    {
+     "data": "19.08",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true,
+     "tytul": "Ustalenie dwóch niezależnych warstw cen",
+     "opis": "Ceny w treści strony i ceny ofertowe dla stałych odbiorców rozdzielone na stałe — decyzja spisana, żeby ceny ofertowe nie wyciekły przez stronę."
+    },
+    {
+     "data": "19.08",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true,
+     "tytul": "Porządek w dokumentacji projektu",
+     "opis": "Fakty o kliencie, rejestr zadań i kontekst projektu przepisane na wzorzec sprawdzony na innych projektach."
+    },
+    {
+     "data": "20.08",
+     "tytul": "200 ogłoszeń na OLX",
+     "opis": "Jedenaście produktów w 53 miastach, wszystkie aktywne, z automatycznym odnawianiem. Emisja do 19 września.",
+     "id": "T-041",
+     "godz": 3,
+     "znacznik": false
+    },
+    {
+     "data": "20.08",
+     "tytul": "Wizytówka AGRII w Mapach Google",
+     "opis": "Adres strony poprawiony na szyfrowany, cztery publikacje dodane, wszystkie sześć opinii bez odpowiedzi odpisane. Poprawiona też odpowiedź, która wcześniej trafiła pod niewłaściwą opinię.",
+     "id": "T-046",
+     "godz": 2,
+     "znacznik": false
+    },
+    {
+     "data": "20.08",
+     "tytul": "Zdjęcia i treści ogłoszeń OLX",
+     "opis": "Komplet siedmiu zdjęć na ogłoszenie, rozbudowane opisy z transportem, rozsiewem, kalkulatorem i informacją o dofinansowaniu.",
+     "id": "T-049",
+     "godz": 6,
+     "znacznik": false
+    },
+    {
+     "data": "20.08",
+     "id": "—",
+     "godz": 5,
+     "znacznik": true,
+     "tytul": "OLX — treści, siatka 53 miejscowości, spięcie z Partner API",
+     "opis": "Warstwa przygotowawcza pod emisję: plan ogłoszeń, dobór miast, integracja z API OLX."
+    },
+    {
+     "data": "21.08",
+     "tytul": "Czytelne miniatury ogłoszeń na telefonie",
+     "opis": "Na liście ogłoszeń OLX telefon pokazuje kadr kwadratowy, a zdjęcia były poziome — hasło ucinało się z obu stron. Wszystkie 200 ogłoszeń dostało nowe miniatury komponowane pod ten kadr.",
+     "id": "T-051",
+     "godz": 4,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Nowa mapa zapytań i plan treści na sezon",
+     "opis": "Zmierzone od nowa, czego rolnicy faktycznie szukają. Wyszło 28 720 wyszukań miesięcznie realnego popytu, z czego połowa w tematach, których strona dziś nie porusza.",
+     "id": "T-052",
+     "godz": 3,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Tytuły w wynikach wyszukiwania na czterech stronach o dawkowaniu",
+     "opis": "Poradnik o wapnowaniu miał 14 227 wyświetleń w Google i 69 wejść. Tytuły przepisane pod pytanie, które ludzie realnie wpisują.",
+     "id": "T-053",
+     "godz": 1,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Poradnik o terminie wapnowania przebudowany",
+     "opis": "Pełny terminarz zabiegu ze źródłami IUNG-PIB — kiedy wolno, kiedy nie, pod jakie uprawy i w jakich odstępach od innych nawozów.",
+     "id": "T-055",
+     "godz": 2,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Reklamy: trzecia kampania, podział budżetu, sobota na telefonie",
+     "opis": "Dołożona kampania pod paszarstwo, wykluczone 26 obcych marek, poprawiony harmonogram wyświetlania numeru telefonu.",
+     "id": "T-058",
+     "godz": 3,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Numer telefonu i cena od razu widoczne na stronach reklamowych",
+     "opis": "Wcześniej numer pojawiał się dopiero po przewinięciu dwóch trzecich strony. Teraz stoi w nagłówku razem z ceną, a na telefonie dochodzi pasek z numerem widoczny przez cały czas przeglądania.",
+     "id": "T-059",
+     "godz": 2,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Nagłówki na wpisach poradnikowych",
+     "opis": "Żaden wpis nie miał głównego nagłówka — Google traktował je jako strony bez tematu. Naprawione na dziesięciu wpisach i stronie głównej.",
+     "id": "T-061",
+     "godz": 1,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Baner zgód przestał zasłaniać drogę kontaktu",
+     "opis": "Na telefonie baner zajmował ponad połowę ekranu i zakrywał jednocześnie numer telefonu i cenę — a jechał z użytkownikiem przy przewijaniu, więc zasłaniał je przez całą wizytę. Przeniesiony na środek ekranu i skrócony; po akceptacji ekran jest czysty, a pomiar skuteczności reklam wreszcie działa.",
+     "id": "T-062",
+     "godz": 1.5,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Układ trzech stron z surową treścią",
+     "opis": "Tekst rozciągał się na całą szerokość okna i dotykał krawędzi ekranu na telefonie. Ustawiona czytelna kolumna i marginesy.",
+     "id": "T-063",
+     "godz": 1.5,
+     "znacznik": false
+    },
+    {
+     "data": "21.08",
+     "tytul": "Listy produktów na trzech stronach reklamowych",
+     "opis": "Strony docelowe kampanii nie pokazywały żadnego produktu — dołożone listingi z ofertą pasującą do tematu strony.",
+     "id": "T-064",
+     "godz": 1,
+     "znacznik": false
+    }
+   ]
+  }
+ ],
+ "kolejka_lead": "Kolejność ustalona na podstawie zmierzonej sezonowości zapytań — treści pod tematy, które szczytują wiosną, publikujemy teraz, żeby zdążyły zapracować.",
+ "kolejka": [
+  {
+   "tytul": "Reklamy — ocena skuteczności nowej drogi kontaktu",
+   "opis": "Pierwszy wiarygodny odczyt liczby połączeń z reklam po zmianach z 21 sierpnia. Na tej podstawie decyzja o grupie, która dziś praktycznie nie działa, i o kampanii pod nazwę producenta.",
+   "kiedy": "28.08",
+   "godz": "1–2"
+  },
+  {
+   "tytul": "Formularz „oddzwonimy” bez wybierania produktu",
+   "opis": "Dziś formularz na stronach reklamowych wymaga wskazania jednego z dwudziestu produktów. Dla kogoś, kto trafił z reklamy na wapno granulowane, to zbędny krok — wystarczy imię, telefon, tonaż i lokalizacja.",
+   "kiedy": "sierpień",
+   "godz": "2"
+  },
+  {
+   "tytul": "Strona oferty bez głównego nagłówka",
+   "opis": "Ostatni adres z tej grupy — reszta serwisu naprawiona 21 sierpnia.",
+   "kiedy": "sierpień",
+   "godz": "0,5"
+  },
+  {
+   "tytul": "Stawy i rybactwo",
+   "opis": "Zapytania o wapno i kredę do stawu to 4 100 wyszukań miesięcznie, a strona nie pokazuje się dziś na żadnym z nich. Konkurencja najsłabsza w całej ofercie — połowa pierwszej strony Google to wpisy z Facebooka. Kategoria dostanie produkty i dwa poradniki, wraca też pozycja „Rybactwo” w menu.",
+   "kiedy": "wrzesień",
+   "pytania": [
+    "Który z produktów ma być pierwszy przy zapytaniach o stawy — kreda czy wapno tlenkowe?"
+   ],
+   "godz": "6–8"
+  },
+  {
+   "tytul": "Poradnik „jakie wapno na pole”",
+   "opis": "Dobór rodzaju wapna do typu gleby — 980 wyszukań miesięcznie, jedyny temat treściowy ze szczytem jesiennym.",
+   "kiedy": "do 10.09",
+   "godz": "4–5"
+  },
+  {
+   "tytul": "Badanie gleby i odczyn",
+   "opis": "Największy niewykorzystany temat: 6 320 wyszukań miesięcznie wokół pH, zakwaszenia i badania próbek. To pytania, od których zaczyna się droga do zakupu wapna, a dziś nie mamy na nie żadnej odpowiedzi. Do tego strona o sprzedaży tonażowej.",
+   "kiedy": "wrzesień",
+   "godz": "6–8"
+  },
+  {
+   "tytul": "Paszarstwo — kreda pastewna",
+   "opis": "8 940 wyszukań miesięcznie, największy pojedynczy temat w całej ofercie. Poradnik o dawkowaniu i opis kategorii mogą powstać od razu.",
+   "kiedy": "wrzesień",
+   "pytania": [
+    "Karta kredy pastewnej opisuje dziś produkt parametrami wapna palonego. Potrzebujemy potwierdzenia właściwych parametrów, zanim ją opublikujemy."
+   ],
+   "godz": "5–6"
+  },
+  {
+   "tytul": "Wapnowanie pod ziemniaki",
+   "opis": "Zapytania szczytują w październiku — jedyna uprawa z potwierdzonym szczytem jesiennym.",
+   "kiedy": "do 20.09",
+   "godz": "3–4"
+  },
+  {
+   "tytul": "Sadownictwo",
+   "opis": "470 wyszukań miesięcznie wokół wapnowania drzew owocowych. Stary adres z tej kategorii wciąż przyciąga wejścia, mimo że strony nie ma — popyt istnieje. Szczyt przypada na marzec.",
+   "kiedy": "wrzesień–październik",
+   "godz": "4–5"
+  },
+  {
+   "tytul": "Wapnowanie łąk i pastwisk",
+   "opis": "210 wyszukań miesięcznie, szczyt marcowy.",
+   "kiedy": "wrzesień–październik",
+   "godz": "3–4"
+  },
+  {
+   "tytul": "Kalkulator — moduł magnezu na stronie",
+   "opis": "Po akceptacji Kazimierza moduł trafia z wersji testowej na stronę. Przy okazji planujemy dołożyć wybór uprawy, żeby dawka uwzględniała wymagania konkretnego gatunku.",
+   "kiedy": "wrzesień",
+   "pytania": [
+    "Czy wybór uprawy w kalkulatorze wchodzi razem z magnezem, czy osobno?"
+   ],
+   "godz": "4–6"
+  },
+  {
+   "tytul": "Oddziały Niedomice i Radgoszcz w danych dla Google",
+   "opis": "Dane obu magazynów widoczne dla wyszukiwarki jako osobne lokalizacje.",
+   "kiedy": "wrzesień",
+   "godz": "1"
+  },
+  {
+   "tytul": "Szybkość strony na telefonie",
+   "opis": "Na komputerze strona ładuje się w 1,5 sekundy, na telefonie w 7,3 — różnica bierze się z ciężkich elementów graficznych, nie z kodu. Praca zaplanowana po sezonie, żeby nie ruszać strony w szczycie.",
+   "kiedy": "po sezonie",
+   "godz": "3–5"
+  },
+  {
+   "tytul": "Strony reklamowe na docelowym układzie",
+   "opis": "Dziś stoją na doraźnej poprawce układu. Docelowo zbudujemy je na tym samym schemacie co reszta serwisu.",
+   "kiedy": "po sezonie",
+   "godz": "4–6"
+  },
+  {
+   "tytul": "Ofertownik",
+   "opis": "Osobny wątek: przygotowanie strony do wystawiania ofert z cenami dla stałych odbiorców, bez ujawniania tych cen publicznie.",
+   "kiedy": "do ustalenia",
+   "pytania": [
+    "Kiedy chcecie ruszyć — to praca na osobny miesiąc, nie mieści się w bieżących pracach."
+   ],
+   "godz": "20–30"
+  }
+ ],
+ "czekamy_lead": "Cztery rzeczy stoją po stronie AGRII — bez nich nie ruszymy dalej.",
+ "czekamy": [
+  {
+   "tytul": "Zdjęcia na wizytówkę w Mapach Google",
+   "opis": "Profil ma dziś dziesięć kadrów, wszystkie z jednego dnia i wszystkie z zewnątrz. Brakuje magazynu, towaru i transportu — to zdjęcia, których nie da się zastąpić grafiką.",
+   "od": "20.08"
+  },
+  {
+   "tytul": "Ocena kalkulatora z magnezem",
+   "opis": "Wersja testowa czeka na opinię merytoryczną Kazimierza.",
+   "od": "18.08"
+  },
+  {
+   "tytul": "Status dystrybutora Nordkalku",
+   "opis": "Chcemy użyć nazwy producenta w treści reklam. Wolno to zrobić odsprzedawcom — potrzebujemy potwierdzenia, że AGRIA nim jest.",
+   "od": "19.08"
+  },
+  {
+   "tytul": "Dostęp do wizytówek Niedomice i Radgoszcz",
+   "opis": "Oba oddziały mają profile w Mapach Google, do których nie mamy dostępu. Bez niego nie da się ich uzupełnić ani odpowiadać na opinie.",
+   "od": "15.07"
+  }
+ ]
+}

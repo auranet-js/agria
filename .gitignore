@@ -81,3 +81,6 @@ __pycache__/
 
 # Lista 53 tys. miast OLX — 7,8 MB, odtwarzalna z /partner/cities (scripts/olx/plan.py pobiera sama)
 data/olx/cities-all.json
+
+# strona postepu — artefakt generowany, zrodlem sa dane/postep.json + build_postep.py
+docs/postep/postep.html
