@@ -61,73 +61,88 @@ bo teraz jest sezon" było fałszywe i nie należy nim uzasadniać kolejności.
 
 ---
 
-## 3. Otwarte na nas — 13
+## 3. Pełna lista — wszystkie 67 pozycji
 
-| ID | Zadanie | Linia | Rzecz do zrobienia | Sezon |
+Legenda statusu: ✅ zamknięte · 🟠 częściowo (rdzeń zamknięty, reszta w kolejce) · 🔴 otwarte na nas ·
+🟡 czeka na AGRIĘ · 📅 zaplanowane M4 · 🔵 do rozstrzygnięcia · ⛔ unieważnione
+
+| ID | Zadanie | Linia | Status | Kiedy / co dalej |
 |---|---|---|---|---|
-| **T-058** | Ads — reszta | Ads | grupa „Producent", rewizja grupy „Wapno magnezowe i kreda" (1,00 zł przy suficie 2,00 — 38 wyśw. i 1 klik przez 7 dni), **ocena efektu 28.08** | **teraz** |
-| **T-059** | Ścieżka kontaktu — reszta | Strona | lekki formularz `mode="callback"` (imię, telefon, tonaż, lokalizacja) zamiast wyboru z 20 produktów | **teraz** |
-| **T-061** | `/oferta/` bez H1 | SEO | jedna strona, `_elementor_data` puste (2 B) — do zdiagnozowania, jaki szablon ją obsługuje. 165 wyśw., poz. 13,6 | **teraz** |
-| **T-027** | `/do-pobrania/` reindeksacja | SEO | **recheck GSC 22.08 i 02.09** — zgłoszone 19.08, dowodem jest zmiana werdyktu, nie zgłoszenie | **teraz** |
-| **T-026** | Sześć URL-i poza indeksem | SEO | diagnoza gotowa, **czeka na decyzję Janka** z czterech scenariuszy. Nie zgłaszać czwarty raz do Indexing API | — |
-| **T-055** | Klaster „pole" — reszta | SEO | hub `/jakie-wapno-na-pole/` (980, IX 720), łąki, ziemniaki. Ozime za stawem, oś na przedplon | hub **jesień**, łąki wiosna, ziemniaki X |
-| **T-056** | Staw i rybactwo | SEO | kategoria `/wapno-do-stawow/` (0 produktów, 301), 2 poradniki, powrót menu „Rybactwo" | wiosna, publikacja teraz |
-| **T-057** | Gleba i odczyn | SEO | 2 poradniki + strona tonażowa `/wapno-nawozowe-hurt/`. **6 320/mies., największy klaster góry lejka** | wiosna, publikacja teraz |
-| **T-054** | Paszarstwo | SEO | poradnik + opis kategorii mogą iść; **karta #307 zablokowana** — opisuje kredę pastewną parametrami wapna tlenkowego | bez sezonu |
-| **T-065** | Sadownictwo | SEO | kategoria `/wapno-do-sadu/`, 470/mies. Stary adres wciąż zbiera 23 wyśw. na poz. 7,6 przez 301 | wiosna |
-| **T-066** | Terminarz jako hub + mapa roczna | SEO | realizacja mapy z ADR 21.08 | ciągłe |
-| **T-067** | Źródła IUNG-PIB do repo | SEO | **blokuje** ozime, kukurydzę i tabelę uprawową w hubie | warunek |
-| **T-063** | Landingi na wzorcu | Strona | łatka CSS działa, przebudowa **po sezonie** | po sezonie |
+| T-001 | Kalkulator przestał proponować kredę pastewną i malarską | Kalkulator | ✅ | 18.06, M1 |
+| T-002 | Formy dostawy zdjęte ze specyfikacji 19 kart + FAQ | Treść | ✅ | 29.06, M1 |
+| T-003 | Telefony na mapie zgodne z oddziałami, numer 660 usunięty | Strona | ✅ | 01.07, M2 |
+| T-004 | Karty produktu i charakterystyki na `/do-pobrania/` | Treść | ✅ | 29.06, M1 |
+| T-005 | Zdjęcia produktów zgodne z katalogiem | Strona | ✅ | 29.06, M1 |
+| T-006 | Przebudowa sekcji „Dział sprzedaży" | Strona | ⛔ | zdjęte przez Janka 20.08 |
+| T-007 | Korekta interpunkcji w tekstach | Treść | ⛔ | zrobił Paweł sam |
+| T-008 | 8 atestów i kart charakterystyki Nordkalku na `/do-pobrania/` | SEO | ✅ | 19.08, M3 |
+| T-009 | Sekcja „Certyfikaty" zdjęta z `/do-pobrania/` | SEO | ✅ | 19.08, M3 |
+| T-010 | Widełki cenowe na 15 kartach + 2 landingach + hub | SEO / ceny | ✅ | 19.08, M3 |
+| T-011 | Nagłówki H2 z frazą cenową na kartach | SEO | ✅ | 19.08, razem z T-010 |
+| T-012 | Schema Organization zamiast „My Blog" | SEO | ✅ | M1–M2 |
+| T-013 | Nagłówki bezpieczeństwa (4 z 6 — brak CSP i Permissions-Policy) | Bezpieczeństwo | ✅ | M1–M2 |
+| T-014 | Title strony głównej skrócony do 56 znaków | SEO | ✅ | M1–M2 |
+| T-015 | `product_cat` w sitemapie | SEO | ✅ | M1–M2 |
+| T-016 | SKU dla produktów (18 z 19, #303 świadomie bez) | SEO | ✅ | M1–M2 |
+| T-017 | Literówki w nazwach produktów | Treść | ✅ | M1–M2 |
+| T-018 | Sitemapa RankMath po migracji URL | SEO | ✅ | M1–M2 |
+| T-019 | `/cart/` poza sitemapą | SEO | ✅ | M1–M2 |
+| T-020 | Meta title i description na 6 stronach statycznych | SEO | ✅ | M1–M2 |
+| T-021 | Bielik #309 on-page — parametry normowe z karty Nordkalk | Treść | ✅ | M1–M2 |
+| T-022 | pH wapna palonego („>16" było fizycznie niemożliwe) | Treść | ✅ | M1–M2 |
+| T-023 | „35 lat" → „37 lat" | Treść | ✅ | M1–M2 |
+| T-024 | Landing `/wapno-do-stabilizacji-gruntow/` | Strona | ✅ | M1–M2 |
+| T-025 | Landingi Ads poza indeksem (`noindex, follow`) | SEO | ✅ | M1–M2 |
+| T-026 | Sześć URL-i poza indeksem — diagnoza gotowa | SEO | 🔴 | **decyzja Janka** z 4 scenariuszy. Nie zgłaszać 4. raz do Indexing API |
+| T-027 | `/do-pobrania/` — reindeksacja | SEO | 🔴 | zgłoszone 19.08; **recheck GSC 22.08 i 02.09** |
+| T-028 | Duplikaty pod `/produkt/` + 15 osieroconych wpisów | SEO | ✅ | 19.08, M3 |
+| T-029 | Login administratora przestał wyciekać (3 kanały) | Bezpieczeństwo | ✅ | 19.08, M3 |
+| T-030 | LocalBusiness ×2 (Niedomice, Radgoszcz) w schema | SEO | 📅 | M4 |
+| T-031 | CWV mobile — LCP 7,3 s przy desktopie 1,5 s | Wydajność | 📅 | M4, po sezonie |
+| T-032 | 301 dla starej bazy `/kategoria-produktu/*` | SEO | ✅ | 19.08, M3 |
+| T-033 | GA4 nie mierzy mimo działającego CMP | Analityka | 🔵 | rediagnoza od zera; sprawdzić po T-062, po 28.08 |
+| T-034 | Premmerce DOM-XSS — wersja 2.3.13 | Bezpieczeństwo | 🔵 | potwierdzić u vendora albo z `readme.txt` |
+| T-035 | Landingi organiczne (palone, magnezowe, hydratyzowane, kreda) | SEO | ⛔ | ADR 11.08 — landingi tylko jako cele Ads |
+| T-036 | Landingi segmentowe (stawy, sad, oczyszczalnie) | SEO | ⛔ | jw. — menu wraca z treścią |
+| T-037 | `/transport-i-dostawa/`, formy dostawy z powrotem na karty | Strona | ⛔ | sprzeczne z T-002, wymaga zgody Pawła |
+| T-038 | Huby segmentowe (Rolnictwo / Rybactwo / Oczyszczalnie) | SEO | ⛔ | nieoparte na pomiarze |
+| T-039 | Korekty kampanii Marka | Ads | ⛔ | wchłonięte przez T-058 |
+| T-040 | Teksty reklam z nazwą „Nordkalk" | Ads | 🟡 | od 19.08 — status autoryzowanego dystrybutora |
+| T-041 | Publikacja 200 ogłoszeń OLX | OLX | ✅ | 20.08, M3 |
+| T-042 | Poprawki mockupu ogłoszeń OLX po uwagach Kazimierza | OLX | ✅ | 20.08, M3 |
+| T-043 | Weryfikacja mockupu kalkulatora Mg przez Kazimierza | Kalkulator | 🟡 | od 18.08 |
+| T-044 | Wdrożenie modułu Mg w kalkulatorze na produkcję | Kalkulator | 📅 | M4, po T-043, 4 kwestie otwarte |
+| T-045 | Ofertownik, etap zerowy — audyt wycieku cen | Ofertownik | 📅 | M4, osobny wątek |
+| T-046 | Optymalizacja profilu GBP Tarnów | GBP | ✅ | 20.08, M3 |
+| T-047 | Odzysk profili GBP Niedomice i Radgoszcz | GBP | 🟡 | od 15.07 — dostęp |
+| T-048 | Boty pomiarowe dopisane do geobloku (odblokowało PSI) | Strona | ✅ | 19.08, M3 |
+| T-049 | Zdjęcia, tytuły i opisy OLX przed emisją | OLX | ✅ | 20.08, M3 |
+| T-050 | Zdjęcia na wizytówkę GBP Tarnów | GBP | 🟡 | od 20.08 — materiał od AGRII |
+| T-051 | Miniatury OLX nieczytelne na telefonie | OLX | ✅ | 21.08, M3 |
+| T-052 | Audyt fraz od nowa + plan treści na sezon | SEO | ✅ | 21.08, M3 |
+| T-053 | Blok A — CTR klastra dawkowego (4 adresy) | SEO | ✅ | 21.08; **kontrola CTR w GSC 04.09** |
+| T-054 | Blok B — paszarstwo (8 940/mies., największy klaster) | SEO | 🔴 | poradnik i kategoria mogą iść; **karta #307 czeka na Pawła** |
+| T-055 | Blok C — klaster „pole" | SEO | 🟠 | terminarz ✅ 21.08. Zostają: hub 10.09, ziemniaki 20.09, łąki, ozime po T-067 |
+| T-056 | Blok D — staw i rybactwo (4 100/mies., zero pokrycia) | SEO | 🔴 | kategoria + 2 poradniki + powrót menu „Rybactwo" |
+| T-057 | Blok E — gleba i odczyn (6 320/mies., zero pokrycia) | SEO | 🔴 | 2 poradniki + strona tonażowa `/wapno-nawozowe-hurt/` |
+| T-058 | Ads — pozostałe | Ads | 🟠 | rdzeń ✅ 21.08. Zostają: grupa „Producent", rewizja grupy Mg/kreda, **ocena 28.08** |
+| T-059 | Landingi Ads — ścieżka kontaktu | Strona / Ads | 🟠 | rdzeń ✅ 21.08. Zostaje: lekki formularz `mode="callback"` |
+| T-060 | Magnez i fosfor jako kierunek treści | SEO | 🔵 | zaparkowane świadomie przez Janka 21.08 |
+| T-061 | `/oferta/` bez H1 | SEO | 🟠 | klasa naprawiona ✅ 21.08 (10 wpisów + główna). Zostaje jeden adres |
+| T-062 | Baner zgód zasłaniał ścieżkę kontaktu | Ads / Strona | ✅ | 21.08; **dowód skuteczności: `phone_calls` 28.08** |
+| T-063 | Landingi na sprawdzonym wzorcu | Strona | 🟠 | łatka CSS ✅ 21.08. Przebudowa **po sezonie** |
+| T-064 | Listingi produktów na trzech landingach | Strona | ✅ | 21.08, M3 |
+| T-065 | Sadownictwo — kategoria `/wapno-do-sadu/` (470/mies.) | SEO | 🔴 | **korekta: szczyt marzec 720, nie listopad — XI to 40** |
+| T-066 | Terminarz jako hub osi KIEDY + mapa roczna | SEO | 🔴 | ADR 21.08; realizacja rozłożona na rok |
+| T-067 | Źródła IUNG-PIB do repo | SEO | 🔴 | **blokuje** ozime, kukurydzę i tabelę uprawową w hubie |
 
-## 4. Czeka na AGRIĘ — 4
-
-| ID | Na co | Od |
-|---|---|---|
-| **T-040** | status autoryzowanego dystrybutora Nordkalku — bez tego nazwa nie wchodzi w treść reklam | 19.08 |
-| **T-050** | zdjęcia na wizytówkę GBP Tarnów (brak wnętrza, produktu, transportu) | 20.08 |
-| **T-043** | weryfikacja mockupu kalkulatora Mg przez Kazimierza | 18.08 |
-| **T-047** | dostęp do profili GBP Niedomice i Radgoszcz | 15.07 |
-
-## 5. Zaplanowane M4 — 4
-
-**T-044** moduł Mg na produkcję (po T-043) · **T-031** LCP mobile 7,3 s przy desktopie 1,5 s ·
-**T-030** LocalBusiness ×2 w schema · **T-045** ofertownik, etap zerowy (audyt wycieku cen)
-
-## 6. Do rozstrzygnięcia — 3
-
-**T-033** GA4 nie mierzy mimo działającego CMP — rediagnoza od zera (T-062 mógł to ruszyć) ·
-**T-034** Premmerce DOM-XSS, wersja 2.3.13 · **T-060** magnez i fosfor jako kierunek treści
-
-## 7. Unieważnione — 7
-
-T-035, T-036 (landingi organiczne i segmentowe — ADR 11.08) · T-037 (transport, wymaga zgody Pawła) ·
-T-038 (huby segmentowe) · T-006 (dział sprzedaży — zdjęte przez Janka) · T-007 (interpunkcja — zrobił Paweł) ·
-T-039 (wchłonięte przez T-058)
-
-## 8. Zamknięte — 39
-
-**M1 (czerwiec):** T-001 kalkulator bez kredy pastewnej i malarskiej · T-002 formy dostawy zdjęte z 19 kart ·
-T-004 karty na `/do-pobrania/` · T-005 zdjęcia produktów
-
-**M2 (lipiec):** T-003 telefony na mapie · rdzeń URL/taksonomii · raport M2
-
-**M1–M2, blok SEO on-page (14):** T-012 schema Organization · T-013 nagłówki bezpieczeństwa ·
-T-014 title strony głównej · T-015 `product_cat` w sitemapie · T-016 SKU · T-017 literówki ·
-T-018 sitemapa po migracji · T-019 `/cart/` poza sitemapą · T-020 meta na 6 stronach ·
-T-021 Bielik #309 · T-022 pH wapna palonego · T-023 „35 lat" → „37 lat" ·
-T-024 landing stabilizacji · T-025 landingi Ads poza indeksem
-
-**M3 (sierpień, 15 + prace bez ID):** T-008 atesty Nordkalku · T-009 sekcja „Certyfikaty" zdjęta ·
-T-010 + T-011 widełki cenowe na 15 kartach i landingach · T-028 duplikaty `/produkt/` ·
-T-029 login administratora (3 kanały) · T-032 301 dla `/kategoria-produktu/*` · T-041 200 ogłoszeń OLX ·
-T-042 poprawki mockupu OLX · T-046 profil GBP Tarnów · T-048 boty pomiarowe w geobloku ·
-T-049 zdjęcia i teksty OLX · T-051 miniatury OLX · T-052 audyt fraz od nowa · T-053 CTR klastra dawkowego ·
-T-062 baner zgód · T-064 listingi na landingach · plus rdzenie T-055, T-058, T-059, T-061, T-063.
-Bez ID: uruchomienie Ads, geoblok, dostęp SSH, ADR dwie warstwy cen, spec ofertownika, porządek dokumentacji
+**Bez własnego ID (prace M3):** uruchomienie kampanii Google Ads (13.08) · geoblok bezpieczeństwa (14.08) ·
+dostęp SSH i WP-CLI do produkcji (18.08) · ADR dwie warstwy cen (19.08) · spec ofertownika (18.08) ·
+porządek dokumentacji: `FAKTY_KLIENTA`, rejestr, `CLAUDE.md` · rdzeń URL/taksonomii (08.07) · raport M2 (03.07)
 
 ---
 
-## 9. Proponowana kolejność
+## 4. Proponowana kolejność
 
 Kryteria w tej hierarchii: **(1)** gdzie lecą pieniądze teraz, **(2)** wolumen razy brak pokrycia,
 **(3)** czas dojrzewania treści do szczytu, **(4)** co blokuje co.
@@ -172,7 +187,7 @@ Kryteria w tej hierarchii: **(1)** gdzie lecą pieniądze teraz, **(2)** wolumen
 
 ---
 
-## 10. Co w tej kolejności jest do rozstrzygnięcia przez Janka
+## 5. Co w tej kolejności jest do rozstrzygnięcia przez Janka
 
 - **Staw przed glebą, mimo że gleba ma większy wolumen** (4 100 vs 6 320). Uzasadnienie: zobowiązanie
   wobec Kasjana, najsłabsza konkurencja, spłata długu nawigacyjnego i produktowego. Odwracalne.
