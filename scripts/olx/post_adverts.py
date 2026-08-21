@@ -327,7 +327,17 @@ if __name__ == "__main__":
         cmd_auto_extend()
     elif "--update" in args:
         lim = int(args[args.index("--limit") + 1]) if "--limit" in args else None
-        cmd_update(items, reg, guard, lim)
+        wybrane = items
+        if "--ids" in args:
+            # bez tego filtru --update ignoruje listę i przechodzi po CAŁYM rejestrze:
+            # 21.08 pętla po partiach zrobiła dwa pełne przebiegi po 200 ogłoszeń zamiast
+            # dwóch partii po 25.
+            chce = {l.strip() for l in open(args[args.index("--ids") + 1], encoding="utf-8")
+                    if l.strip() and not l.startswith("#")}
+            wybrane = [it for it in items if it["external_id"] in chce]
+            if not wybrane:
+                sys.exit("żaden external_id z pliku nie pasuje do ładunku")
+        cmd_update(wybrane, reg, guard, lim)
     elif "--ids" in args:
         wanted = [l.strip() for l in open(args[args.index("--ids") + 1], encoding="utf-8")
                   if l.strip() and not l.startswith("#")]
