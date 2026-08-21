@@ -38,7 +38,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /** Strony z treścią w `post_content` i bez własnego układu Elementora. */
-const AGRIA_PLAIN_PAGES = [ 2745, 2751, 2757 ];
+const AGRIA_PLAIN_PAGES = [ 2745, 2751, 2757, 2796 ];
 
 /**
  * Znacznik na <body>, żeby CSS nie dotykał reszty serwisu.

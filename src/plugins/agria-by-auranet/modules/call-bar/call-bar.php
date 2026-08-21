@@ -28,7 +28,7 @@ function agria_callbar_enabled(): bool {
 	}
 
 	/** Strony docelowe kampanii Ads. */
-	$landing_ids = [ 2751, 2757 ];
+	$landing_ids = [ 2751, 2757, 2796 ];
 
 	if ( is_page( $landing_ids ) ) {
 		return true;
