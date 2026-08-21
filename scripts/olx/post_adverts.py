@@ -8,7 +8,7 @@ To pisze na koncie klienta. Domyślnie NIC nie wysyła — trzeba świadomie pod
     post_adverts.py --all                  wystaw resztę z ładunku
     post_adverts.py --ids plik.txt         wystaw tylko wskazane external_id (po jednym w linii)
     post_adverts.py --check                rozkład statusów ogłoszeń z rejestru wg API
-    post_adverts.py --update               wgraj aktualną treść na już wystawione ogłoszenia
+    post_adverts.py --update [--limit N]    wgraj aktualną treść na już wystawione ogłoszenia
     post_adverts.py --auto-extend          włącz auto_extend na WSZYSTKICH ogłoszeniach konta
     post_adverts.py --status               co już wystawione wg lokalnego rejestru
 
@@ -269,12 +269,20 @@ def cmd_auto_extend():
             print(f"               {json.dumps(r, ensure_ascii=False)[:300]}")
 
 
-def cmd_update(items, reg):
-    """Wgrywa aktualną treść z ładunku na ogłoszenia, które już są na koncie."""
+def cmd_update(items, reg, guard=25, limit=None):
+    """Wgrywa aktualną treść z ładunku na ogłoszenia, które już są na koncie.
+
+    Edycja przechodzi moderację tak samo jak nowe ogłoszenie, więc obowiązuje tu ten sam
+    bezpiecznik co przy wystawianiu: co `guard` sztuk i na koniec serii czytamy statusy
+    i przerywamy przy pierwszym twardym odrzucie.
+    """
     by_eid = {it["external_id"]: it for it in items}
-    todo = [(eid, v) for eid, v in reg.items() if eid in by_eid]
-    print(f"aktualizuję {len(todo)} ogłoszeń z rejestru…")
-    for eid, v in todo:
+    todo = [(eid, v) for eid, v in reg.items() if eid in by_eid][:limit]
+    print(f"aktualizuję {len(todo)} ogłoszeń z rejestru… (bezpiecznik co {guard})")
+    ok = 0
+    for i, (eid, v) in enumerate(todo):
+        if i:
+            time.sleep(2)
         it = by_eid[eid]
         c, r = call("PUT", f"/partner/adverts/{v['advert_id']}",
                     dict(body_of(it), auto_extend_enabled=True))
@@ -282,6 +290,24 @@ def cmd_update(items, reg):
         print(f"  {stan:<12} {v['advert_id']}  {v['city']:<20} {it['title'][:44]}")
         if c not in (200, 201):
             print(f"               {json.dumps(r, ensure_ascii=False)[:400]}")
+            continue
+        ok += 1
+        if guard and ok % guard == 0:
+            zle = moderation_check(reg)
+            if zle:
+                opis = "\n".join(f"{a} {st} — {t}" for a, st, t in zle)
+                print(f"STOP — moderacja wstrzymała {len(zle)}:\n{opis}")
+                notify(f"OLX AGRIA — STOP przy podmianie zdjęć po {ok} sztukach:\n{opis}")
+                sys.exit(1)
+            print(f"  … bezpiecznik: {ok} zaktualizowanych, zero odrzutów")
+    if ok:
+        zle = moderation_check(reg)
+        if zle:
+            opis = "\n".join(f"{a} {st} — {t}" for a, st, t in zle)
+            print(f"STOP — moderacja wstrzymała {len(zle)}:\n{opis}")
+            notify(f"OLX AGRIA — STOP po podmianie {ok} sztuk:\n{opis}")
+            sys.exit(1)
+    print(f"zaktualizowane: {ok}/{len(todo)}, zero odrzutów")
 
 
 if __name__ == "__main__":
@@ -300,7 +326,8 @@ if __name__ == "__main__":
     elif "--auto-extend" in args:
         cmd_auto_extend()
     elif "--update" in args:
-        cmd_update(items, reg)
+        lim = int(args[args.index("--limit") + 1]) if "--limit" in args else None
+        cmd_update(items, reg, guard, lim)
     elif "--ids" in args:
         wanted = [l.strip() for l in open(args[args.index("--ids") + 1], encoding="utf-8")
                   if l.strip() and not l.startswith("#")]
