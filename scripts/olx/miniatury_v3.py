@@ -72,7 +72,7 @@ SIATKI = {
 "weglanowe-granulowane": (
     "A field of rapeseed in full yellow bloom under a bright blue sky, vivid yellow flowers "
     "to the horizon. " + WSPOLNE,
-    "Węglanowe granulowane · 3–6 mm", "Do rozsiewacza", "Stabilne i bezpieczne"),
+    "Węglanowe granulowane · 3–6 mm", "Bez usługi|wapnowania", "Stabilne i bezpieczne"),
 "weglanowe-magnez-granulowane": (
     "A bright green field of young cereal shoots in neat rows in spring, fresh vivid green, "
     "blue sky with white clouds. " + WSPOLNE,
@@ -96,7 +96,7 @@ SIATKI = {
 "kreda-nawozowa-granulowana": (
     "A tidy small family farm field in spring, fresh green crop, white farm buildings in the "
     "distance, blue sky with white clouds. " + WSPOLNE,
-    "Kreda nawozowa granulowana · 3–6 mm", "Do rozsiewacza", "Lepsze plony"),
+    "Kreda nawozowa granulowana · 3–6 mm", "Dla mniejszych|gospodarstw", "Lepsze plony"),
 "kreda-pastewna": (
     "Interior of a bright modern dairy barn: black and white Holstein cows standing in a row "
     "at a concrete feed table, eating a fresh mixed ration of silage. Indoor scene, barn roof "
