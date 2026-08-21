@@ -60,23 +60,23 @@ SIATKI = {
 "agrobielik-70-gleba": (
     "A freshly ploughed field with rich brown furrows in bright sunshine, green grass margin "
     "in front, deep blue sky with white clouds. " + WSPOLNE,
-    "Agrobielik 70 · tlenkowe · 0–2 mm", "Na gleby|średnie i ciężkie", "Efekt w 2–4 tyg."),
+    "Agrobielik 70 · tlenkowe · 0–2 mm", "Na gleby|średnie i ciężkie", "Szybkie odkwaszanie"),
 "agrobielik-90": (
     "A field of ripe golden wheat under a deep blue summer sky, ears glowing in the sun, "
     "a strip of bright yellow flowering rapeseed on the horizon. " + WSPOLNE,
-    "Agrobielik 90 · tlenkowe · 0–3 mm", "Pod zboża|i rzepak", "Mniejsza dawka"),
+    "Agrobielik 90 · tlenkowe · 0–3 mm", "Pod zboża|i rzepak", "Szybkie odkwaszanie"),
 "oxyfertil-90": (
     "A small sunny farm field with ripe cereal on one side and green crop on the other, "
     "farm buildings with red roofs in the distance, blue sky. " + WSPOLNE,
-    "Oxyfertil 90 · tlenkowe · 3–8 mm", "Na mniejsze|pole", "Już od 1 tony"),
+    "Oxyfertil 90 · tlenkowe · 3–8 mm", "Na mniejsze|pole", "Bardzo szybkie działanie"),
 "weglanowe-granulowane": (
     "A field of rapeseed in full yellow bloom under a bright blue sky, vivid yellow flowers "
     "to the horizon. " + WSPOLNE,
-    "Węglanowe granulowane · 3–6 mm", "Do rozsiewacza", "Bez pylenia"),
+    "Węglanowe granulowane · 3–6 mm", "Do rozsiewacza", "Stabilne i bezpieczne"),
 "weglanowe-magnez-granulowane": (
     "A bright green field of young cereal shoots in neat rows in spring, fresh vivid green, "
     "blue sky with white clouds. " + WSPOLNE,
-    "Węglanowe z magnezem · 3–6 mm", "Na gleby|lekkie", "Odkwasza i daje magnez"),
+    "Węglanowe z magnezem · 3–6 mm", "Na gleby|lekkie", "Stabilne i bezpieczne"),
 "weglanowe-odmiana-04": (
     "A very wide golden stubble field stretching to the horizon after harvest, sunny day, "
     "deep blue sky with white clouds. " + WSPOLNE,
@@ -92,11 +92,11 @@ SIATKI = {
 "kreda-nawozowa-sypka": (
     "A wide field of ripe golden cereal grain under a bright blue sky with white clouds, "
     "sunlit ears. " + WSPOLNE,
-    "Kreda nawozowa sypka", "Na pole|pod zboża", "Bez ryzyka poparzenia"),
+    "Kreda nawozowa sypka", "Na pole|pod zboża", "Lepsze plony"),
 "kreda-nawozowa-granulowana": (
     "A tidy small family farm field in spring, fresh green crop, white farm buildings in the "
     "distance, blue sky with white clouds. " + WSPOLNE,
-    "Kreda nawozowa granulowana · 3–6 mm", "Do rozsiewacza", "Big-bag od 1 tony"),
+    "Kreda nawozowa granulowana · 3–6 mm", "Do rozsiewacza", "Lepsze plony"),
 "kreda-pastewna": (
     "Interior of a bright modern dairy barn: black and white Holstein cows standing in a row "
     "at a concrete feed table, eating a fresh mixed ration of silage. Indoor scene, barn roof "
@@ -114,15 +114,15 @@ WARIANT_B = {
 "agrobielik-70-gleba": (
     "Close view of freshly ploughed heavy soil furrows glistening in the sun, green field "
     "margin and deep blue sky with clouds behind. " + WSPOLNE,
-    "Reaktywność blisko 100%"),
+    "Wzrost plonów do 20%"),
 "agrobielik-90": (
     "A dense field of ripe barley with heavy golden ears bending in the sun, deep blue sky. "
     + WSPOLNE,
-    "90% CaO w tonie"),
+    "Wzrost plonów do 20%"),
 "oxyfertil-90": (
     "Two white big bags of fertiliser standing at the edge of a sunny green field, farm "
     "buildings far in the background, blue sky with white clouds. " + WSPOLNE,
-    "Bez zamawiania 24 ton"),
+    "Wysoka reaktywność"),
 "weglanowe-granulowane": (
     "A field of young winter cereal in even green rows stretching to the horizon in spring "
     "sunshine, blue sky. " + WSPOLNE,
@@ -146,11 +146,11 @@ WARIANT_B = {
 "kreda-nawozowa-sypka": (
     "Close view of ripe golden wheat ears in bright sunlight with a blue sky behind. "
     + WSPOLNE,
-    "Działa łagodnie i długo"),
+    "Bezpieczne odkwaszanie"),
 "kreda-nawozowa-granulowana": (
     "A small tidy farm field bordered by fruit trees in blossom, white farmhouse in the "
     "background, sunny spring day, blue sky. " + WSPOLNE,
-    "Dla mniejszych gospodarstw"),
+    "Bezpieczne odkwaszanie"),
 "kreda-pastewna": (
     "White laying hens inside a bright clean poultry house with fresh feed in a long feeder, "
     "daylight coming through the windows, green fields visible outside. " + WSPOLNE,
