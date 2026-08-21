@@ -49,6 +49,9 @@ WSPOLNE = ("Bright sunny day, vivid saturated colours, deep blue sky with white 
            "No text, no logos, no people, no tools, no machinery in the foreground.")
 
 # siatka: (tło · nagłówek produktu · hasło „do czego” („|” łamie linię) · korzyść)
+# Każda siatka ma DWA warianty do rotacji: A i B. Hasło zostaje to samo — zastosowanie się
+# nie zmienia — różni się tło i korzyść, obie wzięte z `lead` w planie ogłoszeń, nie wymyślone.
+# Wariant B zapisuje się jako `agria-mini-<siatka>-b.jpg`.
 SIATKI = {
 "agrobielik-70-staw": (
     "A clear azure fishing pond with turquoise water reflecting the blue sky, green reeds "
@@ -103,6 +106,66 @@ SIATKI = {
 }
 
 
+WARIANT_B = {
+"agrobielik-70-staw": (
+    "A calm azure fish pond in spring seen from a low grassy bank, wooden footbridge over "
+    "turquoise water, green reeds, blue sky reflected in the surface. " + WSPOLNE,
+    "Podnosi pH wody"),
+"agrobielik-70-gleba": (
+    "Close view of freshly ploughed heavy soil furrows glistening in the sun, green field "
+    "margin and deep blue sky with clouds behind. " + WSPOLNE,
+    "Reaktywność blisko 100%"),
+"agrobielik-90": (
+    "A dense field of ripe barley with heavy golden ears bending in the sun, deep blue sky. "
+    + WSPOLNE,
+    "90% CaO w tonie"),
+"oxyfertil-90": (
+    "Two white big bags of fertiliser standing at the edge of a sunny green field, farm "
+    "buildings far in the background, blue sky with white clouds. " + WSPOLNE,
+    "Bez zamawiania 24 ton"),
+"weglanowe-granulowane": (
+    "A field of young winter cereal in even green rows stretching to the horizon in spring "
+    "sunshine, blue sky. " + WSPOLNE,
+    "Własnym rozsiewaczem"),
+"weglanowe-magnez-granulowane": (
+    "A light sandy field with a young green crop and visible pale sandy soil between rows, "
+    "sunny day, blue sky. " + WSPOLNE,
+    "Na braki magnezu"),
+"weglanowe-odmiana-04": (
+    "A huge ploughed field in autumn sunshine with long straight furrows running to the "
+    "horizon, dramatic blue sky with white clouds. " + WSPOLNE,
+    "Do planowego wapnowania"),
+"weglanowe-magnez-odmiana-04": (
+    "A wide sunny field of tall green maize under a deep blue sky with white clouds. "
+    + WSPOLNE,
+    "Bez ryzyka poparzenia"),
+"weglanowe-magnez-odmiana-05": (
+    "A vast green field of winter wheat in spring under a bright blue sky, gentle hills on "
+    "the horizon. " + WSPOLNE,
+    "Do dużych powierzchni"),
+"kreda-nawozowa-sypka": (
+    "Close view of ripe golden wheat ears in bright sunlight with a blue sky behind. "
+    + WSPOLNE,
+    "Działa łagodnie i długo"),
+"kreda-nawozowa-granulowana": (
+    "A small tidy farm field bordered by fruit trees in blossom, white farmhouse in the "
+    "background, sunny spring day, blue sky. " + WSPOLNE,
+    "Dla mniejszych gospodarstw"),
+"kreda-pastewna": (
+    "White laying hens inside a bright clean poultry house with fresh feed in a long feeder, "
+    "daylight coming through the windows, green fields visible outside. " + WSPOLNE,
+    "Kilka frakcji do wyboru"),
+}
+
+
+def wariant(siatka, b=False):
+    """Zwraca (tło, nagłówek, hasło, korzyść) dla wariantu A albo B."""
+    tlo, produkt, haslo, korzysc = SIATKI[siatka]
+    if b:
+        tlo, korzysc = WARIANT_B[siatka]
+    return tlo, produkt, haslo, korzysc
+
+
 def generuj(prompt, out_png):
     klucz = open(KLUCZ).read().strip()
     body = {"contents": [{"parts": [{"text": prompt}]}],
@@ -151,8 +214,8 @@ def _dopasuj(tekst, kolor, plik, cel, wg_szerokosci=True, start=110, lo=28, hi=1
     return _etykieta(tekst, r, kolor, plik)
 
 
-def podpisz(tlo_png, dst, siatka):
-    _, produkt, haslo, korzysc = SIATKI[siatka]
+def podpisz(tlo_png, dst, siatka, b=False):
+    _, produkt, haslo, korzysc = wariant(siatka, b)
     t = dst + ".t"
     sc, pk, pt_, lg, pp = (t + x for x in ("s.png", "k.png", "kt.png", "l.png", "p.png"))
     linie = haslo.split("|")
@@ -208,18 +271,19 @@ if __name__ == "__main__":
     tla = os.path.join(out, ".tla")
     os.makedirs(tla, exist_ok=True)
 
-    brak = [s for s in wybor if s in SIATKI and not os.path.exists(f"{tla}/{s}.png")]
+    zadania = [(s, b) for s in wybor if s in SIATKI for b in (False, True)]
+    brak = [(s, b) for s, b in zadania if not os.path.exists(f"{tla}/{s}{'-b' if b else ''}.png")]
     if brak:
         print(f"generuję {len(brak)} teł…")
         with ThreadPoolExecutor(max_workers=6) as ex:
-            for s, blad in zip(brak, ex.map(
-                    lambda s: generuj(SIATKI[s][0], f"{tla}/{s}.png"), brak)):
-                print(f"  {'BŁĄD ' + blad if blad else 'OK'}  {s}")
-    for s in wybor:
-        if s not in SIATKI:
-            print(f"  nieznana siatka: {s}"); continue
-        png = f"{tla}/{s}.png"
+            for (s, b), blad in zip(brak, ex.map(
+                    lambda sb: generuj(wariant(*sb)[0], f"{tla}/{sb[0]}{'-b' if sb[1] else ''}.png"),
+                    brak)):
+                print(f"  {'BŁĄD ' + blad if blad else 'OK'}  {s}{'-b' if b else ''}")
+    for s, b in zadania:
+        suf = "-b" if b else ""
+        png = f"{tla}/{s}{suf}.png"
         if not os.path.exists(png):
-            print(f"  pomijam {s} — brak tła"); continue
-        print(f"  agria-mini-{s}.jpg  {podpisz(png, f'{out}/agria-mini-{s}.jpg', s)}")
+            print(f"  pomijam {s}{suf} — brak tła"); continue
+        print(f"  agria-mini-{s}{suf}.jpg  {podpisz(png, f'{out}/agria-mini-{s}{suf}.jpg', s, b)}")
     print(f"→ {out}")
