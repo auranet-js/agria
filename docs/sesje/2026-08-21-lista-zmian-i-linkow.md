@@ -8,7 +8,7 @@
 
 | URL | Co zmienione | Zadanie |
 |---|---|---|
-| `https://agria.pl/wapnowanie-gleby/` | `rank_math_title`, `rank_math_description` | T-053 |
+| https://agria.pl/wapnowanie-gleby/ | `rank_math_title`, `rank_math_description` | T-053 |
 | `https://agria.pl/ile-wapna-granulowanego-na-ha/` | `rank_math_title` (61 → 55 zn.), `rank_math_description` | T-053 |
 | `https://agria.pl/jak-stosowac-wapno-nawozowe/` | meta, `focus_keyword`, **`post_title`**, **treść: terminarz IUNG** (tabela terminów, grupy upraw, ziemniaki/parch, lucerna, podział dawki) | T-053 + T-055 |
 | `https://agria.pl/kalkulator-wapnowania/` | `rank_math_title` (usunięte dublowanie frazy z hubem), `rank_math_description` | T-053 |
@@ -35,27 +35,50 @@ i w widgecie hero strony głównej (ID 321). **Przed: zero H1. Po: dokładnie je
 | `https://agria.pl/jak-murowac-klinkier/` | Jak murować z cegły klinkierowej – zasady bez wykwitów |
 | `https://agria.pl/tynki-rodzaje-kategorie/` | Tynki – rodzaje, kategorie i zasady wykonania |
 
-## C. Adresy z nowym paskiem kontaktu na telefonie — 27
+## C. Adresy z nowym paskiem kontaktu na telefonie — 24
 
 Moduł `modules/call-bar/` renderuje pasek wyłącznie przy `pointer:coarse` i szerokości ≤1024 px.
-Treść stron nietknięta.
+Treść tych stron nietknięta.
 
-**19 kart produktów:**
+**19 kart produktów**
 
-`/kreda-malarska/kreda-malarska/` · `/paszarstwo/kreda-pastewna/` · `/wapno-do-oczyszczalni/wapno-palone-mielone/` ·
-`/wapno-hydratyzowane/bielik/` · `/wapno-nawozowe-rolnictwo/` + `agrobielik-70` · `agrobielik-90` · `dolomit` ·
-`kreda-czarna-jeziorna` · `kreda-nawozowa-granulowana` · `kreda-nawozowa-sypka` · `mieszanka-tlenkowo-weglanowa` ·
-`oxyfertil-90` · `wapno-tlenkowe-magnez` · `weglanowe-granulowane` · `weglanowe-magnez-granulowane` ·
-`weglanowe-magnez-odmiana-04` · `weglanowe-magnez-odmiana-05` · `weglanowe-odmiana-04` · `weglanowe-odmiana-05`
+https://agria.pl/kreda-malarska/kreda-malarska/
+https://agria.pl/paszarstwo/kreda-pastewna/
+https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone/
+https://agria.pl/wapno-hydratyzowane/bielik/
+https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-70/
+https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-90/
+https://agria.pl/wapno-nawozowe-rolnictwo/dolomit/
+https://agria.pl/wapno-nawozowe-rolnictwo/kreda-czarna-jeziorna/
+https://agria.pl/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/
+https://agria.pl/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/
+https://agria.pl/wapno-nawozowe-rolnictwo/mieszanka-tlenkowo-weglanowa/
+https://agria.pl/wapno-nawozowe-rolnictwo/oxyfertil-90/
+https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/
+https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/
+https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/
+https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-04/
+https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/
+https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/
+https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-05/
 
-**6 kategorii:** `/wapno-nawozowe-rolnictwo/` · `/paszarstwo/` · `/wapno-do-oczyszczalni/` ·
-`/wapno-hydratyzowane/` · `/kreda-malarska/` · `/wapno-do-stawow/` *(pusta)* · `/wapno-do-sadu/` *(pusta)* ·
-`/wapno-nawozowe-hurt/` *(pusta)*
+**5 kategorii** (te, które faktycznie odpowiadają treścią)
 
-**2 landingi:** `/wapno-granulowane/` · `/wapno-nawozowe/`
+https://agria.pl/wapno-nawozowe-rolnictwo/
+https://agria.pl/paszarstwo/
+https://agria.pl/wapno-do-oczyszczalni/
+https://agria.pl/wapno-hydratyzowane/
+https://agria.pl/kreda-malarska/
 
-**Świadomie BEZ paska:** strona główna, `/wapnowanie-gleby/`, `/kontakt/`, `/poradniki/` i pozostałe strony
-statyczne — zweryfikowane, że pasek się tam nie pojawia.
+**Korekta wobec pierwszej wersji tej listy:** `/wapno-do-stawow/`, `/wapno-do-sadu/`
+i `/wapno-nawozowe-hurt/` **nie należą tutaj** — te trzy puste kategorie odpowiadają **301**
+(przekierowanie z lipca na `/oferta/`), więc pasek się na nich nie renderuje. Sprawdzone `curl` 21.08.
+To są dokładnie te trzy kategorie, które T-056 i T-057 mają wypełnić treścią i produktami.
+
+**2 landingi** — wymienione w sekcji A.
+
+**Świadomie BEZ paska:** strona główna, https://agria.pl/wapnowanie-gleby/, https://agria.pl/kontakt/,
+https://agria.pl/poradniki/ i pozostałe strony statyczne — zweryfikowane, że pasek się tam nie pojawia.
 
 ## D. Pliki i rekordy na produkcji
 
