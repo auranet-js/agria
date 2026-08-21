@@ -72,7 +72,7 @@ SIATKI = {
 "weglanowe-granulowane": (
     "A field of rapeseed in full yellow bloom under a bright blue sky, vivid yellow flowers "
     "to the horizon. " + WSPOLNE,
-    "Węglanowe granulowane · 3–6 mm", "Bez usługi|wapnowania", "Stabilne i bezpieczne"),
+    "Węglanowe granulowane · 3–6 mm", "Bez pylenia", "Stabilne i bezpieczne"),
 "weglanowe-magnez-granulowane": (
     "A bright green field of young cereal shoots in neat rows in spring, fresh vivid green, "
     "blue sky with white clouds. " + WSPOLNE,
@@ -126,7 +126,7 @@ WARIANT_B = {
 "weglanowe-granulowane": (
     "A field of young winter cereal in even green rows stretching to the horizon in spring "
     "sunshine, blue sky. " + WSPOLNE,
-    "Bez pylenia"),
+    "Łagodne działanie"),
 "weglanowe-magnez-granulowane": (
     "A light sandy field with a young green crop and visible pale sandy soil between rows, "
     "sunny day, blue sky. " + WSPOLNE,
