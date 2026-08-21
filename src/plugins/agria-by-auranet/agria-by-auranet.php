@@ -53,6 +53,7 @@ function agria_load_modules(): void {
         'liming-calculator',
         'inquiry-form',
         'call-bar',
+        'plain-content-layout',
         // 'product-table',
         // 'calculators',
     ];
