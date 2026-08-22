@@ -40,11 +40,17 @@ drogowego). Decyzja Janka 15.06 — memory `project_agria_catalog_decisions`. Dr
 
 | Osoba | Rola | Jak się z nim pracuje | Źródło |
 |---|---|---|---|
-| **Paweł Bigos** | główny kontakt operacyjny, akceptuje zmiany na stronie, przysyła cenniki i materiały | **telefon Janka, nie mail.** Nie pisać draftów z frameworkami klasyfikacji (A/B/C/D) — agencyjna formalizacja jest nieadekwatna. Tel. **664 393 062** | memory `feedback_agria_pawel_relacja_telefoniczna`; numery z maila 01.07 |
-| **Kazimierz Nowak** | strona merytoryczna — dane do kalkulatora, treści ogłoszeń OLX | mail + telefon. Tel. **781 875 411** (Radgoszcz) | mail 18.08 (kalkulator, poprawki OLX) |
+| **Paweł Bigos** | **syn właściciela.** Główny kontakt operacyjny, akceptuje zmiany na stronie, przysyła cenniki i materiały | **telefon Janka, nie mail.** Nie pisać draftów z frameworkami klasyfikacji (A/B/C/D) — agencyjna formalizacja jest nieadekwatna. Tel. **664 393 062** | memory `feedback_agria_pawel_relacja_telefoniczna`; numery z maila 01.07; rola — ustalenie Janka 22.08 |
+| **Bogdan** | **prezes zarządu.** Nazwisko nieustalone | — | ustalenie Janka 22.08 |
+| **Kazimierz Nowak** | **specjalista ds. nawozów.** Strona merytoryczna — dane do kalkulatora, treści ogłoszeń OLX | mail + telefon. Tel. **781 875 411** (Radgoszcz) | mail 18.08 (kalkulator, poprawki OLX); rola — ustalenie Janka 22.08 |
 | **Kasjan** | decyzja o budżecie — to z nim Paweł konsultował akcept oferty | nie kontaktujemy się bezpośrednio | akcept oferty 27.05 |
 | **P. Stanisław** | odszedł z działu sprzedaży; miał kontakt do starego operatora wizytówek Google | — | T-006, diagnoza GBP 01.07 |
-| Bogdan, Joanna, Małgorzata | Dział sprzedaży / Biuro Sprzedaży — **skład niepotwierdzony** | — | T-006, blokada od 65 dni |
+| Joanna, Małgorzata | Biuro Sprzedaży — **rola niepotwierdzona**, poza działem handlowym | — | T-006 |
+
+**Dział handlowy to trzy osoby: Bogdan, Paweł i Kazimierz** (ustalenie Janka 22.08.2026).
+Ta trójka — i nikt poza nią — jest użytkownikiem ofertownika. Wcześniejszy zapis „Bogdan, Joanna,
+Małgorzata — skład niepotwierdzony" figurował tu jako blokada od 65 dni; **jest zdjęta**.
+Nie dopytujemy Pawła o skład — patrz T-006 w rejestrze, decyzja Janka 20.08.
 
 **Numery na stronie:** Tarnów `604 428 782`, Niedomice `664 393 062` (Paweł), Radgoszcz `781 875 411` (Kazimierz).
 Numer `660 768 691` **usunięty całkowicie** (osoba na L4) — mail Pawła 01.07.
@@ -206,7 +212,10 @@ Kolejność wg tego, co blokują. Pozycje rejestru w nawiasach.
 1. **Czy AGRIA jest autoryzowanym dystrybutorem Nordkalku?** *(blokuje T-040)*
    Licytować na cudzy znak towarowy wolno w Google Ads zawsze; **użyć nazwy „Nordkalk" w treści reklamy
    wolno tylko odsprzedawcy.** Sprawdzone 19.08: odpowiedzi nie ma nigdzie w repo ani w memory. Nie zgadywać.
-2. **Aktualny skład działu sprzedaży** — imiona, role, telefony, obsługiwane segmenty. *(blokuje T-006, 65 dni)*
+2. ~~**Aktualny skład działu sprzedaży**~~ — **pytanie wypada z listy.** Dwiema decyzjami:
+   T-006 zdjęte z kolejki 20.08 („nie dopytywać Pawła o skład działu"), a 22.08 Janek podał skład
+   działu handlowego — Bogdan, Paweł, Kazimierz (§2). Role Joanny i Małgorzaty pozostają nieznane,
+   ale nic od nich nie zależy.
 3. **Czy budownictwo i drogownictwo to realne segmenty sprzedaży?** *(wpływa na zakres treści i `/oferta/`)*
 4. **Ceny dla czterech brakujących kart** — Dolomit (302), Kreda czarna (303), Tlenkowe z Mg (313),
    Węglanowe odm. 05 (316). Dolomit priorytetowo: 6 600 wyszukań/mies. *(rozszerza T-010)*

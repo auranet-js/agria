@@ -29,8 +29,21 @@ Skutki, które z tego wynikają:
 
 Narzędzie ma zamienić to w jeden ekran, który odpowiada w trakcie rozmowy.
 
-**Użytkownik:** handlowiec AGRII przy telefonie. Kilku–kilkunastu wycen dziennie.
-Nie sklep internetowy, nie samoobsługa dla rolnika — narzędzie wewnętrzne.
+**Użytkownik: trzy osoby** (ustalenie Janka 22.08.2026) — **Bogdan** (prezes zarządu),
+**Paweł** (syn właściciela) i **Kazimierz** (specjalista ds. nawozów). To cały dział handlowy AGRII
+i cała lista kont, jakie powstaną. Nie sklep internetowy, nie samoobsługa dla rolnika — narzędzie wewnętrzne.
+
+Trzy rzeczy z tego wynikają:
+
+- **nie ma podziału na widoczność ofert** — przy trzech osobach, z których jedna jest prezesem,
+  wszyscy widzą wszystko. Jedyne rozróżnienie uprawnień, które ma sens: kto może zmieniać cennik;
+- **kont jest dziś dwa z trzech** — `pb` (Paweł) i `kn` (Kazimierz) istnieją, Bogdan konta nie ma;
+- **ekran musi znieść użytkownika okazjonalnego.** Prezes zarządu nie siedzi przy słuchawce cały dzień —
+  otworzy narzędzie raz na jakiś czas i musi od razu wiedzieć, co zrobić, bez odtwarzania w głowie
+  czegokolwiek z poprzedniego razu. Zero skrótów klawiszowych jako jedynej drogi, zero stanu do zapamiętania.
+
+Wolumen szacujemy na kilka wycen dziennie — przy trzech osobach, z których dwie mają inne obowiązki,
+górna granica z pierwszej wersji tej specyfikacji („kilkanaście") była zawyżona.
 
 ---
 
@@ -166,6 +179,8 @@ może zejść niżej, ale widzi, że schodzi poniżej podłogi. Nie blokada — 
 z cenami do wpisania w miejscu, filtrowana po produkcie i zakładzie. Panel wariantów
 WooCommerce przy stu pozycjach jest nie do przejścia.
 
+**Ten ekran obsługuje AGRIA, nie Auranet** (decyzja Janka 22.08.2026) — patrz 4.7.
+
 ### 4.1a. Skąd bierzemy cennik startowy
 
 Nie z pytania do AGRII — z **`docs/operations/CENNIK_PAWEL_2026-08-07.md`**, czyli cennika,
@@ -206,6 +221,9 @@ Kurier ma jedną stawkę krajową i bierze paletę niezależnie od masy, także 
 handlowiec poprawia nadpisując kwotę w ofercie; nie ma dla nich reguł w kodzie.
 
 Ładowność 24 t domyślnie dla każdej metody, edytowalna osobno per metoda.
+
+**Wszystkie liczby z tej tabeli to wartości startowe, które AGRIA nadpisuje w module ustawień** (4.7).
+Nie są ustaleniem z klientem i nigdy nim nie były — patrz 9.
 
 **Paleta to jednostka miejsca na aucie, nie miary towaru.** Już dwa worki po 25 kg
 albo jeden 40-kilogramowy zajmują całą paletę — nie da się jej wypełnić w połowie
@@ -261,6 +279,31 @@ zespołu i grozi wysyłką na fikcyjny adres. CPT nie ma tych ograniczeń: ident
 jest telefon albo NIP, e-mail opcjonalny.
 
 Tworzony automatycznie przy pierwszej ofercie, dopasowywany po numerze telefonu i NIP.
+
+### 4.7. Moduł ustawień — dane prowadzi AGRIA
+
+**Decyzja Janka 22.08.2026.** Wszystkie liczby, na których opiera się wycena, edytuje klient
+w jednym module ustawień: ceny towaru w rozbiciu na produkt, odmianę i zakład (ekran z 4.1),
+stawki transportu i ładowności (4.3), pojemność palety per forma dostawy, ceny minimalne.
+My wgrywamy wartości startowe — cennik z 07.08 i stawki z 4.3 — i od tego momentu to ich dane.
+
+**To zdejmuje z projektu całą warstwę czekania na odpowiedzi.** Stawki 5,50 / 4,80 / 4,20
+przestają być faktem do potwierdzenia u Pawła, a stają się wartością domyślną do nadpisania.
+Cztery karty bez ceny przestają blokować cokolwiek. „Ile worków wchodzi na paletę" —
+przez cały sierpień jedyne pytanie, które rozpiska wymieniała wprost — jest odtąd polem w ustawieniach.
+Praca przenosi się z wyciągania danych telefonem na napisanie ekranu, czyli z terminu,
+na który nie mamy wpływu, na taki, na który mamy.
+
+**Dochodzi jednak obowiązek, którego przy naszej edycji nie było: ochrona przed pomyłką.**
+Wpisane 57 zamiast 570 daje wycenę dziesięciokrotnie za tanią, a narzędzie nie ma tego z czym porównać —
+błąd wyjdzie dopiero przy fakturze. Minimum, bez którego moduł nie może trafić do klienta:
+
+- **ostrzeżenie przy zmianie o rząd wielkości** względem poprzedniej wartości (nie blokada — ostrzeżenie,
+  tak samo jak przy podłodze cenowej);
+- **kto i kiedy zmienił** każdą wartość, widoczne przy niej;
+- **powrót do poprzedniej wartości** jednym kliknięciem.
+
+Uprawnienie do edycji ustawień jest jedynym rozróżnieniem ról w całym narzędziu (rozdz. 1).
 
 ---
 
@@ -401,9 +444,10 @@ miejsce zapisu.
 
 ## 8. Etapy
 
-**Etap 1 — wycena.** Sprzątnięte atrybuty, warianty z cenami, ekran edycji cennika,
-zakłady ze współrzędnymi, stawki transportu, Google Places i Routes, ekran wyceny,
-zapis oferty, PDF. Po tym etapie handlowiec przestaje liczyć na kartce.
+**Etap 1 — wycena.** Sprzątnięte atrybuty, warianty z cenami, **moduł ustawień dla AGRII** (4.7),
+zakłady ze współrzędnymi, stawki transportu, podpowiadanie miejscowości i odległości drogowe,
+ekran wyceny, zapis oferty, PDF. Po tym etapie handlowiec przestaje liczyć na kartce,
+a AGRIA prowadzi swoje ceny sama.
 
 **Etap 2 — obraz sprzedaży.** GUS po NIP, karta klienta z historią, źródło kontaktu,
 statystyka kanałów i rabatów (rozdz. 4.5). Po tym etapie Paweł widzi, który kanał sprzedaje.
@@ -416,13 +460,19 @@ do klienta.
 
 ## 9. Założenia i pozycje otwarte
 
-**Przyjęte, do potwierdzenia u Pawła:**
+**Wartości startowe — nasze, nie klienta, do nadpisania w module ustawień (4.7):**
 
 - ładowność 24 t dla każdej z trzech metod liczonych za kilometr (edytowalna osobno);
 - naczepa 5,50 zł/km w jedną stronę; beczka 4,80 i wanna 4,20 z dwóch stron;
 - „palety 25, 40" z notatki telefonicznej to gramatury worków (25 i 40 kg) układanych
   na palecie — zgodnie z wartościami `Worek 25 kg` i `Worek 40 kg` w atrybutach.
-  **Ile worków wchodzi na paletę i ile ton ona waży — nieustalone.**
+  Ile worków wchodzi na paletę i ile ton ona waży — **pole w ustawieniach, nie pytanie do Pawła**
+  (do 22.08 była to jedyna pozycja wymieniana wprost w rozpiskach jako blokująca).
+
+**Uwaga do rozpiski dla AGRII:** dokument `docs/offers/OFERTOWNIK_ROZPISKA_2026-08-18.html` mówi
+„stawki przewozu też mamy od Was", co nigdy nie było prawdą — cennik Pawła z 07.08 dotyczy wyłącznie
+towaru, loco magazyn. Zdanie do przepisania przed przekazaniem, teraz już na korzyść:
+**stawki i ceny wpisuje AGRIA w module ustawień, my dajemy punkt wyjścia.**
 
 **Rozstrzygnięte 18.08.2026 (było otwarte):**
 
@@ -433,9 +483,14 @@ do klienta.
 - **przewóz małych ilości** — rozwiązany kurierem paletowym po 120 zł za paletę,
   wybieranym automatycznie tam, gdzie wychodzi taniej od naczepy (4.3, 5.3).
 
+**Rozstrzygnięte 22.08.2026 (było otwarte):**
+
+- **kto aktualizuje cennik — AGRIA**, przez moduł ustawień (4.7). Wraz z tym: stawki transportu,
+  ładowności, pojemność palety i ceny minimalne. My wgrywamy wartości startowe i nic więcej;
+- **kto z tego korzysta — trzy osoby imiennie** (rozdz. 1), nie „kilkunastu handlowców".
+
 **Otwarte, niepilne:**
 
-- kto aktualizuje cennik — Paweł przez ekran edycji czy Auranet przy zmianach;
 - czy klient dostaje wycenę na piśmie, czy handlowiec podaje cenę wyłącznie ustnie,
   a zapis służy tylko AGRII.
 
