@@ -66,3 +66,46 @@ if ( ! function_exists( 'agria_redirect_legacy_product_base' ) ) {
 	}
 	add_action( 'template_redirect', 'agria_redirect_legacy_product_base', 1 );
 }
+
+if ( ! function_exists( 'agria_redirect_wycofane_wpisy' ) ) {
+	/**
+	 * 301 dla wpisow wycofanych po scaleniu tresci (T-026, 2026-08-24).
+	 *
+	 * Poradnik /ile-wapna-granulowanego-na-ha/ dublowal hub /wapnowanie-gleby/:
+	 * hub trzyma fraze tytulowa poradnika na pozycji 7,5 przy 1 491 wyswietleniach
+	 * w 90 dniach, a poradnik ma w tym samym okresie 0 wyswietlen i status
+	 * "URL is unknown" w GSC — Google wybral hub i nigdy poradnika nie pobral.
+	 * Unikalne fragmenty (dawka regeneracyjna vs podtrzymujaca, zestawienie
+	 * granulat/sypkie/tlenkowe, dwa pytania FAQ) przeniesione do huba tego
+	 * samego dnia; wpis zszedl do szkicu, wiec wypada z sitemapy.
+	 *
+	 * Hook lapie sciezke z zadania, nie stan wpisu — dziala tez wtedy, gdy wpis
+	 * jest szkicem i WordPress oddalby 404.
+	 */
+	function agria_redirect_wycofane_wpisy(): void {
+		if ( is_admin() || wp_doing_ajax() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) ) {
+			return;
+		}
+		if ( ! in_array( $_SERVER['REQUEST_METHOD'] ?? 'GET', array( 'GET', 'HEAD' ), true ) ) {
+			return;
+		}
+
+		$mapa = array(
+			'/ile-wapna-granulowanego-na-ha/' => '/wapnowanie-gleby/',
+		);
+
+		$uri = wp_parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
+		if ( ! is_string( $uri ) ) {
+			return;
+		}
+		$uri = trailingslashit( $uri );
+
+		if ( ! isset( $mapa[ $uri ] ) ) {
+			return;
+		}
+
+		wp_safe_redirect( home_url( $mapa[ $uri ] ), 301, 'Agria wycofany wpis' );
+		exit;
+	}
+	add_action( 'template_redirect', 'agria_redirect_wycofane_wpisy', 1 );
+}
