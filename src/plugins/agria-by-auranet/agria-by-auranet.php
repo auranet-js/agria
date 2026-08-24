@@ -54,7 +54,6 @@ function agria_load_modules(): void {
         'inquiry-form',
         'call-bar',
         'plain-content-layout',
-        'consent-passthrough',
         // 'product-table',
         // 'calculators',
     ];
