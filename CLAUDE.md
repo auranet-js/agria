@@ -84,7 +84,12 @@ Spec: `docs/technical/MCP_TOOLS.md` (opisuje jeszcze stan read-only).
 5. **`_price` puste we wszystkich 19 produktach to DECYZJA, nie brak.** Tryb katalogu. Ceny mają
    **dwie niezależne warstwy** (treść SEO vs ofertownik) — `docs/FAKTY_KLIENTA.md` §7 i ADR
    `docs/decyzje/2026-08-19-dwie-warstwy-cen.md`. **Nie ustawiaj `_price` ani wariantów pod publikację.**
-6. **Landingi buduj z gotowego wzorca** — obejrzyj działającą stronę przez Chrome MCP i powiel strukturę.
+6. **Warstwa zgód mieszka w trzech miejscach naraz**: panel Complianza, szablon, którego wtyczka
+   realnie używa (`templates/statistics/` — przy integracji przez GTM to `google-tag-manager-consent-mode.js`),
+   i **kontener GTM**. `url_passthrough` oraz `ads_data_redaction` siedzą **w kontenerze**, więc
+   **nie widać ich w źródle strony** — zero trafień w HTML nie znaczy „nie ma". Sprawdzaj kontener
+   przez API, zanim uznasz coś za brakujące.
+7. **Landingi buduj z gotowego wzorca** — obejrzyj działającą stronę przez Chrome MCP i powiel strukturę.
    Surowy HTML w `post_content` renderuje się bez layoutu (`/wapno-granulowane/` stał pusty tydzień
    z reklamami wycelowanymi na niego).
 
@@ -98,6 +103,10 @@ Spec: `docs/technical/MCP_TOOLS.md` (opisuje jeszcze stan read-only).
 - Zgłaszać URL-e do **Google Indexing API** inaczej niż przez `~/bin/index-submit` (wspólna pula 200/dobę
   na wszystkie projekty, globalny CLAUDE.md §10a).
 - Modyfikować `.htaccess` — pokaż diff, czekaj na „ok".
+- **Dokładać kod do warstwy zgód.** Complianz, Consent Mode, baner i sygnały (`url_passthrough`,
+  `ads_data_redaction`, `wait_for_update`) zmieniamy **wyłącznie ustawieniami** — panelem wtyczki
+  albo kontenerem GTM. Gdy ustawienia nie potrafią, **wracasz z pytaniem**, nie piszesz modułu.
+  Zasada z T-062; incydent 24.08 opisany w memory `feedback_agria_complianz_ustawieniami_zero_kodu`.
 - Wysyłać cokolwiek do klienta. **Wszystko przez Janka na `js@auranet.com.pl`**, kanał `~/bin/send-to-jan`.
 - Publikować cen ofertownika w jakiejkolwiek formie (front, REST, feed, schema).
 
