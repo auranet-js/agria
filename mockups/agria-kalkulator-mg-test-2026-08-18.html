@@ -65,7 +65,7 @@ table.mg-tbl td.num { text-align: right; white-space: nowrap; }
 </head>
 <body>
 
-<div class="test-banner">⚠ WERSJA TESTOWA (18.08.2026) — mockup rozszerzenia o magnez. Nie jest podpięta do agria.pl. Logika CaO odwzorowana 1:1 z produkcji (IUNG-PIB).</div>
+<div class="test-banner">⚠ WERSJA TESTOWA (18.08.2026, aktualizacja 24.08) — mockup rozszerzenia o magnez. Od 24.08: gdy nie zaznaczysz „Znam zawartość magnezu”, tabela doboru pokazuje wyłącznie wapno bez magnezu. Nie jest podpięta do agria.pl. Logika CaO odwzorowana 1:1 z produkcji (IUNG-PIB).</div>
 
 <div id="agria-liming-calc" class="agria-calc">
 
@@ -495,18 +495,18 @@ var CAO_PRODUCTS = [
     { name: 'Wapno nawozowe tlenkowe Agrobielik 90', cao: 90, type: 'tlenkowe' },
     { name: 'Wapno nawozowe tlenkowe Oxyfertil 90', cao: 90, type: 'tlenkowe' },
     { name: 'Wapno nawozowe tlenkowe Agrobielik 70', cao: 70, type: 'tlenkowe' },
-    { name: 'Wapno nawozowe tlenkowe zawierające magnez', cao: 70, type: 'tlenkowe' },
+    { name: 'Wapno nawozowe tlenkowe zawierające magnez', cao: 70, type: 'tlenkowe', mg: true },
     { name: 'Mieszanka tlenkowo-węglanowa', cao: 70, type: 'mieszanka' },
     { name: 'Kreda nawozowa granulowana', cao: 50, type: 'weglanowe' },
     { name: 'Kreda nawozowa sypka', cao: 50, type: 'weglanowe' },
     { name: 'Wapno nawozowe węglanowe bez magnezu granulowane', cao: 50, type: 'weglanowe' },
     { name: 'Wapno nawozowe węglanowe bez magnezu — Odmiana 04', cao: 50, type: 'weglanowe' },
-    { name: 'Dolomit', cao: 45, type: 'weglanowe' },
+    { name: 'Dolomit', cao: 45, type: 'weglanowe', mg: true },
     { name: 'Kreda czarna (jeziorna) z kwasami humusowymi', cao: 44, type: 'weglanowe' },
-    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 04', cao: 41, type: 'weglanowe' },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 04', cao: 41, type: 'weglanowe', mg: true },
     { name: 'Wapno nawozowe węglanowe bez magnezu — Odmiana 05', cao: 40, type: 'weglanowe' },
-    { name: 'Wapno nawozowe węglanowe zawierające magnez granulowane', cao: 31, type: 'weglanowe' },
-    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 05', cao: 25, type: 'weglanowe' }
+    { name: 'Wapno nawozowe węglanowe zawierające magnez granulowane', cao: 31, type: 'weglanowe', mg: true },
+    { name: 'Wapno nawozowe węglanowe zawierające magnez — Odmiana 05', cao: 25, type: 'weglanowe', mg: true }
 ];
 var TYPE_LABELS = { tlenkowe: 'Wapno tlenkowe (szybkie działanie)', mieszanka: 'Mieszanka tlenkowo-węglanowa', weglanowe: 'Wapno węglanowe (działanie długotrwałe)' };
 
@@ -514,7 +514,9 @@ function renderCaOProducts(caoDose, area) {
     var tbl = $('agria-cao-products-tbl');
     // sortowanie jak w produkcji: tlenkowe → mieszanka → węglanowe, wewnątrz rosnąco wg dawki
     var order = { tlenkowe: 1, mieszanka: 2, weglanowe: 3 };
-    var rows = CAO_PRODUCTS.map(function (p) {
+    // gdy rolnik nie zadeklarowal zawartosci Mg — nie proponujemy nawozow magnezowych
+    var mgDeclared = mgEnable.checked && mgInput.value !== '';
+    var rows = CAO_PRODUCTS.filter(function (p) { return mgDeclared || !p.mg; }).map(function (p) {
         return { p: p, dose: caoDose[0] / (p.cao / 100), d1: caoDose[1] / (p.cao / 100), d2: caoDose[2] > 0 ? caoDose[2] / (p.cao / 100) : 0 };
     }).sort(function (x, y) {
         return (order[x.p.type] - order[y.p.type]) || (x.dose - y.dose);
