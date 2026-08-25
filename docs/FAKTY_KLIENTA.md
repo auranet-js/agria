@@ -76,7 +76,7 @@ Producent z taksonomii `pa_agria-producent` (MCP, 19.08). Ceny netto **za towar,
 | 318 | AGR-009 | Węglanowe z Mg — odm. 04 | Kopalnia Jażwica (Industria) | 50 | — | — |
 | 319 | AGR-010 | Węglanowe z Mg — odm. 05 | Kopalnia Laskowa + Winna (Industria) | 36 | — | — |
 | 317 | AGR-011 | Węglanowe z Mg granulowane | **Grankal** | — | 370 | 25 kg → 410 zł/t |
-| 302 | AGR-012 | Dolomit | **Siarkopol** | brak ceny | brak ceny | — |
+| 302 | AGR-012 | Dolomit | **Siarkopol** | **od 260** (0,1–0,4 i 0,4–0,8 mm) · **280** (1–3 mm) | ⚠️ forma niepodana | — |
 | 305 | AGR-013 | Kreda nawozowa granulowana | KZK Kornica | — | 410 | 25 kg → 490 zł/t |
 | 306 | AGR-014 | Kreda nawozowa sypka | Kopalnia Drugnia | 125 | — | — |
 | 307 | AGR-015 | Kreda pastewna | Celiny (Hochel) + Lhoist | 190 | — | 30 kg → 610 zł/t |
@@ -85,15 +85,35 @@ Producent z taksonomii `pa_agria-producent` (MCP, 19.08). Ceny netto **za towar,
 | 309 | AGR-018 | Wapno hydratyzowane Bielik | **Nordkalk** | 945 | — | 25 kg → 1 220 zł/t |
 | 303 | — | Kreda czarna jeziorna | **Grankal** | brak ceny | brak ceny | — |
 
-**Pokrycie cenowe: 15 z 19.** Bez ceny: 302 Dolomit, 303 Kreda czarna, 313 Tlenkowe z Mg, 316 Węglanowe odm. 05.
-Dolomit boli najbardziej — fraza „dolomit" to **6 600 wyszukań/mies.**, największy wolumen w projekcie.
+**Pokrycie cenowe: 16 z 19** (od 24.08). Bez ceny zostają trzy: **303** Kreda czarna, **313** Tlenkowe z Mg,
+**316** Węglanowe odm. 05.
+
+**Dolomit — ceny otrzymane 2026-08-24** (przekazane przez Janka): **od 260 zł/t netto** dla frakcji
+0,1–0,4 mm i 0,4–0,8 mm, **280 zł/t netto** dla frakcji 1–3 mm.
+⚠️ **Do dopytania przed wpisaniem na kartę: której formy dostawy dotyczą te kwoty** (luz 24 t,
+big-bag, worki). Reguła z 19.08 wymaga, żeby cena wiodąca **zawsze** niosła swój warunek dostawy —
+samo „od 260 zł/t" czyta się tak, jakby dotyczyło worka. Bez tej informacji karty nie uzupełniamy.
+
+⚠️ **Korekta wobec wcześniejszego zapisu „Dolomit boli najbardziej — 6 600 wyszukań/mies.".**
+Wolumen jest prawdziwy (pomiar 24.08: 6 600/mies., szczyt III 9 900), ale **nie jest adresowalny kartą
+produktu**. SERP na „dolomit" (DataForSEO, PL/pl, 24.08): Wikipedia #1 (minerał), dalej treść ogrodnicza
+(target.com.pl, dlaroslin.pl), kruszywo Holcim, sklepy detaliczne z paczkami 10–25 kg, YouTube
+i **suplement diety w tabletkach**. Intencja jest rozszczepiona. Adresowalna jest wąska część klastra:
+`dolomit nawóz`, `wapno dolomitowe`. Karta #302 ma dodatkowo werdykt GSC **„Discovered — currently
+not indexed"** i **zero wyświetleń w 90 dniach** — cena sama tego nie odblokuje.
 
 **Anomalie cenowe do potwierdzenia** (mogą być poprawne — różne złoża i przemiał): węglanowe z Mg odm. 05
 (36 zł/t) taniej niż odm. 04 z magnezem (50) i bez magnezu (57); kreda nawozowa sypka (125) ponad
 dwukrotnie drożej od węglanowego bez magnezu (57), a chemicznie oba to węglan wapnia.
 
-**Stan na stronie (MCP, 19.08): żaden z 19 produktów nie ma ceny** — `_price` puste w 19/19,
-słowo „cena” w treści w 0/19. Patrz `REJESTR_ZOBOWIAZAN.md` → T-010.
+**Stan na stronie (zweryfikowany renderem per URL, 24.08): 15 z 19 kart ma na froncie kwotę
+`zł/t netto`** — wdrożone 19.08 w ramach T-010/T-011. Bez kwoty zostają cztery: 302 Dolomit
+(ceny są od 24.08, czekają na formę dostawy), 303 Kreda czarna, 313 Tlenkowe z Mg, 316 Węglanowe odm. 05.
+
+**`_price` w WooCommerce jest puste w 19/19 i takie ma zostać** — tryb katalogu, ADR
+`docs/decyzje/2026-08-19-dwie-warstwy-cen.md`. Store API zwraca `"price":"0"`, schema `Product`
+emituje **zero `offers`** (zmierzone 24.08 na wszystkich 19 kartach — pozycja T-097 w rejestrze).
+Patrz `REJESTR_ZOBOWIAZAN.md` → T-010, T-097.
 
 ---
 
@@ -217,8 +237,11 @@ Kolejność wg tego, co blokują. Pozycje rejestru w nawiasach.
    działu handlowego — Bogdan, Paweł, Kazimierz (§2). Role Joanny i Małgorzaty pozostają nieznane,
    ale nic od nich nie zależy.
 3. **Czy budownictwo i drogownictwo to realne segmenty sprzedaży?** *(wpływa na zakres treści i `/oferta/`)*
-4. **Ceny dla czterech brakujących kart** — Dolomit (302), Kreda czarna (303), Tlenkowe z Mg (313),
-   Węglanowe odm. 05 (316). Dolomit priorytetowo: 6 600 wyszukań/mies. *(rozszerza T-010)*
+4. **Ceny dla trzech brakujących kart** — Kreda czarna (303), Tlenkowe z Mg (313), Węglanowe odm. 05 (316).
+   ~~Dolomit (302)~~ — **ceny przyszły 24.08** (§3). *(rozszerza T-010)*
+4a. **Której formy dostawy dotyczą ceny Dolomitu** (od 260 zł/t dla 0,1–0,4 i 0,4–0,8 mm, 280 zł/t dla 1–3 mm) —
+   luz 24 t, big-bag czy worki? **Bez tej odpowiedzi kwota nie wchodzi na kartę**, bo cena wiodąca musi
+   nieść swój warunek dostawy. *(blokuje uzupełnienie T-010 o kartę #302)*
 5. **Potwierdzenie anomalii cenowych** — odm. 05 taniej niż odm. 04; kreda sypka drożej niż węglanowe.
 6. **Zgoda na przywrócenie form dostawy jako atutu**, nie jako MOQ.
 7. **Errata do katalogu drukowanego:** pH >16 przy wapnie palonym (skala kończy się na 14),

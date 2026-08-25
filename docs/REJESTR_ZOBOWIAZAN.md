@@ -9,11 +9,22 @@
 > Git zapisuje to, co **napisaliśmy**. Ten plik zapisuje to, co **zlecone i jeszcze niezamknięte** —
 > wymiar, którego commit z natury nie niesie, bo opisuje artefakt, nie stan obowiązku.
 >
-> Stan na **2026-08-24**: T-027 i T-026 domknięte; sekcja treściowa przebudowana na **jeden adres = jeden wiersz**
-> (T-070…T-085, mapa starych ID zbiorczych w sekcji „Mapa parasoli"), terminy przeliczone na pomiar sezonowości
-> zamiast założeń; dopisane T-069 (CTR huba) oraz blok F z maila do Kasjana. Sekcja techniczna ułożona wg horyzontu (teraz / wrzesień / okno zimowe), sekcja 📅 rozwiązana.
-> T-033 i T-034 zamknięte, dopisane T-086 i T-087. Poprzedni stan: 2026-08-21 (dopisane T-052…T-059; T-039 wchłonięte przez T-058; T-052 i T-053 domknięte). Bazowa weryfikacja **19.08**: MCP `query_db`, `curl` na produkcji,
-> GSC URL Inspection API, Google Ads API, PSI/CrUX — nie z dokumentów.
+> Stan na **2026-08-24, wieczór — po audycie SEO od nowa.**
+> Sekcja treściowa **przepisana na trzy fazy** (ADR `docs/decyzje/2026-08-24-audyt-seo-od-nowa-rozstrzygniecia.md`,
+> podstawa: `docs/audits/2026-08-24-AUDYT_SEO_OD_NOWA.md`). Powód: **od 09.07 opublikowaliśmy dziesięć
+> nowych adresów i Google nie pobrał ani jednego**, a adresy zaindeksowane crawluje codziennie —
+> więc kolejność ustala teraz to, czy adres jest crawlowany, a nie sam wolumen.
+> **Unieważnione trzy pozycje:** T-073 (hub pole — hub rankuje na tę frazę na poz. 2,0),
+> T-075 (łąki — 30–70/mies. cały rok), T-079 (karta #307 — parametry poprawne na stronie od 15.07).
+> **Przesunięte poza okno:** T-082 i T-076 na VII 2027. **Dopisane:** T-089…T-099 (w tym
+> **osiem z dziewiętnastu kart produktów poza indeksem** i dwie strony bez ani jednego linku wewnętrznego).
+> **Sprostowane trzy liczby sezonowe** przepisane z serii przyciętej od września — szczegóły w audycie §6.
+> Terminy z pomiaru za **pełne 12 miesięcy VIII 2025 – VII 2026** (`data/seo/audyt-2026-08-24/`).
+>
+> Poprzedni stan (2026-08-24 rano): T-027 i T-026 domknięte; sekcja treściowa przebudowana na
+> „jeden adres = jeden wiersz" (T-070…T-085); T-033 i T-034 zamknięte, dopisane T-086 i T-087.
+> Wcześniej 2026-08-21 (T-052…T-059; T-039 wchłonięte przez T-058). Bazowa weryfikacja **19.08**:
+> MCP `query_db`, `curl` na produkcji, GSC URL Inspection API, Google Ads API, PSI/CrUX — nie z dokumentów.
 > Numeracja `T-NNN` od 19.08.2026, mapowanie starych ID na końcu pliku
 > (ADR `docs/decyzje/2026-08-19-numeracja-T-NNN-i-przebudowa-rejestru.md`).
 
@@ -42,50 +53,83 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 
 # KOLEJKA
 
-## 🔴 Teraz — treść, 14 pozycji w kolejności wykonania
+## 🔴 Teraz — treść, trzy fazy
 
 > **Jeden adres = jeden wiersz** (decyzja Janka 24.08). Stare ID zbiorcze zostają jako parasol —
-> mapa na dole sekcji — żeby commity i historia z sierpnia nie zgubiły kontekstu.
-> **Kolejność: najpierw dokończone do końca to, co zaczęte**, potem szczyt październikowy,
-> potem klastry wiosenne i płaskie. **Terminy wynikają z pomiaru sezonowości**
-> (`data/seo/sezonowosc-klastry-2026-08-21.json`, DataForSEO VIII 2025 – VI 2026), nie z założeń —
-> trzy daty z poprzedniej wersji rejestru były uzasadnione sezonem, którego pomiar nie potwierdził.
+> mapa na dole sekcji.
+> **Kolejność wynika z ADR `2026-08-24-audyt-seo-od-nowa-rozstrzygniecia.md`, kryteria w tej hierarchii:
+> (1) czy adres jest już crawlowany, (2) wolumen razy brak pokrycia z GSC, (3) odległość do szczytu.**
+> Powód zmiany wobec wersji z 24.08 rano: **od 09.07 opublikowaliśmy dziesięć nowych adresów i Google
+> nie pobrał ani jednego**, a adresy zaindeksowane crawluje codziennie (`docs/audits/2026-08-24-AUDYT_SEO_OD_NOWA.md` §5.2).
+> Terminy z pomiaru sezonowości za **pełne 12 miesięcy VIII 2025 – VII 2026** (`data/seo/audyt-2026-08-24/`),
+> nie z serii przyciętej od września — trzy daty z poprzedniej wersji stały na źle odczytanym miesiącu.
+
+### Faza 0 — do 31.08 · odblokowanie tego, co już napisane. Zero nowych adresów
+
+> ✅ **FAZA 0 ZAMKNIĘTA 24.08** — wszystkie pięć pozycji plus **T-101** (listing poradników na stronie głównej).
+> Dowody w dzienniku M3. **Regres na 62 adresach: dwie zamierzone różnice, zero niezamierzonych.**
+> **Następny punkt kontrolny: 15.09** — czy Google pobrał którykolwiek z odblokowanych adresów.
 
 | # | ID | Zadanie | Fraza wiodąca i popyt | Termin | Kontekst |
 |---|---|---|---|---|---|
-| 1 | **T-070** | Przebudowa `/czy-wapnowac-czy-nie-wapnowac-stawy-karpiowe/` na „Wapnowanie stawu — jakie wapno, ile i kiedy" | `wapnowanie stawu` 90 · `ile wapna do stawu` 50 · `kiedy sypać wapno do stawu` 50 · `wapnowanie zarybionego stawu` 30 | **05.09** | **Ten sam URL, nie drugi** — wpis z marca zostaje pod swoim adresem. ⚠️ Ma w GSC zaległy werdykt „Excluded by `noindex`" z crawla **18.04**, choć na żywo `noindex` nie ma (zmierzone 24.08) — przy publikacji odświeżyć `post_modified` i cache sitemapy, inaczej Google nie wróci. Parasol T-056, blok D2 |
-| 2 | **T-072** | 301 z `/wapno-do-stawow/` na `/wapno-do-stawu/` + powrót pozycji „Rybactwo" do menu | — | **05.09** | ⚠️ **Usterka zmierzona 24.08: stara kategoria oddaje 404, nie 301.** Landing stawu żyje pod `/wapno-do-stawu/` od 21.08, a adres, który Google zna z lipca, prowadzi donikąd. Pozycja menu ID 1566 leży w `draft` od 30.07. Parasol T-056, blok D4 |
-| 3 | **T-071** | Nowy poradnik „Kreda do stawu — dawkowanie i różnica wobec wapna tlenkowego" | `kreda do stawu` **1 600** (III: 2 900) · `kreda do stawu rybnego` 260 · `kreda do stawu z rybami` 140 | **12.09** | Najmocniejsza fraza całego klastra stawowego i **najsłabsza konkurencja w portfelu** — trzy z siedmiu wyników TOP7 to posty z Facebooka. Szczyt marcowy, więc publikacja we wrześniu daje pół roku rozbiegu. Parasol T-056, blok D3 |
-| 4 | **T-073** | Hub `/jakie-wapno-na-pole/` — oś JAKIE (dziś 404) | `wapno na pole` 390 (**IX: 720**) · `jakie wapno na pole` 140 · `wapno na pole luzem` 40 · `gdzie kupić wapno na pole` 30 | **10.09** | Druga oś obok terminarza (oś KIEDY, zrobiony 21.08) — ADR `2026-08-21-architektura-pole-hub-i-spoke.md`. **Bez tabeli uprawowej** — ta czeka na źródła z T-067. Hub nie dostaje H2 z nazwą uprawy, żeby nie zjeść spoke'ów. Parasol T-055, blok C1 |
-| 5 | **T-074** | Spoke ziemniaki | `wapno pod ziemniaki` 100 (**IX–X: 110**) | **20.09** | Jedyny spoke uprawowy z potwierdzonym szczytem jesiennym. ⚠️ Wchodzi **od zmianowania i przedplonu** — parch i wapnowanie pogłówne w redliny są już opisane w terminarzu, więc powtórka zrobiłaby z niego podzbiór. Parasol T-055 |
-| 6 | **T-077** | Poradnik „Kreda pastewna — dawkowanie dla niosek, bydła i trzody" | `kreda pastewna dla kur` **1 600** · `kreda pastewna jak podawać` 170 · `kreda pastewna dawkowanie` 90 | **30.09** | Największy klaster w portfelu (8 940/mies.) i produkt o najwyższym skoku marży (190 zł/t luz → 610 zł/t worki 30 kg). **Rozkład płaski cały rok**, więc opóźnienie nie kosztuje sezonowo. Idzie niezależnie od zablokowanej karty #307. Parasol T-054, blok B3 |
-| 7 | **T-078** | Opis kategorii `/paszarstwo/` | `kreda pastewna dla bydła` 210 · `wapno dla kur niosek` 210 | **30.09** | Kategoria istnieje i przejmuje `/kreda-pastewna/` przez 301 (zmierzone 24.08, canonical wskazuje `/paszarstwo/`). Dziś ma 447 znaków opisu i jeden produkt. Parasol T-054, blok B2 |
-| 8 | **T-082** | Strona tonażowa na `/wapno-nawozowe-hurt/` (dziś 301 → `/oferta/`) + powrót pozycji „Hurtownie" do menu | `wapno … cena za tonę` **490 łącznie** · `wapno granulowane big bag` 260 + `… cena` 260 | **05.10** | Spięte z `wapno granulowane`, które szczytuje w **październiku na 8 100** i na które kampania wydaje 40 zł dziennie. Frazy tonażowe to jedyny obszar, gdzie już wygrywamy — strona ma je zebrać w jedno miejsce. Pozycja menu ID 1564 w `draft` od 30.07. Parasol T-057, blok E3 |
-| 9 | **T-084** | Wzmocnienie `/wapno-do-stabilizacji-gruntow/` — treść pod wapno palone | `wapno palone` 2 400 (**X–XI: 3 600**) | **10.10** | **Blok F, zobowiązanie z maila do Kasjana 06.08** („październik — stabilizacja gruntów i budownictwo"). Landing istnieje, jest w indeksie i w sitemapie, ale ma **zero wyświetleń** na frazy z „stabiliz" (zmierzone 19.08). To wzmocnienie istniejącego adresu, nie budowa od zera |
-| 10 | **T-085** | Budownictwo — zaprawy i wapno hydratyzowane | `wapno hydratyzowane` 2 400 (**III: 3 600**) | **20.10** | Blok F, druga połowa zobowiązania. ⚠️ **Inny odbiorca i inny język niż rolnik** — nie doklejać do klastra rolniczego. Do rozstrzygnięcia przy pisaniu: czy wchodzi jako landing, czy jako rozbudowa kategorii `/wapno-hydratyzowane/`, która jest już zaindeksowana i crawlowana (21.08) |
-| 11 | **T-080** | Poradnik „pH i odczyn gleby — jak go podnieść" | `ph gleby` **1 000** (IV: 1 600) · `zakwaszenie gleby` 390 (V: 880) · `odczyn gleby` 260 · `jak podnieść ph gleby` 210 | **31.10** | Klaster 6 320/mies., zero pokrycia. **Wypadł z audytu 19.05 przez filtr regexowy** — żadna z tych fraz nie zawiera słowa „wapno" ani „kreda". To ta sama droga, którą Polcalc zbudował 95% widoczności. Szczyt wiosenny, publikacja jesienią daje pełne dojrzewanie. Parasol T-057, blok E2 |
-| 12 | **T-081** | Poradnik „Badanie gleby — jak pobrać próbki i odczytać wynik ze stacji chemiczno-rolniczej" | `badanie gleby` **1 000** (III: 1 900) · `analiza gleby` 260 · `stacja chemiczno-rolnicza` 260 · `próbki gleby` 170 | **15.11** | Góra lejka — karmi kalkulator, hub i wszystkie strony dawkowe. Naturalne miejsce na link do kalkulatora wapnowania. Parasol T-057, blok E1 |
-| 13 | **T-083** | Landing `/wapno-do-sadu/` (dziś 301 → `/oferta/`) + powrót pozycji „Sadownictwo" do menu | `wapnowanie drzew owocowych kiedy` 210 (**III: 720**) · 9 fraz, **470/mies.** | **30.11** | ⚠️ **Korekta wobec zapisu z 21.08: listopadowego szczytu nie ma** — XI to 40 wobec średniej 210. Jedyny szczyt jest marcowy, stąd termin listopadowy (trzy miesiące rozbiegu). Stary adres `/wapno-do-sadu/wapno-weglanowe-…-luz-2/` zbiera **23 wyświetlenia na pozycji 7,6 mimo 301** — popyt istnieje bez strony. **301 zdejmować razem z treścią, nigdy przed.** Pozycja menu ID 1565 w `draft`. Parasol T-065 |
-| 14 | **T-075** | Spoke łąki i pastwiska | `wapno na łąki` 100 (**III: 70 wobec średniej 40**) | **15.12** | ⚠️ **Korekta: rejestr kazał publikować 15.09 „bo jesienią", a pomiar pokazuje szczyt marcowy.** Najmniejszy klaster w kolejce, więc idzie ostatni. GSC potwierdza popyt na naszych pozycjach: `ile wapna na hektar łąki` 25 wyśw. poz. 7,2, `ile wapna granulowanego na hektar łąki` 22 wyśw. poz. 10,9. Parasol T-055 |
+| 1 | ✅ **T-089** | ~~Linki do dwóch sierot~~ **WYKONANE 24.08**: `/wapno-do-stawu/` i `/wapno-do-stabilizacji-gruntow/` | `wapno palone` 2 400 (**X–XI 3 600**) · `wapno do stawu` 390 (III 880) | **28.08** | ⚠️ **Zmierzone 24.08: obie strony mają ZERO linków wewnętrznych** na 22 przeskanowanych adresach, obie „URL unknown to Google" mimo obecności w sitemapie. **Staw** — linki z wpisu 2079, z huba `/wapnowanie-gleby/` (crawl 23.08) i z sześciu kart listingu; ⚠️ karty **310 i 320 renderują z `_elementor_data`**, nie z `post_content`. **Stabilizacja** — z karty #320 i z opisu kategorii `/wapno-do-oczyszczalni/` (crawl 22.08). Dziś na `wapno palone kruszone` rankuje **PDF z 2023 roku** (18 wyśw., poz. 5,7), a landing zero. **Źródłem linku ma być strona crawlowana** — inaczej powtórzymy stan terminarza, patrz T-090 |
+| 2 | ✅ **T-090** | ~~`/jak-stosowac-wapno-nawozowe/` — linki~~ **WYKONANE 24.08** — linki + odświeżenie `post_modified` i cache sitemapy | `kiedy wapnować glebę` 320 (**X–XI 590**) · `kiedy wapnować pole` 90 (**X 260**) · `kiedy siać wapno granulowane` 210 | **28.08** | 13 455 znaków gotowej treści na **jedyną oś ze szczytem październikowym**, werdykt „Discovered — not indexed", crawl **nigdy**. Hub trzyma tę oś na **36,4**. ⚠️ **Korekta po pomiarze linków 24.08: strona nie jest sierotą — ma pięć linków przychodzących, ale cztery z nich stoją na stronach, które same są poza indeksem** (`/wapno-nawozowe-na-trawnik/` unknown, `/higienizacja-…/` discovered, `/czy-wapnowac-…/` noindex z 18.04). Indeksowane źródła to tylko `/poradniki/` (crawl 12.08, najstarszy w serwisie) i hub (23.08). ⚠️ **Strona główna — crawl 23.08, 3 528 wyświetleń — linkuje do dwunastu kart produktów i do ZERA poradników.** To jest najmocniejszy niewykorzystany kanał w serwisie. `lastmod` w sitemapie jest już świeży (21.08), więc odświeżanie `post_modified` **nie jest tu potrzebne** — zostaje samo linkowanie |
+| 3 | ✅ **T-072** | ~~Brakujące reguły 301 + powrót pozycji „Rybactwo" do menu~~ **WYKONANE 24.08** | — | **28.08** | ⚠️ **`/wapno-do-stawow/` oddaje 404, nie 301** (reguła usunięta 21.08 przy zwalnianiu slugu). ⚠️ **Luka w T-032:** `/kategoria-produktu/wapno-do-sadu/`, `…/wapno-nawozowe-hurt/` i `…/rybactwo-kat-archiwum/` oddają **200**, nie 301 — reguły z 19.08 objęły pięć kategorii z sitemapy, trzy puste pominęły. Cztery linie w `.htaccess`, jedną edycją. Pozycja menu ID 1566 w `draft` od 30.07. Parasol T-056 |
+| 4 | ✅ **T-091** | ~~Dwa martwe linki po scaleniu T-026~~ **WYKONANE 24.08** | — | **28.08** | `/jak-stosowac-wapno-nawozowe/` i `/wapno-nawozowe-na-trawnik/` nadal linkują do wycofanego `/ile-wapna-granulowanego-na-ha/`, czyli przez 301. Dziennik T-026 odnotował wyłącznie link zdjęty z huba |
+| 5 | ✅ **T-095** | ~~Term 766 `rybactwo-kat-archiwum`~~ **USUNIĘTY 24.08**, menu przepięte na stronę 2796 | — | **28.08** | ⚠️ **Zmierzone 24.08:** pozycje menu **765** (top-level) i **1566** (submenu „Oferta") mają `_menu_item_type=taxonomy` i `_menu_item_object_id=766`, więc wskazują na **pustą kategorię**, nie na landing. Powrót do menu wymaga przepięcia na stronę **2796** (`post_type`/`page`), niezależnie od tego, czy term zostanie usunięty. Adres `/kategoria-produktu/rybactwo-kat-archiwum/` **już oddaje 301 na `/wapno-do-stawu/`** (T-072). Roboczy slug w publicznym adresie: 200 z `noindex`, 0 produktów, linkowany z `/oferta/`, Google go nie zna. Dług wprowadzony 21.08 przy zwalnianiu slugu pod landing |
+
+### Faza 1 — 01–20.09 · treść na adresach, które Google czyta codziennie
+
+| # | ID | Zadanie | Fraza wiodąca i popyt | Termin | Kontekst |
+|---|---|---|---|---|---|
+| 6 | **T-092** | Opis kategorii `/wapno-nawozowe-rolnictwo/` | `wapno nawozowe` **1 300** (VIII–X **1 900**) | **05.09** | Trzeci adres serwisu (1 360 wyśw.), **jedyny rankujący na `wapno nawozowe`** (251 wyśw., poz. **10,9**). Dziś **3 996 znaków i 3 × H2**, crawl 21.08. SERP na tę frazę nagradza treść producenta (industria.eu, nawozy.eu, osadkowski, holcim) |
+| 7 | **T-078** | Opis kategorii `/paszarstwo/` | `kreda pastewna` **2 400** · `kreda pastewna dla bydła` 210 · `wapno dla kur niosek` 210 | **12.09** | Dziś **3 083 znaki i jeden H2**, crawl 16.08, poz. 13,4. Stary adres `/kreda-pastewna/` (301) zbiera **253 wyśw. poz. 11,0** — więcej niż kategoria (67) i karta (132) razem. Parasol T-054, blok B2 |
+| 8 | **T-074** | Spoke ziemniaki | `wapno pod ziemniaki` 50 (**IX–X 110**) | **20.09** | Jedyny spoke uprawowy z potwierdzonym szczytem jesiennym. ⚠️ Wchodzi **od zmianowania i przedplonu** — parch i dawka pogłówna w redliny są już w terminarzu. Parasol T-055 |
+| 9 | **T-085** | Kategoria `/wapno-hydratyzowane/` — przepisanie pod frazę | `wapno hydratyzowane` **2 400** (III 3 600) | **20.09** | **Blok F, druga połowa zobowiązania z maila do Kasjana 06.08.** Rozstrzygnięte ADR-em 24.08: **rozbudowa kategorii, nie nowy landing** — kategoria zaindeksowana, crawl 21.08, ale stoi na **31,3**. ⚠️ Inny odbiorca i inny język niż rolnik |
+| 10 | **T-093** | `/wapno-do-oczyszczalni/` — wchłonięcie merytoryki poradnika higienizacyjnego | `higienizacja osadów ściekowych` 30 · `wapnowanie osadów ściekowych` 20 | **20.09** | Najlepszy CTR kategorii w serwisie (**3,97%**, 806 wyśw., 32 kliknięcia, poz. 9,5), crawl 22.08. Zbiera **całą** intencję osadową, podczas gdy poradnik `/higienizacja-osadow-sciekowych-wapnem/` ma zero wyświetleń i nigdy nie był pobrany. Poradnik zostaje osobnym adresem (decyzja Janka 24.08), ale merytoryka pracuje w kategorii |
+
+### 📌 Kontrola 15.09 — warunek wejścia w Fazę 2
+
+**Odczyt URL Inspection dla adresów z Fazy 0.** Jeśli **żaden** nie zostanie pobrany przez Google,
+problem nie leży w treści ani w linkowaniu — wtedy **wracamy z pytaniem, a nie z kolejnym artykułem**.
+Faza 2 w obecnej postaci traci wtedy podstawę.
+
+### Faza 2 — 21.09–31.10 · nowe adresy, warunkowo
+
+| # | ID | Zadanie | Fraza wiodąca i popyt | Termin | Kontekst |
+|---|---|---|---|---|---|
+| 11 | **T-077** | Poradnik „Kreda pastewna — dawkowanie dla niosek, bydła i trzody" | `kreda pastewna dla kur` **1 600** · `kreda pastewna dawkowanie` 90 | **30.09** | Największy klaster portfela, **rozkład płaski cały rok** (1 900–2 900), więc opóźnienie nie kosztuje sezonowo. SERP nagradza treść (vitalzam, polcalc) obok sklepów, featured snippet na 1. Zero pokrycia — stary `/kreda-pastewna/` trzyma poz. 22–33. ⚠️ Zapis „`kreda pastewna jak podawać` 170" nie potwierdził się (pomiar 24.08: **10**) — jedna czysta miara przed pisaniem, bez mieszania wariantów w batchu. Parasol T-054, blok B3 |
+| 12 | **T-071** | Poradnik „Kreda do stawu — dawkowanie i różnica wobec wapna tlenkowego" | `kreda do stawu` **1 300** (**III 2 900**) · `kreda do stawu rybnego` 260 | **10.10** | **Zero fraz nad progiem** w GSC — pełne zero pokrycia. Najsłabsza konkurencja w portfelu: SERP 24.08 to featured snippet, Allegro, dwa sklepy, **dwa posty z Facebooka (poz. 7 i 8)** i OLX. ⚠️ Korekta wobec zapisu z 21.08: dwa, nie trzy z siedmiu. Parasol T-056, blok D3 |
+| 13 | **T-070** | Przebudowa `/czy-wapnowac-czy-nie-wapnowac-stawy-karpiowe/` — **ten sam URL** | `wapnowanie stawu` 90 (III 170) · `ile wapna do stawu` 50 (III 110) | **10.10** | Wpis z marca zostaje pod swoim adresem. ⚠️ Zaległy werdykt „Excluded by `noindex`" z crawla **18.04**, choć na żywo `noindex` nie ma — przy publikacji odświeżyć `post_modified` i cache sitemapy. ⚠️ Zdjęcie „wapnowanie stawu karpiowego" przedstawia **tarasy ryżowe w Azji** (obejrzane 24.08) i wisi na **obu** stronach stawowych — podmienić przy tej okazji. Parasol T-056, blok D2 |
+| 14 | **T-080** | Poradnik „pH i odczyn gleby — jak go podnieść" | `ph gleby` **1 000** (III–IV 1 600) · `zakwaszenie gleby` 390 (V 880) · `odczyn gleby` 260 | **20.10** | **Zero fraz nad progiem.** Klaster wypadł z audytu 19.05 przez filtr regexowy — żadna fraza nie zawiera słowa „wapno" ani „kreda". To ta sama droga, którą Polcalc zbudował 95% widoczności. Parasol T-057, blok E2 |
+| 15 | **T-081** | Poradnik „Badanie gleby — próbki i odczyt wyniku ze stacji chemiczno-rolniczej" | `badanie gleby` **1 000** (**VIII 1 900**, III 1 900) · `analiza gleby` 260 · `próbki gleby` 170 | **31.10** | ⚠️ **Korekta: fraza ma DWA szczyty, nie tylko wiosenny** — sierpień 1 900 na równi z marcem. Poprzedni termin 15.11 wypadał najdalej od obu. Góra lejka, karmi kalkulator i wszystkie strony dawkowe. Parasol T-057, blok E1 |
+| 16 | **T-083** | Landing `/wapno-do-sadu/` (dziś 301 → `/oferta/`) + powrót pozycji „Sadownictwo" do menu | `wapnowanie drzew owocowych kiedy` 210 (**III 720, XI 260**) · `wapno do sadu` 30 (X–XI 70) | **30.11** | ⚠️ **Sprostowanie zapisu z 21.08 i 24.08: „XI to 40" było błędem odczytu.** Listopad to **260**, powyżej średniej 210; wartość 40 to **czerwiec** — ostatni element serii wzięty za listopad. Termin zostaje, ale uzasadnienie się odwraca: publikujemy w listopadzie **dlatego, że listopad jest wtórnym szczytem**, przed głównym marcowym. Stary adres `/wapno-do-sadu/wapno-weglanowe-…-luz-2/` zbiera **133 wyświetlenia na poz. 5,7 mimo 301**. **301 zdejmować razem z treścią, nigdy przed.** Pozycja menu ID 1565 w `draft`. Parasol T-065 |
 
 ### Zablokowane treścią, nie czasem
 
 | ID | Zadanie | Co blokuje | Kiedy odblokuje |
 |---|---|---|---|
-| **T-067** | Źródła IUNG-PIB do `data/zrodla/` | nic — **to jest blokada, nie zablokowane** | **05.09.** Katalog `data/zrodla/` nie istnieje (sprawdzone 24.08). Terminarz cytuje IUNG-PIB (tab. 8, tab. 18, parch przy ziemniaku, podział dawki), ale w repo nie ma ani jednego pliku źródłowego. Do zdobycia: *Poradnik wapnowania gleb gruntów ornych* (IUNG-PIB, Puławy 2021) i *Zasady ustalania dawek wapna w doradztwie nawozowym* (Jadczyszyn, Lipiński, IUNG-PIB 2022, ISBN 978-83-7562-385-7). **Blokuje T-076 i tabelę uprawową w T-073** |
-| **T-076** | Spoke zboża ozime i rzepak, oś przedplonu | **T-067** | Okno sezonowe VIII–IX **w tym roku już mija**. Jeśli źródła będą do 10.09 — publikacja 30.09 na późne siewy; jeśli nie — **15.07.2027**, przed właściwym oknem. Oś: „czy przy moim przedplonie zdążę", **nie** termin — frazy terminowe (`czy można siać wapno na zboże` 90, `kiedy siać wapno pod zboża ozime` 30) obsługuje już terminarz, który ma H3 „Zboża ozime i rzepak". Parasol T-055 |
-| **T-079** | Karta produktu #307 „Kreda pastewna" | **parametry od AGRII** | ⚠️ Karta **nadal opisuje kredę pastewną parametrami wapna tlenkowego** — reakcja egzotermiczna, pH >12, czego węglan nie robi (zweryfikowane w treści 24.08, ostatnia modyfikacja karty 19.08). Zgłoszone w `FAKTY_KLIENTA` §9. **Bez poprawnych parametrów nie publikujemy** — reguła „parametry wyłącznie z kart producentów". Do potwierdzenia przez Kazimierza. Parasol T-054, blok B1 |
+| **T-067** | Źródła IUNG-PIB do `data/zrodla/` | nic — **to jest blokada, nie zablokowane** | **05.09.** Katalog `data/zrodla/` nie istnieje (potwierdzone ponownie 24.08). Terminarz cytuje IUNG-PIB (tab. 8, tab. 18, parch przy ziemniaku, podział dawki), a w repo nie ma ani jednego pliku źródłowego. Do zdobycia: *Poradnik wapnowania gleb gruntów ornych* (IUNG-PIB, Puławy 2021) i *Zasady ustalania dawek wapna w doradztwie nawozowym* (Jadczyszyn, Lipiński, IUNG-PIB 2022, ISBN 978-83-7562-385-7). **Blokuje T-076** |
+| **T-076** | Spoke zboża ozime i rzepak, oś przedplonu | **T-067** | **Przesunięte na 15.07.2027** (ADR 24.08). Okno VIII–IX w tym roku minęło. Frazy terminowe (`czy można siać wapno na zboże` 90, `kiedy siać wapno pod zboża ozime` 30) obsługuje już terminarz, który ma H3 „Zboża ozime i rzepak"; hub rankuje na `jakie wapno pod rzepak` i `ile wapna granulowanego pod rzepak`. Parasol T-055 |
+
+### Przesunięte poza okno VIII–X
+
+| ID | Zadanie | Nowy termin | Dlaczego |
+|---|---|---|---|
+| **T-082** | Strona tonażowa na `/wapno-nawozowe-hurt/` + powrót pozycji „Hurtownie" do menu | **VII 2027** | Klaster tonażowy szczytuje w **sierpniu** (`wapno granulowane big bag cena` VIII 590 wobec średniej 260, `wapno granulowane cena za tonę` VIII 320), więc 05.10 trafiało w opadające zbocze. ⚠️ Wolumen w rejestrze był zawyżony: „`wapno … cena za tonę` **490 łącznie**" wobec zmierzonych osobno **150** (50 + 90 + 10). Sama nazwa kategorii (`wapno nawozowe hurt`, `wapno hurt`) zwraca z planera `null`. Pozycja menu ID 1564 zostaje w `draft`. Parasol T-057, blok E3 |
+| **T-084** | Treść pod wapno palone na `/wapno-do-stabilizacji-gruntow/` | **po T-089** | Blok F, pierwsza połowa zobowiązania z maila do Kasjana. **Kolejność odwrócona ADR-em 24.08: najpierw linki (T-089), treść dopiero po nich** — strona jest sierotą i nieznana Google, więc treść bez linków nie ma jak zadziałać |
 
 ### Mapa parasoli — stare ID zbiorcze
 
 | Stare ID | Co obejmowało | Rozbite na | Co z niego zostało zamknięte |
 |---|---|---|---|
-| **T-054** | blok B paszarstwo | T-077 · T-078 · T-079 | — |
-| **T-055** | blok C pole, hub i trzy spoke'y | T-073 · T-074 · T-075 · T-076 | **terminarz `/jak-stosowac-wapno-nawozowe/` zrobiony 21.08** (22 675 znaków, commit `0f8b0ee`) |
-| **T-056** | blok D staw i rybactwo | T-070 · T-071 · T-072 | **landing `/wapno-do-stawu/` zrobiony 21.08** (ID 2796, 7 139 znaków, `index, follow`, listing 6 produktów z T-064; commity `710c18e`, `01927be`) |
+| **T-054** | blok B paszarstwo | T-077 · T-078 · ~~T-079~~ | — |
+| **T-055** | blok C pole, hub i trzy spoke'y | ~~T-073~~ · T-074 · ~~T-075~~ · T-076 | **terminarz `/jak-stosowac-wapno-nawozowe/` zrobiony 21.08** (22 675 znaków, commit `0f8b0ee`) — ⚠️ napisany, ale **nigdy nie pobrany przez Google**, patrz T-090 |
+| **T-056** | blok D staw i rybactwo | T-070 · T-071 · T-072 | **landing `/wapno-do-stawu/` zrobiony 21.08** (ID 2796, 8 725 znaków renderu, `index, follow`, listing 6 produktów z T-064; commity `710c18e`, `01927be`) — ⚠️ **sierota, zero linków wewnętrznych**, patrz T-089 |
 | **T-057** | blok E gleba i odczyn | T-080 · T-081 · T-082 | — |
 | **T-065** | sadownictwo | T-083 | — |
-| **T-066** | terminarz jako hub osi KIEDY + roczna mapa wpisów | dokument dostarczony, wykonanie w T-073–T-076 | **ADR `2026-08-21-terminarz-jako-hub-osi-kiedy.md`** (commit `f1a3964`) — mapa okien sezonowych na rok |
+| **T-066** | terminarz jako hub osi KIEDY + roczna mapa wpisów | dokument dostarczony, wykonanie w T-074 i T-076 | **ADR `2026-08-21-terminarz-jako-hub-osi-kiedy.md`** (commit `f1a3964`) — mapa okien sezonowych na rok |
+
 
 ## 🔴 Teraz — technika i kampania, według horyzontu
 
@@ -100,6 +144,20 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 | **T-058** | Ads — grupa „Producent", decyzja o grupie „Wapno magnezowe i kreda", ocena ścieżki kontaktu | P | Rdzeń wykonany 21.08 (dziennik). **Stan zmierzony 24.08:** grupa „Producent" **nie istnieje**; grupa „Wapno magnezowe i kreda" nadal na stawce **1,00 zł przy suficie ~2,00** — 7 dni: 23 wyświetlenia, 4 kliknięcia, 3,97 zł, czyli praktycznie nie pracuje. Kampanie żywe: Rolnictwo (Wapno nawozowe 579/88, Wapno granulowane 268/35), Paszarstwo 266/21, Marka 83/9. ⚠️ **Ocena z 28.08 ma sens dopiero po T-086 i T-087** — inaczej odczytamy zero z niedziałającego pomiaru jako zero telefonów i wyciągniemy odwrotny wniosek. Teksty grupy „Producent" nadal bez nazwy Nordkalk, dopóki T-040 nie wróci |
 | **T-031** | LCP mobile — hero 686 KB | R | **Zdiagnozowane 24.08, przyczyna nazwana.** PSI mobile: score **68**, LCP **7,4 s** (19.08 było 7,3 s — bez zmian), przy desktopie 1,5 s, TBT 110 ms i CLS 0 — czyli sieć i zasoby, nie JavaScript. Rozbiór transferu: **1 478 KB na 97 zapytań**, z czego **jeden plik `uploads/2026/03/agria-rolnictwo-4-scaled.webp` to 686 KB — 46% całej strony**. Dalej: GTM + gtag 313 KB, 41 osobnych arkuszy stylów, 32 skrypty. **Do zrobienia: warianty responsywne hero** (telefon potrzebuje ~120–150 KB, nie 686) i `fetchpriority` na LCP. Reszta (łączenie arkuszy) to osobny temat, nie warunek. Kampania kieruje ruch mobilny na te strony, więc każda sekunda kosztuje realne kliknięcia |
 | **T-088** | Workspace GTM rozjechany z opublikowaną wersją — ryzyko skasowania 4 tagów `[A 24.08]` | R | ⚠️ **Znalezione przy T-087, nie zgłoszone przez nikogo.** Opublikowana wersja kontenera to **v5 z 10 tagami** (w tym Phone Click, Email Click, Generate Lead, WhatsApp Click). „Default Workspace" ma natomiast **6 tagów** — stan sprzed 13.08. **Publikacja z tego workspace skasowałaby cztery tagi**, w tym jedyny pomiar kliknięć w telefon, czyli dokładnie to, na czym stoi cała konwersja w kampanii. Do zrobienia przed jakąkolwiek kolejną zmianą w GTM: zsynchronizować workspace z wersją live albo założyć nowy z v5. **Nie publikować niczego z GTM, dopóki to nie jest zrobione** |
+| **T-100** | Cena na karcie #302 Dolomit `[J 24.08]` | R | **Ceny przyszły 24.08:** od **260 zł/t netto** dla frakcji 0,1–0,4 i 0,4–0,8 mm, **280 zł/t netto** dla 1–3 mm (`FAKTY_KLIENTA` §3). ⚠️ **Zablokowane jednym pytaniem: której formy dostawy dotyczą** — luz 24 t, big-bag czy worki. Reguła z 19.08 wymaga, żeby cena wiodąca **zawsze** niosła swój warunek („od 260 zł/t netto przy dostawie całosamochodowej 24 t”), bo samo „od 260 zł/t” czyta się jak cena worka. Po odpowiedzi: H2 z frazą cenową, akapit i klauzula KC — wzorzec z 15 kart. ⚠️ **Cena sama nie odblokuje tej karty:** #302 ma werdykt „Discovered — not indexed”, zero wyświetleń w 90 dniach i nie jest linkowana ze strony głównej — idzie razem z T-094. ⚠️ **Nie ustawiać `_price`** (tryb katalogu, ADR 19.08). Domyka pokrycie cenowe do **16 z 19** |
+
+### Indeksacja — znalezione audytem 24.08, nieujęte wcześniej nigdzie
+
+> Wspólna przyczyna: **od 09.07 Google nie pobrał ani jednego z dziesięciu nowych adresów**,
+> a adresy zaindeksowane crawluje codziennie. ADR `2026-08-24-audyt-seo-od-nowa-rozstrzygniecia.md`.
+
+| ID | Zadanie | Zakr. | Kontekst |
+|---|---|---|---|
+| **T-094** | **Osiem z dziewiętnastu kart produktów jest poza indeksem** | R | Zmierzone GSC URL Inspection 24.08. „URL unknown to Google": **#303** kreda czarna · **#306** kreda nawozowa sypka · **#308** mieszanka tlenkowo-węglanowa · **#311** Agrobielik 90 · **#316** węglanowe odm. 05 · **#318** węglanowe z Mg odm. 04. „Discovered — not indexed": **#302** Dolomit · **#320** wapno palone mielone. Wszystkie osiem siedzi w `product-sitemap.xml` od 15.07 lub 19.08, żadnej Google nigdy nie pobrał. ⚠️ **#320 to przypadek pokazowy:** jego **stary, przekierowany** adres `…-wysokoreaktywne-luz-24t/` ma **najlepszy CTR w całym serwisie — 19,12% przy poz. 3,7** (68 wyśw., 13 kliknięć), a adres kanoniczny ma zero. Trzy z ośmiu kart (#302, #303, #316) są dodatkowo bez ceny. Do zrobienia: linkowanie z kategorii i z treści, nie kolejne zgłoszenie do Indexing API — trzy zgłoszenia już nie zadziałały |
+| **T-096** | `/kreda-malarska/` — jedyna kategoria bez `rank_math_title` i bez opisu | R | Sprawdzone w `termmeta` 24.08: term 830 jako **jedyny z ośmiu** nie ma ani `rank_math_title`, ani `rank_math_description`; opis taksonomii ma **0 znaków**. Front oddaje domyślny tytuł WordPressa z encją `&#8211;` w treści. Werdykt GSC: **„Discovered — currently not indexed"**, crawl nigdy. Karta produktu `/kreda-malarska/kreda-malarska/` wygrywa z kategorią na tę samą frazę (215 wyśw., poz. 7,4). Fraza `kreda malarska` **320/mies. z trendem rosnącym** (VI 880, VII 590), SERP to wyłącznie sklepy detaliczne z ceną — do rozstrzygnięcia, czy kategoria ma sens, czy zostaje bez pracy |
+| **T-097** | Schema `Product` bez `offers` w 19 na 19 kart | R | Zmierzone renderem 24.08: karta emituje `Product` z 11–19 `PropertyValue` i **zero `offers`**. Zgodnie z ADR `2026-08-19-dwie-warstwy-cen.md` `offers` mają powstać **ręcznie z treści**, nigdy z `_price` ani z wariantów — i nie powstały. 15 kart ma kwotę w tekście, żadna nie ma jej w danych strukturalnych. ⚠️ `_price` zostaje **puste w 19/19** — to jest warunek, nie przeoczenie |
+| **T-098** | `/wsparcie/` — strona pusta, linkowana z każdej strony serwisu | R | `post_content` **0 bajtów**, werdykt GSC „Excluded by `noindex`" z crawla **12.04**, zero wyświetleń w 90 dniach — a link do niej stoi na **22 z 22** przeskanowanych adresów (stopka). Do rozstrzygnięcia: treść albo zdjęcie linku. Przy okazji ta sama kwietniowa zaległość dotyczy `/o-firmie/` (crawl 20.04) — **obie nieujęte w diagnozie T-026** |
+| **T-099** | `/category/poradniki/` i `/category/zastosowania/` — duplikat i puste H1 | R | `/category/poradniki/` ma werdykt **„Duplicate, Google chose different canonical than user"** (Google sam wybrał `/poradniki/`), crawl 31.07. Obie taksonomie są w `category-sitemap.xml`, obie mają `index, follow` i **pusty `<h1>`** — T-061 naprawił nagłówki wpisów i archiwum sklepu, ale nie archiwów bloga. Sygnalizowane w memory od czerwca, nierozstrzygnięte. Koszt: budżet crawlowy, nie pozycje |
 ### Wrzesień
 
 | ID | Zadanie | Zakr. | Kontekst |
@@ -135,6 +193,9 @@ pozycja handlowa · **W** własne Auranet, nie fakturujemy · **K** koszt albo r
 
 | ID | Co | Czym unieważnione |
 |---|---|---|
+| **T-073** | Hub `/jakie-wapno-na-pole/` — oś JAKIE | **Audyt 24.08 + ADR `2026-08-24-audyt-seo-od-nowa-rozstrzygniecia.md`.** `/wapnowanie-gleby/` rankuje na `wapno na pole` na **pozycji 2,0** (i na `ile kosztuje wapno na pole` również 2,0) — nowy adres byłby **drugim naszym URL-em na intencję, na której jesteśmy w TOP3**, czyli wprost tym, czego zakazuje ADR 11.08. Fraza `jakie wapno na pole` stoi na hubie na **30,7**, co jest problemem treści huba, nie brakiem adresu. Do tego szczyt tej frazy to **sierpień (480)**, więc termin 10.09 i tak trafiał po nim. **Zamiast huba: sekcja „Jakie wapno na pole — dobór do gleby i uprawy" wewnątrz `/wapnowanie-gleby/`** — na stronie crawlowanej 23.08 |
+| **T-075** | Spoke łąki i pastwiska | **Audyt 24.08.** `wapno na łąki` to **30–70 wyszukań miesięcznie przez cały rok** (VIII 70, IX 70, X 50, XI 70, XII 30, III 70). Zapis „szczyt marcowy" był odczytem szumu, a termin 15.12 wypadał w dołku. To nie jest klaster |
+| **T-079** | Karta produktu #307 „Kreda pastewna" — poprawa parametrów | **Traci przedmiot. Audyt 24.08.** Zarzut („opisuje kredę pastewną parametrami wapna tlenkowego — egzotermia, pH >12") jest **nieprawdziwy na stronie**. Sprawdzone we **wszystkich czterech warstwach** — render, `post_content`, `_elementor_data`, atrybuty `pa_*`, meta Rank Math: **zero wystąpień „egzoterm", zero „pH >12"**; specyfikacja podaje `min. 37% CaO`, `Sypkie`, frakcje 0–0,3 / 0,1–0,4 / 0,4–0,8 / 1–3 mm i dawkowanie `1–2 kg / 100 kg paszy`. Naprawione **15.07** przy naprawie parametrów w czterech warstwach. Wadliwy opis został **w katalogu drukowanym** (`FAKTY_KLIENTA` §8 pkt 7) — errata po stronie klienta, nie nasze zadanie. Karta ma cenę i jest zaindeksowana (132 wyśw., poz. 8,4). **Nie blokuje T-077** |
 | **T-035** | Landingi organiczne `/wapno-palone/`, `/wapno-magnezowe/`, `/wapno-hydratyzowane/`, `/kreda-nawozowa/` | ADR `2026-08-11-podzial-rol-ads-seo.md` + memory `project_agria_architektura_kanalow`: **landingi wyłącznie jako cele Ads, poza indeksem**. Powód zmierzony: 6 URL-i na frazę „wapno bielik" → pozycja 15,3; frazy z jednym URL-em w TOP10. Organik idzie treścią |
 | **T-036** | Landingi segmentowe `/wapno-do-stawow/`, `/wapno-do-sadu/`, hub Oczyszczalnie | jw. Menu wraca we wrześniu z treścią, nie z landingami |
 | **T-037** | `/transport-i-dostawa/`, sekcja B2B, formularz z tonażem, formy dostawy z powrotem na karty | częściowo sprzeczne z T-002 (Paweł kazał zdjąć formy dostawy). Powrót wymaga jego zgody — bez niej nie ruszać |
@@ -198,6 +259,9 @@ sześć pozycji miało w papierach „niezrobione", a są zrobione.
 
 | Co dostarczone | Dowód | Zakr. | h |
 |---|---|---|---|
+| **T-089 · T-090 · T-091 · T-101** — Faza 0: odblokowanie napisanych treści, linkowanie i listing poradników na stronie głównej | Wdrożone 24.08, wszystko zweryfikowane renderem i pomiarem DOM, nie odczytem z bazy. **Backup przed serią:** `agria-backups/przed-Faza0-linkowanie-2026-08-24-20260824-112840.sql` (18 008 wierszy, poza web rootem). **(1) Sieroty przestały być sierotami:** `/wapno-do-stawu/` miało **0 linków wewnętrznych** na 22 przeskanowanych adresach — teraz **3** (hub 2074, wpis 2079, opis kategorii 764); `/wapno-do-stabilizacji-gruntow/` **0 → 2** (opisy kategorii 767 i 768). **Wszystkie źródła linków są stronami crawlowanymi 21–23.08** — to był warunek doboru, nie przypadek. **(2) Hub:** do „Powiązanych" doszedł staw, a przy okazji poprawiony **nieaktualny anchor terminarza** („Jak stosować wapno nawozowe?" → „Kiedy wapnować pole?"), który obiecywał intencję sprzed przebudowy z 21.08. **(3) T-091:** dwa martwe linki do wycofanego `/ile-wapna-granulowanego-na-ha/` **usunięte, nie przepięte** — w obu listach hub był już linkowany wiersz wyżej, więc przepięcie zrobiłoby duplikat. Zostało 0 wystąpień. **(4) T-101 — listing poradników na stronie głównej** `[J 24.08]`: strona główna (crawl 23.08, 3 528 wyśw. w 90 dniach) linkowała do **dwunastu kart produktów i ZERA poradników**. Dołożony szósty kontener z widgetem `posts` — **skopiowanym dosłownie z szablonu wpisu 2171**, gdzie działa od miesięcy, zamiast zgadywania parametrów zapytania. Sześć wpisów: higienizacja, terminarz, trawnik, stawy karpiowe, hub, wykwity. **(5) Cache:** sitemapa Rank Matha (8 plików, kopia `~/backups/agria/rank-math-2026-08-24-1335/`) i CSS Elementora `post-321.css` (kopia `~/backups/agria/elementor-css-2026-08-24/`) skasowane FTP-em — bez tego `lastmod` podawał daty sprzed zmian, a nowy kontener nie dostawał reguł CSS. **Trzy usterki złapane pomiarem, nie na oko:** (a) `content_width:"boxed"` bez `flex_direction` dało `--display` niezdefiniowane → kontener `display:inline`, treść **od krawędzi do krawędzi (1905 px zamiast 1280)** — ta sama usterka co T-063; naprawione skopiowaniem ustawień działającego kontenera `4c28c9b`; (b) unieważnienie `_elementor_css` w metadanych **nie wystarczyło** — plik CSS trzeba było skasować z dysku; (c) na zrzucie z telefonu widać było angielskie **„Read More »"** i pełnowymiarowe zdjęcia — poprawione na „Czytaj poradnik" i miniatury 100 px. **Weryfikacja końcowa:** desktop — kolumna 1280 px wyśrodkowana, 2 kolumny po 625 px; telefon 390 px — **brak przelewu poziomego**, treść 330 px z marginesem 30 px, jedna kolumna; **regres na 62 adresach: zero złych kodów, zero stron podejrzanie małych, po jednym H1 wszędzie** (`/category/poradniki/` bez H1 już wcześniej — T-099) | R | 3 h |
+| **T-072 (część: reguły 301)** — cztery brakujące przekierowania | Wdrożone 24.08 przez FTP **za zgodą Janka**, po kopii `~/backups/agria/htaccess/htaccess-przed-T072-*.txt`. Plik pobrany ponownie tuż przed edycją i porównany z kopią z 12:44 — **bez zmian**, więc nic cudzego nie zostało nadpisane. **Dodane cztery reguły** w bloku `# BEGIN AGRIA 301`: `^wapno-do-stawow/?$` → **`/wapno-do-stawu/`** (slug zwolniony 21.08 pod landing, reguła wtedy zniknęła i adres oddawał **404**) oraz trzy pominięte przez T-032 puste kategorie — `^kategoria-produktu/wapno-do-sadu/?$` i `^…/wapno-nawozowe-hurt/?$` → `/oferta/`, `^…/rybactwo-kat-archiwum/?$` → `/wapno-do-stawu/`. **Cele bezpośrednie, nie przez `/wapno-do-sadu/`** — inaczej powstałby łańcuch dwóch przekierowań. **Weryfikacja:** 4/4 nowe reguły → 301, jeden skok, cel 200; **7 starych reguł sprawdzonych i nietkniętych** (`/kreda-pastewna/`, `/wapno-do-sadu/`, `/wapno-nawozowe-hurt/`, stara baza kategorii i produktów, `/produkt/`); `/kategoria-produktu/nieistnieje/`, `/produkt/nieistnieje/` i `/rybactwo/` **nadal 404** — brak reguły generycznej zamieniającej 404 na 301-do-404. Newralgiczne: `wp-login` 200, panel 302, `/wp-json/` 200, Store API 200, `wp-cron` 200, sitemapa 200, `robots.txt` 200. **Regres na 62 adresach wobec pomiaru sprzed zmian: dokładnie jedna różnica — `/wapno-do-stawow/` 404 → 301.** Zero 404 w całym zestawie | R | 0,5 h |
+| **T-072 (domknięcie) · T-095** — powrót „Rybactwa" do menu i usunięcie termu 766 | Wdrożone 24.08 **na akcept rekomendacji przez Janka**. Kopia przed operacją: `agria-backups/przed-T095-menu-i-term766-2026-08-24-*.sql` (16 394 wiersze: `terms`, `term_taxonomy`, `term_relationships`, `termmeta`, `postmeta`). **Kolejność świadoma: najpierw przepięcie menu, potem kasowanie termu** — żeby w chwili usunięcia nic już na niego nie wskazywało. **(1) Menu:** pozycje **765** (górna) i **1566** (submenu „Oferta") miały `_menu_item_type=taxonomy` → `_menu_item_object_id=766`, czyli prowadziły do **pustej kategorii z `noindex`**, nie do landingu. Przepięte na `post_type`/`page` → **2796**, status `draft` → `publish`. Pozycja 765 dostała własny tytuł **„Wapno do stawu"** (miała pusty, więc dziedziczyłaby długi tytuł strony); 1566 zachowała „Rybactwo – Stabilizacja stawów" dla spójności z rodzeństwem w submenu. Render: **6 wystąpień linku do `/wapno-do-stawu/`** w menu i stopce, **0 do `/rybactwo-kat-archiwum/`**. **(2) Term 766 usunięty** (`wp term delete product_cat 766`, „Deleted 1 of 1 terms"). Przed usunięciem sprawdzone `term_relationships`: **zero powiązań**, więc żaden produkt ani wpis nie ucierpiał. Kategorii `product_cat` jest teraz **7, nie 8**. **Skutek adresowy:** `/rybactwo-kat-archiwum/` → **404** (Google go nie znał — werdykt „URL unknown", 0 wyświetleń w 90 dniach), `/kategoria-produktu/rybactwo-kat-archiwum/` → **301 na `/wapno-do-stawu/`**, `/oferta/` przestało linkować do usuniętej kategorii i nadal pokazuje 16 produktów. **Piąta reguła dołożona 24.08 na polecenie Janka:** `^rybactwo-kat-archiwum/?$` → `/wapno-do-stawu/`, bo adres był linkowany z `/oferta/` do chwili usunięcia termu i Google mógł go w międzyczasie odkryć. Wszystkie **trzy** historyczne adresy stawowe (`/wapno-do-stawow/`, `/rybactwo-kat-archiwum/`, `/kategoria-produktu/rybactwo-kat-archiwum/`) idą teraz **301 jednym skokiem** na `/wapno-do-stawu/`. Kopia: `~/backups/agria/htaccess/htaccess-przed-rybactwo301-*.txt`, snapshot w repo `src/htaccess/htaccess-2026-08-24.txt`. **Regres na 62 adresach wobec stanu sprzed audytu: dokładnie dwie różnice, obie zamierzone** — `/wapno-do-stawow/` 404 → 301 i `/rybactwo-kat-archiwum/` 200 → 301. **Zero 404 w całym zestawie.** Newralgiczne 200, panel 302. **Store API nadal `"price":"0"` na wszystkich sprawdzonych** — warstwa ofertownika nietknięta | R | 0,5 h |
 | Uruchomienie kampanii Google Ads, konto 674-207-1446 | ADR `2026-08-13-uruchomienie-kampanii-ads.md`, kampanie żywe od 13.08 | P | 5 h* |
 | Geoblok bezpieczeństwa | `src/plugins/agria-by-auranet/security-geoblock.php`, wdrożony 14.08. **T-048 domknięty 19.08:** boty pomiarowe dopisane do `$good_bots` (commit `34cd965`, backup `security-geoblock.php.bak-2026-08-19`), PSI 19.08 17:03 przechodzi — mobile score 0,69 / LCP 7,3 s, desktop 0,95 / LCP 1,5 s, `runtimeError: None`, `finalUrl: https://agria.pl/`. `AdsBot-Google` na liście (linia 64) — reklamy mają dostęp do landingów. Zwykły ruch: HTTP 200. Pomiary: `tmp/psi-T048-2026-08-19-1703.json` | R | 5 h* + 0,3 h |
 | OLX: treści, siatka 53 miejscowości, spięcie z Partner API | `data/olx/`, `scripts/olx/` — czeka wyłącznie na pakiet Premium po stronie AGRII | P | 5 h* |
@@ -260,27 +324,27 @@ wykonane przez Pawła). **Do końca M3 jedenaście dni.**
 | Kiedy | Co |
 |---|---|
 | **26.08** | ✅ **T-086 zamknięte jako niepotrzebne** — passthrough był już w GTM. Realna zmiana z 24.08 to `phone_click` jako konwersja główna |
+| **28.08** | **Faza 0** — **T-089** linki do dwóch sierot · **T-090** terminarz: linki i odświeżenie `lastmod` · **T-072** cztery brakujące reguły 301 i menu Rybactwo · **T-091** dwa martwe linki · **T-095** term 766 |
 | **28.08** | **T-088** — synchronizacja workspace GTM przed jakąkolwiek zmianą w kontenerze |
 | **31.08** | **T-058** ocena ścieżki kontaktu — **przesunięta z 28.08**, bo pomiar naprawiono dopiero 24.08 i potrzebuje 7 dni. Bez T-086 i T-087 odczyt pokaże zero z niedziałającego pomiaru, nie zero telefonów — wtedy przesunąć, nie interpretować |
 | **31.08** | **T-031** warianty responsywne hero (686 KB → ~150 KB) przed szczytem październikowym |
 | **31.08** | Koniec M3. Raport miesięczny dla AGRII — punkt odniesienia `docs/raporty/DOWODY_M2_2026-07.md` |
-| **31.08** | Rozliczenie pierwszego miesiąca budżetu Ads (wydane 199,62 zł z 1 200 zł na 19.08) |
-| **04.09** | **Kontrola CTR huba `/wapnowanie-gleby/`** — 14 dni od zmiany meta z T-053. Baseline do porównania: 08–20.08 = 9 452 wyśw., 54 klik., CTR 0,57%, poz. 6,2 |
-| **01.09** | Przypomnienie kalendarzowe „menu — segmenty M4" (`docs/przypomnienia/2026-09-01-menu-segmenty-m4.md`). **Od 24.08 nieaktualne jako osobne zadanie** — każda z trzech pozycji menu wraca razem ze swoją treścią: Rybactwo w T-072, Hurtownie w T-082, Sadownictwo w T-083 |
+| **31.08** | Rozliczenie pierwszego miesiąca budżetu Ads (13–23.08: **215 kliknięć, 396,18 zł, zero konwersji**, 71% budżetu na dwa landingi `noindex`) |
+| **01.09** | Przypomnienie kalendarzowe „menu — segmenty M4". **Nieaktualne jako osobne zadanie** — Rybactwo wraca w T-072 (28.08), Sadownictwo w T-083 (30.11), Hurtownie razem z T-082 (przesunięte na VII 2027) |
 | **02.09** | Odczyt kontrolny GSC dla `/do-pobrania/` — jednorazowy, T-027 zamknięte |
-| **05.09** | **T-070** przebudowa wpisu o stawie · **T-072** 301 z `/wapno-do-stawow/` i menu Rybactwo · **T-067** źródła IUNG w repo |
-| **10.09** | **T-073** hub `/jakie-wapno-na-pole/` |
-| **12.09** | **T-071** poradnik o kredzie do stawu |
-| **20.09** | **T-074** spoke ziemniaki |
-| **30.09** | **T-077** poradnik o kredzie pastewnej · **T-078** opis kategorii `/paszarstwo/` |
-| **05.10** | **T-082** strona tonażowa `/wapno-nawozowe-hurt/` + menu Hurtownie — przed szczytem `wapno granulowane` (X: 8 100) |
-| **10.10** | **T-084** wzmocnienie landingu stabilizacyjnego — szczyt `wapno palone` (X–XI: 3 600) |
-| **20.10** | **T-085** budownictwo, druga połowa zobowiązania z maila do Kasjana |
-| **31.10** | **T-080** poradnik o pH i odczynie |
-| **15.11** | **T-081** poradnik o badaniu gleby |
-| **30.11** | **T-083** landing sadowniczy + menu Sadownictwo |
-| **15.12** | **T-075** spoke łąki |
+| **04.09** | **Kontrola CTR huba `/wapnowanie-gleby/`** — 14 dni od zmiany meta z T-053. Baseline: 08–20.08 = 9 452 wyśw., 54 klik., CTR 0,57%, poz. 6,2. Odniesienie 90-dniowe (26.05–23.08): **21 183 / 122 / 0,58% / poz. 7,1** |
+| **05.09** | **T-067** — źródła IUNG-PIB w repo. `data/zrodla/` nadal nie istnieje |
+| **05.09** | **T-092** opis kategorii `/wapno-nawozowe-rolnictwo/` |
+| **12.09** | **T-078** opis kategorii `/paszarstwo/` |
+| **📌 15.09** | **KONTROLA — czy Google pobrał którykolwiek adres z Fazy 0.** Warunek wejścia w Fazę 2. Jeśli żaden — **wracamy z pytaniem, nie z kolejnym artykułem** |
+| **20.09** | **T-074** spoke ziemniaki · **T-085** kategoria `/wapno-hydratyzowane/` · **T-093** `/wapno-do-oczyszczalni/` |
+| **30.09** | **T-077** poradnik o kredzie pastewnej |
+| **10.10** | **T-071** poradnik o kredzie do stawu · **T-070** przebudowa wpisu o stawach karpiowych |
+| **20.10** | **T-080** poradnik o pH i odczynie |
+| **31.10** | **T-081** poradnik o badaniu gleby — ⚠️ fraza ma **dwa szczyty**, VIII i III, nie tylko wiosenny |
+| **30.11** | **T-083** landing sadowniczy + menu Sadownictwo — ⚠️ **XI jest wtórnym szczytem (260)**, sprostowanie zapisu „XI to 40" |
 | **XII–II** | Okno bez kosztu na **T-068** — przebudowę struktury adresów |
+| **VII 2027** | **T-082** strona tonażowa (klaster szczytuje w VIII) · **T-076** spoke zboża ozime (blokada T-067) |
 
 ## Pytania do Pawła — wiedza klienta, nie nasza
 
@@ -291,8 +355,13 @@ Każde blokuje konkretną pozycję. Rozwinięcie: `docs/FAKTY_KLIENTA.md` → �
 2. **Czy budownictwo i drogownictwo to realne segmenty?** Oferta handlowa ich nie wymienia, katalog tak.
    → warunek **T-085** (blok F, budownictwo, termin 20.10). Drogownictwo wykluczone osobno — AGRIA nie sprzedaje kruszyw.
 3. Zgoda na przywrócenie form dostawy jako atutu, nie MOQ → warunek części **T-037**.
-4. Ceny dla czterech brakujących kart — Dolomit (302), Kreda czarna (303), Tlenkowe z Mg (313),
-   Węglanowe odm. 05 (316). **Dolomit priorytetowo: 6 600 wyszukań/mies.** → rozszerza **T-010**.
+4. Ceny dla **trzech** brakujących kart — Kreda czarna (303), Tlenkowe z Mg (313), Węglanowe odm. 05 (316).
+   ~~Dolomit (302)~~ — **ceny przyszły 24.08**, patrz **T-100**. ⚠️ Zapis „Dolomit priorytetowo: 6 600
+   wyszukań/mies." **wycofany**: wolumen jest prawdziwy, ale SERP na „dolomit" jest rozszczepiony
+   (Wikipedia, kruszywo, suplement diety) i kartą produktu nieadresowalny — audyt 24.08 §6 D10.
+4a. **Której formy dostawy dotyczą ceny Dolomitu?** Od 260 zł/t netto dla frakcji 0,1–0,4 i 0,4–0,8 mm,
+   280 zł/t netto dla 1–3 mm — luz 24 t, big-bag czy worki? → blokuje **T-100**. Kwota bez warunku
+   dostawy nie wchodzi na kartę.
 5. Błędy w katalogu drukowanym do erraty: pH >16 przy wapnie palonym, kreda pastewna opisana
    parametrami wapna tlenkowego, „35 lat" zamiast 37.
 6. Pozycja „Wapno hydratyzowane Bielik, worki 25 kg — 1245/SZT" — niemal na pewno literówka (12,45).

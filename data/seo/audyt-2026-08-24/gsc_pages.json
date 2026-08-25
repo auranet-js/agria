@@ -1,0 +1,435 @@
+{
+ "okres": [
+  "2026-05-26",
+  "2026-08-23"
+ ],
+ "strony": [
+  {
+   "url": "https://agria.pl/wapnowanie-gleby/",
+   "imp": 21183,
+   "clicks": 122,
+   "ctr": 0.58,
+   "pos": 7.1
+  },
+  {
+   "url": "https://agria.pl/",
+   "imp": 3528,
+   "clicks": 143,
+   "ctr": 4.05,
+   "pos": 14.4
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/",
+   "imp": 1360,
+   "clicks": 19,
+   "ctr": 1.4,
+   "pos": 9.1
+  },
+  {
+   "url": "https://agria.pl/kalkulator-wapnowania/",
+   "imp": 1173,
+   "clicks": 45,
+   "ctr": 3.84,
+   "pos": 7.2
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+   "imp": 997,
+   "clicks": 11,
+   "ctr": 1.1,
+   "pos": 6.9
+  },
+  {
+   "url": "https://agria.pl/wapno-do-oczyszczalni/",
+   "imp": 806,
+   "clicks": 32,
+   "ctr": 3.97,
+   "pos": 9.5
+  },
+  {
+   "url": "https://agria.pl/kontakt/",
+   "imp": 799,
+   "clicks": 69,
+   "ctr": 8.64,
+   "pos": 4.8
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+   "imp": 455,
+   "clicks": 1,
+   "ctr": 0.22,
+   "pos": 19.7
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/oxyfertil-90/",
+   "imp": 430,
+   "clicks": 29,
+   "ctr": 6.74,
+   "pos": 6.2
+  },
+  {
+   "url": "https://agria.pl/oferta/",
+   "imp": 316,
+   "clicks": 4,
+   "ctr": 1.27,
+   "pos": 11.3
+  },
+  {
+   "url": "https://agria.pl/wapno-hydratyzowane/bielik/",
+   "imp": 301,
+   "clicks": 9,
+   "ctr": 2.99,
+   "pos": 7.3
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+   "imp": 289,
+   "clicks": 6,
+   "ctr": 2.08,
+   "pos": 6.3
+  },
+  {
+   "url": "https://agria.pl/kreda-pastewna/",
+   "imp": 253,
+   "clicks": 6,
+   "ctr": 2.37,
+   "pos": 11.0
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+   "imp": 245,
+   "clicks": 1,
+   "ctr": 0.41,
+   "pos": 13.9
+  },
+  {
+   "url": "https://agria.pl/kreda-malarska/kreda-malarska/",
+   "imp": 215,
+   "clicks": 6,
+   "ctr": 2.79,
+   "pos": 7.4
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/wapno-zawierajace-magnez-big-bag-1000kg/",
+   "imp": 204,
+   "clicks": 2,
+   "ctr": 0.98,
+   "pos": 14.9
+  },
+  {
+   "url": "https://agria.pl/wapno-hydratyzowane/wapno-hydratyzowane-bielik-luz/",
+   "imp": 181,
+   "clicks": 5,
+   "ctr": 2.76,
+   "pos": 10.1
+  },
+  {
+   "url": "https://agria.pl/wapno-hydratyzowane/",
+   "imp": 172,
+   "clicks": 2,
+   "ctr": 1.16,
+   "pos": 31.3
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/wapno-agrobielik-70-big-bag-1000kg/",
+   "imp": 168,
+   "clicks": 7,
+   "ctr": 4.17,
+   "pos": 8.7
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-70/",
+   "imp": 163,
+   "clicks": 7,
+   "ctr": 4.29,
+   "pos": 7.5
+  },
+  {
+   "url": "https://agria.pl/wykwity-na-murze/",
+   "imp": 159,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 7.2
+  },
+  {
+   "url": "https://agria.pl/wapno-do-sadu/wapno-weglanowe-zawierajace-magnez-luz-2/",
+   "imp": 133,
+   "clicks": 2,
+   "ctr": 1.5,
+   "pos": 5.7
+  },
+  {
+   "url": "https://agria.pl/paszarstwo/kreda-pastewna/",
+   "imp": 132,
+   "clicks": 2,
+   "ctr": 1.52,
+   "pos": 8.4
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/wapno-oxyfertil-90-frakcja-3-8mm-big-bag-1000kg/",
+   "imp": 127,
+   "clicks": 3,
+   "ctr": 2.36,
+   "pos": 6.0
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-luz/",
+   "imp": 126,
+   "clicks": 2,
+   "ctr": 1.59,
+   "pos": 8.4
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/",
+   "imp": 107,
+   "clicks": 5,
+   "ctr": 4.67,
+   "pos": 20.4
+  },
+  {
+   "url": "https://agria.pl/zamowienia/",
+   "imp": 99,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 2.8
+  },
+  {
+   "url": "https://agria.pl/tynki-rodzaje-kategorie/",
+   "imp": 84,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 9.3
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/kreda-nawozowa-granulowana-big-bag-500kg/",
+   "imp": 81,
+   "clicks": 2,
+   "ctr": 2.47,
+   "pos": 6.0
+  },
+  {
+   "url": "https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone-wysokoreaktywne-luz-24t/",
+   "imp": 68,
+   "clicks": 13,
+   "ctr": 19.12,
+   "pos": 3.7
+  },
+  {
+   "url": "https://agria.pl/paszarstwo/",
+   "imp": 67,
+   "clicks": 2,
+   "ctr": 2.99,
+   "pos": 13.4
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+   "imp": 61,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 13.4
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-granulowane-big-bag-600kg/",
+   "imp": 56,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 9.1
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2023/06/5.pdf",
+   "imp": 48,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 4.9
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/kreda-czarnajeziorna-z-kwasami-humusowymi-i-weglem-organicznym-big-bag-600kg/",
+   "imp": 45,
+   "clicks": 1,
+   "ctr": 2.22,
+   "pos": 5.4
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/kreda-nawozowa-sypka-luz/",
+   "imp": 43,
+   "clicks": 2,
+   "ctr": 4.65,
+   "pos": 4.2
+  },
+  {
+   "url": "https://agria.pl/kreda-pastewna/kreda-pastewna-worek-30kg/",
+   "imp": 39,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 7.8
+  },
+  {
+   "url": "https://agria.pl/rodo/",
+   "imp": 34,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 2.6
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-hurt/kreda-malarska-worek-30kg/",
+   "imp": 31,
+   "clicks": 1,
+   "ctr": 3.23,
+   "pos": 6.5
+  },
+  {
+   "url": "https://agria.pl/wapno-do-sadu/",
+   "imp": 31,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 9.4
+  },
+  {
+   "url": "https://agria.pl/cement-czym-jest-jak-powstaje-i-jakie-sa-jego-klasy/",
+   "imp": 25,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 9.7
+  },
+  {
+   "url": "https://agria.pl/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+   "imp": 25,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 15.8
+  },
+  {
+   "url": "https://agria.pl/poradniki/",
+   "imp": 16,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 4.3
+  },
+  {
+   "url": "https://agria.pl/oferta/?product_cat=wapno-nawozowe-hurt",
+   "imp": 15,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 18.4
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2026/03/karta-charakterystyki-diwodorotlenek-wapnia-cl-90-s.pdf",
+   "imp": 11,
+   "clicks": 1,
+   "ctr": 9.09,
+   "pos": 4
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2020/05/IMG_0011.pdf",
+   "imp": 11,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 7.2
+  },
+  {
+   "url": "https://agria.pl/product-category/orange/?add-to-cart=13120",
+   "imp": 9,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 5.1
+  },
+  {
+   "url": "https://agria.pl/produkt/organic-pineapple/",
+   "imp": 6,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 4.5
+  },
+  {
+   "url": "https://agria.pl/gospodarstwa-rybackie/",
+   "imp": 5,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 4
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2026/03/karta-produktu-wapno-palone-kruszone.pdf",
+   "imp": 4,
+   "clicks": 1,
+   "ctr": 25.0,
+   "pos": 5.8
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2026/03/certyfikat-zgodnosci-we-cem-ii-b-m-32-5-r-dyckerhoff.pdf",
+   "imp": 3,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 13.7
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2026/03/karta-produktu-wapno-palone-w-brylach.pdf",
+   "imp": 3,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 9.7
+  },
+  {
+   "url": "https://agria.pl/oferta/drogownictwo/kruszywa/",
+   "imp": 2,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 1.5
+  },
+  {
+   "url": "https://agria.pl/wishlist-2/",
+   "imp": 2,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 10
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2023/06/9.pdf",
+   "imp": 2,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 9
+  },
+  {
+   "url": "https://agria.pl/budownictwoagria/",
+   "imp": 1,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 17
+  },
+  {
+   "url": "https://agria.pl/em_services/fresh-organic-vegetable/",
+   "imp": 1,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 6
+  },
+  {
+   "url": "https://agria.pl/oferta/gospodarstwa-rybackie-3/",
+   "imp": 1,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 1
+  },
+  {
+   "url": "https://agria.pl/user_files/files/IMG(1).pdf",
+   "imp": 1,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 10
+  },
+  {
+   "url": "https://agria.pl/wapno-do-sadu/mieszanka-tlenkowo-weglanowa-luz/",
+   "imp": 1,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 10
+  },
+  {
+   "url": "https://agria.pl/wp-content/uploads/2023/06/11.pdf",
+   "imp": 1,
+   "clicks": 0,
+   "ctr": 0,
+   "pos": 29
+  }
+ ]
+}

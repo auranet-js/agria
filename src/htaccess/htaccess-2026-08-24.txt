@@ -1,0 +1,75 @@
+# BEGIN AGRIA 301 (rdzen URL 2026-07-08)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^wapno-nawozowe-hurt/wapno-agrobielik-70-big-bag-1000kg/?$ /wapno-nawozowe-rolnictwo/agrobielik-70/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/wapno-agrobielik-90-big-bag-1000kg/?$ /wapno-nawozowe-rolnictwo/agrobielik-90/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/wapno-oxyfertil-90-frakcja-3-8mm-big-bag-1000kg/?$ /wapno-nawozowe-rolnictwo/oxyfertil-90/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/wapno-zawierajace-magnez-big-bag-1000kg/?$ /wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/ [R=301,L]
+RewriteRule ^wapno-do-sadu/mieszanka-tlenkowo-weglanowa-luz/?$ /wapno-nawozowe-rolnictwo/mieszanka-tlenkowo-weglanowa/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-granulowane-big-bag-600kg/?$ /wapno-nawozowe-rolnictwo/weglanowe-granulowane/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-luz/?$ /wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/ [R=301,L]
+RewriteRule ^wapno-do-sadu/wapno-weglanowe-bez-magnezu-luz-2/?$ /wapno-nawozowe-rolnictwo/weglanowe-odmiana-05/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/wapno-weglanowe-zawierajace-magnez-granulowane-big-bag-600kg/?$ /wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/ [R=301,L]
+RewriteRule ^wapno-do-sadu/wapno-weglanowe-zawierajace-magnez-luz/?$ /wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-04/ [R=301,L]
+RewriteRule ^wapno-do-sadu/wapno-weglanowe-zawierajace-magnez-luz-2/?$ /wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/kreda-nawozowa-granulowana-big-bag-500kg/?$ /wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/kreda-nawozowa-sypka-luz/?$ /wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/ [R=301,L]
+RewriteRule ^kreda-pastewna/kreda-pastewna-worek-30kg/?$ /paszarstwo/kreda-pastewna/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/dolomit-worek-25kg/?$ /wapno-nawozowe-rolnictwo/dolomit/ [R=301,L]
+RewriteRule ^wapno-hydratyzowane/wapno-hydratyzowane-bielik-luz/?$ /wapno-hydratyzowane/bielik/ [R=301,L]
+RewriteRule ^wapno-do-oczyszczalni/wapno-palone-mielone-wysokoreaktywne-luz-24t/?$ /wapno-do-oczyszczalni/wapno-palone-mielone/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/kreda-czarnajeziorna-z-kwasami-humusowymi-i-weglem-organicznym-big-bag-600kg/?$ /wapno-nawozowe-rolnictwo/kreda-czarna-jeziorna/ [R=301,L]
+RewriteRule ^wapno-nawozowe-hurt/kreda-malarska-worek-30kg/?$ /kreda-malarska/kreda-malarska/ [R=301,L]
+RewriteRule ^kreda-pastewna/?$ /paszarstwo/ [R=301,L]
+# puste archiwa kategorii (0 produktow po migracji) -> katalog
+RewriteRule ^wapno-nawozowe-hurt/?$ /oferta/ [R=301,L]
+RewriteRule ^wapno-do-sadu/?$ /oferta/ [R=301,L]
+# stara baza kategorii produktowych -> czysty URL (T-032, 2026-08-19)
+# Reguly jawne, nie generyczne: piec istniejacych kategorii z product_cat-sitemap.xml.
+# Generyczny wzorzec ^kategoria-produktu/(.+) przekierowywalby takze nieistniejace
+# adresy, zamieniajac natychmiastowe 404 na 301 do 404.
+RewriteRule ^kategoria-produktu/wapno-nawozowe-rolnictwo/?$ /wapno-nawozowe-rolnictwo/ [R=301,L]
+RewriteRule ^kategoria-produktu/wapno-do-oczyszczalni/?$ /wapno-do-oczyszczalni/ [R=301,L]
+RewriteRule ^kategoria-produktu/wapno-hydratyzowane/?$ /wapno-hydratyzowane/ [R=301,L]
+RewriteRule ^kategoria-produktu/paszarstwo/?$ /paszarstwo/ [R=301,L]
+RewriteRule ^kategoria-produktu/kreda-malarska/?$ /kreda-malarska/ [R=301,L]
+RewriteRule ^kategoria-produktu/?$ /oferta/ [R=301,L]
+
+# brakujace reguly (audyt 2026-08-24, T-072)
+# Slug kategorii 766 zostal zwolniony pod landing 21.08 i regula zniknela -> adres oddawal 404.
+RewriteRule ^wapno-do-stawow/?$ /wapno-do-stawu/ [R=301,L]
+# Trzy puste kategorie pominiete przez T-032 (regulami objeto tylko piec z product_cat-sitemap.xml).
+# Cel bezposredni, nie przez /wapno-do-sadu/ ani /wapno-nawozowe-hurt/ - te same przekierowuja.
+RewriteRule ^kategoria-produktu/wapno-do-sadu/?$ /oferta/ [R=301,L]
+RewriteRule ^kategoria-produktu/wapno-nawozowe-hurt/?$ /oferta/ [R=301,L]
+RewriteRule ^kategoria-produktu/rybactwo-kat-archiwum/?$ /wapno-do-stawu/ [R=301,L]
+# Term 766 usuniety 24.08 (T-095) - slug przestal istniec, adres oddawal 404.
+RewriteRule ^rybactwo-kat-archiwum/?$ /wapno-do-stawu/ [R=301,L]
+</IfModule>
+# END AGRIA 301
+
+# This file was updated by Duplicator Pro on 2026-03-27 10:16:12.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# Dyrektywy zawarte między „BEGIN WordPress” oraz „END WordPress” są generowane dynamicznie i powinny być modyfikowane tylko za pomocą
+# filtrów WordPressa. Zmiany dokonane bezpośrednio tutaj będą nadpisywane.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN AGRIA SECURITY HEADERS (2026-07-30, Auranet)
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=()"
+Header always set Strict-Transport-Security "max-age=15768000" env=HTTPS
+</IfModule>
+# END AGRIA SECURITY HEADERS
