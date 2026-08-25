@@ -38,5 +38,21 @@
   "bez_auto_extend": 0,
   "brak_na_koncie": 0,
   "dni_pakietu": 23
+ },
+ {
+  "kiedy": "2026-08-25 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 22
+ },
+ {
+  "kiedy": "2026-08-25 09:53",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 22
  }
 ]
