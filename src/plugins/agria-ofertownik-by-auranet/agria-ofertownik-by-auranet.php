@@ -2,7 +2,7 @@
 /**
  * Plugin Name: AGRIA Ofertownik by Auranet
  * Description: Wycena zamowienia z transportem z wlasciwego zakladu — narzedzie wewnetrzne dzialu handlowego.
- * Version:     0.1.0
+ * Version:     0.3.0
  * Author:      Auranet
  * Text Domain: agria-ofertownik
  * Requires PHP: 8.0
@@ -17,14 +17,20 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AGRIA_OF_VERSION', '0.1.0' );
+define( 'AGRIA_OF_VERSION', '0.3.0' );
 define( 'AGRIA_OF_DIR', plugin_dir_path( __FILE__ ) );
 define( 'AGRIA_OF_URL', plugin_dir_url( __FILE__ ) );
+
+// Uprawnienie do ofertownika. Musi byc widoczne TAKZE na froncie — ekran /wycena/ nie jest w panelu.
+define( 'AGRIA_OF_CAP', 'manage_woocommerce' );
 
 require_once AGRIA_OF_DIR . 'inc/db.php';
 require_once AGRIA_OF_DIR . 'inc/ustawienia.php';
 require_once AGRIA_OF_DIR . 'inc/cennik.php';
 require_once AGRIA_OF_DIR . 'inc/zaklady.php';
+require_once AGRIA_OF_DIR . 'inc/odleglosci.php';
+require_once AGRIA_OF_DIR . 'inc/wycena.php';
+require_once AGRIA_OF_DIR . 'inc/ekran.php';
 if ( is_admin() ) {
 	require_once AGRIA_OF_DIR . 'inc/admin.php';
 }
@@ -33,6 +39,7 @@ register_activation_hook( __FILE__, 'agria_of_aktywacja' );
 
 function agria_of_aktywacja(): void {
 	agria_of_db_utworz_tabele();
+	agria_of_db_utworz_tabele_geo();
 	agria_of_ustawienia_zasiej();
 	add_option( 'agria_of_wersja_db', AGRIA_OF_VERSION );
 }
@@ -44,6 +51,7 @@ function agria_of_aktywacja(): void {
 add_action( 'plugins_loaded', function (): void {
 	if ( get_option( 'agria_of_wersja_db' ) !== AGRIA_OF_VERSION ) {
 		agria_of_db_utworz_tabele();
+		agria_of_db_utworz_tabele_geo();
 		update_option( 'agria_of_wersja_db', AGRIA_OF_VERSION );
 	}
 }, 5 );

@@ -122,33 +122,97 @@ function agria_of_wspolrzedne_zakladu( int $term_id ): ?array {
 	return ( $lat && $lon ) ? [ 'lat' => (float) $lat, 'lon' => (float) $lon ] : null;
 }
 
-function agria_of_zasiej_wspolrzedne_zakladow(): array {
+/**
+ * Wojewodztwo z dwoch pierwszych cyfr kodu pocztowego.
+ *
+ * Bez tego dopasowanie po samej nazwie MYLI ZAKLADY — sprawdzone 22.08.2026 na zywych danych:
+ * Checiny trafily do lubuskiego zamiast pod Kielce, Lagow do dolnoslaskiego, Kornica pod Radom
+ * zamiast pod Losice, Bukowa do lodzkiego. Cztery bledy na czternascie zakladow, kazdy wart
+ * kilkuset kilometrow w wycenie transportu.
+ *
+ * Obszary pocztowe nie pokrywaja sie idealnie z granicami wojewodztw, wiec to filtr, nie wyrocznia:
+ * gdy w danym wojewodztwie nie ma kandydata, wracamy do nazwy i oznaczamy pozycje do sprawdzenia.
+ */
+function agria_of_wojewodztwo_z_kodu( ?string $kod ): ?string {
+	if ( ! $kod || ! preg_match( '/^(\d{2})/', $kod, $m ) ) {
+		return null;
+	}
+	$p = (int) $m[1];
+	return match ( true ) {
+		$p <= 9              => 'mazowieckie',
+		$p >= 10 && $p <= 14 => 'warmińsko-mazurskie',
+		$p >= 15 && $p <= 19 => 'podlaskie',
+		$p >= 20 && $p <= 24 => 'lubelskie',
+		$p >= 25 && $p <= 29 => 'świętokrzyskie',
+		$p >= 30 && $p <= 34 => 'małopolskie',
+		$p >= 35 && $p <= 39 => 'podkarpackie',
+		$p >= 40 && $p <= 44 => 'śląskie',
+		$p >= 45 && $p <= 49 => 'opolskie',
+		$p >= 50 && $p <= 59 => 'dolnośląskie',
+		$p >= 60 && $p <= 64 => 'wielkopolskie',
+		$p >= 65 && $p <= 69 => 'lubuskie',
+		$p >= 70 && $p <= 78 => 'zachodniopomorskie',
+		$p >= 80 && $p <= 84 => 'pomorskie',
+		$p >= 85 && $p <= 89 => 'kujawsko-pomorskie',
+		$p >= 90             => 'łódzkie',
+		default              => null,
+	};
+}
+
+function agria_of_zasiej_wspolrzedne_zakladow( bool $nadpisz = false ): array {
 	global $wpdb;
-	$tab    = agria_of_tabela( 'miejscowosci' );
-	$wynik  = [];
-	$termy  = get_terms( [ 'taxonomy' => AGRIA_OF_TAX_ZAKLAD, 'hide_empty' => true ] );
+	$tab   = agria_of_tabela( 'miejscowosci' );
+	$wynik = [];
+	$termy = get_terms( [ 'taxonomy' => AGRIA_OF_TAX_ZAKLAD, 'hide_empty' => true ] );
 
 	foreach ( $termy as $t ) {
-		if ( agria_of_wspolrzedne_zakladu( $t->term_id ) ) {
-			$wynik[ $t->name ] = 'juz bylo';
+		if ( ! $nadpisz && agria_of_wspolrzedne_zakladu( $t->term_id ) ) {
+			$wynik[ $t->name ] = [ 'stan' => 'bez zmian' ];
 			continue;
 		}
 		$nazwa = agria_of_nazwa_zakladu( $t->name );
-		$m = $wpdb->get_row( $wpdb->prepare(
-			"SELECT * FROM {$tab} WHERE nazwa=%s ORDER BY CHAR_LENGTH(nazwa) LIMIT 1", $nazwa
-		), ARRAY_A );
-		if ( ! $m ) {
+		$kod   = agria_of_kod_zakladu( $t->name );
+		$woj   = agria_of_wojewodztwo_z_kodu( $kod );
+
+		$m = null;
+		$przyblizone = false;
+		if ( $woj ) {
 			$m = $wpdb->get_row( $wpdb->prepare(
-				"SELECT * FROM {$tab} WHERE nazwa LIKE %s ORDER BY CHAR_LENGTH(nazwa) LIMIT 1",
-				$wpdb->esc_like( $nazwa ) . '%'
+				"SELECT * FROM {$tab} WHERE nazwa=%s AND wojewodztwo=%s LIMIT 1", $nazwa, $woj
+			), ARRAY_A );
+			if ( ! $m ) {
+				// PREFIKS, nie wildcard z obu stron. Obustronny zlapal „Piskornice" jako „Kornice"
+				// i postawil zaklad 180 km od wlasciwego miejsca (zmierzone 22.08.2026).
+				$m = $wpdb->get_row( $wpdb->prepare(
+					"SELECT * FROM {$tab} WHERE nazwa LIKE %s AND wojewodztwo=%s ORDER BY CHAR_LENGTH(nazwa) LIMIT 1",
+					$wpdb->esc_like( $nazwa ) . '%', $woj
+				), ARRAY_A );
+				$przyblizone = (bool) $m;
+			}
+		}
+		$pewne = (bool) $m && empty( $przyblizone );
+		if ( ! $m ) {
+			// Kod nie pomogl — bierzemy najlepsze trafienie po nazwie, ale ZAZNACZAMY do sprawdzenia.
+			$m = $wpdb->get_row( $wpdb->prepare(
+				"SELECT * FROM {$tab} WHERE nazwa=%s ORDER BY CHAR_LENGTH(nazwa) LIMIT 1", $nazwa
 			), ARRAY_A );
 		}
+
 		if ( $m ) {
 			update_term_meta( $t->term_id, 'agria_of_lat', $m['lat'] );
 			update_term_meta( $t->term_id, 'agria_of_lon', $m['lon'] );
-			$wynik[ $t->name ] = "{$m['nazwa']} ({$m['wojewodztwo']}) {$m['lat']}, {$m['lon']}";
+			update_term_meta( $t->term_id, 'agria_of_geo_pewne', $pewne ? '1' : '0' );
+			$wynik[ $t->name ] = [
+				'stan'        => $pewne ? 'ok' : 'DO SPRAWDZENIA',
+				'miejscowosc' => $m['nazwa'],
+				'powiat'      => $m['powiat'],
+				'wojewodztwo' => $m['wojewodztwo'],
+				'oczekiwane'  => $woj,
+				'lat'         => $m['lat'],
+				'lon'         => $m['lon'],
+			];
 		} else {
-			$wynik[ $t->name ] = 'NIE DOPASOWANO — wpisz recznie';
+			$wynik[ $t->name ] = [ 'stan' => 'NIE DOPASOWANO', 'oczekiwane' => $woj ];
 		}
 	}
 	return $wynik;
@@ -217,4 +281,27 @@ function agria_of_odleglosc( int $zaklad_term_id, int $miejscowosc_id ): array {
 	] );
 
 	return [ 'km' => $km, 'zrodlo' => $zrodlo, 'pewne' => $zrodlo === 'osrm' ];
+}
+
+/** Kandydaci na zaklad — do recznego wyboru w panelu, gdy dopasowanie automatyczne nie jest pewne. */
+function agria_of_kandydaci_zakladu( string $nazwa_termu, int $limit = 15 ): array {
+	global $wpdb;
+	$nazwa = agria_of_nazwa_zakladu( $nazwa_termu );
+	$woj   = agria_of_wojewodztwo_z_kodu( agria_of_kod_zakladu( $nazwa_termu ) );
+	$tab   = agria_of_tabela( 'miejscowosci' );
+	return $wpdb->get_results( $wpdb->prepare(
+		"SELECT id, nazwa, powiat, wojewodztwo, lat, lon
+		 FROM {$tab} WHERE nazwa LIKE %s
+		 ORDER BY CASE WHEN wojewodztwo=%s THEN 0 ELSE 1 END, CHAR_LENGTH(nazwa) LIMIT %d",
+		'%' . $wpdb->esc_like( $nazwa ) . '%', (string) $woj, $limit
+	), ARRAY_A );
+}
+
+function agria_of_ustaw_wspolrzedne_zakladu( int $term_id, float $lat, float $lon, bool $pewne = true ): void {
+	update_term_meta( $term_id, 'agria_of_lat', $lat );
+	update_term_meta( $term_id, 'agria_of_lon', $lon );
+	update_term_meta( $term_id, 'agria_of_geo_pewne', $pewne ? '1' : '0' );
+	// Trasy liczone od starego punktu przestaja byc wazne.
+	global $wpdb;
+	$wpdb->delete( agria_of_tabela( 'trasy' ), [ 'zaklad_term_id' => $term_id ] );
 }

@@ -9,7 +9,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-const AGRIA_OF_CAP = 'manage_woocommerce';
+
 
 add_action( 'admin_menu', function (): void {
 	add_menu_page( 'Ofertownik', 'Ofertownik', AGRIA_OF_CAP, 'agria-of-cennik',
