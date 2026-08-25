@@ -74,6 +74,7 @@ function agria_of_paleta_domyslne(): array {
 function agria_of_ustawienia_zasiej(): void {
 	add_option( AGRIA_OF_OPCJA_TRANSPORT, agria_of_transport_domyslne() );
 	add_option( AGRIA_OF_OPCJA_PALETA, agria_of_paleta_domyslne() );
+	add_option( AGRIA_OF_GUS_OPCJA, '' );
 }
 
 function agria_of_transport(): array {

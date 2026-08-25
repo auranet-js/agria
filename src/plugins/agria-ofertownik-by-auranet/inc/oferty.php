@@ -118,23 +118,32 @@ function agria_of_klient( array $dane ): int {
 
 /**
  * Zapisuje oferte jako stan zamrozony.
+
+/**
+ * Zapisuje oferte WIELOPOZYCYJNA jako stan zamrozony.
  *
- * @param array $wejscie  to samo, co poszlo do `agria_of_wycen`, plus dane klienta i kanal
- * @param array $w        wynik `agria_of_wycen`
+ * Wszystko w wartosciach, nie w referencjach do cennika: otwarcie oferty za dwa miesiace
+ * ma pokazac to, co klient uslyszal przez telefon, a nie przeliczyc sume po nowych cenach.
  */
 function agria_of_zapisz_oferte( array $wejscie, array $w ): int {
-	$produkt   = agria_of_tytul_produktu( (int) $wejscie['produkt_id'] );
 	$mie       = agria_of_miejscowosc( (int) ( $wejscie['miejscowosc_id'] ?? 0 ) );
+	$platnik   = json_decode( (string) ( $wejscie['klient_platnik'] ?? '' ), true );
 	$klient_id = agria_of_klient( [
-		'nazwa'       => $wejscie['klient_nazwa'] ?? '',
+		'nazwa'       => $wejscie['klient_nazwa'] ?? ( $platnik['nazwa'] ?? '' ),
 		'telefon'     => $wejscie['klient_telefon'] ?? '',
 		'nip'         => $wejscie['klient_nip'] ?? '',
 		'miejscowosc' => $mie['nazwa'] ?? '',
 	] );
+	if ( $klient_id && is_array( $platnik ) ) {
+		update_post_meta( $klient_id, 'agria_of_platnik', $platnik );
+	}
 
-	$tytul = sprintf( '%s — %s, %s t%s',
+	$ile = count( $w['pozycje'] );
+	$pierwsza = reset( $w['pozycje'] );
+	$tytul = sprintf( '%s — %s%s, %s t%s',
 		$mie['nazwa'] ?? '?',
-		$produkt,
+		$pierwsza['produkt'],
+		$ile > 1 ? sprintf( ' i %d %s', $ile - 1, $ile === 2 ? 'inna pozycja' : 'inne pozycje' ) : '',
 		$w['tony'],
 		! empty( $wejscie['klient_nazwa'] ) ? ' · ' . sanitize_text_field( $wejscie['klient_nazwa'] ) : ''
 	);
@@ -149,44 +158,79 @@ function agria_of_zapisz_oferte( array $wejscie, array $w ): int {
 		return 0;
 	}
 
-	// Stan zamrozony: wszystko, co potrzebne do odtworzenia rozmowy, w wartosciach — nie w referencjach.
+	$pozycje = [];
+	foreach ( $w['pozycje'] as $p ) {
+		$pozycje[] = [
+			'produkt_id'       => $p['produkt_id'],
+			'produkt'          => $p['produkt'],
+			'sku'              => $p['sku'],
+			'forma'            => $p['forma']['nazwa'],
+			'forma_klucz'      => $p['forma']['klucz'],
+			'frakcja'          => $p['frakcja'],
+			'ilosc'            => $p['ilosc'],
+			'jednostka'        => $p['jednostka'],
+			'tony'             => $p['tony'],
+			'palet'            => $p['palet'],
+			'zaklad'           => $p['zaklad']['nazwa'],
+			'zaklad_term_id'   => $p['zaklad']['term_id'],
+			'km'               => $p['zaklad']['km'],
+			// Sedno warstwy raportowej: proponowane OBOK podanego.
+			'cena_proponowana' => $p['cena_proponowana'],
+			'cena_podana'      => $p['cena'],
+			'cena_min'         => $p['cena_min'],
+			'wartosc'          => $p['wartosc'],
+		];
+	}
+
+	$grupy = [];
+	foreach ( $w['grupy'] as $g ) {
+		$grupy[] = [
+			'zaklad'         => $g['zaklad'],
+			'zaklad_term_id' => $g['zaklad_term_id'],
+			'km'             => $g['km'],
+			'km_pewne'       => $g['km_pewne'] ? 1 : 0,
+			'tony'           => $g['tony'],
+			'metoda'         => $g['metoda']['nazwa'] ?? '',
+			'metoda_id'      => $g['metoda']['metoda'] ?? '',
+			'kursy'          => $g['metoda']['kursy'] ?? 1,
+			'transport_proponowany' => $g['metoda']['koszt'] ?? 0,
+			'transport_podany'      => $g['koszt'],
+			'wypelnienie'    => $g['wypelnienie'] ?? null,
+		];
+	}
+
+	// Roznica wobec cennika liczona raz, przy zapisie — zeby lista ofert nie musiala jej wyliczac.
+	$prop = 0;
+	$pod  = 0;
+	foreach ( $w['pozycje'] as $p ) {
+		if ( $p['cena_proponowana'] !== null && $p['cena'] !== null ) {
+			$prop += (int) round( $p['cena_proponowana'] * $p['tony'] );
+			$pod  += $p['wartosc'];
+		}
+	}
+
 	$zapis = [
-		'klient_id'        => $klient_id,
-		'kanal'            => sanitize_text_field( $wejscie['kanal'] ?? 'inne' ),
-		'status'           => 'nowa',
-		'produkt_id'       => (int) $wejscie['produkt_id'],
-		'produkt'          => $produkt,
-		'sku'              => get_post_meta( (int) $wejscie['produkt_id'], '_sku', true ),
-		'miejscowosc'      => $mie['nazwa'] ?? '',
-		'miejscowosc_id'   => (int) ( $wejscie['miejscowosc_id'] ?? 0 ),
-		'wojewodztwo'      => $mie['wojewodztwo'] ?? '',
-		'forma'            => $w['forma']['nazwa'],
-		'forma_klucz'      => $w['forma']['klucz'],
-		'frakcja'          => (string) ( $wejscie['frakcja'] ?? '' ),
-		'tony'             => $w['tony'],
-		'palet'            => $w['palet'],
-		'jednostka'        => sanitize_text_field( $wejscie['jednostka'] ?? 'tona' ),
-		'ilosc_podana'     => (float) ( $wejscie['ilosc'] ?? 0 ),
-		'zaklad'           => $w['zaklad']['nazwa'],
-		'zaklad_term_id'   => $w['zaklad']['term_id'],
-		'km'               => $w['km'],
-		'km_pewne'         => $w['km_pewne'] ? 1 : 0,
-		'metoda'           => $w['metoda']['nazwa'] ?? '',
-		'metoda_id'        => $w['metoda']['metoda'] ?? '',
-		'kursy'            => $w['metoda']['kursy'] ?? 1,
-		'stan_transportu'  => $w['stan_transportu'],
-		// Sedno: proponowane OBOK podanego. Roznica jest tym, o co chodzi.
-		'cena_proponowana' => $w['cena_proponowana'],
-		'cena_podana'      => $w['cena_t'],
-		'cena_min'         => $w['cena_min'],
-		'transport_proponowany' => $w['metoda']['koszt'] ?? 0,
-		'transport_podany' => $w['transport'],
-		'wartosc_towaru'   => $w['wartosc_towaru'],
-		'za_tone'          => $w['za_tone_z_dostawa'],
-		'razem'            => $w['razem'],
-		'wystawil'         => get_current_user_id(),
-		'wystawiono'       => current_time( 'mysql' ),
-		'uwagi'            => sanitize_textarea_field( $wejscie['uwagi'] ?? '' ),
+		'klient_id'       => $klient_id,
+		'platnik'         => is_array( $platnik ) ? $platnik : '',
+		'kanal'           => sanitize_text_field( $wejscie['kanal'] ?? 'inne' ),
+		'status'          => 'nowa',
+		'miejscowosc'     => $mie['nazwa'] ?? '',
+		'miejscowosc_id'  => (int) ( $wejscie['miejscowosc_id'] ?? 0 ),
+		'wojewodztwo'     => $mie['wojewodztwo'] ?? '',
+		'pozycje'         => $pozycje,
+		'grupy'           => $grupy,
+		'ile_pozycji'     => $ile,
+		'tony'            => $w['tony'],
+		'stan_transportu' => $w['stan_transportu'],
+		'towar'           => $w['towar'],
+		'transport'       => $w['transport'],
+		'razem'           => $w['razem'],
+		'za_tone'         => $w['za_tone'],
+		'towar_wg_cennika'=> $prop,
+		'towar_podany'    => $pod,
+		'wystawil'        => get_current_user_id(),
+		'wystawiono'      => current_time( 'mysql' ),
+		'uwagi'           => sanitize_textarea_field( $wejscie['uwagi'] ?? '' ),
 	];
 	foreach ( $zapis as $k => $v ) {
 		update_post_meta( $id, 'agria_of_' . $k, $v );
@@ -199,22 +243,28 @@ add_action( 'wp_ajax_agria_of_zapisz', function (): void {
 	if ( ! current_user_can( AGRIA_OF_CAP ) ) {
 		wp_send_json_error( [], 403 );
 	}
-	$wejscie = wp_unslash( $_POST );
-	$w = agria_of_wycen( $wejscie );
-	if ( empty( $w['zaklad'] ) ) {
-		wp_send_json_error( [ 'blad' => $w['blad'] ?? 'Nie da się wycenić.' ] );
+	$dane = wp_unslash( $_POST );
+	$w = agria_of_wycen_koszyk(
+		(array) ( $dane['pozycje'] ?? [] ),
+		(int) ( $dane['miejscowosc_id'] ?? 0 ),
+		[
+			'stan_transportu' => sanitize_text_field( $dane['stan_transportu'] ?? 'wyliczony' ),
+			'km'              => (array) ( $dane['km'] ?? [] ),
+			'metoda'          => (array) ( $dane['metoda'] ?? [] ),
+			'transport'       => (array) ( $dane['transport'] ?? [] ),
+		]
+	);
+	if ( empty( $w['pozycje'] ) ) {
+		wp_send_json_error( [ 'blad' => 'Nie ma czego zapisać — wpisz ilość przy którejś pozycji.' ] );
 	}
-	$id = agria_of_zapisz_oferte( $wejscie, $w );
+	$id = agria_of_zapisz_oferte( $dane, $w );
 	if ( ! $id ) {
 		wp_send_json_error( [ 'blad' => 'Nie udało się zapisać.' ] );
 	}
-	wp_send_json_success( [
-		'id'     => $id,
-		'wydruk' => add_query_arg( [ 'agria_of_oferta' => $id ], home_url( '/wycena/' ) ),
-	] );
+	wp_send_json_success( [ 'id' => $id, 'wydruk' => add_query_arg( [ 'agria_of_oferta' => $id ], home_url( '/wycena/' ) ) ] );
 } );
 
-/** Wydruk oferty — ten sam adres za logowaniem, tylko z numerem oferty. */
+/** Wydruk oferty — ten sam adres za logowaniem, tylko z numerem. */
 add_action( 'template_redirect', function (): void {
 	if ( ! get_query_var( 'agria_of_ekran' ) || empty( $_GET['agria_of_oferta'] ) ) {
 		return;
@@ -233,58 +283,107 @@ function agria_of_render_wydruk( int $id ): void {
 		wp_die( 'Nie ma takiej oferty.' );
 	}
 	$m  = fn( string $k ) => get_post_meta( $id, 'agria_of_' . $k, true );
-	$zl = fn( $g ) => $g === '' || $g === null ? '—' : number_format( (float) agria_of_na_zlote( (int) $g ), 2, ',', ' ' ) . ' zł';
-	$kanaly = agria_of_kanaly();
-	$klient = $m( 'klient_id' ) ? get_post( (int) $m( 'klient_id' ) ) : null;
+	$zl = fn( $g ) => $g === '' || $g === null ? '—' : number_format( (float) agria_of_na_zlote( (int) $g ), 2, ',', ' ' );
+	$pozycje = (array) $m( 'pozycje' );
+	$grupy   = (array) $m( 'grupy' );
+	$platnik = $m( 'platnik' );
+	$klient  = $m( 'klient_id' ) ? get_post( (int) $m( 'klient_id' ) ) : null;
 	?><!doctype html>
 <html lang="pl"><head>
-<meta charset="utf-8"><meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>Oferta <?php echo (int) $id; ?> — AGRIA</title>
 <style>
-body { font:15px/1.55 -apple-system,Segoe UI,Roboto,sans-serif; color:#1b1b1b; background:#fff; max-width:44rem; margin:0 auto; padding:2.5rem 1.5rem; }
-h1 { font-size:1.35rem; margin:0 0 .2rem; }
-.meta { color:#666; font-size:.86rem; margin-bottom:2rem; }
-table { border-collapse:collapse; width:100%; margin:1.2rem 0; }
-td, th { text-align:left; padding:.45rem .2rem; border-bottom:1px solid #e5e5e5; vertical-align:top; }
-th { color:#666; font-weight:400; width:14rem; font-size:.9rem; }
-.suma td { border-top:2px solid #354E33; border-bottom:0; font-size:1.15rem; font-weight:700; padding-top:.8rem; }
-.num { text-align:right; font-variant-numeric:tabular-nums; }
-.klauzula { color:#666; font-size:.8rem; margin-top:2.5rem; border-top:1px solid #e5e5e5; padding-top:1rem; }
-.narzedzia { margin:2rem 0 0; }
-button, a.btn { font:inherit; padding:.5rem .9rem; border:1px solid #ccc; border-radius:.3rem; background:#fff; cursor:pointer; text-decoration:none; color:inherit; }
-@media print { .narzedzia { display:none; } body { padding:0; } }
+body{font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#161A16;background:#fff;
+	max-width:50rem;margin:0 auto;padding:2.5rem 1.5rem;}
+h1{font-size:1.3rem;margin:0 0 .15rem;color:#354E33;}
+.meta{color:#6B7268;font-size:.84rem;margin:0 0 1.8rem;}
+h2{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#99A095;
+	margin:1.8rem 0 .4rem;font-weight:600;}
+table{border-collapse:collapse;width:100%;}
+th,td{text-align:left;padding:.4rem .45rem;border-bottom:1px solid #E4E5DE;vertical-align:top;}
+thead th{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:#99A095;font-weight:600;}
+.p{text-align:right;}
+.num{font-family:ui-monospace,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;}
+.suma{border-top:2px solid #354E33;font-size:1.1rem;font-weight:650;}
+.suma td{border-bottom:0;padding-top:.7rem;}
+.dane{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.5rem 1.5rem;}
+.dane div span{display:block;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:#99A095;}
+.klauzula{color:#6B7268;font-size:.78rem;margin-top:2.2rem;border-top:1px solid #E4E5DE;padding-top:.9rem;}
+.narzedzia{margin-top:1.6rem;}
+button,a.btn{font:inherit;padding:.5rem .9rem;border:1px solid #C4C7BB;border-radius:2px;
+	background:#fff;cursor:pointer;text-decoration:none;color:inherit;}
+@media print{.narzedzia{display:none;}body{padding:0;max-width:none;}}
 </style></head><body>
+
 <h1>Wycena — AGRIA Sp. z o.o.</h1>
-<p class="meta">
-	Nr <?php echo (int) $id; ?> · <?php echo esc_html( mysql2date( 'j.m.Y, H:i', (string) $m( 'wystawiono' ) ) ); ?>
-	· wystawił <?php echo esc_html( get_userdata( (int) $m( 'wystawil' ) )->display_name ?? '—' ); ?>
-	<?php if ( $klient ) : ?>· dla <?php echo esc_html( $klient->post_title ); ?><?php endif; ?>
-	<?php if ( $m( 'kanal' ) ) : ?>· kontakt: <?php echo esc_html( $kanaly[ $m( 'kanal' ) ] ?? $m( 'kanal' ) ); ?><?php endif; ?>
-</p>
+<p class="meta">Nr <?php echo (int) $id; ?> · <?php echo esc_html( mysql2date( 'j.m.Y, H:i', (string) $m( 'wystawiono' ) ) ); ?>
+	· wystawił <?php echo esc_html( get_userdata( (int) $m( 'wystawil' ) )->display_name ?? '—' ); ?></p>
 
+<h2>Dla kogo</h2>
+<div class="dane">
+	<?php if ( $klient ) : ?><div><span>Klient</span><?php echo esc_html( $klient->post_title ); ?></div><?php endif; ?>
+	<?php if ( is_array( $platnik ) && ! empty( $platnik['nazwa'] ) ) : ?>
+		<div><span>Płatnik (REGON)</span><?php echo esc_html( $platnik['nazwa'] ); ?><br>
+			<?php echo esc_html( $platnik['adres'] ?? '' ); ?><br>
+			NIP <?php echo esc_html( $platnik['nip'] ?? '' ); ?></div>
+	<?php endif; ?>
+	<div><span>Miejsce dostawy</span><?php echo esc_html( (string) $m( 'miejscowosc' ) ); ?><?php
+		if ( $m( 'wojewodztwo' ) ) : ?>, <?php echo esc_html( (string) $m( 'wojewodztwo' ) ); ?><?php endif; ?></div>
+	<div><span>Kontakt przez</span><?php echo esc_html( agria_of_kanaly()[ $m( 'kanal' ) ] ?? '—' ); ?></div>
+</div>
+
+<h2>Towar</h2>
 <table>
-	<tr><th>Towar</th><td><?php echo esc_html( (string) $m( 'produkt' ) ); ?><?php if ( $m( 'sku' ) ) : ?> <span style="color:#666">(<?php echo esc_html( (string) $m( 'sku' ) ); ?>)</span><?php endif; ?></td></tr>
-	<tr><th>Forma dostawy</th><td><?php echo esc_html( (string) $m( 'forma' ) ); ?><?php if ( $m( 'frakcja' ) ) : ?>, frakcja <?php echo esc_html( (string) $m( 'frakcja' ) ); ?><?php endif; ?></td></tr>
-	<tr><th>Ilość</th><td><?php echo esc_html( (string) $m( 'tony' ) ); ?> t<?php if ( $m( 'palet' ) ) : ?> (<?php echo (int) $m( 'palet' ); ?> pal.)<?php endif; ?></td></tr>
-	<tr><th>Miejsce dostawy</th><td><?php echo esc_html( (string) $m( 'miejscowosc' ) ); ?><?php if ( $m( 'wojewodztwo' ) ) : ?>, <?php echo esc_html( (string) $m( 'wojewodztwo' ) ); ?><?php endif; ?></td></tr>
-	<tr><th>Wysyłka z zakładu</th><td><?php echo esc_html( (string) $m( 'zaklad' ) ); ?> — <?php echo (int) $m( 'km' ); ?> km<?php echo $m( 'km_pewne' ) ? '' : ' (szacunek)'; ?></td></tr>
+	<thead><tr><th>Produkt</th><th>Forma</th><th class="p">Ilość</th><th class="p">Cena zł/t</th>
+		<th>Z zakładu</th><th class="p">Wartość</th></tr></thead>
+	<tbody>
+	<?php foreach ( $pozycje as $p ) : ?>
+		<tr>
+			<td><?php echo esc_html( $p['produkt'] ); ?><?php if ( ! empty( $p['sku'] ) ) : ?>
+				<span style="color:#99A095"> <?php echo esc_html( $p['sku'] ); ?></span><?php endif; ?></td>
+			<td><?php echo esc_html( $p['forma'] ); ?><?php if ( ! empty( $p['frakcja'] ) ) : ?>, <?php echo esc_html( $p['frakcja'] ); ?><?php endif; ?></td>
+			<td class="p num"><?php echo esc_html( $p['tony'] ); ?> t</td>
+			<td class="p num"><?php echo esc_html( $zl( $p['cena_podana'] ) ); ?></td>
+			<td><?php echo esc_html( $p['zaklad'] ); ?></td>
+			<td class="p num"><?php echo esc_html( $zl( $p['wartosc'] ) ); ?></td>
+		</tr>
+	<?php endforeach; ?>
+	</tbody>
 </table>
 
+<h2>Transport<?php if ( $m( 'stan_transportu' ) === 'gratis' ) : ?> — gratis<?php
+	elseif ( $m( 'stan_transportu' ) === 'odbior' ) : ?> — odbiór własny<?php endif; ?></h2>
 <table>
-	<tr><th>Cena towaru</th><td class="num"><?php echo esc_html( $zl( $m( 'cena_podana' ) ) ); ?>/t × <?php echo esc_html( (string) $m( 'tony' ) ); ?> t</td><td class="num"><?php echo esc_html( $zl( $m( 'wartosc_towaru' ) ) ); ?></td></tr>
-	<tr><th>Transport<?php if ( $m( 'stan_transportu' ) === 'gratis' ) : ?> (gratis)<?php elseif ( $m( 'stan_transportu' ) === 'odbior' ) : ?> (odbiór własny)<?php endif; ?></th>
-		<td class="num"><?php echo esc_html( (string) $m( 'metoda' ) ); ?><?php echo (int) $m( 'kursy' ) > 1 ? ', ' . (int) $m( 'kursy' ) . ' kursy' : ''; ?></td>
-		<td class="num"><?php echo esc_html( $zl( $m( 'transport_podany' ) ) ); ?></td></tr>
-	<tr><th>Cena z dostawą</th><td></td><td class="num"><?php echo esc_html( $zl( $m( 'za_tone' ) ) ); ?>/t</td></tr>
-	<tr class="suma"><td colspan="2">Razem netto</td><td class="num"><?php echo esc_html( $zl( $m( 'razem' ) ) ); ?></td></tr>
+	<thead><tr><th>Z zakładu</th><th class="p">km</th><th>Środek</th><th class="p">Ładunek</th><th class="p">Koszt</th></tr></thead>
+	<tbody>
+	<?php foreach ( $grupy as $g ) : ?>
+		<tr>
+			<td><?php echo esc_html( $g['zaklad'] ); ?></td>
+			<td class="p num"><?php echo (int) $g['km']; ?><?php echo empty( $g['km_pewne'] ) ? '*' : ''; ?></td>
+			<td><?php echo esc_html( $g['metoda'] ); ?><?php echo (int) $g['kursy'] > 1 ? ', ' . (int) $g['kursy'] . ' kursy' : ''; ?></td>
+			<td class="p num"><?php echo esc_html( $g['tony'] ); ?> t</td>
+			<td class="p num"><?php echo esc_html( $zl( $g['transport_podany'] ) ); ?></td>
+		</tr>
+	<?php endforeach; ?>
+	</tbody>
 </table>
 
-<?php if ( $m( 'uwagi' ) ) : ?><p><strong>Uwagi:</strong> <?php echo esc_html( (string) $m( 'uwagi' ) ); ?></p><?php endif; ?>
+<table style="margin-top:1.4rem">
+	<tr><td>Towar</td><td class="p num"><?php echo esc_html( $zl( $m( 'towar' ) ) ); ?></td></tr>
+	<tr><td>Transport</td><td class="p num"><?php echo esc_html( $zl( $m( 'transport' ) ) ); ?></td></tr>
+	<tr><td>Cena z dostawą za tonę</td><td class="p num"><?php echo esc_html( $zl( $m( 'za_tone' ) ) ); ?></td></tr>
+	<tr class="suma"><td>Razem netto</td><td class="p num"><?php echo esc_html( $zl( $m( 'razem' ) ) ); ?> zł</td></tr>
+</table>
+
+<?php if ( $m( 'uwagi' ) ) : ?><p style="margin-top:1.2rem"><strong>Uwagi:</strong> <?php echo esc_html( (string) $m( 'uwagi' ) ); ?></p><?php endif; ?>
 
 <p class="klauzula">
 	Ceny netto, nie zawierają podatku VAT. Wycena orientacyjna, ważna 14 dni od wystawienia,
 	nie stanowi oferty handlowej w rozumieniu Kodeksu cywilnego. Dostępność towaru i termin dostawy
-	potwierdza handlowiec.
+	potwierdza handlowiec.<?php
+	$szacunek = array_filter( $grupy, fn( $g ) => empty( $g['km_pewne'] ) );
+	if ( $szacunek ) : ?> Kilometry oznaczone gwiazdką to szacunek — trasa nie została policzona.<?php endif; ?>
 </p>
 
 <p class="narzedzia">
@@ -296,70 +395,46 @@ button, a.btn { font:inherit; padding:.5rem .9rem; border:1px solid #ccc; border
 }
 
 /**
- * Lista ofert w panelu — kolumny, ktore odpowiadaja na pytanie „co sie dzieje w sprzedazy".
- * Kolumna z roznica wobec cennika jest tu celowo: to ona zamienia zapis oferty w informacje.
+ * Lista ofert w panelu. Kolumna „wobec cennika" jest tu celowo — to ona zamienia
+ * zapis oferty w informacje o tym, gdzie schodzi marza.
  */
-add_filter( 'manage_' . AGRIA_OF_CPT_OFERTA . '_posts_columns', function ( array $k ): array {
-	return [
-		'cb'        => $k['cb'] ?? '',
-		'title'     => 'Oferta',
-		'kanal'     => 'Kanał',
-		'ilosc'     => 'Ilość',
-		'cena'      => 'Cena zł/t',
-		'roznica'   => 'Wobec cennika',
-		'razem'     => 'Razem netto',
-		'status'    => 'Status',
-		'author'    => 'Wystawił',
-		'date'      => 'Data',
-	];
-} );
+add_filter( 'manage_' . AGRIA_OF_CPT_OFERTA . '_posts_columns', fn( array $k ): array => [
+	'cb' => $k['cb'] ?? '', 'title' => 'Oferta', 'kanal' => 'Kanał', 'pozycji' => 'Poz.',
+	'ilosc' => 'Tonaż', 'roznica' => 'Wobec cennika', 'razem' => 'Razem netto',
+	'status' => 'Status', 'author' => 'Wystawił', 'date' => 'Data',
+] );
 
 add_action( 'manage_' . AGRIA_OF_CPT_OFERTA . '_posts_custom_column', function ( string $kol, int $id ): void {
 	$m  = fn( string $k ) => get_post_meta( $id, 'agria_of_' . $k, true );
 	$zl = fn( $g ) => $g === '' || $g === null ? '—' : number_format( (float) agria_of_na_zlote( (int) $g ), 2, ',', ' ' );
-
 	switch ( $kol ) {
-		case 'kanal':
-			echo esc_html( agria_of_kanaly()[ $m( 'kanal' ) ] ?? '—' );
-			break;
-		case 'ilosc':
-			echo esc_html( $m( 'tony' ) ) . ' t';
-			break;
-		case 'cena':
-			echo esc_html( $zl( $m( 'cena_podana' ) ) );
-			break;
+		case 'kanal':   echo esc_html( agria_of_kanaly()[ $m( 'kanal' ) ] ?? '—' ); break;
+		case 'pozycji': echo (int) $m( 'ile_pozycji' ); break;
+		case 'ilosc':   echo esc_html( $m( 'tony' ) ) . ' t'; break;
+		case 'razem':   echo esc_html( $zl( $m( 'razem' ) ) ) . ' zł'; break;
+		case 'status':  echo esc_html( agria_of_statusy()[ $m( 'status' ) ] ?? '—' ); break;
 		case 'roznica':
-			$prop = (int) $m( 'cena_proponowana' );
-			$pod  = (int) $m( 'cena_podana' );
-			if ( ! $prop || ! $pod || $prop === $pod ) {
-				echo '<span style="color:#888">bez zmian</span>';
-				break;
-			}
+			$prop = (int) $m( 'towar_wg_cennika' );
+			$pod  = (int) $m( 'towar_podany' );
+			if ( ! $prop || $prop === $pod ) { echo '<span style="color:#888">bez zmian</span>'; break; }
 			$r = $pod - $prop;
 			printf( '<span style="color:%s">%s%s zł (%s%.1f%%)</span>',
-				$r < 0 ? '#a33' : '#2d6a2d',
-				$r > 0 ? '+' : '−', esc_html( $zl( abs( $r ) ) ),
+				$r < 0 ? '#a33' : '#2d6a2d', $r > 0 ? '+' : '−', esc_html( $zl( abs( $r ) ) ),
 				$r > 0 ? '+' : '−', abs( $r ) / $prop * 100 );
-			break;
-		case 'razem':
-			echo esc_html( $zl( $m( 'razem' ) ) ) . ' zł';
-			break;
-		case 'status':
-			echo esc_html( agria_of_statusy()[ $m( 'status' ) ] ?? '—' );
 			break;
 	}
 }, 10, 2 );
 
-add_filter( 'manage_' . AGRIA_OF_CPT_KLIENT . '_posts_columns', function ( array $k ): array {
-	return [ 'cb' => $k['cb'] ?? '', 'title' => 'Klient', 'telefon' => 'Telefon', 'nip' => 'NIP',
-	         'miejscowosc' => 'Miejscowość', 'ofert' => 'Ofert', 'date' => 'Pierwszy kontakt' ];
-} );
+add_filter( 'manage_' . AGRIA_OF_CPT_KLIENT . '_posts_columns', fn( array $k ): array => [
+	'cb' => $k['cb'] ?? '', 'title' => 'Klient', 'telefon' => 'Telefon', 'nip' => 'NIP',
+	'miejscowosc' => 'Miejscowość', 'ofert' => 'Ofert', 'date' => 'Pierwszy kontakt',
+] );
 
 add_action( 'manage_' . AGRIA_OF_CPT_KLIENT . '_posts_custom_column', function ( string $kol, int $id ): void {
 	if ( $kol === 'ofert' ) {
-		$n = new WP_Query( [ 'post_type' => AGRIA_OF_CPT_OFERTA, 'meta_key' => 'agria_of_klient_id',
-		                     'meta_value' => $id, 'fields' => 'ids', 'posts_per_page' => -1 ] );
-		echo (int) $n->found_posts;
+		$q = new WP_Query( [ 'post_type' => AGRIA_OF_CPT_OFERTA, 'meta_key' => 'agria_of_klient_id',
+			'meta_value' => $id, 'fields' => 'ids', 'posts_per_page' => -1 ] );
+		echo (int) $q->found_posts;
 		return;
 	}
 	echo esc_html( get_post_meta( $id, 'agria_of_' . $kol, true ) ?: '—' );

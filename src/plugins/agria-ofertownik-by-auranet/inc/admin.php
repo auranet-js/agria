@@ -163,6 +163,10 @@ function agria_of_ekran_transportu(): void {
 			}
 		}
 		update_option( AGRIA_OF_OPCJA_PALETA, $p );
+		if ( isset( $_POST['gus_klucz'] ) ) {
+			update_option( AGRIA_OF_GUS_OPCJA, sanitize_text_field( $_POST['gus_klucz'] ) );
+			delete_transient( AGRIA_OF_GUS_SESJA );
+		}
 		echo '<div class="notice notice-success"><p>Ustawienia zapisane.</p></div>';
 	}
 
@@ -223,6 +227,15 @@ function agria_of_ekran_transportu(): void {
 				<?php endforeach; ?>
 				</tbody>
 			</table>
+			<h2>Rejestr REGON (GUS)</h2>
+			<p class="description">
+				Klucz do BIR1.1 — po nim ekran wyceny zaciąga dane płatnika z numeru NIP.
+				Bezpłatny, wydaje go GUS na <a href="https://api.stat.gov.pl/Home/RegonApi" target="_blank" rel="noopener">api.stat.gov.pl</a>.
+				Bez klucza pole NIP nadal działa, tylko nie podpowiada danych do faktury.
+			</p>
+			<p><input type="text" name="gus_klucz" style="width:22em"
+				value="<?php echo esc_attr( get_option( AGRIA_OF_GUS_OPCJA, '' ) ); ?>" placeholder="20 znaków"></p>
+
 			<p><button class="button button-primary">Zapisz ustawienia</button></p>
 		</form>
 	</div>
