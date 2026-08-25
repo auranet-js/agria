@@ -145,6 +145,8 @@ input:focus, select:focus { outline:2px solid var(--akcent); outline-offset:-1px
 .karta { background:var(--pas); border-left:3px solid var(--akcent); padding:.7rem .9rem; margin:1rem 0 0; border-radius:0 .3rem .3rem 0; font-size:.92rem; }
 .ostrzezenie { border-left-color:var(--ostrz); color:var(--ostrz); }
 .nadpisane { outline:2px solid var(--akcent); }
+#zapisz { font:inherit; padding:.55rem 1rem; border:1px solid var(--akcent); border-radius:.3rem; background:var(--akcent); color:#fff; cursor:pointer; }
+#zapisz[disabled] { opacity:.5; }
 button.wroc { background:none; border:0; color:var(--akcent); cursor:pointer; font-size:.78rem; padding:0; text-decoration:underline; }
 h2 { font-size:.95rem; color:var(--akcent); margin:0 0 .8rem; text-transform:uppercase; letter-spacing:.04em; }
 </style>
@@ -168,7 +170,7 @@ h2 { font-size:.95rem; color:var(--akcent); margin:0 0 .8rem; text-transform:upp
 		<select id="produkt">
 			<option value="">— wybierz —</option>
 			<?php foreach ( $produkty as $p ) : ?>
-				<option value="<?php echo (int) $p->ID; ?>"><?php echo esc_html( wp_strip_all_tags( html_entity_decode( $p->post_title ) ) ); ?></option>
+				<option value="<?php echo (int) $p->ID; ?>"><?php echo esc_html( agria_of_tytul_produktu( $p->ID ) ); ?></option>
 			<?php endforeach; ?>
 		</select>
 
@@ -190,6 +192,28 @@ h2 { font-size:.95rem; color:var(--akcent); margin:0 0 .8rem; text-transform:upp
 		<label for="metoda">Transport</label>
 		<select id="metoda"><option value="">— najtańszy —</option></select>
 
+		<h2 style="margin-top:2rem">Korekty — bo się negocjuje</h2>
+		<div class="rzad">
+			<div>
+				<label for="cena_reczna">Cena zł/t</label>
+				<input id="cena_reczna" type="text" inputmode="decimal" placeholder="z cennika">
+			</div>
+			<div>
+				<label>&nbsp;</label>
+				<button class="wroc" type="button" id="wroc_cena" hidden>↺ proponowana</button>
+			</div>
+		</div>
+		<div class="rzad">
+			<div>
+				<label for="transport_reczny">Transport zł</label>
+				<input id="transport_reczny" type="text" inputmode="decimal" placeholder="wyliczony">
+			</div>
+			<div>
+				<label>&nbsp;</label>
+				<button class="wroc" type="button" id="wroc_transport" hidden>↺ wyliczony</button>
+			</div>
+		</div>
+
 		<div class="rzad">
 			<div>
 				<label for="stan">Stan transportu</label>
@@ -204,6 +228,30 @@ h2 { font-size:.95rem; color:var(--akcent); margin:0 0 .8rem; text-transform:upp
 				<input id="km" type="text" inputmode="numeric" placeholder="auto">
 			</div>
 		</div>
+	</section>
+
+	<section>
+		<h2 style="margin-top:2rem">Klient</h2>
+		<label for="klient_nazwa">Nazwa lub nazwisko</label>
+		<input id="klient_nazwa" placeholder="opcjonalnie">
+		<div class="rzad">
+			<div>
+				<label for="klient_telefon">Telefon</label>
+				<input id="klient_telefon" inputmode="tel" placeholder="rozpoznajemy po nim klienta">
+			</div>
+			<div>
+				<label for="klient_nip">NIP</label>
+				<input id="klient_nip" inputmode="numeric" placeholder="—">
+			</div>
+		</div>
+		<label for="kanal">Skąd kontakt</label>
+		<select id="kanal">
+			<?php foreach ( agria_of_kanaly() as $k => $n ) : ?>
+				<option value="<?php echo esc_attr( $k ); ?>"><?php echo esc_html( $n ); ?></option>
+			<?php endforeach; ?>
+		</select>
+		<label for="uwagi">Uwagi</label>
+		<input id="uwagi" placeholder="np. rozładunek HDS, termin">
 	</section>
 
 	<section class="wynik" id="wynik"><p class="pusto">Wpisz miejscowość, produkt i ilość — wycena pojawi się tutaj.</p></section>
@@ -253,20 +301,44 @@ $('produkt').addEventListener('change', async () => {
 	policz();
 });
 
-['forma','ilosc','jednostka','zaklad','metoda','stan','km'].forEach(id =>
-	$(id).addEventListener(id === 'ilosc' || id === 'km' ? 'input' : 'change', () => policz()));
+['forma','ilosc','jednostka','zaklad','metoda','stan','km','cena_reczna','transport_reczny'].forEach(id =>
+	$(id).addEventListener(['ilosc','km','cena_reczna','transport_reczny'].includes(id) ? 'input' : 'change', () => policz()));
+
+// Powrot do wartosci proponowanej — do tej z chwili wyceny, nie do dzisiejszego cennika.
+$('wroc_cena').onclick = () => { $('cena_reczna').value = ''; $('cena_reczna').classList.remove('nadpisane'); policz(); };
+$('wroc_transport').onclick = () => { $('transport_reczny').value = ''; $('transport_reczny').classList.remove('nadpisane'); policz(); };
 
 function zl(x) { return x === null || x === undefined ? '—' : x + ' zł'; }
 
 async function policz() {
 	if (!miejscowoscId || !$('produkt').value || !$('forma').value || !parseFloat(($('ilosc').value||'').replace(',','.'))) return;
-	const r = await api('agria_of_wycen', {
+	const r = await api('agria_of_wycen', dane(), 'POST');
+	rysuj(r.data || {});
+}
+
+function dane() {
+	return {
 		produkt_id: $('produkt').value, miejscowosc_id: miejscowoscId, forma_klucz: $('forma').value,
 		ilosc: ($('ilosc').value||'').replace(',','.'), jednostka: $('jednostka').value,
 		zaklad_term_id: $('zaklad').value, metoda: $('metoda').value,
-		stan_transportu: $('stan').value, km: $('km').value
+		stan_transportu: $('stan').value, km: $('km').value,
+		cena_reczna: $('cena_reczna').value, transport_reczny: $('transport_reczny').value
+	};
+}
+
+async function zapisz() {
+	const b = $('zapisz');
+	b.disabled = true;
+	const r = await api('agria_of_zapisz', {...dane(),
+		klient_nazwa: $('klient_nazwa').value, klient_telefon: $('klient_telefon').value,
+		klient_nip: $('klient_nip').value, kanal: $('kanal').value, uwagi: $('uwagi').value
 	}, 'POST');
-	rysuj(r.data || {});
+	b.disabled = false;
+	if (r.success) {
+		$('zapisano').innerHTML = `zapisana jako nr ${r.data.id} — <a href="${r.data.wydruk}" target="_blank">wydruk</a>`;
+	} else {
+		$('zapisano').textContent = (r.data && r.data.blad) || 'nie udało się zapisać';
+	}
 }
 
 function rysuj(w) {
@@ -283,10 +355,18 @@ function rysuj(w) {
 		w.metody.forEach(m => $('metoda').add(new Option(`${m.nazwa} — ${m.koszt} zł`, m.id)));
 	}
 
+	['cena_reczna','transport_reczny'].forEach(id => {
+		const puste = !$(id).value.trim();
+		$(id).classList.toggle('nadpisane', !puste);
+		$(id === 'cena_reczna' ? 'wroc_cena' : 'wroc_transport').hidden = puste;
+	});
+
 	let h = '<h2>Wycena</h2>';
 	if (w.blad) h += `<p class="karta ostrzezenie">${w.blad}</p>`;
 	h += `<div class="linia"><span>Zakład<br><span class="opis">${w.km} km${w.km_pewne ? '' : ' — szacunek, trasa niepoliczona'}</span></span><b>${w.zaklad}</b></div>`;
-	h += `<div class="linia"><span>Towar<br><span class="opis">${w.cena_t ? w.cena_t + ' zł/t × ' + w.tony + ' t' : 'brak ceny'}</span></span><b>${zl(w.wartosc_towaru)}</b></div>`;
+	const korekta = w.cena_proponowana && w.cena_t && w.cena_proponowana !== w.cena_t
+		? ` <span class="opis">(z cennika ${w.cena_proponowana} zł/t)</span>` : '';
+	h += `<div class="linia"><span>Towar<br><span class="opis">${w.cena_t ? w.cena_t + ' zł/t × ' + w.tony + ' t' : 'brak ceny'}</span>${korekta}</span><b>${zl(w.wartosc_towaru)}</b></div>`;
 	h += `<div class="linia"><span>Transport<br><span class="opis">${w.metoda ? w.metoda + ' · ' + w.metoda_opis : '—'}</span></span><b>${zl(w.transport)}</b></div>`;
 	h += `<div class="linia"><span>Cena z dostawą</span><b>${zl(w.za_tone)}/t</b></div>`;
 	h += `<div class="linia suma"><span>Razem netto</span><b>${zl(w.razem)}</b></div>`;
@@ -294,7 +374,9 @@ function rysuj(w) {
 	if (w.ponizej_podlogi) h += `<p class="karta ostrzezenie">Cena poniżej minimalnej (${w.cena_min} zł/t). Możesz tak podać — tylko wiedz, że schodzisz poniżej poziomu stałych odbiorców.</p>`;
 	if (w.dopelnienie) h += `<p class="karta">Do pełnego auta brakuje <b>${w.dopelnienie.brakuje} t</b>. Przy ${w.dopelnienie.pelne} t przewóz spada z <b>${w.dopelnienie.teraz}</b> na <b>${w.dopelnienie.potem} zł/t</b>.</p>`;
 	if (w.palet) h += `<p class="opis" style="margin-top:1rem">Zamówienie zajmuje ${w.palet} ${w.palet === 1 ? 'paletę' : 'palet'}.</p>`;
+	h += `<p style="margin-top:1.6rem"><button id="zapisz" type="button">Zapisz ofertę</button> <span id="zapisano" class="opis"></span></p>`;
 	el.innerHTML = h;
+	$('zapisz').onclick = zapisz;
 }
 </script>
 </body>

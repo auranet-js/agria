@@ -27,8 +27,22 @@ Wycena zamówienia z transportem z właściwego zakładu — narzędzie wewnętr
 | `inc/ekran.php` | `/wycena/` za logowaniem + AJAX |
 | `inc/admin.php` | panel: cennik i transport — ekrany dla AGRII |
 
+| `inc/oferty.php` | CPT ofert i klientów, zapis zamrożony, wydruk, kolumny list |
+
 ## Stan
 
-Etap 1 wg specyfikacji, częściowo. **Jest:** cennik, ustawienia, odległości, kalkulacja, ekran wyceny.
-**Nie ma:** zapisu oferty (`agria_quote`), karty klienta (`agria_client`), PDF, nadpisywania cen
-w interfejsie z powrotem do proponowanej.
+**Etap 1 wg specyfikacji domknięty.** Cennik, moduł ustawień, odległości drogowe, kalkulacja,
+ekran `/wycena/` z korektami, zapis oferty, karta klienta, wydruk.
+
+Etap 2 (obraz sprzedaży) i 3 (domknięcie obiegu) — nietknięte. Z etapu 2 istnieje już fundament:
+każda oferta trzyma cenę proponowaną obok podanej i kanał kontaktu, więc zestawienia są kwestią
+odczytu, nie zbierania danych.
+
+## Szczelność — sprawdzone, nie założone
+
+Oferty zawierają ceny i dane klientów. CPT są `public:false`, `publicly_queryable:false`,
+`exclude_from_search:true`, `show_in_rest:false`. Zmierzone znacznikiem, którego nie ma w URL:
+zero trafień w `/?p=`, `/?post_type=`, `/?s=`, `/feed/`, sitemapie i REST.
+
+**Uwaga przy testach:** `/?s=<fraza>` zwraca frazę w breadcrumbach schema Rank Matha, więc grep
+po niej daje trafienia niezależnie od wycieku. Testuj wartością, której w zapytaniu NIE MA.

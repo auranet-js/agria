@@ -132,3 +132,14 @@ function agria_of_produkty(): array {
 		'order'          => 'ASC',
 	] );
 }
+
+/**
+ * Tytul produktu w postaci nadajacej sie do listy i do wydruku.
+ * Tytuly w bazie maja encje `&nbsp;` po imporcie — samo `html_entity_decode` zamienia je
+ * na niełamiaca spacje (U+00A0), ktora wyglada jak spacja, a nie jest nia przy szukaniu.
+ */
+function agria_of_tytul_produktu( int $id ): string {
+	$t = html_entity_decode( get_the_title( $id ), ENT_QUOTES, 'UTF-8' );
+	$t = str_replace( "\u{00A0}", ' ', $t );
+	return trim( preg_replace( '/\s+/u', ' ', wp_strip_all_tags( $t ) ) );
+}

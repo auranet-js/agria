@@ -83,7 +83,7 @@ function agria_of_ekran_cennika(): void {
 				<option value="0">— wszystkie produkty —</option>
 				<?php foreach ( agria_of_produkty() as $p ) : ?>
 					<option value="<?php echo $p->ID; ?>" <?php selected( $filtr, $p->ID ); ?>>
-						<?php echo esc_html( wp_strip_all_tags( html_entity_decode( $p->post_title ) ) ); ?>
+						<?php echo esc_html( agria_of_tytul_produktu( $p->ID ) ); ?>
 					</option>
 				<?php endforeach; ?>
 			</select>
@@ -106,7 +106,7 @@ function agria_of_ekran_cennika(): void {
 					$kto    = $w['zmienil'] ? get_userdata( (int) $w['zmienil'] ) : null;
 					?>
 					<tr>
-						<td><?php echo esc_html( wp_strip_all_tags( html_entity_decode( get_the_title( (int) $w['produkt_id'] ) ) ) ); ?>
+						<td><?php echo esc_html( agria_of_tytul_produktu( (int) $w['produkt_id'] ) ); ?>
 							<br><span class="description"><?php echo esc_html( get_post_meta( (int) $w['produkt_id'], '_sku', true ) ?: '—' ); ?></span></td>
 						<td><?php echo esc_html( $zaklad ? agria_of_nazwa_zakladu( $zaklad->name ) : '?' ); ?></td>
 						<td><?php echo esc_html( $forma ? $forma->name : '?' ); ?></td>
