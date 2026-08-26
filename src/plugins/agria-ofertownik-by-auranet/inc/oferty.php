@@ -284,8 +284,8 @@ function agria_of_render_wydruk( int $id ): void {
 	}
 	$m  = fn( string $k ) => get_post_meta( $id, 'agria_of_' . $k, true );
 	$zl = fn( $g ) => $g === '' || $g === null ? '—' : number_format( (float) agria_of_na_zlote( (int) $g ), 2, ',', ' ' );
-	$pozycje = (array) $m( 'pozycje' );
-	$grupy   = (array) $m( 'grupy' );
+	$pozycje = agria_of_pozycje_oferty( $id );   // czyta oba formaty — patrz nizej
+	$grupy   = agria_of_grupy_oferty( $id );
 	$platnik = $m( 'platnik' );
 	$klient  = $m( 'klient_id' ) ? get_post( (int) $m( 'klient_id' ) ) : null;
 	?><!doctype html>
@@ -409,13 +409,13 @@ add_action( 'manage_' . AGRIA_OF_CPT_OFERTA . '_posts_custom_column', function (
 	$zl = fn( $g ) => $g === '' || $g === null ? '—' : number_format( (float) agria_of_na_zlote( (int) $g ), 2, ',', ' ' );
 	switch ( $kol ) {
 		case 'kanal':   echo esc_html( agria_of_kanaly()[ $m( 'kanal' ) ] ?? '—' ); break;
-		case 'pozycji': echo (int) $m( 'ile_pozycji' ); break;
+		case 'pozycji': echo (int) ( $m( 'ile_pozycji' ) ?: count( agria_of_pozycje_oferty( $id ) ) ); break;
 		case 'ilosc':   echo esc_html( $m( 'tony' ) ) . ' t'; break;
 		case 'razem':   echo esc_html( $zl( $m( 'razem' ) ) ) . ' zł'; break;
+		case 'ilosc2':  break;
 		case 'status':  echo esc_html( agria_of_statusy()[ $m( 'status' ) ] ?? '—' ); break;
 		case 'roznica':
-			$prop = (int) $m( 'towar_wg_cennika' );
-			$pod  = (int) $m( 'towar_podany' );
+			[ $prop, $pod ] = agria_of_roznica_oferty( $id );
 			if ( ! $prop || $prop === $pod ) { echo '<span style="color:#888">bez zmian</span>'; break; }
 			$r = $pod - $prop;
 			printf( '<span style="color:%s">%s%s zł (%s%.1f%%)</span>',
@@ -439,3 +439,86 @@ add_action( 'manage_' . AGRIA_OF_CPT_KLIENT . '_posts_custom_column', function (
 	}
 	echo esc_html( get_post_meta( $id, 'agria_of_' . $kol, true ) ?: '—' );
 }, 10, 2 );
+
+/**
+ * Pozycje oferty — niezaleznie od tego, w ktorym formacie zostala zapisana.
+ *
+ * Ofertownik zaczynal od wyceny JEDNEJ pozycji i tak zapisywal oferty (plaskie meta:
+ * `produkt`, `tony`, `cena_podana`). Od 0.5.0 oferta trzyma tablice `pozycje`.
+ * Starych NIE przepisujemy — oferta ma byc zamrozona, a przepisanie jej w bazie
+ * zmienialoby dokument, ktory ktos juz wydrukowal i wyslal. Zamiast tego czytamy oba formaty.
+ */
+function agria_of_pozycje_oferty( int $id ): array {
+	$p = get_post_meta( $id, 'agria_of_pozycje', true );
+	if ( is_array( $p ) && $p ) {
+		return $p;
+	}
+	$m = fn( string $k ) => get_post_meta( $id, 'agria_of_' . $k, true );
+	if ( ! $m( 'produkt' ) ) {
+		return [];
+	}
+	return [ [
+		'produkt_id'       => (int) $m( 'produkt_id' ),
+		'produkt'          => (string) $m( 'produkt' ),
+		'sku'              => (string) $m( 'sku' ),
+		'forma'            => (string) $m( 'forma' ),
+		'forma_klucz'      => (string) $m( 'forma_klucz' ),
+		'frakcja'          => (string) $m( 'frakcja' ),
+		'ilosc'            => $m( 'ilosc_podana' ),
+		'jednostka'        => (string) $m( 'jednostka' ),
+		'tony'             => $m( 'tony' ),
+		'palet'            => $m( 'palet' ),
+		'zaklad'           => (string) $m( 'zaklad' ),
+		'zaklad_term_id'   => (int) $m( 'zaklad_term_id' ),
+		'km'               => (int) $m( 'km' ),
+		'cena_proponowana' => $m( 'cena_proponowana' ) !== '' ? (int) $m( 'cena_proponowana' ) : null,
+		'cena_podana'      => $m( 'cena_podana' ) !== '' ? (int) $m( 'cena_podana' ) : null,
+		'cena_min'         => $m( 'cena_min' ) !== '' ? (int) $m( 'cena_min' ) : null,
+		'wartosc'          => (int) $m( 'wartosc_towaru' ),
+	] ];
+}
+
+/** Grupy transportowe oferty — jak wyzej, oba formaty. */
+function agria_of_grupy_oferty( int $id ): array {
+	$g = get_post_meta( $id, 'agria_of_grupy', true );
+	if ( is_array( $g ) && $g ) {
+		return $g;
+	}
+	$m = fn( string $k ) => get_post_meta( $id, 'agria_of_' . $k, true );
+	if ( ! $m( 'zaklad' ) ) {
+		return [];
+	}
+	return [ [
+		'zaklad'                => (string) $m( 'zaklad' ),
+		'zaklad_term_id'        => (int) $m( 'zaklad_term_id' ),
+		'km'                    => (int) $m( 'km' ),
+		'km_pewne'              => (int) $m( 'km_pewne' ),
+		'tony'                  => $m( 'tony' ),
+		'metoda'                => (string) $m( 'metoda' ),
+		'metoda_id'             => (string) $m( 'metoda_id' ),
+		'kursy'                 => (int) $m( 'kursy' ) ?: 1,
+		'transport_proponowany' => (int) $m( 'transport_proponowany' ),
+		'transport_podany'      => (int) $m( 'transport_podany' ),
+		'wypelnienie'           => null,
+	] ];
+}
+
+/**
+ * Roznica wobec cennika, w groszach: [wg cennika, podane].
+ * Stare oferty nie mialy tych sum policzonych przy zapisie — skladamy je z pozycji.
+ */
+function agria_of_roznica_oferty( int $id ): array {
+	$prop = get_post_meta( $id, 'agria_of_towar_wg_cennika', true );
+	$pod  = get_post_meta( $id, 'agria_of_towar_podany', true );
+	if ( $prop !== '' && $pod !== '' ) {
+		return [ (int) $prop, (int) $pod ];
+	}
+	$prop = $pod = 0;
+	foreach ( agria_of_pozycje_oferty( $id ) as $p ) {
+		if ( $p['cena_proponowana'] !== null && $p['cena_podana'] !== null ) {
+			$prop += (int) round( $p['cena_proponowana'] * (float) $p['tony'] );
+			$pod  += (int) $p['wartosc'];
+		}
+	}
+	return [ $prop, $pod ];
+}

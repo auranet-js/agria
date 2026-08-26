@@ -27,16 +27,27 @@ Wycena zamówienia z transportem z właściwego zakładu — narzędzie wewnętr
 | `inc/ekran.php` | `/wycena/` za logowaniem + AJAX |
 | `inc/admin.php` | panel: cennik i transport — ekrany dla AGRII |
 
-| `inc/oferty.php` | CPT ofert i klientów, zapis zamrożony, wydruk, kolumny list |
+| `inc/oferty.php` | CPT ofert i klientów, zapis zamrożony, wydruk, kolumny list, odczyt starych formatów |
+| `inc/koszyk.php` | wycena wielopozycyjna, grupowanie transportu po zakładach |
+| `inc/gus.php` | dane płatnika z rejestru REGON po NIP |
+| `inc/panel-zaklady.php` | współrzędne zakładów i ich poprawianie |
+| `inc/zestawienie.php` | zestawienie sprzedaży — kanały, produkty, rejony, rabaty |
 
 ## Stan
 
-**Etap 1 wg specyfikacji domknięty.** Cennik, moduł ustawień, odległości drogowe, kalkulacja,
-ekran `/wycena/` z korektami, zapis oferty, karta klienta, wydruk.
+**Etap 1 domknięty, etap 2 w większości.** Arkusz wielopozycyjny, moduł ustawień, odległości
+drogowe, płatnik z GUS, zapis zamrożony, karta klienta, wydruk, zestawienie sprzedaży.
 
-Etap 2 (obraz sprzedaży) i 3 (domknięcie obiegu) — nietknięte. Z etapu 2 istnieje już fundament:
-każda oferta trzyma cenę proponowaną obok podanej i kanał kontaktu, więc zestawienia są kwestią
-odczytu, nie zbierania danych.
+Z etapu 3 zostaje: wycena prosto z zapytania `agria_inquiry` i wysyłka oferty do klienta.
+Statusy ofert istnieją, ale nikt ich jeszcze nie ustawia — dopóki tak jest, tabela skuteczności
+w zestawieniu nic nie mówi i tak to opisuje.
+
+## Format ofert zmieniał się w trakcie
+
+Do 0.4.0 oferta była jednopozycyjna (płaskie meta `produkt`, `tony`, `cena_podana`);
+od 0.5.0 trzyma tablicę `pozycje`. Starych **nie przepisujemy** — oferta ma być zamrożona,
+a przepisanie zmieniałoby dokument, który ktoś już wydrukował. Czytamy oba formaty przez
+`agria_of_pozycje_oferty()` / `agria_of_grupy_oferty()` / `agria_of_roznica_oferty()`.
 
 ## Szczelność — sprawdzone, nie założone
 

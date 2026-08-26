@@ -2,7 +2,7 @@
 /**
  * Plugin Name: AGRIA Ofertownik by Auranet
  * Description: Wycena zamowienia z transportem z wlasciwego zakladu — narzedzie wewnetrzne dzialu handlowego.
- * Version:     0.5.0
+ * Version:     0.6.0
  * Author:      Auranet
  * Text Domain: agria-ofertownik
  * Requires PHP: 8.0
@@ -17,7 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AGRIA_OF_VERSION', '0.5.0' );
+define( 'AGRIA_OF_VERSION', '0.6.0' );
 define( 'AGRIA_OF_DIR', plugin_dir_path( __FILE__ ) );
 define( 'AGRIA_OF_URL', plugin_dir_url( __FILE__ ) );
 
@@ -36,6 +36,8 @@ require_once AGRIA_OF_DIR . 'inc/ekran.php';
 require_once AGRIA_OF_DIR . 'inc/oferty.php';
 if ( is_admin() ) {
 	require_once AGRIA_OF_DIR . 'inc/admin.php';
+	require_once AGRIA_OF_DIR . 'inc/panel-zaklady.php';
+	require_once AGRIA_OF_DIR . 'inc/zestawienie.php';
 }
 
 register_activation_hook( __FILE__, 'agria_of_aktywacja' );

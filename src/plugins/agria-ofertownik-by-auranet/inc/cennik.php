@@ -24,20 +24,20 @@ defined( 'ABSPATH' ) || exit;
  */
 function agria_of_cennik_startowy(): array {
 	return [
-		'AGR-001' => [ 'luz' => 220, 'big-bag-1000' => 400, 'worek-20' => 575, 'worek-40' => 475 ],
-		'AGR-002' => [ 'luz' => 750, 'big-bag-1000' => 850 ], // frakcja 0–3; 2–8 mm ma wlasne ceny, patrz nizej
-		'AGR-003' => [ 'big-bag-1000' => 790 ],
+		'AGR-001' => [ 'luz' => 220, 'big-bag' => 400, 'worek-20' => 575, 'worek-40' => 475 ],
+		'AGR-002' => [ 'luz' => 750, 'big-bag' => 850 ], // frakcja 0–3; 2–8 mm ma wlasne ceny, patrz nizej
+		'AGR-003' => [ 'big-bag' => 790 ],
 		'AGR-005' => [ 'luz' => 120 ],
 		'AGR-006' => [ 'luz' => 57 ],
-		'AGR-008' => [ 'big-bag-1000' => 350, 'worek-25' => 380 ],
+		'AGR-008' => [ 'big-bag' => 350, 'worek-25' => 380 ],
 		'AGR-009' => [ 'luz' => 50 ],
 		'AGR-010' => [ 'luz' => 36 ],
-		'AGR-011' => [ 'big-bag-1000' => 370, 'worek-25' => 410 ],
-		'AGR-013' => [ 'big-bag-1000' => 410, 'worek-25' => 490 ],
+		'AGR-011' => [ 'big-bag' => 370, 'worek-25' => 410 ],
+		'AGR-013' => [ 'big-bag' => 410, 'worek-25' => 490 ],
 		'AGR-014' => [ 'luz' => 125 ],
 		'AGR-015' => [ 'luz' => 190, 'worek-30' => 610 ],
 		'AGR-016' => [ 'worek-30' => 645 ],
-		'AGR-017' => [ 'luz' => 950, 'big-bag-1000' => 1200 ],
+		'AGR-017' => [ 'luz' => 950, 'big-bag' => 1200 ],
 		'AGR-018' => [ 'luz' => 945, 'worek-25' => 1220 ],
 	];
 }
@@ -49,8 +49,8 @@ function agria_of_cennik_startowy(): array {
 function agria_of_frakcje_startowe(): array {
 	return [
 		'AGR-002' => [
-			'0-3 mm' => [ 'luz' => 750, 'big-bag-1000' => 850 ],
-			'2-8 mm' => [ 'luz' => 850, 'big-bag-1000' => 940 ],
+			'0-3 mm' => [ 'luz' => 750, 'big-bag' => 850 ],
+			'2-8 mm' => [ 'luz' => 850, 'big-bag' => 940 ],
 		],
 	];
 }
@@ -78,9 +78,12 @@ function agria_of_zbuduj_siatke(): array {
 		foreach ( $zaklady as $z ) {
 			foreach ( $formy as $f ) {
 				foreach ( $warianty_frakcji as $frakcja ) {
-					$cena_zl = $frakcja !== ''
-						? ( $frakcje[ $sku ][ $frakcja ][ $f['klucz'] ] ?? null )
-						: ( $startowy[ $sku ][ $f['klucz'] ] ?? null );
+					// Cennik Pawla z 07.08 podaje „big-bag 410 zl" BEZ rozmiaru, a karty produktow
+					// maja big-bagi 500, 600 i 1000 kg. Bierzemy wiec cene rodzajowa, gdy nie ma
+					// dokladnego trafienia — lepiej pokazac cene do poprawienia niz „brak ceny".
+					// Workow to NIE dotyczy: tam cena idzie za sztuke i zalezy od gramatury.
+					$zrodlo  = $frakcja !== '' ? ( $frakcje[ $sku ][ $frakcja ] ?? [] ) : ( $startowy[ $sku ] ?? [] );
+					$cena_zl = $zrodlo[ $f['klucz'] ] ?? ( $f['rodzaj'] === 'big-bag' ? ( $zrodlo['big-bag'] ?? null ) : null );
 
 					$siatka[] = [
 						'produkt_id'     => $produkt->ID,
