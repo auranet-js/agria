@@ -99,6 +99,13 @@ function agria_of_klient( array $dane ): int {
 				update_post_meta( $istniejacy, $k, $v );
 			}
 		}
+		// Nazwa podana teraz WYGRYWA ze starą. Zmierzone w prezentacji 27.08.2026: handlowiec wpisał
+		// „Gospodarstwo Rolne Wiśniewski", dopasowanie po NIP trafiło w klienta założonego wcześniej
+		// pod inną nazwą i wydruk pokazał tamtą. Człowiek właśnie podał nazwę — to ona jest aktualna.
+		$podana = trim( (string) ( $dane['nazwa'] ?? '' ) );
+		if ( $podana !== '' && $podana !== get_post( $istniejacy )->post_title ) {
+			wp_update_post( [ 'ID' => $istniejacy, 'post_title' => $podana ] );
+		}
 		return $istniejacy;
 	}
 
@@ -211,6 +218,10 @@ function agria_of_zapisz_oferte( array $wejscie, array $w ): int {
 
 	$zapis = [
 		'klient_id'       => $klient_id,
+		// Nazwa kopiowana DO oferty, nie tylko referencja do karty. Oferta jest zamrozona:
+		// pozniejsza zmiana nazwy klienta nie moze przepisac dokumentu sprzed miesiaca.
+		'klient_nazwa'    => sanitize_text_field( $wejscie['klient_nazwa'] ?? ( $platnik['nazwa'] ?? '' ) ),
+		'klient_telefon'  => sanitize_text_field( $wejscie['klient_telefon'] ?? '' ),
 		'platnik'         => is_array( $platnik ) ? $platnik : '',
 		'kanal'           => sanitize_text_field( $wejscie['kanal'] ?? 'inne' ),
 		'status'          => 'nowa',
@@ -321,7 +332,10 @@ button,a.btn{font:inherit;padding:.5rem .9rem;border:1px solid #C4C7BB;border-ra
 
 <h2>Dla kogo</h2>
 <div class="dane">
-	<?php if ( $klient ) : ?><div><span>Klient</span><?php echo esc_html( $klient->post_title ); ?></div><?php endif; ?>
+	<?php $nazwa_klienta = (string) $m( 'klient_nazwa' ) ?: ( $klient ? $klient->post_title : '' );
+	if ( $nazwa_klienta ) : ?><div><span>Klient</span><?php echo esc_html( $nazwa_klienta ); ?>
+		<?php if ( $m( 'klient_telefon' ) ) : ?><br><?php echo esc_html( (string) $m( 'klient_telefon' ) ); ?><?php endif; ?>
+	</div><?php endif; ?>
 	<?php if ( is_array( $platnik ) && ! empty( $platnik['nazwa'] ) ) : ?>
 		<div><span>Płatnik (REGON)</span><?php echo esc_html( $platnik['nazwa'] ); ?><br>
 			<?php echo esc_html( $platnik['adres'] ?? '' ); ?><br>
