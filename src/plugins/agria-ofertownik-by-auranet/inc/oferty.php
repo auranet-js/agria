@@ -132,7 +132,7 @@ function agria_of_klient( array $dane ): int {
  * Wszystko w wartosciach, nie w referencjach do cennika: otwarcie oferty za dwa miesiace
  * ma pokazac to, co klient uslyszal przez telefon, a nie przeliczyc sume po nowych cenach.
  */
-function agria_of_zapisz_oferte( array $wejscie, array $w ): int {
+function agria_of_zapisz_oferte( array $wejscie, array $w, int $aktualizuj = 0 ): int {
 	$mie       = agria_of_miejscowosc( (int) ( $wejscie['miejscowosc_id'] ?? 0 ) );
 	$platnik   = json_decode( (string) ( $wejscie['klient_platnik'] ?? '' ), true );
 	$klient_id = agria_of_klient( [
@@ -155,13 +155,20 @@ function agria_of_zapisz_oferte( array $wejscie, array $w ): int {
 		! empty( $wejscie['klient_nazwa'] ) ? ' · ' . sanitize_text_field( $wejscie['klient_nazwa'] ) : ''
 	);
 
-	$id = wp_insert_post( [
-		'post_type'   => AGRIA_OF_CPT_OFERTA,
-		'post_status' => 'publish',
-		'post_title'  => $tytul,
-		'post_author' => get_current_user_id(),
-	] );
-	if ( is_wp_error( $id ) ) {
+	if ( $aktualizuj && get_post_type( $aktualizuj ) === AGRIA_OF_CPT_OFERTA ) {
+		// Aktualizacja cudzej oferty jest dozwolona — ale zostawia slad, kto ja ruszyl.
+		// Autor wpisu i meta `wystawil` NIE zmieniaja sie: wystawil ja kto inny.
+		wp_update_post( [ 'ID' => $aktualizuj, 'post_title' => $tytul ] );
+		$id = $aktualizuj;
+	} else {
+		$id = wp_insert_post( [
+			'post_type'   => AGRIA_OF_CPT_OFERTA,
+			'post_status' => 'publish',
+			'post_title'  => $tytul,
+			'post_author' => get_current_user_id(),
+		] );
+	}
+	if ( is_wp_error( $id ) || ! $id ) {
 		return 0;
 	}
 
@@ -239,12 +246,15 @@ function agria_of_zapisz_oferte( array $wejscie, array $w ): int {
 		'za_tone'         => $w['za_tone'],
 		'towar_wg_cennika'=> $prop,
 		'towar_podany'    => $pod,
-		'wystawil'        => get_current_user_id(),
-		'wystawiono'      => current_time( 'mysql' ),
+		'wystawil'        => $aktualizuj ? ( get_post_meta( $aktualizuj, 'agria_of_wystawil', true ) ?: get_current_user_id() ) : get_current_user_id(),
+		'wystawiono'      => $aktualizuj ? ( get_post_meta( $aktualizuj, 'agria_of_wystawiono', true ) ?: current_time( 'mysql' ) ) : current_time( 'mysql' ),
 		'uwagi'           => sanitize_textarea_field( $wejscie['uwagi'] ?? '' ),
 	];
 	foreach ( $zapis as $k => $v ) {
 		update_post_meta( $id, 'agria_of_' . $k, $v );
+	}
+	if ( $aktualizuj ) {
+		agria_of_zapisz_slad_edycji( $id );
 	}
 	return (int) $id;
 }
@@ -268,7 +278,7 @@ add_action( 'wp_ajax_agria_of_zapisz', function (): void {
 	if ( empty( $w['pozycje'] ) ) {
 		wp_send_json_error( [ 'blad' => 'Nie ma czego zapisać — wpisz ilość przy którejś pozycji.' ] );
 	}
-	$id = agria_of_zapisz_oferte( $dane, $w );
+	$id = agria_of_zapisz_oferte( $dane, $w, (int) ( $dane['aktualizuj'] ?? 0 ) );
 	if ( ! $id ) {
 		wp_send_json_error( [ 'blad' => 'Nie udało się zapisać.' ] );
 	}
@@ -534,4 +544,78 @@ function agria_of_roznica_oferty( int $id ): array {
 		}
 	}
 	return [ $prop, $pod ];
+}
+
+/**
+ * Slad edycji — wzorzec z victorini2025 (`saved-carts-cpt.php`, meta `_edited_by`/`_edited_at`).
+ *
+ * Oferta jest ZAMROZONA wobec cennika: sama sie nie przelicza. Ale czlowiek moze ja swiadomie
+ * poprawic — Bogdan bierze telefon po Kazimierzu i zmienia ilosc. Wtedy musi zostac slad,
+ * KTO ostatni ruszyl dokument, bo pod ta wycena podpisuje sie juz kto inny niz wystawiajacy.
+ */
+function agria_of_zapisz_slad_edycji( int $id ): void {
+	update_post_meta( $id, 'agria_of_edytowal', get_current_user_id() );
+	update_post_meta( $id, 'agria_of_edytowano', current_time( 'mysql' ) );
+	$ile = (int) get_post_meta( $id, 'agria_of_edycji', true );
+	update_post_meta( $id, 'agria_of_edycji', $ile + 1 );
+}
+
+/** Kto i kiedy ostatnio ruszyl oferte. Null = nikt jej nie edytowal od wystawienia. */
+function agria_of_slad_edycji( int $id ): ?array {
+	$kto = (int) get_post_meta( $id, 'agria_of_edytowal', true );
+	if ( ! $kto ) {
+		return null;
+	}
+	$u = get_userdata( $kto );
+	return [
+		'kto'   => $u ? $u->display_name : 'nieznany użytkownik',
+		'kiedy' => (string) get_post_meta( $id, 'agria_of_edytowano', true ),
+		'ile'   => (int) get_post_meta( $id, 'agria_of_edycji', true ),
+	];
+}
+
+/** Kto wystawil — do listy i wydruku. */
+function agria_of_wystawil( int $id ): string {
+	$u = get_userdata( (int) get_post_meta( $id, 'agria_of_wystawil', true ) );
+	return $u ? $u->display_name : '—';
+}
+
+/**
+ * Oferta wczytana z powrotem do arkusza — do edycji.
+ * Zwraca ksztalt, ktory ekran rozumie: pozycje po produkt_id plus dane klienta.
+ */
+function agria_of_oferta_do_arkusza( int $id ): ?array {
+	$o = get_post( $id );
+	if ( ! $o || $o->post_type !== AGRIA_OF_CPT_OFERTA ) {
+		return null;
+	}
+	$m = fn( string $k ) => get_post_meta( $id, 'agria_of_' . $k, true );
+	$pozycje = [];
+	foreach ( agria_of_pozycje_oferty( $id ) as $p ) {
+		$pozycje[ (int) $p['produkt_id'] ] = [
+			'forma_klucz' => $p['forma_klucz'],
+			'ilosc'       => $p['ilosc'] ?: $p['tony'],
+			'jednostka'   => $p['jednostka'] ?: 'tona',
+			'zaklad'      => (int) $p['zaklad_term_id'],
+			'cena'        => $p['cena_podana'] !== null
+				? number_format( (float) agria_of_na_zlote( (int) $p['cena_podana'] ), 2, ',', '' ) : '',
+		];
+	}
+	// Oferty sprzed 0.6.2 nie maja nazwy u siebie — bierzemy ja z karty klienta,
+	// zeby edycja starej oferty nie startowala z pustym polem.
+	$karta = $m( 'klient_id' ) ? get_post( (int) $m( 'klient_id' ) ) : null;
+	return [
+		'id'             => $id,
+		'klient_nazwa'   => (string) $m( 'klient_nazwa' ) ?: ( $karta ? $karta->post_title : '' ),
+		'klient_telefon' => (string) $m( 'klient_telefon' )
+			?: ( $karta ? (string) get_post_meta( $karta->ID, 'agria_of_telefon', true ) : '' ),
+		'klient_nip'     => is_array( $m( 'platnik' ) ) ? ( $m( 'platnik' )['nip'] ?? '' ) : '',
+		'platnik'        => is_array( $m( 'platnik' ) ) ? $m( 'platnik' ) : null,
+		'kanal'          => (string) $m( 'kanal' ),
+		'uwagi'          => (string) $m( 'uwagi' ),
+		'miejscowosc'    => (string) $m( 'miejscowosc' ),
+		'miejscowosc_id' => (int) $m( 'miejscowosc_id' ),
+		'stan_transportu'=> (string) $m( 'stan_transportu' ),
+		'pozycje'        => $pozycje,
+	];
 }

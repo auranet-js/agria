@@ -27,7 +27,12 @@ add_action( 'template_redirect', function (): void {
 	if ( ! agria_of_wpuszczamy() ) {
 		exit;
 	}
-	agria_of_render_ekran();
+	// Goly adres = pulpit z lista ofert. Arkusz otwiera sie swiadomie: „Nowa oferta" albo „edytuj".
+	if ( ! isset( $_GET['nowa'] ) && empty( $_GET['edytuj'] ) ) {
+		agria_of_render_pulpit();
+		exit;
+	}
+	agria_of_render_ekran( isset( $_GET['edytuj'] ) ? (int) $_GET['edytuj'] : 0 );
 	exit;
 } );
 
@@ -124,17 +129,10 @@ function agria_of_koszyk_na_widok( array $w ): array {
 	];
 }
 
-function agria_of_render_ekran(): void {
-	$produkty = agria_of_produkty();
-	$nonce    = wp_create_nonce( 'agria_of' );
-	?><!doctype html>
-<html lang="pl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<title>Arkusz wyceny — AGRIA</title>
-<style>
+
+/** Tokeny i pasek gorny — wspolne dla arkusza, pulpitu i kazdego kolejnego ekranu. */
+function agria_of_style_wspolny(): void {
+	?>
 :root{
 	--tlo:#F2F2EE; --karta:#FFFFFF; --tekst:#161A16; --cichy:#6B7268; --slaby:#99A095;
 	--kreska:#DEDFD7; --kreska-mocna:#C4C7BB; --zielen:#354E33; --zielen-jasna:#EAEFE7;
@@ -160,6 +158,22 @@ body{margin:0;background:var(--tlo);color:var(--tekst);
 .gora .kto{margin-left:auto;color:var(--cichy);font-size:.82rem;}
 .gora a{color:var(--zielen);}
 
+	<?php
+}
+
+function agria_of_render_ekran( int $edytuj = 0 ): void {
+	$produkty = agria_of_produkty();
+	$nonce    = wp_create_nonce( 'agria_of' );
+	$oferta   = $edytuj ? agria_of_oferta_do_arkusza( $edytuj ) : null;
+	?><!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Arkusz wyceny — AGRIA</title>
+<style>
+<?php agria_of_style_wspolny(); ?>
 .pas{background:var(--karta);border-bottom:1px solid var(--kreska);}
 .pas-tytul{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slaby);
 	padding:.7rem 1.2rem .35rem;font-weight:600;}
@@ -256,6 +270,9 @@ input.podloga{border-color:var(--alarm);background:var(--alarm-tlo);}
 .btn-glowny:disabled{opacity:.4;cursor:default;}
 .komunikat{font-size:.82rem;color:var(--cichy);}
 .komunikat.zle{color:var(--alarm);}
+.pas-edycji{background:var(--ochra-tlo);border-bottom:1px solid var(--ochra);
+	padding:.6rem 1.2rem;font-size:.86rem;color:var(--tekst);}
+.pas-edycji b{font-weight:650;}
 .komunikat a{color:var(--zielen);}
 @media (prefers-reduced-motion:no-preference){.wypelnienie i{transition:width .18s ease-out;}}
 </style>
@@ -263,11 +280,22 @@ input.podloga{border-color:var(--alarm);background:var(--alarm-tlo);}
 <body>
 
 <div class="gora">
-	<span class="marka">AGRIA <span>· arkusz wyceny</span></span>
+	<span class="marka">AGRIA <span>· <?php echo $oferta ? 'oferta nr ' . (int) $oferta['id'] : 'nowa wycena'; ?></span></span>
 	<span class="kto"><?php echo esc_html( wp_get_current_user()->display_name ); ?>
-		· <a href="<?php echo esc_url( admin_url( 'admin.php?page=agria-of-cennik' ) ); ?>">cennik</a>
-		· <a href="<?php echo esc_url( admin_url( 'edit.php?post_type=agria_quote' ) ); ?>">oferty</a></span>
+		· <a href="<?php echo esc_url( home_url( '/wycena/' ) ); ?>">← wszystkie oferty</a>
+		· <a href="<?php echo esc_url( admin_url( 'admin.php?page=agria-of-cennik' ) ); ?>">cennik</a></span>
 </div>
+
+<?php if ( $oferta ) :
+	$wystawil = agria_of_wystawil( (int) $oferta['id'] );
+	$slad     = agria_of_slad_edycji( (int) $oferta['id'] ); ?>
+	<div class="pas-edycji">
+		Edytujesz ofertę nr <b><?php echo (int) $oferta['id']; ?></b>, którą wystawił <b><?php echo esc_html( $wystawil ); ?></b>.
+		<?php if ( $slad ) : ?>Ostatnio zmieniał ją <b><?php echo esc_html( $slad['kto'] ); ?></b>
+			(<?php echo esc_html( mysql2date( 'j.m.Y, H:i', $slad['kiedy'] ) ); ?>).<?php endif; ?>
+		Zapisanie nadpisze tę ofertę i odnotuje, że zaktualizował ją <b><?php echo esc_html( wp_get_current_user()->display_name ); ?></b>.
+	</div>
+<?php endif; ?>
 
 <section class="pas">
 	<div class="pas-tytul">Klient</div>
@@ -359,7 +387,7 @@ input.podloga{border-color:var(--alarm);background:var(--alarm-tlo);}
 	<div class="poz">Tonaż<b id="s_tony">0 t</b></div>
 	<div class="poz">Za tonę z dostawą<b id="s_zatone">0,00</b></div>
 	<div class="suma"><span class="etyk">Razem netto</span><b id="s_razem">0,00 zł</b></div>
-	<button class="btn-glowny" id="zapisz" disabled>Zapisz ofertę</button>
+	<button class="btn-glowny" id="zapisz" disabled><?php echo $oferta ? "Zapisz zmiany" : "Zapisz ofertę"; ?></button>
 	<span class="komunikat" id="komunikat"></span>
 </div>
 
@@ -367,6 +395,7 @@ input.podloga{border-color:var(--alarm);background:var(--alarm-tlo);}
 const AJAX=<?php echo wp_json_encode( admin_url( 'admin-ajax.php' ) ); ?>, NONCE=<?php echo wp_json_encode( $nonce ); ?>;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 let miejscowoscId=0, platnik=null, licznik=0, timerPodp=null, timer=null;
+const OFERTA=<?php echo wp_json_encode( $oferta ); ?>;
 
 async function api(action,params,metoda='GET'){
 	const u=new URL(AJAX);
@@ -565,12 +594,33 @@ document.addEventListener('click',e=>{
 	}
 });
 
+/* ---------- wczytanie oferty do edycji ---------- */
+if(OFERTA){
+	const v=(i,x)=>{const e=$(i); if(e&&x)e.value=x;};
+	v('#k_nazwa',OFERTA.klient_nazwa); v('#k_tel',OFERTA.klient_telefon); v('#k_nip',OFERTA.klient_nip);
+	v('#k_kanal',OFERTA.kanal); v('#k_uwagi',OFERTA.uwagi); v('#miejscowosc',OFERTA.miejscowosc);
+	v('#stan',OFERTA.stan_transportu);
+	miejscowoscId=OFERTA.miejscowosc_id||0;
+	platnik=OFERTA.platnik||null;
+	if(platnik) $('#platnik').innerHTML=`Płatnik: <b>${platnik.nazwa}</b> · ${platnik.adres||''}`;
+	Object.entries(OFERTA.pozycje||{}).forEach(([k,p])=>{
+		const tr=document.querySelector('[data-klucz="'+k+'"]'); if(!tr)return;
+		tr.querySelector('.forma').value=p.forma_klucz;
+		tr.querySelector('.jednostka').value=p.jednostka;
+		tr.querySelector('.ilosc').value=p.ilosc;
+		tr.classList.add('wybrany'); tr.querySelector('.ptak').checked=true;
+		if(p.cena){const c=tr.querySelector('.cena'); c.value=p.cena; c.dataset.tkniete='1';}
+	});
+	policz();
+}
+
 /* ---------- zapis ---------- */
 $('#zapisz').onclick=async()=>{
 	const b=$('#zapisz'), k=$('#komunikat');
 	b.disabled=true; k.className='komunikat'; k.textContent='Zapisuję…';
 	const r=await api('agria_of_zapisz',{miejscowosc_id:miejscowoscId,stan_transportu:$('#stan').value,
 		...zbierzPozycje(),...zbierzTransport(),
+		aktualizuj:OFERTA?OFERTA.id:'',
 		klient_nazwa:$('#k_nazwa').value,klient_telefon:$('#k_tel').value,klient_nip:$('#k_nip').value,
 		klient_platnik:platnik?JSON.stringify(platnik):'',kanal:$('#k_kanal').value,uwagi:$('#k_uwagi').value},'POST');
 	b.disabled=false;
