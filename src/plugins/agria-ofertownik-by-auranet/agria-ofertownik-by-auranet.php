@@ -2,7 +2,7 @@
 /**
  * Plugin Name: AGRIA Ofertownik by Auranet
  * Description: Wycena zamowienia z transportem z wlasciwego zakladu — narzedzie wewnetrzne dzialu handlowego.
- * Version:     0.6.0
+ * Version:     0.6.1
  * Author:      Auranet
  * Text Domain: agria-ofertownik
  * Requires PHP: 8.0
@@ -17,7 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AGRIA_OF_VERSION', '0.6.0' );
+define( 'AGRIA_OF_VERSION', '0.6.1' );
 define( 'AGRIA_OF_DIR', plugin_dir_path( __FILE__ ) );
 define( 'AGRIA_OF_URL', plugin_dir_url( __FILE__ ) );
 
@@ -38,6 +38,30 @@ if ( is_admin() ) {
 	require_once AGRIA_OF_DIR . 'inc/admin.php';
 	require_once AGRIA_OF_DIR . 'inc/panel-zaklady.php';
 	require_once AGRIA_OF_DIR . 'inc/zestawienie.php';
+}
+
+/**
+ * Bramka ekranu /wycena/.
+ *
+ * NIE uzywamy `auth_redirect()`. Ta funkcja waliduje ciasteczko `secure_auth`, ktore przy
+ * wymuszonym SSL w panelu wydawane jest TYLKO dla `/wp-admin` — front go nie dostaje.
+ * Skutek zmierzony 25.08.2026 na stagingu: handlowiec zalogowany w panelu („Witaj, testclaude")
+ * byl odbijany z `/wycena/` na `wp-login.php?...&reauth=1` mimo waznej sesji.
+ * `is_user_logged_in()` czyta ciasteczko `logged_in`, ktore obowiazuje na calej witrynie.
+ *
+ * @return bool true = wpuszczamy; false = przekierowanie juz wyslane, wywolujacy ma zakonczyc.
+ */
+function agria_of_wpuszczamy(): bool {
+	if ( is_user_logged_in() && current_user_can( AGRIA_OF_CAP ) ) {
+		return true;
+	}
+	if ( is_user_logged_in() ) {
+		wp_die( 'To narzędzie jest dla działu handlowego AGRII. Twoje konto nie ma do niego dostępu.',
+			'Brak dostępu', [ 'response' => 403 ] );
+	}
+	$wroc = ( is_ssl() ? 'https://' : 'http://' ) . ( $_SERVER['HTTP_HOST'] ?? '' ) . ( $_SERVER['REQUEST_URI'] ?? '/wycena/' );
+	wp_safe_redirect( wp_login_url( $wroc ) );
+	return false;
 }
 
 register_activation_hook( __FILE__, 'agria_of_aktywacja' );

@@ -24,8 +24,7 @@ add_action( 'template_redirect', function (): void {
 	if ( ! get_query_var( 'agria_of_ekran' ) ) {
 		return;
 	}
-	if ( ! is_user_logged_in() || ! current_user_can( AGRIA_OF_CAP ) ) {
-		auth_redirect();
+	if ( ! agria_of_wpuszczamy() ) {
 		exit;
 	}
 	agria_of_render_ekran();
