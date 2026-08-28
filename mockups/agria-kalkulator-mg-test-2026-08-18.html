@@ -192,7 +192,7 @@ table.mg-tbl td.num { text-align: right; white-space: nowrap; }
         <!-- NOWE: produkty magnezowe (dobór: najpierw Mg, potem CaO) -->
         <div class="agria-calc__step--hidden" id="agria-mg-products">
             <h3 style="font-size:16px; color:#354E33; margin:24px 0 10px;">Dobór nawozu — krok 1: pokryj magnez</h3>
-            <p class="agria-calc__hint" style="margin:0 0 10px;">Dawkę nawozu magnezowego ustala niedobór magnezu. Wapno, którego przy tej dawce zabraknie, dopokrywasz w kroku 2 zwykłym wapnem bez magnezu.</p>
+            <p class="agria-calc__hint" style="margin:0 0 10px;">Dawkę nawozu magnezowego ustala niedobór magnezu. Wapno, którego przy tej dawce zabraknie, uzupełniasz w kroku 2 zwykłym wapnem bez magnezu.</p>
             <div class="tbl-wrap"><table class="mg-tbl" id="agria-mg-products-tbl"></table></div>
             <p class="agria-calc__hint" style="margin-top:8px;" id="agria-mg-products-note"></p>
         </div>
@@ -434,7 +434,7 @@ function renderCaO(dose, area) {
     $('agria-result-dose').textContent = fmt(dose[0]);
     $('agria-result-total').textContent = 'Na całe pole (' + fmt(area) + ' ha): ' + fmt(dose[0] * area) + ' t CaO';
     $('agria-result-split').textContent = dose[2] > 0
-        ? 'Dawkę podziel na dwie aplikacje: I — ' + fmt(dose[1]) + ' t/ha, II — ' + fmt(dose[2]) + ' t/ha (po 2–3 latach).'
+        ? 'Dawkę podziel na dwie aplikacje: I — ' + fmt(dose[1]) + ' t/ha, II — ' + fmt(dose[2]) + ' t/ha (w drugim, trzecim roku).'
         : '';
 }
 
