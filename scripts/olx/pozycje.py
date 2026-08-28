@@ -21,8 +21,13 @@ plan={(r['siatka'],r['city']):r for r in json.load(open(D+'plan-ogloszen.json'))
 h=json.load(open(D+'statystyki.json')); now=h[-1]['per_ogloszenie']
 cid={}; wynik={}
 for k,v in posted.items():
-    s=k[len('agria-'):].rsplit('-',1)[0]; p=plan.get((s,v['city']))
-    if p: cid[v['city']]=p['city_id']
+    # city_id bierzemy z JAWNEGO pola rejestru (od 28.08, T-106), nie z nazwy klucza: po
+    # przełożeniu ogłoszenia external_id niesie city_id sprzed przekładki, a plan nie zna
+    # nowych par (siatka, miasto). Parsowanie klucza zostaje tylko jako fallback dla wpisów
+    # sprzed migracji rejestru.
+    s=v.get('wariant') or k[len('agria-'):].rsplit('-',1)[0]
+    c=v.get('city_id') or (plan.get((s,v['city'])) or {}).get('city_id')
+    if c: cid[v['city']]=c
     od,tel=now.get(str(v['advert_id']),[0,0])
     a=wynik.setdefault(v['city'],[0,0,0]); a[0]+=1; a[1]+=od; a[2]+=tel
 out=[]

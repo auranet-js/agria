@@ -65,8 +65,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871,
-   "district_id": 351
+   "city_id": 117185
   },
   "images": [
    {
@@ -106,7 +105,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Warszawa",
+   "city": "Kolbuszowa",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -121,7 +120,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15459
+   "city_id": 94147
   },
   "images": [
    {
@@ -161,7 +160,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Siedlce",
+   "city": "Ropczyce",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -176,7 +175,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 102207
+   "city_id": 41723
   },
   "images": [
    {
@@ -216,7 +215,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Mława",
+   "city": "Żabno",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -231,7 +230,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 13663
+   "city_id": 82839
   },
   "images": [
    {
@@ -271,7 +270,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Płock",
+   "city": "Kazimierza Wielka",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -286,7 +285,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 92951
+   "city_id": 33803
   },
   "images": [
    {
@@ -326,7 +325,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Płońsk",
+   "city": "Opatów",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -341,7 +340,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7509
+   "city_id": 142911
   },
   "images": [
    {
@@ -381,7 +380,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Kalisz",
+   "city": "Skała",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -507,7 +506,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 14721
+   "city_id": 114999
   },
   "images": [
    {
@@ -547,7 +546,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Radzyń Podlaski",
+   "city": "Gołcza",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -1059,7 +1058,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 70249
+   "city_id": 67265
   },
   "images": [
    {
@@ -1099,7 +1098,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Ostrów Wielkopolski",
+   "city": "Lisia Góra",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -1169,7 +1168,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8523
+   "city_id": 37937
   },
   "images": [
    {
@@ -1209,7 +1208,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Konin",
+   "city": "Szczucin",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -1279,8 +1278,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871,
-   "district_id": 351
+   "city_id": 117185
   },
   "images": [
    {
@@ -1320,7 +1318,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Warszawa",
+   "city": "Kolbuszowa",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1335,7 +1333,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15459
+   "city_id": 94147
   },
   "images": [
    {
@@ -1375,7 +1373,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Siedlce",
+   "city": "Ropczyce",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1390,7 +1388,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 102207
+   "city_id": 41723
   },
   "images": [
    {
@@ -1430,7 +1428,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Mława",
+   "city": "Żabno",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1445,7 +1443,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 13663
+   "city_id": 82839
   },
   "images": [
    {
@@ -1485,7 +1483,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Płock",
+   "city": "Kazimierza Wielka",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1500,7 +1498,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 92951
+   "city_id": 33803
   },
   "images": [
    {
@@ -1540,7 +1538,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Płońsk",
+   "city": "Opatów",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1611,7 +1609,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7509
+   "city_id": 13159
   },
   "images": [
    {
@@ -1651,7 +1649,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Kalisz",
+   "city": "Ostrowiec Świętokrzyski",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1942,7 +1940,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 14721
+   "city_id": 139101
   },
   "images": [
    {
@@ -1982,7 +1980,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Radzyń Podlaski",
+   "city": "Mszana Dolna",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -2603,7 +2601,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 70249
+   "city_id": 27657
   },
   "images": [
    {
@@ -2643,7 +2641,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Ostrów Wielkopolski",
+   "city": "Gromnik",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -2658,8 +2656,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 19701,
-   "district_id": 387
+   "city_id": 67265
   },
   "images": [
    {
@@ -2699,7 +2696,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Wrocław",
+   "city": "Lisia Góra",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -2769,7 +2766,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8523
+   "city_id": 37937
   },
   "images": [
    {
@@ -2809,7 +2806,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Konin",
+   "city": "Szczucin",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -2879,7 +2876,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15459
+   "city_id": 24485
   },
   "images": [
    {
@@ -2919,7 +2916,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Siedlce",
+   "city": "Bochnia",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -2989,8 +2986,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871,
-   "district_id": 351
+   "city_id": 63865
   },
   "images": [
    {
@@ -3030,7 +3026,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Warszawa",
+   "city": "Grybów",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3045,7 +3041,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 102207
+   "city_id": 37937
   },
   "images": [
    {
@@ -3085,7 +3081,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Mława",
+   "city": "Szczucin",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3100,7 +3096,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 14721
+   "city_id": 139101
   },
   "images": [
    {
@@ -3140,7 +3136,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Radzyń Podlaski",
+   "city": "Mszana Dolna",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3595,8 +3591,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 19701,
-   "district_id": 387
+   "city_id": 67265
   },
   "images": [
    {
@@ -3636,7 +3631,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Wrocław",
+   "city": "Lisia Góra",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3706,7 +3701,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 70249
+   "city_id": 27657
   },
   "images": [
    {
@@ -3746,7 +3741,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Ostrów Wielkopolski",
+   "city": "Gromnik",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3761,7 +3756,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8523
+   "city_id": 4929
   },
   "images": [
    {
@@ -3801,7 +3796,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Konin",
+   "city": "Dąbrowa Tarnowska",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3871,8 +3866,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 13983,
-   "district_id": 327
+   "city_id": 41723
   },
   "images": [
    {
@@ -3912,7 +3906,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Poznań",
+   "city": "Żabno",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3927,7 +3921,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 135303
+   "city_id": 93127
   },
   "images": [
    {
@@ -3967,7 +3961,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Kępno",
+   "city": "Połaniec",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3982,8 +3976,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10609,
-   "district_id": 299
+   "city_id": 55111
   },
   "images": [
    {
@@ -4023,7 +4016,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Łódź",
+   "city": "Stalowa Wola",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -4038,7 +4031,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 9775
+   "city_id": 93879
   },
   "images": [
    {
@@ -4078,7 +4071,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Legnica",
+   "city": "Radgoszcz",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -4258,7 +4251,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7509
+   "city_id": 142911
   },
   "images": [
    {
@@ -4298,7 +4291,7 @@
    "karta": "oxyfertil-90",
    "sku": "AGR-003",
    "siatka": "oxyfertil-90",
-   "city": "Kalisz",
+   "city": "Skała",
    "intencja": "rolnictwo — dostawa od 1 tony, bez całopojazdowego minimum"
   }
  },
@@ -4701,8 +4694,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871,
-   "district_id": 351
+   "city_id": 121091
   },
   "images": [
    {
@@ -4742,7 +4734,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Warszawa",
+   "city": "Niepołomice",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -4757,7 +4749,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15459
+   "city_id": 79453
   },
   "images": [
    {
@@ -4797,7 +4789,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Siedlce",
+   "city": "Chmielnik",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -4812,7 +4804,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 102207
+   "city_id": 93879
   },
   "images": [
    {
@@ -4852,7 +4844,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Mława",
+   "city": "Radgoszcz",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -4867,7 +4859,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7509
+   "city_id": 13159
   },
   "images": [
    {
@@ -4907,7 +4899,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Kalisz",
+   "city": "Ostrowiec Świętokrzyski",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -4922,7 +4914,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 14721
+   "city_id": 10087
   },
   "images": [
    {
@@ -4962,7 +4954,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Radzyń Podlaski",
+   "city": "Lubień",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -4977,8 +4969,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10609,
-   "district_id": 299
+   "city_id": 22837
   },
   "images": [
    {
@@ -5018,7 +5009,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Łódź",
+   "city": "Czarna",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -5695,7 +5686,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10603
+   "city_id": 7161
   },
   "images": [
    {
@@ -5735,7 +5726,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Łowicz",
+   "city": "Jasło",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -5805,8 +5796,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871,
-   "district_id": 351
+   "city_id": 63865
   },
   "images": [
    {
@@ -5846,7 +5836,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Warszawa",
+   "city": "Grybów",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -5861,7 +5851,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15459
+   "city_id": 79453
   },
   "images": [
    {
@@ -5901,7 +5891,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Siedlce",
+   "city": "Chmielnik",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -5916,7 +5906,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 102207
+   "city_id": 41723
   },
   "images": [
    {
@@ -5956,7 +5946,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Mława",
+   "city": "Żabno",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -5971,7 +5961,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7509
+   "city_id": 93127
   },
   "images": [
    {
@@ -6011,7 +6001,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Kalisz",
+   "city": "Połaniec",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6026,7 +6016,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 14721
+   "city_id": 10087
   },
   "images": [
    {
@@ -6066,7 +6056,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Radzyń Podlaski",
+   "city": "Lubień",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6136,8 +6126,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10609,
-   "district_id": 299
+   "city_id": 22837
   },
   "images": [
    {
@@ -6177,7 +6166,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Łódź",
+   "city": "Czarna",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6302,7 +6291,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10603
+   "city_id": 114999
   },
   "images": [
    {
@@ -6342,7 +6331,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Łowicz",
+   "city": "Gołcza",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6412,7 +6401,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 70249
+   "city_id": 67265
   },
   "images": [
    {
@@ -6452,7 +6441,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Ostrów Wielkopolski",
+   "city": "Lisia Góra",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6467,7 +6456,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8523
+   "city_id": 4929
   },
   "images": [
    {
@@ -6507,7 +6496,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Konin",
+   "city": "Dąbrowa Tarnowska",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6578,7 +6567,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 135303
+   "city_id": 24485
   },
   "images": [
    {
@@ -6618,7 +6607,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Kępno",
+   "city": "Bochnia",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6798,8 +6787,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 17871,
-   "district_id": 351
+   "city_id": 7161
   },
   "images": [
    {
@@ -6839,7 +6827,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Warszawa",
+   "city": "Jasło",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -6854,7 +6842,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15459
+   "city_id": 121091
   },
   "images": [
    {
@@ -6894,7 +6882,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Siedlce",
+   "city": "Niepołomice",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -6964,7 +6952,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 92951
+   "city_id": 86509
   },
   "images": [
    {
@@ -7004,7 +6992,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Płońsk",
+   "city": "Jędrzejów",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -7019,7 +7007,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 13663
+   "city_id": 82839
   },
   "images": [
    {
@@ -7059,7 +7047,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Płock",
+   "city": "Kazimierza Wielka",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -7405,7 +7393,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 14721
+   "city_id": 55111
   },
   "images": [
    {
@@ -7445,7 +7433,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Radzyń Podlaski",
+   "city": "Stalowa Wola",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -7625,7 +7613,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15963
+   "city_id": 67
   },
   "images": [
    {
@@ -7662,7 +7650,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Sokołów Podlaski",
+   "city": "Alwernia",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -7677,7 +7665,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 102207
+   "city_id": 93879
   },
   "images": [
    {
@@ -7714,7 +7702,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Mława",
+   "city": "Radgoszcz",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -7729,7 +7717,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 13147
+   "city_id": 37937
   },
   "images": [
    {
@@ -7766,7 +7754,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Ostrołęka",
+   "city": "Szczucin",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -7781,7 +7769,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 92951
+   "city_id": 82839
   },
   "images": [
    {
@@ -7818,7 +7806,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Płońsk",
+   "city": "Kazimierza Wielka",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -8041,7 +8029,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 7509
+   "city_id": 93127
   },
   "images": [
    {
@@ -8078,7 +8066,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Kalisz",
+   "city": "Połaniec",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -8573,7 +8561,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 2151
+   "city_id": 67
   },
   "images": [
    {
@@ -8613,7 +8601,7 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Białobrzegi",
+   "city": "Alwernia",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -8849,7 +8837,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 135303
+   "city_id": 24485
   },
   "images": [
    {
@@ -8889,7 +8877,7 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Kępno",
+   "city": "Bochnia",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -9229,171 +9217,6 @@
   "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
   "category_id": 4368,
   "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-13663",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 13663
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Płock",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-92951",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 92951
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna-b.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Płońsk",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-15963",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 15963
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Sokołów Podlaski",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
   "external_id": "agria-kreda-pastewna-78099",
   "contact": {
    "name": "AGRIA Sp. z o.o.",
@@ -9449,116 +9272,6 @@
   "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
   "category_id": 4368,
   "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-13147",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 13147
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Ostrołęka",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-25555",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 25555
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna-b.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Ciechanów",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
   "external_id": "agria-kreda-pastewna-3231",
   "contact": {
    "name": "AGRIA Sp. z o.o.",
@@ -9606,171 +9319,6 @@
    "sku": "AGR-015",
    "siatka": "kreda-pastewna",
    "city": "Bielsko-Biała",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-70249",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 70249
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna-b.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Ostrów Wielkopolski",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-135303",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 135303
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Kępno",
-   "intencja": "paszarstwo — suplementacja wapnia"
-  }
- },
- {
-  "title": "Kreda pastewna dla bydła i drobiu — węglan wapnia paszowy, wapń w dawce żywieniowej, luzem, stała jakość każdej partii",
-  "description": "Kreda pastewna jako źródło wapnia w żywieniu bydła, drobiu i trzody. Dostępna w kilku frakcjach dobieranych do rodzaju paszy i systemu zadawania.\n\nPARAMETRY\n• Zawartość CaO: min. 37% CaO\n• Forma fizyczna: Sypkie\n• Frakcja: 0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm\n• Producent: Celiny(Hochel Group), Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Uzupełnienie wapnia w dietach zwierzęcych\n• Dawkowanie: 1-2 kg / 100 kg paszy\n• Efekt zastosowania: Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia\n\nFORMY DOSTAWY I CENA\n• od 190 zł/t luzem — cena za towar, bez transportu\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-kreda-pastewna-8523",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 8523
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna-b.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-pastewna.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-pastewna-frakcja.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-pastewna.jpg"
-   }
-  ],
-  "price": {
-   "value": 190,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "kreda-pastewna",
-   "sku": "AGR-015",
-   "siatka": "kreda-pastewna",
-   "city": "Konin",
    "intencja": "paszarstwo — suplementacja wapnia"
   }
  },
@@ -10984,6 +10532,443 @@
    "siatka": "weglanowe-magnez-odmiana-05",
    "city": "Miechów",
    "intencja": "rolnictwo — najniższy koszt tony przy uzupełnieniu magnezu"
+  }
+ },
+ {
+  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR",
+  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-weglanowe-odmiana-04-93879",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 93879
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
+   }
+  ],
+  "price": {
+   "value": 57,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "weglanowe-odmiana-04",
+   "sku": "AGR-006",
+   "siatka": "weglanowe-odmiana-04",
+   "city": "Radgoszcz",
+   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
+  }
+ },
+ {
+  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR",
+  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-weglanowe-odmiana-04-4929",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 4929
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
+   }
+  ],
+  "price": {
+   "value": 57,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "weglanowe-odmiana-04",
+   "sku": "AGR-006",
+   "siatka": "weglanowe-odmiana-04",
+   "city": "Dąbrowa Tarnowska",
+   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
+  }
+ },
+ {
+  "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tygodnie, atest OSChR, luzem i big bag",
+  "description": "Wapno tlenkowe palone do szybkiego odkwaszania gleb średnich i ciężkich. Reaktywność bliska 100% oznacza, że efekt widać w 2–4 tygodnie, a nie w kolejnym sezonie. Uregulowany odczyn odblokowuje składniki pokarmowe już zalegające w glebie.\n\nPARAMETRY\n• Zawartość CaO: Min. 70% CaO\n• Reaktywność: ~100%\n• Typ reakcji: Egzotermiczna\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Nordkalk\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkażania wody i dna stawu, Odkwaszanie gleb średnich i ciężkich, podniesienie pH, poprawa struktury gleby\n• Dawkowanie: 2-6 t/ha (rolnictwo), 60-100 kg/1000 m³ (stawy)\n• Szybkość działania: Szybkie (2-4 tygodnie)\n• Efekt zastosowania: Wzrost pH gleby i wody, Uzupełnienie wapnia odżywczego\n• Dodatkowe zastosowanie: Przyspieszenie mineralizacji mułu stawowego, Rekultywacja terenów zdegradowanych\n\nFORMY DOSTAWY I CENA\n• od 220 zł/t luzem — cena za towar, bez transportu · dostępne również w big-bagach\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-agrobielik-70-gleba-4929",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 4929
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-agrobielik-70-gleba.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-70.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-70.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-agrobielik-70.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
+   }
+  ],
+  "price": {
+   "value": 220,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "agrobielik-70",
+   "sku": "AGR-001",
+   "siatka": "agrobielik-70-gleba",
+   "city": "Dąbrowa Tarnowska",
+   "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
+  }
+ },
+ {
+  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR",
+  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-weglanowe-odmiana-04-36333",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 36333
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
+   }
+  ],
+  "price": {
+   "value": 57,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "weglanowe-odmiana-04",
+   "sku": "AGR-006",
+   "siatka": "weglanowe-odmiana-04",
+   "city": "Sandomierz",
+   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
+  }
+ },
+ {
+  "title": "Wapno nawozowe tlenkowe 90% CaO Oxyfertil w big bag — dostawa od 1 tony, bez minimum całopojazdowego, gleby średnie i ciężkie, atest OSChR",
+  "description": "Wapno tlenkowe 90% CaO w big-bagach, sprzedawane od jednej tony — bez minimum całopojazdowego. Rozwiązanie dla gospodarstw, które potrzebują wysokiej koncentracji CaO, ale nie zamawiają 24 ton naraz.\n\nPARAMETRY\n• Zawartość CaO: Min. 90% CaO\n• Reaktywność: ~100%\n• Typ reakcji: Egzotermiczna (natychmiastowa)\n• Forma fizyczna: Kruszone\n• Frakcja: 3–8 mm\n• Producent: Lhoist\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Higienizacja i stabilizacja osadów ściekowych, odkażania wody i dna stawu, Szybkie odkwaszanie gleb kwaśnych\n• Dawkowanie: 1-3 t/ha (rolnictwo), 40-60 kg/1000 m³ (stawy), 20-40% suchej masy osadu\n• Szybkość działania: Bardzo szybkie (7-14 dni)\n• Efekt zastosowania: Wzrost pH, sanityzacja. Uzupełnienie wapnia pokarmowego\n• Dodatkowe zastosowanie: Gleby bardzo kwaśne (pH <5), intensywna hodowla ryb, neutralizacja ścieków przemysłowych\n\nFORMY DOSTAWY I CENA\n• od 790 zł/t — cena za towar, bez transportu · dostawa od 1 tony\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-oxyfertil-90-36333",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 36333
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-oxyfertil-90.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-oxyfertil-90.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-oxyfertil-90.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-oxyfertil-90.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-oxyfertil-90.jpg"
+   }
+  ],
+  "price": {
+   "value": 790,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "oxyfertil-90",
+   "sku": "AGR-003",
+   "siatka": "oxyfertil-90",
+   "city": "Sandomierz",
+   "intencja": "rolnictwo — dostawa od 1 tony, bez całopojazdowego minimum"
+  }
+ },
+ {
+  "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tygodnie, atest OSChR, luzem i big bag",
+  "description": "Wapno tlenkowe palone do szybkiego odkwaszania gleb średnich i ciężkich. Reaktywność bliska 100% oznacza, że efekt widać w 2–4 tygodnie, a nie w kolejnym sezonie. Uregulowany odczyn odblokowuje składniki pokarmowe już zalegające w glebie.\n\nPARAMETRY\n• Zawartość CaO: Min. 70% CaO\n• Reaktywność: ~100%\n• Typ reakcji: Egzotermiczna\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Nordkalk\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkażania wody i dna stawu, Odkwaszanie gleb średnich i ciężkich, podniesienie pH, poprawa struktury gleby\n• Dawkowanie: 2-6 t/ha (rolnictwo), 60-100 kg/1000 m³ (stawy)\n• Szybkość działania: Szybkie (2-4 tygodnie)\n• Efekt zastosowania: Wzrost pH gleby i wody, Uzupełnienie wapnia odżywczego\n• Dodatkowe zastosowanie: Przyspieszenie mineralizacji mułu stawowego, Rekultywacja terenów zdegradowanych\n\nFORMY DOSTAWY I CENA\n• od 220 zł/t luzem — cena za towar, bez transportu · dostępne również w big-bagach\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-agrobielik-70-gleba-86509",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 86509
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-agrobielik-70-gleba.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-70.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-70.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-agrobielik-70.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
+   }
+  ],
+  "price": {
+   "value": 220,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "agrobielik-70",
+   "sku": "AGR-001",
+   "siatka": "agrobielik-70-gleba",
+   "city": "Jędrzejów",
+   "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
+  }
+ },
+ {
+  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR",
+  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-weglanowe-odmiana-04-93127",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 93127
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
+   }
+  ],
+  "price": {
+   "value": 57,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "weglanowe-odmiana-04",
+   "sku": "AGR-006",
+   "siatka": "weglanowe-odmiana-04",
+   "city": "Połaniec",
+   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
+  }
+ },
+ {
+  "title": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony",
+  "description": "Kreda nawozowa w granulacie, big-bag od jednej tony. Łagodne, rozłożone w czasie odkwaszanie przy wysiewie własnym rozsiewaczem — dla gospodarstw, które nie zamawiają dostaw całopojazdowych.\n\nPARAMETRY\n• Zawartość CaO: Min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Granulat\n• Frakcja: 3–6 mm\n• Producent: KZK Kornica\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, Korekta pH stawów\n• Dawkowanie: 0,5–1,5 t/ha\n• Szybkość działania: 3-6 miesięcy\n• Efekt zastosowania: Wzrost pH i wody. Uzupełnienie wapnia pokarmowego\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• od 410 zł/t — cena za towar, bez transportu · dostawa od 1 tony\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-kreda-nawozowa-granulowana-24485",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 24485
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-mini-kreda-nawozowa-granulowana.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-nawozowa-granulowana.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-kreda-granulowana.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-hero.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-nawozowa-granulowana.jpg"
+   }
+  ],
+  "price": {
+   "value": 410,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "kreda-nawozowa-granulowana",
+   "sku": "AGR-013",
+   "siatka": "kreda-nawozowa-granulowana",
+   "city": "Bochnia",
+   "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  }
 ]

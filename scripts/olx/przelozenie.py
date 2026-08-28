@@ -54,6 +54,21 @@ ROZDZIEL = ({"agrobielik-90", "oxyfertil-90"},)
 ZAMIANA_PRODUKTU = {"kreda-pastewna": ["weglanowe-odmiana-04", "kreda-nawozowa-granulowana",
                                        "agrobielik-70-gleba"]}
 
+# Korekta regionalna (28.08, decyzja Janka). Rotacja wyżej dobiera zamiennik wg zwrotu na CAŁEJ
+# siatce, a ten rozkłada się inaczej niż zwrot w promieniu magazynów. Dwa niezależne pomiary
+# w naszych trzech województwach mówią zgodnie:
+#   • zwrot własny w pierścieniu ≤200 km: oxyfertil-90 0,50 · weglanowe-odmiana-04 0,36 ·
+#     kreda-nawozowa-granulowana 0,22 · agrobielik-70-gleba 0,15 · kreda-pastewna 0,00
+#   • podaż konkurencji (snapshot 28.08, kat. 4368, MŁP+PDK+ŚWK): granulowane 94 oferty,
+#     z magnezem 64, kreda i węglanowe sypkie 28, tlenkowe 27, pastewna 1
+# Tam, gdzie oba sygnały idą w tę samą stronę, korygujemy. Bochnia zostaje przy kredzie
+# granulowanej ŚWIADOMIE: tam sygnały są sprzeczne (nasz zwrot mówi „nieźle", gęstość rynku
+# „tłok"), a własny pomiar jest mocniejszym dowodem niż cudza podaż — nie uśredniamy.
+# Oxyfertil wchodzi tylko do Sandomierza, bo to jedyne z ośmiu miast bez Agrobielika 90 obok,
+# a ROZDZIEL trzyma oba tlenkowe 90% z dala od siebie.
+KOREKTA_REGIONALNA = {("Sandomierz", "kreda-nawozowa-granulowana"): "oxyfertil-90",
+                      ("Dąbrowa Tarnowska", "kreda-nawozowa-granulowana"): "weglanowe-odmiana-04"}
+
 
 def km(a, b):
     la1, lo1, la2, lo2 = map(math.radians, (a[0], a[1], b[0], b[1]))
@@ -79,6 +94,17 @@ def wczytaj():
 
 def main():
     posted, plan, kand, rynek, stat = wczytaj()
+
+    # Przydział jest ZACHŁANNY i liczony od stanu rejestru, więc przeliczenie w trakcie serii
+    # daje inny wynik niż na starcie: ogłoszenia już przełożone zajmują sloty i zwalniają
+    # swoje stare miasta. Zmierzone 28.08 — przeliczenie po pilocie na 3 sztukach przetasowało
+    # 56 z 65 pozycji i zgubiło 3. Plan raz zatwierdzony poprawiamy punktowo w pliku projektu,
+    # nie regeneracją.
+    w_locie = sum(1 for v in posted.values() if v.get("przelozone"))
+    if w_locie and "--mimo-serii" not in sys.argv:
+        sys.exit(f"STOP: {w_locie} ogłoszeń jest już przełożonych — przeliczenie da inny przydział "
+                 f"niż zatwierdzony projekt.\nPoprawki nanoś punktowo na "
+                 f"data/olx/przelozenie-*.json. Świadome przeliczenie od zera: --mimo-serii")
     po_nazwie = {c["name"]: c for c in kand}
     zajete_miasta = {v["city"] for v in posted.values()}
 
@@ -159,6 +185,23 @@ def main():
         przydzial.append(dict(r, stary_wariant=r["siatka"], nowe_miasto=cel["name"],
                               nowy_city_id=cel["id"], nowy_powiat=cel["county"],
                               nowy_km=cel["km"], nowy_wariant=nowy_produkt))
+
+    # 3b. Korekta regionalna — punktowa podmiana zamiennika, z tymi samymi regułami co przydział.
+    #     Świadomie NIE przez zmianę rotacji: tamta przetasowałaby cały przydział serii B,
+    #     a zmiana ma dotknąć dokładnie dwóch slotów.
+    for p in przydzial:
+        nowy = KOREKTA_REGIONALNA.get((p.get("nowe_miasto"), p.get("nowy_wariant")))
+        if not nowy:
+            continue
+        stoi = w_miescie[p["nowe_miasto"]]
+        kolizja = nowy in stoi or any(nowy in para and (para - {nowy}).pop() in stoi
+                                      for para in ROZDZIEL)
+        if kolizja:
+            print(f"UWAGA: korekta {p['nowe_miasto']} → {nowy} pominięta, koliduje z {stoi}")
+            continue
+        stoi[stoi.index(p["nowy_wariant"])] = nowy
+        p["nowy_wariant"] = nowy
+        p["korekta"] = "regionalna 28.08"
 
     # 4. Raport
     print(f"do przełożenia (dalej niż {PROG_DO_PRZELOZENIA} km od magazynów): {len(do_przelozenia)} ogłoszeń")

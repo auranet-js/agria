@@ -173,7 +173,8 @@
   "nowy_city_id": 4929,
   "nowy_powiat": "dąbrowski",
   "nowy_km": 7,
-  "nowy_wariant": "kreda-nawozowa-granulowana"
+  "nowy_wariant": "weglanowe-odmiana-04",
+  "korekta": "regionalna 28.08"
  },
  {
   "klucz": "agria-agrobielik-70-staw-8523",
@@ -381,7 +382,8 @@
   "nowy_city_id": 36333,
   "nowy_powiat": "sandomierski",
   "nowy_km": 71,
-  "nowy_wariant": "kreda-nawozowa-granulowana"
+  "nowy_wariant": "oxyfertil-90",
+  "korekta": "regionalna 28.08"
  },
  {
   "klucz": "agria-agrobielik-70-staw-13663",
