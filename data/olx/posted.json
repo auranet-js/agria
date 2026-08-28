@@ -968,8 +968,9 @@
  "agria-weglanowe-odmiana-04-2151": {
   "advert_id": 1092697758,
   "title": "Wapno węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR",
-  "city": "Białobrzegi",
-  "sku": "AGR-006"
+  "city": "Izbicko",
+  "sku": "AGR-006",
+  "uwaga": "miasto zmienione PUT-em 28.08 (test T-105); external_id i klucz trzymają stare city_id 2151"
  },
  "agria-weglanowe-odmiana-04-133761": {
   "advert_id": 1092697794,

@@ -1,0 +1,479 @@
+[
+ {
+  "miasto": "Zator",
+  "gestosc": 146,
+  "najlepsza": 10,
+  "w_top20": 2,
+  "ogl": 6,
+  "odslony": 53,
+  "tel": 5
+ },
+ {
+  "miasto": "Grójec",
+  "gestosc": 198,
+  "najlepsza": 44,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 9,
+  "tel": 0
+ },
+ {
+  "miasto": "Siedlce",
+  "gestosc": 235,
+  "najlepsza": 83,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 16,
+  "tel": 0
+ },
+ {
+  "miasto": "Kalisz",
+  "gestosc": 192,
+  "najlepsza": 44,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 25,
+  "tel": 0
+ },
+ {
+  "miasto": "Piotrków Trybunalski",
+  "gestosc": 185,
+  "najlepsza": 98,
+  "w_top20": 0,
+  "ogl": 4,
+  "odslony": 22,
+  "tel": 3
+ },
+ {
+  "miasto": "Mława",
+  "gestosc": 174,
+  "najlepsza": 69,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 9,
+  "tel": 0
+ },
+ {
+  "miasto": "Tomaszów Mazowiecki",
+  "gestosc": 211,
+  "najlepsza": 80,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 9,
+  "tel": 0
+ },
+ {
+  "miasto": "Zwoleń",
+  "gestosc": 188,
+  "najlepsza": 36,
+  "w_top20": 0,
+  "ogl": 4,
+  "odslony": 17,
+  "tel": 2
+ },
+ {
+  "miasto": "Sokołów Podlaski",
+  "gestosc": 230,
+  "najlepsza": 104,
+  "w_top20": 0,
+  "ogl": 2,
+  "odslony": 4,
+  "tel": 1
+ },
+ {
+  "miasto": "Łódź",
+  "gestosc": 259,
+  "najlepsza": null,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 7,
+  "tel": 0
+ },
+ {
+  "miasto": "Warszawa",
+  "gestosc": 383,
+  "najlepsza": 75,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 10,
+  "tel": 0
+ },
+ {
+  "miasto": "Iłża",
+  "gestosc": 209,
+  "najlepsza": 49,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 18,
+  "tel": 0
+ },
+ {
+  "miasto": "Płock",
+  "gestosc": 247,
+  "najlepsza": 70,
+  "w_top20": 0,
+  "ogl": 4,
+  "odslony": 4,
+  "tel": 0
+ },
+ {
+  "miasto": "Przysucha",
+  "gestosc": 181,
+  "najlepsza": 58,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 10,
+  "tel": 0
+ },
+ {
+  "miasto": "Radom",
+  "gestosc": 388,
+  "najlepsza": 55,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 6,
+  "tel": 1
+ },
+ {
+  "miasto": "Płońsk",
+  "gestosc": 226,
+  "najlepsza": 63,
+  "w_top20": 0,
+  "ogl": 5,
+  "odslony": 15,
+  "tel": 0
+ },
+ {
+  "miasto": "Częstochowa",
+  "gestosc": 160,
+  "najlepsza": 91,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 12,
+  "tel": 1
+ },
+ {
+  "miasto": "Racibórz",
+  "gestosc": 101,
+  "najlepsza": 9,
+  "w_top20": 1,
+  "ogl": 6,
+  "odslony": 13,
+  "tel": 0
+ },
+ {
+  "miasto": "Radzyń Podlaski",
+  "gestosc": 198,
+  "najlepsza": 57,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 35,
+  "tel": 0
+ },
+ {
+  "miasto": "Bielsko-Biała",
+  "gestosc": 106,
+  "najlepsza": 10,
+  "w_top20": 1,
+  "ogl": 5,
+  "odslony": 6,
+  "tel": 0
+ },
+ {
+  "miasto": "Tarnów",
+  "gestosc": 254,
+  "najlepsza": 51,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 26,
+  "tel": 0
+ },
+ {
+  "miasto": "Kraków",
+  "gestosc": 204,
+  "najlepsza": 13,
+  "w_top20": 1,
+  "ogl": 6,
+  "odslony": 19,
+  "tel": 1
+ },
+ {
+  "miasto": "Katowice",
+  "gestosc": 136,
+  "najlepsza": 14,
+  "w_top20": 1,
+  "ogl": 5,
+  "odslony": 6,
+  "tel": 1
+ },
+ {
+  "miasto": "Nowy Sącz",
+  "gestosc": 111,
+  "najlepsza": 35,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 9,
+  "tel": 2
+ },
+ {
+  "miasto": "Lublin",
+  "gestosc": 191,
+  "najlepsza": 63,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 16,
+  "tel": 0
+ },
+ {
+  "miasto": "Proszowice",
+  "gestosc": 184,
+  "najlepsza": 10,
+  "w_top20": 1,
+  "ogl": 5,
+  "odslony": 19,
+  "tel": 1
+ },
+ {
+  "miasto": "Dąbrowa Górnicza",
+  "gestosc": 163,
+  "najlepsza": 22,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 6,
+  "tel": 0
+ },
+ {
+  "miasto": "Ostrów Wielkopolski",
+  "gestosc": 208,
+  "najlepsza": 48,
+  "w_top20": 0,
+  "ogl": 5,
+  "odslony": 16,
+  "tel": 0
+ },
+ {
+  "miasto": "Brzesko",
+  "gestosc": 223,
+  "najlepsza": 12,
+  "w_top20": 1,
+  "ogl": 2,
+  "odslony": 4,
+  "tel": 0
+ },
+ {
+  "miasto": "Konin",
+  "gestosc": 175,
+  "najlepsza": 46,
+  "w_top20": 0,
+  "ogl": 5,
+  "odslony": 8,
+  "tel": 0
+ },
+ {
+  "miasto": "Rzeszów",
+  "gestosc": 208,
+  "najlepsza": 55,
+  "w_top20": 0,
+  "ogl": 5,
+  "odslony": 11,
+  "tel": 0
+ },
+ {
+  "miasto": "Mielec",
+  "gestosc": 236,
+  "najlepsza": 92,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 18,
+  "tel": 0
+ },
+ {
+  "miasto": "Krosno",
+  "gestosc": 144,
+  "najlepsza": 53,
+  "w_top20": 0,
+  "ogl": 5,
+  "odslony": 8,
+  "tel": 0
+ },
+ {
+  "miasto": "Dębica",
+  "gestosc": 234,
+  "najlepsza": 81,
+  "w_top20": 0,
+  "ogl": 6,
+  "odslony": 15,
+  "tel": 1
+ },
+ {
+  "miasto": "Jarosław",
+  "gestosc": 120,
+  "najlepsza": 40,
+  "w_top20": 0,
+  "ogl": 2,
+  "odslony": 9,
+  "tel": 0
+ },
+ {
+  "miasto": "Wrocław",
+  "gestosc": 143,
+  "najlepsza": 20,
+  "w_top20": 1,
+  "ogl": 2,
+  "odslony": 9,
+  "tel": 0
+ },
+ {
+  "miasto": "Szczekociny",
+  "gestosc": 149,
+  "najlepsza": 18,
+  "w_top20": 1,
+  "ogl": 2,
+  "odslony": 11,
+  "tel": 0
+ },
+ {
+  "miasto": "Tarnobrzeg",
+  "gestosc": 206,
+  "najlepsza": null,
+  "w_top20": 0,
+  "ogl": 5,
+  "odslony": 10,
+  "tel": 0
+ },
+ {
+  "miasto": "Miechów",
+  "gestosc": 214,
+  "najlepsza": 17,
+  "w_top20": 1,
+  "ogl": 4,
+  "odslony": 31,
+  "tel": 2
+ },
+ {
+  "miasto": "Poznań",
+  "gestosc": 135,
+  "najlepsza": 82,
+  "w_top20": 0,
+  "ogl": 1,
+  "odslony": 1,
+  "tel": 0
+ },
+ {
+  "miasto": "Kępno",
+  "gestosc": 161,
+  "najlepsza": 78,
+  "w_top20": 0,
+  "ogl": 4,
+  "odslony": 11,
+  "tel": 0
+ },
+ {
+  "miasto": "Legnica",
+  "gestosc": 110,
+  "najlepsza": 61,
+  "w_top20": 0,
+  "ogl": 1,
+  "odslony": 2,
+  "tel": 0
+ },
+ {
+  "miasto": "Sosnowiec",
+  "gestosc": 155,
+  "najlepsza": 22,
+  "w_top20": 0,
+  "ogl": 1,
+  "odslony": 2,
+  "tel": 0
+ },
+ {
+  "miasto": "Puławy",
+  "gestosc": 200,
+  "najlepsza": 42,
+  "w_top20": 0,
+  "ogl": 2,
+  "odslony": 15,
+  "tel": 1
+ },
+ {
+  "miasto": "Łowicz",
+  "gestosc": 238,
+  "najlepsza": 68,
+  "w_top20": 0,
+  "ogl": 2,
+  "odslony": 15,
+  "tel": 0
+ },
+ {
+  "miasto": "Chełm",
+  "gestosc": 141,
+  "najlepsza": null,
+  "w_top20": 0,
+  "ogl": 1,
+  "odslony": 1,
+  "tel": 0
+ },
+ {
+  "miasto": "Ostrołęka",
+  "gestosc": 201,
+  "najlepsza": null,
+  "w_top20": 0,
+  "ogl": 2,
+  "odslony": 1,
+  "tel": 0
+ },
+ {
+  "miasto": "Białobrzegi",
+  "gestosc": 211,
+  "najlepsza": 22,
+  "w_top20": 0,
+  "ogl": 1,
+  "odslony": 0,
+  "tel": 0
+ },
+ {
+  "miasto": "Gózd",
+  "gestosc": 193,
+  "najlepsza": 32,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 12,
+  "tel": 0
+ },
+ {
+  "miasto": "Kielce",
+  "gestosc": 188,
+  "najlepsza": 57,
+  "w_top20": 0,
+  "ogl": 3,
+  "odslony": 14,
+  "tel": 0
+ },
+ {
+  "miasto": "Ciechanów",
+  "gestosc": 200,
+  "najlepsza": 60,
+  "w_top20": 0,
+  "ogl": 1,
+  "odslony": 2,
+  "tel": 0
+ },
+ {
+  "miasto": "Słomniki",
+  "gestosc": 213,
+  "najlepsza": 16,
+  "w_top20": 1,
+  "ogl": 1,
+  "odslony": 6,
+  "tel": 0
+ },
+ {
+  "miasto": "Gorzyce",
+  "gestosc": 171,
+  "najlepsza": 81,
+  "w_top20": 0,
+  "ogl": 1,
+  "odslony": 1,
+  "tel": 0
+ }
+]
