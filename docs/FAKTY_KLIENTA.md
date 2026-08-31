@@ -175,7 +175,7 @@ nie liczy się strefami WooCommerce.
 | Forma | **bez umowy pisemnej** — akcept mailowy. Nie proponować umów ani klauzul | decyzja Janka 27.05, memory `feedback_agria_no_written_contract_trust_based` |
 | Komunikacja budżetu | **tylko miesięcznie** (2 000/mies). **Nigdy suma całkowita** — 12 000 to zakaz | memory `feedback_agria_offer_mail_structure` |
 | Google Ads | osobna pozycja, media **1 200 zł/mies**, kampanie żywe od 13.08, plan na 3 miesiące | ADR 13.08 |
-| OLX | osobna pozycja: **1 800 zł netto setup + 300 zł/mies**; pakiet Premium 200 (1 199,99 brutto) **kupuje AGRIA** | wycena 07.08, mail 11.08 |
+| OLX | osobna pozycja: **1 800 zł netto setup + 300 zł/mies obsługi**. **Obsługa od DRUGIEGO miesiąca** — sierpnia nie liczymy, pokrywa go setup (decyzja Janka 31.08). Pakiet Premium 200 (1 199,99 brutto) **kupuje AGRIA** | wycena 07.08, mail 11.08, korekta 31.08 |
 | Kalkulator Mg | **≈4 h** do rozliczenia | ustalenie 18.08, rejestr T-043/T-044 |
 | Ofertownik | **projekt własny Auranet**, nie billable na tym etapie — najpierw budujemy, potem sprzedajemy | decyzja Janka 18.08 |
 | Poza zakresem ryczałtu | social media, sesje zdjęciowe, Google Ads | `AURANET_2000PLN_MONTHLY.md` |
