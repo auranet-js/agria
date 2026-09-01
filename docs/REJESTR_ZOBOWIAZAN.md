@@ -262,6 +262,12 @@ sześć pozycji miało w papierach „niezrobione", a są zrobione.
 
 **Razem M1–M2: 14 pozycji SEO + 7 z tabel miesięcznych.**
 
+## M4 — wrzesień 2026 · ryczałt 2 000 netto + Ads 1 200 media + OLX 300 obsługa
+
+| Co dostarczone | Dowód | Zakr. | h |
+|---|---|---|---|
+| **Aktualizacja numeru telefonu w wizytówce Google** `[J 01.09]` | Wykonane przez Janka 01.09 w panelu GBP. ⚠️ **Odczyt API tego samego dnia pokazuje `primaryPhone: 14 621 88 21`, czyli bez zmian wobec zrzutu z 20.08** (`tmp/gbp-tarnow-2026-08-20.json` i `-PO.json`) — edycje numeru w GBP przechodzą przez moderację i propagują z opóźnieniem. Zrzut kontrolny: `tmp/gbp-2026-09-01.json`. **Do potwierdzenia odczytem przy najbliższej pracy nad wizytówką** | R | 0,5 h |
+
 ## M3 — sierpień 2026 (w toku, do 31.08) · ryczałt 2 000 netto + Ads 1 200 media + OLX
 
 | Co dostarczone | Dowód | Zakr. | h |
