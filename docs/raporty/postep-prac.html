@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AGRIA — postęp prac i plan</title>
+<style>
+:root {
+  --ink: #1a2332; --ink-2: #4a5568; --ink-3: #8b95a5;
+  --accent: #1f5c2e; --accent-soft: #eaf3ea;
+  --surface: #ffffff; --bg: #f4f6f9; --line: #e2e7ee;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); background: var(--bg); }
+.wrap { max-width: none; margin: 0; padding: 32px 40px 80px; }
+.cols { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 40px; align-items: start; }
+.cols > section { min-width: 0; }
+.cols h2 { margin-top: 0; }
+header.top { border-bottom: 3px solid var(--accent); padding-bottom: 20px; margin-bottom: 28px; }
+header.top h1 { font-size: 26px; line-height: 1.25; }
+header.top .sub { color: var(--ink-2); margin-top: 6px; }
+header.top .stamp { color: var(--ink-3); font-size: 13px; margin-top: 10px; }
+h2 { font-size: 20px; margin: 0 0 6px; }
+h3 { font-size: 16px; margin: 30px 0 4px; color: var(--accent); }
+h3:first-of-type { margin-top: 18px; }
+.lead { color: var(--ink-2); margin-bottom: 16px; }
+.uwaga { color: var(--ink-2); font-size: 13.5px; margin: 4px 0 0; font-style: italic; }
+table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin: 12px 0; }
+th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--ink-2); background: var(--accent-soft); padding: 10px 14px; border-bottom: 1px solid var(--line); }
+th.num, td.num { text-align: right; }
+td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+td.num { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+td.num.czeka { font-weight: 500; color: var(--ink-3); font-size: 13px; }
+td.data-col { white-space: nowrap; color: var(--ink-2); font-size: 13px; font-variant-numeric: tabular-nums; }
+tfoot td { background: var(--accent-soft); font-weight: 700; font-size: 13.5px; }
+.opis { color: var(--ink-2); font-weight: 400; margin-top: 4px; font-size: 14px; }
+.nr { display: inline-block; min-width: 20px; font-size: 11px; font-weight: 700; color: #fff; background: var(--accent); border-radius: 4px; padding: 1px 5px; margin-right: 7px; text-align: center; vertical-align: 1px; }
+.tid { display: inline-block; font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 6px; margin-right: 6px; vertical-align: 1px; font-variant-numeric: tabular-nums; }
+tr.grupa td { background: #eef2f7; border-bottom: 1px solid var(--line); padding: 9px 14px; }
+tr.grupa td strong { font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ink-2); }
+tr.grupa td span { color: var(--ink-3); font-size: 12.5px; text-transform: none; letter-spacing: 0; margin-left: 8px; }
+tr.grupa td .grupa-o { color: var(--ink-2); font-size: 13px; font-weight: 400; text-transform: none; letter-spacing: 0; margin-top: 4px; }
+.dz { display: inline-block; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; color: var(--ink-2); background: #eef2f7; border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; margin-right: 7px; vertical-align: 1px; }
+.skala { color: var(--ink-3); font-size: 12.5px; margin-top: 6px; }
+.pytania { margin-top: 8px; padding: 8px 12px; background: var(--accent-soft); border-radius: 6px; font-size: 13.5px; color: var(--ink-2); }
+.pytania strong { font-size: 12.5px; }
+.pytania ul { margin: 4px 0 0; padding-left: 18px; }
+.pytania li { margin: 2px 0; }
+.bilans { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 12px 16px; margin-bottom: 18px; font-size: 14px; color: var(--ink-2); }
+.bilans strong { color: var(--ink); }
+section.wynik { margin-bottom: 34px; }
+section.wynik .lead { margin-bottom: 14px; }
+.kafle { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
+.kafel { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 14px 16px; }
+.kafel-l { font-size: 30px; font-weight: 700; line-height: 1.05; color: var(--accent); font-variant-numeric: tabular-nums; }
+.kafel-o { color: var(--ink-2); font-size: 13.5px; margin-top: 4px; }
+.kafel-o span { display: block; color: var(--ink-3); font-size: 12.5px; margin-top: 3px; }
+footer { margin-top: 60px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 12.5px; }
+@media (max-width: 1100px) {
+  .cols { grid-template-columns: 1fr; gap: 8px; }
+  .cols > section + section h2 { margin-top: 36px; }
+}
+@media (max-width: 720px) {
+  .wrap { padding: 24px 16px 60px; }
+  td.data-col { font-size: 11px; }
+}
+@media print { body { background: #fff; } .wrap { padding: 0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+<h1>AGRIA — postęp prac i plan</h1>
+<div class="sub">agria.pl · strona, widoczność w Google, reklamy i OLX · Auranet (Jan Schenk)</div>
+<div class="stamp">Stan na 01.09.2026 · aktualizowane na bieżąco</div>
+</header>
+
+<section class="wynik">
+<h2>Wynik sierpnia</h2>
+<p class="lead">Pierwszy miesiąc, w którym obok pozycjonowania pracowały dwa kanały płatne. Liczby z Google Search Console, Google Ads, GA4 i OLX Partner API — pomiar 1 września.</p>
+<div class="kafle">
+<div class="kafel"><div class="kafel-l">349</div><div class="kafel-o">wejść z wyszukiwarki<span>221 w lipcu · 224 rok temu</span></div></div>
+<div class="kafel"><div class="kafel-l">7,1</div><div class="kafel-o">średnia pozycja w Google<span>8,8 w lipcu · 16,3 rok temu</span></div></div>
+<div class="kafel"><div class="kafel-l">26 856</div><div class="kafel-o">wyświetleń w wynikach<span>10 220 w lipcu</span></div></div>
+<div class="kafel"><div class="kafel-l">202</div><div class="kafel-o">hasła w pierwszej trójce<span>30 w lipcu · 37 rok temu</span></div></div>
+<div class="kafel"><div class="kafel-l">453</div><div class="kafel-o">kliknięcia z reklam Google<span>810 zł z 1 200 · 3 zapytania</span></div></div>
+<div class="kafel"><div class="kafel-l">29</div><div class="kafel-o">odsłon numeru na OLX<span>835 wyświetleń · 24 ogłoszenia</span></div></div>
+</div>
+<p class="uwaga">Dane z wyszukiwarki obejmują 1–29.08 — Google podaje je z trzydniowym opóźnieniem, więc pełny miesiąc wypadnie wyżej. Lipiec i sierpień 2025 policzone tym samym oknem, żeby porównanie było uczciwe. Kontrola sezonowa: poradniki budowlane, których nie tykaliśmy, mają zero wejść w obu miesiącach — wzrost jest tam, gdzie pracowaliśmy.</p>
+</section>
+
+<div class="cols">
+<section>
+<h2>Zrealizowane</h2>
+<div class="bilans"><strong>32 pozycje</strong> · 69,6 h zmierzonej pracy<br>Zestawienie prac od czerwca i kolejki na najbliższe miesiące. Godziny podajemy dla skali nakładu i dotyczą prac od 19 sierpnia, odkąd mierzymy czas. Przy wcześniejszych pozycjach zostawiamy myślnik — wolimy nie podawać liczby, której nie zmierzyliśmy.</div>
+<h3>Wrzesień 2026</h3>
+<table>
+<thead><tr><th>Data</th><th>Praca</th><th class="num">h</th></tr></thead>
+<tbody>
+<tr><td class="data-col">01.09</td><td><strong>Numer telefonu w wizytówce Google zaktualizowany</strong><div class="opis">Zmiana wprowadzona w panelu wizytówki. Google moderuje edycje danych kontaktowych, więc nowy numer pokazuje się w wynikach z opóźnieniem — sprawdzimy przy najbliższej pracy nad profilem.</div></td><td class="num">0,5</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">Razem — 0,5 h pracy we wrześniu</td><td class="num">0,5</td></tr></tfoot>
+</table>
+
+<h3>Sierpień 2026</h3>
+<p class="uwaga">Miesiąc z trzema równoległymi kierunkami: uruchomienie reklam Google, wejście na OLX i przebudowa treści pod sezon jesienny. Czterdzieści dwie zamknięte pozycje zebrane w dziesięć bloków — pełna rozpiska w rejestrze zadań.</p>
+<table>
+<thead><tr><th>Data</th><th>Praca</th><th class="num">h</th></tr></thead>
+<tbody>
+<tr class="grupa"><td colspan="3"><strong>SEO i treść</strong><span>3 pozycje · 23,8 h</span></td></tr>
+<tr><td class="data-col">06–24.08</td><td><strong>Nowa treść i przebudowa poradników</strong><div class="opis">Trzy nowe strony ofertowe — „Wapno granulowane”, „Wapno nawozowe” i „Wapno i kreda do stawu”. Poradnik o terminie wapnowania napisany od nowa, z pełnym terminarzem zabiegu i źródłami IUNG-PIB. Poradnik o dawkach połączony z główną stroną poradnikową — dwie strony, które konkurowały ze sobą w Google, pracują dziś jako jedna i to ona ciągnie największy ruch w serwisie. Do tego nowa mapa zapytań pod sezon (28 720 wyszukań miesięcznie realnego popytu), przepisane tytuły w wynikach na czterech stronach o dawkowaniu i nagłówki na dziesięciu wpisach, których wcześniej nie miały wcale.</div></td><td class="num">7</td></tr>
+<tr><td class="data-col">19.08</td><td><strong>Ceny na kartach produktów i dokumenty do pobrania</strong><div class="opis">Piętnaście kart z ceną orientacyjną za tonę i warunkiem, do którego się odnosi — wcześniej strona nie mówiła o cenie nic, a to pierwsze pytanie każdego rolnika. Ceny weszły też na strony reklamowe i na poradnik o wapnowaniu. Osiem atestów i kart charakterystyki Nordkalku w sekcji „Do pobrania”, sekcja uporządkowana z nieaktualnych pozycji. Przy okazji rozdzielone na stałe dwie warstwy cen — te ze strony i te ofertowe dla stałych odbiorców, żeby drugie nie wyciekły przez pierwsze.</div></td><td class="num">7</td></tr>
+<tr><td class="data-col">20–24.08</td><td><strong>Widoczność w Google — odblokowanie treści i wizytówka</strong><div class="opis">Dwie strony nie miały ani jednego odnośnika z innej strony serwisu, więc wyszukiwarka o nich nie wiedziała mimo obecności w mapie strony. Dołożone odnośniki ze stron odwiedzanych codziennie, lista poradników na stronie głównej, usunięte martwe linki, uzupełnione brakujące przekierowania, „Rybactwo” z powrotem w menu. Efekt po tygodniu: dwie karty produktów weszły do wyników, cztery kolejne adresy Google zdążył wykryć. Wizytówka w Mapach: poprawiony adres strony, cztery publikacje, odpowiedzi na wszystkie sześć opinii.</div></td><td class="num">9,8</td></tr>
+<tr class="grupa"><td colspan="3"><strong>Prace na stronie</strong><span>1 pozycja · 9,3 h</span></td></tr>
+<tr><td class="data-col">14–24.08</td><td><strong>Porządek w adresach, bezpieczeństwo i układ stron</strong><div class="opis">Wszystkie produkty i kategorie dostępne pod starymi adresami przekierowują dziś na adres właściwy, zamiast pokazywać tę samą treść dwa razy. Nazwa konta administratora dała się odczytać z kodu strony trzema drogami — wszystkie zamknięte. Strona odcina automaty i ruch spoza Polski, zanim zacznie się ładować, a narzędzia pomiarowe Google zostały z tej blokady wyłączone. Strony reklamowe dostały czytelną kolumnę zamiast tekstu na całą szerokość okna, listy pasujących produktów oraz numer telefonu i cenę w nagłówku — wcześniej numer pojawiał się dopiero po przewinięciu dwóch trzecich strony. Do tego własny dostęp do serwera i uporządkowana dokumentacja projektu.</div></td><td class="num">9,3</td></tr>
+<tr class="grupa"><td colspan="3"><strong>Google Ads</strong><span>3 pozycje · 19,5 h</span></td></tr>
+<tr><td class="data-col">13–21.08</td><td><strong>Uruchomienie trzech kampanii</strong><div class="opis">Konto od zera, trzy kampanie, 44 hasła, teksty reklam i wykluczenia. Kierowane na rolnika kupującego całosamochodowo, nie na klienta detalicznego szukającego worka. Reklamy pokazują numer telefonu jako główną drogę kontaktu. Przygotowanie i uruchomienie zrobione bez dopłaty, w ramach opieki.</div></td><td class="num">3</td></tr>
+<tr><td class="data-col">25–28.08</td><td><strong>Przebudowa na hasła zakupowe i przestawienie na wieś</strong><div class="opis">Przejrzane jedno po drugim 201 haseł, na które ktoś kliknął w reklamę — prawie połowa to były nazwy konkurencji i okolicznych kopalni, a haseł faktycznie zakupowych było 24. Cztery najszersze wyłączone, dołożonych 16 precyzyjnych. Obszar zawężony z ośmiu województw do dwóch promieni wokół Niedomic i Radgoszczy, emisja skupiona na niedzielę, poniedziałek i wtorek, budżet dzienny podniesiony z 26 do 60 zł. Numer telefonu przy każdej reklamie — sześć powiązań, dwa numery przy trzech kampaniach. W ostatnim tygodniu sierpnia na nazwy konkurencji nie poszła ani złotówka. Przy okazji wykryty 24-godzinny przestój emisji z pustego salda, o którym Google nie informuje.</div></td><td class="num">8,5</td></tr>
+<tr><td class="data-col">24.08–01.09</td><td><strong>Zgody, pomiar zapytań i podsumowanie miesiąca</strong><div class="opis">W lipcu narzędzia analityczne widziały 5 wejść z wyszukiwarki przy 221 realnych — przyczyna znaleziona i usunięta, w sierpniu widać ich 73. Kliknięcie w numer telefonu liczy się dziś jako główny efekt reklamy, a baner zgód przestał zasłaniać numer i cenę na telefonie. Na koniec odczyt ze wszystkich czterech źródeł pomiaru i sprostowanie trzech zapisów, które okazały się nieprawdziwe — m.in. karta kredy czarnej figurowała jako niewidoczna w Google, a jest w wynikach od maja.</div></td><td class="num">8</td></tr>
+<tr class="grupa"><td colspan="3"><strong>OLX</strong><span>2 pozycje · 16 h</span></td></tr>
+<tr><td class="data-col">20–21.08</td><td><strong>Uruchomienie kanału — 200 ogłoszeń</strong><div class="opis">Jedenaście produktów w 53 miastach, wszystkie aktywne, z automatycznym odnawianiem. Komplet siedmiu zdjęć na ogłoszenie, opisy z transportem, rozsiewem i kalkulatorem, spięcie z systemem OLX i codzienny monitoring. Miniatury zbudowane od nowa pod kadr telefonu: OLX pokazuje z poziomego zdjęcia tylko środkowe 57% szerokości, więc hasło i logo były ucinane z obu stron.</div></td><td class="num">13</td></tr>
+<tr><td class="data-col">28.08</td><td><strong>Przeniesienie 68 ogłoszeń bliżej magazynów</strong><div class="opis">Pomiar pokazał, że ogłoszenia z okolic, do których AGRIA dowozi taniej, przynoszą cztery razy więcej kontaktów. Ogłoszenia z pasa 200–375 km przeniesione w promień 2–98 km. Wszystkie 68 przeszły bez odrzutu moderacji, pakiet nietknięty.</div></td><td class="num">3</td></tr>
+<tr class="grupa"><td colspan="3"><strong>Kalkulator wapnowania</strong><span>1 pozycja · 0,5 h</span></td></tr>
+<tr><td class="data-col">18–28.08</td><td><strong>Moduł magnezu — wersja robocza i akcept Kazimierza</strong><div class="opis">Kalkulator uwzględniający zawartość magnezu przekazany do oceny merytorycznej, runda uwag zamknięta 28 sierpnia, dwie poprawki redakcyjne naniesione. Wdrożenie na stronę rozpisane co do pliku — wchodzi we wrześniu.</div></td><td class="num">0,5</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">Razem — 69,1 h zmierzonej pracy w sierpniu, ze wszystkich pięciu kierunków</td>
+<td class="num">69,1</td></tr></tfoot>
+</table>
+
+<h3>Lipiec 2026</h3>
+
+<table>
+<thead><tr><th>Data</th><th>Praca</th><th class="num">h</th></tr></thead>
+<tbody>
+<tr><td class="data-col">08.07</td><td><strong>Uporządkowane adresy stron i podział oferty</strong><div class="opis">Adresy podstron i podział oferty na kategorie ustawione tak, żeby Google widział logiczną strukturę serwisu, a stare adresy nie prowadziły donikąd.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">03.07</td><td><strong>Raport miesięczny za lipiec</strong><div class="opis">Zestawienie wykonanych prac i wyników przekazane do AGRII.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">01.07</td><td><span class="tid">T-003</span><strong>Telefony na mapie zgodne z oddziałami</strong><div class="opis">Numery przy Tarnowie, Niedomicach i Radgoszczy poprawione, nieaktualny numer z prefiksem 660 usunięty ze strony.</div></td><td class="num">—</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">Razem — godziny nieodtworzone</td>
+<td class="num">—</td></tr></tfoot>
+</table>
+<h3>Czerwiec–lipiec · prace nad widocznością w Google</h3>
+<p class="uwaga">Pakiet prac technicznych rozłożony na oba miesiące — pojedyncze pozycje bez osobnych dat, wszystkie sprawdzone na żywej stronie 19.08.</p>
+<table>
+<thead><tr><th>Data</th><th>Praca</th><th class="num">h</th></tr></thead>
+<tbody>
+<tr><td class="data-col">—</td><td><strong>Firma przedstawia się Google jako AGRIA</strong><div class="opis">Dane firmy w kodzie strony podpisane nazwą i adresem AGRII zamiast domyślnej nazwy z szablonu.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Zabezpieczenia połączenia ze stroną</strong><div class="opis">Dodane nagłówki, które wymuszają szyfrowane połączenie i blokują osadzanie strony w cudzych ramkach.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Tytuł strony głównej w wynikach wyszukiwania</strong><div class="opis">Skrócony tak, żeby Google go nie ucinał w połowie.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Kategorie produktów zgłoszone do Google</strong><div class="opis">Mapa strony przekazywana Google uzupełniona o kategorie oferty.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Numery katalogowe produktów</strong><div class="opis">18 z 19 produktów ma własny numer katalogowy w systemie — jeden pozostaje bez, świadomie.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Literówki w nazwach produktów</strong><div class="opis">Poprawione w nazwach wszystkich 19 kart.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Mapa strony po zmianie adresów</strong><div class="opis">Przebudowana, żeby Google dostawał aktualne adresy, nie stare.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Koszyk poza mapą strony</strong><div class="opis">Strona koszyka nie jest już zgłaszana do indeksowania — to strona techniczna, nie treść.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Opisy sześciu stron w wynikach wyszukiwania</strong><div class="opis">Oferta, o firmie, poradniki, kalkulator, do pobrania i kontakt dostały własne tytuły i opisy wyświetlane w Google.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Karta wapna Bielik z parametrami z karty producenta</strong><div class="opis">Parametry przepisane z karty Nordkalku, zgodnie z zasadą, że dane techniczne biorą się z dokumentów producenta.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Poprawiony odczyn wapna palonego</strong><div class="opis">Na karcie widniała wartość fizycznie niemożliwa do osiągnięcia — zastąpiona wartością z karty.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Staż firmy zaktualizowany</strong><div class="opis">„35 lat” zastąpione „37 lat” w całym serwisie.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Strona o stabilizacji gruntów</strong><div class="opis">Nowa strona docelowa pod segment drogowo-budowlany.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">—</td><td><strong>Strony reklamowe wyłączone z wyników organicznych</strong><div class="opis">Strony przygotowane pod kampanie Google Ads nie konkurują w wynikach z resztą serwisu.</div></td><td class="num">—</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">Razem — godziny nieodtworzone</td>
+<td class="num">—</td></tr></tfoot>
+</table>
+<h3>Czerwiec 2026</h3>
+
+<table>
+<thead><tr><th>Data</th><th>Praca</th><th class="num">h</th></tr></thead>
+<tbody>
+<tr><td class="data-col">29.06</td><td><span class="tid">T-002</span><strong>Formy dostawy zdjęte ze specyfikacji produktów</strong><div class="opis">Zgodnie z ustaleniem z Pawłem formy dostawy zniknęły ze specyfikacji wszystkich 19 kart produktowych i z sekcji pytań.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">29.06</td><td><span class="tid">T-004</span><strong>Karty produktowe i charakterystyki do pobrania</strong><div class="opis">Sekcja „Do pobrania” uzupełniona o karty produktów i karty charakterystyki — klient ściąga ten sam dokument, który dostaje od producenta.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">29.06</td><td><span class="tid">T-005</span><strong>Zdjęcia produktów zgodne z katalogiem</strong><div class="opis">Zdjęcia na kartach doprowadzone do zgodności z katalogiem drukowanym.</div></td><td class="num">—</td></tr>
+<tr><td class="data-col">18.06</td><td><span class="tid">T-001</span><strong>Kalkulator wapnowania proponuje wyłącznie produkty na pole</strong><div class="opis">Kalkulator przestał podpowiadać kredę pastewną i kredę malarską — to produkty do innych zastosowań, a pojawiały się w wynikach dla rolnika liczącego dawkę na hektar.</div></td><td class="num">—</td></tr>
+</tbody>
+<tfoot><tr><td colspan="2">Razem — godziny nieodtworzone</td>
+<td class="num">—</td></tr></tfoot>
+</table>
+</section>
+
+<section>
+<h2>W kolejce</h2>
+<p class="lead">Zadania pogrupowane dziedzinami. Wewnątrz każdej grupy kolejność wynika z terminu — daty przy pozycjach są wiążące, reszta idzie w miarę zwalniania miejsca.</p>
+<table>
+<thead><tr><th>Zadanie</th><th class="num">h</th></tr></thead>
+<tbody>
+<tr class="grupa"><td colspan="2"><strong>SEO i treść</strong><span>9 zadań · 39–50 h</span><div class="grupa-o">Kolejność ustala to, które adresy Google faktycznie odwiedza, i kiedy szczytują zapytania. Treść wchodzi najpierw tam, gdzie wyszukiwarka zagląda codziennie — inaczej dobry tekst leży miesiącami nieczytany.</div></td></tr>
+<tr>
+<td><span class="nr">1</span><strong>Opis kategorii „wapno nawozowe dla rolnictwa”</strong>
+<div class="opis">Trzeci najczęściej wyświetlany adres serwisu i jedyny, który pokazuje się na hasło „wapno nawozowe” — 1 300 wyszukań miesięcznie, w sezonie 1 900. Dziś ma cztery tysiące znaków opisu, a Google na tę frazę nagradza treść producenta.</div>
+<div class="skala">05.09</div></td>
+<td class="num">3–4</td></tr>
+<tr>
+<td><span class="nr">2</span><strong>Opis kategorii „paszarstwo”</strong>
+<div class="opis">Kreda pastewna to 2 400 wyszukań miesięcznie, a popyt jest płaski przez cały rok — nie ma tu sezonu, na który trzeba zdążyć, ale też nie ma powodu zwlekać. Dziś kategoria ma trzy tysiące znaków i stoi na trzynastym miejscu.</div>
+<div class="skala">12.09</div></td>
+<td class="num">3–4</td></tr>
+<tr>
+<td><span class="nr">3</span><strong>Kontrola: czy Google wrócił po odblokowane adresy</strong>
+<div class="opis">Warunek wejścia w kolejny etap treści. Jeśli po trzech tygodniach od dołożenia odnośników wyszukiwarka nie odwiedziła żadnego z tych adresów, problem nie leży w treści — wtedy wracamy z pytaniem, a nie z kolejnym artykułem.</div>
+<div class="skala">15.09</div></td>
+<td class="num">1</td></tr>
+<tr>
+<td><span class="nr">4</span><strong>Wapno hydratyzowane i wapno do oczyszczalni</strong>
+<div class="opis">Druga połowa tego, co zapowiedzieliśmy w sierpniu na trzy miesiące. Wapno hydratyzowane to 2 400 wyszukań miesięcznie, a kategoria stoi dziś dopiero na trzydziestym miejscu. Kategoria oczyszczalniowa ma za to najlepszą skuteczność w całym serwisie i przejmie merytorykę poradnika, którego Google nigdy nie odwiedził.</div>
+<div class="skala">20.09</div></td>
+<td class="num">6–8</td></tr>
+<tr>
+<td><span class="nr">5</span><strong>Wapnowanie pod ziemniaki</strong>
+<div class="opis">Jedyna uprawa z potwierdzonym szczytem jesiennym. Temat wchodzi od zmianowania i przedplonu — parch i dawka w redliny są już opisane w terminarzu.</div>
+<div class="skala">20.09</div></td>
+<td class="num">3–4</td></tr>
+<tr>
+<td><span class="nr">6</span><strong>Poradnik o kredzie pastewnej</strong>
+<div class="opis">Dawkowanie dla niosek, bydła i trzody. Największy klaster w całej ofercie, z rozkładem płaskim przez cały rok. Dziś nie mamy na te pytania żadnej odpowiedzi.</div>
+<div class="skala">30.09</div></td>
+<td class="num">5–6</td></tr>
+<tr>
+<td><span class="nr">7</span><strong>Kreda do stawu — poradnik i przebudowa wpisu o stawach karpiowych</strong>
+<div class="opis">1 300 wyszukań miesięcznie, w marcu 2 900, a strona nie pokazuje się dziś na żadne z nich. Konkurencja najsłabsza w całej ofercie — na pierwszej stronie Google stoją dwa wpisy z Facebooka. Przy okazji podmiana zdjęcia, które przedstawia tarasy ryżowe w Azji, a wisi na obu stronach o stawach.</div>
+<div class="skala">10.10</div></td>
+<td class="num">6–8</td></tr>
+<tr>
+<td><span class="nr">8</span><strong>Odczyn gleby i badanie próbek</strong>
+<div class="opis">Pytania, od których zaczyna się droga do zakupu wapna: jak podnieść pH, jak pobrać próbki, jak odczytać wynik ze stacji chemiczno-rolniczej. Dziś nie mamy na nie ani jednej strony. Tą samą drogą największy konkurent zbudował niemal całą swoją widoczność.</div>
+<div class="skala">20–31.10</div></td>
+<td class="num">8–10</td></tr>
+<tr>
+<td><span class="nr">9</span><strong>Sadownictwo</strong>
+<div class="opis">Wapnowanie drzew owocowych — 210 wyszukań miesięcznie, ze szczytem marcowym i wtórnym listopadowym. Publikujemy w listopadzie, przed głównym sezonem. Stary adres tej kategorii wciąż przyciąga wejścia, mimo że strony nie ma.</div>
+<div class="skala">30.11</div></td>
+<td class="num">4–5</td></tr>
+<tr class="grupa"><td colspan="2"><strong>Prace na stronie</strong><span>4 zadania · 14–20 h</span><div class="grupa-o">Technika i układ — nie zależą od sezonu, ale jedno warunkuje drugie.</div></td></tr>
+<tr>
+<td><span class="nr">10</span><strong>Szybkość strony na telefonie</strong>
+<div class="opis">Na komputerze strona ładuje się w 1,5 sekundy, na telefonie w 7,4 — różnica bierze się z ciężkich zdjęć, nie z kodu. Przesunięte z sierpnia; sprawa jest tym pilniejsza, że trzy czwarte ruchu z wyszukiwarki przychodzi dziś z telefonu.</div>
+<div class="skala">wrzesień</div></td>
+<td class="num">3–5</td></tr>
+<tr>
+<td><span class="nr">11</span><strong>Oddziały Niedomice i Radgoszcz w danych dla Google</strong>
+<div class="opis">Dane obu magazynów widoczne dla wyszukiwarki jako osobne lokalizacje. Dopóki nie mamy dostępu do ich wizytówek w Mapach, to jedyne miejsce, w którym oddziały dla Google w ogóle istnieją.</div>
+<div class="skala">wrzesień</div></td>
+<td class="num">1</td></tr>
+<tr>
+<td><span class="nr">12</span><strong>Formularz „oddzwonimy” bez wybierania produktu</strong>
+<div class="opis">Dziś formularz na stronach reklamowych wymaga wskazania jednego z dwudziestu produktów. Dla kogoś, kto trafił z reklamy na wapno granulowane, to zbędny krok — wystarczy imię, telefon, tonaż i lokalizacja.</div>
+<div class="skala">wrzesień</div></td>
+<td class="num">2</td></tr>
+<tr>
+<td><span class="nr">13</span><strong>Strony reklamowe na docelowym układzie i porządek w adresach</strong>
+<div class="opis">Strony docelowe kampanii stoją dziś na doraźnej poprawce układu. Przebudowa razem z uporządkowaniem adresów produktów — świadomie po sezonie, bo taka zmiana oznacza kilka tygodni drgających pozycji.</div>
+<div class="skala">grudzień–luty</div></td>
+<td class="num">8–12</td></tr>
+<tr class="grupa"><td colspan="2"><strong>OLX</strong><span>2 zadania · 1 h · plus decyzja po stronie AGRII</span><div class="grupa-o">Kanał działa od 20 sierpnia. Najbliższe dwa tygodnie rozstrzygają, czy idzie dalej.</div></td></tr>
+<tr>
+<td><span class="nr">14</span><strong>Decyzja o pakiecie na kolejny cykl</strong>
+<div class="opis">Pakiet wygasa 16 września i razem z nim gasną wszystkie 200 ogłoszeń jednego dnia — tak zgasło 17 ogłoszeń 18 lipca, w środku sezonu. Rozmowa z liczbą w ręku: kilkanaście złotych za kontakt z OLX wobec kilkuset za zapytanie z reklamy Google. Rekomendacja: odnawiamy.</div>
+<div class="skala">do 10.09</div></td>
+<td class="num">—</td></tr>
+<tr>
+<td><span class="nr">15</span><strong>Kontrola przeniesionych ogłoszeń</strong>
+<div class="opis">Czternaście dni po przeniesieniu 68 ogłoszeń bliżej magazynów — czy pierścień bliski faktycznie zaczął pracować lepiej.</div>
+<div class="skala">11.09</div></td>
+<td class="num">1</td></tr>
+<tr class="grupa"><td colspan="2"><strong>Kalkulator wapnowania</strong><span>1 zadanie · 4 h</span><div class="grupa-o">Narzędzie, które przynosi dziś jedną dziesiątą ruchu z wyszukiwarki.</div></td></tr>
+<tr>
+<td><span class="nr">16</span><strong>Moduł magnezu na stronie</strong>
+<div class="opis">Wersja robocza zaakceptowana przez Kazimierza 28 sierpnia, wdrożenie rozpisane co do pliku. Dawka uwzględni zawartość magnezu w wapnie, a zawartość ta jest już zapisana przy wszystkich pięciu produktach magnezowych.</div>
+<div class="skala">wrzesień</div></td>
+<td class="num">4</td></tr>
+<tr class="grupa"><td colspan="2"><strong>Google Ads</strong><span>2 zadania · 3–4 h</span><div class="grupa-o">Kampanie chodzą od 14 sierpnia. Do końca października zbieramy materiał pod decyzję o kontynuacji.</div></td></tr>
+<tr>
+<td><span class="nr">17</span><strong>Odczyt po tygodniu od przestawienia</strong>
+<div class="opis">Pierwszy termin, w którym brak zapytań coś znaczy. Odczyt z 1 września pokazał wzrost ruchu i podniesiony budżet schodzący w całości, ale dwa dni to za mało na wniosek.</div>
+<div class="skala">07.09</div></td>
+<td class="num">1</td></tr>
+<tr>
+<td><span class="nr">18</span><strong>Podsumowanie trzech miesięcy reklam dla AGRII</strong>
+<div class="opis">Zapowiedziane w sierpniu: ile zapytań, z jakich haseł, jakim kosztem — na tej podstawie zapada decyzja o kontynuacji kampanii. Materiał zbierany na bieżąco od 14 sierpnia.</div>
+<div class="skala">31.10</div></td>
+<td class="num">2–3</td></tr>
+</tbody>
+</table>
+
+<h2 style="margin-top:36px">Czekamy na AGRIĘ</h2>
+<p class="lead">Cztery rzeczy stoją po stronie AGRII. Ocena kalkulatora z magnezem zeszła z tej listy — Kazimierz zaakceptował wersję roboczą 28 sierpnia.</p>
+<table>
+<thead><tr><th>Na co czekamy</th><th class="num">od</th></tr></thead>
+<tbody>
+<tr>
+<td><strong>Zdjęcia na wizytówkę w Mapach Google</strong>
+<div class="opis">Profil ma dziś dziesięć kadrów, wszystkie z jednego dnia i wszystkie z zewnątrz. Brakuje magazynu, towaru i transportu — to zdjęcia, których nie da się zastąpić grafiką.</div></td>
+<td class="num czeka">od 20.08</td></tr>
+<tr>
+<td><strong>Decyzja o pakiecie OLX na kolejny cykl</strong>
+<div class="opis">Pakiet wygasa 16 września — bez odnowienia wszystkie 200 ogłoszeń gasną jednego dnia. Koszt po stronie AGRII: 1 199,99 zł brutto. Decyzja musi zapaść do 10 września.</div></td>
+<td class="num czeka">do 10.09</td></tr>
+<tr>
+<td><strong>Status dystrybutora Nordkalku</strong>
+<div class="opis">Chcemy użyć nazwy producenta w treści reklam. Wolno to zrobić odsprzedawcom — potrzebujemy potwierdzenia, że AGRIA nim jest.</div></td>
+<td class="num czeka">od 19.08</td></tr>
+<tr>
+<td><strong>Dostęp do wizytówek Niedomice i Radgoszcz</strong>
+<div class="opis">Oba oddziały mają profile w Mapach Google, do których nie mamy dostępu. Bez niego nie da się ich uzupełnić ani odpowiadać na opinie.</div></td>
+<td class="num czeka">od 15.07</td></tr>
+</tbody>
+</table>
+</section>
+</div>
+
+<footer>Auranet · Jan Schenk · js@auranet.com.pl · zestawienie dla AGRIA Sp. z o.o., stan na 01.09.2026
+· źródło: docs/REJESTR_ZOBOWIAZAN.md</footer>
+
+</div>
+</body>
+</html>
