@@ -1,7 +1,42 @@
 # Info o module magnezowym kalkulatora — 04.09.2026
 
 > Wdrożenie T-044. Teksty **do przekazania przez Janka**, nie wysyłane bezpośrednio.
-> Paweł — telefonicznie. Kazimierz — mailem, bo prosimy go o sprawdzenie na żywej stronie.
+
+---
+
+## WhatsApp — jedna wiadomość, wysyłana osobno do Pawła i do Kazimierza
+
+```
+Dzień dobry,
+
+kalkulator wapnowania na stronie liczy od dziś także magnez.
+
+Rolnik zaznacza, że zna zawartość magnezu z badania gleby, wpisuje wynik
+i dostaje ocenę zasobności swojej gleby, potrzebną dawkę magnezu oraz dobór
+nawozu: którym produktem AGRII magnez pokryć i ile wapna trzeba przy tym
+jeszcze dosypać, żeby domknąć odkwaszenie. W dobór wchodzi pięć produktów
+z magnezem — dolomit, wapno tlenkowe z magnezem i trzy węglanowe.
+
+Kto magnezu nie podaje, widzi to samo co dotąd: dawkę wapna i listę produktów.
+
+https://agria.pl/kalkulator-wapnowania/
+
+Będę wdzięczny za rzut oka i sygnał, gdyby coś liczyło się inaczej,
+niż powinno.
+```
+
+**Opcjonalny dopisek — tylko do Kazimierza** (pytanie merytoryczne, T-108):
+
+```
+Jeszcze jedno, do potwierdzenia: dolomit ma w karcie deklarację
+„CaO + MgO min. 45%, w tym MgO min. 15%". Czy dobrze rozumiem, że czystego
+CaO jest w nim wtedy około 30%? Od tej liczby zależy, jaką dawkę dolomitu
+kalkulator podaje w tabeli wapniowej.
+```
+
+---
+
+## Wersje dłuższe — gdyby przydały się zamiast WhatsAppa
 
 ---
 
