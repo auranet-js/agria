@@ -37,4 +37,9 @@ Prośba: gdyby znalazł Pan chwilę, proszę przejść na żywej stronie te trzy
 sprawdzał Pan wcześniej, i dać znać, czy wszystko się zgadza. Gdyby coś wyglądało inaczej niż
 w wersji roboczej — proszę o sygnał, poprawimy od ręki.
 
+Przy okazji jedno pytanie merytoryczne, do potwierdzenia. Dolomit ma w karcie deklarację
+„CaO + MgO min. 45%, w tym MgO min. 15%". Czy dobrze rozumiemy, że czystego CaO jest w nim
+wtedy około 30%? Pytamy, bo od tej liczby zależy, jaką dawkę dolomitu kalkulator podaje
+rolnikowi w tabeli wapniowej — w tabeli magnezowej liczy już z 30%.
+
 Pozdrawiam

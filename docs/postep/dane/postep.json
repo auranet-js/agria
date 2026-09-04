@@ -216,8 +216,14 @@
      "tytul": "Mockup kalkulatora z modułem magnezu",
      "opis": "Wersja testowa kalkulatora uwzględniająca zawartość magnezu przekazana Kazimierzowi do oceny merytorycznej.",
      "id": "T-043",
-     "godz": 5,
-     "znacznik": true
+     "godz": 2.5
+    },
+    {
+     "data": "28.08",
+     "tytul": "Kalkulator z magnezem — poprawki po uwagach Kazimierza",
+     "opis": "Wersja testowa poprawiona po ocenie Kazimierza: nawozy z magnezem znikają z listy, gdy rolnik nie podaje zawartości magnezu, plus dwie poprawki opisów przy dawce i doborze nawozu.",
+     "id": "T-043",
+     "godz": 1
     },
     {
      "data": "18.08",
@@ -412,6 +418,18 @@
      "znacznik": false
     }
    ]
+  },
+  {
+   "nazwa": "Wrzesień 2026",
+   "pozycje": [
+    {
+     "data": "04.09",
+     "tytul": "Kalkulator liczy magnez — moduł na stronie",
+     "opis": "Rolnik może podać zawartość magnezu z badania gleby i dostaje ocenę zasobności, potrzebną dawkę magnezu oraz dobór nawozu: którym produktem AGRII pokryć magnez i ile wapna trzeba przy tym dosypać. Kto magnezu nie podaje, widzi to samo co wcześniej. Moduł przeszedł zestaw testów sprawdzający wszystkie kombinacje pH, kategorii gleby i zawartości magnezu.",
+     "id": "T-044",
+     "godz": 3
+    }
+   ]
   }
  ],
  "kolejka_lead": "Kolejność ustalona na podstawie zmierzonej sezonowości zapytań — treści pod tematy, które szczytują wiosną, publikujemy teraz, żeby zdążyły zapracować.",
@@ -483,13 +501,13 @@
    "godz": "3–4"
   },
   {
-   "tytul": "Kalkulator — moduł magnezu na stronie",
-   "opis": "Po akceptacji Kazimierza moduł trafia z wersji testowej na stronę. Przy okazji planujemy dołożyć wybór uprawy, żeby dawka uwzględniała wymagania konkretnego gatunku.",
-   "kiedy": "wrzesień",
+   "tytul": "Kalkulator — wybór uprawy",
+   "opis": "Moduł magnezu jest już na stronie. Zostaje dołożenie wyboru uprawy, żeby dawka uwzględniała wymagania konkretnego gatunku.",
+   "kiedy": "do ustalenia",
    "pytania": [
-    "Czy wybór uprawy w kalkulatorze wchodzi razem z magnezem, czy osobno?"
+    "Czy wybór uprawy w kalkulatorze robimy w tym sezonie, czy po żniwach?"
    ],
-   "godz": "4–6"
+   "godz": "2–4"
   },
   {
    "tytul": "Oddziały Niedomice i Radgoszcz w danych dla Google",
@@ -527,8 +545,8 @@
    "od": "20.08"
   },
   {
-   "tytul": "Ocena kalkulatora z magnezem",
-   "opis": "Wersja testowa czeka na opinię merytoryczną Kazimierza.",
+   "tytul": "Sprawdzenie kalkulatora z magnezem na stronie",
+   "opis": "Prosimy Kazimierza o przejście na żywej stronie tych samych przypadków, które sprawdzał w wersji testowej.",
    "od": "18.08"
   },
   {
