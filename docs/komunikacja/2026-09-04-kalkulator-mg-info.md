@@ -23,12 +23,8 @@ https://agria.pl/kalkulator-wapnowania/
 
 Będę wdzięczny za rzut oka i sygnał, gdyby coś liczyło się inaczej,
 niż powinno.
-```
 
-**Opcjonalny dopisek — tylko do Kazimierza** (pytanie merytoryczne, T-108):
-
-```
-Jeszcze jedno, do potwierdzenia: dolomit ma w karcie deklarację
+I jeszcze jedno pytanie, do potwierdzenia. Dolomit ma w karcie deklarację
 „CaO + MgO min. 45%, w tym MgO min. 15%". Czy dobrze rozumiem, że czystego
 CaO jest w nim wtedy około 30%? Od tej liczby zależy, jaką dawkę dolomitu
 kalkulator podaje w tabeli wapniowej.
