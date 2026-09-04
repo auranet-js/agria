@@ -1,0 +1,571 @@
+            Tamara Jadczyszyn, Wojciech Lipiński
+
+
+
+
+ ZASADY USTALANIA DAWEK WAPNA
+   W DORADZTWIE NAWOZOWYM
+nowe zalecenia w zakresie wapnowania gleb gruntów ornych
+               i trwałych użytków zielonych
+          Tamara Jadczyszyn, Wojciech Lipiński
+
+
+
+
+     ZASADY USTALANIA DAWEK WAPNA
+       W DORADZTWIE NAWOZOWYM
+nowe zalecenia w zakresie wapnowania gleb gruntów ornych
+               i trwałych użytków zielonych
+
+
+
+
+               Narodowe Centrum
+               Badań i Rozwoju
+           INSTYTUT UPRAWY NAWOŻENIA I GLEBOZNAWSTWA
+                    PAŃSTWOWY INSTYTUT BADAWCZY
+           24-100 Puławy, ul. Czartoryskich 8, tel.: 814786700, 814786 800
+                     e-mail: iung@iung.pulawy.pl; www.iung.pl
+                      Dyrektor: prof. dr hab. Wiesław Oleszek
+
+
+                   KRAJOWA STACJA CHEMICZNO-ROLNICZA
+                             05-075 Warszawa – Wesoła
+                        ul. Żółkiewskiego 17, tel. 222904205
+                      Dyrektor: prof. dr hab. Wojciech Lipiński
+
+
+                  DZIAŁ UPOWSZECHNIANIA I WYDAWNICTW
+                            tel.: 814786720, 814786722
+                          Kierownik: dr Monika Kowalik
+
+
+
+
+Opracowanie redakcyjne i graficzne: dr Grażyna Hołubowicz-Kliza
+
+
+
+
+Instrukcja opracowana w ramach projektu „Budowa efektywnego modelu interaktywnego systemu
+wspierania decyzji agrotechnicznych w celu optymalizacji nawożenia i ochrony wód przed zanieczysz-
+czeniami pochodzenia roślinnego” (akronim: INTER-NAW). Projekt współfinansowany przez Naro-
+dowe Centrum Badań i Rozwoju w ramach programu GOSPOSTRATEG, Umowa nr GOSPOSTRA-
+TEG1/389038/8/NCBR/2018. Wartość realizowanego projektu: 1 528 545 PLN.
+
+
+
+
+ISBN 978-83-7562-385-7
+
+© Copyright by Wydawnictwo IUNG-PIB, Puławy 2022
+                                        WPROWADZENIE
+
+
+   Zalecenia dotyczące ustalania dawek wapna do regulacji odczynu gleby w Polsce
+zostały opracowane w latach 80. XX w. Zagadnienie wapnowania w naszym kraju ma
+szczególne znaczenie z wagi na duży udział gleb bardzo lekkich i lekkich podatnych
+na zakwaszenie. Stanowią one około 2/3 powierzchni UR. Pozostałe gleby również
+ulegają procesom zakwaszania, mimo lepszych właściwości buforowych. Wapnowa-
+nie gleb jest wciąż bardzo istotnym problem w produkcji roślinnej o znaczeniu eko-
+nomicznym, produkcyjnym i środowiskowym.
+   Wyniki analiz prowadzonych od lat wskazują na potrzebę weryfikacji aktualnych
+zaleceń w celu bardziej precyzyjnego dopasowania dawek wapna do parametrów gle-
+by wymagającej odkwaszenia.
+
+
+
+
+Rozsiewanie nawozu wapniowego (fot. Pixabay)
+
+                                                                                3
+                  PODSTAWY USTALANIA DAWEK WAPNA
+
+
+   Podstawą ustalania dawek wapna w Polsce są łatwo mierzalne parametry agroche-
+miczne: odczyn gleby i kategoria agronomiczna.
+   Kategorię agronomiczną gleby określa się na podstawie procentowego udzia-
+łu cząsteczek o średnicy poniżej 0,02 mm (tzw. części spławialnych). Wyróżnia się
+4 kategorie agronomiczne gleby (tab. 1).
+   Odczyn gleby ustala się na podstawie wyniku pomiaru pH według zasad zawar-
+tych w normie PN-ISO 10390:1997P. Jakość gleby. Oznaczanie pH.
+   Norma ta dopuszcza możliwość pomiaru pH zarówno w roztworze KCl,
+CaCl2, jak i H2O. W Polsce wystarczająco skalibrowana jest metoda w roztworze
+1 mol KCl·dm-3. Do oceny odczynu mierzonego tą metodą opracowano liczby gra-
+niczne (tab. 2).
+   Kluczowe znaczenie dla wiarygodności prowadzonych analiz ma prawidłowy po-
+bór reprezentatywnej próbki glebowej. Powinien on być on wykonywany zgodnie
+z normą PN-R-04031:1997P. Analiza chemiczno-rolnicza gleby. Pobieranie próbek.
+
+   Dotychczas ustalanie dawek wapna odbywało się w kilku etapach:
+1. pobranie próbki gleby;
+2. analiza próbki w laboratorium agrochemicznym (pHKCl i uziarnienie gleby);
+3. identyfikacja kategorii agronomicznej gleby i/lub udziału materii organicznej
+   (tab. 1);
+4. ocena odczynu (tab. 2);
+5. określenie potrzeb wapnowania gleby w skali 5-stopniowej (tab. 3);
+6. ustalenie dawki czystego składnika w t CaO na ha (tab. 4);
+7. ustalenie dawki wapna nawozowego.
+
+    Wyznaczane w taki sposób dawki CaO charakteryzowały się znacznym zróż-
+nicowaniem zarówno pomiędzy kategoriami agronomicznymi gleby, jak i samymi
+klasami potrzeb wapnowania. Nie ma wątpliwości, że kategoria agronomiczna ma
+decydujący wpływ na wielkość dawki nawozu (nie tylko wapniowego), z uwagi na
+właściwości buforowe gleby. Natomiast przedziały potrzeb wapnowania obejmowały
+dość szerokie ramy sięgające w przypadku gleb bardzo lekkich i lekkich 1 t CaO,
+w przypadku gleb średnich − od 0,7 do 1,5 t, natomiast w przypadku gleb ciężkich −
+od 1 do 3 t czystego składnika na 1 ha UR. Zróżnicowanie dawek dla gleb użytków
+zielonych było mniejsze i wynosiło 0,5 t CaO na ha.
+
+
+
+
+4
+                                                                                                                 Tabela 1
+
+                                         Kategorie agronomiczne gleb
+
+          Kategorie                   Grupa składu granulometrycznego                         % frakcji <0,02 mm
+ I – gleby bardzo lekkie            pl, plp, ps, psp                                                     0-10
+ II – gleby lekkie                  pgl, pglp, pgm, pgmp, płp, płz                                       11-20
+ III – gleby średnie                gl, glp, płg                                                         21-35
+ IV – gleby ciężkie                 gs, gsp, gc, gcp, płi, i, ip                                          > 35
+
+pl – piasek luźny, plp – piasek luźny pylasty, ps – piasek słabogliniasty, psp – piasek słabogliniasty pylasty, pgl – piasek
+gliniasty lekki, pglp – piasek gliniasty lekki pylasty, pgm – piasek gliniasty mocny, pgmp – piasek gliniasty mocny
+pylasty, płp – pył piaszczysty, płz – pył zwykły, gl – glina lekka, glp – glina lekka pylasta, płg – pył gliniasty, gs – glina
+średnia, gsp – glina średnia pylasta, gc – glina ciężka, płi – pył ilasty, i – ił, ip – ił piaszczysty
+
+Źródło: pozycja w literaturze (10)
+
+
+                                                                                                                 Tabela 2
+
+                                              Ocena odczynu gleby
+
+              Ocena odczynu gleby                                            pH [1 mol KCl·dm-3]
+ Bardzo kwaśny                                                                          < 4,5
+ Kwaśny                                                                                4,6-5,5
+ Lekko kwaśny                                                                          5,6-6,5
+ Obojętny                                                                              6,6-7,2
+ Zasadowy                                                                               > 7,2
+Źródło: pozycja w literaturze (10)
+
+
+                                                                                                                 Tabela 3
+
+              Ocena potrzeb wapnowania gleb mineralnych (gruntów ornych)
+
+   Klasa potrzeb                           Kategoria agronomiczna gleby [pH w 1 N KCl]
+   wapnowania                 bardzo lekka                  lekka                  średnia                   ciężka
+ Konieczne                        do 4,0                   do 4,5                   do 5,0                  do 5,5
+ Potrzebne                        4,1-4,5                  4,6-5,0                  5,1-5,5                 5,6-6,0
+ Wskazane                         4,6-5,0                  5,1-5,5                  5,6-6,0                 6,1-6,5
+ Ograniczone                      5,1-5,5                  5,6-6,0                  6,1-6,5                 6,6-7,0
+ Zbędne                           od 5,6                   od 6,1                   od 6,6                  od 7,1
+Źródło: pozycja w literaturze (10)
+
+
+
+
+                                                                                                                            5
+                                                                                      Tabela 4
+
+                    Zalecane dawki nawozów wapniowych na grunty orne
+
+         Kategoria                       Klasa potrzeb wapnowania / Dawki CaO [t na ha]
+    agronomiczna gleby              konieczne   potrzebne   wskazane   ograniczone   zbędne
+    Bardzo lekka                       3,0         2,0        1,0           -             -
+    Lekka                              3,5         2,5        1,5           -             -
+    Średnia                            4,5         3,0        1,7          1,0            -
+    Ciężka                             6,0         3,0        2,0          1,0            -
+
+Źródło: pozycja w literaturze (9)
+
+
+
+
+          PRAKTYCZNE ASPEKTY ZMIAN W USTALANIU DAWEK CaO
+
+
+    Proponowany, nowy sposób wyznaczania dawki CaO nie wprowadza zmian
+w podstawach systemu zaleceń w zakresie wapnowania (bazuje nadal na pomiarze
+pHKCl i kategorii agronomicznej gleby), a jedynie upraszcza metodę wyznaczenia ilo-
+ści czystego składnika CaO, eliminując etapy oceny odczynu i potrzeb wapnowania.
+    W praktyce, wprowadzone rozwiązanie ułatwi prace w doradztwie nawozowym,
+a także poprawi przejrzystość ustalenia dawki wapna dla odbiorcy końcowego. Dla
+zobrazowania tego uproszczenia można przytoczyć przykładowy zakres pH tj. 4,6-
+-5,0 (gleba bardzo lekka – wapnowanie wskazane) jako jeden przedział, dla którego
+zalecana dawka CaO wynosiła 1,0 t na ha (zarówno dla pH = 4,6, jak i 5,0). Nowe
+rozwiązanie uściśla zalecaną dawkę do konkretnych wartości pH, dając możliwość
+jej zróżnicowania w zakresie od 0,2 t dla najwyższej wartości pH (w tym przypadku
+5,0), po 1,0 t CaO na glebę o pH 4,6. Wyznaczone w ten sposób dawki odpowiadają
+rzeczywistemu zakwaszeniu i eliminują je w bardziej precyzyjny sposób.
+
+
+
+
+6
+           DAWKI CaO NA GRUNTACH ORNYCH
+
+
+                                                 Podział dawki
+pH gleby    Zalecana dawka CaO t na ha
+                                            część I        część II
+                      Gleby bardzo lekkie
+  5,0                  0,2                   0,2                 -
+  4,9                  0,5                   0,5                 -
+  4,8                  0,8                   0,8                 -
+  4,7                  1,0                   1,0                 -
+  4,6                  1,3                   1,3                 -
+  4,5                  1,6                   1,6                 -
+  4,4                  1,8                   1,8                 -
+  4,3                  2,0                   2,0                 -
+  4,2                  2,2                   2,2                 -
+  4,1                  2,4                   2,4                 -
+  4,0                  2,8                   2,8                 -
+  3,9                  3,1                   3,1                 -
+  3,8                  3,4                   3,4                 -
+                         Gleby lekkie
+  5,5                  0,2                   0,2              -
+  5,4                  0,5                   0,5              -
+  5,3                  0,9                   0,9              -
+  5,2                  1,2                   1,2              -
+  5,1                  1,5                   1,5              -
+  5,0                  1,8                   1,8              -
+  4,9                  2,1                   2,1              -
+  4,8                  2,3                   2,3              -
+  4,7                  2,6                   2,6              -
+  4,6                  2,9                   2,9              -
+  4,5                  3,1                   3,1              -
+  4,4                  3,4                   3,4              -
+  4,3                  4,5                   3,5             1,0
+  4,2                  4,7                   3,5             1,2
+  4,1                  5,5                   3,5             2,0
+  4,0                  5,9                   3,5             2,4
+  3,9                  6,3                   3,5             2,8
+  3,8                  6,5                   3,5             3,0
+
+
+
+                                                                      7
+                                                 Podział dawki
+    pH gleby   Zalecana dawka CaO t na ha
+                                            część I        część II
+                           Gleby średnie
+      6,0                 0,4                0,4              -
+      5,9                 0,8                0,8              -
+      5,8                 1,2                1,2              -
+      5,7                 1,6                1,6              -
+      5,6                 2,0                2,0              -
+      5,5                 2,4                2,4              -
+      5,4                 2,8                2,8              -
+      5,3                 3,2                3,2              -
+      5,2                 3,6                3,6              -
+      5,1                 3,9                3,9              -
+      5,0                 4,2                4,2              -
+      4,9                 4,4                4,4              -
+      4,8                 4,8                4,8              -
+      4,7                 5,0                5,0              -
+      4,6                 5,4                5,0             0,4
+      4,5                 5,8                5,0             0,8
+      4,4                 6,2                5,0             1,2
+      4,3                 6,4                5,0             1,4
+      4,2                 6,6                5,0             1,6
+      4,1                 7,0                5,0             2,0
+      4,0                 7,4                5,0             2,4
+      3,9                 7,8                5,0             2,8
+                            Gleby ciężkie
+      6,3                 0,2                0,2                 -
+      6,2                 0,2                0,2                 -
+      6,1                 0,5                0,5                 -
+      6,0                 0,8                0,8                 -
+      5,9                 1,0                1,0                 -
+      5,8                 1,5                1,5                 -
+      5,7                 2,0                2,0                 -
+      5,6                 2,5                2,5                 -
+      5,5                 3,0                3,0                 -
+      5,4                 3,5                3,5                 -
+      5,3                 3,8                3,8                 -
+      5,2                 4,1                4,1                 -
+      5,1                 4,5                4,5                 -
+      5,0                 4,8                4,8                 -
+      4,9                 5,1                5,1                 -
+      4,8                 5,4                5,4                 -
+8
+                                                                     Podział dawki
+       pH gleby               Zalecana dawka CaO t na ha
+                                                                część I        część II
+                                           Gleby ciężkie
+           4,7                            5,7                     5,7             -
+           4,6                            5,8                     5,8             -
+           4,5                            6,0                     6,0             -
+           4,4                            7,0                     6,0             -
+           4,3                            7,5                     6,0            1,5
+           4,2                            8,0                     6,0            2,0
+           4,1                            9,0                     6,0            3,0
+           4,0                            9,8                     6,0            3,8
+           3,9                           10,8                     6,0            4,8
+Źródło: Jadczyszyn T., 2021
+
+
+
+
+                        DAWKI CaO NA UŻYTKACH ZIELONYCH
+
+
+                                                Zawartość C w glebie [%]
+           pH
+                                 < 2,5          2,6-5,0         5,1-10,0         > 10
+           3,8                    1,5             2,0             3,0                3,0
+           3,9                    1,5             2,0             3,0                3,0
+           4,0                    1,5             2,0             3,0                3,0
+           4,1                    1,5             2,0             3,0                3,0
+           4,2                    1,5             2,0             3,0                2,9
+           4,3                    1,5             2,0             3,0                2,8
+           4,4                    1,5             2,0             3,0                2,7
+           4,5                    1,5             2,0             3,0                2,4
+           4,6                    1,5             1,9             2,9                2,1
+           4,7                    1,3             1,8             2,8                1,7
+           4,8                    1,2             1,7             2,7                1,3
+           4,9                    1,1             1,6             2,6                0,9
+           5,0                    1,0             1,5             2,5                0,5
+           5,1                    0,9             0,9             0,0                0,0
+           5,2                    0,8             0,8             0,0                0,0
+           5,3                    0,7             0,7             0,0                0,0
+           5,4                    0,6             0,6             0,0                0,0
+                                                                                           9
+                                        Zawartość C w glebie [%]
+           pH
+                              < 2,5      2,6-5,0        5,1-10,0          > 10
+           5,5                 0,5         0,5             0,0            0,0
+           5,6                 0,0         0,5             0,0            0,0
+           5,7                 0,0         0,4             0,0            0,0
+           5,8                 0,0         0,3             0,0            0,0
+           5,9                 0,0         0,2             0,0            0,0
+
+Źródło: Jadczyszyn T., 2021
+
+
+
+
+                          KORZYŚCI DLA PRAKTYKI ROLNICZEJ
+
+
+
+     ▶▶ Nowe podejście do wyznaczania dawek CaO, a tym samym wapna nawo-
+        zowego, środków wapnujących oraz nawozów i środków wspomagających
+        uprawę roślin przeznaczonych do odkwaszania gleby, wprowadza uprosz-
+        czenia polegające na skróceniu etapów całego procesu.
+     ▶▶ Zalecane dawki CaO zostały doprecyzowane do konkretnych wartości pH
+        w glebach gruntów ornych i użytków zielonych.
+     ▶▶ Nowy sposób ustalania dawek CaO zmniejsza nakłady na zakup wapna,
+        zwłaszcza w przypadkach wyższych wartości pH gleby.
+
+
+
+
+     Przykład 1:
+     Dotychczasowa zasada:
+     Gleba ciężka o pH 5,6 – wapnowanie potrzebne – zalecana dawka 3 t CaO na ha.
+
+     Proponowana zmiana:
+     Gleba ciężka o pH 5,6 – zalecana dawka 2,5 t CaO na ha.
+     Zalety: bardziej precyzyjna ilość CaO, mniejszy koszt zakupu o 20%, mniejsze
+     koszty zastosowania.
+
+
+
+10
+   Przykład 2:
+   Dotychczasowa zasada:
+   Gleba ciężka o pH 5,5 – wapnowanie konieczne – zalecana dawka 6 t CaO na ha.
+   Proponowana zmiana:
+   Gleba ciężka o pH 5,5 – zalecana dawka 3 t CaO na ha.
+   Zalety: bardziej precyzyjna ilość CaO, mniejszy koszt zakupu o ok. 50%,
+   mniejsze koszty zastosowania.
+
+
+    Rozwiązaniem na potrzeby praktyki rolniczej jest również propozycja zwiększe-
+nia zalecanych dawek CaO, dedykowana do najbardziej zakwaszonych gleb (z wy-
+jątkiem bardzo lekkich), co w dotychczasowej praktyce doradczej nie miało miejsca,
+a maksymalna zalecana dawka CaO wynosiła 6 t na ha. Obecnie może ona przekro-
+czyć nawet 10 t na ha, przy czym niezbędnym warunkiem jest podział tej dawki, bez
+konieczności ponownego badania pH gleby.
+
+
+
+
+                       INFORMACJE UZUPEŁNIAJĄCE
+
+
+   Do obliczenia dawki nawozu wapniowego na podstawie zaleceń otrzymanych
+z okręgowej stacji chemiczno-rolniczej stosuje się następujący wzór:
+		
+
+                             dawka czystego składnika CaO w t na ha
+   Dawka wapna nawozowego = --------------------------------------------- x 100
+                                  % CaO w wapnie nawozowym
+
+
+
+   Przykład 1:
+
+   Zalecana dawka wynosi 2,4 t CaO na ha, nawóz zawiera 50% CaO, obliczona
+   dawka nawozu wynosi 4,8 t na ha (2,4:0,5).
+
+
+
+
+                                                                                  11
+     Przykład 2:
+     Zalecana dawka wynosi 5,5 t CaO na ha, nawóz zawiera 70% CaO, obliczona
+     dawka nawozu wynosi 7,9 t na ha (5,5:0,7).
+
+
+
+                                                                             Tabela 5
+
+                          Dawki wapna w zależności od zawartości CaO
+
+                                            CaO w nawozie [%]
+    CaO
+                     20         30       40        50        60        70     80
+  w t na ha
+                                           dawka wapna na 1 ha
+      1,0            5,0        3,3       2,5      2,0      1,7        1,4    1,3
+      1,5            7,5        5,0       3,8      3,0      2,5        2,1    1,9
+      1,7            8,5        6,0       4,3      3,4      2,8        2,4    2,1
+      2,0           10,0        6,7       5,0      4,0      3,3        2,9    2,5
+      2,5           12,5        8,3       6,3      5,0      4,2        3,6    3,1
+      3,0           15,0       10,0       7,5      6,0      5,0        4,3    3,8
+      3,5           17,5       11,7       8,8      7,0      5,8        5,0    4,4
+      4,5           22,5       14,3      11,3      9,0      7,5        6,4    5,6
+      6,0           30,0       20,0      15,0     12,0      10,0       8,6    7,5
+
+Źródło: Jadczyszyn T., 2021
+
+
+
+Wszystkie niezbędne materiały dotyczące pobierania próbek gleby można zna-
+leźć pod adresem: https://schr.gov.pl/p,155,instrukcje.
+
+
+   Badanie gleby pod kątem ich zakwaszenia można wykonać w laboratoriach
+17 okręgowych stacji chemiczno-rolniczych zapewniających pełen zakres badań oraz
+innych usług związanych z podstawami nawożenia. Wszystkie laboratoria posiadają
+akredytację PCA.
+   Niezbędne informacje są dostępne pod adresem: www.schr.gov.pl.
+
+
+
+
+12
+                                 LITERATURA
+
+
+1. Filipek T., Badora A., Lipiński W., Brodowska M.S., Domańska J., Harasim P., Ko-
+    złowska-Strawska J., Skowron P., Skowrońska M., Tkaczyk P., 2015. Zakwaszenie
+    i wapnowanie gleb. FAPA, Warszawa, ss. 236.
+2. Jadczyszyn T., 2021. Nowe zalecenia w zakresie wapnowania gleb. Studia i Rapor-
+    ty IUNG-PIB, Puławy, z. 65(19):99-109.
+3. Jadczyszyn T., Kowalczyk J., Lipiński W., 2012. Zalecenia nawozowe dla roślin
+    uprawy polowej i trwałych użytków zielonych. Instrukcja upowszechnieniowa
+    nr 151. IUNG-PIB, Puławy, ss. 24.
+4. Lipiński W., Krysztoforski M., Artyszak A., 2018. Wapnowanie od A do Z. SPW,
+    Kraków, 1-36.
+5. Lipiński W., 2013. Problematyka zakwaszenia gleb, efektywność wapnowania.
+    Dobre praktyki rolnicze w nawożeniu użytków rolnych. CDR, O/Radom, 18-37.
+6. PN-ISO 10390:1997P. Jakość gleby. Oznaczanie pH.
+7. PN-R-04031:1997P. Analiza chemiczno-rolnicza gleby. Pobieranie próbek.
+8. Praca zbiorowa pod red. R. Czuby. 1996. Nawożenie mineralne roślin uprawnych.
+    Police, ss. 413.
+9. Zalecenia nawozowe. 1986. Optymalne dawki nawozów na gruntach ornych.
+    Wyd. II Seria P (32), IUNG, Puławy, ss. 97.
+10. Zalecenia nawozowe. 1990. Cz. I. Liczby graniczne do wyceny zawartości w gle-
+    bach makro- i mikroelementów. Wyd. II, seria P (44), IUNG, Puławy, ss. 6.
+
+
+
+
+                                                                                13
+INTERAKTYWNY SYSTEM WSPIERANIA DECYZJI AGROCHEMICZNYCH
+
+
+
+
+14
+                                       Narodowe Centrum
+                                       Badań i Rozwoju
+
+
+
+GOSPOSTRATEG – strategiczny program badań naukowych i prac rozwojowych
+„Społeczny i gospodarczy rozwój Polski w warunkach globalizujących się rynków”
+
+                                   Projekt
+
+                               INTER-NAW
+„Budowa efektywnego modelu interaktywnego systemu wspierania decyzji agro-
+chemicznych w celu optymalizacji nawożenia i ochrony wód przed zanieczysz-
+czeniami pochodzenia rolniczego”. (GOSPOSTRATEG1/389038/8/NCBR/2018)
+
+
+
+   Konsorcjum:
+
+              Krajowa Stacja Chemiczno-Rolnicza w Warszawie – lider
+
+              Instytut Uprawy Nawożenia i Gleboznawstwa – PIB w Puławach
+
+              Instytut Technologiczno-Przyrodniczy – PIB w Falentach
+
+
+
+
+   okres realizacji: 1.01.2019 – 30.06.2022
+
+
+
+   ZADANIA PROJEKTU:
+
+   ԀԀ budowa efektywnego modelu interaktywnego systemu wspierania decyzji
+      agrochemicznych w celu optymalizacji nawożenia i ochrony wód przed za-
+      nieczyszczeniami pochodzenia rolniczego:
+      ԀԀ na gruntach ornych,
+      ԀԀ na użytkach zielonych,
+   ԀԀ wdrożenie modelu do praktyki.
+
+
+                                                                               15
+Notatki własne:
+
+
+
+
+16
+                     Narodowe Centrum
+                     Badań i Rozwoju
+
+
+
+
+         INSTYTUT UPRAWY NAWOŻENIA I GLEBOZNAWSTWA
+                PAŃSTWOWY INSTYTUT BADAWCZY
+                     24-100 Puławy, ul. Czartoryskich 8,
+                         tel.: (81) 4786700, 4786800
+             e-mail: iung@iung.pulawy.pl; www.iung.pulawy.pl
+
+
+
+
+              KRAJOWA STACJA CHEMICZNO-ROLNICZA
+                       05-075 Warszawa – Wesoła
+                  ul. Żółkiewskiego 17, tel. 222904205
+                      Dyrektor: Wojciech Lipiński
+
+
+
+
+ISBN 978-83-7562-385-7
+

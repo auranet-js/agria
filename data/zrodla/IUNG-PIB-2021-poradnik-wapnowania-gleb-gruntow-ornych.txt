@@ -1,0 +1,2936 @@
+PORADNIK WAPNOWANIA GLEB
+    GRUNTÓW ORNYCH
+
+
+
+
+Grażyna Hołubowicz-Kliza
+Tamara Jadczyszyn
+Alicja Sułek
+ dr Grażyna Hołubowicz-Kliza, dr Tamara Jadczyszyn
+                dr hab. Alicja Sułek
+
+
+
+
+PORADNIK WAPNOWANIA GLEB
+    GRUNTÓW ORNYCH
+          INSTYTUT UPRAWY NAWOŻENIA I GLEBOZNAWSTWA
+                   PAŃSTWOWY INSTYTUT BADAWCZY
+          24-100 Puławy, ul. Czartoryskich 8, tel.: 81 4786700, 4786800
+                    Dyrektor: prof. dr hab. Wiesław Oleszek
+
+
+                DZIAŁ UPOWSZECHNIANIA I WYDAWNICTW
+                       tel. 81 4786720; fax 81 4786721
+                       Kierownik: dr Monika Kowalik
+
+
+
+
+Opracowanie redakcyjne i graficzne:
+dr Grażyna Hołubowicz-Kliza
+
+
+
+© Copyright by Wydawnictwo IUNG-PIB, Puławy 2021
+
+
+
+1. Poradnik przygotowano w znacznym oparciu o:
+2. Hołubowicz-Kliza G. Wapnowanie gleb w Polsce. IUNG-PIB Puławy 2006, Instrukcja
+   upowszechnieniowa 128, ss. 61.
+3. Jadczyszyn T. Nowe zalecenia w zakresie wapnowania gleb. Studia i Raporty IUNG-PIB,
+   2021, 65(19): 99-109.
+4. Opracowanie „Środowiskowe aspekty zakwaszenia gleb w Polsce” wykonane na zlecenie:
+   Ministerstwa Rolnictwa i Rozwoju Wsi w 2015 r. w ramach zadania 2.2 w programie wie-
+   loletnim IUNG-PIB przez zespół autorów: Ochal P., Jadczyszyn T., Jurga B., Jerzy Kopiń-
+   ski J., Matyka M. Madej A., Rutkowska A., Smreczak B., Łysiak M.
+
+
+https://doi.org/10.26114/por.iung.2021.12.05
+
+
+ISBN 978-83-7562-378-9
+                      SPIS TREŚCI
+
+WPROWADZENIE                                         5
+
+PRZYCZYNY ZAKWASZENIA GLEB W POLSCE                  7
+
+STAN ZAKWASZENIA GLEB W POLSCE                      10
+  KWASOWOŚĆ GLEBY                                   12
+
+POTRZEBY WAPNOWANIA GLEB W POLSCE                   16
+  ZUŻYCIE NAWOZÓW WAPNIOWYCH                        17
+  ZAPOTRZEBOWANIE NA WAPNO W KRAJU                  18
+
+WPŁYW WAPNOWANIA NA ŚRODOWISKO GLEBOWE              22
+  WPŁYW WAPNOWANIA NA KWASOWOŚĆ GLEBY               22
+  WPŁYW WAPNOWANIA NA PRZYSWAJALNOŚĆ SKŁADNIKÓW
+  POKARMOWYCH                                       22
+  WPŁYW WAPNOWANIA NA POBIERANIE AZOTU              23
+  WPŁYW WAPNOWANIA NA POBIERANIE FOSFORU            25
+  WPŁYW WAPNOWANIA NA POBIERANIE POTASU             25
+  WPŁYW WAPNOWANIA NA POBIERANIE MAGNEZU            26
+  WPŁYW WAPNOWANIA NA POBIERANIE MIKROELEMENTÓW     26
+  WPŁYW WAPNOWANIA NA TOKSYCZNOŚĆ METALI CIĘŻKICH   27
+  WPŁYW WAPNOWANIA NA MIKROORGANIZMY GLEBOWE        28
+  WPŁYW WAPNOWANIA NA FIZYCZNE WŁAŚCIWOŚCI GLEBY    29
+  WPŁYW WAPNOWANIA NA CHEMICZNE WŁAŚCIWOŚCI GLEBY   29
+  WPŁYW NAWOZÓW MINERALNYCH NA ZAKWASZENIE GLEBY    30
+  WPŁYW WAPNOWANIA NA ZAPOTRZEBOWANIE NAWOZÓW       32
+
+EFEKTYWNOŚĆ WAPNOWANIA                              33
+
+SYMPTOMY WSKAZUJĄCE NA ZAKWASZENIA GLEB             38
+  ROŚLINNOŚĆ JAKO WSKAŹNIK KWASOWOŚCI               38
+  STAN ROŚLIN UPRAWNYCH JAKO WSKAŹNIK KWASOWOŚCI    39
+  INNE CZYNNIKI ŚWIADCZĄCE O KWASOWOŚCI             39
+
+WAPNOWANIE GLEB GRUNTÓW ORNYCH                      40
+  DAWKI WAPNA NA GRUNTY ORNE WEDŁUG NOWEGO
+  SYSTEMU ZALECEŃ                                   44
+  AGROTECHNIKA WAPNOWANIA                           48
+  STOSOWANIE NAWOZÓW WAPNIOWYCH                     48
+                                                    3
+    MIEJSCE WAPNOWANIA W ZMIANOWANIU             50
+    MIEJSCE WAPNOWANIA W SYSTEMIE ZABIEGÓW
+    AGROTECHNICZNYCH                             51
+
+TECHNIKA WAPNOWANIA                              53
+
+KOSZT WAPNOWANIA                                 55
+
+WAPNOWANIE GLEBY A POTRZEBA NAWOŻENIA MAGNEZEM   57
+  ZAWARTOŚĆ MAGNEZU W GLEBIE                     57
+
+TYPY WAPNA NAWOZOWEGO                            61
+LITERATURA                                       65
+
+
+
+
+4
+                              WPROWADZENIE
+
+Wiele uwagi poświęca się zagadnieniom żyzności i urodzajności gleb. W dużym
+stopniu te cechy zależą od składu chemicznego skały, z której powstała, odczynu,
+składu mechanicznego, który buduje jej strukturę oraz zdolności sorpcyjnych, czyli
+możliwości do zatrzymywania wody, pary wodnej, gazów, jonów metali, a także za-
+siedlania przez różnorodne organizmy glebowe oraz zawartości próchnicy, węglanu
+wapnia, węgla organicznego i głębokości profilu glebowego. Na kształtowanie gleby
+największy wpływ mają warunki klimatyczne, do których należy: nasłonecznienie
+i intensywność opadów warunkujących temperaturę i jej wilgotność. Bardzo istot-
+nym czynnikiem są także mikroorganizmy, które określają jej urodzajność i wpływa-
+ją na uwalnianie związków mineralnych. Ich obecność jest bardzo ważna, nie tylko ze
+względów glebotwórczych, ale przede wszystkim ze względu na zachowanie ciągło-
+ści obiegu materii w przyrodzie i umożliwianie wzrostu roślinom. Jednak to rolnik
+kształtuje glebę głównie poprzez jej uprawę. Działanie to wpływa na zmiany w jej
+składzie mineralnym, kwasowość, zawartość próchnicy, przebieg procesów chemicz-
+nych i jej temperaturę, a także możliwość bytowania i zasiedlania przez organizmy
+żywe. Jednym z elementów wpływających na degradację gleby jest jej zakwaszenie.
+    Na zakwaszenie gleb w Polsce wpływają zarówno warunki naturalne, jak i dzia-
+łalność człowieka. Do podstawowych czynników zaliczany jest klimat oraz rodzaj
+skały macierzystej. Ponad 90% gleb w Polsce wytworzonych jest na kwaśnych skałach
+naniesionych przez lodowce. Z nich następuje intensywne wymywanie składników
+zasadowych, zwłaszcza w obszarach o większej rocznej sumie opadów. Dlatego naj-
+więcej gleb zakwaszonych zlokalizowanych jest w rejonach górskich i nadmorskich.
+Powstający na skutek oddychania organizmów glebowych CO2, w niskich tempera-
+turach koncentruje się w glebie i wpływa na wzrost zakwaszenia. Sprzyjają mu także
+niektóre naturalne procesy przemian związków organicznych i związków azotu.
+    Natomiast jednym ze skutków rolniczej i przemysłowej działalności rolnika jest
+wzrost koncentracji w glebie kationów wodoru (H+), powodujących jej zakwaszenie.
+W Polsce, pomimo olbrzymiego postępu biologicznego i technicznego, zakwaszenie
+gleb jest podstawową przyczyną stagnacji produkcji rolnej.
+    Dyskusję na temat skutków zaniedbania regulacji odczynu gleb w naszym kraju
+należy rozpocząć od wyznaczenia średniej wielkości zapotrzebowania gleb użytko-
+wanych rolniczo na wapno. W tej analizie istotnymi składowymi są ilość składnika
+wymytego w cyklu rocznym z gleby oraz wyniesionego z plonem z pola. Pierwsza
+wartość jest bardzo zmienna i waha się w zakresie 150-250 kg CaO na ha. Przyczyną
+tej zmienności jest zarówno kategoria gleby, jak i ilość opadów. Ilość wymytego skład-
+nika jest tym większa, im większe są opady, a gleba bogatsza w kationy zasadowe,
+w tym w wapń i magnez. Druga składowa wiąże się ze strukturą uprawianych roślin
+w zmianowaniu i kierunkiem zagospodarowania plonu.
+
+
+                                                                                    5
+    Średnio w Polsce udział zbóż w strukturze zasiewów wynosi 75%, a roślin niezbo-
+żowych – 25%, w tym rzepaku. Zboża akumulują średnio – 6, rzepak – 50, buraki – 3,
+a ziemniaki – 1,5 kg CaO na tonę plonu głównego wraz z odpowiadającą masą sło-
+my (liści). Roczny ubytek wapna wynosi zatem około 45 kg CaO na ha, z tego 2/3
+przypada na rzepak i okopowe. Ilość traconego składnika z gleby zależy zasadniczo
+od gospodarki słomą rzepakową. Potencjalna, średnioroczna wielkość strat waha się
+w zakresie 200-300 kg CaO na ha. Jest to wielkość, od której można dopiero rozpo-
+cząć dyskusję o stanie gospodarki wapnem w polskim rolnictwie. W skali rocznej
+zapotrzebowanie na wapno nawozowe do zrównoważenia strat mieści się w zakresie
+3,6-5,4 mln t CaO.
+    Konieczność wyżywienia wzrastającej liczby ludności wpłynęła na podniesienie
+wydajności gleb. Dlatego najważniejszym elementem stało się nawożenie, zwłaszcza
+azotem. Mimo wszystko jest ono konieczne we współczesnym, nowoczesnym rolnic-
+twie. Jednak ze względu na towarzyszące azotowi przemiany w glebie, nawozy azoto-
+we stanowią jedno ze źródeł zakwaszenia gleby. Dlatego podstawową częścią systemu
+nawożenia, jak i ochrony gleb przed degradacją jest doprowadzenie jej do optymal-
+nego pH poprzez wapnowanie. Zabieg ten polega na nawożeniu gleby zasadowymi
+związkami wapnia, w celu zobojętnienia nadmiernej kwasowości. Zabieg ten wpły-
+wa w środowisku glebowym również na inne korzystne zmiany chemiczne, fizyczne
+i biologiczne poprzez wpływ na wzrost plonów roślin, a także na samo środowisko
+glebowe. W Polsce zabieg ten odgrywa niezwykle istotną rolę, ze względu na dużą
+powierzchnię gleb bardzo kwaśnych i kwaśnych. Jednak, jak wynika z danych GUS
+z 2020 r., zużycie wapna nawozowego w Polsce jest bardzo niskie i w okresie 2018/1019
+wyniosło około 60 kg CaO na ha. Alarmujące jest także to, że sytuacja ta utrzymuje
+się od 2004 r. Przeciętnie szacuje się, że rocznie z powierzchni 1 ha warstwy ornej
+ubywa około 150-300 kg CaO i 50 kg MgO. Jak można zauważyć, aktualne zużycie
+nawozów wapniowych jest ponad 5-krotnie niższe od zalecanego zapotrzebowania
+na nie w skali roku. Pośrednim celem regulacji odczynu gleby jest sterowanie proce-
+sami chemicznymi i mikrobiologicznymi w taki sposób, aby zwiększyć rozpuszczal-
+ność, a tym samym przyswajalność i dostępność składników mineralnych. Odczyn
+gleby, zmniejszając się poniżej wartości optymalnej dla danego pierwiastka prowa-
+dzi do szybkiego spadku jego efektywności plonotwórczej. Z trzech podstawowych
+składników mineralnych wprowadzanych do gleby z nawozami (N, P, K), najsilniej
+na zakwaszenie gleby reaguje fosfor. Poprawa właściwości fizykochemicznych gleb
+poprzez zastosowanie wapnowania pozwala ograniczyć straty składników nawo-
+zowych (NPK) zużywanych w produkcji roślinnej o ok. 10%, tj. średnio dla Polski
+o 20 kg NPK na ha UR. Stosowanie regularnego i zgodnego z zaleceniami nawozo-
+wymi wapnowania gleb i Kodeksem Dobrej Praktyki Rolniczej gwarantuje wysoką
+opłacalność wprowadzania tego zabiegu, a także ograniczenie rozprzestrzeniania się
+niewykorzystanych biogenów na środowisko. Żeby wapnowanie było skuteczne i za-
+razem bezpieczne dla gleby oraz roślin dawkę wapna należy ustalić na podstawie
+wyników badań próbki glebowej (w najbliższym OSChR) z danego pola.
+
+
+6
+           PRZYCZYNY ZAKWASZENIA GLEB W POLSCE
+
+Polska jest krajem o dużym udziale gleb bardzo kwaśnych i kwaśnych, co wynika
+z charakteru procesów glebotwórczych, które ukształtowały pokrywę glebową. Ponad
+90% obszaru kraju zajmują gleby polodowcowe, lekkie i bardzo lekkie, wytworzone
+z kwaśnych skał osadowych, przyniesionych przez lodowce z terenu Skandynawii,
+z których następowało wymywanie wapnia, magnezu i innych kationów o charakte-
+rze zasadowym.
+    Gleby wytworzone ze skał osadowych okruchowych, zaliczane do kategorii agro-
+nomicznej gleb: bardzo lekkie i lekkie są na ogół naturalnie zakwaszone. Wietrze-
+nie skał macierzystych gleb oraz przemieszczanie się w głąb profilu glebowego pro-
+duktów przemian pierwotnych minerałów ilastych oraz związków próchnicznych
+w warunkach klimatu humidowego wpłynęło na wytworzenie się poziomów gene-
+tycznych o wyraźnie zróżnicowanych właściwościach fizykochemicznych i chemicz-
+nych.
+    Najliczniejszą grupę wśród gleb bardzo lekkich i lekkich stanowią gleby zakwali-
+fikowane według Systematyki gleb Polski, wydanie 6 (2019) do rzędu: gleby bielico-
+ziemne i gleby brunatnoziemne oraz typów gleb: gleby bielicowe, gleby rdzawe, gle-
+by brunatne i podtypu gleby brunatne kwaśne oraz rzędu gleby płowoziemne, typu
+gleby płowe i m.in. podtypów: gleby płowe dwudzielne i gleby płowe zbielicowane.
+Gleby zaliczane do rodzaju gleb bielicoziemnych powstały głównie z utworów piasz-
+czystych wykazujących skład granulometryczny piasków luźnych i piasków słabo gli-
+niastych, w wyniku wymywania związków organicznych i składników mineralnych
+z poziomów powierzchniowych do głębszego poziomu wmycia.
+    Ze względu na rodzaj skały macierzystej są to gleby kwaśne, charakteryzujące się
+słabymi właściwościami buforowymi oraz niskim stopniem wysycenia kompleksu
+sorpcyjnego zasadami. Nawet mimo poprawy ich właściwości chemicznych, przez
+rolników są zaliczane do gleb słabych i bardzo słabych, dlatego są przeznaczane pod
+zalesienia. Dużą powierzchnię w kraju zajmują gleby zaliczane do rodzaju gleby bru-
+natnoziemne i typu gleby brunatne, i podtypu gleby brunatne kwaśne oraz typu gle-
+by rdzawe. Gleby te cechuje nagromadzenie składników wietrzenia w powierzchnio-
+wym i podpowierzchniowym poziomie zróżnicowania. Potencjalna produkcyjność
+tych gleb oceniana w umownej skali klas bonitacyjnych pozwala niektóre grunty, na
+których występują gleby brunatne kwaśne zaliczyć do gruntów średniej jakości gor-
+szych i słabych. W przypadku gleb rdzawych, grunty na których występują te gleby,
+to grunty słabe i bardzo słabe.
+    Dla ponad 13% powierzchni użytków rolnych w Polsce skałami macierzystymi
+gleb, które występują na tych użytkach są żwiry oraz piaski luźne i piaski słabo glinia-
+ste, których uziarnienie nie zmienia się do głębokości 100 cm. Jeżeli do gleb lekkich
+i bardzo lekkich zaliczymy inne typy gleb wytworzonych z piasków gliniastych na
+piasku luźnym lub słabo gliniastym, tj. część mad, płytkie i szkieletowe rędziny oraz
+                                                                                      7
+gleby terenów górskich, to wyniki takiej analizy wskazują że ponad 40% gleb Polski
+to gleby o średniej, niskiej i bardzo niskiej jakości oraz przydatności rolniczej.
+    O żyzności i urodzajności gleb, a także ich zdolnościach do magazynowania wody
+decyduje skład granulometryczny i jego zróżnicowanie w profilu glebowym. Gleby
+wytworzone z piasków posiadają małe zdolności buforowe, ze względu na niską za-
+wartość koloidów mineralnych i organicznych (kwasy humusowe), co powoduje, że
+dodatkowy ładunek H+ pochodzenia antropogenicznego (zanieczyszczenia gazowe,
+nawozy mineralne, głównie azotowe) prowadzi do nasilenia wtórnych procesów za-
+kwaszenia gleb.
+    Wysokie stężenie protonów wodoru powodujące wzrost kwasowości, przyspie-
+sza hydrolizę glinokrzemianów i wymywanie niektórych produktów ich rozkładu np.
+wolnych jonów w głąb profilu glebowego. W przypadku bardzo silnego zakwaszenia
+gleb (pHKCl<4,5) w roztworze glebowym zwiększa się zawartość żelaza i glinu ru-
+chomego, które w warunkach wysokiej kwasowości są toksyczne dla korzeni roślin.
+Ponadto w glebach o niskim pH następuje zahamowanie procesów mikrobiologicz-
+nych, w tym intensywności przemian azotu mineralnego prowadzonych przez bak-
+terie nitryfikacyjne oraz przyswajalności niektórych pierwiastków np. manganu dla
+roślin bobowatych.
+    Zakwaszanie się gleb jest spowodowane wieloma czynnikami, w tym praktykami
+rolniczymi. Na przykład wymywanie kationów zasadowych, tj.: Ca2+, Mg2+, K+, Na+
+z gleb użytkowanych rolniczo wzrasta w warunkach zwiększonej koncentracji azota-
+nów (NO3-) oraz chlorków (Cl-), obecnych w glebach w wyniku stosowania nawozów
+mineralnych.
+    Zakwaszenie gleb w rolnictwie, nie tylko wpływa na ograniczenie produkcji ro-
+ślinnej, ale także zagraża środowisku ze względu na pojawienie się w glebie substancji
+toksycznych, wynikających ze zwiększenia stężenia H+ oraz uruchamiania lub bloko-
+wania składników pokarmowych roślin. Poznanie tych procesów, a zwłaszcza rozpo-
+znanie czynników wywołujących nasilenie pojawienia się wtórnych skutków zakwa-
+szenia gleb, które wpływają na ograniczenie produkcji roślinnej, stanowi podstawę
+do zastosowania odpowiednich technologii uprawy i użyźniania gleb, a zwłaszcza
+wapnowania i optymalizacji nawożenia. Znaczną rolę w zakwaszaniu gleb mają także
+kwasy organiczne i nieorganiczne powstające w czasie rozkładu substancji organicznej.
+    Rozpuszczalność CO2 w wodzie i wytwarzanie kwasu węglowego zależy od
+temperatury. W temperaturach niższych (0-4˚C) rozpuszczalność CO2 jest dwu-
+krotnie wyższa niż w temperaturze ok. 20˚C. Ditlenek węgla rozpuszczony
+w wodzie tworzy kwas węglowy (H2CO3), który w reakcji z węglanem wapnia (CaCO3)
+przechodzi w wodorowęglan wapnia [Ca(HCO3)2], który jest łatwo rozpuszczalny
+w wodzie oraz wymywany z gleby. Temperatura decyduje również o aktywności drob-
+noustrojów glebowych, dlatego wpływa na ilość wytwarzanego w procesie oddychania
+CO2. W wyższej temperaturze powstaje więcej CO2 w glebie, który wydzielany jest pra-
+wie w całości do atmosfery. Natomiast wapń pozostaje w postaci trudno rozpuszczal-
+nego węglanu wapnia CaCO3. Z dużą aktywnością gleby wiąże się zazwyczaj zwięk-
+szenie stężenia w roztworze glebowym H+ (wyższe wartości kwasowości czynnej). Jon
+8
+H+ dostaje się do roztworu glebowego w wyniku oddysocjowania z grup fenolowych
+i karboksylowych kwasów organicznych (R-COO- + H+), które są głównymi skład-
+nikami wydzielin korzeniowych i śluzów bakteryjnych, a także produktów pośred-
+nich rozkładu substancji organicznej. Należy do tego także dodać kwaśne związki
+powstające podczas procesu humifikacji i mineralizacji. Kwasowość glebowej sub-
+stancji organicznej (kwasowość organiczna) związana jest głównie z obecnością grup
+karboksylowych w kwasach humusowych oraz w niskocząsteczkowych kwasach or-
+ganicznych oddysocjowujących H+ przy pH<7. Całkowita kwasowość kwasów ful-
+wowych wynosi 6-0 mmol (H+) na g i jest znacznie wyższa niż kwasów huminowych
+4-6 mmol (H+) na g.
+    Do zakwaszenia gleb prowadzi również utlenianie przez mikroorganizmy azo-
+tu amonowego uwolnionego z substancji organicznej lub wniesionego z nawozami
+zawierającymi kation amonowy. Na zwiększenie stężenia jonów H+ w glebie wpły-
+wa także utlenianie siarki (emitowanej przez przemysł i środki komunikacji, opady
+atmosferyczne). Za proces ten odpowiedzialne są bakterie beztlenowe Thiobacillus
+thioxidans rozwijające się w zakresie pH 2-5.
+    Wiele reakcji chemicznych zachodzących w środowisku kwaśnym, związanych
+z przemianami glinu, manganu i żelaza prowadzi do zwiększenia stężenia H+
+w glebie. Takim przykładem jest hydroliza soli glebowych powstających w wyniku
+wietrzenia chemicznego minerałów krzemianowych i glinokrzemianowych lub na-
+wożenia mineralnego solami chlorkowymi czy siarczanowymi. W glebach kwaśnych
+o pH poniżej 4,2 dominującą formą glinu jest Al(H2O)63+ czyli Al3+, który w wyższych
+stężeniach może być źródłem H+ i działać toksycznie na żywe organizmy.
+    Przyrodnicze przyczyny zakwaszenia gleb są procesem stałym, ale zagrożenie dla
+agroekosystemów stanowią, gdy zostaną wsparte czynnikami antropogenicznymi.
+Zakwaszenie gleb powoduje szereg ujemnych skutków polegających przede wszyst-
+kim na zmniejszeniu produktywności i żyzności, a także ograniczeniu dostępności
+mineralnych składników pokarmowych dla roślin oraz obniżeniu zdolności buforo-
+wych i odporności gleby na procesy prowadzące do ich degradacji.
+
+
+
+
+                                                                                  9
+                     STAN ZAKWASZENIA GLEB W POLSCE
+
+Od wielu lat udział gleb bardzo kwaśnych i kwaśnych w Polsce przekracza średnio
+40% powierzchni użytków rolnych. Istnieją jednak i takie obszary, gdzie gleby naj-
+silniej zakwaszone stanowią ponad 60% powierzchni. W tych rejonach częstotliwość
+narażenia na większe ilości aktywnych form metali jest większa niż na glebach o od-
+czynie optymalnym.
+
+
+
+
+Procentowy udział
+gleb b. kwaśnych i kwaśnych
+
+     31,5-10
+     40,1-50
+     50,1-60
+     60,1-70
+     70,1-75,8
+
+
+
+Rys. 1. Przestrzenne zróżnicowanie próbek gleb w klasach odczynu bardzo kwaśnego i kwaśnego
+
+Źródło: Smreczak i Łysiak [2017] w Ochal [2017]
+
+
+
+   Za krytyczną, z uwagi na procesy wzrostu roślin, można przyjąć pH na poziomie
+5,5, przy którym w glebie zaczynają pojawiać się toksyczne formy glinu. Skutki ich
+obecności potęgują się, jeżeli odczyn gleby spadnie poniżej pH 4,5. Z rysunku 1 wy-
+nika, że udział gleb bardzo kwaśnych i kwaśnych jest znaczny, gdyż w najlepszym pod
+tym względem regionie, czyli woj. opolskim i kujawsko-pomorskim sięga odpowied-
+10
+nio 34,5 i 36,1%. Znaczny problem pojawia się wówczas, gdy udział tej kategorii gleb
+zbliża się do 50%, tak jak w województwach: wielkopolskim (44,1%) i zachodnio-po-
+morskim (47,9%). Duży natomiast pojawia się w województwach, gdzie występuje
+50-60% gleb kwaśnych i bardzo kwaśnych: świętokrzyskim (51%), śląskim (52,1%),
+dolnośląskim (52,5%), pomorskim (56,9%), lubelskim (57,7%), lubuskim (59,1%)
+i warmińsko-mazurskim (60,1%). Bardzo zła sytuacja występuje w województwach:
+podlaskim (64,7%), mazowieckim (65,6%), łódzkim (72,9%), małopolskim (74,2%)
+i podkarpackim (75,8%), co oznacza, że jedynie od 40-24% gleb jest średnich lub
+dobrych pod tym względem.
+     Duży odsetek gleb bardzo kwaśnych jest jednoznacznym wskaźnikiem degradacji
+zarówno funkcji produkcyjnych, jak i ogólnośrodowiskowych, a tym samym gospo-
+darczych. Produkcja rolna na tych glebach zostaje w sposób naturalny ograniczona
+tylko do roślin bardzo tolerancyjnych, lecz jednocześnie bardzo nisko plonujących,
+tj.: żyto, ziemniak czy łubiny. Podstawową przyczyną niskich plonów jest drastycz-
+na redukcja wielkości systemu korzeniowego. Zjawisko to prowadzi do nieefektyw-
+nego pobierania składników pokarmowych, w tym azotu, który z powodu spłyce-
+nia pionowego zasięgu systemu korzeniowego jest narażony na zamieranie. Tym
+samym gleby takie stanowią olbrzymie zagrożenie dla ekosystemów naturalnych,
+a także atmosfery. Dlatego wapnowanie jest niezwykle ważnym zabiegiem działają-
+cym na jakość i funkcje gleb oraz środowisko przyrodnicze. W warunkach naszego
+kraju, w świetle przedstawionych informacji, włączenie tego zabiegu do podstawowej
+praktyki rolniczej jest konieczne, ponieważ oszacowane sumaryczne zapotrzebowa-
+nie krajowego rolnictwa na wapno wynosi około 31 mln ton CaO na rok, tj. około
+62 mln ton w masie nawozów. Optymizmem napawa fakt, że na lata 2019-2023 został
+ustanowiony program rekompensujący zakup wapna do poprawy jakości gleb bardzo
+kwaśnych i kwaśnych.
+
+
+      Zakwaszenie gleb wiąże się bardzo ściśle z:
+   hh wymywaniem składników pokarmowych, przede wszystkim związków za-
+      sadowych do głębszych warstw gleby;
+   hh występowaniem niektórych składników pokarmowych w formie trudno
+      przyswajalnej dla roślin np. fosfor, magnez;
+   hh ograniczeniem i zmniejszeniem aktywności drobnoustrojów biorących
+      udział w procesach rozkładu substancji organicznej w glebie;
+   hh zmniejszeniem zawartości próchnicy w glebie;
+   hh osłabieniem intensywności przebiegu procesu pobierania (asymilacji) azo-
+      tu z powietrza zarówno przez mikroorganizmy wolno żyjące w glebie (Azo-
+      tobacter), jak też współżyjące z większością roślin bobowatych (rozwijają
+      się normalnie tylko w odczynie zbliżonym do obojętnego, a w warunkach
+      kwaśnych rozmnażają się wolno, są słabe i przyswajają mało azotu).
+
+
+
+                                                                                  11
+KWASOWOŚĆ GLEBY
+
+FORMY KWASOWOŚCI
+
+Kwasowość uwarunkowana jest występowaniem w glebie jonów wodorowych
+(H+). Nieznaczna tylko część wolnych jonów wodorowych występuje bezpośrednio
+w roztworze glebowym. Większość wiązana jest przez fazę stałą tzw. kompleks sorp-
+cyjny gleby. Część mineralna składa się z rozdrobnionych minerałów glinokrzemia-
+nowych oraz różnych części nieorganicznych. Natomiast część organiczna (procento-
+wo mniejsza, ale bardzo aktywna) jest mieszaniną różnych substancji posiadających
+charakter koloidów. Na zdolność sorpcyjną składa się wiele procesów fizykochemicz-
+nych, wśród których najważniejszy określa się mianem sorpcji wymiennej. Polega
+on na wymianie jonów występujących w roztworze glebowym na jony znajdujące
+się w kompleksie sorpcyjnym gleby. W związku z tym gleby, w których przeważają
+cząsteczki naładowane ujemnie (na zasadzie przyciągania ładunków elektrycznych)
+sorbują dużą ilość jonów dodatnich, a w tym wodorowych. W zależności od tego,
+z jakimi jonami wodoru mamy do czynienia, czy z roztworu glebowego, czy też
+z sorbowanymi przez kompleks glebowy, wyróżniamy dwie formy kwasowości gleby:
+hh kwasowość czynną;
+hh kwasowość potencjalną.
+
+
+KWASOWOŚĆ CZYNNA
+
+Są to wolne jony wodoru występujące bezpośrednio w roztworze glebowym. Ich
+stężenie w roztworze jest ściśle związana z całkowitą kwasowością gleby, a także
+z bieżącymi procesami zachodzącymi w niej.
+
+
+        Na wartość kwasowości czynnej składa się wiele czynników:
+     hh wartość kwasowości potencjalnej;
+     hh obecność CO2 i kwasu węglowego;
+     hh kwasy organiczne (powstające w procesie rozkładu resztek roślinnych);
+     hh wprowadzanie do gleby nawozów fizjologicznie kwaśnych.
+
+
+   Kwasowość czynna zmienia się znacznie w cyklu rocznym, wraz z porami roku.
+Zwykle bywa największa latem, gdyż wówczas działalność mikroorganizmów jest
+najaktywniejsza, a rośliny rozwijają się najintensywniej. Poza tym latem, w wyższej
+temperaturze intensywniej zachodzą reakcje chemiczne. Natomiast wiosną i jesienią
+kwasowość czynna jest mniejsza, zaś zimą, kiedy gleba zamarza, osiąga minimum.
+
+
+12
+  Kwasowość czynna gleby jest ważnym wskaźnikiem, zwykle wystarczają-
+  cym żeby określić orientacyjnie klasę kwasowości gleby. Może ona również
+  w jakimś stopniu odpowiedzieć na pytanie:
+
+                    CZY NALEŻY GLEBĘ WAPNOWAĆ?
+
+  Ale jest to tylko wskaźnik orientacyjny, chociażby z powodu swojej zmienno-
+  ści w ciągu roku. Wielkość kwasowości czynnej, przede wszystkim nie odpo-
+  wiada na pytanie:
+
+    ILE TRZEBA WAPNA NA ZOBOJĘTNIENIE KWASOWOŚCI GLEBY?
+  W miarę zobojętniania roztworu glebowego stopniowo i stale będą prze-
+  chodzić do niego jony wodorowe z kompleksu sorpcyjnego gleby. Dlatego
+  też bardzo ważne jest oznaczenie tej części jonów wodoru, które ukryte są
+  w kompleksie sorpcyjnym i decydują o kwasowości gleb. Ta część jonów wo-
+  doru składa się na potencjalną kwasowość gleby.
+
+
+
+KWASOWOŚĆ POTENCJALNA
+
+Wielkość kwasowości potencjalnej jest dla każdej gleby wartością w znacznym
+stopniu stałą, mało zależną od bieżących procesów biologicznych zachodzących
+w glebie.
+   Rozróżniamy dwie formy kwasowości potencjalnej:
+hh kwasowość wymienną;
+hh kwasowość hydrolityczną.
+
+
+KWASOWOŚĆ WYMIENNA
+
+Kwasowość wymienna ujawnia się podczas traktowania gleb kwaśnych roztwora-
+mi soli obojętnych, np. chlorkiem potasu. W ten sposób do roztworu glebowego
+przechodzi pewna ilość jonów wodoru. Jony wyparte i aktualnie będące w roztwo-
+rze składają się na kwasowość wymienną. W praktyce kwasowość wymienna może
+ujawniać się podczas nawożenia kwaśnych gleb obojętnymi nawozami mineralnymi,
+np. chlorkiem potasu. Wówczas do kompleksu sorpcyjnego przechodzi pewna ilość
+jonów potasu, a wypierane jony wodoru z powstającymi w roztworze jonami chloru
+tworzą kwas solny i zakwaszają środowisko wokół korzeni.
+
+
+
+
+                                                                                13
+     Kwasowość wymienna jest dla roślin szczególnie szkodliwa, gdyż jest zwy-
+     kle powiązana z występowaniem wolnych jonów glinu działających tok-
+     sycznie. Dlatego też zneutralizowanie kwasowości wymiennej jest najistot-
+     niejszym celem wapnowania, a jej wartość może służyć w dużym stopniu
+     jako wskaźnik potrzeby wapnowania.
+
+
+
+Uwaga:
+Aktywny chemicznie (ruchomy) glin jest szczególnie szkodliwy dla: jęczmienia,
+pszenicy, buraków, gorczycy i koniczyny.
+Oprócz niego toksyczne działanie, na glebach kwaśnych, na rośliny wykazuje nad-
+miar rozpuszczalnego manganu – koniczyna, lucerna.
+
+   Należy zaznaczyć, że kwasowość wymienna gleb ciężkich przy tym samym pH
+w KCl będzie wyższa niż gleb lekkich. Dlatego też między innymi gleby ciężkie przy
+tym samym pH w większym stopniu wymagają wapnowania.
+   Zatem można jednoznacznie powiedzieć, że wartość kwasowości wymiennej
+może służyć za podstawę do określenia potrzeb wapnowania.
+   Po uwzględnieniu kategorii agronomicznej gleby stosunkowo łatwo wyznaczyć
+wielkość dawki niezbędnej do zneutralizowania kwasowości.
+
+
+KWASOWOŚĆ HYDROLITYCZNA
+
+Ten rodzaj kwasowości ujawnia się podczas traktowania gleby solami słabych kwa-
+sów i mocnych zasad (sole hydrolizujące zasadowo).
+
+
+          Oznaczanie tej kwasowości pozwala na stosunkowo precyzyjne
+                wyznaczenie odkwaszającej glebę dawki wapna.
+
+
+
+   Niemniej jednak w praktyce zastosowanie danych naliczonych w oparciu
+o kwasowość hydrolityczną nie powoduje pełnego odkwaszenia gleby. Obecnie rzad-
+ko wykorzystuje się oznaczenie kwasowości hydrolitycznej do naliczania dawek wap-
+na. Dominuje pogląd, że jednorazowe odkwaszenie gleby nie jest korzystne, gdyż
+powoduje zbyt radykalne zmiany w glebie i jest zabiegiem drogim.
+   Wiadomo, że zakwaszenie gleb uniemożliwia otrzymanie wysokich plonów więk-
+szości gatunków roślin uprawnych, nawet przy stosowaniu prawidłowej uprawy i na-
+wożenia. W celu poprawienia żyzności gleb kwaśnych konieczne jest ich wapnowa-
+14
+nie. Nawozy wapniowe mają zupełnie inną rolę do spełnienia niż azotowe, fosforowe
+czy potasowe.
+
+
+
+   Są one tylko w niewielkim stopniu źródłem składnika pokarmowego (wap-
+   nia) dla roślin, a ich stosowanie ma na celu:
+   hh zmniejszenie szkodliwego działania kwasowości gleby, a tym samym, tok-
+      sycznego działania glinu i manganu;
+   hh poprawę dostępności dla roślin wielu składników pokarmowych;
+   hh stymulowanie rozwoju korzystnej mikroflory;
+   hh polepszenie właściwości fizycznych warstwy ornej gleby.
+
+
+
+
+Pole zachwaszone szczawiem polnym występującym w dużym nasileniu na glebach kwaśnych
+(fot. pixabay darmowe)
+
+                                                                                       15
+                POTRZEBY WAPNOWANIA GLEB W POLSCE
+
+W tabeli 1 przedstawiono potrzeby wapnowania gleb w Polsce według danych
+IUNG-PIB.
+                                                                 Tabela 1
+
+      Procentowy udział próbek w poszczególnych klasach potrzeb wapnowania
+
+                            Liczba          Potrzeby wapnowania % próbek w zbiorze danych
+     Województwo
+                            próbek     konieczne potrzebne wskazane ograniczone        zbędne
+Dolnośląskie                  3539        38,9       16,8       15,1        14,4        14,8
+Kujawsko-pomorskie            3497        13,4       13,1       12,6        14,2        46,7
+Lubelskie                     4385        36,5       16,0       12,7        11,5        23,2
+Lubuskie                      1826        26,8       20,6       14,6        13,4        24,6
+Łódzkie                       3539        36,7       23,0       16,0        10,7        13,6
+Małopolskie                   2879        69,0       8,5        6,6         5,1         10,8
+Mazowieckie                   6669        33,4       20,8       13,0        11,0        21,8
+Opolskie                      1607        20,0       14,7       22,7        19,4        23,1
+Podkarpackie                  3222        59,0       14,4       8,4         5,9         12,2
+Podlaskie                     3195        30,5       22,3       12,6        9,3         25,3
+Pomorskie                     2928        24,8       22,1       15,5        13,5        24,1
+Śląskie                       2300        37,3       16,1       13,7        13,0        20,0
+Świętokrzyskie                2307        28,7       14,1       12,1        10,4        34,9
+Warmińsko-mazurskie           3820        31,3       19,6       14,6        11,8        22,8
+Wielkopolskie                 5676        18,2       13,9       13,5        14,8        39,6
+Zachodniopomorskie            3267        20,4       15,7       14,4        15,5        34,0
+Polska                       54656        32,5       17,2       13,4       12,0        25,0
+
+Źródło: Smreczak i Łysiak [2017] w Ochal [2017]
+
+
+
+    Przebadano 54656 próbek gleby we wszystkich województwach z czego około
+32,5% wykazywały potrzeby wapnowania określone jako konieczne, 17,2% –potrzeb-
+ne, 13,4% – wskazane, 12% – ograniczone, a 25% – zbędne. Największe potrzeby wap-
+nowania określone jako konieczne i potrzebne występowały w województwach: ma-
+łopolskim (77,5%), podkarpackim (73,4%), łódzkim (59,7%), dolnośląskim (55,7%),
+mazowieckim (54,2%), śląskim (53,4%), podlaskim (52,8%), lubelskim (52,5%), war-
+16
+mińsko-mazurskim (50,9%). Najmniejsze potrzeby wapnowania występowały w wo-
+jewództwach: kujawsko-pomorskim (26,5%) i opolskim (34,7). Z badań IUNG-PIB
+wynika, że w Polsce około 49,7% próbek gleb wymaga wapnowania koniecznego
+i potrzebnego. W porównaniu z wynikami badań z lat 2012-2015 opracowanymi
+przez KSChR aktualne potrzeby są wyższe o 15,7%.
+
+
+ZUŻYCIE NAWOZÓW WAPNIOWYCH
+
+Zużycie nawozów wapniowych w Polsce według GUS było zróżnicowane regio-
+nalnie, co wiązało się przede wszystkim z intensywnością produkcji rolniczej.
+Stosowane dawki wapna na użytkach rolnych w 2019 r. wynosiły średnio niecałe
+60 kg CaO na ha na rok i dalece odbiegały od faktycznych potrzeb. W wielu przy-
+padkach nie pokrywały nawet naturalnego wymycia wapnia z gleby, nie mówiąc już
+o poprawie ogólnego stanu odczynu.
+                                                                       Tabela 2
+
+  Zużycie nawozów w przeliczeniu na czysty składnik w kg na ha użytków rolnych
+                                   w 2019 r.
+
+         Województwo           Nawozy wapniowe             Nawozy azotowe
+ Dolnośląskie                         78,4                      67,7
+ Kujawsko – pomorskie                 49,7                      83,3
+ Lubelskie                            72,4                      92,6
+ Lubuskie                             24,7                      69,8
+ Łódzkie                              50,6                      55,4
+ Małopolskie                          26,9                      66,7
+ Mazowieckie                         118,7                      40,9
+ Opolskie                            124,9                      56,8
+ Podkarpacki                          15,1                      102,1
+ Podlaskie                            10,4                      37,4
+ Pomorskie                            31,9                      53,1
+ Śląskie                              38,1                      86,8
+ Świętokrzyskie                       15,0                      65,1
+ Warmińko – mazurskie                 50,5                      47,7
+ Wielkopolskie                        35,5                      57,3
+ Zochodniopomorskie                   58,5                      76,2
+ Polska                               56,4                      74,5
+
+Źródło: GUS [2020]
+
+
+
+
+                                                                             17
+    Dlatego też w celu zapewnienia właściwej jakości płodów rolnych, które podlegają
+kontroli pod kątem zawartości metali ciężkich, musi towarzyszyć stosowanie odpo-
+wiednio wysokich dawek wapna dobrej jakości.
+    Największe zużycie wapna było w województwach [w kg CaO na ha]: opolskim
+(124,9), mazowieckim (118,7), dolnośląskim (78,4), lubelskim (72,4), a mniejsze
+(10,4) w województwie podlaskim, świętokrzyskim (15,0), podkarpackim (15,1),
+gdzie 52,8% gleb wymaga wapnowania pilnego oraz najmniejsze w lubuskim (24,7).
+Przy tak drastycznie niskim poziomie zużycia nawozów wapniowych możliwe jest,
+że w przyszłości udział gleb kwaśnych i bardzo kwaśnych będzie się systematycznie
+zwiększał. Nie pozostanie to z pewnością bez wpływu na ilość i jakość produkowanej
+żywności i pasz. Utrzymująca się tendencja spadkowa w zużyciu nawozów wapnio-
+wych może doprowadzić do dalszej degradacji gleb pod względem odczynu.
+    Z uzyskanych danych z GUS w 2019 r. wynika, że zużycie nawozów wapniowych
+w porównaniu z 2010 r. wzrosło ponad dwukrotnie i wyniosło 1 mln 340 tys. ton
+(591 tys. ton w 2010 r.). Przyczyny tego stanu należy upatrywać we wprowadzonym
+w 2019 r. programie wapnowania gleb i związanym z nim dofinansowaniem w ra-
+mach pomocy de minimis. Jednak, biorąc pod uwagę wysoki stan zakwaszenia gleb
+w Polsce, powstały wzrost stosowania nawozów wapniowych jest ciągle niewystar-
+czający.
+    Porównując zużycie nawozów mineralnych i wapniowych podanych przez GUS
+okazuje się, że poziom krajowego nawożenia mineralnego przewyższał poziom zuży-
+cia nawozów wapniowych ponad 1,3-krotnie. Jednak w niektórych województwach
+był kilkakrotnie wyższy. Najgorzej sytuacja ta przedstawiała się w województwach
+podkarpackim (6,8), świętokrzyskim (4,3), tylko nieco lepiej w lubuskim (2,8), mało-
+polskim (2,5) oraz podlaskim i śląskim (po 2,3). Biorąc pod uwagę stan zakwaszenia
+gleb w tych województwach, wysoki poziom nawożenia NPK dodatkowo wpływał na
+zakwaszenie tych gleb. Bardzo niskie zużycie nawozów wapniowych niekorzystnie
+wpływa na strukturę gleb, powodując ich zakwaszanie.
+
+
+ZAPOTRZEBOWANIE NA WAPNO NAWOZOWE W KRAJU
+
+Na podstawie danych GUS określono zapotrzebowanie na nawozy wapniowe na
+grunty orne, których powierzchnia wynosiła w 2017 r. 14,5 mln ha. Z tej powierzch-
+ni, na podstawie bazy danych odczynu gleb i procentowego udziału kategorii agro-
+nomicznych w poszczególnych województwach wydzielono powierzchnie gruntów
+ornych wymagających wapnowania (tab. 3) i ilość nawozów wapniowych, jaką na-
+leży zastosować, aby uregulować odczyn gleb w kraju (tab. 4). Oszacowane wartości
+w 2017 r. w ostatnich latach nie uległy istotnym zmianom, dlatego mogą nadal stano-
+wić podstawę do określenia zapotrzebowania na nawozy wapniowe.
+
+
+
+
+18
+                                                                            Tabela 3
+
+       Powierzchnia gleb gruntów ornych wymagająca wapnowania [w tys. ha]
+
+ Kategoria                            Odczyn pHKCl
+                                                                           Razem
+   gleby            <4,5    4,5-5,1     5,2- 5,6     5,7-6,1   6,2-6,6
+ B. lekkie          932,3    329,0         -            -         -        1261,3
+ Lekkie            2019,3   1292,2       874,4          -         -        4185,9
+ Średnie            873,1    727,9        580,7       597,8       -        2779,5
+ Ciężkie            285,8    242,9        210,4       212,2     216,3      1167,6
+ Razem             4110,5   2592,0       1665,5       810,0     216,3      9394,3
+
+Źródło: Ochal [2017]
+
+
+
+   Jak wynika z tabeli 3 aż 5447,3 tys. ha gleb bardzo lekkich i lekkich, 2779,5 tys.
+średnich i 1167,6 tys. wymaga wapnowania. Łącznie 9394, 0 tys. ha gleb potrzebuje
+wapnowania.
+
+
+                                                                            Tabela 4
+
+      Zapotrzebowanie na wapno nawozowe w tonach dla gleb gruntów ornych
+          w zależności od odczynu i kategorii agronomicznej gleby [tys. t]
+
+ Kategoria                            Odczyn pHKCl
+                                                                           Razem
+   gleby            <4,5    4,5-5,1     5,2- 5,6     5,7-6,1   6,2-6,6
+ B. lekkie         1864,6    246,7         -            -         -        2111,3
+ Lekkie           10096,6   4109,4       787,0          -         -       14993,0
+ Średnie           5238,7   3348,3      1393,7        478,2       -       10458,9
+ Ciężkie           1715,1   1287,1       378,7         29,7     21,6       3432,2
+ Razem            18915,0   8991,5      2559,4        507,9     21,6      30995,4
+
+Źródło: Ochal [2017]
+
+
+
+    Jak wynika z tabeli 4, oszacowane zapotrzebowanie na nawozy wapniowe wyno-
+siło ok. 30,9 mln ton w skali kraju. Zapotrzebowanie to było jednak zróżnicowane
+w zależności od województwa i wahało się w granicach od 0,6 mln ton w wojewódz-
+twie opolskim do 4,3 mln ton w województwie mazowieckim przy założeniu, że gleby
+należy doprowadzić do optymalnej wartości pHKCl dla danej kategorii agronomicznej
+gleby (rys 3).
+                                                                                    19
+mln t CaO
+
+
+
+
+Rys. 2. Zapotrzebowanie na wapno w województwach (mln ton) (wariat optymalny)
+
+Źródło: Ochal [2017]
+
+
+
+
+mln t CaO
+
+
+
+
+Rys. 3. Zapotrzebowanie na wapno nawozowe w województwach w mln ton (wariant minimalny)
+
+Źródło: Ochal [2017]
+
+
+
+   Za bezpieczną wartość, która ogranicza nadmierne rozpuszczanie się soli metali
+ciężkich w glebie, uznaje się wartość pHKCl 5,1. Dlatego oszacowano zapotrzebowanie
+
+20
+na wapno w skali kraju i województw przy założeniu, że gleby należy zwapnować
+do bezpiecznej granicy pH 5,1. W związku z tym kryterium trzeba zastosować po-
+nad 18,5 mln ton CaO dla kraju (tab. 5). Natomiast dla województw zapotrzebowa-
+nie na CaO waha się w granicach od 0,3 w województwie opolskim do 2,8 mln ton
+w mazowieckim (rys. 2).
+
+                                                                                      Tabela 5
+
+    Zapotrzebowanie na wapno w celu regulacji odczynu gleb do pH 5,1 [w tys. t]
+
+  Kategoria                            Odczyn pHKCl
+                                                                                    Razem
+    gleby                < 4,5     4,5-5,1      5,2- 5,6   5,7-6,1    6,2-6,6
+ B. lekkie              1864,6      246,7          -          -          -           2111,3
+ Lekkie                 8077,2     2054,7          -          -          -          10131,9
+ Średnie                2619,3     1674,1          -          -          -           4293,4
+ Ciężkie                1286,3      643,6          --         -          -           1929,9
+ Razem                 13847,4     4619,1           -         -          -          18466,5
+
+Źródło: Ochal [2017]
+
+
+
+
+    Zakwaszenie gleb powoduje szereg ujemnych skutków dla środowiska. Na gle-
+    bach kwaśnych spada efektywność wykorzystania azotu i fosforu, zwiększają
+    się natomiast gazowe straty azotu, mobilność glinu i innych metali w glebie.
+    Wskutek ograniczonego wykorzystania przez rośliny makroelementów i prze-
+    mieszczania metali ciężkich następuje pogorszenie jakości wód powierzchnio-
+    wych.
+
+
+
+
+Zbiornik wodny zanieczyszczony fosforanami z pól uprawnych (fot. pixabay darmowe)
+
+
+                                                                                              21
+     WPŁYW WAPNOWANIA NA ŚRODOWISKO GLEBOWE
+
+WPŁYW WAPNOWANIA NA KWASOWOŚĆ GLEBY
+
+Podstawowym zadaniem wapnowania jest obniżenie kwasowości gleby. W wyniku
+zastosowania odpowiednich dawek wapna możemy nadać glebie odpowiedni od-
+czyn dostosowany do wymagań różnych gatunków roślin. Oddziaływanie nawozów
+wapniowych zmienia się w czasie. Kwasowość gleby ulega wyraźnemu obniżeniu
+w pierwszym roku po zastosowaniu wapna. Przy nawożeniu małymi dawkami mi-
+nimum kwasowości osiąga się w drugim lub trzecim roku po zastosowaniu zabiegu.
+Natomiast dawki małe, do 0,5 t CaCO3 na ha, zastosowane jednorazowo nie wy-
+wołują większych zmian w glebie. Mogą przyczynić się do efektywnych zmian tylko
+wówczas, gdy są stosowane kilkakrotnie w niewielkich odstępach czasu, albo gdy są
+wymieszane nie z całą warstwą orną, ale tylko z częścią gleby, która dla rośliny jest
+najważniejsza. Działanie wapna nie ogranicza się tylko do warstwy ornej, ale stopnio-
+wo obejmuje także głębsze warstwy profilu.
+   Szybkość reakcji pomiędzy glebą a nawozami wapniowymi zależy od:
+hh stopnia wymieszania nawozu z glebą;
+hh wilgotności gleby (w wilgotnej glebie szybkość reakcji jest większa);
+hh rodzaju nawozów wapniowych;
+hh stopnia rozdrobnienia nawozów.
+
+
+WPŁYW WAPNOWANIA NA PRZYSWAJALNOŚĆ SKŁADNIKÓW
+
+Dla rozwoju roślin niezbędne są takie makroelementy jak: azot, fosfor, potas, wapń,
+magnez, siarka, żelazo i mikroelementy: bor, cynk, mangan, miedź, molibden.
+Wszystkie te składniki pobierane są przez korzenie z roztworu glebowego, w którym
+są rozpuszczone (dostępne dla roślin, przyswajalne). Rozpuszczalność składników
+pokarmowych w roztworze glebowym zależy w dużym stopniu od odczynu gleby.
+    W glebach kwaśnych następuje obniżenie wartości pH roztworu glebowego i wła-
+ściwości sorpcyjnych gleb. Dochodzi do zwiększenia wymywania składników pokar-
+mowych dla roślin oraz mikroorganizmów, głównie wapnia, magnezu i potasu, co
+prowadzi do niedoborów. W glebach kwaśnych zmniejsza się przyswajalność fosfo-
+ru, molibdenu i boru, a zwiększa dostępność glinu i manganu. Postępujący proces
+zakwaszania się gleb może prowadzić do utraty różnorodności biologicznej m.in.
+ze względu na zmianę sposobu użytkowania gruntów. Utrzymywanie się w glebach
+bardzo kwaśnego odczynu prowadzi do coraz szybszego pogłębiania degradacji gleb,
+minimalizacji produkcji rolniczej oraz niekorzystnego oddziaływania na środowisko.
+Należy pamiętać, że odczyn gleby jest jednym z podstawowych wskaźników pozwa-
+lających ocenić jakość gleby. Odczyn gleby, zmniejszając się poniżej wartości opty-
+22
+malnej dla danego pierwiastka, prowadzi do szybkiego spadku jego efektywności
+plonotwórczej. Z trzech podstawowych składników mineralnych (N, P, K), najsilniej
+na zakwaszenie gleby reaguje fosfor (rys. 5). Dlatego pośrednim celem regulacji od-
+czynu gleby jest sterowanie procesami geochemicznymi i mikrobiologicznymi w taki
+sposób, aby zwiększyć rozpuszczalność, a tym samym przyswajalność i dostępność
+składników mineralnych.
+
+
+ %
+                                                                                  N
+100
+                                                                                  P
+90
+                                                                                  K
+80
+
+70
+60
+
+50
+40
+
+30
+
+20
+
+10
+
+0
+       pH     4,5             5,0           5,5            6,0             7,0
+Rys 4. Względna efektywność plonotwórcza NPK w zależności od odczynu gleby
+
+Źródło: Grzebisz i in. [2013]
+
+
+
+WPŁYW WAPNOWANIA NA POBIERANIE AZOTU
+
+Wapnowanie wpływa na przyspieszenie rozkładu substancji organicznej oraz pro-
+cesu nitryfikacji, które najefektywniej przebiegają, gdy odczyn jest słabo kwaśny lub
+obojętny. Przyczyniając się do lepszej przewiewności gleb, wapnowanie przeciwdzia-
+ła bardzo niekorzystnym procesom denitryfikacji, które prowadzą do strat azotu. Po-
+nadto przyczynia się do lepszego pobierania przez rośliny azotu w formie amonowej.
+Regulacja odczynu gleby do słabo kwaśnego – obojętnego jest bardzo ważna jeśli
+chodzi o rozwój bakterii wiążących wolny azot z powietrza.
+    Azot podlega w glebie naturalnym przemianom, które mogą być znacząco mo-
+dyfikowane przez odczyn gleby. W procesie przemiany azotu jako związki przejścio-
+we powstają gazowe formy azotu NO, N2O, które prowadzą do strat składnika z pól
+uprawnych. W procesie nitryfikacji uwalniany jest głównie N2O, zaś w wieloetapo-
+wym procesie denitryfikacji, czyli redukcji azotanów do azotu cząsteczkowego N2
+
+                                                                                  23
+(denitryfikacja całkowita) uwalniane są duże ilości N2O oraz NO. W naturalnych wa-
+runkach gleby kwaśne zawierają na ogół małe ilości azotu azotanowego stanowiącego
+substrat denitryfikacji. Jeśli gleby uprawiane rolniczo są kwaśne, a mimo wszystko
+stosuje się na nich nawożenie azotem, to w procesie denitryfikacji do atmosfery są
+emitowane tlenki azotu. W glebach kwaśnych o pH poniżej 5,8-6,0 przeważa emisja
+N2O nad emisją N2. Podtlenek azotu jest jednym z głównych gazów cieplarnianych.
+Zarówno NO, jak i N2O działają niekorzystnie na środowisko, przyczyniając się do
+niszczenia warstwy ozonowej atmosfery. Ponadto, przedostawanie się do atmosfery
+NO z nawożonych pól prowadzi do powstawania kwaśnych deszczy. Pośrednio przy-
+czyniają się one do eutrofizacji wód, gdyż wraz z ich opadem wody powierzchniowe
+zostają dodatkowo wzbogacone w azot.
+   Rolnictwo w Polsce jest głównym źródłem emisji amoniaku do atmosfery. Emisja
+tego gazu w 2015 r. wyniosła ogółem ponad 265 tys. ton na rok. Udział rolnictwa
+stanowił aż 98%, z czego 31% związane było ze stosowaniem mineralnych nawozów
+azotowych. Dlatego wprowadzona dyrektywa 2016/2284 w zakresie kontroli emisji
+amoniaku nakłada na rolnictwo obowiązek ograniczenia emisji związanej ze stoso-
+waniem nawozów mineralnych.
+
+                                                                         Tabela 5
+
+      Współczynnik emisji amoniaku (EF) z mineralnych nawozów azotowych
+               zalecany do stosowania w inwentaryzacjach emisji
+
+                                              EF (% zużytego nawozu)
+                Nawozy
+                                        pH gleby <7            pH gleby >7
+ Saletra amonowa                            1,6                     3,3
+ Fosforan amonu                             5,2                     9,4
+ Siarczan amonu                             9,2                    17,0
+ Saletra wapniową                           0,8                     1,7
+ RSM                                       10,0                     9,7
+ Mocznik                                   15,9                    16,8
+ Nawozy wieloskładnikowe (NPK)              6,7                     9,4
+
+Źródło: EMEP/EEA [2016]
+
+
+
+   W konsekwencji wielorakiego oddziaływania wapnowania na właściwości gleby
+zwiększa się zarówno jej potencjał produkcyjny, a jednocześnie zmniejsza się ujem-
+ne oddziaływanie na środowisko. Wzrost odczynu gleby do wartości optymalnych
+dla gleb użytkowanych rolniczo, a więc o pH od 5,6 do 7,2 spowoduje zwiększenie
+sekwestracji CO2 oraz zmniejszenie strat azotu do ekosystemów przyległych do pól
+(woda, powietrze).
+
+
+24
+WPŁYW WAPNOWANIA NA POBIERANIE FOSFORU
+
+Fosfor w glebie występuje głównie w postaci fosforanów żelaza, glinu, wapnia
+magnezu oraz częściowo w związkach organicznych. Fosforan żelaza i glinu w od-
+czynie kwaśnym są prawie nierozpuszczalne. Zakres najsłabszej ich rozpuszczalności
+jest w granicach pH 3-4. Podwyższenie pH powoduje stopniowe uruchomienie przy-
+swajalnego fosforu, a tym samym zwiększenie jego wykorzystania z nawozów i z gle-
+by. W wyniku wapnowania u niektórych roślin zwiększa się pobieranie fosforu, np.
+u kukurydzy 2-3 krotnie, owsa o ok. 60%, koniczyny o ok. 10-20%.
+    Przeprowadzone w IUNG-PIB badania wykazały zależność między odczynem
+gleby, a zawartością w niej przyswajalnych form fosforu. Gleby bardzo kwaśne (po-
+nad 50% próbek), a gleby kwaśne (ponad 40%) wykazały bardzo niską i niską zawar-
+tość przyswajalnego fosforu. W glebach o odczynie obojętnym i zasadowym udział
+gleb o bardzo niskiej i niskiej zawartości fosforu nie przekraczał 13%. Próbki gleb
+o uregulowanym odczynie w ponad 50% przypadków cechowały się bardzo wy-
+soką zawartością fosforu. Na glebach kwaśnych o pH poniżej 5,5 fosfor łączył się
+z żelazem, glinem i manganem, tworząc związki nierozpuszczalne w wodzie i stawał
+się nieprzyswajalny dla roślin. Zwiększenie odczynu gleby ułatwia pobieranie fosfo-
+ru przez rośliny i dzięki temu ogranicza jego przenikanie do innych ekosystemów,
+a zwłaszcza do środowiska wodnego, wrażliwego na eutrofizację.
+
+                                                                               Tabela 6
+
+   Stan zasobności w fosfor gleb zaliczanych do różnych przedziałów odczynu [%]
+
+                  Udział próbek gleby zaliczonych do klas zawartości fosforu
+  Odczyn                                                                       Ogółem
+                  b. niska     niska       średnia      wysoka     b. wysoka
+ B. kwaśny          17,8        34,7         27,2         12,8          7,5     20,2
+ Kwaśny             11,7        31,3         29,8         15,7         11,5     29,4
+ L. kwaśny           4,6        19,2         27,0         21,2         28,0     28,0
+ Obojętny            2,3        10,1         19,0         19,9         48,6     14,7
+ Zasadowy            3,5         9,1         17,2         19,2         50,9      7,7
+ Ogółem              8,9       23,8          25,9        17,6          23,8    100,0
+
+Źródło: Ochal [2011]
+
+
+
+
+WPŁYW WAPNOWANIA NA POBIERANIE POTASU
+
+Wapnowanie, podobnie jak w przypadku azotu, nie modyfikuje zasadniczo pobie-
+rania potasu. Ważne jest jednak, że dobrze zwapnowane gleby rzadko wykazują
+niekorzystne skutki nadmiernego odżywiania roślin potasem. W warunkach gleb
+kwaśnych i słabo zaopatrywanych w wapń nawet niewielkie przekroczenie zapo-
+
+                                                                                       25
+trzebowania roślin na potas powoduje znaczący wzrost pobierania tego składnika.
+Nadmiar potasu jest szczególnie niekorzystny w odniesieniu do roślin pastewnych,
+a zwłaszcza do ich przydatności paszowej. Stosunek Ca:K w glebach bardzo lekkich
+i lekkich oraz kwaśnych glebach średnich jest bardzo wąski, to znaczy, że występuje
+tam niemal zawsze względny nadmiar potasu w stosunku do wapnia. Dopiero po
+zastosowaniu dużych dawek wapnia stosunek ten zbliża się do wartości uznanej za
+optymalną dla prawidłowego rozwoju roślin. Dlatego też nie należy nadmiernie na-
+wozić upraw potasem na glebach lekkich, a do tego o nieuregulowanym odczynie.
+Dopiero po uregulowaniu odczynu gleb, możliwe staje się intensywne nawożenie
+tym składnikiem.
+
+
+WPŁYW WAPNOWANIA NA POBIERANIE MAGNEZU
+
+Na glebach kwaśnych magnez najczęściej występuje w formie niedostępnej dla roślin.
+Na ogół, dzięki racjonalnemu stosowaniu nawozów wapniowych zawierających ma-
+gnez polepsza się jego pobieranie przez rośliny.
+    Nawożenie wapniem i magnezem trzeba rozpatrywać łącznie, gdyż gleby kwa-
+śne zwłaszcza lekkie, wykazują z reguły niską zawartość przyswajalnego dla roślin
+magnezu. Wapnowanie gleb kwaśnych wapnem zwykłym początkowo zwiększa do-
+stępność magnezu dla roślin, gdyż stosunek Ca:Mg zbliża się do optymalnej warto-
+ści, jednak duże dawki wapnia powodują niekorzystne poszerzenie tego stosunku
+i dlatego powinny być stosowane w postaci wapna magnezowego.
+
+
+WPŁYW WAPNOWANIA NA POBIERANIE MIKROELEMENTÓW
+
+Molibden spełnia bardzo ważne funkcje fizjologiczne w roślinach, a szczególnie
+w bobowatych. Zawartość przyswajalnego molibdenu w glebach kwaśnych jest zwy-
+kle mała. Tak więc wapnowanie poprzez zmianę odczynu wpływa na zwiększenie
+przyswajalności tego mikroelementu.
+    Należy zaznaczyć, że pod wpływem wapnowania większość mikroelementów
+niezbędnych roślinom ulega unieruchomieniu. Najlepiej przyswajalny na glebach
+kwaśnych jest mangan. Po zwapnowaniu zbyt wysokimi dawkami wapna następuje
+bardzo często unieruchomienie go, tak że rośliny zaczynają wykazywać objawy nie-
+doborowe. Unieruchomieniu przy dużych dawkach wapna ulegają także: bor, miedź
+i cynk. Niedobory tego rodzaju występują po wprowadzeniu jednorazowo dużych
+dawek wapna do gleby. Można je jednak usunąć poprzez zastosowanie tych mikro-
+elementów w stosunkowo małych dawkach.
+
+
+
+
+26
+pH
+
+9
+
+
+
+
+                   bakterie i promieniowce
+8
+
+
+
+
+                                                                                                                    molibden
+                                                    wapń i magnez
+7
+
+
+
+
+                                                                                     siarka
+         grzyby
+
+
+
+
+                                                                             potas
+                                                                    fosfor
+
+
+
+
+                                                                                                                               bor
+                                             azot
+
+
+
+
+                                                                                              cynk, miedź, kobalt
+6
+
+
+
+
+                                                                                              żelazo, mangan,
+5
+
+4
+
+
+Rys. 5. Wpływ pH na przyswajalność składników pokarmowych oraz życie biologiczne gleby
+
+Źródło: Buckman i Bradi [1971]
+
+
+
+
+WPŁYW WAPNOWANIA NA TOKSYCZNOŚĆ METALI CIĘŻKICH
+
+Zakwaszenie gleb wpływa na zwiększenie aktywności metali ciężkich w glebie, dla-
+tego mogą być łatwiej pobierane przez rośliny uprawne. Znaczne nagromadzenie
+metali ciężkich może działać toksycznie na rośliny, a nawet powodować obniżenie
+jakości plonów. Najczęściej objawy toksyczności powoduje glin. Najwcześniej na tok-
+syczność glinu reagują korzenie, co prowadzi do zahamowania wzrostu roślin. Glin
+wpływa na zastąpienie w korzeniach roślin kationów zasadowych, głównie wapnia
+(Ca2+) przez kationy glinu (Al3+). Zaburzenie wzrostu systemu korzeniowego w głąb
+profilu glebowego ogranicza możliwość pobierania przez roślinę wody i zawartych
+w niej ruchliwych składników mineralnych tj. azotanów, redukuje pobieranie skład-
+ników mało ruchliwych z gleby tj. fosforu i potasu, które wpływają na wykorzystanie
+przez roślinę pobranego azotu.
+   Konsekwencją niskiego odczynu gleb zanieczyszczonych metalami jest przedo-
+stawanie się zanieczyszczeń do wód gruntowych, nadmierne pobieranie przez rośliny
+czy ograniczenie aktywności mikrobiologicznej gleb wskutek toksycznego działania
+tych metali.
+   Uruchamianie jonów metali ciężkich dla roślin w glebach zależy od odczynu.
+Odczyn silnie kwaśny uruchamia jony m.in glinu i manganu, a ich wysokie stęże-
+nie wpływa niekorzystnie na system korzeniowy roślin, powodując m.in. zamieranie
+włośników. Ponadto metale ciężkie, oprócz toksycznych skutków dla roślin i drob-
+noustrojów glebowych są akumulowane w roślinach i pogarszają ich jakość. Na ob-
+szarach rolniczych szczególne znaczenie ma kadm, który jest wprowadzany do gleb
+razem z nawozami fosforowymi, np. superfosfatem.
+
+                                                                                                                                 27
+    Nadmierna koncentracja metali w produktach roślinnych zwiększa ryzyko zatru-
+cia u ludzi i zwierząt. Kwaśny odczyn gleb sprzyja również przedostawaniu się metali
+ciężkich do wód gruntowych. Problem silnego zanieczyszczenia gleb metalami cięż-
+kimi występuje głównie na obszarach przemysłowych.
+
+
+WPŁYW WAPNOWANIA NA MIKROORGANIZMY GLEBOWE
+
+Nie wszystkie mikroorganizmy glebowe są jednakowo wrażliwe na kwaśny odczyn
+gleby. Najlepiej znoszą go grzyby. Wśród mikroorganizmów występują różnice co do
+optymalnego pH. Jednak znaczna większość gatunków mikroflory najlepiej rozwija
+się w odczynie obojętnym (tab. 7).
+    Bakterie przyspieszające procesy rozkładu substancji organicznej rozwijają się le-
+piej na glebie zwapnowanej. Rozkład ten prowadzi do powstawania prostych związ-
+ków (stają się wówczas dostępne dla roślin), a w konsekwencji uzyskuje się wyższe
+plony. Dzięki wapnowaniu przebiega również intensywniej proces pobierania azotu
+z powietrza przez mikroorganizmy zarówno wolno żyjące, jak i symbiotyczne (bak-
+terie korzeniowe u roślin bobowatych).
+
+                                                                                      Tabela 7
+                     Optymalny odczyn dla rozwoju mikroflory w glebie
+
+          Zasadnicze                                                 Odczyn         Dolna
+            grupy                            Drobnoustroje             pH          granica
+        drobnoustrojów                                              optymalny   tolerancji pH
+                                        grzyby                       4,0-5,0       1,5-2,0
+                                        amonifikatory                6,2-7,0          -
+ Drobnoustroje rozkładające
+                                        denitryfikatory              7,0-8,0          -
+ substancję organiczną
+                                        nitryfikatory                6,5-7,2       4,8-5,0
+                                        uruchamiające P              6,5-7,5          -
+                                        Symbiotyczne:
+                                          lucerny                    6,8-7,2       4,9-5,0
+                                          koniczyny                  6,8-7,2       4,2-4,7
+                                          grochu                     6,5-7,0       4,0-4,5
+ Bakterie asymilujące                     wyki                       6,5-7,0       4,0-4,5
+ wolny azot                               łubinu                     5,5-6,5       3,2-3,5
+                                          seradeli                   5,5-6,5       3,2-3,5
+                                        Niesymbiotyczne:
+                                          Azotobacter                6,5-7,5       5,5-6,0
+                                          Clostridium pasterianum    5,0-7,0       4,7-5,0
+
+Źródło: na podstawie Kołzan B. [2005]
+
+
+
+
+28
+   Wapnowanie wpływa nie tylko na zwiększenie aktywności pożytecznych mikro-
+organizmów, ale także na:
+hh zmniejszenie w glebie różnych szkodliwych dla rozwoju roślin grzybów i pasoży-
+   tów;
+hh wzmocnienie roślin oraz ich ochronę przed różnymi chorobami;
+hh zmniejszenie zachwaszczenia (większość chwastów lepiej rozwija się na glebach
+   kwaśnych).
+
+
+WPŁYW WAPNOWANIA NA FIZYCZNE WŁAŚCIWOŚCI GLEBY
+
+Próchnica z wapniem tworzy związki mniej rozpuszczalne w wodzie, co przeciwdzia-
+ła ich wypłukiwaniu do głębszych warstw. Związki te cementują gruzełki i uodpar-
+niają je na działanie wody. Zjawisko to jest bardzo korzystne i pożądane szczególnie
+na glebach ciężkich. Gleba taka, gdy jest bardziej wilgotna, nie zlepia się, zaś wysu-
+szona nie twardnieje, nie tworzy na swojej powierzchni skorupy, w związku z czym
+jest łatwiejsza w uprawie. Wapnowanie jest więc zabiegiem podnoszącym żyzność
+gleb kwaśnych, umożliwiającym skuteczne stosowanie innych zabiegów agrotech-
+nicznych.
+
+
+WPŁYW WAPNOWANIA NA CHEMICZNE WŁAŚCIWOŚCI GLEBY
+
+Długotrwały efekt wapnowania świadczy o tym, że pod wpływem tego zabiegu za-
+chodzą określone i względnie trwałe zmiany właściwości gleby, które przyczyniają się
+do zwiększenia jej żyzności. Zmiany te dotyczą wskaźników kwasowości oraz właści-
+wości glebowego kompleksu sorpcyjnego.
+
+
+   Poprzez wapnowanie należy dążyć do całkowitego usunięcia kwasowości wy-
+   miennej i glinu wymiennego z gleby, jak również do znacznego ograniczenia
+   kwasowości hydrolitycznej.
+
+
+
+   Należy zaznaczyć, że glin wymienny zanika w glebie przy pH powyżej 5,0, nato-
+miast kwasowość wymienna w glebach lekko kwaśnych przy pH powyżej 6,0.
+   Do usunięcia glinu wystarczają niewielkie dawki wapnia (1,2-2,5 t CaO na ha).
+W ciągu kolejnych lat, po jednorazowym wapnowaniu, kwasowość gleby powoli po-
+wraca do stanu wyjściowego. Bardzo korzystne jest regularne wapnowanie małymi
+dawkami nawozów, co pozwala na utrzymanie właściwego odczynu gleby, jak rów-
+nież zawartości glinu w granicach nieszkodliwych dla roślin.
+
+                                                                                   29
+WPŁYW NAWOZÓW MINERALNYCH NA ZAKWASZENIE GLEBY
+
+Zmiany odczynu gleby uwarunkowane są fizjologicznymi właściwościami nawozów.
+Następują one na skutek wybiórczego pobierania przez rośliny jonów podlegających
+hydrolizie lub dysocjacji nawozów.
+   W związku z tym nawozy mineralne, ze względu na wpływ na odczyn gleby, moż-
+na podzielić w sposób następujący:
+hh zasadowe;
+hh kwaśne;
+hh obojętne.
+
+   Działanie zakwaszające nawozów mineralnych można zobojętnić poprzez rów-
+noczesne zastosowanie węglanu wapnia. Wapnowanie takie nie dopuszcza jedynie
+do obniżenia pH gleby po zastosowaniu fizjologicznie kwaśnych nawozów. Postę-
+powanie takie może jedynie przyczynić się do zwiększenia efektywności stosowania
+nawozów mineralnych, ale nie może zastąpić normalnego wapnowania.
+   Niektóre nawozy mineralne mogą nie tylko zakwaszać glebę poprzez wprowadze-
+nie do roztworu glebowego dodatkowej ilości jonów wodoru, ale także przez szybsze
+wypłukiwanie wapnia z warstwy ornej (rys. 7A).
+
+       pH
+
+
+           7
+
+           6
+
+           5
+
+           4
+
+           3
+
+           2
+
+           1
+
+           0
+                             gleba ciężka                           gleba lekka
+
+        stan wyjściowy             stan po długotrwałym działaniu
+
+
+Rys. 6. Wpływ długotrwałego stosowania siarczanu amonu na obniżenie pH gleby
+
+Źródło: Grzebisz W. [2013]
+
+
+
+
+30
+    Nawozy zasadowe także wpływają w pewnym stopniu na odczyn gleby. Nadają
+się one szczególnie do stosowania na glebach kwaśnych. Jednak nawozy te nie są
+w stanie istotnie zmienić odczynu gleby (rys. 7B).
+
+
+                                                               JONY POWSTAJĄCE W GLEBIE
+                                                               Z NAWOZU
+
+
+                                                               JONY POBIERANE Z NAWOZU
+                                                               PRZEZ KORZENIE
+
+
+
+
+                              A
+
+     siarczan amomu
+        (NH4)2SO4
+
+
+                       SO4-
+   NH4+
+             SO4-                                                       B
+                       H+
+      NH+4                                                                       saletra wapniowa
+                                                                                      Ca(NO3)
+               OH-
+                        H2SO4
+  H2O                                                                   Ca2+
+                                                                                              NO3-
+                                                                                     NO-3
+
+ JONY WYDZIELANE                                                            H+
+ PRZEZ KORZENIE DO GLEBY                                                                    Ca2+
+
+                                                                                  OH-
+                                                                    Ca(OH)2
+ PRODUKTY                                                                                     H2O
+ PRZEMIANY
+
+
+Rys. 7. Działanie nawozu fizjologicznie kwaśnego (A) i zasadowego (B)
+
+
+                                                                                                    31
+   Wśród nawozów naturalnych największe znaczenie ma obornik. W wyni­ku sta-
+łego stosowania tego nawozu, potrzeby wapnowania oraz dawki wapna mogą być
+niższe. Zastosowanie go nie wpływa na spadek pH, a nawet przy systematycznym
+stosowaniu nieznacznie je podnosi. Niemniej jednak pomimo stosowania obornika
+potrzebne jest również regularne wapnowanie, bowiem jego efektywność oraz in-
+nych nawozów organicznych jest tym większa, im szybciej nawozy te są rozkładane
+na prostsze, bardziej przyswajalne związki dla roślin.
+
+
+WPŁYW WAPNOWANIA NA DOSTĘPNOŚĆ
+SKŁADNIKÓW POKARMOWYCH
+
+Wapnowanie wpływa na zwiększenie przyswajalności składników pokarmowych.
+Typowym przykładem tego zjawiska jest pobieranie fosforu. Na glebach bardzo kwa-
+śnych, zwłaszcza zawierających duże ilości glinu ruchomego, wysoka kwasowość
+może być czynnikiem ograniczającym wysokość plonu. W takim przypadku zarów-
+no fosfor glebowy, jak i pochodzący z nawozów jest unieruchomiony, a wzrost pH
+wpływa na uruchomienie go i lepsze wykorzystanie. Potrzeba nawożenia tym skład-
+nikiem po zwapnowaniu jest mniejsza.
+    W tym przypadku wapnowanie poprzez uruchomienie fosforu glebowego wpły-
+wa na zmniejszenie zapotrzebowania na nawozy. Jednak trzeba na to spojrzeć z in-
+nej strony, gdyż jednocześnie ze wzrostem plonów następuje wyczerpywanie fosfo-
+ru z gleby i jeśli nie zostanie to zrekompensowane przez dodatkowe nawożenie tym
+składnikiem, to po jakimś czasie nastąpi zmniejszenie potencjalnych jego zasobów
+w glebie.
+    Pod wpływem wapnowania nawozy organiczne ulegają szybszej mineralizacji,
+łatwiej uruchamiają składniki pokarmowe, które są lepiej wykorzystywane przez ro-
+śliny. Należy również zaznaczyć, że nawozy organiczne przy równoczesnym wapno-
+waniu przyczyniają się do polepszenia właściwości fizycznych gleby.
+
+
+
+
+32
+                          EFEKTYWNOŚĆ WAPNOWANIA
+
+Rośliny uprawiane na glebach kwaśnych nie tylko dają niższe plony, ale są rów-
+nież gorszej jakości. Ziemniaki uprawiane na glebie bardzo kwaśnej mają słab-
+szą zdolność kiełkowania, kwiaty koniczyny wytwarzają mało nektaru dla pszczół,
+a w paszy zmniejsza się zawartość mineralnych składników pokarmowych. Zbiory
+z łąk kwaśnych zawierają mało białka.
+
+                                                                                   Tabela 8
+
+                                Reakcja roślin na zakwaszenie gleby
+
+               Do grupy roślin silnie reagujących na zakwaszenie gleby należą:
+                                    (optymalne pH 6,0-7,5)
+         pszenica ozima                    bobik lucerna
+                                                                         cebula
+          pszenica jara                     koniczyna
+                                                                        szpinak
+            jęczmień                         nostrzyk
+                                                                        czosnek
+           kukurydza                           wyka
+                                                                          seler
+             rzepak                            soja
+                                                                         sałata
+            gorczyca                     kapusta pastewna
+                                                                         wiśnia
+        buraki cukrowe                     kapusta biała
+                                                                       czereśnia
+        buraki pastewne                      konopie
+                                                                          śliwa
+        buraki ćwikłowe                        mak
+               Do grupy roślin mniej wrażliwych na zakwaszenie gleby należą:
+                                  (optymalne pH 5,0-6,5)
+                                                                       jabłoń
+               żyto
+                                                                       grusze
+              owies                          marchew
+                                                                        agrest
+            ziemniaki                           len
+                                                                      porzeczki
+             brukiew                        słonecznik
+                                                                       malina
+              rzepa                           cykoria
+                                                                      poziomka
+              groch                          tymotka
+                                                                       ogórki
+              fasola
+                                                                      pomidory
+               Do grupy roślin mało wrażliwych na zakwaszenie gleby należą:
+                                   (optymalne pH <5,0)
+             gryka                             tytoń
+           łubin żółty                       rzodkiew                  rabarbar
+            seradela                       rzepa czarna
+
+Źródło: Szczepaniak W. [2017]
+
+
+                                                                                        33
+   Pod względem reakcji na wapnowanie rośliny uprawne można uszeregować na-
+stępująco (tab. 8):
+
+  kukurydza = burak          jęczmień = pszenica         owies      żyto      ziemniak
+
+                           kierunek spadku reakcji na wapnowanie
+
+
+
+   Zwyżki plonów pod wpływem wapnowania tych samych roślin są znacznie więk-
+sze na glebach lżejszych niż na glebach ciężkich. Reakcja roślin na wapnowanie jest
+bardzo zróżnicowana i zależy od odczynu gleby. Na glebach bardzo kwaśnych (pH
+do 4,5) rośliny mało wrażliwe na zakwaszenie gleby reagują na wapnowanie w małym
+stopniu, natomiast rośliny wrażliwe w bardzo wysokim stopniu.
+   Pod względem przeciętnej reakcji na wapnowanie, rośliny można podzielić na
+trzy grupy:
+
+         Bardzo silnie reagujące: (25% zwyżka plonu pod wpływem wapnowania)
+           burak                                                       lucerna
+                                      groch siewny
+         kukurydza                                                    koniczyna
+             Silnie reagujące: (15% zwyżka plonu pod wpływem wapnowania)
+          pszenica                        rzepak                      łubin biały
+          jęczmień                         bobik                   łubin wąskolistny
+            Średnio reagujące: (7% zwyżka plonu pod wpływem wapnowania)
+             żyto                       ziemniak                      łubin żółty
+            owies                          len                         seradela
+
+Źródło: opracowanie własne na podstawie badań IUNG-PIB
+
+
+
+    Na glebach lekkich, na których udział roślin słabiej reagujących na wapnowanie
+jest duży, przeciętny efekt tego zabiegu jest mniejszy. Natomiast na glebach średnich
+i mocnych z przewagą roślin reagujących dodatnio na wapnowanie, jest on większy
+(rys. 8-11).
+
+
+
+
+34
+A: Rośliny mało wrażliwe na kwaśny odczyn gleby
+Zwyżka plonu [%]
+
+                                                                                   żyto + owies
+20                                                                                 ziemniak
+18
+16
+14
+12
+10
+ 8
+ 6
+ 4
+ 2
+ 0
+           bardzo lekkie               lekkie               średnie
+                             kategoria agronomiczna gleby
+
+
+
+B: Rośliny wrażliwe na kwaśny odczyn gleby
+Zwyżka plonu [%]
+                                                                                   pszenica +
+60                                                                                 jęczmień
+                                                                                   burak
+50
+                                                                                   kukurydza
+40
+
+30
+
+20
+
+10
+
+ 0
+           bardzo lekkie               lekkie               średnie
+                             kategoria agronomiczna gleby
+
+Rys. 8 Efektywność podstawowego zabiegu wapnowania w zależności od kategorii agronomicznej
+       gleby
+
+Źródło: Grzebisz W. [2013]
+
+                                                                                              35
+A: Rośliny mało wrażliwe na kwaśny odczyn gleby
+
+Zwyżka plonu [%]
+                                                                                    żyto + owies
+
+                                                                                    ziemniak
+18
+16
+14
+12
+10
+ 8
+ 6
+ 4
+ 2
+ 0
+           silnie kwaśny          kwaśny            lekko kwaśny
+                                odczyn gleby
+
+
+B: Rośliny wrażliwe na kwaśny odczyn gleby
+
+Zwyżka plonu [%]
+                                                                                    pszenica +
+                                                                                    jęczmień
+80
+                                                                                    burak
+70
+                                                                                    kukurydza
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+ 0
+           silnie kwaśny          kwaśny            lekko kwaśny
+                                 odczyn gleby
+
+
+Rys. 9. Efektywność podstawowego zabiegu wapnowania w zależności od odczynu gleby
+
+Źródło: Grzebisz W. [2013]
+
+
+36
+Zwyżka plonu [%]
+
+                                                                                  żyto
+0,8
+0,7                                                                               owies
+
+0,6                                                                               jęczmień
+0,5
+                                                                                  pszenica
+0,4
+
+0,3
+
+0,2
+
+0,1
+  0
+           silnie kwaśny           kwaśny           lekko kwaśny
+                               odczyn gleby
+
+
+Rys. 10. Zwyżka plonów zbóż pod wpływem wapnowania na glebach o różnym odczynie
+
+Źródło: Grzebisz W. [2013]
+
+
+
+
+plon [t/ha]
+
+
+  3
+
+2,5
+
+  2
+
+1,5
+
+  1
+
+0,5
+
+  0
+      bez wapnowania         NPK         NPK Mg        NPK Mg Ca
+
+
+Rys. 11. Wpływ wapnowania i nawożenia magnezem na plonowanie żyta
+
+Źródło: Grzebisz W. [2013]
+
+
+
+
+                                                                                             37
+        SYMPTOMY WSKAZUJĄCE NA ZAKWASZENIE GLEB
+
+Wapnować należy przede wszystkim gleby bardzo kwaśne i kwaśne, a zwłaszcza
+gleby lekkie. Podstawowym wskaźnikiem określającym potrzeby wapnowania jest
+odczyn gleby (w roztworze soli obojętnej – pHKCl). Na tej podstawie można sądzić
+o kwasowości wymiennej oraz o zawartości glinu ruchomego i manganu. Celem
+wapnowania jest bowiem unieruchomienie tych składników. O potrzebach wapno-
+wania może informować szereg oznak świadczących o kwasowości gleby.
+
+
+ROŚLINNOŚĆ JAKO WSKAŹNIK KWASOWOŚCI
+
+Roślinność nie jest dobrym wskaźnikiem świadczącym o kwasowości gleby. Dawniej
+uważano, że występowanie niektórych gatunków chwastów świadczy o zakwaszeniu
+gleby (skrzyp polny, czerwiec roczny, sporek polny, rzodkiew świrzepa, fiołek polny,
+szczaw polny) lub o charakterze zasadowym (lucerna nerkowata, miłek letni, ostró-
+żeczka polna, podbiał pospolity, powój polny, maruna nadmorska bezwonna).
+
+
+
+
+     Obecnie wiele czynników (sposób uprawy, środki ochrony roślin) wpłynęło na to,
+
+Chaber bławatek jako roślina wskaźnikowa gleb ubogich w wapń (fot. G. Hołubowicz-Kliza)
+
+38
+że rośliny te zasiedlają środowiska, w których do tej pory nigdy nie występowały, za-
+tem nie mogą być miarodajnym wskaźnikiem do określania stanu kwasowości gleby.
+Nie mniej jednak rośliny te preferują bardziej kwaśny bądź zasadowy odczyn gleby.
+
+
+STAN ROŚLIN UPRAWNYCH JAKO WSKAŹNIK KWASOWOŚCI
+
+Ogólny stan i wygląd roślin może świadczyć również o kwasowości gleby. Jeżeli na
+glebie gliniastej dobrze uprawionej i nawożonej takie rośliny jak: koniczyna, lucerna
+czy buraki źle rosną, to można wnioskować, że jest ona kwaśna. Na ogół na glebach
+kwaśnych dosyć dobrze rosną takie rośliny jak: żyto, ziemniaki, owies, łubin żółty, ale
+nawet one zaczynają źle się rozwijać (wykazują specyficzne objawy chorobowe), jeśli
+te gleby są bardzo kwaśne.
+
+
+INNE CZYNNIKI ŚWIADCZĄCE O KWASOWOŚCI
+
+Należy pamiętać, że ziemie na nowo wzięte pod uprawę oraz obszary osuszone są
+zwykle kwaśniejsze niż uprawiane od dawna. Jeżeli teren jest pagórkowaty, a gleby
+lekkie, to zazwyczaj na wzgórzu gleba jest kwaśniejsza. Odwrotnie, gdy mamy do
+czynienia z glebami węglanowymi, wówczas kwaśniejsza gleba jest w dolinie.
+   Należy jednak pamiętać, że wszystkie te objawy mogą być subiektywne. Obiek-
+tywnym wskaźnikiem kwasowości jest tylko odczyn gleby oznaczony w stacji che-
+miczno-rolniczej.
+
+
+
+
+Położenie pola w terenie pagórkowatym (fot. G. Hołubowicz-Kliza)
+
+                                                                                    39
+                 WAPNOWANIE GLEB GRUNTÓW ORNYCH
+
+W tym rozdziale zaprezentujemy nowe podejście do zasad wapnowania gleb w Pol-
+sce, opracowane na podstawie rozeznania właściwości gleby na podstawie przepro-
+wadzonej analizy reprezentatywnej próbki. W celu określenia zaleceń w tym zakresie
+wymagane są następujące parametry: kategoria agronomiczna gleby oraz jej odczyn
+określony w 1 N KCl zgodnie z normą PN-ISO 10390:1997P „Jakość gleby. Oznacza-
+nie pH”.
+    Wyróżniamy 4 kategorie agronomiczne gleby w zależności od zawartości tzw.
+części spławialnych, tj. cząstek o średnicy poniżej 0,02 mm. Pojęcie kategorii agro-
+nomicznej obejmuje różne grupy granulometryczne gleb (tab. 9). Skład granulome-
+tryczny w OSChR określany jest wg metody Prószyńskiego lub za pomocą miernika
+laserowego.
+                                                                                 Tabela 9
+
+                                  Kategorie agronomiczne gleb
+
+     Kategoria gleb                Grupa granulometryczna          % frakcji < 0,02 mm
+                           piasek luźny
+                           piasek luźny pylasty – plp
+ Bardzo lekkie                                                            0-10
+                           piasek słabo gliniasty – ps
+                           piasek słabo gliniasty pylasty – psp
+                           piasek gliniasty lekki – pgl
+                           piasek gliniasty lekki pylasty – pglp
+                           piasek gliniasty mocny – pgm
+ Lekkie                                                                  11-20
+                           piasek gliniasty mocny pylasty – pgmp
+                           pył piaszczysty – płp
+                           pył zwykły – płz
+                           glina lekka –gl
+ Średnie                   glina lekka pylasta – glp                     21 - 35
+                           pył gliniasty – płg
+                           glina średnia – gs
+                           glina średnia pylasta –gsp
+                           glina ciężka – gc
+ Ciężkie                   glina ciężka pylasta – gsp                  powyżej 35
+                           pył ilasty – płi
+                           ił – i
+                           ił pylast – ip
+
+
+Źródło: Łabętowicz P. [2002]
+
+40
+                                                                                 Tabela 10
+
+             Ocena potrzeb wapnowania gleb mineralnych [gruntów ornych]
+
+ Klasa potrzeb                     Kategoria agronomiczna gleby (pH w 1 N KCl)
+  wapnowania             bardzo lekka         lekka          średnia           ciężka
+ Konieczne                  do 4,0            do 4,5          do 5,0           do 5,5
+ Potrzebne                 4,1 – 4,5         4,6 – 5,0       5,1 – 5,5       5,6 – 6,0
+ Wskazane                  4,6 – 5,0         5,1 – 5,5       5,6 – 6,0       6,1 – 6,5
+ Ograniczone               5,1 – 5,5         5,6 – 6,0       6,1 – 6,5       6,6 – 7,0
+ Zbędne                     od 5,6            od 6,1          od 6,6           od 7,1
+
+Źródło: Grzebisz W. [2008]
+
+
+                                                                                 Tabela 11
+
+           Ocena potrzeb wapnowania gleb mineralnych [użytków zielonych]
+
+                                           Klasa potrzeb wapnowania
+    Odczyn
+                             konieczne     potrzebne       wskazane           zbędne
+  pH w 1 N KCl
+                               do 5,0       5,1-5,5          5,6-6,0           od 6,1
+
+Źródło Jadczyszyn T. [2021]
+
+
+                                                                                 Tabela 12
+
+                         Ocena potrzeb wapnowania gleb organicznych
+
+                                           Klasa potrzeb wapnowania
+    Odczyn
+                             konieczne     potrzebne       wskazane           zbędne
+  pH w 1 N KCl
+                               do 4,0       4,1-4,5          4,6-5,0           od 5,1
+
+Źródło: Jadczyszyn T. [2021]
+
+
+
+    Dla gruntów ornych wyodrębniono 5 klas potrzeb wapnowania gleb gruntów
+ornych. Wartości graniczne dla poszczególnych klas zostały ustalone na podstawie
+wyników badań, uwzględniając przyrost plonu roślin uprawnych pod wpływem
+optymalnej dawki wapna. Zakresy pH, przy których uzyskiwano największe przyro-
+sty plonów przyjęto jako potrzeby wapnowania konieczne, a wartości odczynu, przy
+których przyrosty plonów były najmniejsze – określono jako ograniczone potrzeby
+wapnowania. Wartość pH, przy której zastosowanie wapna nie powodowało wzrostu
+plonu przyjęto jako wartość krytyczną, czyli taką, gdzie wapnowanie określono jako
+zbędne.
+                                                                                         41
+   Jeśli rolnik zna potrzebę wapnowania gleby na danym polu może określić zaleca-
+ną dawkę wapna nawozowego na podstawie tabeli 13.
+
+                                                                                    Tabela 13
+
+                   Zalecane dawki nawozów wapniowych na grunty orne
+
+   Kategoria                       Klasa potrzeb wapnowania (Dawki CaO w t na ha)
+ agronomiczna
+                        konieczne       potrzebne    wskazane    ograniczone    zbędne
+     gleby
+ Bardzo lekka                3,0           2,0          1,0           -               -
+ Lekka                       3,5           2,5          1,5           -               -
+ Średnia                     4,5           3,0          1,7          1,0              -
+ Ciężka                      6,0           3,0          2,0          1,0              -
+
+Źródło: Grzebisz W. [2008]
+
+
+
+    W stosowanym do chwili obecnej systemie zaleceń różnica pomiędzy wielko-
+ścią dawki wapna dla sąsiadujących klas potrzeb wapnowania była bardzo duża.
+W przypadku gruntów ornych na glebach bardzo lekkich i lekkich wynosiła 1,0 t CaO
+na ha pomiędzy wapnowaniem „koniecznym” a „potrzebnym”. Natomiast zalecana
+dawka dla wapnowania koniecznego i potrzebnego na glebach ciężkich różniła się aż
+o 3,0 t CaO na ha. Dlatego dla gleby ciężkiej o pH 5,5 zalecana dawka wapna wynosiła
+6 t CaO na ha, a dla takiej samej gleby o pH równym 5,6 tylko 3 t CaO na ha. Zmia-
+na odczynu o 0,1 jednostki pH powodowała zwiększenie lub zmniejszenie zalecanej
+dawki wapna, aż o 3,0 t na na ha. Jednocześnie dla gleb należących do tej samej klasy
+potrzeb wapnowania, pomimo różnicy w wartości pH, nawet o 0,5 jednostki, zaleca-
+na była taka sama dawka wapna. Rolnicy i doradcy mieli w związku z tym trudno-
+ści w stosowaniu tego systemu zaleceń. Uważano je za „dyskryminujące” w sytuacji,
+gdy na ich podstawie naliczana była dotacja do wapnowania wprowadzona na lata
+2019-2023. Zgodnie z warunkami przyjętego programu dofinansowania udziela się
+na wapnowanie gleb o odczynie mniejszym lub równym pH 5,5 w gospodarstwach
+o powierzchni nieprzekraczającej 75 ha, co wynosi:
+hh do 300 zł na 1 t CaO lub CaO+MgO dla gospodarstw o powierzchni nieprzekra-
+    czającej 25 ha użytków rolnych;
+hh do 200 zł na 1 t CaO lub CaO+MgO dla gospodarstw o powierzchni powyżej
+    25 ha do 50 ha użytków rolnych;
+hh 100 zł na 1 t CaO lub CaO+MgO dla gospodarstw o powierzchni powyżej 50 ha
+    do 75 ha użytków rolnych.
+
+
+
+
+42
+    Rolnik może otrzymać dofinansowanie do zakupu takiej ilości wapna nawozo-
+wego, jaka wynika z zaleceń opracowanych przez OSChR na podstawie oznaczonej
+w próbce gleby wartości pH. Zalecana dawka wapna nawozowego określana jest na-
+stępująco:
+    Zgodnie z warunkami określonymi w ,,Ogólnopolskim programie regenera-
+cji środowiskowej gleb poprzez ich wapnowanie” gospodarstwo posiadające 25 ha
+gleb ciężkich o odczynie pH 5,5 lub niższym mogło otrzymać dotację w wysokości
+45 tys. zł, gdyż wapnowanie takich gleb jest konieczne, a zalecana (w stare zalecenia)
+dawka wapna wynosi 6 t CaO na 1 ha, czyli: 6 t CaO na ha x 25 ha x 300 zł za tonę.
+    Jeżeli natomiast wartość pH gleby wynosiła 5,6 wówczas gospodarstwo nie otrzy-
+mywało dotacji.
+    Natomiast nowe zalecenia w zakresie wapnowania nie mają wpływu na realizację
+„Ogólnopolskiego programu regeneracji środowiskowej gleb poprzez ich wapnowa-
+nie”, którego zasady zostały określone przed kilku laty.
+    Stały się one elementem internetowego systemu doradztwa nawozowego Inter-
+Naw, który zarówno dla rolników, jak i doradców będzie dostępny już w 2022 r.
+    Jeśli program refundacji wapnowania byłby kontynuowany w kolejnych latach bę-
+dzie uwzględniał nowe zasady określania dawek wapna.
+    Obecnie stosowany system zaleceń nie rekomendował stosowania dawek wapna
+na tyle dużych, by zapewniały uzyskanie optymalnego odczynu gleby, a to z obawy
+przed tzw. „przewapnowaniem” polegającym na zaburzeniu stosunku jonów wapnia
+i magnezu w glebie, jej przesuszeniu itp. W systemie tym zalecano ponowne badanie
+odczynu gleby po upływie 4 lat od zastosowania wapna oraz ocenę potrzeb wapno-
+wania.
+    W związku z powyższym w IUNG-PIB przygotowano nowe zalecenia w zakresie
+wapnowania gleb. W tym systemie wyeliminowano etap wyceny potrzeb wapnowa-
+nia gleby, ponieważ klasy potrzeb wapnowania ustalono z uwzględnieniem gatunków
+roślin uprawianych na glebach określonej kategorii agronomicznej. Udział określo-
+nych gatunków roślin w zmianowaniu, w zależności od warunków glebowych, był
+i nadal pozostaje przyrodniczo uzasadniony. Jednak we współczesnym rolnictwie
+o doborze roślin w zmianowaniu decyduje popyt na rynku, a nie warunki przyrod-
+nicze. Dlatego obliczanie dawek wapna w nowym systemie wapnowania opiera się
+wyłącznie na odczynie i kategorii agronomicznej gleby. Do określenia dawki wap-
+na na gruntach ornych według nowego systemu zaleceń nowych posłużyły przepro-
+wadzone w IUNG-PIB doświadczenia założone na glebach bardzo lekkich, lekkich,
+średnich i ciężkich, o zróżnicowanym odczynie.
+    W celu precyzyjnego doradztwa w zakresie wapnowania obliczono dawki wapna
+na gleby poszczególnych kategorii agronomicznych, różnicując początkową wartość
+odczynu (pHw) z krokiem 0,1, i zakładając uzyskanie optymalnego dla danej kate-
+gorii poziomu pHk. Jako optymalną wartość pH przyjęto górną granicę ograniczo-
+nych potrzeb wapnowania dla danej kategorii agronomicznej.
+
+
+
+                                                                                   43
+DAWKI WAPNA NA GRUNTY ORNE
+WEDŁUG NOWEGO SYSTEMU ZALECEŃ
+
+W poniższych tabelach podano zalecane dawki wapna na grunty orne w zależności
+od wyjściowego pH gleby.
+   Na glebach bardzo lekkich (tab. 14) maksymalna dawka wapna wynosi 3,4 t CaO
+na ha i jest o 0,4 t na ha większa od zalecanej dotychczas w warunkach „koniecznych”
+potrzeb wapnowania.
+
+                                                                              Tabela 14
+
+              Zalecane dawki wapna nawozowego na glebach bardzo lekkich
+                         Zalecana dawka CaO
+     pHw gleby                                   dawka I             dawka II
+                               [t na ha]
+         5                        0,2               0,2                   -
+        4,9                       0,5               0,5                   -
+        4,8                       0,8               0,8                   -
+        4,7                       1,0               1,0                   -
+        4,6                       1,3               1,3                   -
+        4,5                       1,6               1,6                   -
+        4,4                       1,8               1,8                   -
+        4,3                       2,0               2,0                   -
+        4,2                       2,2               2,2                   -
+        4,1                       2,4               2,4                   -
+         4                        2,8               2,8                   -
+        3,9                       3,1               3,1                   -
+        3,8                       3,4               3,4                   -
+
+Źródło Jadczyszyn T. [2021]
+
+
+
+   Na glebach lekkich (tab. 15) dawka wapna niezbędna do osiągnięcia optymalnego
+pH gleby może dochodzić do 6,5 t CaO na ha i jest o 3 t większa od maksymalnej
+dotychczas zalecanej, dlatego proponuje się podział dawek większych niż 3,5 t CaO
+na ha na dwie dawki: podstawową (I) i uzupełniającą (II).
+   Zalecana dawka wapna na gleby średnie (tab. 16) to 7,8 t CaO na ha przy skrajnie
+niskim pH wyjściowym (3,9). Zaleca się, aby dawka zastosowana jednorazowo nie
+przekraczała 5 t CaO na ha. Pozostałą ilość należy zastosować w drugiej dawce.
+   Na glebach ciężkich (tab. 17) do zoptymalizowania pH może być potrzebne wy-
+sianie nawet 10,8 t CaO na ha (przy pH wyjściowym 3,9). W tym przypadku należy
+zastosować do 6 t CaO na ha w dawce podstawowej, a resztę w drugiej dawce uzupeł-
+niającej. Dawka ta powinna być zastosowana w odstępie 2-4 lata po pierwszej.
+
+44
+   Należy zauważyć, że zalecenia te uświadamiają rolnikom, że jednorazowy zabieg
+wapnowania nie rozwiązuje całkowicie problemu zakwaszenia gleby. Zastosowanie
+uzupełniającego wapnowania nie musi być poprzedzone analizą gleby.
+   Ten system pozwala rolnikowi na bardziej precyzyjne wapnowanie gleb niż
+w dotychczasowym systemie. Jeśli według obecnego systemu na glebie bardzo lek-
+kiej, gdzie wapnowanie określono jako wskazane (pH od 4,6 do 5,0) zalecana dawka
+CaO wynosiła 1 t na ha. Tak obliczoną dawkę zalecano do zastosowania zarówno na
+glebach o pH 4,6, jak i o pH 5,0. W nowo opracowanym systemie w pierwszym przy-
+padku dawka wapna wynosi 1,3 t CaO na ha, a w drugim 0,2 t CaO na ha. Dlatego
+nowy system naliczania dawek nawozów wapniowych pozwala na lepsze ich dosto-
+sowanie do rzeczywistych potrzeb danego pola.
+   Pozostałe zalecenia dotyczące terminów stosowania, jak i formy wapna nawozo-
+wego, pozostają niezmienne.
+
+                                                                         Tabela 15
+
+                   Zalecane dawki wapna nawozowego na glebach lekkich
+
+                                                         Podział dawki
+   pHw gleby         Zalecana dawka CaO t ha-1
+                                                  dawka I            dawka II
+        5,5                     0,2                 0,2                 -
+        5,4                     0,5                 0,5                 -
+        5,3                     0,9                 0,9                 -
+        5,2                     1,2                 1,2                 -
+        5,1                     1,5                 1,5                 -
+         5                      1,8                 1,8                 -
+        4,9                     2,1                 2,1                 -
+        4,8                     2,3                 2,3                 -
+        4,7                     2,6                 2,6                 -
+        4,6                     2,9                 2,9                 -
+        4,5                     3,1                 3,1                 -
+        4,4                     3,4                 3,4                 -
+        4,3                     4,5                 3,5                1,0
+        4,2                     4,7                 3,5                1,2
+        4,1                     5,5                 3,5                2,0
+        4,0                     5,9                 3,5                2,4
+        3,9                     6,3                 3,5                2,8
+        3,8                     6,5                 3,5                3,0
+
+Źródło Jadczyszyn T. [2021]
+
+
+
+
+                                                                                45
+                                                                         Tabela 16
+
+                  Zalecane dawki wapna nawozowego na glebach średnich
+                         Zalecana dawka CaO              Podział dawki
+     pHw gleby
+                               [t na ha]          dawka I            dawka II
+        6,0                       0,4               0,4                 -
+        5,9                       0,8               0,8                 -
+        5,8                       1,2               1,2                 -
+        5,7                       1,6               1,6                 -
+        5,6                       2,0               2,0                 -
+        5,5                       2,4               2,4                 -
+        5,4                       2,8               2,8                 -
+        5,3                       3,2               3,2                 -
+        5,2                       3,6               3,6                 -
+        5,1                       3,9               3,9                 -
+        5,0                       4,2               4,2                 -
+        4,9                       4,4               4,4                 -
+        4,8                       4,8               4,8                 -
+        4,7                       5,0               5,0                 -
+        4,6                       5,4               5,0                0,4
+        4,5                       5,8               5,0                0,8
+        4,4                       6,2               5,0                1,2
+        4,3                       6,4               5,0                1,4
+        4,2                       6,6               5,0                1,6
+        4,1                       7,0               5,0                2,0
+        4,0                       7,4               5,0                2,4
+        3,9                       7,8               5,0                2,8
+
+Źródło Jadczyszyn T. [2021]
+
+
+
+
+46
+                                                                         Tabela 17
+
+                  Zalecane dawki wapna nawozowego na glebach ciężkich
+
+                                                        Podział dawki
+   pHw gleby         Zalecana dawka CaO t ha-1
+                                                  dawka I            dawka II
+        6,3                    0,2                  0,2                 -
+        6,2                    0,2                  0,2                 -
+        6,1                    0,5                  0,5                 -
+        6,0                    0,8                  0,8                 -
+        5,9                    1,0                  1,0                 -
+        5,8                    1,5                  1,5                 -
+        5,7                    2,0                  2,0                 -
+        5,6                    2,5                  2,5                 -
+        5,5                    3,0                  3,0                 -
+        5,4                    3,5                  3,5                 -
+        5,3                    3,8                  3,8                 -
+        5,2                    4,1                  4,1                 -
+        5,1                    4,5                  4,5                 -
+        5,0                    4,8                  4,8                 -
+        4,9                    5,1                  5,1                 -
+        4,8                    5,4                  5,4                 -
+        4,7                    5,7                  5,7                 -
+        4,6                    5,8                  5,8                 -
+        4,5                    6,0                  6,0                 -
+        4,4                    7,0                  6,0                 -
+        4,3                    7,5                  6,0                1,5
+        4,2                    8,0                  6,0                2,0
+        4,1                    9,0                  6,0                3,0
+        4,0                    9,8                  6,0                3,8
+        3,9                    10,8                 6,0                4,8
+
+Źródło Jadczyszyn T. [2021]
+
+
+
+
+                                                                                47
+AGROTECHNIKA WAPNOWANIA
+
+Wapnowanie ma na celu zmianę właściwości chemicznych, fizycznych i biologicz-
+nych gleby na dłuższy okres czasu. Jego wpływ nie ogranicza się do wzrostu plonów
+roślin w najbliższych latach po zabiegu, ale utrzymuje się także w dalszych latach.
+Dlatego też wapnowania nie możemy traktować jako nawożenia pod poszczególne
+rośliny, ale jako zabieg dla rotacji zmianowania, czy jakiegoś ogniwa tego zmianowa-
+nia. Można też stosować wapno małymi dawkami, ale częściej, jednak zmiany właści-
+wości nie zostają osiągnięte wcale lub dopiero po dłuższym czasie, a zabieg ten staje
+się wówczas kosztowny. Pierwszy zabieg wapnowania gleb kwaśnych, można trak-
+tować jako wapnowanie melioracyjne. Wówczas dawki wapna będą stosunkowo
+wysokie i wywołają zmiany odczynu co najmniej o jednostkę pH, z czym wiążą się
+zmiany właściwości chemicznych gleby. W kolejnym zabiegu wapnowania zaleca
+się mniejsze dawki wapna, z uwagi na wyższe wyjściowe pH gleby. Takie wapno-
+wanie będziemy nazywali zachowawczym, gdyż ma ono na celu niedopuszczenie
+do ponownego obniżenia pH. W celu ustalenia poziomu i terminu wapnowania
+należy śledzić zmiany odczynu gleby poprzez wykonywanie oznaczeń w terenie.
+
+
+STOSOWANIE NAWOZÓW WAPNIOWYCH
+
+Wszystkie nawozy wapniowe mogą wykazywać wysoką efektywność przy zobojęt-
+nianiu nadmiernej kwasowości gleby, ale pod warunkiem racjonalnie dokonanego
+wyboru gatunku wapna oraz umiejętnego zastosowania go.
+    Przy wyborze formy nawozu wapniowego i ustaleniu warunków jego zastosowa-
+nia należy wziąć pod uwagę rodzaj gleby podlegającej wapnowaniu.
+    Wapno tlenkowe nadaje się, przede wszystkim na gleby cięższe. Na tych glebach
+nie ma niebezpieczeństwa gwałtownej zmiany odczynu, gdyż odznaczają się one wy-
+soką zdolnością buforową, nie ma więc ryzyka przewapnowania, a jest możliwość
+szybszego osiągnięcia pożądanego odczynu niż przy stosowaniu wapna węglanowe-
+go.
+    Natomiast na glebach lekkich, szczególnie piaskach, bardziej celowe jest stoso-
+wanie wapna węglanowego, które jest znacznie łagodniejsze w działaniu. Na glebach
+lekkich, ze względu na małą zdolność buforową, istnieje niebezpieczeństwo wywoła-
+nia okresowo zbyt zasadowego odczynu przy zastosowaniu wapna tlenkowego, szcze-
+gólnie przy większych dawkach. Na glebach lekkich, piaszczystych z powodzeniem
+może być stosowany margiel, gdyż dodatkowo wnosi się wraz z nim glinę, co przy-
+czynia się do poprawy struktury gleb. Jednak polecany jest on do stosowania lokal-
+nego, tam gdzie nie zachodzi konieczność transportowania go z dużych odległości.
+
+
+
+
+48
+           Wapno tlenkowe nie powinno być stosowane równocześnie
+             z nawozami zawierającymi azot w formie amonowej.
+
+
+
+
+    Wapno tlenkowe powinno być stosowane wyłącznie na glebę suchą, gdyż tylko
+w takim przypadku możliwe jest dokładne jego wymieszanie z glebą.
+    Sposób wnoszenia wapna do gleby zależy od wielkości dawki. Wapno stosowa-
+ne w dużych ilościach powinno być równomiernie rozrzucane po polu i dokładnie
+wymieszane z całą warstwą orną. Małe dawki wapna nie są w stanie zmienić odczy-
+nu gleby. Duże ilości wapna należy wysiewać jak najwcześniej przed uprawą roślin
+i starać się dokładnie wymieszać z glebą. Należy pamiętać, aby wapna nie wysiewać
+na bardzo wilgotną glebę, jak również w pogodę deszczową bez względu na rodzaj
+wysiewanego nawozu wapniowego. Wapno rozsiane na mokrą ziemię musi pozostać
+dłuższy czas bez przykrycia, gdyż jakikolwiek zabieg uprawowy w tych warunkach
+grozi zniszczeniem struktury gleby. Najlepszy okres do wapnowania gleb – to czas
+od zbioru roślin do wykonania orki zimowej. Wapno rozsiane po ściernisku w czasie
+podorywki dostaje się do środka warstwy ornej, a zabiegi uprawowe związane z wal-
+ką z chwastami, przyczyniają się w dość krótkim czasie do starannego wymieszania
+go z glebą. Po zbiorze roślin okopowych można również rozrzucić wapno, a następ-
+nie przykryć je za pomocą orki zimowej. Przy stosowaniu większych ilości wapna
+zaleca się wprowadzić na glebach silnie kwaśnych 3/4 dawki jesienią przed orką,
+a 1/4 dawki w drugim roku.
+    Małe ilości wapna można wprowadzać tuż przed siewem roślin, które wymagają
+nawożenia wapniowego. Mają one za zadanie podniesienie plonów tych kultur, pod
+które zostały wniesione. W celu wyrównania brakującej ilości wapnia po jednej rota-
+cji płodozmianu, należy je powtórzyć.
+    Gleby lekkie mają małą zdolność buforową, ponieważ są mało zasobne w drobne
+cząstki spławialne. Stosowanie więc większych dawek wapna, zmieniających bardzo
+wydatnie w kierunku zasadowym odczyn gleby, może wpływać ujemnie na rozwój
+roślin, zwłaszcza takich jak: ziemniaki, owies i żyto, dla których najlepsze warunki
+rozwoju są przy pH = 5-6,5. Dlatego gleby lekkie należy wapnować co 3-4 lata przy
+użyciu wapna węglanowego.
+    Wapnując gleby ciężkie ilaste i gliniaste, oprócz zobojętnienia kwasowości po-
+prawiamy także ich fizyczne i biologiczne właściwości. Można to osiągnąć, stosując
+wapno palone lub gaszone.
+    Wapnowanie w płodozmianie ma zasadnicze znaczenie, ponieważ przygotowuje
+właściwy odczyn gleby pod rośliny, a usuwając szkodliwą kwasowość, wpływa na
+lepsze wykorzystanie nawozów mineralnych i organicznych przez rośliny uprawne.
+Wprowadzając do gleby nawozy wapniowe poprawiamy warunki powstawania struk-
+tury gruzełkowej przez większe nagromadzenie humianów wapnia jako lepiszcza od-
+                                                                                 49
+pornego na rozmywające działanie wody. Przy planowaniu wapnowania w płodo-
+zmianie należy wziąć pod uwagę wymagania roślin w stosunku do odczynu gleby
+i czas przyorywania.
+    W płodozmianie szczególną uwagę należy zwrócić na wapnowanie wieloletnich
+roślin bobowatych (lucerny i koniczyny), uprawa których na glebach kwaśnych nie
+spełni swego zadania z powodu słabego rozwoju tych roślin i w związku z tym nie-
+wielkiej zdolności użyźniającej i strukturotwórczej. Należy zatem stosować wapno
+pod roślinę ochronną oraz uzupełniać dodatkowym wapnowaniem jesiennym lucer-
+nę w drugim roku użytkowania. Dawki wapna muszą być tak obliczone, aby dopro-
+wadziły glebę do stanu obojętnego lub alkalicznego.
+    Przy wapnowaniu gleb pod ziemniaki istnieje ryzyko wystąpienia parcha zwy-
+kłego ziemniaka, który rozwija się w glebie obojętnej i słabo alkalicznej. Stwierdzo-
+no jednak, że pogłówne wapnowanie ziemniaków w redliny po ich wzejściu niskimi
+dawkami wapna w ilości od 0,5 do 0,75 t CaO na ha daje znaczną poprawę plonów.
+Na tego rodzaju zabieg nawozowy należy zwrócić większą uwagę, ponieważ przypada
+on na okres małego nasilenia prac w gospodarstwie oraz przyczynia się do właściwe-
+go przygotowania roli pod następne przypadające w rotacji po ziemniakach rośliny
+uprawne, jak jęczmień i bobowate, które zazwyczaj nie znoszą kwaśnej gleby.
+    Dotychczas nie zwracano nigdy uwagi na wapnowanie gleby pod rośliny uprawia-
+ne jako międzyplony. Większa część międzyplonów składa się z roślin bobowatych,
+wymagania których pod względem zasobności gleby w wapń są największe. Mniejsze
+wymagania co do wapnia mają: wyka ozima i groch pastewny (peluszka), zaś seradela
+i łubin żółty nie tolerują wapnia.
+
+
+MIEJSCE WAPNOWANIA W ZMIANOWANIU
+
+Pod jakie rośliny należy stosować wapnowanie melioracyjne? Skuteczność wapno-
+wania jest największa w drugim, a nawet trzecim roku po zastosowaniu zabiegu. Na
+ujawnienie się dodatnich skutków wapnowania wpływa dokładne wymieszanie go
+z glebą poprzez stosowanie kilku zabiegów uprawowych. Potrzebny jest jeszcze czas
+na dokonanie się w glebie szeregu procesów następujących w wyniku wapnowania
+(wzrost aktywności mikroflory, poprawa struktury gleby). W zmianowaniu z dobo-
+rem roślin wrażliwych i bardzo wrażliwych na kwaśny odczyn gleby nawozy wapnio-
+we można stosować w zasadzie pod każdą roślinę. W praktyce rolniczej zazwyczaj
+wapnowanie stosowane jest bezpośrednio pod rośliny najbardziej wrażliwe (lucerna,
+burak cukrowy). Jest to jednak postępowanie mało racjonalne. Lepiej jest zastoso-
+wać wapno pod ich przedplony. Niekorzystne jest w szczególności wapnowanie pola,
+przeznaczonego od pod uprawę roślin wymagających głębokiej orki, a więc pod lu-
+cernę czy burak cukrowy. W takim przypadku większość wapna zostaje na dnie skiby
+i pozostaje tam przez wiele lat, aż do ponownego zastosowania orki głębokiej. Nie
+należy stosować wysokich dawek wapna pod rośliny, dla których optymalne pH jest
+w granicach odczynu lekko kwaśnego i kwaśnego (łubin żółty, seradela, ziemniak).
+50
+    Wówczas można przenieść wapnowanie na dalsze rośliny (człony) rotacji zmia-
+nowania. Należy także unikać bezpośredniego wapnowania pod len, aby nie obniżyć
+jakości włókna. Nieprzestrzeganie powyższych zaleceń może spowodować choroby
+fizjologiczne u tych roślin, np. silne występowanie parcha na ziemniakach czy chlo-
+rozę łubinu. Natomiast zdecydowanie tolerancyjną rośliną jest żyto, ponieważ znosi
+umiarkowane zakwaszenie, jak również odczyn obojętny, w związku z czym można
+pod nie stosować wysokie dawki wapna.
+
+W zmianowaniu norfolskim:
+okopowe – zboża jare – pastewne – zboża ozime
+
+Z podwójnymi członami zmianowania:
+okopowe – pastewne – zboża ozime – zboża jare
+Nawozy wapniowe można stosować na obydwu polach zbóż po zabiegach uprawy
+pożniwnej.
+
+W zmianowaniach z doborem roślin mało wrażliwych na zakwaszenie:
+Zabieg wapnowania powinien być możliwie odległy w czasie od uprawy: ziemnia-
+ka, lnu, łubinu żółtego. Jeśli czas na to pozwala najlepiej zastosować wapnowanie po
+zbiorze tych roślin, a więc pod orkę siewną lub zimową.
+
+W zmianowaniach z doborem roślin mało wrażliwych i wrażliwych
+na zakwaszenie:
+W takim układzie rośliny mało wrażliwe powinny przychodzić jako pierwsze po
+wapnowaniu lub w dalszej kolejności, a rośliny wrażliwe na zakwaszenie w drugim
+lub trzecim roku po zwapnowaniu
+
+W zmianowaniu specjalistycznym:
+owies – pszenica – jęczmień – rzepak – żyto
+Nawozy wapniowe powinny być zastosowane pod owies.
+
+
+MIEJSCE WAPNOWANIA W SYSTEMIE ZABIEGÓW
+AGROTECHNICZNYCH
+Wapnowanie najlepiej wykonać w systemie zabiegów pożniwnych. Jednak spiętrze-
+nie w tym okresie innych prac polowych odsuwa ten zabieg na okres jesieni przed
+orkami przedzimowymi. Na polach o wyrównanej powierzchni, bez spadków, do-
+puszczalny jest wysiew nawozów wapniowych w zimie. Wa­pnowanie powinno być
+stosowane tam, gdzie jest to organizacyjnie i technicznie możliwe, przy czym im za-
+bieg ten jest przeprowadzony wcześniej, tym większe są jego efekty (tab. 18)
+
+
+                                                                                 51
+                                                                                       Tabela 18
+
+               Miejsce wapnowania w systemie zabiegów agrotechnicznych
+
+     Zespół zabiegów                   Rodzaj zabiegu                Miejsce wapnowania
+                                włókowanie, bronowanie,
+Przedsiewne (wiosenne)                                           nie stosować
+                                kultywatorowanie
+                                                                 nie stosować; wyjątkowo
+Pielęgnacyjne                   bronowanie, redlenie, pielenie
+                                                                 pogłównie na ziemniaki
+                                podorywka, bronowanie,           najlepszy termin stosowania
+Pożniwne
+                                kultywatorowanie                 na­wozów wapniowych
+                                orka siewna, bronowanie,
+Przedsiewne (jesienne)          wałowanie (czasami wał           termin dopuszczalny
+                                tłucząco-kruszacy)
+                                orka przedzimowa              termin dobry, pod warunkiem,
+Przedzimowe
+                                ewentualnie: bronowanie, orka że nie stosuje się obornika
+
+Źródło: Boguszewski W. [1980]
+
+
+
+
+52
+                       TECHNIKA WAPNOWANIA
+
+TYPY ROZSIEWACZY
+
+   Do rozsiewania nawozów wapniowych i wapniowo-magnezowych stosuje się roz-
+siewacze różnych typów w zależności od rodzaju nawozu.
+   Podstawowym kryterium jakie musi spełniać rozsiewacz do nawozów wapnio-
+wych i wapniowo-magnezowych jest równomierny i bezpylny wysiew na całą po-
+wierzchnię pola. Wapna nawozowe charakteryzują się zróżnicowaną wilgotnością
+(od 0% wody w nawozach tlenkowych, czy pyłach dymnicowych ze spalania węgla
+brunatnego do ponad 40% w takich nawozach jak wapno defekacyjne, pokarbidowe,
+kreda jeziorna), stąd ich własności siewne są diametralnie różne.
+
+   Generalnie, ze względu na zawartość wody, nawozy te można podzielić na:
+hh nawozy suche o zawartości wilgoci poniżej 2%, do których należą: nawozy tlenko-
+   we (wapno palone, dolomit prażony, wapno hydratyzowane), wysuszone nawozy
+   węglanowe (wapień i dolomit, pyły dymnicowe);
+hh nawozy o średnim uwilgotnieniu o zawartości wody w przedziale 2-10%, do któ-
+   rych należą nawozy węglanowe produkowane na bazie przedkredowych natural-
+   nych wapieni i dolomitów;
+hh nawozy o dużym uwilgotnieniu o zawartości wody powyżej 10%, do których nale-
+   żą nawozy węglanowe produkowane na bazie młodych geologicznie naturalnych
+   wapieni, kredy jeziorne oraz nawozy wapniowe z produkcji ubocznej (wapno de-
+   fekacyjne czy pokarbidowe).
+
+   W zależnościod zawartości wilgoci nawozy te charakteryzują się następującymi
+własnościami warunkującymi tym samym dobór optymalnego rozsiewacza gwaran-
+tującego odpowiedni ich rozsiew. I tak:
+hh nawozy suche charakteryzują się zazwyczaj dużą zawartością części pylistych
+   (ziarn o wymiarach poniżej 0,1 mm), ziarna te unoszone przez wiatr powodują
+   często duże straty samego nawozu, jak też ze względu na zawartość wapna w for-
+   mie tlenkowej stanowią zagrożenie dla zdrowia przypadkowo znajdujących się
+   w pobliżu ludzi i zwierząt, w nawozach tych absolutnie nie występuje zbrylanie;
+hh nawozy o średnim uwilgotnieniu zawierają znacznie mniej części pylistych, a na-
+   wet jeśli zawartość jest duża to ich wilgotność skutecznie hamuje pylenie, nato-
+   miast nawozy te wykazują znaczną tendencję do zbrylania się, tym wyraźniejszą
+   im wzrasta ich wilgotność;
+hh nawozy o dużym uwilgotnieniu – absolutnie nie występuje pylenie, natomiast wy-
+   kazują bardzo silną tendencję do zbrylania się.
+   Do wysiewania nawozów suchych – pylistych należy stosować rozsiewacze śli-
+makowe, bądź przystawki ślimakowe do rozsiewaczy talerzowych. Oprócz ogólnie
+                                                                                53
+już znanych rozsiewaczy produkcji krajowej, np. Unia Helix, na rynku funkcjonują
+modele producentów UE (Bredal, Amazone, Fortchritt).
+   Rozsiewacze ślimakowe typu BREDAL przeznaczone są do rozsiewania nawo-
+zów pylistych jak i innych nawozów niezbrylających się. Charakterystyczne dla nich,
+oprócz całkowicie bezpylnego rozsiewania, są następujące cechy:
+hh rozsiewana warstwa nawozu na całej swojej szerokości jest równomierna;
+hh nie następuje zatykanie otworów wysypowych dzięki ich dużej średnicy;
+hh ilość rozsiewanego nawozu jest regulowana;
+hh szerokość rozsiewu w zależności od typu rozsiewacza wynosi 6 lub 12 metrów;
+hh prędkość jazdy rozsiewacza podczas pracy wynosi 10 km/godz., co pozwala zwap-
+   nować w ciągu godziny 6-12 ha;
+hh nie ma możliwości przypadkowego uszkodzenia rozsiewacza podczas pracy na
+   nierównościach gruntu, czy kamieniach dzięki wysokiemu zawieszeniu ślimaków
+   i braku części bezpośrednio stykającymi się z powierzchnią ziemi.
+
+    Do rozsiewania popiołów lotnych, zwłaszcza na dużych areałach, można również
+stosować zmodyfikowane cementowozy typu STEYER TRANDERS
+    Nawozy wapniowe i wapniowo-magnezowe o średnim uwilgotnieniu (2-10%
+wody) rozsiewa się za pomocą rozsiewaczy odśrodkowych (talerzowych) różnych ty-
+pów. Należy jednak pamiętać, że ilość rozsiewanych nawozów wapniowych i wapnio-
+wo-magnezowych jest wielokrotnie większa niż klasycznych nawozów mineralnych
+i stosowanie ich na dużych areałach wiąże się ze znacznymi kosztami związanymi
+z częstym ich załadunkiem (zjazd z pola, dojazd pod pryzmę nawozu, załadunek
+nawozu i ponowny wjazd na pole). Optymalnym rozwiązaniem jest stosowanie roz-
+siewaczy o dużej pojemności skrzyni ładownej i o takiej konstrukcji talerzy rozrzu-
+towych, aby szerokość rozrzutu była maksymalnie duża. Rozsiewacze odśrodkowe
+typu BREDAL w zależności od modelu posiadają skrzynię ładowną o pojemności od
+3,6 m³ w modelu K40 do 14,3 m³ w modelu K125, a dzięki możliwości regulacji pręd-
+kości obrotowej talerzy rozrzutowych szerokość rozrzutu może wynosić nawet do
+36 m. Nawozy wapniowe i wapniowo-magnezowe o dużym zawilgoceniu (pow. 10%),
+takie jak: kreda jeziorna, wapno defekacyjne, posodowe, pokarbidowe zbrylają się
+tym silniej jak wzrasta ich wilgotność, toteż rozsiewanie ich rozsiewaczami odśrod-
+kowymi jest utrudnione, a często wręcz niemożliwe. Do rozsiewania tych nawozów
+należy stosować rozrzutniki do obornika z pionowymi bębnami rozrzucającymi np.
+typu FORTSCHRITT.
+
+
+
+
+54
+                          KOSZT WAPNOWANIA
+
+Na koszty wapnowania składają się z nakłady poniesione na zakupu wapna, trans-
+port, pracę i ewentualne usługi. W celu oszacowania kosztów zabiegu wapnowania
+przyjęto założenia:
+dawki wapna (CaO):
+hh wapno węglanowe (50% CaO) – 2,0 t CaO na ha;
+hh wapno tlenkowe (60% CaO) – 3,0 t CaO na ha;
+hh odległość nawożonego pola od gospodarstwa – do 1 km;
+hh załadunek wapna mechaniczny (ładowacz przyczepiany lub czołowy, współpra-
+    cujący z ciągnikiem);
+hh przykładowy typ ciągnika – Ursus C-912 o mocy 55,2 kW.
+    Pracochłonność wykonania zabiegu rozsiewu wapna w zróżnicowanych dawkach
+na powierzchni 1 ha, z wykorzystaniem zestawu maszyn złożonych z przyczepiane-
+go rozsiewacza nawozów i wapna typu N-011 (o ładowności 2,5 t) i ciągnika Ursus
+C-912 oraz ładowacza, przyjęto na podstawie danych normatywnych.
+    W obliczeniach kosztu rozsiewu wapna przyjęto uproszczenie, polegające na
+uwzględnieniu jedynie kosztów zużytego paliwa i smarów, bez uwzględniania cał-
+kowitych kosztów jednostkowych eksploatacji agregatu maszynowego (ciągnika plus
+rozsiewacza nawozów). W obliczeniach nie uwzględniono również kosztów trans-
+portu wapna, gdyż koszty te zostały zawarte w cenach zakupionego wapna do wysie-
+wu, a także kosztów pracy, przyjmując że rolnik wykonuje zabieg wapnowania samo-
+dzielnie i nie korzysta z usług zewnętrznych.
+    Dla wyżej wspomnianego ciągnika Ursus C-912 o mocy 55,2 kW zużycie paliwa
+na 1 godzinę pracy podczas rozsiewu wapna wyniesie 5,6 l na cnh (zużycie w lżej-
+szych pracach polowych – dla warunków transportu polowego). Uwzględniając wy-
+żej wymienione dane, normatywne zużycie paliwa (oleju napędowego) dla wariantu
+rozsiewu wapna tlenkowego w ilości 2,5 t na ha i węglanowego w ilości wyniesie:
+               0,6 cnh x 5,6 l na cnh = 3,4 l dla wapna tlenkowego,
+               0,5 cnh x 5,6 l na ha = 2,8 l dla wapna węglanowego.
+   Przyjmując cenę 1 l oleju napędowego w wysokości 5,80 zł/l oraz koszt olejów,
+których wartość wyniesie 4% wartości zużytego paliwa, wartość zużytego oleju napę-
+dowego dla zabiegu wysiewu wapna wyniesie:
+             3,4 l x 5,80 zł na l x 1,04 = 20,50 zł dla wapna tlenkowego,
+             2,8 l x 5,80 zł na l x 1,04 = 16,90 zł dla wapna węglanowego.
+Przeciętna cena wapna tlenkowego o zawartości około 60% CaO wynosi ok. 220 zł
+za t i wapna węglanowego o zawartości 50% CaO wynosiła 210 zł za t (według danych
+w 2021 r. – Rynek Rolny). Natomiast wartość nawozu dla dawki w czystym składniku
+wynoszącej 1,5 t na ha przyjmie wartość:
+                                                                               55
+            2,5 t na ha x 220,00 zł za t = 550,00 zł na ha dla wapna tlenkowego,
+            2,0 t na ha x 210,00 zł za t = 420,00 zł na ha dla wapna węglanowego.
+    Z kolei łączna wartość kosztów zabiegu rozsiewu wapna (kosztów zużycia paliwa
+i olejów) wraz z wartością zastosowanej dawki wapna w ilości 1,5 t/ha CaO wyniesie:
+       20,50 zł na ha + 550,00 zł na ha = 570,50 zł na ha dla wapna tlenkowego,
+       16,90 zł na ha + 420,00 zł = 436,90 dla wapna węglanowego.
+   Posługując się analogicznymi obliczeniami, w tabeli poniżej przedstawiono war-
+tość zużytego wapna oraz koszty jego aplikacji, jak również łączne koszty poniesione
+przez rolnika na zabieg wapnowania w przypadku pozostałych wariantów (tab. 19).
+
+                                                                                                 Tabela 19
+
+     Koszt aplikacji wapna w zależności od dawki i rodzaju nawozu wapniowego
+
+                                Dawka        Dawka        Nakłady      Wartość      Wartość       Wartość
+       Rodzaj
+                                 CaO         nawozu        pracy*      nawozu       zabiegu       łączna
+  nawozu wapniowego
+                                  [t]          [t]         [cnh]       [zł/ha]      [zł/ha]       [zł/ha]
+ Wapno węglanowe                 1,0           2,0           0,5        420,0        16,90         436,9
+ (50% CaO)                       2,0           4,0           1,0       1680,0        33,80         873,8
+ Wapno tlenkowe                  1,5           2,5           0,6        550,0        20,50         570,5
+ (60% CaO)                       3,0           5,0           1,2       1100,0        41,00        1141,0
+
+* dla rozsiewacza wapna N-011 o ładowności 2,5 t i wydajności W07 = 1,0-1,7 ha na h z załadunkiem mechanicznym
+z wykorzystaniem ciągnika Ursus C-360, C-912 i rozsiewie w warunkach gleb średnich na polu o powierzchni 1 ha
+Źródło: Ochal P. [2017]
+
+   Z uwagi na fakt, że zabieg wapnowania nie jest wykonywany corocznie, a zgodnie
+z zaleceniami powinien być wykonywany co 4-6 lat, to wartość nakładów poniesio-
+nych na wapnowanie w ujęciu rocznym obciążających uprawę danej rośliny zestawio-
+no w tabeli 20.
+                                                                        Tabela 20
+
+                               Koszt wapnowania w ujęciu rocznym
+                                                                                        Wartość łączna
+               Rodzaj                            Dawka CaO      Wartość łączna
+                                                                                           na rok*
+          nawozu wapniowego                         [t]            [zł/ha]
+                                                                                           [zł/ha]
+                                                    1,0               436,9                 109,2
+ Wapno węglanowe (50% CaO)
+                                                    2,0               873,8                 218,5
+                                                    1,5               570,5                 142,6
+ Wapno tlenkowe (60% CaO)
+                                                    3,0              1141,0                 285,2
+* koszt wapnowania rozliczono na okres 4-letni
+Źródło: Ochal P. [2017]
+
+56
+                      WAPNOWANIE GLEBY A POTRZEBA
+                         NAWOŻENIA MAGNEZEM
+
+
+ZAWARTOŚĆ MAGNEZU W GLEBIE
+
+Zawartość przyswajalnego magnezu w glebie oznacza się laboratoryjnie. Potrzeby
+nawożenia magnezem zależą od trzech zasadniczych wskaźników:
+hh zawartości przyswajalnego magnezu w glebie;
+hh odczynu gleby;
+hh nasilenia objawów niedoboru magnezu na roślinach (głównie na zbożach).
+
+
+
+
+               piaski luźne     piaski gliniaste    gleby      gleby    gleby ciężkie
+              słabo gliniaste       lekkie         lekkie     średnie        iły
+
+
+
+     Niska zawartość magnezu przyswajalnego
+     Średnia zawartość magnezu przyswajalnego
+     Wysoka zawartość magnezu przyswajalnego
+
+
+Rys. 12. Zawartość przyswajalnego magnezu w różnych glebach
+
+Źródło: Grzebisz W. [2008]
+
+
+
+
+                                                                                        57
+                                           33
+                                                                       18
+                   39
+                                                                                               23
+                                                 32
+
+                                                                            33
+                                    30
+                  31
+
+                                                           31
+                                                                                               49
+                            24
+                                                                       19
+                                           20
+                                                      33
+          <20                                                                        23
+          20-40
+                                                                  16
+          40-60
+          60-80
+          >80
+
+     gleby o bardzo niskiej i niskiej zawartości magnezu (%)
+
+
+Rys. 13. Udział gleb o bardzo niskiej i niskiej zasobności w magnez przyswajalny (2010-2013)
+
+Źródło: GUS [2015]
+
+
+                                                                                                     Tabela 21
+                                 Wycena zawartości magnezu w glebie
+
+    Kategoria                      Klasa zawartości magnezu (w mg Mg na 100 g gleby)
+  agronomiczna
+      gleby                 b. niska            niska           średnia           wysoka            b. wysoka
+ Bardzo lekkie               do 1,0             1,1-2,0         2,1-4,0           4,1-6,0            od 6,1
+ Lekkie                      do 2,0             2,1-3,0         3,1-5,0           5,1-7,0            od 7,1
+ Średnie                     do 3,0             3,1-5,0         5,1-7,0           7,1-9,0            od 9,1
+ Ciężkie                     do 4,0             4,1-6,0         6,1-10,0         10,1-14,0           od 14,1
+
+Źródło: Fotyma M. [1988]
+
+
+
+58
+                                                                                       Tabela 22
+
+                     Ocena punktowa niedoboru magnezu na roślinach
+
+   Liczba w skali 9o
+     i określenie                                      Objawy na roślinach
+ objawów niedoborów
+       9            brak        bez objawów
+                                15-40% roślin wykazuje na dolnych liściach objawy paciorko-
+     8-6            słabe
+                                watości; rośliny są zielone lub jasnozielone
+                                40-75% roślin żółknie, na pojedynczych liściach występują ob-
+     5-3            silne
+                                jawy paciorkowatości; rośliny miejscami zamierają
+     2-1          b. silne      wszystkie rośliny silnie żółkną i większość z nich zamiera
+
+Źródło: Grzebisz W. [2008]
+
+
+
+Przedziały potrzeb nawożenia magnezem określa się na podstawie:
+hh odczynu gleby;
+hh zawartości przyswajalnego magnezu w glebie;
+hh kategorii agronomicznej gleby;
+hh lub na podstawie objawów niedoboru magnezu na roślinach.
+
+                                                                                       Tabela 23
+
+                             Przedziały potrzeb nawożenia magnezem
+
+                                                       Wskaźniki
+ Nawożenie                                                       objawy            kategoria
+ magnezem                                  zawartość
+                         odczyn                                niedoboru         agronomiczna
+                                            w glebie
+                                                              na roślinach           gleby
+ Konieczne             b. kwaśny            b. niska          b. silne i silne     b. lekkie
+ Potrzebne               kwaśny             b. niska               słabe            lekkie
+                     lekko kwaśny
+ Wskazane                               b. niska i niska           brak            wszystkie
+                       i obojętny
+
+Źródło: Grzebisz W. [2008]
+
+
+
+   Nawozy wapniowo-magnezowe są w Polsce głównym źródłem magnezu.
+W związku z tym nawożenie tym składnikiem jest związane z wapnowaniem.
+   Na glebach kwaśnych i o bardzo niskiej zawartości przyswajalnego magnezu po-
+łowę naliczonej dawki CaO trzeba zastosować w postaci wapna zwykłego, a połowę
+
+                                                                                               59
+w postaci wapna magnezowego o stosunku Ca:Mg jak 3-2:1. Jeżeli dysponujemy na-
+wozami o szerszym stosunku Ca:Mg, to wówczas naliczoną dawkę CaO stosujemy
+w cało­ści w postaci wapna magnezowego (tab. 24).
+   Na glebach kwaśnych i o niskiej zawartości przyswajalnego magnezu 2/3 naliczo-
+nej dawki CaO należy zastosować w postaci wapna zwykłego, a l/3 w postaci wap-
+na magnezowego (tab. 24). Na glebach, na których wapnowanie jest wskazane lub
+potrzeba jego wykonania jest ograniczona, a wykazują one bardzo niską lub niską
+zawartość przyswajalnego magnezu, zaleca się stosowanie bezwapniowych nawozów
+magnezowych. Nawozy te zaleca się również na gleby o bardzo niskiej i niskiej zawar-
+tości przyswajalnego magnezu, na których zastosowano niedawno duże dawki nawo-
+zów wapnio­wych. Na glebach lżejszych wystarczające są dawki 120-160 kg MgO na
+ha, na glebach cięższych 80-120 kg MgO na ha.
+
+                                                                                       Tabela 24
+
+        Optymalne dawki nawozów wapniowo-magnezowych w t/ha CaO + MgO1/
+
+                                               Zawartość magnezu w glebie
+       Kategoria                      bardzo niska                          niska
+     agronomiczna
+         gleby                                Przedział potrzeb wapnowania
+                             konieczne         potrzebne       konieczne            potrzebne
+     Bardzo lekkie              1,5                  1,0          1,0                  0,7
+     Lekkie                     1,7                  1,2          1,2                  0,8
+     Średnie                    2,2                  1,5          1,5                  1,0
+     Ciężkie                    3,0                  1,5          2,0                  1,0
+
+1/
+     o stosunku Ca:Mg jak 3-2:1
+
+Źródło: Grzebisz W. [2008]
+
+
+
+
+60
+                                                 TYPY WAPNA NAWOZOWEGO
+
+                                          Typy wapna nawozowego niezawierającego magnezu
+                               Odmiana
+
+
+                                                                     Minimalna
+                                         Składniki podstawowe
+ Typ                                                                 zawartość         Inne wymagania
+                                          i sposób otrzymywania
+                                                                      CaO %
+
+                                         Tlenek wapnia.
+                               01                                       80
+                                         Przerób skał wapiennych
+  Z przerobu skał wapiennych
+
+
+
+
+                                                                                 Odsiew na sicie o wymiarze
+                                         Tlenek wapnia.
+                               02                                       70       boku oczek kwadratowych:
+                                         Przerób skał wapiennych
+                                                                                 2 mm, %, najwyżej 25
+                                         Tlenek wapnia. Przerób
+                               03                                       60
+                                         skał wapiennych
+                                         Tlenek wapnia i węglan                  Odsiew na sicie o wymiarze
+                                         wapnia lub węglan                       boku oczek kwadratowych:
+                               04                                       50
+                                         wapniowy. Przerób skał                  2 mm, %, najwyżej 10; przesiew
+                                         wapiennych                              przez sito o wymiarze boku
+                                         Węglan wapnia. Przerób                  oczek kwadratowych: 0,5 mm,
+                               05                                       40
+                                         skał wapiennych                         %, co najmniej 50
+                                         Tlenek wapnia, węglan
+                                                                                 Zawartość wody, %,
+                                         wapnia, krzemiany wapnia.
+                                                                                 najwyżej 10; zawartość
+                               06        Wapno posodowe suche,          35
+                                                                                 chlorków, %,
+                                         wapno defekacyjne, wapno
+                                                                                 najwyżej 2,51)
+                                         pokarbidowe
+                                         Węglan wapnia.
+                                         Wapno pocelulozowe,
+                                                                                 Zawartość wody, %,
+  Z produkcji ubocznej
+
+
+
+
+                                         wapno posiarkowe,
+                                                                                 najwyżej 30; zawartość
+                                         wapno dekarbonizacyjne,
+                                                                                 chlorków, %, najwyżej 3,52)
+                               07        wapno defekacyjne,             30
+                                                                                 lub 33);
+                                         wapno pokarbidowe
+                                                                                 zawartość siarczków, %,
+                                         wilgotne, wapno posodowe
+                                                                                 najwyżej 1,54)
+                                         podsuszone, wapno
+                                         pogaszalnicze podsuszone
+                                         Węglan wapnia. Wapno
+                                                                                 Zawartość wody, %,
+                                         defekacyjne, wapno
+                                                                                 najwyżej 40;
+                                         posodowe odsączone,
+                               08                                       25       zawartość chlorków, %,
+                                         wapno pocelulozowe
+                                                                                 najwyżej 33)
+                                         wilgotne, wapno
+                                                                                 lub 3,52)
+                                         poneutralizacyjne
+                                         Węglan wapnia. Wapno
+                                                                                 Zawartość wody, %,
+                               09        defekacyjne mokre, wapno       20
+                                                                                 najwyżej 50
+                                         posodowe mokre
+
+Źródło: dane Ministra Gospodarki i Pracy, 2004
+
+                                                                                                               61
+                                          Typy wapna nawozowego niezawierającego magnezu
+
+
+                               Odmiana
+                                                                        Minimalna
+                                             Składniki podstawowe
+        Typ                                                             zawartość     Inne wymagania
+                                             i sposób otrzymywania
+                                                                         CaO %
+
+                                         Węglan wapnia, wapno kredowe               Zawartość wody,
+     Pochodzenia naturalnego
+
+
+
+
+                               06a                                         35
+                                         suche                                      %, najwyżej 10
+                                         Węglan wapnia, wapno kredowe               Zawartość wody,
+                               07a                                         30
+            kopalina
+
+
+
+
+                                         podsuszone                                 %, najwyżej 30
+                                                                                    Zawartość wody,
+                               08a Węglan wapnia, kreda odsączona          25
+                                                                                    %, najwyżej 40
+                                         Węglan wapnia, wapno kredowe               Zawartość wody,
+                               09a                                         20
+                                         mokre                                      %, najwyżej 50
+
+
+Objaśnienia do tabeli:
+
+1/
+   tylko dla wapna posodowego suchego.
+2/
+   tylko dla wapna pocelulozowego.
+3/
+   tylko dla wapna posodowego podsuszonego, wapna posodowego odsączonego i wapna posodowego mokrego.
+4/
+   tylko dla wapna pocelulozowego i posiarkowego.
+
+Źródło: dane Ministra Gospodarki i Pracy, 2004
+
+
+
+
+Wysiew nawozu wapniowego (fot. pixabay darmowe)
+
+62
+                          Typy wapna nawozowego zawierającego magnez
+
+                                                   Minimalna
+                                                   zawartość
+                                                  składników
+            Odmiana
+
+
+                      Składniki podstawowe        nawozowych
+Typ
+
+
+
+
+                                                                       Inne wymagania
+                      i sposób otrzymywania
+                                                 CaO +   w tym
+                                                 MgO     MgO
+                                                  [%]     [%]
+               Tlenek wapnia i tlenek magne-
+               zu oraz węglan wapnia i węglan                    Odsiew na sicie o wymiarze
+            01 magnezu. Prażenie, mielenie,       75      25     boku oczek kwadratowych:
+               odsiewanie skał wapniowo-                         2 mm, %, najwyżej 25
+Tlenkowe
+
+
+
+
+               -magnezowych
+               Tlenek wapnia i tlenek magne-
+               zu oraz węglan wapnia i węglan                    Odsiew na sicie o wymiarze
+            02 magnezu. Prażenie, mielenie,       60      20     boku oczek kwadratowych:
+               odsiewanie skał wapniowo-                         2 mm, %, najwyżej 25
+               -magnezowych
+               Węglan wapnia i węglan ma-
+               gnezu lub węglan wapnia, wę-                      Zawartość wody, %, najwyżej
+               glan magnezu, tlenek wapnia                       10; odsiew na sicie o wymia-
+               i tlenek magnezu. Mielenie,                       rze boku oczek kwadratowych
+            03 odsiewanie skał wapniowo-          50      15     2 mm, %, najwyżej 10; prze-
+               -magnezowych lub mieszanie                        siew przez sito o wymiarze
+               skał wapniowo-magnezowych                         boku oczek kwadratowych
+               z prażonymi skałami wapnio-                       0,5 mm, %, co najmniej 50
+               wo-magnezowymi
+               Węglan wapnia i węglan ma-                        Zawartość wody, %, najwyżej
+Węglanowe
+
+
+
+
+               gnezu lub węglan wapnia, wę-                      10; odsiew na sicie o wymia-
+               glan magnezu i tlenek wapnia.                     rze boku oczek kwadratowych
+            04 Mielenie, odsiewanie, miesza-      50       8     2 mm, %, najwyżej 10; prze-
+               nie skał wapniowo-magnezo-                        siew przez sito o wymiarze
+               wych ze skałami wapniowymi                        boku oczek kwadratowych
+               lub tlenkiem wapnia                               0,5 mm, %, co najmniej 50
+                                                                 Zawartość wody, %, najwyżej
+                                                                 10; odsiew na sicie o wymia-
+               Węglan wapnia i węglan ma-                        rze boku oczek kwadratowych
+            05 gnezu. Mielenie, odsiewanie        45      15     2 mm, %, najwyżej 10; prze-
+               skał wapniowo-magnezowych                         siew przez sito o wymiarze
+                                                                 boku oczek kwadratowych
+                                                                 0,5 mm, %, co najmniej 50
+
+Źródło: dane Ministra Gospodarki i Pracy, 2004
+
+                                                                                           63
+                          Typy wapna nawozowego zawierającego magnez
+
+                                                   Minimalna
+                                                   zawartość
+                                                  składników
+            Odmiana
+
+
+                      Składniki podstawowe        nawozowych
+Typ
+
+
+
+
+                                                                       Inne wymagania
+                      i sposób otrzymywania
+                                                 CaO +   w tym
+                                                 MgO     MgO
+                                                  [%]     [%]
+               Węglan wapnia i węglan ma-                        Zawartość wody, %, najwyżej
+               gnezu lub węglan wapnia, wę-                      10; odsiew na sicie o wymia-
+               glan magnezu i tlenek wapnia.                     rze boku oczek kwadratowych
+            06 Mielenie, odsiewanie, miesza-      45       8     2 mm, %, najwyżej 10; prze-
+               nie skał wapniowo-magnezo-                        siew przez sito o wymiarze
+               wych ze skałami wapniowymi                        boku oczek kwadratowych
+Węglanowe
+
+
+
+
+               lub tlenkiem wapnia                               0,5 mm, %, co najmniej 50
+               Węglan wapnia i węglan ma-                        Zawartość wody, %, najwyżej
+               gnezu lub węglan wapnia, wę-                      10; odsiew na sicie o wymia-
+               glan magnezu i tlenek wapnia.                     rze boku oczek kwadratowych
+            07 Mielenie, odsiewanie, miesza-      40       8     2 mm, %, najwyżej 10; prze-
+               nie skał wapniowo-magnezo-                        siew przez sito o wymiarze
+               wych ze skałami wapniowymi                        boku oczek kwadratowych
+               lub tlenkiem wapnia                               0,5 mm, %, co najmnie
+
+Źródło: dane Ministra Gospodarki i Pracy, 2004
+
+
+
+    Typy wapna nawozowego oraz szczegółowe wymagania jakościowe dla nich okre-
+śla Załącznik do Rozporządzenia Ministra Gospodarki i Pracy z dnia 19 maja 2004 r.
+w sprawie określenia typów wapna nawozowego [Dz. U. Nr 130, poz. 1384].
+
+
+
+
+64
+                                 LITERATURA
+
+5. Bednarek W., Lipiński W.: Kationy wymienne w glebie poddanej oddziaływaniu
+    zróżnicowanego nawożenia mineralnego. Zesz. Probl. Post. Nauk Roln., 1998,
+    456: 147-151.
+6. Boguszewski W.: Wapnowanie gleb. PWRiL, Warszawa 1980. ss. 176.
+7. Chmurzyńska K.: Efekty WPR w odniesieniu do obszarów wiejskich, [w:] Wigier
+    M. (red.) Analiza efektów realizacji polityki rolnej wobec rolnictwa i obszarów
+    wiejskich. IERiGŻ-PIB (PW 2011-2014), Warszawa. 2011, 26: 37-55.
+8. Buckman H.C., Brady N.C. 1971. Gleba i jej właściwości. PWRiL, Warszawa.
+9. Dechnik I.: Wpływ nawożenia na właściwości gleby. Zesz. Probl. Post. Nauk Roln.,
+    1987, 324: 81-106.
+10. Dyrektywa Rady z dnia 12 grudnia 1991 r. dotycząca ochrony wód przed zanie-
+    czyszczeniami powodowanymi przez azotany pochodzenia rolniczego (91/676/
+    EWG).
+11. Filipek T., Fotyma M., Lipiński W.: Stan, przyczyny i skutki zakwaszenia gleb or-
+    nych w Polsce. Nawozy i Nawożenie - Fertilizers and Fertilization. 2006 27: 7-38.
+12. Filipek T., Skowrońska M.: Aktualnie dominujące przyczyny oraz skutki zakwa-
+    szenia gleb użytkowanych rolniczo w Polsce. Acta Agrophysica, 2013, 20(2): 283-
+    294.
+13. Filipek T.: Dynamika antropogenicznych przyczyn zakwaszenia gleb w Polsce
+    w ostatnich latach. Nawozy i Nawożenie – Fertilizers and Fertilization. 2005, 23:
+    67-83.
+14. Filipek T.: Przyrodnicze i antropogeniczne przyczyny oraz skutki zakwaszenia
+    gleb. Nawozy i Nawożenie - Fertilizers and Fertilization, 2001, 8: 5-26.
+15. Fotyma M., Igras J., Kopiński J., Podyma W.: Ocena zagrożeń nadmiarem azotu
+    pochodzenia rolniczego w Polsce na tle innych krajów europejskich. Studia i Ra-
+    porty IUNG-PIB, 2010, 20: 53-75.
+16. Fotyma M., Pietruch C.: Aktualny stan zakwaszenia gleb i zapotrzebowanie na
+    nawozy wapniowe w Polsce. Nawozy i Nawożenie – Fertilizers and Fertilization.
+    2005, 3(8).
+17. Fotyma M., Zięba S.: Przyrodnicze i gospodarcze podstawy wapnowania gleb.
+    PWRiL. Warszawa, 1988.
+18. Fotyma M., Zięba S.: Przyrodnicze i gospodarcze podstawy wapnowania gleb.
+    Wyd. PWRiL, Warszawa, 1988, ss. 250. ISBN 83-09-01397-3.
+19. Grzebisz W., Diatta J.B., Szczepaniak W.: Produkcyjne i ekologiczne uwarunko-
+    wania wapnowania gleb gruntów ornych. Nawozy i Nawożenie – Fertilizers and
+    Fertilization. 2006 27: 69-85.
+20. Grzebisz W., Szczepaniak W., Diatta J .B.: ABC wapnowania gleb uprawnych. Pro-
+    druk Poznań, 2008, ss. 49.
+
+
+                                                                                  65
+21. Grzebisz W., Szczepaniak W., Diatta J. B.: Środowiskowe skutki zakwaszenia gleb
+    uprawnych. Studia i Raporty IUNG-PIB, 2013, 34(8):19-26.
+22. Grzebisz W. (red.): Potas w produkcji roślinnej. AR w Poznań, IPI, 2004.
+23. GUS. Rocznik Statystyczny Rolnictwa. Główny Urząd Statystyczny, Warszawa,
+    2015.
+24. GUS. Rocznik Statystyczny Rolnictwa. Główny Urząd Statystyczny, Warszawa,
+    2020.
+25. Harasim A.: Przewodnik ekonomiczno-rolniczy w zarysie. IUNG-PIB Puławy,
+    2006, ss. 171. ISSN 83-89576-36-8.
+26. Igras J., Kopiński J., Matyka M., Ochal P.: Zużycie nawozów mineralnych w Polsce
+    w układzie regionalnym. Studia i Raporty IUNG-PIB, 2010, 25: 9-19.
+27. Jadczyszyn J., Jończyk K., Filipiak K., Siebielec G., Stuczyński T., Koza P.:Zasady
+    racjonalnego użytkowania i kształtowania obszarów problemowych rolnictwa.
+    Instrukcja upowszechnieniowa 178. Wydawnictwo IUNG-PIB, Puławy 2010, str.
+    27-54.
+28. Jadczyszyn T., Maćkowiak Cz., Kopiński J.: Model SFOM narzędziem symulowa-
+    nia ilości i jakości nawozów organicznych. Pam. Puł., 2000, 120/I: 169-177.
+29. Jadczyszyn T.: Ocena zrównoważenia gospodarki nawozowej w Polsce. Studia
+    i Raporty IUNG-PIB, 2012, 29:135-142.
+30. Jadczyszyn T., Ochal P. Zakwaszenie gleb i potrzeby wapnowania. Studia i Rapor-
+    ty IUNG-PIB, 2013, 34(8):9-18.
+31. Jadczyszyn T. Nowe zalecenia w zakresie wapnowania gleb. Studia i Raporty
+    IUNG-PIB, 2021, 65(19): 99-109.
+32. Katalog norm i normatywów. SGGW Warszawa, 1991 s. 276.
+33. Klepacki B.: Wybrane pojęcia z zakresu organizacji gospodarstw, produkcji i pra-
+    cy w rolnictwie. SGGW, Warszawa, 1997, ss. 148. ISBN 83-00-03060-3.
+34. KOBIZE (Krajowy Ośrodek Bilansowania i Zarządzania Emisjami): Krajowy Bi-
+    lans Emisji SO2, NOx, CO, NH3, NMLZO, pyłów, metali ciężkich i TZO za lata
+    2014-2015 w układzie klasyfikacji SNAP. Raport syntetyczny, 2017.
+35. Kopiński J., Nieróbca A. Ochal P.: Ocen wpływu warunków pogodowych i zakwa-
+    szenia gleb w Polsce na kształtowanie produkcyjności roślinnej. Woda-Środowi-
+    sko-Obszary Wiejskie. 2013, t. 13, z. 2(42): 53-63.
+36. Kopiński J.: Bilans azotu brutto -agrośrodowiskowy wskaźnik zmian oddziaływa-
+    nia produkcji rolniczej na środowisko. Metodologia, wyniki bilansu na poziomie
+    NUTS-0, (Polska) NUTS-2 (województwa). Monografie i Rozprawy Naukowe
+    IUNG-PIB, 2017, 55, ss. 111.
+37. Kopiński J.: Ocena zmian efektywności wykorzystania azotu w produkcji rolniczej
+    Polski. Rocz. Nauk. SERiA, 2017b, 19(1): 88-94. ISSN 1508-3535.
+38. Kopiński J.: Stopień polaryzacji intensywności i efektywności produkcji rolniczej
+    w Polsce w ostatnich 10 latach. Roczn. Nauk. SERiA. 2013, 15(1): 97-103. ISSN
+    1508-3535.
+
+
+
+66
+39. Kopiński J.: Tendencje zmian intensywności produkcji rolniczej w Polsce
+    w aspekcie oddziaływań środowiskowych. Zesz. Nauk. SGGW, ser. Probl. Rol.
+    Świat, Warszawa, 2011, 11(4): 95-104.
+40. Kozłowski S., Goliński P.: Nawożenie użytków zielonych. W: Łąkarstwo. Podręcz-
+    nik akademicki (red. M. Rogalski). Wydawnictwo Kurpisz S.A. Poznań 2004, 161-
+    190.
+41. Lipiński W.: Odczyn gleb Polski. Nawozy i Nawożenie – Fertilizers and Fertiliza-
+    tion, 2005, 2(23): 33-40.
+42. Lipiński W.: Odczyn gleb Polski. Nawozy i Nawożenie – Fertilizers and Fertiliza-
+    tion, 2005, 23: 33-40.
+43. Lipiński W.: Odczyn i zasobność gleb w świetle badań stacji chemiczno-rolni-
+    czych. Nawozy i Nawożenie, 2000, 3: 89-105.
+44. Materiały konferencyjne.: Wapnowanie gleb – wyzwanie dla Polskiej gospodarki.
+    Puławy, 26 września 2012.
+45. Mazur T., Mineev M.V., Debreczeni B.: Nawożenie w rolnictwie biologicznym.
+    Podręcznik akademicki. Wyd. ART. Olsztyn 1993.
+46. Ochal P.: Aktualny stan i zmiany żyzności gleb w Polsce. Studia i Raporty IUNG-
+    -PIB, 2015, 45(19): 9-26.
+47. Ochal P.: Innowacje na rynku nawozów wapniowych w Polsce. Studia i Raporty
+    IUNG-PIB, 2016 48(2): 35-48.
+48. Ochal P.: Wapnowanie podstawowym elementem dobrych praktyk rolniczych.
+    Studia i Raporty IUNG-PIB, 2014, 37(11), s. 9-18.
+49. Ochal P.: Regeneracyjne wapnowanie gleb w Polsce. Instrukcja upowszechnienio-
+    wa nr 198. IUNG-PIB, Puławy, 2012.
+50. Ochal P.: Wykorzystanie syntetycznego wskaźnika do oceny stanu agrochemicz-
+    nego gleb w Polsce. Praca doktorska (maszynopis) IUNG-PIB, Puławy, 2011.
+51. Ochal P., Jadczyszyn T., Jurga B., Kopiński J., Matyka M., Madej A., Rutkowska A.,
+    Smreczak B., Łysiak M. Środowiskowe aspekty zakwaszenia gleb w Polsce. Opra-
+    cowanie IUNg-PIB dla Ministerstwa Rolnictwa i Rozwoju Wsi. Puławy 2017.
+52. Okruszko H.: Zasady nawożenia gleb torfowych. [W]: Gospodarowanie na gle-
+    bach torfowych w świetle 40-letniej działalności Zakładu Doświadczalnego Bie-
+    brza. Bibl. Wiad. IMUZ 77. Wyd. IMUZ Falenty, 1991, 87-104.
+53. PN-ISO 10390: 1997: Jakość gleby − oznaczanie pH.
+54. Sapek B.: Wpływ wapnowania na zawartość i pobranie kadmu i ołowiu przez ro-
+    ślinność łąki trwałej. Rocz. Gleboz. 1991, 42: 223-228.
+55. Szczepaniak W.: Produkcyjne i środowiskowe skutki zakwaszenia gleb. Farmer
+    (elektronicznie), Poznań 2017.
+56. Zalecenia nawozowe. Cz I. Liczby graniczne do wyceny zawartości w glebach ma-
+    kro- i mikroelementów. Puławy 1990, seria P(44).
+57. Zalecenia nawozowe. Cz. II. Optymalne dawki nawozów na gruntach ornych. Pu-
+    ławy, seria P(32).
+
+
+
+                                                                                   67
+          INSTYTUT UPRAWY NAWOŻENIA I GLEBOZNAWSTWA
+                  PAŃSTWOWY INSTYTUT BADAWCZY
+                       24-100 Puławy, ul. Czartoryskich 8,
+                tel.: (81) 4786700, 4786800, fax: (81) 4786900
+              e-mail: iung@iung.pulawy.pl; www.iung.pulawy.pl
+
+
+
+
+ISBN 987-83-7562-378-9
+
