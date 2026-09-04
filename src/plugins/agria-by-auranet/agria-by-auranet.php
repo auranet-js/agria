@@ -3,7 +3,7 @@
  * Plugin Name:       Agria by Auranet
  * Plugin URI:        https://auranet.pl
  * Description:       Modular plugin for Agria website. Catalog mode, custom templates, product features and more.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Auranet
  * Author URI:        https://auranet.pl
  * Text Domain:       agria-auranet
@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
 
 // ── Stałe ────────────────────────────────────────────────────────────────────
 
-define( 'AGRIA_VERSION',     '1.0.0' );
+define( 'AGRIA_VERSION',     '1.1.0' );
 define( 'AGRIA_PLUGIN_FILE', __FILE__ );
 define( 'AGRIA_PLUGIN_DIR',  plugin_dir_path( __FILE__ ) );
 define( 'AGRIA_PLUGIN_URL',  plugin_dir_url( __FILE__ ) );
