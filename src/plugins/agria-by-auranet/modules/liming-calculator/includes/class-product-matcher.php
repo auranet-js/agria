@@ -128,11 +128,13 @@ class Agria_Product_Matcher {
             // pa_min-cao niesie sumę CaO+MgO, więc magnez trzeba odjąć
             $cao_pct = self::extract_cao_percent_net( $product_id );
 
-            $by_mg     = round( ( $dose_mgo_kg / ( $mgo_pct / 100 ) ) / 1000, 2 ); // t nawozu/ha
-            $cao_given = round( $by_mg * ( $cao_pct / 100 ), 2 );                  // t CaO/ha z tej dawki
-            $cao_left  = max( 0, round( $cao_dose - $cao_given, 2 ) );             // t CaO/ha brakujące
+            // Zaokrąglamy dopiero przy wyświetleniu, tak jak prototyp — pośrednie
+            // przycięcie do dwóch miejsc przesuwało wynik o 0,01 t/ha (#319: 0,855)
+            $by_mg     = ( $dose_mgo_kg / ( $mgo_pct / 100 ) ) / 1000; // t nawozu/ha
+            $cao_given = $by_mg * ( $cao_pct / 100 );                  // t CaO/ha z tej dawki
+            $cao_left  = max( 0, round( $cao_dose - $cao_given, 2 ) ); // t CaO/ha brakujące
             $topup_t   = ( $cao_left > 0 && $topup['cao_pct'] > 0 )
-                ? round( $cao_left / ( $topup['cao_pct'] / 100 ), 2 )
+                ? $cao_left / ( $topup['cao_pct'] / 100 )
                 : 0;
 
             $results[] = [
