@@ -270,3 +270,19 @@ Ułożona po: (1) twardych terminach zewnętrznych, (2) oknie sezonowym — paź
 
 **Czeka na AGRIĘ, nie na nas:** **T-105** pakiet OLX (Paweł, do 16.09) · **T-040** status dystrybutora
 Nordkalku · **T-050** zdjęcia na wizytówkę · **T-100** forma dostawy przy cenie Dolomitu.
+
+---
+
+## 8. Prompty wdrożeniowe bloku 0
+
+Osiem pozycji bloku 0 złożone w **trzy wątki** — podział wynika z tego, co dzieli backup, narzędzie
+i tryb pracy, nie z dziedziny.
+
+| Wątek | Obejmuje | Plik | Dlaczego osobno |
+|---|---|---|---|
+| **Produkcja WP** | T-127 · T-097 · T-096 · T-128 · T-113 (T-031, T-063, T-059) | `docs/prompty/wdrozenie/2026-09-08-BLOK-0-produkcja.md` | jedna warstwa, jeden `db_export`, jedna weryfikacja renderem i jeden regres na 62 adresach |
+| **Wizytówka Google** | T-119 · T-120 · T-121 · T-122 | `docs/prompty/wdrozenie/2026-09-08-BLOK-0-wizytowka.md` | **GBP nie ma cofnięcia zmiany** — `patch` nadpisuje pole, jedynym rollbackiem jest wcześniejszy zrzut; inne API i inne ryzyko niż WordPress |
+| **Treść paszarstwa** | T-078 | `docs/prompty/wdrozenie/2026-09-08-BLOK-0-paszarstwo.md` | pisanie, nie konfiguracja — inny tryb pracy i inny rytm |
+
+**T-112** (cena „od 36 zł/t") celowo **nie weszła** do żadnego z nich: jest zablokowana pytaniem
+do Pawła o to, czy kwota jest prawdziwa i jakiej formy dostawy dotyczy.
