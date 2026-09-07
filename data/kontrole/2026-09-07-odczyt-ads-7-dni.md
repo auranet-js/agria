@@ -237,3 +237,67 @@ kliknięcia, a mimo to połowa zapytań o naszą własną nazwę nie widzi nasze
 ⚠️ **Korekta zapisu T-058:** rejestr mówi, że grupa „Wapno magnezowe i kreda" stoi na **1,00 zł**.
 Odczyt 07.09: `ad_group.cpc_bid_micros` = **2,00 zł**, a wszystkie frazy w grupie mają stawkę efektywną
 2,00. Ta część T-058 jest nieaktualna — problemem tej grupy nie jest stawka, tylko **wynik jakości 1–3**.
+
+---
+
+# Część IV — czy Rolnictwo da się przełożyć na organik (pytanie Janka 07.09)
+
+Teza do sprawdzenia: **domykamy Paszarstwem i Marką w Ads, Rolnictwo ciśniemy w SEO.**
+Weryfikacja: GSC Search Analytics, 01.08–03.09 (dane dojrzałe), te same frazy, które kupujemy w Ads.
+
+## A. Paszarstwo — teza potwierdzona bez zastrzeżeń
+
+| kanał | wyświetlenia | kliknięcia |
+|---|---|---|
+| organik (7 fraz kredowych) | **14** | **0** |
+| Ads (grupa Kreda pastewna) | **2 173** | **144** za 169,19 zł |
+
+`kreda pastewna` stoi w organiku na **12,3** przy trzech wyświetleniach, reszta fraz **poza progiem
+prywatności**. Ads jest tu **jedynym kanałem**, kupuje najtaniej w koncie (CPC 1,17) i blokuje go
+**stawka, nie budżet** (utrata przez ranking 49,8%). Treść dopiero powstaje — T-078 na 12.09, T-077 na 30.09.
+
+## B. Marka — nie ma czego domykać, organik już to trzyma
+
+| fraza | pozycja | wyświetlenia | kliknięcia |
+|---|---|---|---|
+| `agria` | **3,4** | 241 | **12** (CTR 4,98%) |
+| `agria tarnów` | **1,6** | 25 | **7** (CTR 28,0%) |
+
+Płacenie za własną nazwę ma sens wyłącznie jako **obrona przed konkurencją licytującą na markę** —
+i to trzeba zobaczyć w Auction Insights (panel; API tego nie udostępnia), zanim dołożymy stawkę.
+⚠️ Sama utrata 50,2% przez ranking przy **QS 8–10** jest nietypowa i wymaga wyjaśnienia, zanim
+uznamy ją za powód do wydatku. Możliwa przyczyna to wieloznaczność frazy „agria" (odmiana ziemniaka).
+
+## C. Rolnictwo — organik NIE jest gotowy przejąć tego ruchu w tym sezonie
+
+| fraza | pozycja organiczna | wyświetlenia | kliknięcia |
+|---|---|---|---|
+| `wapno węglanowe` | 13,3 (karta odm. 04: **9,9**) | **718** | **1** |
+| `wapno nawozowe` | 8,9 (kategoria 11,0 · główna 6,5) | **369** | **1** |
+| `wapno tlenkowe` | 20,4 | 41 | 0 |
+| `kreda nawozowa` | 24,2 | 30 | 0 |
+| `wapno magnezowe` | **43,6** | 26 | 0 |
+| **RAZEM 13 fraz rolniczych** | — | **1 276** | **3** |
+
+**Problemem nie jest brak widoczności, tylko CTR: 0,24% na 1 276 wyświetleniach** — pięć razy gorzej
+niż średnia całego serwisu (M3: 349 kliknięć na 26 856 wyświetleń = 1,3%). Ads na tych samych frazach
+przywiózł **474 kliknięcia**. Zdjęcie Rolnictwa z Ads teraz oznacza utratę praktycznie całego ruchu
+zakupowego w drugiej fali sezonu, bez kanału, który go zastąpi.
+
+⚠️ **Pułapka odczytu, którą trzeba nazwać:** „pozycja 2,0 na `wapno granulowane`" wygląda świetnie,
+ale to **hub `/wapnowanie-gleby/` z 41 wyświetleniami i zerem kliknięć** — hub odpowiada na „ile wapna
+na hektar", nie na „gdzie kupić". Cała oś, na której organik AGRII realnie stoi, jest **informacyjna**:
+zapytania z „granulowan" to **2 212 wyświetleń i 8 kliknięć**, z czego `ile wapna granulowanego na hektar`
+sam daje 1 560 wyświetleń (poz. 7,1) i 5 kliknięć. To jest ruch poradnikowy, nie zakupowy.
+
+## D. Co z tego wynika
+
+1. **Paszarstwo — dociskać Ads.** Jedyny kanał, najtańszy ruch, blokada w stawce.
+2. **Marka — nie dokładać w ciemno.** Najpierw Auction Insights: czy ktoś licytuje na „agria".
+3. **Rolnictwo zostaje w Ads na ten sezon**, bo organik ma tam wyświetlenia bez kliknięć.
+4. **Kierunek „Rolnictwo w SEO" jest słuszny, ale pierwszą robotą nie jest treść, tylko CTR na
+   wyświetleniach, które już mamy.** 1 276 wyświetleń miesięcznie przy CTR 2% (norma dla pozycji 9–11)
+   to **25 kliknięć zamiast 3**. Kandydaci wprost z rejestru: **T-097** (schema `Product` bez `offers`
+   na 19/19 kart — w SERP pełnym sklepów nasz wynik nie ma ceny), **T-094** (8 z 19 kart poza indeksem),
+   meta na kartach produktowych. Karta `weglanowe-odmiana-04` zbiera **614 wyświetleń na poz. 9,9
+   i jedno kliknięcie** — to jest najlepszy pojedynczy przykład tego problemu w całym serwisie.
