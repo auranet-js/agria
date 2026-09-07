@@ -99,3 +99,84 @@ w niedziele i poniedziałki końca sierpnia i września telefonów przybyło.
 - **T-087** — kanał importu GA4 → Ads potwierdzony działającym `phone_click` z 03.09.
 - **Nowe:** budżet września wychodzi ~50% poza 1 200 zł. Do decyzji Janka przed najbliższą niedzielą
   (13.09), bo każdy dzień emisji to ~107 zł.
+
+---
+
+# Część II — gdzie tracimy konwersję (analiza 07.09, na prośbę Janka)
+
+Trzy znaleziska, w kolejności siły. Okno: Ads 14.08–07.09 (431 kliknięć, 1 158 zł), GA4 01.06–07.09.
+
+## A. Ads mierzy kanał, którym prawie nikt się nie kontaktuje
+
+Wszystkie zdarzenia kontaktowe w GA4 przez **trzy miesiące**, cały ruch:
+
+| zdarzenie | ile | status w Ads |
+|---|---|---|
+| `form_start` | **37** | nieimportowane |
+| **`form_submit`** | **32** | **pomocnicza** (DEFAULT, `include_in_conversions` = false) |
+| `phone_click` | **3** | **główna** (PHONE_CALL_LEAD) |
+| `email_click` | 2 | nieimportowane |
+| `whatsapp_click` | 2 | nieimportowane |
+| **`generate_lead`** | **1** | **główna** (SUBMIT_LEAD_FORM) |
+
+**Formularz domyka się w 86%** (37 rozpoczęć → 32 wysłania) i jest jedynym kanałem o realnej masie.
+Kolumna „Konwersje" w Ads liczy natomiast `phone_click` (3) i `generate_lead` (1) — **łącznie 4 zdarzenia
+kwartalnie** — a ignoruje 32 wysłane formularze.
+
+⚠️ **Uzasadnienie z 24.08 okazało się nieprawdziwe.** Zapisaliśmy wtedy: „`form_submit` świadomie zostaje
+pomocniczy, bo formularz jest już pokryty przez `generate_lead` (główna), a podniesienie obu dawałoby
+podwójne liczenie". Pomiar mówi, że **`generate_lead` odpalił się raz na 32 wysłania** — nie pokrywa
+niczego, a ryzyka podwójnego liczenia praktycznie nie ma.
+
+**Ruch:** `form_submit` → konwersja główna, kategoria SUBMIT_LEAD_FORM; `generate_lead` zdjąć z głównych
+albo zdiagnozować, czemu nie odpala. To jedna zmiana w API, zero kosztu, i od razu odsłania leady, które
+kampania już przywozi.
+
+## B. 58,6% budżetu wychodzi, gdy biuro AGRII jest zamknięte
+
+Biuro pracuje **pon.–pt. 8:00–16:00** (godziny ze strony). Emisja idzie 6:00–22:00.
+
+| okno | biuro czynne | weekend | pn–pt poza 8–16 | **zamknięte razem** |
+|---|---|---|---|---|
+| 14.08–07.09, całe konto (1 158 zł) | 478,90 zł (41,4%) | 433,55 zł (37,4%) | 245,65 zł (21,2%) | **679,20 zł — 58,6%** |
+| 30.08–07.09, samo Rolnictwo (469 zł) | 181,50 zł (38,7%) | **226,48 zł (48,3%)** | 60,82 zł (13,0%) | **287,30 zł — 61,3%** |
+
+Przestawienie na niedzielę/poniedziałek/wtorek **podniosło** ten udział, bo niedziela to najdroższy dzień
+tygodnia (105–121 zł) i biuro jest wtedy zamknięte w całości.
+
+To nie jest argument za wyłączeniem niedzieli — teza o rytmie zakupowym rolnika trzyma się w danych
+(niedziela ma najwyższy wolumen). To argument za tym, że **w niedzielę musi konwertować formularz, nie
+telefon** — a formularz właśnie działa (32 wysłania, 86% domknięcia). Landingi mają już zdanie
+„pon.–pt. 8:00–16:00. Poza godzinami — zostaw numer, oddzwonimy"; pytanie brzmi, czy w niedzielę to zdanie
+i formularz są wyeksponowane tak samo mocno jak numer telefonu.
+
+⚠️ **Godzina, której nie kupujemy:** rozkład prób kontaktu (cały ruch, 3 mies.) ma **10 zdarzeń o 5:00 rano**
+— przed startem emisji o 6:00. Szczyt to 14:00–15:00 (31 zdarzeń) i 8:00 (13).
+
+## C. Cena „od 36 zł/t netto" jako wiodąca na landingu, który zjadł 486 zł
+
+`/wapno-nawozowe/` (249 kliknięć, **485,60 zł** — najdroższy adres w koncie) otwiera się zdaniem:
+
+> Wapno węglanowe **od 36 zł/t netto**, tlenkowe od 220 zł/t netto — przy dostawie całosamochodowej 24 t.
+
+Kwota 36 zł/t to cena **węglanowego odm. 05**, którą `FAKTY_KLIENTA.md` §3 wymienia wprost w sekcji
+**„Anomalie cenowe do potwierdzenia"** (taniej niż odm. 04 z magnezem — 50 zł/t — i bez magnezu — 57 zł/t),
+a karta produktu **#316 świadomie nie ma tej kwoty na froncie** (jedna z czterech kart bez ceny).
+Landing publikuje więc jako cenę wiodącą całej kategorii liczbę, której nie publikujemy na karcie.
+
+**Dlaczego to kosztuje:** zapytania cenowe to **27,1% budżetu (205,01 zł, 107 kliknięć)** — druga co do
+wielkości grupa i najbardziej wrażliwa na wiarygodność liczby. Rolnik, który zna rynek, przy granulacie
+po 350 zł/t czyta „36 zł/t" jako błąd albo haczyk. Do rozstrzygnięcia z Pawłem: czy 36 zł/t jest prawdziwe
+i jakiej formy dotyczy.
+
+## D. Tło — to, co działa i czego nie trzeba ruszać
+
+- **Treść nie jest problemem.** GA4 dla ruchu płatnego: **80% sesji zaangażowanych**, średnio 90–130 s na
+  stronie, odrzucenia 20–26%, 505 zdarzeń `scroll` na 129 użytkowników. Ludzie czytają do końca.
+- **Wąskie gardło jest w ostatnim kroku:** 1,44 odsłony na sesję, `/kontakt/` zbiera **9 odsłon z 229**
+  (3,9%), a karty produktów po 2 odsłony. Z landingu prawie nikt nie schodzi głębiej.
+- **Marnotrawstwa w zapytaniach prawie nie ma:** 641 unikalnych fraz, z tego informacyjne **2,7% budżetu**
+  (20,05 zł), cudze marki i marketplace **2,6%** (19,59 zł — Polcalc, Nordkalk, bez Allegro i OLX).
+  Trzon to produktowe ogólne (61,9%) i cenowe (27,1%).
+- **90,5% ruchu to telefon komórkowy** (599 z 662 kliknięć), CTR mobile 11,23% wobec 8,30% na desktopie.
+  Każda zmiana w ścieżce kontaktu ma sens tylko wtedy, gdy działa na ekranie 390 px.
