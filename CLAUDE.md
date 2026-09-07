@@ -75,7 +75,11 @@ Spec: `docs/technical/MCP_TOOLS.md` (opisuje jeszcze stan read-only).
 1. **Parametry produktu żyją w czterech warstwach naraz**: atrybuty `pa_*` (często niewidoczne na froncie),
    tabela w `post_content`, tabela w `_elementor_data`, meta SEO. Zmiana w jednej nie przechodzi
    na pozostałe. **Weryfikuj RENDER przez Chrome MCP, nie bazę.**
-2. **Elementor cache** — `_elementor_element_cache` trzyma stary HTML. Czyść na `a:0:{}`.
+2. **Elementor element-cache jest globalnie WYŁĄCZONY** od 30.07 (`elementor_element_cache_ttl = disable`)
+   — w bazie nie ma ani jednego wiersza `_elementor_element_cache`. ⚠️ **Nie zeruj go przez `a:0:{}`**:
+   Elementor czyta taki wpis jako poprawny **pusty** render i wygasza treść na produkcji (incydent 30.07,
+   HTML spadł 125 → 72 KB na wszystkich stronach). Po zmianie wystarczy `wp elementor flush-css`
+   + `wp cache flush`. Unieważnianie per wpis i reszta pułapek: memory `project_agria_render_caching`.
    Strony **307 / 310 / 320 renderują z `_elementor_data`, NIE z `post_content`** — edycja treści
    posta nic tam nie zmienia.
 3. **Sitemapa RankMath cache'uje się w PLIKACH** `uploads/rank-math/*.xml` — nie w bazie.
