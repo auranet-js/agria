@@ -44,15 +44,16 @@ Zapis przez `scripts/gbp_patch.py` (istnieje, sprawdź jego `updateMask`, zanim 
 ## 1. T-119 — atrybuty, dziś **zero ustawionych**
 
 Odczyt 07.09: `attributes` zwraca pustą listę, choć kategoria „Dostawca nawozów" udostępnia komplet.
-Wypełnij te, które są **prawdziwe** — atrybut niezgodny ze stanem jest gorszy niż jego brak:
+**Zakres rozstrzygnięty przez Janka 07.09: `has_delivery`, WhatsApp i link do kalkulatora.**
+Reszty nie ustawiamy — atrybut niezgodny ze stanem jest gorszy niż jego brak:
 
 | atrybut | dlaczego |
 |---|---|
 | `has_delivery` — **Dostawa** | AGRIA wozi własnym transportem całosamochodowym; to wprost odpowiada temu, jak firma działa |
 | `url_whatsapp` | WhatsApp jest na stronie i w GA4 widać kliknięcia; na wizytówce nie istnieje |
-| `url_facebook`, `url_youtube` | jeśli profile są prowadzone — sprawdź u Janka, nie zgaduj |
-| `url_appointment` | kandydat: `/kalkulator-wapnowania/` albo formularz kontaktowy |
-| `has_onsite_parking`, `pay_*` | do potwierdzenia z Pawłem — plac i formy płatności |
+| ~~`url_facebook`, `url_youtube`~~ | ❌ **NIE ustawiamy** — decyzja Janka 07.09 |
+| `url_appointment` | ✅ **`/kalkulator-wapnowania/`** — decyzja Janka 07.09; to najlepiej klikana strona w serwisie (CTR 5,3%) |
+| `has_onsite_parking`, `pay_*` | **poza zakresem tego wątku** — nie ustawiaj bez potwierdzenia stanu faktycznego |
 
 ⚠️ Atrybuty dostępności (wózki, pętla indukcyjna) **zostaw puste**, dopóki nikt nie potwierdzi stanu
 faktycznego. To nie jest miejsce na optymistyczne założenia.

@@ -119,11 +119,31 @@ ważniejsza niż jego kompletność.
 
 ---
 
+## 5d. T-129 — brakujące zdanie o transporcie na landingach
+
+Karty produktowe mają pełną formułę: „od X zł/t netto **przy dostawie całosamochodowej 24 t.
+Podane kwoty dotyczą samego towaru, bez transportu.**" Landing `/wapno-nawozowe/` — **najdroższy adres
+w koncie, 485,60 zł** — ma tylko pierwszą część, więc warunek czyta się tak, jakby transport był
+wliczony w cenę.
+
+Dopisz drugie zdanie tam i **sprawdź wszystkie landingi z kwotą** (`/wapno-granulowane/` też).
+⚠️ Formuła dokładnie taka jak na kartach — bez żargonu, żadnego „loco magazyn".
+
+## 5e. T-100 — cena Dolomitu na kartę #302
+
+✅ **Odblokowane 07.09:** Janek potwierdził formę dostawy — **luz 24 t**, jak reszta kolumny w cenniku.
+Na kartę wchodzi **od 260 zł/t netto** (frakcje 0,1–0,4 i 0,4–0,8 mm) i **280 zł/t netto** (1–3 mm),
+z warunkiem 24 t i zdaniem o transporcie, wzorem kart #315 i #319. Producent: Siarkopol.
+
+⚠️ Karta ma werdykt „Discovered — currently not indexed" i zero wyświetleń w 90 dniach, więc **sama
+cena tego nie odblokuje** — linkowanie do niej wchodzi w T-094 (blok 2). Po wpisaniu pokrycie cenowe
+rośnie do **17 z 19**, a przy T-097 karta dostaje też `offers`.
+
 ## 6. Czego w tym wątku NIE robisz
 
-- **T-112 (cena „od 36 zł/t")** — zablokowane pytaniem do Pawła: czy 36 zł/t jest prawdziwe i jakiej
-  formy dostawy dotyczy. `FAKTY_KLIENTA.md` §3 trzyma tę kwotę w sekcji „anomalie do potwierdzenia".
-  **Nie zgaduj i nie podmieniaj na własną liczbę.**
+- **Nie ruszasz kwot 36 i 220 zł/t na landingu** — Janek rozstrzygnął 07.09: zostają bez zmian.
+  36 zł/t to karta **#319** (węglanowe z Mg odm. 05, luz 24 t) z cennika Pawła 07.08 i jest prawdziwe;
+  T-112 zamknięte jako zarzut nietrafiony. **Wchodzi natomiast T-129** — patrz niżej.
 - **Nie ustawiaj `_price` ani wariantów WooCommerce** — tryb katalogu jest decyzją.
 - **Nie dokładaj kodu do warstwy zgód** (Complianz, Consent Mode) — wyłącznie ustawieniami.
 - Nie ruszaj konta Google Ads — to osobny wątek po 14.09.

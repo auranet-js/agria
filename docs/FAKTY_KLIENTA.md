@@ -76,7 +76,7 @@ Producent z taksonomii `pa_agria-producent` (MCP, 19.08). Ceny netto **za towar,
 | 318 | AGR-009 | Węglanowe z Mg — odm. 04 | Kopalnia Jażwica (Industria) | 50 | — | — |
 | 319 | AGR-010 | Węglanowe z Mg — odm. 05 | Kopalnia Laskowa + Winna (Industria) | 36 | — | — |
 | 317 | AGR-011 | Węglanowe z Mg granulowane | **Grankal** | — | 370 | 25 kg → 410 zł/t |
-| 302 | AGR-012 | Dolomit | **Siarkopol** | **od 260** (0,1–0,4 i 0,4–0,8 mm) · **280** (1–3 mm) | ⚠️ forma niepodana | — |
+| 302 | AGR-012 | Dolomit | **Siarkopol** | **od 260** (0,1–0,4 i 0,4–0,8 mm) · **280** (1–3 mm) | — | — |
 | 305 | AGR-013 | Kreda nawozowa granulowana | KZK Kornica | — | 410 | 25 kg → 490 zł/t |
 | 306 | AGR-014 | Kreda nawozowa sypka | Kopalnia Drugnia | 125 | — | — |
 | 307 | AGR-015 | Kreda pastewna | Celiny (Hochel) + Lhoist | 190 | — | 30 kg → 610 zł/t |
@@ -88,11 +88,15 @@ Producent z taksonomii `pa_agria-producent` (MCP, 19.08). Ceny netto **za towar,
 **Pokrycie cenowe: 16 z 19** (od 24.08). Bez ceny zostają trzy: **303** Kreda czarna, **313** Tlenkowe z Mg,
 **316** Węglanowe odm. 05.
 
+⚠️ **Nie mylić dwóch odmian 05:** **#319** (AGR-010, węglanowe **z magnezem**, Laskowa + Winna) ma cenę
+**36 zł/t luz 24 t**; **#316** (AGR-007, węglanowe **bez magnezu**, Kopalnia Celiny) ceny nie ma.
+Pomyłka zdarzyła się 07.09 przy analizie landingu — 36 zł/t jest udokumentowane i prawdziwe.
+
 **Dolomit — ceny otrzymane 2026-08-24** (przekazane przez Janka): **od 260 zł/t netto** dla frakcji
 0,1–0,4 mm i 0,4–0,8 mm, **280 zł/t netto** dla frakcji 1–3 mm.
-⚠️ **Do dopytania przed wpisaniem na kartę: której formy dostawy dotyczą te kwoty** (luz 24 t,
-big-bag, worki). Reguła z 19.08 wymaga, żeby cena wiodąca **zawsze** niosła swój warunek dostawy —
-samo „od 260 zł/t" czyta się tak, jakby dotyczyło worka. Bez tej informacji karty nie uzupełniamy.
+✅ **Forma dostawy potwierdzona przez Janka 07.09: luz 24 t** — tak jak reszta cen w tej kolumnie.
+Karta #302 może dostać kwotę z warunkiem „przy dostawie całosamochodowej 24 t" i zdaniem
+„Podane kwoty dotyczą samego towaru, bez transportu" (T-100 odblokowane).
 
 ⚠️ **Korekta wobec wcześniejszego zapisu „Dolomit boli najbardziej — 6 600 wyszukań/mies.".**
 Wolumen jest prawdziwy (pomiar 24.08: 6 600/mies., szczyt III 9 900), ale **nie jest adresowalny kartą
