@@ -170,3 +170,32 @@ Kolejność w grupach = kolejność wartości. `[nowe]` = pozycja założona 07.
 | **T-059** | Lekki formularz „oddzwonimy" | Dzisiejszy formularz wymaga wyboru produktu z dwudziestu opcji, a to on jest jedynym realnie działającym kanałem (**37 rozpoczęć → 32 wysłania**). Wariant callback na landingach ruchu płatnego. |
 | **T-063** | Landingi na wzorcu zamiast surowego HTML | Trzy landingi to nadal surowy HTML w `post_content` przykryty modułem-łatką z 21.08. Przyczyna nie została usunięta, tylko zasłonięta. |
 | **T-108** | Kalkulator czyta CaO+MgO dolomitu jako CaO | Slug niesie sumę, nie samą zawartość wapnia, więc dawka dla dolomitu wychodzi zaniżona. Wykryte przy T-044, nietknięte. |
+
+---
+
+## 6. Poprawka po crawlu Screaming Frog (07.09, wieczór)
+
+Pełny raport: `docs/audits/2026-09-07-CRAWL_SCREAMING_FROG.md`. Crawl 228 adresów z podpiętym GSC
+**zmienia hierarchię z sekcji 5** — grupa A dostaje nową pozycję pierwszą, a jedna teza z T-116 upada.
+
+**`/wapnowanie-gleby/` zbiera 63% wyświetleń całego serwisu** (20 106 z 32 047) i oddaje **120 kliknięć
+przy CTR 0,60%**. Brakuje tam **~483 kliknięć miesięcznie** — przy 410, które cały serwis robi dziś.
+Wszystkie karty produktowe razem to ~57 brakujących kliknięć, czyli jedna dziesiąta tego.
+
+**Przyczyna sprawdzona w SERP-ie, nie zgadnięta** (DFS 07.09, mobile): nad wynikami organicznymi stoi
+**AI Overview** (cytujący m.in. `agria.pl`), **video** i **people also ask**. Jesteśmy trzecim wynikiem
+organicznym i jesteśmy w źródłach AI Overview — a kliknięć nie ma, bo pytanie zostaje rozstrzygnięte
+nad wynikami. To wyjaśnia, czemu T-053 nie dało efektu: problem nie jest w snippecie.
+
+| ID | Hasło | Co to jest |
+|---|---|---|
+| **T-126** `[nowe]` | Hub `/wapnowanie-gleby/` — oś zakupowa zamiast walki o CTR | Największy zasób ruchu w serwisie stoi na zapytaniach, które AI Overview rozstrzyga za nas, więc podnoszenie CTR na nich jest walką z formatem SERP-a. Kierunek: przechwycić z tego ruchu intencję zakupową i przekierować ją na strony ofertowe, oraz mierzyć obecność w AI Overview jako osobny cel. |
+| **T-127** `[nowe]` | Trzy adresy 404 znalezione crawlem | `/polityka-prywatnosci/` oddaje **404**, mimo że to strona wymagana prawnie i linkowana; `/rolnictwo` też 404; na stronie kontaktu adres e-mail Pawła wstawiono jako link **względny**, przez co powstał adres `/kontakt/pawel.bigos@agria.pl`. Trzy drobne naprawy, jedna z nich formalna. |
+| **T-128** `[nowe]` | 1,7 MB obrazów bez ani jednego użycia | Pięć plików (trzy kredy pastewnej po 402–479 KB, dwa Agrobielika) leży w uploadach z zerem odwołań. Do usunięcia albo do wykorzystania na kartach, które dziś nie mają zdjęcia produktu. |
+
+⚠️ **Korekta T-116:** teza, że różnicę w CTR robi **długość tytułu**, nie potwierdziła się. Dla stron
+z ≥100 wyświetleń tytuły <45 znaków dają CTR **1,01%**, a ≥45 znaków **1,16%** — różnica w szumie.
+Zadanie zostaje, ale przed przepisaniem kart trzeba obejrzeć ich SERP-y, tak jak zrobiliśmy dla huba.
+
+⚠️ **Potwierdzone bez zastrzeżeń:** **19 z 19 kart** ma ten sam błąd walidacji —
+`Either 'review', 'aggregateRating' or 'offers' is required`. T-097 stoi.
