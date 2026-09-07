@@ -9,7 +9,16 @@
 > Git zapisuje to, co **napisaliśmy**. Ten plik zapisuje to, co **zlecone i jeszcze niezamknięte** —
 > wymiar, którego commit z natury nie niesie, bo opisuje artefakt, nie stan obowiązku.
 >
-> Stan na **2026-08-24, wieczór — po audycie SEO od nowa.**
+> Stan na **2026-09-07, wieczór — po odczycie 7-dniowym Ads i weryfikacji tezy „Rolnictwo w organik".**
+> Dopisane **T-109…T-115** (`data/kontrole/2026-09-07-odczyt-ads-7-dni.md`). Trzy rzeczy zmieniają obraz planu:
+> **(1)** wszystkie kampanie chodzą na **MANUAL_CPC z wyłączonym eCPC**, więc konwersje nie sterują licytacją —
+> dźwignią jest **wynik jakości**, a `post_click_quality_score` jest **„poniżej średniej" na 34 z 37 fraz** (T-113);
+> **(2)** organik rolniczy ma **1 276 wyświetleń i 3 kliknięcia (CTR 0,24% wobec 1,3% w serwisie)** — pierwszą robotą
+> jest **CTR na istniejących wyświetleniach** (T-097, T-094), nie nowa treść (T-115); **(3)** budżet cyklu 14.08–13.09
+> wyczerpany 07.09 (**1 152,54 zł z 1 200**), kampanie pauzowane przez Janka do **14.09** — nowy cykl liczy się od 14.
+> **T-105 przeniesione do „Czeka na AGRIĘ"** — pakiet OLX przedłuża Paweł, przelew po jego stronie.
+>
+> Poprzedni stan: **2026-08-24, wieczór — po audycie SEO od nowa.**
 > Sekcja treściowa **przepisana na trzy fazy** (ADR `docs/decyzje/2026-08-24-audyt-seo-od-nowa-rozstrzygniecia.md`,
 > podstawa: `docs/audits/2026-08-24-AUDYT_SEO_OD_NOWA.md`). Powód: **od 09.07 opublikowaliśmy dziesięć
 > nowych adresów i Google nie pobrał ani jednego**, a adresy zaindeksowane crawluje codziennie —
