@@ -1,7 +1,7 @@
 <?php
 /**
  * Moduł: SEO / <head> cleanup
- * Drobne, niezależne od motywu poprawki wyjścia w <head> (meta, schema).
+ * Drobne, niezależne od motywu poprawki wyjścia w <head> (meta, schema, LCP).
  *
  * @package Agria
  */
@@ -140,4 +140,79 @@ if ( ! function_exists( 'agria_dodaj_offers_do_produktu' ) ) {
 		return $data;
 	}
 	add_filter( 'rank_math/json_ld', 'agria_dodaj_offers_do_produktu', 99, 1 );
+}
+
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ * LCP strony glownej — preload plakatu hero + wariant mobilny tla (T-031, 07.09)
+ * ─────────────────────────────────────────────────────────────────────────────
+ *
+ * KONTEKST: hero strony glownej (kontener 865bdc5 na stronie 321) ma tlo typu
+ * "video". Zdjecie jest plakatem pod film i jest tym, co widzi uzytkownik przez
+ * pierwsze sekundy — a na telefonie widzi je zawsze, bo film jest tam wylaczony
+ * (background_play_on_mobile zdjete 07.09). To ono jest elementem LCP.
+ *
+ * DWA PROBLEMY, KTORE TEN BLOK ROZWIAZUJE:
+ *
+ * 1. Tlo wchodzi przez CSS jako background-image, wiec przegladarka odkrywa je
+ *    dopiero po sciagnieciu i sparsowaniu arkusza Elementora — czyli pozno,
+ *    juz po tym jak moglaby zaczac pobieranie. Stad preload z fetchpriority.
+ *
+ * 2. Elementor NIE emituje reguly mobilnej dla tla kontenera typu "video" —
+ *    klucz background_image_mobile siedzi w _elementor_data, ale w wygenerowanym
+ *    post-321.css nie powstaje zadne @media (sprawdzone 07.09, po flush-css).
+ *    Dlatego telefon dostawalby plakat 1600 px / 159 KB, ktorego na ekranie
+ *    414 px nie ma jak wykorzystac. Nadpisujemy sama grafike w media query;
+ *    pozycja i background-size zostaja z reguly Elementora.
+ *
+ * DLACZEGO TWARDE ID: to punktowa poprawka jednego hero, nie mechanizm. ID
+ * strony (321) i elementu (865bdc5) sa w komentarzu i w kodzie po to, zeby
+ * bylo widac, ze przy przebudowie strony glownej ten blok trzeba zrewidowac,
+ * a nie zeby dzialal "sam z siebie" na czymkolwiek innym.
+ *
+ * Prog 767 px jest tym samym, ktorego uzywa Elementor w post-321.css.
+ */
+
+if ( ! function_exists( 'agria_hero_lcp' ) ) {
+	/**
+	 * Preload plakatu hero + mobilny wariant tla na stronie glownej.
+	 */
+	function agria_hero_lcp(): void {
+		if ( ! is_front_page() ) {
+			return;
+		}
+
+		$desktop = wp_get_attachment_url( 617 );  // agria-rolnictwo-4-scaled.webp, 1600 px
+		$mobile  = wp_get_attachment_url( 2808 ); // agria-rolnictwo-4-mobile.webp, 800 px
+
+		if ( ! $desktop ) {
+			return;
+		}
+
+		printf(
+			'<link rel="preload" as="image" href="%s" media="(min-width:768px)" fetchpriority="high">' . "\n",
+			esc_url( $desktop )
+		);
+
+		if ( ! $mobile ) {
+			return;
+		}
+
+		printf(
+			'<link rel="preload" as="image" href="%s" media="(max-width:767px)" fetchpriority="high">' . "\n",
+			esc_url( $mobile )
+		);
+
+		// Selektory lustrzane wobec tych, ktore generuje Elementor dla 865bdc5.
+		// Ta sama specyficznosc, ale styl idzie pozniej w <head>, wiec wygrywa.
+		printf(
+			'<style id="agria-hero-mobile">@media(max-width:767px){'
+			. '.elementor-321 .elementor-element.elementor-element-865bdc5:not(.elementor-motion-effects-element-type-background),'
+			. '.elementor-321 .elementor-element.elementor-element-865bdc5 > .elementor-motion-effects-container > .elementor-motion-effects-layer'
+			. '{background-image:url("%s");}}</style>' . "\n",
+			esc_url( $mobile )
+		);
+	}
+	// 999, zeby wyjsc PO arkuszach wtyczek i motywu drukowanych w wp_head.
+	add_action( 'wp_head', 'agria_hero_lcp', 999 );
 }
