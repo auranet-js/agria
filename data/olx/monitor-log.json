@@ -110,5 +110,53 @@
   "bez_auto_extend": 0,
   "brak_na_koncie": 0,
   "dni_pakietu": 15
+ },
+ {
+  "kiedy": "2026-09-02 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 14
+ },
+ {
+  "kiedy": "2026-09-03 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 13
+ },
+ {
+  "kiedy": "2026-09-04 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 12
+ },
+ {
+  "kiedy": "2026-09-05 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 11
+ },
+ {
+  "kiedy": "2026-09-06 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 10
+ },
+ {
+  "kiedy": "2026-09-07 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 9
  }
 ]

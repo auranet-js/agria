@@ -9,6 +9,13 @@
 > Git zapisuje to, co **napisaliśmy**. Ten plik zapisuje to, co **zlecone i jeszcze niezamknięte** —
 > wymiar, którego commit z natury nie niesie, bo opisuje artefakt, nie stan obowiązku.
 >
+> **REWIZJA WRZEŚNIOWA 07.09:** kolejność i zakres pozycji na wrzesień przeliczone na świeżych danych
+> (DFS 07.09 + GSC 01.08–03.09 + GBP Performance 01.06–05.09) — **`docs/PLAN_WRZESIEN_2026.md`**.
+> Tam też **lista zadań A–E** (T-116…T-125 nowe) i rozstrzygnięcie w sprawie trzech wizytówek Google.
+> Trzy liczby, które zmieniają priorytety: serwis ma **32 047 wyświetleń i 410 kliknięć (CTR 1,28%)**;
+> szczyt rdzenia jest w **październiku**, a `wapno magnezowe` (X 3 600) stoi na poz. **43,6**, `wapno tlenkowe`
+> (X 1 000) na **20,4**; wizytówka Tarnów dała **31 kliknięć „zadzwoń" za 0 zł**, gdy Ads za 1 158 zł dał **1**.
+>
 > Stan na **2026-09-07, wieczór — po odczycie 7-dniowym Ads i weryfikacji tezy „Rolnictwo w organik".**
 > Dopisane **T-109…T-115** (`data/kontrole/2026-09-07-odczyt-ads-7-dni.md`). Trzy rzeczy zmieniają obraz planu:
 > **(1)** wszystkie kampanie chodzą na **MANUAL_CPC z wyłączonym eCPC**, więc konwersje nie sterują licytacją —
