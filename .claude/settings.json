@@ -25,7 +25,9 @@
       "Bash(convert *)",
       "Bash(identify *)",
       "Bash(mogrify *)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(scp *)",
+      "Bash(ssh agria-prod *)"
     ],
     "deny": [
       "Bash(rm -rf *)",
