@@ -92,6 +92,19 @@ if ( ! function_exists( 'agria_redirect_wycofane_wpisy' ) ) {
 
 		$mapa = array(
 			'/ile-wapna-granulowanego-na-ha/' => '/wapnowanie-gleby/',
+
+			// T-127 (2026-09-07): cztery kafle sektorowe na stronie glownej
+			// wskazywaly na /rolnictwo — adres, ktory nigdy nie istnial i oddawal
+			// 404. Same kafle poprawione tego samego dnia w _elementor_data strony
+			// 321; ta regula lapie linki z zewnatrz i zakladki.
+			'/rolnictwo/'                     => '/wapno-nawozowe-rolnictwo/',
+
+			// T-127 (2026-09-07): /polityka-prywatnosci/ tez nigdy nie istniala,
+			// a wskazywal na nia link pod checkboxem zgody RODO w formularzu
+			// zapytan — czyli z 21 stron naraz, w miejscu wymaganym prawnie.
+			// Zrodlo poprawione w modules/inquiry-form (link idzie na /rodo/);
+			// ta regula obsluguje tych, ktorzy martwy adres zdazyli zobaczyc.
+			'/polityka-prywatnosci/'          => '/rodo/',
 		);
 
 		$uri = wp_parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
