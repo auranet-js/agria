@@ -180,3 +180,60 @@ i jakiej formy dotyczy.
   Trzon to produktowe ogólne (61,9%) i cenowe (27,1%).
 - **90,5% ruchu to telefon komórkowy** (599 z 662 kliknięć), CTR mobile 11,23% wobec 8,30% na desktopie.
   Każda zmiana w ścieżce kontaktu ma sens tylko wtedy, gdy działa na ekranie 390 px.
+
+---
+
+# Część III — dźwignia przy licytacji ręcznej: wynik jakości, nie licznik
+
+**Poprawka do części II.** Wszystkie trzy kampanie chodzą na **MANUAL_CPC z wyłączonym eCPC**
+(odczyt 07.09), więc sygnał konwersji **nie wchodzi do licytacji**. Naprawa oznaczenia konwersji (T-110)
+nie przyniesie ani jednego leada więcej — jej wartość jest wyłącznie raportowa. Wolumen to potwierdza:
+`form_submit` z ruchu płatnego to **2 w sierpniu i 0 we wrześniu** (reszta zgłoszeń — 8 w VIII, 14 w VII,
+6 w VI — przychodzi jako Direct), czyli za mało i na Smart Bidding, i na optymalizację ręczną.
+
+## A. Google od miesiąca ocenia nasze strony docelowe „poniżej średniej"
+
+`post_click_quality_score` na **34 z 37 fraz z wyświetleniami = PONIŻEJ ŚREDNIEJ**. Wyjątkiem są trzy
+frazy brandowe (`agria`, `agria wapno`, `agria tarnów`), które prowadzą **na stronę główną** i mają
+„powyżej średniej" oraz QS **8–10**.
+
+| fraza | QS | reklama | **landing** | przewid. CTR | koszt |
+|---|---|---|---|---|---|
+| `wapno tlenkowe` | **1** | poniżej śr. | **poniżej śr.** | poniżej śr. | 31,41 zł |
+| `wapno węglanowe` | **1** | poniżej śr. | **poniżej śr.** | poniżej śr. | 23,84 zł |
+| `wapno magnezowe` | **2** | średnia | **poniżej śr.** | poniżej śr. | 48,57 zł |
+| `kreda pastewna` | **3** | powyżej śr. | **poniżej śr.** | poniżej śr. | 62,52 zł |
+| `wapno nawozowe` | 5 | powyżej śr. | **poniżej śr.** | średnia | 164,57 zł |
+| `wapno granulowane` | 5 | powyżej śr. | **poniżej śr.** | średnia | 157,00 zł |
+| `agria wapno` | **10** | powyżej śr. | **powyżej śr.** | powyżej śr. | 13,46 zł |
+
+**Przy MANUAL_CPC wynik jakości mnoży stawkę w rankingu i wyznacza faktyczny CPC.** To znaczy, że
+jakość landingu jest tu dźwignią **bezpośrednio kosztową**, nie estetyczną: płacimy 1,95 zł tam, gdzie
+przy landingu ocenionym na „średni" płacilibyśmy mniej za tę samą pozycję. Frazy z QS ≤ 3 zjadły
+**325,71 zł z 1 158 (28%)**.
+
+To spina w całość resztę pomiaru: 431 kliknięć → 2 zgłoszenia (**0,46%**), 80% sesji zaangażowanych,
+1,44 odsłony na sesję, `/kontakt/` 3,9% odsłon. Ludzie czytają i wychodzą. Google widzi to samo i liczy
+nam za to wyższą stawkę.
+
+⚠️ Landingi są **świadomie poza indeksem** (ADR 11.08, kanibalizacja) — to zostaje, bo dotyczy organiku.
+Ale `post_click_quality_score` ocenia doświadczenie po kliknięciu, nie indeksację, więc jedno drugiego
+nie tłumaczy. Otwarta pozostaje **T-063**: trzy landingi to nadal surowy HTML w `post_content`,
+przykryty modułem `plain-content-layout` — łatka, nie wzorzec.
+
+## B. Dwie kampanie tracą połowę wyświetleń przez ranking, nie przez budżet
+
+| kampania / grupa | stawka | CPC | udział wyśw. | **utrata przez ranking** | utrata przez budżet |
+|---|---|---|---|---|---|
+| Rolnictwo — Wapno nawozowe | 2,00 | 1,97 | 10,0% | 2,7% | ~90% (przed 28.08) |
+| Rolnictwo — Wapno granulowane | 2,00 | 1,96 | 10,0% | 3,0% | ~90% |
+| **Paszarstwo — Kreda pastewna** | **1,20** | **1,17** | 34,8% | **49,8%** | 0–22% |
+| **Marka — Brand** | **1,50** | **1,40** | 39,1% | **50,2%** | 0% |
+
+**Paszarstwo kupuje kliknięcie o 40% taniej niż Rolnictwo** (1,17 wobec 1,95) i traci połowę wyświetleń
+**przez stawkę**, nie przez budżet. **Marka** ma najlepszy wynik jakości w koncie (8–10) i najtańsze
+kliknięcia, a mimo to połowa zapytań o naszą własną nazwę nie widzi naszej reklamy.
+
+⚠️ **Korekta zapisu T-058:** rejestr mówi, że grupa „Wapno magnezowe i kreda" stoi na **1,00 zł**.
+Odczyt 07.09: `ad_group.cpc_bid_micros` = **2,00 zł**, a wszystkie frazy w grupie mają stawkę efektywną
+2,00. Ta część T-058 jest nieaktualna — problemem tej grupy nie jest stawka, tylko **wynik jakości 1–3**.
