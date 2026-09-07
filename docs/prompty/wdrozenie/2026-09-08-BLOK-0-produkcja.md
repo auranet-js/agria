@@ -51,9 +51,12 @@ WooCommerce, nigdy z ofertownika. `_price` zostaje puste w 19/19 — to decyzja,
 
 - **15 kart ma kwotę `zł/t netto` na froncie** — dla nich `offers` powstaje z tej kwoty,
   z `priceCurrency: PLN`, `availability: InStock`, `priceValidUntil` i `url` karty.
-- **4 karty nie mają kwoty** (302 Dolomit, 303 Kreda czarna, 313 Tlenkowe z Mg, 316 Węglanowe odm. 05).
-  Dla nich **nie wymyślaj ceny** — użyj `AggregateOffer` bez `price` albo zostaw kartę bez `offers`
-  i zapisz to jako świadomy wyjątek. Cena Dolomitu czeka na odpowiedź Pawła (T-100).
+- **302 Dolomit dostaje cenę w tej samej sesji** (T-100, punkt 5e) — więc po jej wpisaniu jest
+  **16 kart z kwotą**, a `offers` powstaje także dla niej.
+- **3 karty zostają bez kwoty** (303 Kreda czarna, 313 Tlenkowe z Mg, 316 Węglanowe **bez Mg** odm. 05).
+  Dla nich **nie wymyślaj ceny** — zostaw kartę bez `offers` i zapisz to jako świadomy wyjątek.
+  ⚠️ **Nie pomyl #316 z #319**: „węglanowe z magnezem odm. 05" (#319) **ma** cenę 36 zł/t luz 24 t;
+  bez ceny jest #316, „węglanowe **bez** magnezu odm. 05".
 
 ⚠️ **Kwota w treści musi się zgadzać z kwotą w schemacie co do złotówki.** Rozjazd to gorszy stan
 niż brak `offers` — Google traktuje to jako wprowadzanie w błąd.
