@@ -144,7 +144,7 @@ ciasteczek `cmplz_*` w przeglądarce.
 
 ## 7. Czego ta decyzja nie obejmuje
 
-- **Test wysyłką formularza przez wylogowaną przeglądarkę** — niewykonany, patrz T-131.
+- ~~Test wysyłką formularza przez wylogowaną przeglądarkę~~ — **wykonany 07.09 o 17:39:48**, zgłoszenie z `/zamowienia/` przeszło (rekord `agria_inquiry` 2816, potem do kosza). Serwer odrzuca wysyłkę z pustym lub nieważnym tokenem i nie tworzy wpisu, więc powstanie rekordu **dowodzi, że odroczona reCAPTCHA zdążyła wydać token**. T-131 zamknięte. ⚠️ reCAPTCHA v3 jest niewidoczna, a plakietkę ukrywa CSS wtyczki — dowodem jest rekord, nie widok strony.
 - **Obrazy 1 445 422 B w 18 plikach** na landingu — osobna pozycja, świadomie nie mieszana
   do tego wdrożenia.
 - **Licencja WP Rocket** — temat Janka, nie doradzamy.
