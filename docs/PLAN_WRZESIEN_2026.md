@@ -199,3 +199,74 @@ Zadanie zostaje, ale przed przepisaniem kart trzeba obejrzeć ich SERP-y, tak ja
 
 ⚠️ **Potwierdzone bez zastrzeżeń:** **19 z 19 kart** ma ten sam błąd walidacji —
 `Either 'review', 'aggregateRating' or 'offers' is required`. T-097 stoi.
+
+---
+
+## 7. KOLEJNOŚĆ — pełna lista otwartych zadań, jedna ścieżka
+
+Ułożona po: (1) twardych terminach zewnętrznych, (2) oknie sezonowym — październik to szczyt rdzenia,
+(3) stosunku zwrotu do kosztu, (4) zależnościach. Numer = kolejność wykonania, nie ważność.
+
+### Blok 0 — do 13.09, kampanie stoją, robota nie kosztuje budżetu mediowego
+
+| # | ID | Zadanie | Dlaczego tutaj |
+|---|---|---|---|
+| 1 | **T-127** | Trzy adresy 404 | `/polityka-prywatnosci/` jest wymagana prawnie i oddaje 404 — to jedyna pozycja na liście z wymiarem formalnym. Godzina roboty. |
+| 2 | **T-097** | Schema `offers` na 19 kartach | Potwierdzone crawlem co do sztuki, dotyka wszystkich kart naraz i wchodzi przed październikiem. |
+| 3 | **T-113** | Pakiet landingowy: **T-031 + T-063 + T-112 + T-059** | Jakość strony docelowej „poniżej średniej" na 34 z 37 fraz podnosi CPC w całym koncie — każdy dzień po 14.09 bez tego kosztuje realne pieniądze. |
+| 4 | **T-078** | Opis kategorii `/paszarstwo/` | Termin własny 12.09, klaster ma 463 wyświetlenia i zero kliknięć. |
+| 5 | **T-119** | Atrybuty wizytówki | Zero ustawionych, w tym „Dostawa" i WhatsApp. Kwadrans roboty na kanale, który dał 31 telefonów za darmo. |
+| 6 | **T-120** | Obszar obsługi wizytówki | Pole puste przy dostawach w promieniu 150 km. |
+| 7 | **T-121** | Publikacje na wizytówce — rytm | Cisza od 20.08; materiał już mamy (kalkulator, atesty, terminarz). |
+| 8 | **T-122** | Opinie — uruchomić zbieranie | Najnowsza z lutego 2025. Efekt przychodzi tygodniami, więc start musi być teraz, nie w październiku. |
+
+### Blok 1 — 14–20.09, wznowienie kampanii i trzy kontrole
+
+| # | ID | Zadanie | Dlaczego tutaj |
+|---|---|---|---|
+| 9 | **T-125** | Auction Insights na markę | Warunek sensu T-114 — bez tego nie wiadomo, czy dokładać na własną nazwę. |
+| 10 | **T-114** | Stawki Paszarstwa i Marki | Obie tracą ~50% przez ranking przy CPC tańszym o 40% od Rolnictwa; wchodzi w dniu wznowienia. |
+| 11 | — | **Kontrola 15.09** — czy Google pobrał adresy z Fazy 0 | Warunek wejścia w Fazę 2, ustalony ADR-em 24.08. |
+| 12 | **T-116** | Tytuły i opisy kart — po sprawdzeniu SERP-ów | Przed szczytem październikowym; teza o długości tytułu upadła, więc zaczyna się od SERP-ów. |
+| 13 | **T-117** | Dwie karty granulowane | `wapno granulowane` X 8 100, `wapno magnezowe` X 3 600 — obie karty stoją na 19,0 i 25,5. |
+| 14 | — | **Kontrola 18.09** — T-092 na frazach formowych | Termin własny, mierzy skutek wdrożenia z 04.09. |
+| 15 | **T-085+** | `/wapno-hydratyzowane/` + gaszone + budowlane | `wapno gaszone` IX–X **3 600**, stoimy na 34,9 — największa luka wolumenowa w portfelu. |
+| 16 | **T-093** | `/wapno-do-oczyszczalni/` — konsolidacja | Termin własny 20.09, adres crawlowany, robota porządkowa. |
+
+### Blok 2 — do 30.09, ruch, który już mamy
+
+| # | ID | Zadanie | Dlaczego tutaj |
+|---|---|---|---|
+| 17 | **T-126** | Hub — przechwycenie intencji zakupowej | 63% wyświetleń serwisu; wymaga koncepcji, nie jednej edycji, więc po pilniejszych. |
+| 18 | **T-094** | Osiem kart poza indeksem | Wejście przez linkowanie ze stron crawlowanych, wzorem Fazy 0. |
+| 19 | **T-118** | Badanie gleby — treść | `badanie gleby` ma IX 1 300; plan stawiał to na 31.10, czyli po szczycie. |
+| 20 | **T-077** | Poradnik o kredzie pastewnej | Termin własny 30.09, rozkład płaski cały rok. |
+| 21 | **T-096** | `/kreda-malarska/` bez meta | Potwierdzone crawlem, drobne. |
+| 22 | **T-098** | `/wsparcie/` — pusta, linkowana z 22 stron | Albo treść, albo zdjęcie linku ze stopki. |
+| 23 | **T-099** | Duplikat `/category/poradniki/` | Google sam wybrał inny canonical; porządek w taksonomiach. |
+| 24 | **T-128** | 1,7 MB nieużywanych obrazów | Sprzątanie przy okazji prac na kartach. |
+
+### Blok 3 — październik
+
+| # | ID | Zadanie | Dlaczego tutaj |
+|---|---|---|---|
+| 25 | **T-047** | Odzysk profili Niedomice i Radgoszcz | Czeka od 15.07 na dostęp; blokuje 26 i 27. |
+| 26 | **T-124** | Architektura trzech wizytówek | Wykonalne dopiero po odzysku. |
+| 27 | **T-030** | `LocalBusiness` ×2 w schemacie | Spina się z wizytówkami oddziałów. |
+| 28 | **T-123** | Telefon i godziny dostaw na wizytówce | Do rozstrzygnięcia razem z architekturą. |
+| 29 | **T-108** | Dolomit w kalkulatorze — CaO+MgO | Błąd liczenia, ale dotyczy jednego produktu. |
+| 30 | **T-071 · T-070** | Kreda do stawu · przebudowa wpisu o stawach | Termin własny 10.10, `kreda do stawu` szczytuje w marcu. |
+| 31 | **T-080** | pH i odczyn | Szczyt kwietniowy — robota pod wiosnę, październik to dobry moment na start. |
+| 32 | **T-107** | Podsumowanie trzech miesięcy Ads | Zobowiązanie z maila 06.08; na jego podstawie klient decyduje o kontynuacji. |
+| 33 | **T-110 · T-111** | Konwersja główna · godziny emisji | Obie zależne od decyzji o budżecie i strategii; T-110 ma wartość wyłącznie raportową. |
+
+### Poza oknem — świadomie nie teraz
+
+**T-074** ziemniaki (50/mies, 404, zero wyświetleń) · **T-083** sad (30.11, szczyt wtórny XI) ·
+**T-082** tonaż i **T-076** zboża ozime (VII 2027) · **T-084** wapno palone (po T-089) ·
+**T-068** przebudowa adresów (okno XII–II) · **T-045** ofertownik (własne, małymi krokami) ·
+**T-037** transport i dostawa · **T-060** magnez i fosfor (zaparkowane przez Janka) ·
+**T-058** wchłonięte przez T-114.
+
+**Czeka na AGRIĘ, nie na nas:** **T-105** pakiet OLX (Paweł, do 16.09) · **T-040** status dystrybutora
+Nordkalku · **T-050** zdjęcia na wizytówkę · **T-100** forma dostawy przy cenie Dolomitu.
