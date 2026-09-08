@@ -1,0 +1,1731 @@
+[
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe do rolnictwa | AGRIA",
+  "meta_desc": "Wapno nawozowe do odkwaszania gleb lekkich i ciężkich. Tlenkowe CaO 70-90%, węglanowe granulowane, kreda. Luzem 24t. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/",
+  "h1": [
+   "Wapno nawozowe"
+  ],
+  "noindex": false,
+  "bajty": 249845,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-do-sadu/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/oferta/",
+  "title": "Wapno nawozowe, palone i hydratyzowane — oferta | AGRIA",
+  "meta_desc": "Oferta wapna: tlenkowe CaO 70–90%, węglanowe, kreda nawozowa, dolomit, wapno palone i hydratyzowane. Dostawy luzem 24 t, big-bag, worki. Własna flota. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/oferta/",
+  "h1": [
+   "Oferta AGRIA – wapno, cement i kruszywo"
+  ],
+  "noindex": false,
+  "bajty": 248441,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/rybactwo-kat-archiwum/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/wapno-do-stawu/",
+  "title": "Wapno do stawu — kreda i dawki od 125 zł/t | AGRIA",
+  "meta_desc": "Wapno do stawu i kreda: dawki wg odczynu dna, dobór przy rybach, ceny od 125 zł/t netto. Dostawa całosamochodowa. Zadzwoń: 664 393 062.",
+  "canonical": "https://agria.pl/wapno-do-stawu/",
+  "h1": [
+   "Wapno i&nbsp;kreda do&nbsp;stawu —&nbsp;dobór, dawki, ceny"
+  ],
+  "noindex": false,
+  "bajty": 183798,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-do-oczyszczalni/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno do oczyszczalni ścieków | AGRIA (higienizacja)",
+  "meta_desc": "Wapno do oczyszczalni – neutralizacja, higienizacja osadów. Tlenkowe CaO 90%, wysokoreaktywne. Mielone, big-bag, luzem. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/wapno-do-oczyszczalni/",
+  "h1": [
+   "Oczyszczalnie"
+  ],
+  "noindex": false,
+  "bajty": 209677,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-hydratyzowane/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno hydratyzowane do budownictwa | AGRIA",
+  "meta_desc": "Wapno hydratyzowane do zapraw, tynków, cegieł. Cement i wapno palone. Big-bag, worki, luzem. Stabilne dostawy dla wykonawców. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/wapno-hydratyzowane/",
+  "h1": [
+   "Budownictwo"
+  ],
+  "noindex": false,
+  "bajty": 208580,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-nawozowe-hurt/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/oferta/",
+  "title": "Wapno nawozowe, palone i hydratyzowane — oferta | AGRIA",
+  "meta_desc": "Oferta wapna: tlenkowe CaO 70–90%, węglanowe, kreda nawozowa, dolomit, wapno palone i hydratyzowane. Dostawy luzem 24 t, big-bag, worki. Własna flota. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/oferta/",
+  "h1": [
+   "Oferta AGRIA – wapno, cement i kruszywo"
+  ],
+  "noindex": false,
+  "bajty": 248441,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/paszarstwo/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kreda pastewna — dawkowanie, frakcje, cena | AGRIA",
+  "meta_desc": "Kreda pastewna do pasz: min. 37% CaO, cztery frakcje, dawkowanie 1–2 kg na 100 kg paszy. Luz 24 t i worki 30 kg, dostawa własnym transportem.",
+  "canonical": "https://agria.pl/paszarstwo/",
+  "h1": [
+   "Paszarstwo"
+  ],
+  "noindex": false,
+  "bajty": 221794,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kreda-malarska/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kreda malarska hurt | AGRIA (worki 30 kg, magazyn Niedomice)",
+  "meta_desc": "Kreda malarska w sprzedaży hurtowej — węglan wapnia min. 53% CaO jako wypełniacz farb, szpachli i chemii budowlanej. Worki 30 kg. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/kreda-malarska/",
+  "h1": [
+   "Kreda malarska"
+  ],
+  "noindex": false,
+  "bajty": 207881,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-do-stawow/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/wapno-do-stawu/",
+  "title": "Wapno do stawu — kreda i dawki od 125 zł/t | AGRIA",
+  "meta_desc": "Wapno do stawu i kreda: dawki wg odczynu dna, dobór przy rybach, ceny od 125 zł/t netto. Dostawa całosamochodowa. Zadzwoń: 664 393 062.",
+  "canonical": "https://agria.pl/wapno-do-stawu/",
+  "h1": [
+   "Wapno i&nbsp;kreda do&nbsp;stawu —&nbsp;dobór, dawki, ceny"
+  ],
+  "noindex": false,
+  "bajty": 183798,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kategoria-produktu/wapno-nawozowe-rolnictwo/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/wapno-nawozowe-rolnictwo/",
+  "title": "Wapno nawozowe do rolnictwa | AGRIA",
+  "meta_desc": "Wapno nawozowe do odkwaszania gleb lekkich i ciężkich. Tlenkowe CaO 70-90%, węglanowe granulowane, kreda. Luzem 24t. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/",
+  "h1": [
+   "Wapno nawozowe"
+  ],
+  "noindex": false,
+  "bajty": 249845,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kategoria-produktu/paszarstwo/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/paszarstwo/",
+  "title": "Kreda pastewna — dawkowanie, frakcje, cena | AGRIA",
+  "meta_desc": "Kreda pastewna do pasz: min. 37% CaO, cztery frakcje, dawkowanie 1–2 kg na 100 kg paszy. Luz 24 t i worki 30 kg, dostawa własnym transportem.",
+  "canonical": "https://agria.pl/paszarstwo/",
+  "h1": [
+   "Paszarstwo"
+  ],
+  "noindex": false,
+  "bajty": 221794,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kategoria-produktu/wapno-hydratyzowane/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/wapno-hydratyzowane/",
+  "title": "Wapno hydratyzowane do budownictwa | AGRIA",
+  "meta_desc": "Wapno hydratyzowane do zapraw, tynków, cegieł. Cement i wapno palone. Big-bag, worki, luzem. Stabilne dostawy dla wykonawców. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/wapno-hydratyzowane/",
+  "h1": [
+   "Budownictwo"
+  ],
+  "noindex": false,
+  "bajty": 208580,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kategoria-produktu/wapno-do-oczyszczalni/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/wapno-do-oczyszczalni/",
+  "title": "Wapno do oczyszczalni ścieków | AGRIA (higienizacja)",
+  "meta_desc": "Wapno do oczyszczalni – neutralizacja, higienizacja osadów. Tlenkowe CaO 90%, wysokoreaktywne. Mielone, big-bag, luzem. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/wapno-do-oczyszczalni/",
+  "h1": [
+   "Oczyszczalnie"
+  ],
+  "noindex": false,
+  "bajty": 209677,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kategoria-produktu/kreda-malarska/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/kreda-malarska/",
+  "title": "Kreda malarska hurt | AGRIA (worki 30 kg, magazyn Niedomice)",
+  "meta_desc": "Kreda malarska w sprzedaży hurtowej — węglan wapnia min. 53% CaO jako wypełniacz farb, szpachli i chemii budowlanej. Worki 30 kg. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/kreda-malarska/",
+  "h1": [
+   "Kreda malarska"
+  ],
+  "noindex": false,
+  "bajty": 207881,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kategoria-produktu/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/oferta/",
+  "title": "Wapno nawozowe, palone i hydratyzowane — oferta | AGRIA",
+  "meta_desc": "Oferta wapna: tlenkowe CaO 70–90%, węglanowe, kreda nawozowa, dolomit, wapno palone i hydratyzowane. Dostawy luzem 24 t, big-bag, worki. Własna flota. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/oferta/",
+  "h1": [
+   "Oferta AGRIA – wapno, cement i kruszywo"
+  ],
+  "noindex": false,
+  "bajty": 248441,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/dolomit/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Dolomit | Nawóz wapniowo-magnezowy AGRIA",
+  "meta_desc": "Dolomit AGRIA: naturalny nawóz wapniowo-magnezowy (min. 30% CaO, min. 15% MgO) do odkwaszania gleb lekkich i piaszczystych, poprawy struktury. Idealny dla ekologicznych gospodarstw. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/dolomit/",
+  "h1": [
+   "Dolomit"
+  ],
+  "noindex": false,
+  "bajty": 186031,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/kreda-czarna-jeziorna/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "kreda czarna jeziorna kwasy humusowe CaO 44% | AGRIA",
+  "meta_desc": "Kreda czarna jeziorna kwasy humusowe to granulat do długoterminowego odkwaszania gleb. Min. 44% CaO, reaktywność 70-90%. Poprawia strukturę gleby w rolnictwie ekologicznym. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/kreda-czarna-jeziorna/",
+  "h1": [
+   "Kreda czarna(jeziorna) z kwasami humusowymi i węglem organicznym"
+  ],
+  "noindex": false,
+  "bajty": 184790,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": true
+ },
+ {
+  "sciezka": "/kreda-malarska/kreda-malarska/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kreda malarska min. 53% CaO | AGRIA",
+  "meta_desc": "Kreda malarska Agria (min. 53% CaO) to sypki produkt poprawiający przyczepność i krycie farby. Idealna dla hurtowni i rolnictwa. Zapytaj o ofertę!",
+  "canonical": "https://agria.pl/kreda-malarska/kreda-malarska/",
+  "h1": [
+   "Kreda malarska"
+  ],
+  "noindex": false,
+  "bajty": 182619,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kreda nawozowa granulowana 50% CaO | AGRIA",
+  "meta_desc": "Kreda nawozowa granulowana AGRIA do efektywnego odkwaszania gleb lekkich, piaszczystych i stawów. Min. 50% CaO, wysoka reaktywność. Sprawdź parametry!",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+  "h1": [
+   "Kreda nawozowa granulowana"
+  ],
+  "noindex": false,
+  "bajty": 185988,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kreda nawozowa sypka min. 50% CaO | AGRIA",
+  "meta_desc": "Kreda nawozowa sypka do odkwaszania gleb lekkich i piaszczystych. Zawiera min. 50% CaO, zapewnia długotrwałe i bezpieczne działanie. Zapytaj o ofertę dla hurtowni.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+  "h1": [
+   "Kreda nawozowa sypka"
+  ],
+  "noindex": false,
+  "bajty": 185312,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/paszarstwo/kreda-pastewna/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kreda pastewna min. 37% CaO, cztery frakcje | AGRIA",
+  "meta_desc": "Kreda pastewna min. 37% CaO, frakcje od 0–0,3 do 1–3 mm, dawkowanie 1–2 kg na 100 kg paszy. Luz 24 t i worki 30 kg, atest do każdej partii.",
+  "canonical": "https://agria.pl/paszarstwo/kreda-pastewna/",
+  "h1": [
+   "Kreda pastewna"
+  ],
+  "noindex": false,
+  "bajty": 187038,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/mieszanka-tlenkowo-weglanowa/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Mieszanka tlenkowo-węglanowa do odkwaszania gleb | AGRIA",
+  "meta_desc": "Mieszanka tlenkowo-węglanowa AGRIA to wysokoreaktywny produkt (min. 70% CaO) do szybkiego odkwaszania gleb średnich i ciężkich. Popraw strukturę i zwiększ plony. Sprawdź parametry!",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/mieszanka-tlenkowo-weglanowa/",
+  "h1": [
+   "Mieszanka tlenkowo-węglanowa"
+  ],
+  "noindex": false,
+  "bajty": 183237,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-hydratyzowane/bielik/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno hydratyzowane Bielik CL 90-S | CaO+MgO 90% | AGRIA",
+  "meta_desc": "Wapno hydratyzowane Bielik — klasa CL 90-S (PN-EN 459-1), CaO+MgO min. 90%, wapno czynne min. 80%. Do oczyszczalni i budownictwa: higienizuje osady, wzmacnia zaprawy. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-hydratyzowane/bielik/",
+  "h1": [
+   "Wapno hydratyzowane Bielik"
+  ],
+  "noindex": false,
+  "bajty": 183679,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe tlenkowe Agrobielik 70 70% CaO | AGRIA",
+  "meta_desc": "Wapno nawozowe tlenkowe Agrobielik 70 to szybkie odkwaszanie gleb ciężkich i dezynfekcja stawów. Min. 70% CaO, niemal 100% reaktywności. Zwiększ plony. Zapytaj o ofertę!",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-70/",
+  "h1": [
+   "Wapno nawozowe tlenkowe Agrobielik 70"
+  ],
+  "noindex": false,
+  "bajty": 187485,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/agrobielik-90/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe tlenkowe Agrobielik 90 – CaO min. 90% | AGRIA",
+  "meta_desc": "Wapno nawozowe tlenkowe Agrobielik 90 (odmiana 01) z min. 90% CaO do szybkiego odkwaszania gleb, higienizacji osadów i odkażania stawów. Reaktywność bardzo wysoka. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-90/",
+  "h1": [
+   "Wapno nawozowe tlenkowe Agrobielik 90"
+  ],
+  "noindex": false,
+  "bajty": 190386,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/oxyfertil-90/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe tlenkowe Oxyfertil 90 | Odkwaszanie | AGRIA",
+  "meta_desc": "Wapno nawozowe tlenkowe Oxyfertil 90 – min. 90% CaO. Skutecznie odkwasza gleby, higienizuje osady ściekowe i odkaża stawy. Wysoka reaktywność. Sprawdź parametry Agria.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/oxyfertil-90/",
+  "h1": [
+   "Wapno nawozowe tlenkowe Oxyfertil 90"
+  ],
+  "noindex": false,
+  "bajty": 183559,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe tlenkowe zawierające magnez | AGRIA",
+  "meta_desc": "Wapno nawozowe tlenkowe zawierające magnez AGRIA szybko odkwasza gleby średnie i ciężkie, poprawiając strukturę i dostępność składników. CaO+MgO min. 70% (w tym MgO min. 25%). Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+  "h1": [
+   "Wapno nawozowe tlenkowe zawierające magnez"
+  ],
+  "noindex": false,
+  "bajty": 185305,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe węglanowe bez magnezu granulowane | AGRIA",
+  "meta_desc": "Wapno nawozowe węglanowe bez magnezu granulowane (min. 50% CaO) do odkwaszania gleb lekkich i piaszczystych. Zapewnia długotrwały efekt. Sprawdź parametry.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+  "h1": [
+   "Wapno nawozowe węglanowe bez magnezu granulowane"
+  ],
+  "noindex": false,
+  "bajty": 186154,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno węglanowe bez magnezu (min. 50% CaO) | AGRIA",
+  "meta_desc": "Wapno węglanowe bez magnezu AGRIA (min. 50% CaO) skutecznie odkwasza gleby lekkie i piaszczyste. Poprawia strukturę gleby i wspiera plony. Długotrwałe działanie. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+  "h1": [
+   "Wapno nawozowe węglanowe bez magnezu — Odmiana 04"
+  ],
+  "noindex": false,
+  "bajty": 187397,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-05/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno węglanowe bez magnezu Odmiana 05 | AGRIA",
+  "meta_desc": "Wapno węglanowe bez magnezu: długotrwałe odkwaszanie gleb lekkich. Min. 40% CaO, reaktywność 70-90%. Rolnictwo ekologiczne i sadownictwo. Zapytaj o ofertę!",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-05/",
+  "h1": [
+   "Wapno nawozowe węglanowe bez magnezu — Odmiana 05"
+  ],
+  "noindex": false,
+  "bajty": 185874,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe węglanowe zawierające magnez | AGRIA",
+  "meta_desc": "Wapno nawozowe węglanowe zawierające magnez granulowane AGRIA to długotrwałe odkwaszanie gleb lekkich i piaszczystych. Min. 31% CaO, wysoka reaktywność. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+  "h1": [
+   "Wapno nawozowe węglanowe zawierające magnez granulowane"
+  ],
+  "noindex": false,
+  "bajty": 185248,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-04/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe węglanowe zawierające magnez | AGRIA",
+  "meta_desc": "Wapno nawozowe węglanowe zawierające magnez Odmiana 04. Długotrwale odkwasza gleby lekkie. Zawiera min. 41% CaO, 8% MgO. Popraw strukturę i plony. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-04/",
+  "h1": [
+   "Wapno nawozowe węglanowe zawierające magnez — Odmiana 04"
+  ],
+  "noindex": false,
+  "bajty": 187121,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe węglanowe zawierające magnez — Odmiana 05 | AGRIA",
+  "meta_desc": "Wapno nawozowe węglanowe zawierające magnez — Odmiana 05 — zapytaj o ofertę. Agria, 37 lat doświadczenia.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+  "h1": [
+   "Wapno nawozowe węglanowe zawierające magnez — Odmiana 05"
+  ],
+  "noindex": false,
+  "bajty": 187354,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/wapno-do-oczyszczalni/wapno-palone-mielone/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno palone mielone wysokoreaktywne | AGRIA",
+  "meta_desc": "Wapno palone mielone wysokoreaktywne AGRIA (klasa CL 90-Q, R5): szybka higienizacja i neutralizacja osadów ściekowych. CaO+MgO min. 90%, wapno czynne min. 80%. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone/",
+  "h1": [
+   "Wapno palone mielone wysokoreaktywne"
+  ],
+  "noindex": false,
+  "bajty": 187428,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ItemPage",
+   "ListItem",
+   "Offer",
+   "Organization",
+   "Product",
+   "PropertyValue",
+   "UnitPriceSpecification",
+   "WebSite"
+  ],
+  "ma_offers": true,
+  "produkt": true
+ },
+ {
+  "sciezka": "/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe, hydratyzowane i palone – AGRIA Sp. z o.o.",
+  "meta_desc": "AGRIA – wapno nawozowe tlenkowe i węglanowe (CaO 70–90%), hydratyzowane i palone dla rolnictwa, stawów rybnych, oczyszczalni i budownictwa. Stabilne dostawy od 1989 r.",
+  "canonical": "https://agria.pl/",
+  "h1": [
+   "Nawozy wapniowe i&nbsp;surowce przemysłowe"
+  ],
+  "noindex": false,
+  "bajty": 198515,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "ImageObject",
+   "Organization",
+   "Person",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/oferta/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe, palone i hydratyzowane — oferta | AGRIA",
+  "meta_desc": "Oferta wapna: tlenkowe CaO 70–90%, węglanowe, kreda nawozowa, dolomit, wapno palone i hydratyzowane. Dostawy luzem 24 t, big-bag, worki. Własna flota. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/oferta/",
+  "h1": [
+   "Oferta AGRIA – wapno, cement i kruszywo"
+  ],
+  "noindex": false,
+  "bajty": 248441,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kontakt/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kontakt — AGRIA Sp. z o.o. | Tarnów, Niedomice, Radgoszcz",
+  "meta_desc": "Kontakt do AGRIA: centrala Tarnów, magazyny Niedomice i Radgoszcz. Doradztwo przy doborze wapna, wycena dostaw luzem i w big-bagach. Tel. 14 621 88 21.",
+  "canonical": "https://agria.pl/kontakt/",
+  "h1": [
+   "Kontakt"
+  ],
+  "noindex": false,
+  "bajty": 181389,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/o-firmie/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "O firmie AGRIA — surowce wapniowe od 1989 r. | Tarnów",
+  "meta_desc": "AGRIA Sp. z o.o. — rodzinna firma z Tarnowa, 37 lat w surowcach wapniowych. Dwa magazyny, własna flota 3–24 t, współpraca z Nordkalk i Lhoist. Stabilne parametry, pewne dostawy.",
+  "canonical": "https://agria.pl/o-firmie/",
+  "h1": [
+   "O&nbsp;firmie"
+  ],
+  "noindex": false,
+  "bajty": 158504,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/poradniki/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Poradniki — wapnowanie gleby, dawki, dobór wapna | AGRIA",
+  "meta_desc": "Poradniki o wapnowaniu: dobór wapna do typu gleby, dawki w t/ha, terminy zabiegu, wapnowanie stawów, higienizacja osadów. Wiedza praktyczna od dostawcy z 37-letnim stażem.",
+  "canonical": "https://agria.pl/poradniki/",
+  "h1": [
+   "Poradniki"
+  ],
+  "noindex": false,
+  "bajty": 175483,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kalkulator-wapnowania/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kalkulator wapnowania — policz dawkę i tonaż | AGRIA",
+  "meta_desc": "Podaj pH, kategorię gleby i rodzaj wapna — kalkulator AGRIA policzy dawkę CaO na hektar i tonaż produktu do zamówienia. Bezpłatne narzędzie online.",
+  "canonical": "https://agria.pl/kalkulator-wapnowania/",
+  "h1": [
+   "Kalkulator wapnowania"
+  ],
+  "noindex": false,
+  "bajty": 159047,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/do-pobrania/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Do pobrania — karty produktów i katalog | AGRIA",
+  "meta_desc": "Pobierz karty produktowe wapna nawozowego, budowlanego i paszowego oraz katalog AGRIA. Parametry techniczne, zastosowania i formy dostawy.",
+  "canonical": "https://agria.pl/do-pobrania/",
+  "h1": [
+   "Do&nbsp;pobrania"
+  ],
+  "noindex": false,
+  "bajty": 186203,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/rodo/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "RODO - AGRIA Sp. z o.o. – Wapno nawozowe i budowlane",
+  "meta_desc": null,
+  "canonical": "https://agria.pl/rodo/",
+  "h1": [
+   "RODO"
+  ],
+  "noindex": false,
+  "bajty": 140998,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wsparcie/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wsparcie techniczne — dobór wapna | AGRIA",
+  "meta_desc": "Doradztwo techniczne AGRIA: dobór wapna pod analizę gleby, parametry CaO i MgO, formy dostawy. Wsparcie dla rolnictwa, oczyszczalni i budownictwa.",
+  "canonical": "https://agria.pl/wsparcie/",
+  "h1": [
+   "Wsparcie"
+  ],
+  "noindex": false,
+  "bajty": 142178,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/zamowienia/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Zamówienia - AGRIA Sp. z o.o. – Wapno nawozowe i budowlane",
+  "meta_desc": "Wypełnij formularz, aby otrzymać indywidualną ofertę lub zamówić próbkę produktu do testów. Każde zgłoszenie analizujemy pod kątem zastosowania, skali oraz",
+  "canonical": "https://agria.pl/zamowienia/",
+  "h1": [
+   "Zamówienia"
+  ],
+  "noindex": false,
+  "bajty": 173465,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-do-stabilizacji-gruntow/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno do stabilizacji gruntów — wapno palone CL 90-Q | AGRIA",
+  "meta_desc": "Wapno palone mielone do stabilizacji gruntów spoistych i nawodnionych. Klasa CL 90-Q, reaktywność R5. Osusza grunt, podnosi nośność. Big-bag i luz 24 t na budowę.",
+  "canonical": "https://agria.pl/wapno-do-stabilizacji-gruntow/",
+  "h1": [
+   "Wapno do&nbsp;stabilizacji gruntów"
+  ],
+  "noindex": false,
+  "bajty": 156767,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-granulowane/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno granulowane – nawozowe i z magnezem, big-bag i luz | AGRIA",
+  "meta_desc": "Wapno nawozowe w formie granulatu 3–6 mm — do wysiewu standardowym siewnikiem nawozowym, razem z NPK, jednym przejazdem. Bez pyłu, bez zbrylania, bez",
+  "canonical": null,
+  "h1": [
+   "Wapno granulowane"
+  ],
+  "noindex": true,
+  "bajty": 174781,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-nawozowe/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe – tlenkowe i węglanowe, luz i big-bag | AGRIA",
+  "meta_desc": "Wapno do odkwaszania gleb w dwóch grupach: tlenkowe — szybkie, o wysokiej reaktywności, oraz węglanowe — łagodne i długodziałające. Oba dostępne również w",
+  "canonical": null,
+  "h1": [
+   "Wapno nawozowe"
+  ],
+  "noindex": true,
+  "bajty": 197043,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-do-stawu/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno do stawu — kreda i dawki od 125 zł/t | AGRIA",
+  "meta_desc": "Wapno do stawu i kreda: dawki wg odczynu dna, dobór przy rybach, ceny od 125 zł/t netto. Dostawa całosamochodowa. Zadzwoń: 664 393 062.",
+  "canonical": "https://agria.pl/wapno-do-stawu/",
+  "h1": [
+   "Wapno i&nbsp;kreda do&nbsp;stawu —&nbsp;dobór, dawki, ceny"
+  ],
+  "noindex": false,
+  "bajty": 183798,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/polityka-plikow-cookies-eu/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Polityka plików cookies (EU) - AGRIA Sp. z o.o. – Wapno nawozowe i budowlane",
+  "meta_desc": null,
+  "canonical": "https://agria.pl/polityka-plikow-cookies-eu/",
+  "h1": [
+   "Polityka plików cookies (EU)"
+  ],
+  "noindex": false,
+  "bajty": 156676,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/oswiadczenie-o-ochronie-prywatnosci-eu/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Oświadczenie o ochronie prywatności (EU) - AGRIA Sp. z o.o. – Wapno nawozowe i budowlane",
+  "meta_desc": null,
+  "canonical": "https://agria.pl/oswiadczenie-o-ochronie-prywatnosci-eu/",
+  "h1": [
+   "Oświadczenie o&nbsp;ochronie prywatności (EU)"
+  ],
+  "noindex": false,
+  "bajty": 150719,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/cart/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/",
+  "title": "Wapno nawozowe, hydratyzowane i palone – AGRIA Sp. z o.o.",
+  "meta_desc": "AGRIA – wapno nawozowe tlenkowe i węglanowe (CaO 70–90%), hydratyzowane i palone dla rolnictwa, stawów rybnych, oczyszczalni i budownictwa. Stabilne dostawy od 1989 r.",
+  "canonical": "https://agria.pl/",
+  "h1": [
+   "Nawozy wapniowe i&nbsp;surowce przemysłowe"
+  ],
+  "noindex": false,
+  "bajty": 198515,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "ImageObject",
+   "Organization",
+   "Person",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapnowanie-gleby/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Ile wapna na hektar? Tabela dawek i kalkulator | AGRIA",
+  "meta_desc": "Ile wapna na hektar: tabela dawek 1–6 t/ha według pH i kategorii gleby, przeliczenie na tony produktu, terminy zabiegu po żniwach. Policz w kalkulatorze.",
+  "canonical": "https://agria.pl/wapnowanie-gleby/",
+  "h1": [
+   "Wapnowanie gleby – kiedy, ile i&nbsp;jakie wapno stosować"
+  ],
+  "noindex": false,
+  "bajty": 172392,
+  "z_cache": true,
+  "schema": [
+   "Answer",
+   "BlogPosting",
+   "BreadcrumbList",
+   "FAQPage",
+   "HowTo",
+   "HowToStep",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "Question",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/czy-wapnowac-czy-nie-wapnowac-stawy-karpiowe/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapnowanie stawów karpiowych – kiedy i ile stosować",
+  "meta_desc": "Sprawdź, czy wapnować stawy karpiowe. Dawki, rodzaje wapna i wpływ na pH, produkcję ryb oraz jakość wody.",
+  "canonical": "https://agria.pl/czy-wapnowac-czy-nie-wapnowac-stawy-karpiowe/",
+  "h1": [
+   "Czy&nbsp;wapnować czy&nbsp;nie&nbsp;wapnować stawy karpiowe?"
+  ],
+  "noindex": false,
+  "bajty": 160621,
+  "z_cache": true,
+  "schema": [
+   "BlogPosting",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/cement-czym-jest-jak-powstaje-i-jakie-sa-jego-klasy/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Cement – rodzaje, klasy i zastosowanie | poradnik",
+  "meta_desc": "Czym jest cement i jak powstaje? Poznaj klasy 32,5–52,5, oznaczenia N i R oraz rodzaje cementu portlandzkiego.",
+  "canonical": "https://agria.pl/cement-czym-jest-jak-powstaje-i-jakie-sa-jego-klasy/",
+  "h1": [
+   "Cement – czym jest, jak powstaje i&nbsp;jakie są&nbsp;jego klasy?"
+  ],
+  "noindex": false,
+  "bajty": 159574,
+  "z_cache": true,
+  "schema": [
+   "BlogPosting",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/jak-murowac-klinkier/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Jak murować klinkier – zasady murowania klinkieru",
+  "meta_desc": "Jak murować klinkier poprawnie? Sprawdź zasady murowania cegły klinkierowej bez wykwitów i błędów wykonawczych.",
+  "canonical": "https://agria.pl/jak-murowac-klinkier/",
+  "h1": [
+   "Jak murować z&nbsp;cegły klinkierowej – zasady bez&nbsp;wykwitów"
+  ],
+  "noindex": false,
+  "bajty": 161371,
+  "z_cache": true,
+  "schema": [
+   "BlogPosting",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wykwity-na-murze/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wykwity na murze – jak powstają i jak je ograniczyć",
+  "meta_desc": "Czym są wykwity i jak powstają? Sprawdź przyczyny białych nalotów na murze oraz jak ograniczyć ich powstawanie.",
+  "canonical": "https://agria.pl/wykwity-na-murze/",
+  "h1": [
+   "Wykwity – jak powstają i&nbsp;skąd się biorą na&nbsp;murze?"
+  ],
+  "noindex": false,
+  "bajty": 159504,
+  "z_cache": true,
+  "schema": [
+   "BlogPosting",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/tynki-rodzaje-kategorie/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Tynki – rodzaje, kategorie i wykonanie tynków",
+  "meta_desc": "Poznaj rodzaje tynków, ich kategorie oraz zasady wykonania. Sprawdź jak uzyskać równe i trwałe tynki.",
+  "canonical": "https://agria.pl/tynki-rodzaje-kategorie/",
+  "h1": [
+   "Tynki – rodzaje, kategorie i&nbsp;zasady wykonania"
+  ],
+  "noindex": false,
+  "bajty": 160242,
+  "z_cache": true,
+  "schema": [
+   "BlogPosting",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/wapno-nawozowe-na-trawnik/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe na trawnik – kiedy, ile i jakie | AGRIA",
+  "meta_desc": "Wapno nawozowe na trawnik: ile stosować (10–20 kg/100 m²), jakim wapnem, kiedy i jak wapnować, żeby usunąć mech i wzmocnić trawę.",
+  "canonical": "https://agria.pl/wapno-nawozowe-na-trawnik/",
+  "h1": [
+   "Wapno nawozowe na&nbsp;trawnik – kiedy, ile i&nbsp;jakie stosować"
+  ],
+  "noindex": false,
+  "bajty": 159776,
+  "z_cache": true,
+  "schema": [
+   "Answer",
+   "BlogPosting",
+   "BreadcrumbList",
+   "FAQPage",
+   "HowTo",
+   "HowToStep",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "Question",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/jak-stosowac-wapno-nawozowe/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kiedy wapnować pole? Terminy, technika i błędy | AGRIA",
+  "meta_desc": "Kiedy wapnować glebę i pole: terminy po żniwach i przed siewem ozimin, jak rozsiać i przyorać wapno, odstępy od nawozów, BHP przy wapnie palonym.",
+  "canonical": "https://agria.pl/jak-stosowac-wapno-nawozowe/",
+  "h1": [
+   "Kiedy wapnować pole? Terminy, technika i&nbsp;błędy"
+  ],
+  "noindex": false,
+  "bajty": 170868,
+  "z_cache": true,
+  "schema": [
+   "Answer",
+   "BlogPosting",
+   "BreadcrumbList",
+   "FAQPage",
+   "HowTo",
+   "HowToStep",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "Question",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/higienizacja-osadow-sciekowych-wapnem/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Higienizacja osadów ściekowych wapnem — dobór i dawki | AGRIA",
+  "meta_desc": "Higienizacja i stabilizacja osadów ściekowych wapnem palonym i hydratyzowanym: pH powyżej 12, dawkowanie, dobór produktu, dokumentacja dla oczyszczalni. Dostawy w całej Polsce.",
+  "canonical": "https://agria.pl/higienizacja-osadow-sciekowych-wapnem/",
+  "h1": [
+   "Higienizacja i&nbsp;stabilizacja osadów ściekowych wapnem"
+  ],
+  "noindex": false,
+  "bajty": 163560,
+  "z_cache": true,
+  "schema": [
+   "Answer",
+   "BlogPosting",
+   "BreadcrumbList",
+   "FAQPage",
+   "HowTo",
+   "HowToStep",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "Question",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/ile-wapna-granulowanego-na-ha/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/wapnowanie-gleby/",
+  "title": "Ile wapna na hektar? Tabela dawek i kalkulator | AGRIA",
+  "meta_desc": "Ile wapna na hektar: tabela dawek 1–6 t/ha według pH i kategorii gleby, przeliczenie na tony produktu, terminy zabiegu po żniwach. Policz w kalkulatorze.",
+  "canonical": "https://agria.pl/wapnowanie-gleby/",
+  "h1": [
+   "Wapnowanie gleby – kiedy, ile i&nbsp;jakie wapno stosować"
+  ],
+  "noindex": false,
+  "bajty": 172392,
+  "z_cache": true,
+  "schema": [
+   "Answer",
+   "BlogPosting",
+   "BreadcrumbList",
+   "FAQPage",
+   "HowTo",
+   "HowToStep",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "Question",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/category/poradniki/",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Poradniki - AGRIA Sp. z o.o. – Wapno nawozowe i budowlane",
+  "meta_desc": null,
+  "canonical": "https://agria.pl/category/poradniki/",
+  "h1": [],
+  "noindex": false,
+  "bajty": 162030,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/polityka-prywatnosci/",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/rodo/",
+  "title": "RODO - AGRIA Sp. z o.o. – Wapno nawozowe i budowlane",
+  "meta_desc": null,
+  "canonical": "https://agria.pl/rodo/",
+  "h1": [
+   "RODO"
+  ],
+  "noindex": false,
+  "bajty": 140998,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/rolnictwo",
+  "status": 200,
+  "przekierowanie": "https://agria.pl/wapno-nawozowe-rolnictwo/",
+  "title": "Wapno nawozowe do rolnictwa | AGRIA",
+  "meta_desc": "Wapno nawozowe do odkwaszania gleb lekkich i ciężkich. Tlenkowe CaO 70-90%, węglanowe granulowane, kreda. Luzem 24t. Skontaktuj się z nami.",
+  "canonical": "https://agria.pl/wapno-nawozowe-rolnictwo/",
+  "h1": [
+   "Wapno nawozowe"
+  ],
+  "noindex": false,
+  "bajty": 249845,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kontakt/pawel.bigos@agria.pl",
+  "status": 404,
+  "przekierowanie": null
+ },
+ {
+  "sciezka": "/oferta",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Wapno nawozowe, palone i hydratyzowane — oferta | AGRIA",
+  "meta_desc": "Oferta wapna: tlenkowe CaO 70–90%, węglanowe, kreda nawozowa, dolomit, wapno palone i hydratyzowane. Dostawy luzem 24 t, big-bag, worki. Własna flota. Zapytaj o ofertę.",
+  "canonical": "https://agria.pl/oferta/",
+  "h1": [
+   "Oferta AGRIA – wapno, cement i kruszywo"
+  ],
+  "noindex": false,
+  "bajty": 248441,
+  "z_cache": true,
+  "schema": [
+   "BreadcrumbList",
+   "CollectionPage",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ },
+ {
+  "sciezka": "/kontakt",
+  "status": 200,
+  "przekierowanie": null,
+  "title": "Kontakt — AGRIA Sp. z o.o. | Tarnów, Niedomice, Radgoszcz",
+  "meta_desc": "Kontakt do AGRIA: centrala Tarnów, magazyny Niedomice i Radgoszcz. Doradztwo przy doborze wapna, wycena dostaw luzem i w big-bagach. Tel. 14 621 88 21.",
+  "canonical": "https://agria.pl/kontakt/",
+  "h1": [
+   "Kontakt"
+  ],
+  "noindex": false,
+  "bajty": 181389,
+  "z_cache": true,
+  "schema": [
+   "Article",
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "Person",
+   "WebPage",
+   "WebSite"
+  ],
+  "ma_offers": false,
+  "produkt": false
+ }
+]
