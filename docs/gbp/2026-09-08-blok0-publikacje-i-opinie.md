@@ -94,18 +94,31 @@ albo świadoma decyzja o generowaniu, spójna z tym, że część obecnych zdję
 
 ---
 
-## Pytanie do Kazimierza — jedno, po quizie z Jankiem
+## Pytania techniczne do Kazimierza — sześć, wysłane 08.09
 
-Frakcja **odpadła z listy**: decyzja Janka 08.09 — zostajemy bez przypisania rozdrobnienia
-do gatunku, dobór ustalamy pod recepturę. Opis kategorii jest już w tej formie, nic nie zmieniamy.
+Decyzja Janka 08.09: skoro i tak piszemy do Kazimierza, dopytujemy o wszystko, czego nie wiemy
+technicznie — „chłop się na tym zna". Lista przeszła przez gate: sprawdzone w `FAKTY_KLIENTA.md`,
+że **big-bag** (przy kredzie pastewnej jest tam myślnik — nie ma go) i **worek 30 kg** są już
+udokumentowane, więc o nie nie pytamy.
 
-Zostaje jedno, do przekazania przez Janka:
+Wysłane do Janka `send-to-jan`, temat „AGRIA — pytania techniczne do Kazimierza (pełna lista…)".
 
-> Kazimierzu, przy opisie kategorii paszarstwa wyszło pytanie o dawkowanie kredy pastewnej.
-> Na karcie mamy jeden przedział — 1–2 kg na 100 kg paszy — dla wszystkich zwierząt. Tymczasem
-> w wyszukiwarce ludzie pytają osobno o bydło i osobno o nioski. Czy dla tych grup podajecie
-> różne udziały w dawce? Jeśli tak, jakie — rozbiłbym to na osobne akapity, bo dziś stoimy
-> na tych zapytaniach na 21. pozycji z zerem kliknięć.
+| # | pytanie | co odblokowuje |
+|---|---|---|
+| 1 | **Dawkowanie a gatunek** — jeden przedział 1–2 kg/100 kg dla wszystkich, a pytają osobno o bydło i nioski | rozbicie sekcji dawkowania na konkrety |
+| 2 | **Frakcja a gatunek** — cztery frakcje bez przypisania; konkurencja pisze „gruba dla niosek" | rozbicie sekcji frakcji |
+| 3 | **CaO 37% — jak podawać hodowcy** — to ok. 26% Ca i ok. 66% CaCO₃, a typowa kreda paszowa bywa opisywana jako 95%+ CaCO₃; próg z najsłabszego źródła czy realny parametr? | jedna liczba w tabeli czy dwie |
+| 4 | **Dwa źródła — Celiny (Hochel) i Lhoist** — czy parametry i frakcje się różnią | czy jedna specyfikacja na kategorię jest uczciwa |
+| 5 | **Dokumentacja paszowa** — rejestr podmiotów paszowych, numer weterynaryjny, deklaracja materiału paszowego | treść i argument, których dziś nie mamy w ogóle |
+| 6 | **Produkcja ekologiczna** — czy dopuszczona i czy jest papier | jw. |
+
+**Osobno w tym samym mailu: T-108** — dolomit ma „CaO + MgO min 45%, w tym MgO min 15%", czyli
+czystego CaO jest 30%, a kalkulator bierze pierwszą liczbę (45) i zaniża dawkę. Pytanie: dobór
+po czystym CaO 30% czy po sumie 45%. Kazimierz robił z nami moduł magnezowy, więc to jego działka.
+
+⚠️ **Frakcja wróciła na listę.** Pierwotnie Janek rozstrzygnął ją w quizie („zostajemy bez
+mapowania"), ale skoro i tak pytamy Kazimierza, wraca jako pytanie — jeśli potwierdzi podział,
+dopisujemy. Do tego czasu opis kategorii zostaje bez zmian.
 
 ---
 
