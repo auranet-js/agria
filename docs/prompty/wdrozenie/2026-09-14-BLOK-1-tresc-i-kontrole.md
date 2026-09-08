@@ -1,13 +1,13 @@
 # Blok 1, wątek treści i kontroli — 14–20.09.2026
 
-> **Projekt:** `agria` · **Zakres:** ryczałt R · **Obejmuje:** kontrola 15.09 · T-116 · T-117 ·
-> kontrola 18.09 · T-085 · T-093
+> **Projekt:** `agria` · **Zakres:** ryczałt R
+> **Sześć pozycji:** kontrola 15.09 · T-116 · T-117 · kontrola 18.09 · T-085 · T-093
 > **Kontekst:** `docs/PLAN_WRZESIEN_2026.md` §7 (blok 1, pozycje 11–16)
 > **Poprzedni blok:** blok 0 domknięty 08.09, commity `4e49aed`, `dde4107`, `4c73caa`, `383b7d7`, `84f4965`
 >
-> **Wątek kampanijny (T-125, T-114, T-111) świadomie NIE jest tu opisany** — decyzja Janka 08.09:
-> „mnie na razie kampanie nie interesują". Dopisujemy osobno, gdy wróci temat. Budżet (T-109)
-> rozstrzyga Janek do 13.09 i dla tego wątku jest wejściem zewnętrznym, nie zadaniem.
+> **O czym jest ten wątek:** cztery strony do przepisania pod frazy, które już mają wyświetlenia
+> i nie mają kliknięć, oraz dwie kontrole sprawdzające, czy wcześniejsze zmiany zadziałały.
+> Wszystko idzie do bazy przez MCP, pod jednym backupem. Zero konfiguracji, zero kont zewnętrznych.
 
 ---
 
@@ -192,7 +192,6 @@ Frazy: `higienizacja osadów ściekowych` 30, `wapnowanie osadów ściekowych` 2
 
 ## 7. Czego w tym wątku nie robisz
 
-- **Nie dotykasz kampanii.** T-125, T-114, T-111 i budżet T-109 są poza tym wątkiem.
 - **Nie zakładasz nowych adresów** — patrz §0 pkt 10 i kontrola 15.09.
 - **Nie zgłaszasz nic do Indexing API.** Wspólna pula 200/dobę na wszystkie projekty, a przy tych
   kartach trzy zgłoszenia już nie zadziałały. Wejście do indeksu robimy linkowaniem.
@@ -215,6 +214,6 @@ Frazy: `higienizacja osadów ściekowych` 30, `wapnowanie osadów ściekowych` 2
 - **Wiersze w rejestrze zaktualizowane w tym samym commicie**, z dowodem. Wiersz bez dowodu nie ma
   prawa mieć ✅.
 
-⚠️ **Do naprawienia przy okazji, jeśli nie zrobi tego kto inny:** T-116, T-117 i T-125 **nadal nie
+⚠️ **Do naprawienia przy okazji, jeśli nie zrobi tego kto inny:** T-116 i T-117 **nadal nie
 mają wierszy w `docs/REJESTR_ZOBOWIAZAN.md`** — żyją wyłącznie w planie wrześniowym. To ten sam
 rozjazd, przez który blok 0 wyglądał na zamknięty, kiedy nie był. Dopisz je, zanim zaczniesz.
