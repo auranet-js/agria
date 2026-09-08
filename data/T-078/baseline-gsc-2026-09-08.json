@@ -1,0 +1,607 @@
+{
+ "okno": {
+  "start": "2026-08-08",
+  "koniec": "2026-09-05"
+ },
+ "pobrano": "2026-09-08T19:09:26",
+ "strony": [
+  {
+   "keys": [
+    "https://agria.pl/paszarstwo/kreda-pastewna/"
+   ],
+   "clicks": 1,
+   "impressions": 205,
+   "ctr": 0.004878048780487805,
+   "position": 8.639024390243902
+  }
+ ],
+ "frazy_kreda": [
+  {
+   "keys": [
+    "a kreda"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "co lepsze kreda czy wapno"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "co lepsze wapno czy kreda"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "czarna kreda"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "czarna kreda cena"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "czarna kreda granulowana"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "czarna kreda granulowana ile na hektar"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 11.5
+  },
+  {
+   "keys": [
+    "czarna kreda ile na hektar"
+   ],
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 9.875
+  },
+  {
+   "keys": [
+    "czarna kreda opinie"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "czarna kreda z hummusem ile na hektar"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "ile kosztuje kreda nawozowa"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "kreda 06a"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "kreda czarna granulowana"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda dla bydła"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "keys": [
+    "kreda do odkwaszania gleby"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "keys": [
+    "kreda granulowana"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 20.75
+  },
+  {
+   "keys": [
+    "kreda granulowana cena"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda granulowana cena za tonę"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda granulowana dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "kreda granulowana ile na hektar"
+   ],
+   "clicks": 0,
+   "impressions": 67,
+   "ctr": 0,
+   "position": 6.343283582089552
+  },
+  {
+   "keys": [
+    "kreda granulowana nawozowa"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "keys": [
+    "kreda jeziorna"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 26.5
+  },
+  {
+   "keys": [
+    "kreda jeziorna cena"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda jeziorna opinie"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "kreda malarska"
+   ],
+   "clicks": 0,
+   "impressions": 48,
+   "ctr": 0,
+   "position": 7.4375
+  },
+  {
+   "keys": [
+    "kreda malarska w ogrodnictwie"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 7.923076923076923
+  },
+  {
+   "keys": [
+    "kreda nawozowa"
+   ],
+   "clicks": 0,
+   "impressions": 36,
+   "ctr": 0,
+   "position": 24.22222222222222
+  },
+  {
+   "keys": [
+    "kreda nawozowa cena"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda nawozowa cena za tonę"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 18
+  },
+  {
+   "keys": [
+    "kreda nawozowa dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 45,
+   "ctr": 0,
+   "position": 6.355555555555555
+  },
+  {
+   "keys": [
+    "kreda nawozowa granulowana"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 12.5
+  },
+  {
+   "keys": [
+    "kreda nawozowa granulowana cena"
+   ],
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 5.36
+  },
+  {
+   "keys": [
+    "kreda nawozowa granulowana dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 5.285714285714286
+  },
+  {
+   "keys": [
+    "kreda nawozowa ile na hektar"
+   ],
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 2.55
+  },
+  {
+   "keys": [
+    "kreda nawozowa kiedy stosować"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "kreda nawozowa luzem"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda nawozowa skład"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 46
+  },
+  {
+   "keys": [
+    "kreda nawozowa sypka"
+   ],
+   "clicks": 0,
+   "impressions": 40,
+   "ctr": 0,
+   "position": 9.975
+  },
+  {
+   "keys": [
+    "kreda pastewna"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 14.5
+  },
+  {
+   "keys": [
+    "kreda pastewna dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 21.25
+  },
+  {
+   "keys": [
+    "kreda pastewna dla bydła"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 22.75
+  },
+  {
+   "keys": [
+    "kreda pastewna dla bydła co daje"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "keys": [
+    "kreda pastewna dla bydła dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 21.428571428571427
+  },
+  {
+   "keys": [
+    "kreda pastewna dla krów mlecznych"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "keys": [
+    "kreda pastewna dla kur dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 21.5
+  },
+  {
+   "keys": [
+    "kreda pastewna dla kur jak podawać"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda pastewna na pole"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 16
+  },
+  {
+   "keys": [
+    "kreda paszowa"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 15
+  },
+  {
+   "keys": [
+    "kreda rolnicza"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 33
+  },
+  {
+   "keys": [
+    "kreda skała"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "kreda steatytowa"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 36
+  },
+  {
+   "keys": [
+    "kreda sypka"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "kreda weglanowa"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
+    "żywa kreda h+ opinie"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  }
+ ],
+ "frazy_pastewn": [
+  {
+   "keys": [
+    "ile kredy pastewnej dla kur na 100 kg"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 6.6
+  },
+  {
+   "keys": [
+    "ile kredy pastewnej do paszy dla kur"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "kreda pastewna"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 14.5
+  },
+  {
+   "keys": [
+    "kreda pastewna dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 21.25
+  },
+  {
+   "keys": [
+    "kreda pastewna dla bydła"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 22.75
+  },
+  {
+   "keys": [
+    "kreda pastewna dla bydła co daje"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "keys": [
+    "kreda pastewna dla bydła dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 21.428571428571427
+  },
+  {
+   "keys": [
+    "kreda pastewna dla krów mlecznych"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "keys": [
+    "kreda pastewna dla kur dawkowanie"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 21.5
+  },
+  {
+   "keys": [
+    "kreda pastewna dla kur jak podawać"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "kreda pastewna na pole"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 16
+  }
+ ]
+}
