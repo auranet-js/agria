@@ -124,19 +124,28 @@ ciasteczek `cmplz_*` w przeglądarce.
    użytkownik nie dostaje. Każdy pomiar: rozgrzewka jednym żądaniem na adres, potem pomiar na
    czystym adresie. Do świadomego porównania „z Rocketem / bez Rocketa" służy `?nowprocket=1` —
    i wynik trzeba wtedy opisywać jako stan bez Rocketa, nie jako doświadczenie użytkownika.
-2. **Nowa strona z parallaksem w hero odziedziczy ten sam problem.** Zanim taka strona pójdzie
+2. **Inline z danymi w szablonie NIE jest chroniony trybem bezpiecznym — to nas ugryzło 08.09.**
+   Tryb bezpieczny wyklucza po ścieżce `/wp-content/`, a dane wstrzykiwane bezpośrednio w szablonie
+   (nie przez `wp_localize_script`) żadnej ścieżki w treści nie mają. Kalkulator wapnowania przestał
+   działać po wybraniu gruntu, bo `var agriaCalcData = {…}` — z listami pH w `phRanges` — poszło do
+   odroczenia, a plik kalkulatora czyta te dane w linii 12, na starcie. Naprawione dopisaniem
+   `agriaCalcData` do `delay_js_exclusions` (T-133). **Reguła na przyszłość: po każdej zmianie w
+   odraczaniu przejrzyj odroczone inline'y i wyklucz każdy, który definiuje dane, a nie reaguje na
+   zdarzenie.** Skrypt przeglądowy w praktyce: pobierz stronę jako wylogowany i wypisz skrypty
+   z `type="text/rocketlazyloadscript"` bez `data-rocket-src`, szukając wzorca `var X = {`.
+3. **Nowa strona z parallaksem w hero odziedziczy ten sam problem.** Zanim taka strona pójdzie
    pod reklamy, sprawdź LCP; jeśli spada, albo zdejmij efekt ruchu z hero, albo dodaj
    `_rocket_exclude_delay_js` — ale tylko gdy na stronie nie ma formularza.
-3. **`defer_all_js` zmierzone jako neutralne** na obu adresach (7,3 wobec 7,7 s). Zostawione
+4. **`defer_all_js` zmierzone jako neutralne** na obu adresach (7,3 wobec 7,7 s). Zostawione
    włączone dla zgodności z victorini, ale nie jest pozycją, która cokolwiek dowozi — przy
    przyszłej diagnozie można je wyłączyć bez straty.
-4. **Beacon Rocketa nie ma wpisu dla strony głównej.** Tabela `wpfz_wpr_above_the_fold` ma wpisy
+5. **Beacon Rocketa nie ma wpisu dla strony głównej.** Tabela `wpfz_wpr_above_the_fold` ma wpisy
    dla `/wapno-nawozowe/` i `/wapno-granulowane/`, brak dla `/`. Bez nich lazyload działa tam bez
    wiedzy o obrazach nad zgięciem — patrz T-132.
-5. **Nonce formularza w cache'owanym HTML jest bezpieczny.** `purge_cron_interval` to 10 godzin,
+6. **Nonce formularza w cache'owanym HTML jest bezpieczny.** `purge_cron_interval` to 10 godzin,
    a nonce WordPressa żyje 24 godziny, więc „Token wygasł" nie wyskoczy. Gdyby ktoś kiedyś wydłużył
    czas życia cache powyżej doby — wyskoczy.
-6. **Osobne pliki cache dla telefonów nie bronią przed powrotem wideo hero.** Sprawdzone: HTML
+7. **Osobne pliki cache dla telefonów nie bronią przed powrotem wideo hero.** Sprawdzone: HTML
    mobilny i desktopowy jest bajt w bajt identyczny (186 060 B), a wideo wygasza Elementor po
    stronie przeglądarki wedle szerokości okna, nie po User-Agencie. Plik to dziś **2 408 832 B**,
    nie 22 MB — podmieniony 07.09 w `e719836`. Obie opcje są włączone i zostają, ale teza
