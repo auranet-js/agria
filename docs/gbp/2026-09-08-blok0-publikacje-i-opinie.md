@@ -68,6 +68,47 @@ na świeżo wzmocnioną stronę.*
 
 ---
 
+## Zdjęcia — przypisane 08.09
+
+GBP przyjmuje wyłącznie **JPG i PNG**; uploady agria.pl są serwowane jako `.jpg.webp`, których nie
+weźmie. Konwersja po stronie serwera (GD, `imagecreatefromwebp` → `imagejpeg`, jakość 88) — decyzja
+Janka 08.09: „to są zdjęcia w znacznej części ze stocka lub generowane, możesz konwertować".
+
+| post | zdjęcie | co przedstawia |
+|---|---|---|
+| 09.09 okno jesienne | `2026/03/agria-product-bg-1.jpg` | tło produktowe (użyte) |
+| 16.09 kalkulator + magnez | `2026/09/gbp-wapnowanie-efekty-przed-po.jpg` | **przekonwertowane** — zdjęcie lotnicze, rozsiewacz, pole w połowie gołe i w połowie zielone |
+| 23.09 tlenkowe czy węglanowe | `2026/03/agria-product-bg-1.jpg` | tło produktowe, powtórka |
+| 30.09 kreda pastewna | `2026/03/ofirmie1.jpg` | **budynek AGRII z logo na elewacji** — jedyne autentyczne zdjęcie firmy w całej puli |
+
+Gotowe pliki wsadowe: `tmp/gbp-posty/2026-09-*.json`, publikacja przez `scripts/gbp_post.py <plik> --wyslij`.
+
+⚠️ **`2026/03/pobieranie-probek-glebowych.jpg` świadomie NIE użyte.** Tematycznie pasowałoby
+do kalkulatora najlepiej ze wszystkich, ale ma w prawym górnym rogu **cudzy znak wodny** (zielone
+logo, kadr wygląda na klatkę z filmu). Na stronie leży od marca; na wizytówce firmy to inna
+ekspozycja. **Zauważone obok, nie ruszam** — do decyzji, czy zdejmować je też ze strony.
+
+⚠️ **Pula się kończy.** Po 30.09 zostają tylko powtórki i materiały budowlane (cement, klinkier,
+tynki, wykwity) — nietrafione dla rolnictwa. Na październik potrzebny materiał od AGRII (**T-050**)
+albo świadoma decyzja o generowaniu, spójna z tym, że część obecnych zdjęć i tak jest generowana.
+
+---
+
+## Pytanie do Kazimierza — jedno, po quizie z Jankiem
+
+Frakcja **odpadła z listy**: decyzja Janka 08.09 — zostajemy bez przypisania rozdrobnienia
+do gatunku, dobór ustalamy pod recepturę. Opis kategorii jest już w tej formie, nic nie zmieniamy.
+
+Zostaje jedno, do przekazania przez Janka:
+
+> Kazimierzu, przy opisie kategorii paszarstwa wyszło pytanie o dawkowanie kredy pastewnej.
+> Na karcie mamy jeden przedział — 1–2 kg na 100 kg paszy — dla wszystkich zwierząt. Tymczasem
+> w wyszukiwarce ludzie pytają osobno o bydło i osobno o nioski. Czy dla tych grup podajecie
+> różne udziały w dawce? Jeśli tak, jakie — rozbiłbym to na osobne akapity, bo dziś stoimy
+> na tych zapytaniach na 21. pozycji z zerem kliknięć.
+
+---
+
 ## T-122 — uruchomienie opinii
 
 Dziewięć opinii, średnia **4,30**, wszystkie z odpowiedzią. Obsługa jest w porządku — brakuje
