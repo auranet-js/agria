@@ -4,7 +4,7 @@
 Główny dowód postępu M1/M2 (ważniejszy niż pozycje).
 Property: https://agria.pl/ (URL-prefix).
 """
-import json, urllib.request, urllib.parse, sys, time
+import json, os, urllib.request, urllib.parse, sys, time
 
 SEC = "/home/host476470/secrets/google"
 SITE = "https://agria.pl/"
@@ -35,6 +35,15 @@ URLS = [
     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
     "https://agria.pl/wapno-hydratyzowane/bielik/",
 ]
+
+
+# argumenty nadpisują listę domyślną: ścieżki (/foo/) albo pełne URL-e,
+# albo jeden plik z URL-ami po jednym w wierszu
+if len(sys.argv) > 1:
+    arg = sys.argv[1:]
+    if len(arg) == 1 and os.path.isfile(arg[0]):
+        arg = [l.strip() for l in open(arg[0]) if l.strip()]
+    URLS = [u if u.startswith("http") else "https://agria.pl" + u for u in arg]
 
 
 def load(p):
