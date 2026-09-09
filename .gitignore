@@ -84,3 +84,6 @@ data/olx/cities-all.json
 
 # strona postepu — artefakt generowany, zrodlem sa dane/postep.json + build_postep.py
 docs/postep/postep.html
+
+# Worktree Claude Code — katalog roboczy, nie treść projektu
+.claude/worktrees/
