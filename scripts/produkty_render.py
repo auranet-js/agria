@@ -36,7 +36,9 @@ main = re.search(r"<main[^>]*>(.*?)</main>", body, re.S)
 main = main.group(1) if main else body
 
 spec = {}
-m = re.search(r"Specyfikacja techniczna(.*?)</table>", h, re.S)
+# najpierw nagłówek z id — tekst „Specyfikacja techniczna" pada też w nawigacji karty, a przed tabelą bywa tabela porównawcza
+m = (re.search(r'<h2[^>]*id="specyfikacja-techniczna"[^>]*>.*?(<table.*?</table>)', h, re.S)
+     or re.search(r"Specyfikacja techniczna(.*?)</table>", h, re.S))
 if m:
     for row in re.findall(r"<tr>(.*?)</tr>", m.group(1), re.S):
         c = [txt(x) for x in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S)]

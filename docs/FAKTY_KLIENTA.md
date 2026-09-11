@@ -211,6 +211,11 @@ przed rozliczeniem budżetu.
   Słowo „od” niesie całą informację o widełkach, a pytanie o cenę big-bagu trafia tam, gdzie ma
   trafiać — do handlowca. Warunek przy cenie wiodącej jest obowiązkowy: samo „od 220 zł/t”
   czyta się tak, jakby dotyczyło worka.
+  **Potwierdzone `[J 11.09]`** przy kredzie pastewnej: podajemy cenę luzu, worek 30 kg jako możliwość zakupu, bez kwoty.
+- **Zero cen w tytułach (`rank_math_title`) — krytyczne `[J 11.09]`.** Cena żyje w treści karty.
+- **Cena w meta description dozwolona `[J 11.09]`, ale ze zobowiązaniem:** przy każdej zmianie ceny aktualizujemy ją
+  w **trzech miejscach** — treść karty (lead, sekcja „cena", FAQ), schema `offers` i `rank_math_description`.
+  Meta nie widać gołym okiem, a Google ją czyta, więc stara kwota zostałaby tam niezauważona.
 - **Nigdy pełny cennik** i nigdy cena za sztukę — wyłącznie przeliczenia na tonę.
 - **Ceny za worki — decyzja otwarta.** Paweł podał ceny workowe i w tym samym mailu napisał:
   *„na ten moment nie będziemy prowadzić sprzedaży po worku”*. Cała zgoda na publikację cen opierała się
