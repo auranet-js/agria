@@ -35,7 +35,7 @@
 | 310 | Agrobielik 70 | 11 / 237 | 0 | rozbieżności | tabela z innymi zastosowaniami; plony, pH, odkażanie bez źródła |
 | 304 | Kreda malarska | 6 / 284 | 0 | brak karty | żaden parametr niepotwierdzony |
 | 305 | Kreda nawozowa granulowana | 5 / 363 | 1 | luki, rozbieżności | BB 500 kg (karta, zapytanie) vs „od 1 t" (strona) |
-| 307 | Kreda pastewna | 3 / 234 (+149 klik. Ads) | 0 | luki, rozbieżności | 37% CaO zgodne; brak drobiu w treści przy ≈2 780 wyszukań/mies. |
+| 307 | Kreda pastewna | 3 / 234 (+149 klik. Ads) | 0 | luki, rozbieżności | „37% CaO" na karcie vs „Ca min. 37%" (Lhoist) i „CaO min. 50%" (Celiny) — dokumenty od klienta 11.09; brak drobiu w treści przy ≈2 780 wyszukań/mies. |
 | 313 | Tlenkowe z Mg | 2 / 420 | 0 | rozbieżności, brak ceny | zawartość zapisana trzema sposobami |
 | 314 | Węglanowe bez Mg granulowane | 2 / 849 | 0 | luki, rozbieżności | wysiew siewnikiem z NPK (karta) — na stronie brak |
 | 306 | Kreda nawozowa sypka | 2 / 82 | 0 | rozbieżności | odm. 06a (karta) vs 06 (cennik) |
@@ -62,6 +62,7 @@
 | 317 | big-bag | 600 kg | cennik, strona, OLX: 1 t |
 | 305 | big-bag | 500 kg | strona, cennik, OLX AGRII: „od 1 t" (zapytanie 05.08 — 500 kg) |
 | 306 | odmiana | 06a | cennik: 06 |
+| 307 | zawartość wapnia | min. 37% CaO | Lhoist Bukowa (karta IV 2026 i worek 30 kg): Ca min. 37%; Celiny (F13, 29.04.2026): CaO min. 50%, Ca min. 389 g/kg |
 | 313 | zawartość | „70/25 %" (tabela) i „min. 70% CaO + 25% MgO" (tekst) | meta strony: „CaO+MgO min. 70% (w tym MgO 25%)" |
 
 ### 2.3 Rozbieżności systemowe — te same na wielu kartach
@@ -81,6 +82,8 @@
 
 - Atesty OSChR na `/do-pobrania/` mają tylko 4 produkty: #310, #311, #318, #319. Karty charakterystyki (Nordkalk) — produkty Nordkalku.
 - **Ogłoszenia OLX AGRII deklarują „atest OSChR"** dla #305, #306, #317 i #312 — na `/do-pobrania/` żadnego z nich nie ma.
+- **11.09 klient przysłał karty producentów kredy pastewnej** (Lhoist Bukowa, Kopalnia Celiny) ze zdjęciem worka 30 kg i numerami weterynaryjnymi
+  PL2613013p / PL26043170p — `data/produkty/klient/kreda-pastewna/`, opis w `kreda-pastewna.md` §2.4.
 - Żadna karta produktu nie linkuje do własnej karty PDF ani atestu (tylko ogólnie do `/do-pobrania/`).
 - Konkurencja eksponuje atest i nazwę zakładu: CARLOS (Agrobielik 70 „Zakład Sitkówka", atest OSChR Kielce), Industria (Dewonit z nazwą kopalni).
 

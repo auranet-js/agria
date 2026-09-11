@@ -8,7 +8,11 @@
 > **[R]** render karty 10.09, `data/produkty/render/kreda-pastewna.{html,json}` · **[C]** `docs/operations/CENNIK_PAWEL_2026-08-07.md` ·
 > **[KChW]** karta charakterystyki węglanu wapnia Nordkalk, akt. 26.03.2025 (`karta-charakterystyki-weglan-wapnia-nordkalk-2025.pdf`) ·
 > **[NK]** nordkalk-wapno.pl `/produkty/agrobielik/` (pobrane 10.09, `data/produkty/zewn/`) ·
-> **[REJ]** `docs/REJESTR_ZOBOWIAZAN.md` (T-079, lista „Błędy w katalogu drukowanym do erraty") · **[PN]** `docs/catalog/PLAN_NAPRAWY_PARAMETROW_2026-07-14.md` pkt 9
+> **[REJ]** `docs/REJESTR_ZOBOWIAZAN.md` (T-079, lista „Błędy w katalogu drukowanym do erraty") · **[PN]** `docs/catalog/PLAN_NAPRAWY_PARAMETROW_2026-07-14.md` pkt 9 ·
+> **Od klienta 11.09** (Kazimierz Nowak, WhatsApp 10:52; pliki z Dysku `AGRIA/temp` → `data/produkty/klient/kreda-pastewna/`):
+> **[LB]** karta produktu Lhoist Bukowa „Kreda Pastewna 0-0,3mm", nr ref. PL21K274, kwiecień 2026 (`buk_kreda_pastewna__0-03mm__PL21K274.pdf`) ·
+> **[CEL]** karta produktu Kopalni Wapienia „Celiny" F13, wersja 5, 29.04.2026, GMP+ FSA 2020 (`F13-KARTA-PRODUKT-2026-1.pdf`) ·
+> **[FOT]** 3 zdjęcia worka 30 kg w sprzedaży (`opakowanie-30kg-2026-09-11*.jpeg`)
 
 ---
 
@@ -21,12 +25,15 @@
 | kategoria paszowa | „Suplement mineralny" | [K] |
 | odmiana / typ wg rozporządzenia | **karta nie podaje** | [K] |
 | producent | „Celiny (Hochel Group), Lhoist" | [K] |
-| kopalnie | „Produkt dostępny równolegle z dwóch kopalni — Celiny i Lhoist — z magazynów w Bukowej i Celinach." Kopalni Lhoist karta z nazwy nie wymienia; **który magazyn wydaje towar którego producenta — karta nie mówi** | [K] |
+| kopalnie | „Produkt dostępny równolegle z dwóch kopalni — Celiny i Lhoist — z magazynów w Bukowej i Celinach." Kopalni Lhoist karta z nazwy nie wymienia; który magazyn wydaje towar którego producenta — karta nie mówi | [K] |
+| **producent 1 — dokument producenta** | **Lhoist Bukowa Sp. z o.o. w Bukowej**, ul. Osiedlowa 10, 29-105 Krasocin (kod zgodny z magazynem „Bukowa (29-105)") · **zakładowy numer weterynaryjny PL2613013p** | [LB], [FOT] |
+| **producent 2 — dokument producenta** | **Kopalnia Wapienia „Celiny" k/Chmielnika**, Celiny 5, 26-020 Chmielnik; spółka Kopalnia Granitu Kamienna Góra – Celiny sp. z o.o. (kod zgodny z magazynem „Celiny (26-020)") · **numer weterynaryjny PL26043170p** · certyfikat GMP+ GMP062202 | [CEL] |
 | magazyny wysyłkowe | „Bukowa (29-105), Celiny (26-020)" | [K] |
 | rodzaj | kreda — materiał paszowy (nie nawóz); magnezu karta nie wymienia | [K] |
 | forma fizyczna | „Sypkie" | [K] |
 | frakcje | „0–0,3 / 0,1–0,4 / 0,4–0,8 / 1–3 mm" · „Wybór frakcji — od pyliście drobnej po 1–3 mm — dopasowanie do miksera i grupy zwierząt" | [K] |
 | formy dostawy | „Luz (24 t), worek 30 kg" | [K] |
+| formy dostawy u producentów | Lhoist: „worki po 30 kg, big bag 1000 kg, bądź … luzem" [LB] · Celiny: luz do cystern, „worki typu BIG-BAG (różne wielkości)" — **worków 30 kg brak** [CEL] · worek 30 kg w sprzedaży to **Lhoist**: nadruk „Materiał paszowy · Zawartość wapnia Ca min. 37% · Nr weterynaryjny: PL2613013p" [FOT] | [LB], [CEL], [FOT] |
 | dla kogo | „wytwórni pasz i hodowli wielkotowarowych, które nie mogą pozwolić sobie na przerwę w produkcji mieszanek" | [K] |
 | segment / piktogramy | tabela: „Paszarstwo, hurtownie, rolnictwo" · piktogramy: tylko PASZARSTWO, HURTOWNIE | [K] |
 | dostępność | „Cały rok" | [K] |
@@ -58,7 +65,8 @@ Karta AGRII podaje producentów **Celiny (Hochel Group) i Lhoist** — dokumenty
 | Dostępność | Cały rok |
 
 Karta **nie podaje**: zawartości Ca jako pierwiastka, MgO, wilgotności, metali ciężkich, numeru normy paszowej (tekst mówi ogólnie
-„zgodność z normami paszowymi, pełna dokumentacja dla odbiorców"). **Atestu ani karty producenta dla tego towaru na `/do-pobrania/` nie ma.**
+„zgodność z normami paszowymi, pełna dokumentacja dla odbiorców"). Atestu ani karty producenta dla tego towaru na `/do-pobrania/` nie ma —
+**karty obu producentów przysłał klient 11.09** (§2.4).
 
 ### 2.2 „37% CaO" czy „37% Ca" — co mówią źródła (zgłoszone 21.08)
 
@@ -69,15 +77,62 @@ Karta **nie podaje**: zawartości Ca jako pierwiastka, MgO, wilgotności, metali
 | [PN] 14.07 pkt 9 | „w karcie analogu to 37% Ca (370 g/kg), nie CaO. Potwierdzić jednostkę." |
 | sesja 21.08 | „rynek i karty producentów podają 37% Ca" |
 | konkurencja w SERP 10.09 | agsol.pl „39% wapnia" · hotfarm.pl „min. 36,9% węglanu wapnia" · karma.pl (Animacal) „zawiera go aż 96%" |
+| **[LB] Lhoist Bukowa, IV 2026** | „Węglan wapnia CaCO3 min 93%. **Zawartość wapnia Ca min. 37%**" (średnia 2025: CaCO₃ 98,0%, Ca 39,2%) |
+| **[FOT] worek Lhoist 30 kg** | „Zawartość wapnia **Ca** min. 37%" |
+| **[CEL] Celiny, 29.04.2026** | „Tlenek wapnia [CaO] **min. 50%** (54,4)" · „Wapń [Ca] min. 389 g/kg" · CaCO₃ 972,59 g/kg (obliczone) |
 
-**Karta i strona są zgodne: 37% CaO.** Zgodnie z zasadą z 10.09 rozstrzyga karta — rozbieżności karta ↔ strona tu nie ma.
-Zapisy konkurencji są niespójne między sobą i nie są źródłem.
+**Karta i strona są zgodne ze sobą (37% CaO), ale dokumenty obu producentów mówią co innego:** u Lhoist 37% to **wapń (Ca)**,
+a CaO u Celin to min. 50%. Karta AGRII zostaje źródłem prawdy — parametru nie zmieniam, rozbieżność karta PDF ↔ dokumenty producentów
+zapisana. Zmiana tylko na polecenie Janka — pytanie w §9.
 
 ### 2.3 Wiersze karty zakwestionowane wcześniej w rejestrze
 
 [REJ] T-079 (24.08) i lista do erraty uznają za **błąd katalogu** opis kredy pastewnej „parametrami wapna tlenkowego — egzotermia,
 pH >12". Karta PDF (= katalog) **nadal ma** „Odczyn pH >12" i „Typ reakcji: Egzotermiczna". Stoją w sprzeczności dwie zasady:
 karta = źródło prawdy (10.09) i zapis rejestru o erracie po stronie klienta. Parametrów nie ruszam — pytanie w §9.
+**11.09: żadna z dwóch kart producentów nie podaje pH ani typu reakcji.** [LB]: „Produkt nie jest substancją niebezpieczną";
+[CEL]: „mechaniczna przeróbka surowca – kamienia wapiennego, poprzez jego rozdrabnianie, suszenie i separowanie".
+
+### 2.4 Dokumenty producentów (od klienta 11.09) — tabele 1:1
+
+**[LB] Lhoist Bukowa — Kreda Pastewna 0–0,3 mm** (nr ref. PL21K274, kwiecień 2026)
+
+| cecha | wartość gwarantowana | średnia 2025 (niegwarantowana) |
+|---|---|---|
+| CaCO₃ | min. 93% | 98,0% |
+| Ca | min. 37% | 39,2% |
+| wolna woda | max. 0,8% | 0,1% |
+| As / Cd / Pb / Hg | max. 15 / 2 / 20 / 0,3 mg/kg | 0,4 / 0,2 / 0,3 / 0,00 |
+| F | max. 350 mg/kg | 27,0 |
+| WHO-PCDD/F-TEQ | max. 0,75 ng/kg | 0,06 |
+| WHO-PCDD/F-PCB-TEQ | max. 1,0 ng/kg | 0,07 |
+| ndl-PCB | max. 10 μg/kg | 0,01 |
+
+Granulacja 0–0,3 · zastosowanie: „element mieszanek paszowych, premiksów i mieszanek mineralnych" · opakowania: worek 30 kg, BB 1000 kg,
+luz · wymagania: ustawa o paszach 2006, rozp. (WE) 183/2005 i 767/2009, rozp. MRiRW z 10.07.2015 · nr weterynaryjny **PL2613013p**.
+
+**[CEL] Kopalnia Wapienia „Celiny" — Kreda pastewna, naturalny węglan wapnia** (F13, wersja 5, 29.04.2026)
+
+| cecha | wartość (w nawiasie — orientacyjna) |
+|---|---|
+| frakcje (mm) | do 0,080 · 0,10–0,40 · 0,10–0,80 · 0,40–0,80 · 0,80–1,25 · 0,10–1,25 · 1,20–2,00 · 1,00–3,00 · 2,00–4,00 |
+| CaCO₃ (obliczone) | 972,59 g/kg |
+| CaO | min. 50% (54,4) |
+| Ca | min. 389 g/kg ± 19 |
+| As / Pb / Cd / Hg | max. 15 / 20 / 2 / 0,1 mg/kg |
+| F | max. 150 mg/kg (77,6) |
+| wilgotność | max. 0,5% (0,28) |
+| dioksyny WHO-PCDD/F-TEQ · + dl-PCB · ndl-PCB | max. 0,5 ng/kg · 1,0 ng/kg · 10 μg/kg |
+
+PKWiU 08.11.30.0; katalog materiałów paszowych 11.1.1 „Węglan wapnia" · zastosowanie: „dodatek bogaty związek wapnia w mieszankach
+paszowych oraz premiksów, gdzie jest głównym nośnikiem witamin" · luz z silosów do cystern, BIG-BAG · GMP+ GMP062202 · nr weterynaryjny **PL26043170p**.
+
+**Co z tego wynika dla karty AGRII (fakty):**
+- frakcje AGRII: **0–0,3 mm = frakcja Lhoist** (Celiny jej nie mają); **0,1–0,4, 0,4–0,8, 1–3 mm = frakcje Celin** (w [LB] ich nie ma);
+- worek 30 kg = towar Lhoist; luz — oba źródła;
+- producenci nazywają produkt **„materiałem paszowym"**, karta AGRII — „suplementem mineralnym";
+- żaden dokument producenta nie podaje dawki (1–2 kg / 100 kg paszy jest tylko na karcie AGRII) ani funkcji „bufor kwasicy";
+- nazwy producenta i kopalni wolno pisać w treści (`[J 11.09]`); numery weterynaryjne i GMP+ to fakty z dokumentów producentów.
 
 ## 3. Zastosowania (z karty)
 
@@ -249,7 +304,14 @@ Dane: `data/produkty/dfs/serp-kredy-dolomit-2026-09-10.json`.
 
 ## 9. Pytania do Janka / klienta (tylko to, czego karty nie rozstrzygają)
 
-1. **„Odczyn pH >12" i „Typ reakcji: Egzotermiczna"** na karcie PDF — rejestr (T-079, lista do erraty) uznaje je za błąd katalogu po stronie
-   klienta, zasada z 10.09 mówi „karta = źródło prawdy". Który zapis obowiązuje dla tej karty?
-2. **Który magazyn wydaje towar którego producenta** (Bukowa / Celiny ↔ Celiny / Lhoist) i czy cena 190 zł/t luz dotyczy obu źródeł?
-3. **Frakcje ↔ gatunki:** czy klient ma rozpisane, która frakcja idzie dla kur, a która dla bydła (karta tego nie mówi)?
+1. **„Odczyn pH >12" i „Typ reakcji: Egzotermiczna"** na karcie PDF — rejestr (T-079, lista do erraty) uznaje je za błąd katalogu;
+   **11.09: karty obu producentów pH ani egzotermii nie podają.** Czy te dwa wiersze karty AGRII zostają?
+2. **„37% CaO" na karcie AGRII** wobec „Ca min. 37%" (Lhoist — karta i worek) i „CaO min. 50%" (Celiny) — czy zmieniamy zapis parametru
+   na karcie i stronie? Zmiana tylko na polecenie Janka; źródło jest teraz konkretne ([LB], [CEL]).
+3. ~~Który magazyn wydaje towar którego producenta?~~ **11.09 z dokumentów: Bukowa = Lhoist Bukowa (29-105), Celiny = Kopalnia Celiny (26-020);
+   frakcja 0–0,3 mm i worek 30 kg — Lhoist, pozostałe frakcje — Celiny.** Otwarte: czy cena 190 zł/t luz dotyczy obu źródeł.
+4. **Frakcje ↔ gatunki:** czy klient ma rozpisane, która frakcja idzie dla kur, a która dla bydła? Żaden z trzech dokumentów tego nie mówi.
+
+**`[J 11.09]` Pytania 1 i 2 — na razie zostawiamy:** karta i strona bez zmian (37% CaO, pH >12, egzotermia). Dokumenty producentów
+przysłał Kazimierz na naszą prośbę (sprawa z 21.08); leżą w repo jako źródło na później.
+
