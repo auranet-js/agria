@@ -1,0 +1,215 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~YWdyb2JpZWxpaw",
+        "searchTerm": "agrobielik"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~YmllbGlrIHdhcG5v",
+        "searchTerm": "bielik wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1470000",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYWdyb2JpZWxpaw",
+        "searchTerm": "wapno agrobielik"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1480000",
+        "impressions": "42"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYmllbGlr",
+        "searchTerm": "wapno bielik"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYmllbGlrIDI1IGtn",
+        "searchTerm": "wapno bielik 25 kg"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYmllbGlrIDI1IGtnIGNlbmE",
+        "searchTerm": "wapno bielik 25 kg cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1480000",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYmllbGlrIDMwIGtnIGNlbmE",
+        "searchTerm": "wapno bielik 30 kg cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1450000",
+        "impressions": "10"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYmllbGlrIGNlbmE",
+        "searchTerm": "wapno bielik cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYmllbGlrIHRyenVza2F3aWNh",
+        "searchTerm": "wapno bielik trzuskawica"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYnVkb3dsYW5lIGJpZWxpaw",
+        "searchTerm": "wapno budowlane bielik"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "adGroup": {
+        "resourceName": "customers/6742071446/adGroups/198590178225",
+        "name": "Brand"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2950000",
+        "impressions": "25"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gaHlkcmF0eXpvd2FuZSBiaWVsaWs",
+        "searchTerm": "wapno hydratyzowane bielik"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,adGroup.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "1442"
+}

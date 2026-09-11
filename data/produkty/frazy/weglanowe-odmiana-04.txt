@@ -1,0 +1,45 @@
+# nazwa
+wapno węglanowe odmiana 04
+wapno odmiana 04
+wapno nawozowe odmiana 04
+wapno węglanowe bez magnezu
+wapno bez magnezu
+wapno węglanowe sypkie
+# marka (atrybut pa_agria-marka)
+bukowiak
+wapno bukowiak
+opolwiak
+wapno opolwiak
+opolwiak premium
+# + zastosowanie
+wapno węglanowe na gleby lekkie
+wapno węglanowe do sadu
+wapno węglanowe zastosowanie
+# + dawka
+ile wapna węglanowego na hektar
+wapno węglanowe ile na hektar
+wapno węglanowe dawkowanie
+# + cena / forma
+wapno węglanowe cena
+wapno węglanowe cena za tonę
+wapno węglanowe luzem
+wapno węglanowe big bag
+wapno węglanowe 25 kg
+# producent / zakład / lokalizacja z karty
+lhoist
+lhoist bukowa
+wapno bukowa
+kopalnia celiny
+wapno celiny
+wapno górażdże
+wapno tarnów opolski
+# rodzaj ogólny
+wapno węglanowe
+wapno nawozowe węglanowe
+wapno kredowe
+wapno nawozowe
+# porównania
+wapno węglanowe czy tlenkowe
+wapno węglanowe czy magnezowe
+wapno węglanowe czy granulowane
+wapno odmiana 04 czy 05

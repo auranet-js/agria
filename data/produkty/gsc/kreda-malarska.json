@@ -1,0 +1,64 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:34:20",
+ "strony": {
+  "https://agria.pl/kreda-malarska/kreda-malarska/": {
+   "agregat": {
+    "clicks": 6,
+    "impressions": 284,
+    "ctr": 0.02112676056338028,
+    "position": 7.095070422535211
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "kreda malarska"
+     ],
+     "clicks": 0,
+     "impressions": 85,
+     "ctr": 0,
+     "position": 7.894117647058824
+    },
+    {
+     "keys": [
+      "kreda malarska 30 kg"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 20
+    },
+    {
+     "keys": [
+      "kreda malarska gdzie kupić"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 5
+    },
+    {
+     "keys": [
+      "kreda malarska w ogrodnictwie"
+     ],
+     "clicks": 0,
+     "impressions": 24,
+     "ctr": 0,
+     "position": 8.916666666666668
+    },
+    {
+     "keys": [
+      "podaj producentów"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 5
+    }
+   ]
+  }
+ }
+}

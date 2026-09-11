@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Z2R6aWUga3VwacSHIHdhcG5vIHBhbG9uZQ",
+        "searchTerm": "gdzie kupić wapno palone"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgcGFsb25l",
+        "searchTerm": "wapno tlenkowe palone"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "1152"
+}

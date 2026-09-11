@@ -1,0 +1,35 @@
+# nazwa / marka
+agrobielik 90
+wapno agrobielik 90
+agrobielik 90 0-3
+agrobielik 90 2-8
+nordkalk agrobielik 90
+# nazwa + zastosowanie / dawka / cena
+agrobielik 90 zastosowanie
+agrobielik 90 dawkowanie
+agrobielik 90 cena
+agrobielik 90 big bag
+# producent / zakład
+nordkalk wapno sitkówka
+wapno trzuskawica
+# rodzaj ogólny
+wapno tlenkowe 90
+wapno tlenkowe 90 cena
+wapno palone 90
+wapno 90 cao
+wapno nawozowe odmiana 01
+wapno tlenkowe kruszone
+wapno palone kruszone
+wapno tlenkowe granulowane
+wapno do higienizacji osadów
+wapno do oczyszczalni
+wapno palone do oczyszczalni
+wapno do stawu
+wapno palone do stawu
+wapno tlenkowe do stawu
+wapno tlenkowe dawkowanie
+wapno tlenkowe cena za tonę
+# porównania
+agrobielik 70 czy 90
+agrobielik 90 czy oxyfertil
+wapno tlenkowe 70 czy 90

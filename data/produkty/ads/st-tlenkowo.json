@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd28gbWFnbmV6b3dl",
+        "searchTerm": "wapno tlenkowo magnezowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gdGxlbmtvd28gbWFnbmV6b3dl",
+        "searchTerm": "wapno tlenkowo magnezowe"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "1128"
+}

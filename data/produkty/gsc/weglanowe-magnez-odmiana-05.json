@@ -1,0 +1,208 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:33:35",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/": {
+   "agregat": {
+    "clicks": 13,
+    "impressions": 573,
+    "ctr": 0.02268760907504363,
+    "position": 10.043630017452006
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "agria tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "nawóz magnezowo wapniowy"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 76
+    },
+    {
+     "keys": [
+      "producent wapna magnezowego"
+     ],
+     "clicks": 0,
+     "impressions": 33,
+     "ctr": 0,
+     "position": 40.93939393939394
+    },
+    {
+     "keys": [
+      "wap mag cena za tonę"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "wapno magnezowe luzem cena"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "wapno magnezowe producent"
+     ],
+     "clicks": 0,
+     "impressions": 10,
+     "ctr": 0,
+     "position": 29.3
+    },
+    {
+     "keys": [
+      "wapno magnezowe skład"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 33.5
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 23,
+     "ctr": 0,
+     "position": 25.17391304347826
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowo-magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 12,
+     "ctr": 0,
+     "position": 14
+    },
+    {
+     "keys": [
+      "wapno nawozowe z magnezem"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 29
+    },
+    {
+     "keys": [
+      "wapno odmiana 04"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 41
+    },
+    {
+     "keys": [
+      "wapno odmiana 05"
+     ],
+     "clicks": 0,
+     "impressions": 51,
+     "ctr": 0,
+     "position": 2.9019607843137254
+    },
+    {
+     "keys": [
+      "wapno weglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 44
+    },
+    {
+     "keys": [
+      "wapno weglanowo magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 8.5
+    },
+    {
+     "keys": [
+      "wapno węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 11,
+     "ctr": 0,
+     "position": 25.545454545454547
+    },
+    {
+     "keys": [
+      "wapno węglanowe czy magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 10
+    },
+    {
+     "keys": [
+      "wapno węglanowe magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 20.714285714285715
+    },
+    {
+     "keys": [
+      "wapno węglanowe sypkie"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "wapno węglanowe z magnezem"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 15
+    },
+    {
+     "keys": [
+      "wapno węglanowo magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 17
+    },
+    {
+     "keys": [
+      "wapno węglowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 48
+    }
+   ]
+  }
+ }
+}

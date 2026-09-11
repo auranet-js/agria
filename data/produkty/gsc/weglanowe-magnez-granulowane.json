@@ -1,0 +1,244 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:33:34",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/": {
+   "agregat": {
+    "clicks": 0,
+    "impressions": 399,
+    "ctr": 0,
+    "position": 25.461152882205514
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "\"rolnictwo\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "agria niedomice"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 9
+    },
+    {
+     "keys": [
+      "agria tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "cao mgo"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 20
+    },
+    {
+     "keys": [
+      "wapno granulowane magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 33
+    },
+    {
+     "keys": [
+      "wapno magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 23,
+     "ctr": 0,
+     "position": 48.91304347826087
+    },
+    {
+     "keys": [
+      "wapno magnezowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 41
+    },
+    {
+     "keys": [
+      "wapno magnezowe granulowane olx"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "wapno magnezowe producent"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 47
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 32,
+     "ctr": 0,
+     "position": 31.8125
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 19,
+     "ctr": 0,
+     "position": 30.63157894736842
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowo-magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 18,
+     "ctr": 0,
+     "position": 37.611111111111114
+    },
+    {
+     "keys": [
+      "wapno pokarbidowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 49
+    },
+    {
+     "keys": [
+      "wapno weglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 53
+    },
+    {
+     "keys": [
+      "wapno węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 43,
+     "ctr": 0,
+     "position": 41.58139534883721
+    },
+    {
+     "keys": [
+      "wapno węglanowe czy magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "wapno węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 39,
+     "ctr": 0,
+     "position": 34.30769230769231
+    },
+    {
+     "keys": [
+      "wapno węglanowe magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 38.333333333333336
+    },
+    {
+     "keys": [
+      "wapno węglanowe z magnezem"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 11.333333333333334
+    },
+    {
+     "keys": [
+      "wapno węglanowo magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 32
+    },
+    {
+     "keys": [
+      "wapno węglanowo magnezowe cena"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 20
+    },
+    {
+     "keys": [
+      "wapno węglanowo magnezowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 15
+    },
+    {
+     "keys": [
+      "wapno węglowe"
+     ],
+     "clicks": 0,
+     "impressions": 31,
+     "ctr": 0,
+     "position": 42.83870967741935
+    },
+    {
+     "keys": [
+      "wapno z mikroelementami"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 43
+    },
+    {
+     "keys": [
+      "węglan wapnia nawóz"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 84
+    }
+   ]
+  }
+ }
+}

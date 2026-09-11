@@ -1,0 +1,248 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:38:41",
+ "ciagi": {
+  "magnezem": [
+   {
+    "keys": [
+     "wapno granulowane z magnezem",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno nawozowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "wapno nawozowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "wapno węglanowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 11.333333333333334
+   },
+   {
+    "keys": [
+     "wapno węglanowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 15
+   },
+   {
+    "keys": [
+     "wapno z magnezem",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "z magnezem",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   }
+  ],
+  "stawu": [
+   {
+    "keys": [
+     "do stawu",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-agrobielik-70-big-bag-1000kg/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "ile wapna do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "keys": [
+     "wapno chlorowane do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "wapno tlenkowe do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   }
+  ],
+  "oczyszczal": [],
+  "higieniz": [
+   {
+    "keys": [
+     "higienizacja osadu",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "higienizacja osadów",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 44,
+    "ctr": 0,
+    "position": 15.840909090909092
+   },
+   {
+    "keys": [
+     "higienizacja osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 172,
+    "ctr": 0,
+    "position": 16.587209302325583
+   },
+   {
+    "keys": [
+     "proces higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 18.1
+   },
+   {
+    "keys": [
+     "urządzenia do higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 21,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "urządzenie do higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 69,
+    "ctr": 0,
+    "position": 10.521739130434783
+   }
+  ],
+  "kruszon": [
+   {
+    "keys": [
+     "wapno kruszone",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 23,
+    "ctr": 0,
+    "position": 18.91304347826087
+   },
+   {
+    "keys": [
+     "wapno kruszone",
+     "https://agria.pl/oferta/?product_cat=wapno-nawozowe-hurt"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 24.333333333333332
+   },
+   {
+    "keys": [
+     "wapno kruszone",
+     "https://agria.pl/wp-content/uploads/2023/06/5.pdf"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 2.5
+   },
+   {
+    "keys": [
+     "wapno palone kruszone",
+     "https://agria.pl/oferta/?product_cat=wapno-nawozowe-hurt"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "wapno palone kruszone",
+     "https://agria.pl/wp-content/uploads/2023/06/5.pdf"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 6.5
+   }
+  ]
+ }
+}

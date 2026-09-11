@@ -1,0 +1,31 @@
+# nazwa
+kreda nawozowa sypka
+kreda sypka
+kreda sypka nawozowa
+wapno kredowe sypkie
+kreda nawozowa luzem
+kreda luzem
+# odmiana
+kreda nawozowa 06a
+kreda 06a
+kreda nawozowa odmiana 06
+wapno nawozowe odmiana 06
+# producent / zakład
+kopalnia drugnia
+drugnia kreda
+kreda pierzchnica
+wapno pierzchnica
+# nazwa + zastosowanie
+kreda sypka do stawu
+# nazwa + dawka
+kreda sypka ile na hektar
+kreda nawozowa sypka dawkowanie
+# nazwa + cena
+kreda nawozowa sypka cena
+kreda sypka cena
+kreda luzem cena
+# rodzaj ogólny
+wapno węglanowe sypkie
+kreda nawozowa
+# porównania
+kreda sypka czy granulowana

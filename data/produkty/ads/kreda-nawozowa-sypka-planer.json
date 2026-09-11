@@ -1,0 +1,727 @@
+{
+ "pobrano": "2026-09-10T17:35:44",
+ "zrodlo": "Google Ads API generateKeywordHistoricalMetrics, PL/pl",
+ "frazy": [
+  {
+   "fraza": "kreda nawozowa sypka",
+   "wolumen": 40,
+   "cpc": 0.17,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "MEDIUM",
+   "serie": [
+    [
+     "2025-08",
+     40
+    ],
+    [
+     "2025-09",
+     40
+    ],
+    [
+     "2025-10",
+     20
+    ],
+    [
+     "2025-11",
+     40
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     50
+    ],
+    [
+     "2026-02",
+     40
+    ],
+    [
+     "2026-03",
+     110
+    ],
+    [
+     "2026-04",
+     70
+    ],
+    [
+     "2026-05",
+     50
+    ],
+    [
+     "2026-06",
+     20
+    ],
+    [
+     "2026-07",
+     20
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda sypka",
+   "wolumen": 20,
+   "cpc": 0.43,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     30
+    ],
+    [
+     "2025-09",
+     20
+    ],
+    [
+     "2025-10",
+     10
+    ],
+    [
+     "2025-11",
+     10
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     20
+    ],
+    [
+     "2026-02",
+     20
+    ],
+    [
+     "2026-03",
+     30
+    ],
+    [
+     "2026-04",
+     30
+    ],
+    [
+     "2026-05",
+     20
+    ],
+    [
+     "2026-06",
+     20
+    ],
+    [
+     "2026-07",
+     10
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "wapno kredowe sypkie",
+   "wolumen": 50,
+   "cpc": 0.54,
+   "top_min": 0.64,
+   "top_max": 1.26,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     90
+    ],
+    [
+     "2025-09",
+     50
+    ],
+    [
+     "2025-10",
+     50
+    ],
+    [
+     "2025-11",
+     40
+    ],
+    [
+     "2025-12",
+     30
+    ],
+    [
+     "2026-01",
+     20
+    ],
+    [
+     "2026-02",
+     50
+    ],
+    [
+     "2026-03",
+     70
+    ],
+    [
+     "2026-04",
+     50
+    ],
+    [
+     "2026-05",
+     50
+    ],
+    [
+     "2026-06",
+     70
+    ],
+    [
+     "2026-07",
+     70
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda nawozowa luzem",
+   "wolumen": 20,
+   "cpc": 0.39,
+   "top_min": 0.07,
+   "top_max": 1.76,
+   "konkurencja": "MEDIUM",
+   "serie": [
+    [
+     "2025-08",
+     40
+    ],
+    [
+     "2025-09",
+     30
+    ],
+    [
+     "2025-10",
+     20
+    ],
+    [
+     "2025-11",
+     10
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     10
+    ],
+    [
+     "2026-02",
+     20
+    ],
+    [
+     "2026-03",
+     20
+    ],
+    [
+     "2026-04",
+     10
+    ],
+    [
+     "2026-05",
+     20
+    ],
+    [
+     "2026-06",
+     10
+    ],
+    [
+     "2026-07",
+     20
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda nawozowa 06a",
+   "wolumen": 10,
+   "cpc": 0.37,
+   "top_min": 0.08,
+   "top_max": 1.74,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     30
+    ],
+    [
+     "2025-09",
+     10
+    ],
+    [
+     "2025-10",
+     10
+    ],
+    [
+     "2025-11",
+     10
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     20
+    ],
+    [
+     "2026-02",
+     10
+    ],
+    [
+     "2026-03",
+     20
+    ],
+    [
+     "2026-04",
+     10
+    ],
+    [
+     "2026-05",
+     10
+    ],
+    [
+     "2026-06",
+     10
+    ],
+    [
+     "2026-07",
+     10
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda 06a",
+   "wolumen": 50,
+   "cpc": 0.64,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "LOW",
+   "serie": [
+    [
+     "2025-08",
+     70
+    ],
+    [
+     "2025-09",
+     30
+    ],
+    [
+     "2025-10",
+     50
+    ],
+    [
+     "2025-11",
+     20
+    ],
+    [
+     "2025-12",
+     30
+    ],
+    [
+     "2026-01",
+     30
+    ],
+    [
+     "2026-02",
+     50
+    ],
+    [
+     "2026-03",
+     70
+    ],
+    [
+     "2026-04",
+     30
+    ],
+    [
+     "2026-05",
+     90
+    ],
+    [
+     "2026-06",
+     70
+    ],
+    [
+     "2026-07",
+     110
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kopalnia drugnia",
+   "wolumen": 40,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "LOW",
+   "serie": [
+    [
+     "2025-08",
+     110
+    ],
+    [
+     "2025-09",
+     70
+    ],
+    [
+     "2025-10",
+     30
+    ],
+    [
+     "2025-11",
+     40
+    ],
+    [
+     "2025-12",
+     20
+    ],
+    [
+     "2026-01",
+     20
+    ],
+    [
+     "2026-02",
+     30
+    ],
+    [
+     "2026-03",
+     40
+    ],
+    [
+     "2026-04",
+     20
+    ],
+    [
+     "2026-05",
+     20
+    ],
+    [
+     "2026-06",
+     30
+    ],
+    [
+     "2026-07",
+     50
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda sypka nawozowa",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda luzem",
+   "wolumen": 10,
+   "cpc": 2.1,
+   "top_min": 0.08,
+   "top_max": 1.11,
+   "konkurencja": "LOW",
+   "serie": [
+    [
+     "2025-08",
+     20
+    ],
+    [
+     "2025-09",
+     10
+    ],
+    [
+     "2025-10",
+     10
+    ],
+    [
+     "2025-11",
+     20
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     10
+    ],
+    [
+     "2026-02",
+     10
+    ],
+    [
+     "2026-03",
+     10
+    ],
+    [
+     "2026-04",
+     10
+    ],
+    [
+     "2026-05",
+     10
+    ],
+    [
+     "2026-06",
+     10
+    ],
+    [
+     "2026-07",
+     10
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda nawozowa odmiana 06",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "wapno nawozowe odmiana 06",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "drugnia kreda",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda pierzchnica",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "wapno pierzchnica",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda sypka do stawu",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda sypka ile na hektar",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda nawozowa sypka dawkowanie",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda nawozowa sypka cena",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda sypka cena",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda luzem cena",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "wapno węglanowe sypkie",
+   "wolumen": 20,
+   "cpc": 1.32,
+   "top_min": 0.51,
+   "top_max": 1.31,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     30
+    ],
+    [
+     "2025-09",
+     10
+    ],
+    [
+     "2025-10",
+     10
+    ],
+    [
+     "2025-11",
+     20
+    ],
+    [
+     "2025-12",
+     20
+    ],
+    [
+     "2026-01",
+     20
+    ],
+    [
+     "2026-02",
+     20
+    ],
+    [
+     "2026-03",
+     40
+    ],
+    [
+     "2026-04",
+     10
+    ],
+    [
+     "2026-05",
+     10
+    ],
+    [
+     "2026-06",
+     10
+    ],
+    [
+     "2026-07",
+     30
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda nawozowa",
+   "wolumen": 1000,
+   "cpc": 0.3,
+   "top_min": 0.13,
+   "top_max": 1.15,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     1900
+    ],
+    [
+     "2025-09",
+     1600
+    ],
+    [
+     "2025-10",
+     1600
+    ],
+    [
+     "2025-11",
+     1000
+    ],
+    [
+     "2025-12",
+     590
+    ],
+    [
+     "2026-01",
+     590
+    ],
+    [
+     "2026-02",
+     1000
+    ],
+    [
+     "2026-03",
+     1900
+    ],
+    [
+     "2026-04",
+     880
+    ],
+    [
+     "2026-05",
+     880
+    ],
+    [
+     "2026-06",
+     880
+    ],
+    [
+     "2026-07",
+     880
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda sypka czy granulowana",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  }
+ ],
+ "nie_zwrocone": []
+}

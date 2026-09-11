@@ -1,0 +1,3124 @@
+{
+    "version": "0.1.20260902",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1256 sec.",
+    "cost": 0.01524,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "09101540-1748-0399-0000-28f453af1ab8",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0856 sec.",
+            "cost": 0.01524,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "dataforseo_labs",
+                "google",
+                "keyword_suggestions",
+                "live"
+            ],
+            "data": {
+                "api": "dataforseo_labs",
+                "function": "keyword_suggestions",
+                "se_type": "google",
+                "keyword": "kreda malarska",
+                "location_code": 2616,
+                "language_code": "pl",
+                "limit": 200,
+                "include_seed_keyword": true
+            },
+            "result": [
+                {
+                    "se_type": "google",
+                    "seed_keyword": "kreda malarska",
+                    "seed_keyword_data": {
+                        "se_type": "google",
+                        "keyword": "kreda malarska",
+                        "location_code": 2616,
+                        "language_code": "pl",
+                        "keyword_info": {
+                            "se_type": "google",
+                            "last_updated_time": "2026-08-18 06:17:03 +00:00",
+                            "competition": 0.69,
+                            "competition_level": "HIGH",
+                            "cpc": 0.11,
+                            "search_volume": 320,
+                            "low_top_of_page_bid": 0.03,
+                            "high_top_of_page_bid": 0.27,
+                            "categories": [
+                                10013,
+                                13388
+                            ],
+                            "monthly_searches": [
+                                {
+                                    "year": 2026,
+                                    "month": 7,
+                                    "search_volume": 590
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 6,
+                                    "search_volume": 880
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 5,
+                                    "search_volume": 590
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 4,
+                                    "search_volume": 320
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 3,
+                                    "search_volume": 320
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 2,
+                                    "search_volume": 210
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 1,
+                                    "search_volume": 140
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 12,
+                                    "search_volume": 140
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 11,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 10,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 9,
+                                    "search_volume": 210
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 8,
+                                    "search_volume": 390
+                                }
+                            ],
+                            "search_volume_trend": {
+                                "monthly": -33,
+                                "quarterly": 0,
+                                "yearly": 0
+                            }
+                        },
+                        "keyword_info_normalized_with_bing": null,
+                        "keyword_info_normalized_with_clickstream": null,
+                        "clickstream_keyword_info": null,
+                        "keyword_properties": {
+                            "se_type": "google",
+                            "core_keyword": null,
+                            "synonym_clustering_algorithm": null,
+                            "keyword_difficulty": 0,
+                            "detected_language": "pl",
+                            "is_another_language": false,
+                            "words_count": 2
+                        },
+                        "serp_info": {
+                            "se_type": "google",
+                            "check_url": "https:\/\/www.google.com\/search?q=kreda%20malarska&hl=pl&gl=PL&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ",
+                            "serp_item_types": [
+                                "ai_overview",
+                                "organic",
+                                "people_also_ask",
+                                "images",
+                                "related_searches"
+                            ],
+                            "se_results_count": 166,
+                            "last_updated_time": "2026-08-14 01:25:22 +00:00",
+                            "previous_updated_time": "2026-04-12 20:34:27 +00:00"
+                        },
+                        "search_intent_info": {
+                            "se_type": "google",
+                            "main_intent": "informational",
+                            "foreign_intent": [
+                                "transactional"
+                            ],
+                            "last_updated_time": "2026-04-28 14:51:20 +00:00"
+                        },
+                        "avg_backlinks_info": null
+                    },
+                    "location_code": 2616,
+                    "language_code": "pl",
+                    "total_count": 27,
+                    "items_count": 27,
+                    "offset": 0,
+                    "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyNywiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6ImtyZWRhIG1hbGFyc2thIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJwbCIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6MjYxNiwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjIwMCwib2Zmc2V0IjowLCJhaWQiOjE3NDg3OSwidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDkxMDE1NDAtMTc0OC0wMzk5LTAwMDAtMjhmNDUzYWYxYWI4IiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiI2YWFkMzJkYi0wMjNmLTQyZmUtOGUwNy02YTRiNTU2MGRlMjIiLCJTZWFyY2hBZnRlckRhdGEiOlstOTIyMzM3MjAzNjg1NDc3NTgwOCwiZmU4OTkwNDYtYzcyZC0zOGZlLTI0YWItZjI0YTI4YjM3YmViIl0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+                    "items": [
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-18 06:17:03 +00:00",
+                                "competition": 0.69,
+                                "competition_level": "HIGH",
+                                "cpc": 0.11,
+                                "search_volume": 320,
+                                "low_top_of_page_bid": 0.03,
+                                "high_top_of_page_bid": 0.27,
+                                "categories": [
+                                    10013,
+                                    13388
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 390
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -33,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "keyword_metrics",
+                                "keyword_difficulty": 0,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 2
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 0,
+                                "dofollow": 0,
+                                "referring_pages": 0,
+                                "referring_domains": 0,
+                                "referring_main_domains": 0,
+                                "rank": 2.3,
+                                "main_domain_rank": 428.1,
+                                "last_updated_time": "2023-05-21 14:50:16 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": [
+                                    "transactional"
+                                ],
+                                "last_updated_time": "2026-04-28 14:51:20 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska castorama",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-25 00:32:02 +00:00",
+                                "competition": 0.3,
+                                "competition_level": "LOW",
+                                "cpc": 0.14,
+                                "search_volume": 90,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10015
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 70
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -48,
+                                    "quarterly": -21,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "eo",
+                                "is_another_language": true,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-28 08:16:20 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska leroy merlin",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-27 20:39:37 +00:00",
+                                "competition": 0.3,
+                                "competition_level": "LOW",
+                                "cpc": 0.06,
+                                "search_volume": 50,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10009,
+                                    11589,
+                                    13447
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 40
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -36,
+                                    "quarterly": -22,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": 0,
+                                "detected_language": "eo",
+                                "is_another_language": true,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": [
+                                    "navigational"
+                                ],
+                                "last_updated_time": "2026-04-28 19:45:47 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska mrówka",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-14 17:41:14 +00:00",
+                                "competition": 0.22,
+                                "competition_level": "LOW",
+                                "cpc": 0.02,
+                                "search_volume": 40,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    10273,
+                                    11369
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 40
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -59,
+                                    "quarterly": -22,
+                                    "yearly": 75
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 16:36:14 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska obi",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-26 02:31:43 +00:00",
+                                "competition": 0.32,
+                                "competition_level": "LOW",
+                                "cpc": 0.02,
+                                "search_volume": 40,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10009,
+                                    11589,
+                                    13447
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 50
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -44,
+                                    "quarterly": -29,
+                                    "yearly": -29
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "eo",
+                                "is_another_language": true,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 17:33:53 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska 30 kg",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-27 18:57:15 +00:00",
+                                "competition": 0.73,
+                                "competition_level": "HIGH",
+                                "cpc": 0.09,
+                                "search_volume": 40,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10009,
+                                    11589,
+                                    13447
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 50
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -44,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 19:35:51 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska w ogrodnictwie",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-25 01:25:46 +00:00",
+                                "competition": 0.41,
+                                "competition_level": "MEDIUM",
+                                "cpc": 0.03,
+                                "search_volume": 20,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10015,
+                                    11542,
+                                    13658
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 30
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -33,
+                                    "quarterly": -60,
+                                    "yearly": -33
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 09:34:54 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska gdzie kupić",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-26 22:37:13 +00:00",
+                                "competition": 0.37,
+                                "competition_level": "MEDIUM",
+                                "cpc": 0.03,
+                                "search_volume": 20,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    11250,
+                                    12549,
+                                    13491
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 20
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 300,
+                                    "yearly": 100
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 09:34:54 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska bricomarche",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-26 15:30:35 +00:00",
+                                "competition": 0.3,
+                                "competition_level": "LOW",
+                                "cpc": 0.02,
+                                "search_volume": 20,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10009,
+                                    11589,
+                                    13447
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 20
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -40,
+                                    "quarterly": -25,
+                                    "yearly": -25
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 16:36:14 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska pod pomidory",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-17 21:52:29 +00:00",
+                                "competition": 0.63,
+                                "competition_level": "MEDIUM",
+                                "cpc": 0.09,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    10273,
+                                    11369
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 20
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": -33
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 13:09:51 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska cena",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-25 22:59:26 +00:00",
+                                "competition": 0.46,
+                                "competition_level": "MEDIUM",
+                                "cpc": 0.07,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -33,
+                                    "quarterly": 0,
+                                    "yearly": 100
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": [
+                                    "commercial",
+                                    "transactional"
+                                ],
+                                "last_updated_time": "2026-04-28 13:09:51 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska ogrodnicza",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-27 06:51:08 +00:00",
+                                "competition": 0.64,
+                                "competition_level": "MEDIUM",
+                                "cpc": 0.04,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10015,
+                                    11542,
+                                    13658
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -50,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-28 19:35:51 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska zastosowanie",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-25 10:57:42 +00:00",
+                                "competition": 0.08,
+                                "competition_level": "LOW",
+                                "cpc": null,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    11250,
+                                    12549,
+                                    13491
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": [
+                                    "transactional"
+                                ],
+                                "last_updated_time": "2026-04-28 19:35:51 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska jak malować",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-28 08:25:03 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    11250,
+                                    12549,
+                                    13491
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": -100,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 19:45:47 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska 25kg",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-21 07:07:20 +00:00",
+                                "competition": 0.57,
+                                "competition_level": "MEDIUM",
+                                "cpc": 0.14,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10009,
+                                    11589,
+                                    13447
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": null
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 19:45:47 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska bez kleju",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-19 06:02:30 +00:00",
+                                "competition": 0.57,
+                                "competition_level": "MEDIUM",
+                                "cpc": null,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10011,
+                                    10091,
+                                    10507,
+                                    11782
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": -50,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 12:39:48 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "miękka kreda malarska",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-21 19:02:26 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10013,
+                                    13388,
+                                    13595
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -100,
+                                    "quarterly": 0,
+                                    "yearly": -100
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-29 16:35:47 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska skład",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-27 16:51:32 +00:00",
+                                "competition": 0,
+                                "competition_level": "LOW",
+                                "cpc": null,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10005,
+                                    10054,
+                                    10331
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": -50
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": [
+                                    "informational",
+                                    "commercial"
+                                ],
+                                "last_updated_time": "2026-04-28 09:16:58 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska allegro",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-27 20:05:07 +00:00",
+                                "competition": 0.8,
+                                "competition_level": "HIGH",
+                                "cpc": 0.05,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10009,
+                                    11589,
+                                    13447
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -33,
+                                    "quarterly": -33,
+                                    "yearly": -50
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 14:41:28 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska co to jest",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-08-25 04:10:03 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": 10,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    10273,
+                                    11369
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": -100
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 5
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 13:50:31 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "czysta kreda malarska",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-06-12 21:07:28 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": null,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10013,
+                                    13388,
+                                    13595
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": [
+                                    "transactional"
+                                ],
+                                "last_updated_time": "2026-04-26 02:10:46 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska wikipedia",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-06-15 05:41:10 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": null,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10013,
+                                    13388
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 11:40:25 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "dragon kreda malarska",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-06-14 18:47:46 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": null,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10015,
+                                    10135,
+                                    10736
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": [
+                                    "transactional"
+                                ],
+                                "last_updated_time": "2026-04-27 13:44:57 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska i ocet jabłkowy",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-06-14 15:14:25 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": null,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    11250,
+                                    12549,
+                                    13491
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 5
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 08:16:20 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska dragon",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-06-13 14:50:41 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": null,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10015,
+                                    10135,
+                                    10736
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "dragon kreda malarska",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": [
+                                    "transactional"
+                                ],
+                                "last_updated_time": "2026-04-28 16:36:18 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska 30kg",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-06-18 03:44:37 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": null,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10009,
+                                    11589,
+                                    13447
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "kreda malarska 30 kg",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": null,
+                                "detected_language": "eo",
+                                "is_another_language": true,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 09:52:26 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "kreda malarska do czego służy",
+                            "location_code": 2616,
+                            "language_code": "pl",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-06-16 07:48:43 +00:00",
+                                "competition": null,
+                                "competition_level": null,
+                                "cpc": null,
+                                "search_volume": null,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    11250,
+                                    12549,
+                                    13491
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": null,
+                                "detected_language": "pl",
+                                "is_another_language": false,
+                                "words_count": 5
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 08:37:13 +00:00"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:41:14",
+ "ciagi": {
+  "węglanowe granul": [
+   {
+    "keys": [
+     "wapno nawozowe węglanowe granulowane",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-granulowane-big-bag-600kg/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 30
+   },
+   {
+    "keys": [
+     "wapno nawozowe węglanowe granulowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 63,
+    "ctr": 0,
+    "position": 18.396825396825395
+   },
+   {
+    "keys": [
+     "wapno nawozowe węglanowe granulowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 19,
+    "ctr": 0,
+    "position": 30.63157894736842
+   },
+   {
+    "keys": [
+     "wapno węglanowe granulowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 83,
+    "ctr": 0,
+    "position": 21.819277108433734
+   },
+   {
+    "keys": [
+     "wapno węglanowe granulowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 39,
+    "ctr": 0,
+    "position": 34.30769230769231
+   },
+   {
+    "keys": [
+     "wapno węglanowe granulowane",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 21,
+    "ctr": 0,
+    "position": 2.0952380952380953
+   },
+   {
+    "keys": [
+     "wapno węglanowe granulowane big bag",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno węglanowe granulowane cena",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 10.857142857142858
+   },
+   {
+    "keys": [
+     "wapno węglanowe granulowane ile na hektar",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 83,
+    "ctr": 0,
+    "position": 7.036144578313253
+   }
+  ],
+  "węglanowe sypk": [
+   {
+    "keys": [
+     "wapno węglanowe sypkie",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "wapno węglanowe sypkie",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 8
+   }
+  ]
+ }
+}

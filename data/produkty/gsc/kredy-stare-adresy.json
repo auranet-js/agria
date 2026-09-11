@@ -1,0 +1,219 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:35:37",
+ "strony": {
+  "https://agria.pl/kreda-pastewna/": {
+   "agregat": {
+    "clicks": 6,
+    "impressions": 253,
+    "ctr": 0.023715415019762844,
+    "position": 11.003952569169961
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "kreda dla bydła"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 22
+    },
+    {
+     "keys": [
+      "kreda pastewna"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 21.666666666666668
+    },
+    {
+     "keys": [
+      "kreda pastewna dawkowanie"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 30.25
+    },
+    {
+     "keys": [
+      "kreda pastewna dla bydła"
+     ],
+     "clicks": 0,
+     "impressions": 8,
+     "ctr": 0,
+     "position": 32.75
+    },
+    {
+     "keys": [
+      "kreda pastewna dla bydła dawkowanie"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 22.833333333333332
+    },
+    {
+     "keys": [
+      "kreda pastewna pod pomidory"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 20
+    },
+    {
+     "keys": [
+      "kreda paszowa"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 25.5
+    },
+    {
+     "keys": [
+      "kreda paszowa dla kur"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 11
+    }
+   ]
+  },
+  "https://agria.pl/paszarstwo/": {
+   "agregat": {
+    "clicks": 3,
+    "impressions": 132,
+    "ctr": 0.022727272727272728,
+    "position": 12.757575757575758
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "kreda dla bydła"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 17
+    },
+    {
+     "keys": [
+      "kreda pastewna dawkowanie"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 42.25
+    },
+    {
+     "keys": [
+      "kreda pastewna dla bydła"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 29.857142857142858
+    },
+    {
+     "keys": [
+      "kreda pastewna dla bydła co daje"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 12
+    },
+    {
+     "keys": [
+      "kreda pastewna dla bydła dawkowanie"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 21.428571428571427
+    },
+    {
+     "keys": [
+      "kreda pastewna dla krów mlecznych"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 19
+    },
+    {
+     "keys": [
+      "kreda pastewna dla kur dawkowanie"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 21.5
+    },
+    {
+     "keys": [
+      "kreda pastewna na pole"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 16
+    },
+    {
+     "keys": [
+      "kreda paszowa"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 15
+    },
+    {
+     "keys": [
+      "kreda paszowa dla kur"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 22
+    }
+   ]
+  },
+  "https://agria.pl/kreda-malarska/": {
+   "agregat": {
+    "clicks": 0,
+    "impressions": 0,
+    "ctr": 0,
+    "position": 0
+   },
+   "zapytania": []
+  },
+  "https://agria.pl/wapno-nawozowe-hurt/kreda-malarska-worek-30kg/": {
+   "agregat": {
+    "clicks": 1,
+    "impressions": 27,
+    "ctr": 0.037037037037037035,
+    "position": 6.222222222222222
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "kreda malarska"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 10
+    }
+   ]
+  }
+ }
+}

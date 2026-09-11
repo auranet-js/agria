@@ -1,0 +1,278 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~ZG9sb21pdA",
+        "searchTerm": "dolomit"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~ZG9sb21pdCBkbyB0cmF3bmlrYQ",
+        "searchTerm": "dolomit do trawnika"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~ZG9sb21pdCBuYSBkemlhxYJrxJk",
+        "searchTerm": "dolomit na działkę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~ZG9sb21pdCBuYSB3YXJ6eXdh",
+        "searchTerm": "dolomit na warzywa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~ZG9sb21pdCBuYXdveiB3YXBuaW93byBtYWduZXpvd3k",
+        "searchTerm": "dolomit nawoz wapniowo magnezowy"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4380000",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~ZG9sb21pdCBuYXfDs3o",
+        "searchTerm": "dolomit nawóz"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~ZG9sb21pdCBuYXfDs3ogd2Fwbmlvd28gbWFnbmV6b3d5IDEwa2c",
+        "searchTerm": "dolomit nawóz wapniowo magnezowy 10kg"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1980000",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~ZG9sb21pdCB3YXBubw",
+        "searchTerm": "dolomit wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~ZG9sb21pdCB3YXBubyBuYXdvem93ZSB6IG1hZ25lemVt",
+        "searchTerm": "dolomit wapno nawozowe z magnezem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~ZG9sb21pdCB6IG1hZ25lemVt",
+        "searchTerm": "dolomit z magnezem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gZG9sb21pdA",
+        "searchTerm": "wapno dolomit"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gZG9sb21pdCBjZW5h",
+        "searchTerm": "wapno dolomit cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gZG9sb21pdG93ZQ",
+        "searchTerm": "wapno dolomitowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2000000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gZG9sb21pdG93ZSBjZW5h",
+        "searchTerm": "wapno dolomitowe cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1980000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gZG9sb21pdG93ZSBtYWduZXpvd2U",
+        "searchTerm": "wapno dolomitowe magnezowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gbWFnbmV6b3dlIGRvbG9taXQ",
+        "searchTerm": "wapno magnezowe dolomit"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbmF3b3pvd2UgZG9sb21pdA",
+        "searchTerm": "wapno nawozowe dolomit"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros,metrics.conversions",
+  "queryResourceConsumption": "5458"
+}

@@ -1,0 +1,145 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:32:59",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/": {
+   "agregat": {
+    "clicks": 2,
+    "impressions": 849,
+    "ctr": 0.002355712603062426,
+    "position": 18.822143698468786
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "agria niedomice"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 9.428571428571429
+    },
+    {
+     "keys": [
+      "agria tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 5,
+     "ctr": 0,
+     "position": 1.8
+    },
+    {
+     "keys": [
+      "jakie wapno najlepsze"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "wapno granulowane węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 20
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 124,
+     "ctr": 0,
+     "position": 18.93548387096774
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 63,
+     "ctr": 0,
+     "position": 18.396825396825395
+    },
+    {
+     "keys": [
+      "wapno weglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 8,
+     "ctr": 0,
+     "position": 18
+    },
+    {
+     "keys": [
+      "wapno węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 168,
+     "ctr": 0,
+     "position": 29.88095238095238
+    },
+    {
+     "keys": [
+      "wapno węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 83,
+     "ctr": 0,
+     "position": 21.819277108433734
+    },
+    {
+     "keys": [
+      "wapno węglanowe granulowane cena"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 10.857142857142858
+    },
+    {
+     "keys": [
+      "wapno węglanowe kredowe"
+     ],
+     "clicks": 0,
+     "impressions": 31,
+     "ctr": 0,
+     "position": 41.12903225806452
+    },
+    {
+     "keys": [
+      "wapno węglanowe sypkie"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 35
+    },
+    {
+     "keys": [
+      "wapno węglowe"
+     ],
+     "clicks": 0,
+     "impressions": 31,
+     "ctr": 0,
+     "position": 22.516129032258064
+    },
+    {
+     "keys": [
+      "węglan wapnia nawóz"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 78.5
+    }
+   ]
+  }
+ }
+}

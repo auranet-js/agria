@@ -1,0 +1,34 @@
+# nazwa / marka
+oxyfertil
+oxyfertil 90
+wapno oxyfertil
+oxyfertil wapno
+wapno tlenkowe oxyfertil
+oxifertil
+# nazwa + zastosowanie / dawka / cena / forma
+oxyfertil zastosowanie
+oxyfertil dawkowanie
+wapno oxyfertil dawkowanie
+oxyfertil 90 cena
+oxyfertil cena
+wapno oxyfertil cena
+oxyfertil big bag
+# producent / zakład (magazyny z karty: Tarnów Opolski, Góraźdźce)
+oxyfertil lhoist
+lhoist
+lhoist wapno
+wapno lhoist
+lhoist tarnów opolski
+lhoist górażdże
+wapno tarnów opolski
+wapno górażdże
+# rodzaj ogólny
+wapno tlenkowe 90
+wapno palone 90
+wapno tlenkowe kruszone
+wapno palone kruszone
+wapno do higienizacji osadów
+wapno do oczyszczalni
+# porównania
+oxyfertil czy agrobielik
+oxyfertil czy agrobielik 90

@@ -1,0 +1,4 @@
+{
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros,metrics.conversions",
+  "queryResourceConsumption": "5121"
+}

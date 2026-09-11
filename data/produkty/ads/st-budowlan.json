@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gYnVkb3dsYW5lIGJpZWxpaw",
+        "searchTerm": "wapno budowlane bielik"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "1074"
+}

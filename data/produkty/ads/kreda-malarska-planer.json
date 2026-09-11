@@ -1,0 +1,649 @@
+{
+ "pobrano": "2026-09-10T17:37:04",
+ "zrodlo": "Google Ads API generateKeywordHistoricalMetrics, PL/pl",
+ "frazy": [
+  {
+   "fraza": "kreda malarska",
+   "wolumen": 320,
+   "cpc": 0.39,
+   "top_min": 0.13,
+   "top_max": 1.02,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     390
+    ],
+    [
+     "2025-09",
+     210
+    ],
+    [
+     "2025-10",
+     170
+    ],
+    [
+     "2025-11",
+     170
+    ],
+    [
+     "2025-12",
+     140
+    ],
+    [
+     "2026-01",
+     140
+    ],
+    [
+     "2026-02",
+     210
+    ],
+    [
+     "2026-03",
+     320
+    ],
+    [
+     "2026-04",
+     320
+    ],
+    [
+     "2026-05",
+     590
+    ],
+    [
+     "2026-06",
+     880
+    ],
+    [
+     "2026-07",
+     590
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska 30 kg",
+   "wolumen": 40,
+   "cpc": 0.34,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     50
+    ],
+    [
+     "2025-09",
+     20
+    ],
+    [
+     "2025-10",
+     20
+    ],
+    [
+     "2025-11",
+     10
+    ],
+    [
+     "2025-12",
+     20
+    ],
+    [
+     "2026-01",
+     20
+    ],
+    [
+     "2026-02",
+     10
+    ],
+    [
+     "2026-03",
+     40
+    ],
+    [
+     "2026-04",
+     40
+    ],
+    [
+     "2026-05",
+     50
+    ],
+    [
+     "2026-06",
+     90
+    ],
+    [
+     "2026-07",
+     50
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda techniczna",
+   "wolumen": 90,
+   "cpc": 0.67,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     50
+    ],
+    [
+     "2025-09",
+     70
+    ],
+    [
+     "2025-10",
+     110
+    ],
+    [
+     "2025-11",
+     90
+    ],
+    [
+     "2025-12",
+     90
+    ],
+    [
+     "2026-01",
+     70
+    ],
+    [
+     "2026-02",
+     70
+    ],
+    [
+     "2026-03",
+     110
+    ],
+    [
+     "2026-04",
+     90
+    ],
+    [
+     "2026-05",
+     90
+    ],
+    [
+     "2026-06",
+     90
+    ],
+    [
+     "2026-07",
+     70
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska w ogrodnictwie",
+   "wolumen": 20,
+   "cpc": 0.11,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "MEDIUM",
+   "serie": [
+    [
+     "2025-08",
+     30
+    ],
+    [
+     "2025-09",
+     10
+    ],
+    [
+     "2025-10",
+     20
+    ],
+    [
+     "2025-11",
+     20
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     10
+    ],
+    [
+     "2026-02",
+     10
+    ],
+    [
+     "2026-03",
+     40
+    ],
+    [
+     "2026-04",
+     40
+    ],
+    [
+     "2026-05",
+     50
+    ],
+    [
+     "2026-06",
+     30
+    ],
+    [
+     "2026-07",
+     20
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska cena",
+   "wolumen": 10,
+   "cpc": 0.25,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "MEDIUM",
+   "serie": [
+    [
+     "2025-08",
+     10
+    ],
+    [
+     "2025-09",
+     10
+    ],
+    [
+     "2025-10",
+     10
+    ],
+    [
+     "2025-11",
+     10
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     10
+    ],
+    [
+     "2026-02",
+     10
+    ],
+    [
+     "2026-03",
+     10
+    ],
+    [
+     "2026-04",
+     10
+    ],
+    [
+     "2026-05",
+     20
+    ],
+    [
+     "2026-06",
+     30
+    ],
+    [
+     "2026-07",
+     20
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska castorama",
+   "wolumen": 90,
+   "cpc": 0.53,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "LOW",
+   "serie": [
+    [
+     "2025-08",
+     70
+    ],
+    [
+     "2025-09",
+     40
+    ],
+    [
+     "2025-10",
+     40
+    ],
+    [
+     "2025-11",
+     40
+    ],
+    [
+     "2025-12",
+     50
+    ],
+    [
+     "2026-01",
+     40
+    ],
+    [
+     "2026-02",
+     50
+    ],
+    [
+     "2026-03",
+     90
+    ],
+    [
+     "2026-04",
+     90
+    ],
+    [
+     "2026-05",
+     140
+    ],
+    [
+     "2026-06",
+     210
+    ],
+    [
+     "2026-07",
+     110
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska gdzie kupić",
+   "wolumen": 20,
+   "cpc": 0.12,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "MEDIUM",
+   "serie": [
+    [
+     "2025-08",
+     20
+    ],
+    [
+     "2025-09",
+     10
+    ],
+    [
+     "2025-10",
+     10
+    ],
+    [
+     "2025-11",
+     10
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     10
+    ],
+    [
+     "2026-02",
+     10
+    ],
+    [
+     "2026-03",
+     10
+    ],
+    [
+     "2026-04",
+     10
+    ],
+    [
+     "2026-05",
+     10
+    ],
+    [
+     "2026-06",
+     40
+    ],
+    [
+     "2026-07",
+     40
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska sypka",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska do bielenia",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska do drzew",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "bielenie drzew kredą",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska do ogrodu",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska na ściany",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska do farby",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska na trawnik",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska do malowania",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska proporcje",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "jak rozrobić kredę malarską",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska lhoist",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda do bielenia",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda pylista",
+   "wolumen": 20,
+   "cpc": 0.42,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": "HIGH",
+   "serie": [
+    [
+     "2025-08",
+     20
+    ],
+    [
+     "2025-09",
+     10
+    ],
+    [
+     "2025-10",
+     10
+    ],
+    [
+     "2025-11",
+     10
+    ],
+    [
+     "2025-12",
+     10
+    ],
+    [
+     "2026-01",
+     30
+    ],
+    [
+     "2026-02",
+     20
+    ],
+    [
+     "2026-03",
+     40
+    ],
+    [
+     "2026-04",
+     30
+    ],
+    [
+     "2026-05",
+     30
+    ],
+    [
+     "2026-06",
+     20
+    ],
+    [
+     "2026-07",
+     20
+    ]
+   ],
+   "warianty": []
+  },
+  {
+   "fraza": "mączka kredowa",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska czy wapno",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska a wapno do bielenia",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  },
+  {
+   "fraza": "kreda malarska a kreda nawozowa",
+   "wolumen": null,
+   "cpc": null,
+   "top_min": null,
+   "top_max": null,
+   "konkurencja": null,
+   "serie": [],
+   "warianty": []
+  }
+ ],
+ "nie_zwrocone": []
+}

@@ -1,0 +1,100 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:33:00",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/": {
+   "agregat": {
+    "clicks": 17,
+    "impressions": 1652,
+    "ctr": 0.010290556900726392,
+    "position": 7.3323244552058116
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "wapno węglanowe"
+     ],
+     "clicks": 1,
+     "impressions": 765,
+     "ctr": 0.00130718954248366,
+     "position": 9.908496732026144
+    },
+    {
+     "keys": [
+      "agria tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 9,
+     "ctr": 0,
+     "position": 1.4444444444444444
+    },
+    {
+     "keys": [
+      "bez odmiana"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 6.5
+    },
+    {
+     "keys": [
+      "jak szybko działa"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "wapno 04"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "wapno a okres"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 30
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 10.428571428571429
+    },
+    {
+     "keys": [
+      "wapno odmiana 04"
+     ],
+     "clicks": 0,
+     "impressions": 82,
+     "ctr": 0,
+     "position": 3.6097560975609757
+    },
+    {
+     "keys": [
+      "wapno weglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 13,
+     "ctr": 0,
+     "position": 11.23076923076923
+    }
+   ]
+  }
+ }
+}

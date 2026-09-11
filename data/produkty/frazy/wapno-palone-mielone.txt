@@ -1,0 +1,35 @@
+# nazwa
+wapno palone mielone
+wapno palone mielone wysokoreaktywne
+wapno wysokoreaktywne
+wapno palone
+wapno niegaszone
+tlenek wapnia
+wapno cl 90-q
+# nazwa + cena / forma
+wapno palone cena
+wapno palone mielone cena
+wapno palone big bag
+wapno palone luzem
+wapno palone cena za tonę
+# nazwa + zastosowanie
+wapno do oczyszczalni
+wapno do higienizacji osadów
+higienizacja osadów ściekowych
+wapnowanie osadów ściekowych
+higienizacja osadów wapnem
+wapno do osadów ściekowych
+wapno do stabilizacji gruntu
+stabilizacja gruntu wapnem
+wapno do szamba
+wapno palone do szamba
+# dawka
+wapno palone dawkowanie
+# producent / zakład
+wapno palone nordkalk
+wapno palone sitkówka
+wapno palone trzuskawica
+# porównania
+wapno palone a hydratyzowane
+wapno palone czy gaszone
+wapno palone a gaszone

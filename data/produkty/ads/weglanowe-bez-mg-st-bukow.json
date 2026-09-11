@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbmF3b3pvd2UgYnVrb3dh",
+        "searchTerm": "wapno nawozowe bukowa"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros,metrics.conversions",
+  "queryResourceConsumption": "5060"
+}

@@ -1,0 +1,89 @@
+{
+ "agrobielik-90": [],
+ "agrobielik90": [],
+ "oxyfertil": [
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-rolnictwo/oxyfertil-90/"
+   ],
+   "clicks": 38,
+   "impressions": 575,
+   "ctr": 0.06608695652173913,
+   "position": 5.631304347826087
+  },
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-hurt/wapno-oxyfertil-90-frakcja-3-8mm-big-bag-1000kg/"
+   ],
+   "clicks": 3,
+   "impressions": 127,
+   "ctr": 0.023622047244094488,
+   "position": 6.039370078740157
+  }
+ ],
+ "magnez": [
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+   ],
+   "clicks": 13,
+   "impressions": 573,
+   "ctr": 0.02268760907504363,
+   "position": 10.043630017452006
+  },
+  {
+   "keys": [
+    "https://agria.pl/wapno-do-sadu/wapno-weglanowe-zawierajace-magnez-luz-2/"
+   ],
+   "clicks": 2,
+   "impressions": 133,
+   "ctr": 0.015037593984962405,
+   "position": 5.7443609022556394
+  },
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-luz/"
+   ],
+   "clicks": 2,
+   "impressions": 126,
+   "ctr": 0.015873015873015872,
+   "position": 8.357142857142858
+  },
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-hurt/wapno-zawierajace-magnez-big-bag-1000kg/"
+   ],
+   "clicks": 2,
+   "impressions": 204,
+   "ctr": 0.00980392156862745,
+   "position": 14.892156862745098
+  },
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/"
+   ],
+   "clicks": 2,
+   "impressions": 420,
+   "ctr": 0.004761904761904762,
+   "position": 13.435714285714285
+  },
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-granulowane-big-bag-600kg/"
+   ],
+   "clicks": 0,
+   "impressions": 56,
+   "ctr": 0,
+   "position": 9.053571428571429
+  },
+  {
+   "keys": [
+    "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+   ],
+   "clicks": 0,
+   "impressions": 399,
+   "ctr": 0,
+   "position": 25.461152882205514
+  }
+ ]
+}

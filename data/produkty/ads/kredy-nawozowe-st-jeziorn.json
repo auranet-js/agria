@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIGplemlvcm5h",
+        "searchTerm": "czarna kreda jeziorna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIGplemlvcm5h",
+        "searchTerm": "czarna kreda jeziorna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgamV6aW9ybmEgY2VuYQ",
+        "searchTerm": "kreda jeziorna cena"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "682"
+}

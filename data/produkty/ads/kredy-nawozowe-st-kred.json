@@ -1,0 +1,3201 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~YWdyb3dhcCBrcmVkYQ",
+        "searchTerm": "agrowap kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y2VuYSBrcmVkeSBuYXdvem93ZWo",
+        "searchTerm": "cena kredy nawozowej"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "10"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Y2VuYSBrcmVkeSBwYXN0ZXduZWo",
+        "searchTerm": "cena kredy pastewnej"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "11"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Y28gdG8gamVzdCBrcmVkYSBwYXN0ZXduYQ",
+        "searchTerm": "co to jest kreda pastewna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRh",
+        "searchTerm": "czarna kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1980000",
+        "impressions": "15"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRh",
+        "searchTerm": "czarna kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Y3phcm5hIGtyZWRh",
+        "searchTerm": "czarna kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIGJlxYJjaGF0w7N3",
+        "searchTerm": "czarna kreda bełchatów"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y3phcm5hIGtyZWRhIGJpZyBiYWcgY2VuYQ",
+        "searchTerm": "czarna kreda big bag cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIGJpZyBiYWcgY2VuYQ",
+        "searchTerm": "czarna kreda big bag cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIGNlbmE",
+        "searchTerm": "czarna kreda cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y3phcm5hIGtyZWRhIGNlbmEgemEgdG9uxJk",
+        "searchTerm": "czarna kreda cena za tonę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "7"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIGNlbmEgemEgdG9uxJk",
+        "searchTerm": "czarna kreda cena za tonę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "3940000",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIGNlbmEgemEgdG9uxJk",
+        "searchTerm": "czarna kreda cena za tonę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "4",
+        "costMicros": "7940000",
+        "impressions": "37"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y3phcm5hIGtyZWRhIGdyYW51bG93YW5h",
+        "searchTerm": "czarna kreda granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIGdyYW51bG93YW5h",
+        "searchTerm": "czarna kreda granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y3phcm5hIGtyZWRhIGdyYW51bG93YW5hIGNlbmE",
+        "searchTerm": "czarna kreda granulowana cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIGdyYW51bG93YW5hIGNlbmE",
+        "searchTerm": "czarna kreda granulowana cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIGplemlvcm5h",
+        "searchTerm": "czarna kreda jeziorna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIGplemlvcm5h",
+        "searchTerm": "czarna kreda jeziorna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIGtpZWR5IHN0b3Nvd2HEhw",
+        "searchTerm": "czarna kreda kiedy stosować"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIG1hZ25lem93YQ",
+        "searchTerm": "czarna kreda magnezowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y3phcm5hIGtyZWRhIHByb215aw",
+        "searchTerm": "czarna kreda promyk"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIHNrxYJhZA",
+        "searchTerm": "czarna kreda skład"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIHdhcG5v",
+        "searchTerm": "czarna kreda wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIHdhcG5v",
+        "searchTerm": "czarna kreda wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIHogaHVtbXVzZW0",
+        "searchTerm": "czarna kreda z hummusem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIHogaHVtbXVzZW0gY2VuYQ",
+        "searchTerm": "czarna kreda z hummusem cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Y3p5IGtyZWRhIHBhc3Rld25hIGplc3QgZG9icmEgZGxhIGt1cg",
+        "searchTerm": "czy kreda pastewna jest dobra dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~ZG8gY3plZ28gc8WCdcW8eSBrcmVkYSBwYXN0ZXduYQ",
+        "searchTerm": "do czego służy kreda pastewna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Z2R6aWUga3VwaWMga3JlZGUgcGFzdGV3bmE",
+        "searchTerm": "gdzie kupic krede pastewna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Z2R6aWUga3VwacSHIGtyZWTEmSBwYXN0ZXduYSBkbGEga3Vy",
+        "searchTerm": "gdzie kupić kredę pastewna dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "16"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Z2R6aWUga3VwacSHIGtyZWTEmSBwYXN0ZXduxIU",
+        "searchTerm": "gdzie kupić kredę pastewną"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Z2R6aWUgbW_FvG5hIGt1cGnEhyBrcmVkxJkgcGFzdGV3bsSF",
+        "searchTerm": "gdzie można kupić kredę pastewną"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Z3JhbnVsb3dhbmUgd2Fwbm8ga3JlZG93ZQ",
+        "searchTerm": "granulowane wapno kredowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~aWxlIGRhd2HEhyBrcmVkeSBwYXN0ZXduZWogZGxhIGt1cg",
+        "searchTerm": "ile dawać kredy pastewnej dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2400000",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~aWxlIGtvc3p0dWplIGtyZWRhIHBhc3Rld25h",
+        "searchTerm": "ile kosztuje kreda pastewna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~aWxlIGtvc3p0dWplIHRvbmEga3JlZHk",
+        "searchTerm": "ile kosztuje tona kredy"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~aWxlIGtyZWR5IGRsYSBrdXI",
+        "searchTerm": "ile kredy dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~aWxlIGtyZWR5IG5hIHRvbmUgcGFzenkgZGxhIGJ5ZMWCYQ",
+        "searchTerm": "ile kredy na tone paszy dla bydła"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~aWxlIGtyZWR5IHBhc3Rld25laiBkbGEgYnlkxYJh",
+        "searchTerm": "ile kredy pastewnej dla bydła"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~aWxlIGtyZWR5IHBhc3Rld25laiBkbGEga3VyIG5hIDEwMCBrZw",
+        "searchTerm": "ile kredy pastewnej dla kur na 100 kg"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~aWxlIGtyZWR5IHBhc3Rld25laiBkbyBwYXN6eSBkbGEga3Vy",
+        "searchTerm": "ile kredy pastewnej do paszy dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~amFrIHBvZGF3YWMga3JlZGUgcGFzdGV3bmEga3Vyb20",
+        "searchTerm": "jak podawac krede pastewna kurom"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~amFrIHBvZGF3YcSHIGtyZWTEmSBwYXN0ZXduYSBrdXJvbQ",
+        "searchTerm": "jak podawać kredę pastewna kurom"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~amFrIHN0b3Nvd2HEhyBrcmVkxJkgcGFzdGV3bmEgZGxhIGt1cg",
+        "searchTerm": "jak stosować kredę pastewna dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~amFrYSBrcmVkYSBkbGEga3Vy",
+        "searchTerm": "jaka kreda dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgMDZh",
+        "searchTerm": "kreda 06a"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1980000",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgMDZhIGx1eg",
+        "searchTerm": "kreda 06a luz"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgMDdh",
+        "searchTerm": "kreda 07a"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgY3phcm5hIGNlbmE",
+        "searchTerm": "kreda czarna cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgY3phcm5hIGdyYW51bG93YW5h",
+        "searchTerm": "kreda czarna granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGJ5ZMWCYQ",
+        "searchTerm": "kreda dla bydła"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGRyb2JpdQ",
+        "searchTerm": "kreda dla drobiu"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGtvbmk",
+        "searchTerm": "kreda dla koni"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGtyw7N3",
+        "searchTerm": "kreda dla krów"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGtyw7N3IG1sZWN6bnljaA",
+        "searchTerm": "kreda dla krów mlecznych"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "12",
+        "costMicros": "14170000",
+        "impressions": "126"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGt1cg",
+        "searchTerm": "kreda dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGt1ciBjbyBkYWpl",
+        "searchTerm": "kreda dla kur co daje"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "5",
+        "costMicros": "5950000",
+        "impressions": "59"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGt1ciBuaW9zZWs",
+        "searchTerm": "kreda dla kur niosek"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIHp3aWVyesSFdA",
+        "searchTerm": "kreda dla zwierząt"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1190000",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZG8ga3Vy",
+        "searchTerm": "kreda do kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZG8ga3VyIG5pb3Nlaw",
+        "searchTerm": "kreda do kur niosek"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZG8gb2N6a2Egd29kbmVnbw",
+        "searchTerm": "kreda do oczka wodnego"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgZG8gb2Rrd2FzemFuaWEgZ2xlYnk",
+        "searchTerm": "kreda do odkwaszania gleby"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgZG8gdHJhd25pa2E",
+        "searchTerm": "kreda do trawnika"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgZG8gdHJhd3k",
+        "searchTerm": "kreda do trawy"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgZG8gemllbWk",
+        "searchTerm": "kreda do ziemi"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgZHJ1Z25pYSByesSFZG93YQ",
+        "searchTerm": "kreda drugnia rządowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "3",
+        "costMicros": "6000000",
+        "impressions": "32"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgZ3JhbnVsb3dhbmE",
+        "searchTerm": "kreda granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgZ3JhbnVsb3dhbmEgMDZh",
+        "searchTerm": "kreda granulowana 06a"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1960000",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgZ3JhbnVsb3dhbmEgYmlnIGJhZw",
+        "searchTerm": "kreda granulowana big bag"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgZ3JhbnVsb3dhbmEgY2VuYQ",
+        "searchTerm": "kreda granulowana cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "3910000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgZ3JhbnVsb3dhbmEgY2VuYSB6YSB0b27EmQ",
+        "searchTerm": "kreda granulowana cena za tonę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZ3JhbnVsb3dhbmEgZGxhIGt1cg",
+        "searchTerm": "kreda granulowana dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgZ3JhbnVsb3dhbmEga29zemVsb3dza2E",
+        "searchTerm": "kreda granulowana koszelowska"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1980000",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgZ3JhbnVsb3dhbmEgbmF3b3pvd2E",
+        "searchTerm": "kreda granulowana nawozowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgZ3JhbnVsb3dhbmEgbmF3b3pvd2E",
+        "searchTerm": "kreda granulowana nawozowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZ3J1YmE",
+        "searchTerm": "kreda gruba"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZ3J1Ym96aWFybmlzdGE",
+        "searchTerm": "kreda gruboziarnista"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZ3J1Ym96aWFybmlzdGEgZGxhIGt1cg",
+        "searchTerm": "kreda gruboziarnista dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgaHVtdXNvd2E",
+        "searchTerm": "kreda humusowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgamV6aW9ybmEgY2VuYQ",
+        "searchTerm": "kreda jeziorna cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEga29ybmljYQ",
+        "searchTerm": "kreda kornica"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEga29ybmljYSBjZW5h",
+        "searchTerm": "kreda kornica cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEga29ybmlja2E",
+        "searchTerm": "kreda kornicka"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1880000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbHV6",
+        "searchTerm": "kreda luz"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbWllbG9uYQ",
+        "searchTerm": "kreda mielona"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgbmEgcG9sZQ",
+        "searchTerm": "kreda na pole"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmEgcG9sZQ",
+        "searchTerm": "kreda na pole"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "5",
+        "costMicros": "9840000",
+        "impressions": "56"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2E",
+        "searchTerm": "kreda nawozowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgMDZh",
+        "searchTerm": "kreda nawozowa 06a"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgbmF3b3pvd2EgNTAwIGtn",
+        "searchTerm": "kreda nawozowa 500 kg"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgYmlnIGJhZw",
+        "searchTerm": "kreda nawozowa big bag"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1960000",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgbmF3b3pvd2EgY2VuYQ",
+        "searchTerm": "kreda nawozowa cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgY2VuYQ",
+        "searchTerm": "kreda nawozowa cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1950000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgbmF3b3pvd2EgY2VuYSB6YSB0b27EmQ",
+        "searchTerm": "kreda nawozowa cena za tonę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1950000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgY2VueQ",
+        "searchTerm": "kreda nawozowa ceny"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "4",
+        "costMicros": "7680000",
+        "impressions": "20"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgbmF3b3pvd2EgZ3JhbnVsb3dhbmE",
+        "searchTerm": "kreda nawozowa granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgZ3JhbnVsb3dhbmE",
+        "searchTerm": "kreda nawozowa granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgbmF3b3pvd2EgZ3JhbnVsb3dhbmEgY2VuYQ",
+        "searchTerm": "kreda nawozowa granulowana cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1990000",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgZ3JhbnVsb3dhbmEgY2VuYQ",
+        "searchTerm": "kreda nawozowa granulowana cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1900000",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgbHV6ZW0",
+        "searchTerm": "kreda nawozowa luzem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgbWF6b3dpZWNraWU",
+        "searchTerm": "kreda nawozowa mazowieckie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1790000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2EgbWllbG5paw",
+        "searchTerm": "kreda nawozowa mielnik"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2Egc3lwa2E",
+        "searchTerm": "kreda nawozowa sypka"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgbmF3b3pvd2EgeiBodW1tdXNlbQ",
+        "searchTerm": "kreda nawozowa z hummusem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgbmF3w7N6",
+        "searchTerm": "kreda nawóz"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgb2dyb2RuaWN6YQ",
+        "searchTerm": "kreda ogrodnicza"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgb2dyb2RuaWN6YQ",
+        "searchTerm": "kreda ogrodnicza"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "22",
+        "costMicros": "25890000",
+        "impressions": "504"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmE",
+        "searchTerm": "kreda pastewna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1180000",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgYmlnIGJhZw",
+        "searchTerm": "kreda pastewna big bag"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2380000",
+        "impressions": "14"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgY2VuYQ",
+        "searchTerm": "kreda pastewna cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgY2VuYSB6YSB0b27EmQ",
+        "searchTerm": "kreda pastewna cena za tonę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGF3a293YW5pZQ",
+        "searchTerm": "kreda pastewna dawkowanie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "4",
+        "costMicros": "4700000",
+        "impressions": "35"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGJ5ZMWCYQ",
+        "searchTerm": "kreda pastewna dla bydła"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGJ5ZMWCYSBjbyBkYWpl",
+        "searchTerm": "kreda pastewna dla bydła co daje"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGJ5ZMWCYSBkYXdrb3dhbmll",
+        "searchTerm": "kreda pastewna dla bydła dawkowanie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGJ5ZMWCYSBvcGFzb3dlZ28gZGF3a293YW5pZQ",
+        "searchTerm": "kreda pastewna dla bydła opasowego dawkowanie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGRyb2JpdQ",
+        "searchTerm": "kreda pastewna dla drobiu"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGdvxYLEmWJp",
+        "searchTerm": "kreda pastewna dla gołębi"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGthY3plaw",
+        "searchTerm": "kreda pastewna dla kaczek"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGtvbmk",
+        "searchTerm": "kreda pastewna dla koni"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGtyw7N3IG1sZWN6bnljaA",
+        "searchTerm": "kreda pastewna dla krów mlecznych"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "36",
+        "costMicros": "42620000",
+        "impressions": "551"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1cg",
+        "searchTerm": "kreda pastewna dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBjZW5h",
+        "searchTerm": "kreda pastewna dla kur cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1170000",
+        "impressions": "12"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBkYXdrb3dhbmll",
+        "searchTerm": "kreda pastewna dla kur dawkowanie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBmb3J1bQ",
+        "searchTerm": "kreda pastewna dla kur forum"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1180000",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBnZHppZSBrdXBpxIc",
+        "searchTerm": "kreda pastewna dla kur gdzie kupić"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBqYWsgcG9kYXdhxIc",
+        "searchTerm": "kreda pastewna dla kur jak podawać"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "5",
+        "costMicros": "5930000",
+        "impressions": "68"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBuaW9zZWs",
+        "searchTerm": "kreda pastewna dla kur niosek"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBuaW9zZWsgZGF3a293YW5pZQ",
+        "searchTerm": "kreda pastewna dla kur niosek dawkowanie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBvcGluaWU",
+        "searchTerm": "kreda pastewna dla kur opinie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIMWbbGltYWvDs3c",
+        "searchTerm": "kreda pastewna dla ślimaków"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZG8gY3plZ28gc8WCdcW8eQ",
+        "searchTerm": "kreda pastewna do czego służy"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2380000",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZG8gb2Rrd2FzemVuaWEgZ2xlYnk",
+        "searchTerm": "kreda pastewna do odkwaszenia gleby"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZG8gc3Rhd3U",
+        "searchTerm": "kreda pastewna do stawu"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZG8gc3Rhd3UgcnlibmVnbw",
+        "searchTerm": "kreda pastewna do stawu rybnego"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "10"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZHJvYm5vemlhcm5pc3Rh",
+        "searchTerm": "kreda pastewna drobnoziarnista"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2400000",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZ2R6aWUga3VwacSH",
+        "searchTerm": "kreda pastewna gdzie kupić"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZ3JhbnVsb3dhbmE",
+        "searchTerm": "kreda pastewna granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZ3J1YmE",
+        "searchTerm": "kreda pastewna gruba"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1180000",
+        "impressions": "12"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZ3J1Ym96aWFybmlzdGE",
+        "searchTerm": "kreda pastewna gruboziarnista"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1200000",
+        "impressions": "11"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZ3J1Ym96aWFybmlzdGEgZGxhIGt1cg",
+        "searchTerm": "kreda pastewna gruboziarnista dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgamFrIHN0b3Nvd2HEhw",
+        "searchTerm": "kreda pastewna jak stosować"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgbGFidGFy",
+        "searchTerm": "kreda pastewna labtar"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1190000",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgbmEgcG9sZQ",
+        "searchTerm": "kreda pastewna na pole"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1170000",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgcHJvZHVjZW50",
+        "searchTerm": "kreda pastewna producent"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgc2vFgmFk",
+        "searchTerm": "kreda pastewna skład"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgemFzdG9zb3dhbmll",
+        "searchTerm": "kreda pastewna zastosowanie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "20"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzem93YQ",
+        "searchTerm": "kreda paszowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1180000",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzem93YSBjZW5h",
+        "searchTerm": "kreda paszowa cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1200000",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzem93YSBkbGEgYnlkxYJh",
+        "searchTerm": "kreda paszowa dla bydła"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2380000",
+        "impressions": "32"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzem93YSBkbGEga3Vy",
+        "searchTerm": "kreda paszowa dla kur"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgcG9kIHppZW1uaWFraQ",
+        "searchTerm": "kreda pod ziemniaki"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgcm9sbmljemE",
+        "searchTerm": "kreda rolnicza"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgd2FwaWVubmE",
+        "searchTerm": "kreda wapienna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgd2FwaWVubmE",
+        "searchTerm": "kreda wapienna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgd2Fwbmlvd2E",
+        "searchTerm": "kreda wapniowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "6"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgd2Fwbmlvd2E",
+        "searchTerm": "kreda wapniowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgd2Fwbmlvd2EgZ3JhbnVsb3dhbmE",
+        "searchTerm": "kreda wapniowa granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgd2Fwbm8",
+        "searchTerm": "kreda wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgd2Fwbm8",
+        "searchTerm": "kreda wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgd2VnbGFub3dh",
+        "searchTerm": "kreda weglanowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgd8SZZ2xhbiB3YXBuaWE",
+        "searchTerm": "kreda węglan wapnia"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgd8SZZ2xhbm93YQ",
+        "searchTerm": "kreda węglanowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgd8SZZ2xvd2E",
+        "searchTerm": "kreda węglowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgd8SZZ2xvd2E",
+        "searchTerm": "kreda węglowa"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgd8SZZ2xvd2EgeiBodW1tdXNlbQ",
+        "searchTerm": "kreda węglowa z hummusem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgeiBkd2lrw7N6",
+        "searchTerm": "kreda z dwikóz"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgeiBodW1tdXNlbQ",
+        "searchTerm": "kreda z hummusem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a3JlZGEgeiBrb3JuaWN5",
+        "searchTerm": "kreda z kornicy"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgeiBtYWduZXplbQ",
+        "searchTerm": "kreda z magnezem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~bGFidGFyIGtyZWRh",
+        "searchTerm": "labtar kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24167368975",
+        "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~bGFidGFyIGtyZWRhIHBhc3Rld25h",
+        "searchTerm": "labtar kreda pastewna"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1940000",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~bmF3b3oga3JlZGEgZ3JhbnVsb3dhbmE",
+        "searchTerm": "nawoz kreda granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~bmF3w7N6IGtyZWRh",
+        "searchTerm": "nawóz kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~b215YSBrcmVkYQ",
+        "searchTerm": "omya kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gY3phcm5hIGtyZWRh",
+        "searchTerm": "wapno czarna kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gY3phcm5hIGtyZWRh",
+        "searchTerm": "wapno czarna kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gY3phcm5hIGtyZWRhIGNlbmE",
+        "searchTerm": "wapno czarna kreda cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1960000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gY3phcm5hIGtyZWRhIGNlbmE",
+        "searchTerm": "wapno czarna kreda cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gY3p5IGtyZWRhIG5hIHBvbGU",
+        "searchTerm": "wapno czy kreda na pole"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gZ3JhbnVsb3dhbmUga3JlZG93ZQ",
+        "searchTerm": "wapno granulowane kredowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZGE",
+        "searchTerm": "wapno kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZGE",
+        "searchTerm": "wapno kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZGEgY2VuYQ",
+        "searchTerm": "wapno kreda cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZGEgY2VuYQ",
+        "searchTerm": "wapno kreda cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "2000000",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8ga3JlZGEgZ3JhbnVsb3dhbmE",
+        "searchTerm": "wapno kreda granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZGEgZ3JhbnVsb3dhbmE",
+        "searchTerm": "wapno kreda granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1910000",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZGEgZ3JhbnVsb3dhbmE",
+        "searchTerm": "wapno kreda granulowana"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZGEgbHV6",
+        "searchTerm": "wapno kreda luz"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8ga3JlZG93ZQ",
+        "searchTerm": "wapno kredowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "3990000",
+        "impressions": "14"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZG93ZQ",
+        "searchTerm": "wapno kredowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1940000",
+        "impressions": "7"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZG93ZSBjZW5hIHphIHRvbsSZ",
+        "searchTerm": "wapno kredowe cena za tonę"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "18"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8ga3JlZG93ZSBncmFudWxvd2FuZQ",
+        "searchTerm": "wapno kredowe granulowane"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8ga3JlZG93ZSBncmFudWxvd2FuZSBiaWcgYmFn",
+        "searchTerm": "wapno kredowe granulowane big bag"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZG93ZSBncmFudWxvd2FuZSBiaWcgYmFn",
+        "searchTerm": "wapno kredowe granulowane big bag"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZG93ZSBncmFudWxvd2FuZSBiaWcgYmFn",
+        "searchTerm": "wapno kredowe granulowane big bag"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8ga3JlZG93ZSBncmFudWxvd2FuZSBjZW5h",
+        "searchTerm": "wapno kredowe granulowane cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZG93ZSBncmFudWxvd2FuZSBjZW5h",
+        "searchTerm": "wapno kredowe granulowane cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZG93ZSBsdXplbQ",
+        "searchTerm": "wapno kredowe luzem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1940000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZG93ZSBsdXplbQ",
+        "searchTerm": "wapno kredowe luzem"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZG93ZSBsdXplbSBjZW5h",
+        "searchTerm": "wapno kredowe luzem cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1960000",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8ga3JlZG93ZSBzeXBraWU",
+        "searchTerm": "wapno kredowe sypkie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gd8SZZ2xhbm93ZSBrcmVkb3dl",
+        "searchTerm": "wapno węglanowe kredowe"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~enl3YSBrcmVkYQ",
+        "searchTerm": "zywa kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~enl3YSBrcmVkYQ",
+        "searchTerm": "zywa kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~xbx5d2Ega3JlZGE",
+        "searchTerm": "żywa kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~xbx5d2Ega3JlZGE",
+        "searchTerm": "żywa kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~xbx5d2Ega3JlZGE",
+        "searchTerm": "żywa kreda"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~xbx5d2Ega3JlZGEgaCs",
+        "searchTerm": "żywa kreda h+"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~xbx5d2Ega3JlZGEgaCsgY2VuYQ",
+        "searchTerm": "żywa kreda h+ cena"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "1238"
+}

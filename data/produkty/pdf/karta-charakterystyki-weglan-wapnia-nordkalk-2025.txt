@@ -1,0 +1,828 @@
+NORDKALK Wapno Sp. z o.o.                              KARTA CHARAKTERYSTYKI
+       sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                           Data sporządzenia: 23 października 2024 r.
+strona 1 z 17                                                          Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+SEKCJA 1: IDENTYFIKACJA SUBSTANCJI / MIESZANINY I IDENTYFIKACJA
+           PRZEDSIĘBIORSTWA
+1.1. Identyfikator produktu
+Nazwa substancji:                          Węglan wapnia
+CAS:                                       471-34-1
+EINECS:                                    207-439-9
+Synonimy:                                  Wapień, kamień wapienny, kruszywo, mączka wapienna,
+                                           kreda, kreda pastewna, nawóz węglanowy
+Nazwa chemiczna i wzór cząsteczki:         węglan wapnia – CaCO3
+                                       -
+                                   O
+                                            Ca2+
+                                COO-
+Nazwa handlowa:                 kamień wapienny
+                                kruszywa wapienne takie jak:
+
+
+                              - kruszywa do mieszanek bitumicznych i powierzchniowych utrwaleń
+stosowanych na drogach, lotniskach i innych powierzchniach przeznaczonych do ruchu
+
+
+                                kreda techniczna
+                                kreda pastewna
+                                mączka wapienna: drobnoziarnista, gruboziarnista oraz supergruba
+                                 wapno nawozowe odmiana 04
+
+
+Masa cząsteczkowa:                         100,09 g/mol
+Numer rejestracji pełnej:                  substancja zwolniona z obowiązku rejestracji zgodnie
+                                           z załącznikiem nr V do rozporządzenia (WE) nr 1907/2006
+                                           (z późniejszymi zmianami)
+Numer rejestrowy Bazy danych o produktach
+i opakowaniach oraz gospodarce odpadami:               BDO 000633450
+1.2.     Istotne zidentyfikowane zastosowania substancji lub mieszaniny oraz zastosowania
+       odradzane
+Do produkcji wapna, stali i surówki, cementu, betonowych elementów drogowych i kolejowych,
+mączek i wypełniaczy wapiennych, przy budowie warstw nawierzchni drogowych, elementów
+prefabrykowanych z betonu, w przemyśle szklarskim, materiałów budowlanych, chemicznym, tworzyw
+sztucznych, gumowym, ceramicznym, papierniczym, paszowym, ochronie środowiska i drogownictwie,
+do odsiarczania spalin, w uprawach polowych do odkwaszania gleby, poprawy jej struktury i żyzności
+oraz jako materiał paszowy na potrzeby produkcji pasz, mieszanek paszowych oraz premiksów.
+Zastosowania odradzane: zastosowania niewymienione powyżej są zastosowaniami odradzanymi.
+1.3.     Dane dotyczące dostawcy karty charakterystyki
+Nazwa:                                        NORDKALK Wapno Sp. z o.o.
+Adres siedziby firmy:                         Sitkówka 24, 26-052 Nowiny
+NORDKALK Wapno Sp. z o.o.                            KARTA CHARAKTERYSTYKI
+       sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                       Data sporządzenia: 23 października 2024 r.
+strona 2 z 17                                                      Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+Adres zakładu produkcyjnego:                 Zakład Sitkówka, Sitkówka 24, 26-052 Nowiny
+Numer telefonu:                              +48 41 34 69 300
+
+
+Adres email osoby odpowiedzialnej za         reach.nkw@nordkalk.com
+kartę charakterystyki:
+
+1.4.     Numer telefonu alarmowego
+Biuro ds. Substancji Chemicznych:                    +48 42 2538 400 (dni robocze 8:00-16:00)
+Całodobowy telefon NORDKALK Wapno Sp. z              +48 41 34 69 363
+o.o.
+
+
+
+SEKCJA 2: IDENTYFIKACJA ZAGROŻEŃ
+2.1.     Klasyfikacja substancji lub mieszaniny
+Substancja nie spełnia kryteriów klasyfikacji zgodnie z rozporządzeniem (WE) nr 1272/2008
+2.2.     Elementy oznakowania
+Substancja nie wymaga oznakowania zgodnie z rozporządzeniem (WE) nr 1272/2008
+2.3.     Inne zagrożenia
+Substancja nie spełnia kryteriów klasyfikacji dla PBT lub vPvB substancji.
+Nie zidentyfikowano żadnych innych zagrożeń, oprócz pylenia.
+
+
+
+SEKCJA 3: SKŁAD / INFORMACJA O SKŁADNIKACH
+3.1.     Substancje
+Główny składnik:
+Nazwa:                              Węglan wapnia
+CAS:                               471-34-1
+EINECS:                            207-439-9
+Typowe stężenie:                    98,23%
+Klasyfikacja zgodnie z Rozporządzeniem (WE) nr 1272/2008: niesklasyfikowany
+Zanieczyszczenia:
+Brak zanieczyszczeń posiadających znaczenie dla klasyfikacji i oznakowania substancji.
+3.2.     Mieszaniny
+Nie dotyczy
+SEKCJA 4: ŚRODKI PIERWSZEJ POMOCY
+4.1.     Opis środków pierwszej pomocy
+Porady ogólne:
+Nie są znane opóźnione efekty oddziaływania na organizm. W przypadku narażenia (z wyjątkiem
+drobnych przypadków) zasięgnąć porady lekarza, pokazać opakowanie produktu. Zaleca się
+indywidualne wyposażenie ochronne dla osób udzielających pierwszej pomocy.
+ NORDKALK Wapno Sp. z o.o.                           KARTA CHARAKTERYSTYKI
+        sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+ wydanie: 1.1                                                      Data sporządzenia: 23 października 2024 r.
+ strona 3 z 17                                                     Data aktualizacji:  26 marca 2025 r.
+ indeks: KCH/5
+
+
+Rodzaj drogi narażenia      Objawy             Sposób udzielania pierwszej pomocy
+Drogi oddechowe             Kaszel             Usunąć źródło pyłu lub wyprowadzić osobę z miejsca
+                                               narażenia na świeże powietrze. Potrzebna natychmiastowa
+                                               pomoc lekarska.
+Kontakt ze skórą            Zaczerwienienie    Zdjąć zanieczyszczoną odzież, skażone powierzchnie ciała
+                            skóry              przetrzeć ostrożnie i delikatnie na sucho, w celu usunięcia
+                                               wszystkich śladów produktu, a następnie myć bardzo dużą
+                                               ilością chłodnej wody. Jeśli konieczne zasięgnąć porady
+                                               lekarza.
+Kontakt z oczami            Zaczerwienienie,   Wyjąć soczewki kontaktowe, jeżeli są i można je łatwo
+                            ból, zaburzenie    usunąć. Natychmiast płukać oczy dużą ilością roztworu soli
+                            widzenia           fizjologicznej lub wody (unikać silnego strumienia ze
+                                               względu na ryzyko uszkodzenia rogówki).
+                                               Uwaga: osoby narażone na kontakt substancji z oczami
+                                               powinny być pouczone o konieczności i sposobie ich
+                                               natychmiastowego      płukania.       Koniecznym  jest
+                                               wyposażenie stanowiska pracy w sól fizjologiczną.
+                                               Może być konieczna konsultacja okulistyczna.
+Przewód pokarmowy           Nie zauważono      Przepłukać usta wodą.
+
+ 4.2.     Najważniejsze ostre i opóźnione objawy oraz skutki narażenia
+ Węglan wapnia nie działa toksycznie przez drogi pokarmowe, przez skórę lub drogi oddechowe.
+ Substancja nie jest zaklasyfikowana jako niebezpieczna. Nie stwierdzono efektów opóźnionego
+ działania.
+ 4.3. Wskazania dotyczące wszelkiej natychmiastowej pomocy lekarskiej i szczególnego
+ postępowania z poszkodowanym
+ Postępuj zgodnie z zaleceniami podanymi w sekcji 4.1.
+
+ SEKCJA 5: POSTĘPOWANIE W PRZYPADKU POŻARU
+ 5.1.     Środki gaśnicze
+ Odpowiednie środki gaśnicze
+ Niepalne ciało stałe, zawierające również proszek i pył. Nie podtrzymuje palenia. W przypadku pożaru
+ w otoczeniu można stosować dowolne środki gaśnicze odpowiednie dla lokalnych warunków i dla
+ środowiska.
+ Niewłaściwe środki gaśnicze
+ Nie zidentyfikowano.
+ 5.2.     Szczególne zagrożenia związane z substancją lub mieszaniną
+ Brak.
+ 5.3.     Informacje dla straży pożarnej
+ Służby Ratownicze powinny stosować odzież ochronną oraz indywidualne środki ochrony dróg
+ oddechowych i oczu oraz unikać tworzenia pyłu. Nie ma specjalnych wymagań dla sprzętu
+ ochronnego dla Służb Ratowniczych.
+NORDKALK Wapno Sp. z o.o.                               KARTA CHARAKTERYSTYKI
+       sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                         Data sporządzenia: 23 października 2024 r.
+strona 4 z 17                                                        Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+SEKCJA 6: POSTĘPOWANIE W PRZYPADKU NIEZAMIERZONEGO UWOLNIENIA DO
+ŚRODOWISKA
+6.1.     Indywidualne środki ostrożności, wyposażenie ochronne i procedury w sytuacjach
+       awaryjnych
+6.1.1. Dla osób nienależących do personelu udzielającego pomocy
+Unikaj wdychania pyłu - zapewnij odpowiednią wentylację lub indywidualne środki ochrony dróg
+oddechowych osobom przebywającym w strefie zagrożenia (patrz sekcja 8). Utrzymuj poziom pyłu
+w stanie minimalnym. W przypadkach dużego zapylenia zakaz przebywania dla osób
+nieposiadających środków ochrony osobistej. Zapobiegaj kontaktowi ze skórą, oczami i ubraniem
+poprzez stosowanie odzieży ochronnej oraz indywidualnych środków ochrony oczu (patrz sekcja 8).
+6.1.2. Dla osób udzielających pomocy
+Unikaj wdychania pyłu - zapewnij odpowiednią wentylację lub indywidualne środki ochrony dróg
+oddechowych osobom przebywającym w strefie zagrożenia (patrz sekcja 8). Utrzymuj poziom pyłu
+w stanie minimalnym. W przypadkach dużego zapylenia zakaz przebywania dla osób
+nieposiadających środków ochrony osobistej. Zapobiegaj kontaktowi ze skórą, oczami i ubraniem
+poprzez stosowanie odzieży ochronnej oraz indywidualnych środków ochrony oczu (patrz sekcja 8).
+6.2.     Środki ostrożności w zakresie ochrony środowiska
+Minimalizuj rozsypywanie.      Jeśli    to   możliwe,    przykryj   rozsypany     towar,    aby     zapobiec
+niebezpieczeństwu pylenia.
+6.3. Metody i materiały zapobiegające rozprzestrzenianiu się skażenia i służące do usuwania
+skażenia
+Rozsypany produkt ostrożnie zebrać (nie wzbijając obłoku pyłu) do zamykanego pojemnika lub
+pyłoszczelnego worka przy pomocy odkurzaczy przemysłowych lub narządzi ręcznych (patrz sekcja
+13).
+6.4.     Odniesienia do innych sekcji
+W celu bardziej szczegółowych informacji należy zapoznać się z sekcjami 8 i 13.
+
+
+
+SEKCJA 7: POSTĘPOWANIE Z SUBSTANCJAMI I MIESZANINAMI ORAZ ICH
+          MAGAZYNOWANIE
+7.1.     Środki ostrożności dotyczące bezpiecznego postępowania
+7.1.1 Środki ochronne
+Utrzymywać poziom pyłu w stanie minimalnym. Pracować w pomieszczeniach wyposażonych
+w wentylację ogólną lub miejscową (odpylacze w punktach załadunkowych). Punkty załadunkowe
+oraz przenośniki powinny być obudowane i odpylane w celu minimalizowania emisji pyłu. Podczas
+przenoszenia opakowań należy stosować zwykłe środki ostrożności w związku z ryzykiem opisanym
+w Obwieszczeniu Ministra Rodziny, Pracy i Polityki Społecznej z dnia 11 maja 2018 r. w sprawie
+jednolitego tekstu rozporządzenia Ministra Pracy i Polityki Społecznej w sprawie bezpieczeństwa
+i higieny pracy przy ręcznych pracach transportowych oraz innych pracach związanych z wysiłkiem
+fizycznym (Dz.U.18.1139). Przestrzegać zasad higieny osobistej, stosować środki ochrony
+indywidualnej (patrz sekcja 8).
+7.1.2 Zalecenia dotyczące ogólnej higieny pracy
+Podczas stosowania nie jeść, nie pić, unikać bezpośredniego kontaktu substancji z oczami i skórą,
+unikać wdychania pyłu. Po zakończeniu pracy należy wziąć prysznic i przebrać odzież. Nie należy
+nosić zanieczyszczonego ubrania w domu.
+NORDKALK Wapno Sp. z o.o.                                KARTA CHARAKTERYSTYKI
+       sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                            Data sporządzenia: 23 października 2024 r.
+strona 5 z 17                                                           Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+7.2.     Warunki bezpiecznego magazynowania, w tym informacje dotyczące wszelkich
+       wzajemnych niezgodności
+Magazynować na wydzielonych składowiskach lub w pomieszczeniach lub zbiornikach
+zabezpieczających przed możliwością zanieczyszczenia. Każde miejsce magazynowania powinno być
+oznakowane w celu umożliwienia identyfikacji składowanej substancji.
+Każdy zbiornik, w którym przechowywana jest substancja powinien być wyposażony w odpylacz
+o odpowiedniej skuteczności, a pomieszczenie w wentylację ogólną lub miejscową.
+W uzasadnionych przypadkach należy zarządzać ryzykiem w zakresie:
+       i)    atmosfery wybuchowej;
+       ii) warunków sprzyjających korozji;
+       iii) zagrożeń związanych z palnością;
+       iv) wzajemnie niezgodnych substancji lub mieszanin;
+oraz kontrolować wpływ:
+       i)    warunków pogodowych;
+       ii) wilgotności;
+a także określić zalecenia dotyczące:
+       i)    wymagań dotyczących wentylacji;
+       ii) dopuszczalnych ilości magazynowanych w danych warunkach;
+       iii) zgodności z opakowaniem.
+7.3.        Szczególne zastosowanie(-a) końcowe
+Nie ma osobnych zaleceń dotyczących szczególnych zastosowań substancji.
+
+
+
+SEKCJA 8: KONTROLA NARAŻENIA / ŚRODKI OCHRONY INDYWIDUALNEJ
+8.1.        Parametry dotyczące kontroli
+8.1.1.
+Zgodnie z Rozporządzeniem Ministra Rodziny, Pracy i Polityki Społecznej z dnia 12 czerwca 2018 r.
+w sprawie najwyższych dopuszczalnych stężeń i natężeń czynników szkodliwych dla zdrowia
+w środowisku pracy (Dz.U.18.1286) dla węglanu wapnia najwyższe dopuszczalne stężenie dla frakcji
+wdychalnej to:
+                               NDS - 10 mg/m3
+Frakcja wdychalna – frakcja aerozolu wnikająca przez nos i usta, która po zdeponowaniu w drogach
+oddechowych stwarza zagrożenie dla zdrowia.
+Wartości biologiczne DSB:
+Nie stwierdzono
+8.1.2.
+Zaleca się oznaczanie najwyższego dopuszczalnego stężenia substancji w powietrzu na
+stanowiskach pracy.
+Zalecane procedury monitoringu:
+       - Rozporządzenie MZ z dn. 2.02.2011 r. w sprawie badań i pomiarów czynników szkodliwych dla
+            zdrowia w środowisku pracy (Dz. U. nr 33 z 2011 r. poz. 166).
+       - Badania i pomiary czynników szkodliwych dla zdrowia wykonuje się metodami
+NORDKALK Wapno Sp. z o.o.                            KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                         Data sporządzenia: 23 października 2024 r.
+strona 6 z 17                                                        Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+         określonymi w Polskich Normach, a w razie braku takich norm – metodami zalecanymi
+         przez jednostki badawczo-rozwojowe w dziedzinie medycyny pracy.
+8.1.3.
+Nie stwierdzono, aby podczas prawidłowego stosowania wytwarzały się substancje zanieczyszczające
+powietrze.
+8.1.4.
+Wartości DNEL:
+                                                       Pracownicy
+                            Ostre,                               Przewlekłe,
+                                               Ostre,                                  Przewlekłe,
+       Droga              miejscowe                              miejscowe
+                                          ogólnoustrojowe                            ogólnoustrojowe
+      narażenia             skutki                                 skutki
+                                          skutki narażenia                           skutki narażenia
+                          narażenia                               narażenia
+
+  Spożycie                                           Nie są wymagane
+                              Nie                Nie                  Nie
+                                                                                          10 mg / m³
+  Wdychanie             zidentyfikowano    zidentyfikowano      zidentyfikowano
+                           zagrożenia         zagrożenia           zagrożenia
+  Kontakt ze
+                                              Nie zidentyfikowano zagrożenia
+  skórą
+
+
+                                                       Konsumenci
+
+                            Ostre,                                Przewlekłe,
+                                               Ostre,                                  Przewlekłe,
+       Droga              miejscowe                                miejscowe
+                                          ogólnoustrojowe                            ogólnoustrojowe
+      narażenia             skutki                                   skutki
+                                          skutki narażenia                           skutki narażenia
+                          narażenia                                narażenia
+                             Nie                                      Nie
+                                           6,1 mg/kg masy                              6,1 mg/kg masy
+  Spożycie             zidentyfikowano                          zidentyfikowano
+                                              ciała/dzień                                 ciała/dzień
+                          zagrożenia                               zagrożenia
+                             Nie                 Nie                  Nie
+                                                                                          10 mg / m³
+  Wdychanie            zidentyfikowano     zidentyfikowano      zidentyfikowano
+                          zagrożenia          zagrożenia          zagrożenia)
+  Kontakt ze
+                                              Nie zidentyfikowano zagrożenia
+  skórą
+Wartości PNEC:
+
+Środowisko                                      PNEC                                Uwagi
+
+                                          Nie zidentyfikowano
+Woda słodka
+                                              zagrożenia
+                                          Nie zidentyfikowano
+Osady słodkowodne
+                                              zagrożenia
+                                          Nie zidentyfikowano
+Woda morska
+                                              zagrożenia
+                                          Nie zidentyfikowano
+Osady morskie
+                                              zagrożenia
+NORDKALK Wapno Sp. z o.o.                             KARTA CHARAKTERYSTYKI
+       sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                        Data sporządzenia: 23 października 2024 r.
+strona 7 z 17                                                       Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+
+Produkty spożywcze                        Nie zidentyfikowano
+                                                                 Brak zdolności do bioakumulacji
+(bioakumulacja)                               zagrożenia
+Mikroorganizmy biorące udział w
+                                               100 mg / L        NOEC; AF=10
+oczyszczaniu ścieków
+                                          Nie zidentyfikowano
+Gleba (rolnictwo)
+                                              zagrożenia
+                                          Nie zidentyfikowano
+Powietrze
+                                              zagrożenia
+8.1.5.
+W przypadku prawidłowego stosowania nie jest wymagane zarządzanie pasmami ryzyka.
+8.2.     Kontrola narażenia
+Należy unikać emisji pyłów. Wskazana wentylacja miejscowa lub ogólna pomieszczenia.
+W przypadku, gdy narażeniu nie można zapobiec za pomocą innych środków, należy stosować środki
+ochrony osobistej.
+8.2.1. Stosowane techniczne środki kontroli
+Jeśli w wyniku użytkowania, do produkcji wapna, stali i surówki, cementu, betonowych elementów
+drogowych i kolejowych, mączek i wypełniaczy wapiennych, przy budowie warstw nawierzchni
+drogowych, elementów prefabrykowanych z betonu, w przemyśle szklarskim, materiałów
+budowlanych, chemicznym, tworzyw sztucznych, gumowym, ceramicznym, papierniczym, paszowym,
+ochronie środowiska i drogownictwie, do odsiarczania spalin, w uprawach polowych do odkwaszania
+gleby, poprawy jej struktury i żyzności oraz jako materiał paszowy na potrzeby produkcji pasz,
+mieszanek paszowych oraz premiksów, powstaje pył, należy stosować bariery procesowe, miejscowe
+wyciągi lub inne zabezpieczenia techniczne pozwalające utrzymanie poziomu pyłu w powietrzu
+w zalecanych wartościach granicznych.
+8.2.2. Indywidualne środki ochrony, takie jak indywidualny sprzęt ochronny
+8.2.2.1.
+       a) ochrona oczu lub twarzy
+           Nie należy nosić soczewek kontaktowych. W przypadku proszków stosować okulary ochronne
+           typu gogle, przy dużym zapyleniu mocno przylegające gogle z osłonami bocznymi lub pełne
+           gogle z szerokim polem widzenia. Przy dużym narażeniu dziennym zapewnić stanowisko do
+           płukania oczu lub wyposażyć pracowników w aparaty do płukania oczu lub pojemniki z solą
+           fizjologiczną.
+       b) ochrona skóry
+            i)    ochrona rąk
+                  Stosować rękawice ochronne z bawełny.
+            ii)   inne
+                  Stosować ochronne ubranie robocze (z dodatkiem bawełny) w pełni zakrywające skórę
+                  (długie spodnie, długie rękawy), obuwie zapobiegające dostaniu się pyłu. W przypadku
+                  dużego narażenia dziennego, pracownicy powinni mieć możliwość brania prysznicu,
+                  a jeśli to konieczne stosować krem ochronny dla ochrony narażonej skóry, szczególnie
+                  szyi, twarzy i nadgarstków.
+       c) ochrona dróg oddechowych
+           Wskazana wentylacja miejscowa lub ogólna pomieszczenia lub stosowanie odpylanych
+           urządzeń zamkniętych. W zależności od oczekiwanego poziomu narażenia nosić w przypadku
+           bardzo drobnych frakcji jednorazowe maski bez zaworu.
+NORDKALK Wapno Sp. z o.o.                             KARTA CHARAKTERYSTYKI
+       sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                        Data sporządzenia: 23 października 2024 r.
+strona 8 z 17                                                       Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+       d) Zagrożenia termiczne
+          Substancja nie stanowi zagrożenia termicznego, a tym samym szczególna uwaga nie jest
+          wymagana.
+8.2.3. Kontrola narażenia środowiska
+Należy dobrać i zainstalować urządzenia filtrujące o odpowiedniej skuteczności, aby zapobiec
+narażeniu środowiska na substancję. Minimalizować rozsypywanie.
+
+
+
+
+SEKCJA 9: WŁAŚCIWOŚCI FIZYCZNE I CHEMICZNE
+9.1.     Informacje na temat podstawowych właściwości fizycznych i chemicznych
+a) Stan skupienia:                      Ciało stałe o różnych wymiarach: bryły lub drobny
+                                        proszek
+b) Kolor:                               jasnoszary
+c) Zapach:                              bez zapachu
+   Próg zapachu:                        nie dotyczy
+d) Temperatura topnienia:               > 450 °C (wynik badań metodą EU A.1)
+e) Temperatura wrzenia :                nie dotyczy (ciało stałe o temperaturze topnienia> 450 °C)
+f) Palność:                             niepalny (wynik badania metodą EU A.10)
+g) Granice wybuchowości:                nie dotyczy (ciało stałe)
+h) Temperatura zapłonu:                 nie dotyczy (ciało stałe)
+i) Temperatura samozapłonu:             nie dotyczy (ciało stałe)
+j) Temperatura rozkładu:                > 825oC rozkład na tlenek wapnia (CaO) i dwutlenek węgla
+                                        (CO2)
+k) pH:                                  9,2 (roztwór nasycony w temperaturze 25 oC)
+l) Lepkość kinetyczna:                  nie dotyczy (ciało stałe)
+m) Rozpuszczalność:                     rozpuszczalny w wodzie – 16,6 mg/dm3 w temperaturze 20 oC
+                                        (wyniki badań metodą EU A.6)
+                                        rozpuszczalny w roztworach chlorku amonowego
+n) Współczynnik podziału n-oktanol/
+woda (wartość współczynnika log):       nie dotyczy (substancja nieorganiczna)
+o) Prężność pary:                       nie dotyczy (ciało stałe)
+p) Gęstość względna:                    2,711 g/cm3 w temperaturze 20 oC (wynik badań metodą EU
+                                        A.3)
+q) Względna gęstość pary:               nie dotyczy (ciało stałe)
+r) Charakterystyka cząstek:             od 150 mm do 0,15 mm
+9.2.     Inne informacje
+9.2.1.    Informacje dotyczące klas zagrożenia fizycznego
+          a) Materiały wybuchowe
+             Nie dotyczy
+          b) Gazy łatwopalne
+             Nie dotyczy
+NORDKALK Wapno Sp. z o.o.                          KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                     Data sporządzenia: 23 października 2024 r.
+strona 9 z 17                                                    Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+         c) Aerozole
+            Nie dotyczy
+         d) Gazy utleniające
+            Nie dotyczy
+         e) Gazy pod ciśnieniem
+            Nie dotyczy
+         f) Płyny łatwopalne
+            Nie dotyczy
+         g) Łatwopalne ciał stałe
+            Nie dotyczy
+         h) Substancje i mieszaniny samoreaktywne
+            Nie dotyczy
+         i) Substancje ciekłe piroforyczne
+            Nie dotyczy
+         j) Substancje stałe piroforyczne
+            Nie dotyczy
+         k) Substancje i mieszaniny samonagrzewające się
+            Nie dotyczy
+         l) Substancje i mieszaniny, które w kontakcie z wodą emitują gazy łatwopalne
+            Nie dotyczy
+         m) Substancje ciekłe utleniające
+            Nie dotyczy
+         n) Substancje stałe utleniające
+            Nie dotyczy
+         o) Nadtlenki organiczne
+            Nie dotyczy
+         p) Substancje powodujące korozję metali
+            Nie dotyczy
+         q) Odczulone materiały wybuchowe
+            Nie dotyczy
+9.2.2.   Inne właściwości bezpieczeństwa
+         a) Wrażliwość mechaniczna
+            Nie dotyczy
+         b) Temperatura samoprzyśpieszającej polimeryzacji
+            Nie dotyczy
+         c) Tworzenie wybuchowej mieszaniny pyłu z powietrzem
+            Nie dotyczy
+         d) Rezerwa kwasowo/zasadowa
+            Nie dotyczy
+         e) Szybkość parowania
+            Nie dotyczy
+         f) Zdolność mieszania się
+            Nie dotyczy
+         g) Przewodność
+            Nie dotyczy
+         h) Działanie korozyjne
+            Nie dotyczy
+         i) Grupa gazów
+            Nie dotyczy
+NORDKALK Wapno Sp. z o.o.                            KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                        Data sporządzenia: 23 października 2024 r.
+strona 10 z 17                                                       Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+          j) Potencjał redoks
+             Nie dotyczy
+          k) Potencjał postawania rodników
+             Nie dotyczy
+          l) Właściwości fotokatalityczne
+             Nie dotyczy
+
+
+
+SEKCJA 10: STABILNOŚĆ I REAKTYWNOŚĆ
+10.1. Reaktywność
+10.1.1. Podgrzany powyżej 825oC węglan wapnia rozkłada się na tlenek wapnia i ditlenek węgla:
+                    CaCO3 → CaO + CO2
+W obecności ditlenku węgla przechodzi do roztworu jako wodorowęglan. Pod wpływem kwasów ulega
+rozkładowi z wydzieleniem ditlenku węgla.
+Węglan wapnia wykazuje dobrą rozpuszczalność w roztworach chlorku amonowego.
+                  CaCO3 + 2 NH4Cl → CaCl2 + 2 NH3 + H2O + CO2
+10.1.2. Ciśnienie, światło, wstrząsy itp. nie powodują niebezpiecznej reakcji substancji.
+10.2. Stabilność chemiczna
+W normalnych warunkach użytkowania i przechowywania, węglan wapnia jest stabilny.
+10.3. Możliwość występowania niebezpiecznych reakcji
+W kontakcie z kwasami uwalniany jest ditlenek węgla, czasami gwałtownie. Nie powoduje reakcji
+wybuchowych w zetknięciu z substancjami pochodzenia organicznego.
+10.4. Warunki, których należy unikać
+Ograniczyć ekspozycję na działanie powietrza.
+10.5. Materiały niezgodne
+Nie ma.
+10.6.     Niebezpieczne produkty rozkładu
+Produktem rozpadu węglanu wapnia jest tlenek wapnia, który jest zaklasyfikowany jako substancja
+drażniąca drogi oddechowe i skórę oraz powodująca poważne uszkodzenie oczu.
+
+
+
+SEKCJA 11: INFORMACJE TOKSYKOLOGICZNE
+11.1. Informacje na temat klas zagrożenia zdefiniowanych w rozporządzeniu (WE) nr 1272/2008
+Substancja nieujęta w wykazach MZ substancji toksycznych i rakotwórczych. Brak danych o dawkach
+śmiertelnych i toksycznych dla ludzi. Nie zanotowano przypadków zatrucia ostrego lub przewlekłego.
+a. Toksyczność ostra
+Ustne LD50 > 2000 mg / kg masy ciała (metoda OECD 420, szczur).
+Skórne LD50 > 2000 mg / kg masy ciała (metoda OECD 402, szczur).
+Inhalacyjne LC50 (4h) > 3 mg /l powietrza (metoda OECD 403, szczur).
+Węglan wapnia nie wywołuje toksyczności ostrej. Nie jest uzasadniona klasyfikacja ostrej
+toksyczności.
+b. Działanie żrące/drażniące na skórę
+NORDKALK Wapno Sp. z o.o.                            KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                     Data sporządzenia: 23 października 2024 r.
+strona 11 z 17                                                    Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+Węglan wapnia nie działa żrąco/drażniąco na skórę (metoda OECD 404, królik). Nie jest uzasadniona
+klasyfikacja tego zagrożenia.
+c. Poważne uszkodzenie oczu/ działanie drażniące na oczy
+Węglan wapnia nie powoduje poważnego uszkodzenia oczu ani nie działa drażniąco na oczy (metoda
+OECD 405, królik). Nie jest uzasadniona klasyfikacja tego zagrożenia.
+d. Działanie uczulające na drogi oddechowe lub skórę
+Węglan wapnia nie działa uczulająco na drogi oddechowe czy skórę (metoda OECD 429, mysz).
+Nie jest uzasadniona klasyfikacja tego zagrożenia.
+e. Działanie mutagenne na komórki rozrodcze
+Testy mutacji powrotnych w komórkach bakteryjnych (test Amesa, OECD 471; OECD 473; OECD
+476): negatywne. Ze względu na wszechobecność i niezbędność Ca dla życia węglan wapnia jest
+pozbawiony wszelkich genotoksyczności. Nie jest uzasadniona klasyfikacja tego zagrożenia.
+
+
+
+
+f. Działanie rakotwórcze
+Wapń (podawany jako Ca-mleczan) nie jest rakotwórczy (wynik eksperymentu, szczur).
+Przy zmianach pH węglanu wapnia nie ma zagrożenia rakotwórczego. Dane epidemiologiczne
+wskazują na brak zagrożenia rakotwórczego. Nie jest uzasadniona klasyfikacja tego zagrożenia.
+g. Szkodliwe działanie na rozrodczość
+Wapń (Ca-podawany jako węglan), nie jest toksyczny dla rozrodczości (wynik eksperymentu, mysz).
+Zmiany pH nie dają podstaw do reprodukcyjnego ryzyka.
+Dane epidemiologiczne wskazują na brak zagrożenia toksyczności reprodukcyjnej.
+Zarówno w badaniach na zwierzętach i badaniach klinicznych na ludziach stosując różne sole
+wapniowe nie zostały wykryte żadne reprodukcyjne lub rozwojowe defekty. Zobacz także Scientific
+Committee on Food (art. 16.6). Tak więc, węglan wapnia nie jest toksyczny dla rozrodczości i / lub
+rozwoju.
+Klasyfikacja pod względem szkodliwego działania na rozrodczość zgodnie z rozporządzeniem (WE)
+1272/2008 nie jest wymagana.
+h. Działanie toksyczne na narządy docelowe – narażenie jednorazowe
+Węglan wapnia nie działa toksycznie na narządy docelowe. Nie jest uzasadniona klasyfikacja tego
+zagrożenia.
+i. Działanie toksyczne na narządy docelowe – narażenie powtarzane
+Toksyczność CaCO3 przez skórę nie jest uważana za istotną w świetle przewidywanego nieistotnego
+wchłaniania przez skórę.
+Toksyczność CaCO3 przez drogi oddechowe: zgodnie z Rozporządzeniem Ministra Pracy i Polityki
+Społecznej z dnia 29 listopada 2002 r. w sprawie najwyższych dopuszczalnych stężeń i natężeń
+czynników szkodliwych dla zdrowia w środowisku pracy (Dz.U.02.217.1833) dla węglanu wapnia
+najwyższe dopuszczalne stężenia to tylko w przypadku bardzo drobnych frakcji: NDS - 10mg/m3.
+Dlatego klasyfikacja węglanu wapnia pod względem toksyczności przy długoterminowym narażeniu
+nie jest wymagana.
+j. Zagrożenie spowodowane aspiracją
+Nie są znane dane, które potwierdzałyby możliwość zagrożenia. Nie jest uzasadniona klasyfikacja
+tego zagrożenia.
+NORDKALK Wapno Sp. z o.o.                          KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                     Data sporządzenia: 23 października 2024 r.
+strona 12 z 17                                                    Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+11.1.1.
+Substancja nie jest sklasyfikowanana jako drażniąca na skórę czy drogi oddechowe.
+11.1.2.
+Nie wywołuje toksyczności ostrej.
+Ustne LD50 > 2000 mg / kg masy ciała (OECD 425, szczur)
+Skórne LD50 > 2000 mg / kg masy ciała (OECD 402, królik)
+Inhalacyjne LC50 (4h) > 3 mg /l powietrza (metoda OECD 403, szczur).
+11.1.3.
+Na podstawie wyników eksperymentalnych stwierdzono, że nie wymaga klasyfikacji jako drażniący dla
+skóry ani jako mocno drażniący dla oczu.
+11.1.4.
+Nie jest uzasadniona klasyfikacja ostrej toksyczności. Nie jest uważany za czynnik uczulający skórę.
+Klasyfikacja pod względem działania mutagennego nie jest uzasadniona. Klasyfikacja pod względem
+działania rakotwórczego nie jest uzasadniona. Substancja nie jest toksyczna dla rozrodczości i / lub
+rozwoju. Klasyfikacja pod względem toksyczności przy długoterminowym narażeniu nie jest
+wymagana. Nie jest uzasadniona klasyfikacja zagrożenia spowodowanego aspiracją.
+11.1.5. Informacje dotyczące prawdopodobnych dróg narażenia
+Substancja nie jest toksyczna w kontakcie przez drogi pokarmowe, przez skórę lub drogi oddechowe.
+11.1.6. Objawy związane z właściwościami fizycznymi, chemicznymi i toksykologicznymi
+Substancja nie jest sklasyfikowana jako stwarzająca zagrożenie dla zdrowia.
+11.1.7. Opóźnione, natychmiastowe oraz przewlekłe skutki krótko- i długotrwałego narażenia
+W oparciu o dostępne dane, nie są znane opóźnione efekty oddziaływania na organizm.
+11.1.8. Skutki wzajemnego oddziaływania
+Nie dotyczy
+11.1.9. Brak szczegółowych danych
+W oparciu o dostępne dane, brak podstaw do klasyfikacji toksyczności ostrej poprzez wdychanie.
+W oparciu o dostępne dane, brak podstaw do określenia działania uczulającego na drogi oddechowe.
+11.1.10. Mieszaniny
+Nie dotyczy
+11.1.11. Informacje dotyczące mieszanin, a informacje dotyczące substancji
+Nie dotyczy
+11.2. Informacje o innych zagrożeniach
+11.2.1. Właściwości zaburzające funkcjonowanie układu hormonalnego
+W oparciu o dostępne dane, nie stwierdzono właściwości zaburzających funkcjonowanie układu
+hormonalnego.
+11.2.2. Inne informacje
+W oparciu o dostępne dane, nie stwierdzono żadnych innych istotnych informacji dotyczących
+negatywnego wpływu na zdrowie.
+NORDKALK Wapno Sp. z o.o.                         KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                    Data sporządzenia: 23 października 2024 r.
+strona 13 z 17                                                   Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+SEKCJA 12: INFORMACJE EKOLOGICZNE
+12.1. Toksyczność
+12.1.1 Ostra/Przewlekła toksyczność dla ryb:
+LC50 (96h) dla Oncorhynchus mykiss > 100% v/v roztworu nasyconego badanego materiału (metoda
+OECD 203). Brak danych stwierdzających toksyczność.
+12.1.2 Ostra/Przewlekła toksyczność dla bezkręgowców wodnych:
+LC50 (48h) dla Daphnia magna > 100% v/v roztworu nasyconego badanego materiału (metoda OECD
+202). Brak danych stwierdzających toksyczność.
+12.1.3 Ostra/Przewlekła toksyczność dla roślin wodnych:
+EC50 (72h) dla Desmodesmus subspicatus > 14 mg/l; NOEC: 14 mg/l (metoda OECD 201). Brak
+danych stwierdzających toksyczność.
+12.1.4 Toksyczność dla mikroorganizmów np bakterii:
+EC50 (3h) > 1000 mg/l; NOEC: 1000 mg/l (metoda OECD 209). Przy wysokim stężeniu, poprzez
+wzrost pH, węglan wapnia jest wykorzystywany do higienizacji osadów pościekowych. Brak danych
+stwierdzających toksyczność.
+12.1.5 Chroniczna toksyczność dla organizmów wodnych:
+Brak danych stwierdzających toksyczność.
+12.1.6 Toksyczność dla organizmów mieszkających w ziemi:
+LC50 (14d) dla Eisenia fetida > 1000 mg/kg suchej gleby; NOEC: 1000 mg/kg suchej gleby (metoda
+OECD 207).
+EC50 (28d) dla mikroorganizmów glebowych > 1000 mg/kg suchej gleby; NOEC: 1000 mg/kg suchej
+gleby (metoda OECD 216).
+Brak danych stwierdzających toksyczność.
+12.1.7 Toksyczność dla roślin lądowych:
+EC50 (21d) dla Glycine max, Lycopersicon esculentum, Avena sativa > 1000 mg/kg suchej gleby;
+NOEC: 1000 mg/kg suchej gleby (metoda OECD 208). Brak danych stwierdzających toksyczność.
+12.1.8 Ogólny wpływ
+Nieznaczna zmiana pH, produkt jest użyteczny do poprawy kwasowości wody.
+12.2. Trwałość i zdolność do rozkładu
+Nie dotyczy substancji nieorganicznych
+12.3. Zdolność do bioakumulacji
+Nie dotyczy substancji nieorganicznych
+12.4. Mobilność w glebie
+Węglan wapnia jest trudno rozpuszczalny w wodzie i dlatego wykazuje niską mobilność w większości
+gleb.
+12.5. Wyniki oceny właściwości PBT and vPvB
+Zgodnie z wynikami oceny substancja nie jest PBT ani vPvB.
+12.6. Właściwości zaburzające funkcjonowanie układu hormonalnego
+W oparciu o dostępne dane, nie stwierdzono właściwości zaburzających funkcjonowanie układu
+hormonalnego dla środowiska.
+NORDKALK Wapno Sp. z o.o.                         KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                    Data sporządzenia: 23 października 2024 r.
+strona 14 z 17                                                   Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+12.7. Inne szkodliwe skutki działania
+Nie zidentyfikowano żadnych innych szkodliwych skutków działania.
+
+
+
+SEKCJA 13: POSTĘPOWANIE Z ODPADAMI
+13.1. Metody unieszkodliwiania odpadów
+Odpady powstające z tego produktu nie są uważane za niebezpieczne. Szczegółowe przepisy
+postępowania z odpadami podaje Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 3
+marca 2022 r. w sprawie ogłoszenia jednolitego tekstu ustawy o odpadach (Dz.U.22.699). Odpady,
+których nie udało się poddać odzyskowi, powinny być unieszkodliwione w miejscu ich powstawania.
+Małe ilości substancji można ostrożnie zebrać do pojemników w stanie suchym. Duże ilości można
+stosować w rolnictwie jako nawóz. Używany do pakowania pojemnik służy jedynie do pakowania tego
+produktu, nie może być ponownie wykorzystywany do innych celów. Zanieczyszczone opakowanie
+oddać do recyklingu. Przetwarzanie, wykorzystywanie lub zanieczyszczenie tego produktu może
+zmienić możliwości gospodarowania odpadami.
+
+
+
+
+SEKCJA 14: INFORMACJE DOTYCZĄCE TRANSPORTU
+Węglan wapnia nie jest zakwalifikowany jako niebezpieczny podczas transportu [ADR (transport
+drogowy), RID (transport kolejowy), ICAO/IATA (transport powietrzny), ADN (transport wodny
+śródlądowy), IMDG (transport morski)].
+14.1. Numer UN lub numer identyfikacyjny ID
+Niesklasyfikowany
+14.2. Prawidłowa nazwa przewozowa UN
+Niesklasyfikowany
+14.3. Klasa(-y) zagrożenia w transporcie
+Niesklasyfikowany
+14.4. Grupa pakowania
+Niesklasyfikowany
+14.5. Zagrożenia dla środowiska
+Substancja nie stanowi zagrożenia dla środowiska zgodnie z kryteriami zawartymi w przepisach
+modelowych ONZ (zgodnie z ADR, RID, i ADN) oraz nie powoduje zanieczyszczenia morza zgodnie
+z kodeksem IMDG i procedurami reagowania w sytuacjach kryzysowych dotyczącymi statków
+przewożących towary niebezpieczne.
+14.6. Szczególne środki ostrożności dla użytkowników
+Należy unikać emisji pyłów podczas transportu poprzez użycie szczelnych zbiorników na produkt.
+14.7. Transport morski luzem zgodnie z instrumentami IMO
+Substancja nie jest uważana za szkodliwą dla środowiska morskiego zgodnie z załącznikiem V do
+konwencji MARPOL.
+NORDKALK Wapno Sp. z o.o.                           KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                      Data sporządzenia: 23 października 2024 r.
+strona 15 z 17                                                     Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+SEKCJA 15: INFORMACJE DOTYCZĄCE PRZEPISÓW PRAWNYCH
+15.1 Przepisy prawne dotyczące bezpieczeństwa, zdrowia i ochrony środowiska specyficzne
+    dla substancji lub mieszaniny
+Unijne przepisy prawne:
+Węglan wapnia jest zwolniony z obowiązku rejestracji zgodnie z załącznikiem nr V do rozporządzenia
+(WE) nr 1907/2006 (z późniejszymi zmianami).
+Substancja nie spełnia kryteriów klasyfikacji zgodnie z rozporządzeniem (WE) nr 1272/2008
+i w związku z powyższym nie wymaga oznakowania.
+Zezwolenia :                    niewymagane
+Ograniczenia w użytkowaniu:     brak
+Inne przepisy UE:               węglan wapnia nie jest substancją SEVESO, nie jest substancją
+                                zubożającą warstwę ozonową ani trwałym zanieczyszczeniem
+                                organicznym.
+Krajowe przepisy prawne:
+    −    Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 3 marca 2022 r. w sprawie
+         ogłoszenia jednolitego tekstu ustawy o odpadach (Dz.U.22.699) - patrz sekcja 13
+    −    Rozporządzenie Ministra Rodziny, Pracy i Polityki Społecznej z dnia 12 czerwca 2018 r.
+         w sprawie najwyższych dopuszczalnych stężeń i natężeń czynników szkodliwych dla zdrowia
+         w środowisku pracy (Dz.U.18.1286) - patrz sekcja 8
+    −    Rozporządzenie MZ z dn. 2.02.2011 r. w sprawie badań i pomiarów czynników szkodliwych
+         dla zdrowia w środowisku pracy (Dz.U.11.33.166) - patrz sekcja 8
+    −    Obwieszczenie Ministra Rodziny, Pracy i Polityki Społecznej z dnia 11 maja 2018 r. w sprawie
+         jednolitego tekstu rozporządzenia Ministra Pracy i Polityki Społecznej w sprawie
+         bezpieczeństwa i higieny pracy przy ręcznych pracach transportowych oraz innych pracach
+         związanych z wysiłkiem fizycznym (Dz.U.18.1139) – patrz sekcja 7
+15.2 Ocena bezpieczeństwa chemicznego
+Dla węglanu wapnia w związku z tym, że nie jest sklasyfikowany zgodnie z rozporządzeniem (WE) nr
+1272/2008, nie została dokonana ocena bezpieczeństwa chemicznego.
+
+
+
+SEKCJA 16: INNE INFORMACJE
+Dane oparte są na naszej najnowszej wiedzy, ale nie stanowią one gwarancji konkretnych cech
+produktu i nie stanowią podstawy do zawierania prawomocnych umów.
+16.1. Istotne zmiany w stosunku do poprzedniego wydania
+Zmiana w pkt. 1.3
+16.2. Skróty
+ADN: umowa europejska dotycząca międzynarodowego przewozu towarów niebezpiecznych
+śródlądowymi drogami wodnymi
+ADR: umowa europejska dotycząca międzynarodowego drogowego przewozu towarów
+niebezpiecznych
+DNEL: wyznaczona dawka/stężenie niewywołująca szkodliwych skutków
+DSB: dopuszczalne stężenie w materiale biologicznym
+EC50:    średnie stężenie skuteczne
+NORDKALK Wapno Sp. z o.o.                          KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                      Data sporządzenia: 23 października 2024 r.
+strona 16 z 17                                                     Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+ICAO/IATA: instrukcje techniczne dla bezpiecznego transportu materiałów niebezpiecznych drogą
+powietrzną
+ID:     numer identyfikacyjny
+IMDG: międzynarodowy kodeks ładunków niebezpiecznych
+IMO: Międzynarodowa Organizacja Morska
+LC50:    średnie stężenie śmiertelne
+LD50: średnia dawka śmiertelna
+NDS: najwyższe dopuszczalne stężenie
+NDSCh: najwyższe dopuszczalne stężenie chwilowe
+NOEC: najwyższe stężenie, przy którym nie obserwuje się niekorzystnego działania substancji
+OECD: Organizacja Współpracy Gospodarczej i Rozwoju
+PBT: substancje trwałe, wykazujące zdolność do bioakumulacji i toksyczne
+PNEC: przewidywane stężenie niepowodujące zmian w środowisku
+RID:   umowa europejska dotycząca międzynarodowego kolejowego przewozu towarów
+niebezpiecznych
+SCF: Komitet Naukowy ds. Żywności przy UE
+SCOEL: Komitet Naukowy ds. Dopuszczalnych Wartości Narażenia Zawodowego przy UE
+TWA: średnia ważona czasu
+UN:    nazwa przewozowa
+vPvB: substancje bardzo trwałe i wykazujące bardzo dużą zdolność do bioakumulacji
+16.3. Źródła kluczowych danych
+    −    Anonymous, 2006: Tolerable upper intake levels for vitamins and minerals Scientific
+         Committee on Food, European Food Safety Authority, ISBN: 92-9199-014-0 [SCF document]
+
+
+Zastrzeżenie
+Treść niniejszej karty charakterystyki stanowi wytyczne dla odpowiednich środków ostrożności
+podczas obchodzenia się z materiałem. Odbiorcy tej karty charakterystyki muszą upewnić się, że
+wszystkie osoby, które mogą stosować, posługiwać się, usuwać lub w jakikolwiek inny sposób wejść
+w kontakt z produktem, przeczytają i zrozumieją informacje w niej zawarte. Informacje i instrukcje
+zawarte w niniejszej karcie charakterystyki oparte są na obecnym stanie wiedzy naukowej
+ i technicznej, zgodnie z datą wydania karty, ale nie stanowią one gwarancji konkretnych cech
+produktu i nie stanowią podstawy do zawierania prawomocnych umów.
+Ta karta uzupełnia a nie zastępuje techniczne instrukcje użytkowania. Karta ta               nie zwalnia
+użytkownika produktu z przestrzegania wszystkich norm prawnych, administracyjnych             i przepisów
+BHP. Użytkownikowi zwraca się uwagę na ewentualne ryzyko mogące wystąpić, jeśli              produkt jest
+używany do innych celów niż jest przeznaczony. Informacje na temat szczegółów                jego składu
+chemicznego uzyskać można w jednostce wystawiającej kartę:
+                    NORDKALK Wapno Sp. z o.o., Sitkówka 24, 26-052 Nowiny
+                           Zakład Sitkówka, Sitkówka 24, 26-052 Nowiny
+                                          tel: 41 346 93 00
+Użytkownik powinien znać i stosować wszystkie teksty karty charakterystyki związane z jego
+działalnością. Użytkownik będzie samodzielnie odpowiedzialny za podjęcie wszelkich środków
+ostrożności przy używaniu produktu.
+Niniejsza wersja karty charakterystyki zastępuje wszystkie poprzednie wersje.
+NORDKALK Wapno Sp. z o.o.                      KARTA CHARAKTERYSTYKI
+    sporządzono zgodnie z rozporządzeniami (WE): nr 1907/2006, nr 1272/2008 i nr 2020/878
+wydanie: 1.1                                                Data sporządzenia: 23 października 2024 r.
+strona 17 z 17                                               Data aktualizacji:  26 marca 2025 r.
+indeks: KCH/5
+
+
+                               Koniec karty charakterystyki
+

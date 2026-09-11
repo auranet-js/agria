@@ -1,0 +1,118 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T16:27:42",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-70/": {
+   "agregat": {
+    "clicks": 11,
+    "impressions": 237,
+    "ctr": 0.046413502109704644,
+    "position": 6.708860759493671
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "agria tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "bielik wapno"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 45
+    },
+    {
+     "keys": [
+      "ph 70"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 6
+    },
+    {
+     "keys": [
+      "wapno azotowe cena"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "wapno bielik"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 64
+    },
+    {
+     "keys": [
+      "wapno budowlane na pole"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "wapno do ziemi"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "wapno hydratyzowane"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "wapno nawozowe tlenkowe"
+     ],
+     "clicks": 0,
+     "impressions": 16,
+     "ctr": 0,
+     "position": 11.125
+    },
+    {
+     "keys": [
+      "wapno tlenkowe dawkowanie"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 12
+    },
+    {
+     "keys": [
+      "wapno tlenkowe nawozowe"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 21
+    }
+   ]
+  }
+ }
+}

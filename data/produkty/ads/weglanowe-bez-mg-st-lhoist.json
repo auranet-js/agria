@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIGxob2lzdA",
+        "searchTerm": "oxyfertil lhoist"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros,metrics.conversions",
+  "queryResourceConsumption": "1941"
+}

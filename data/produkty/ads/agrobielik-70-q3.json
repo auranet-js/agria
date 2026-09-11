@@ -1,0 +1,215 @@
+{
+  "results": [
+    {
+      "metrics": {
+        "clicks": "4",
+        "costMicros": "7870000",
+        "impressions": "36"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gdGxlbmtvd2UgZ3JhbnVsb3dhbmU",
+        "searchTerm": "wapno tlenkowe granulowane"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gdGxlbmtvd2UgZ3JhbnVsb3dhbmUgY2VuYQ",
+        "searchTerm": "wapno tlenkowe granulowane cena"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y2VuYSB3YXBuYSB0bGVua293ZWdv",
+        "searchTerm": "cena wapna tlenkowego"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~aWxlIHdhcG5hIHRsZW5rb3dlZ28gbmEgaGVrdGFy",
+        "searchTerm": "ile wapna tlenkowego na hektar"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gZ3JhbnVsb3dhbmUgdGxlbmtvd2U",
+        "searchTerm": "wapno granulowane tlenkowe"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1918589",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbWFnbmV6b3dlIHRsZW5rb3dl",
+        "searchTerm": "wapno magnezowe tlenkowe"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "3980000",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbmF3b3pvd2UgdGxlbmtvd2U",
+        "searchTerm": "wapno nawozowe tlenkowe"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "4",
+        "costMicros": "7840000",
+        "impressions": "40"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2U",
+        "searchTerm": "wapno tlenkowe"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "2000000",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgYmlnIGJhZw",
+        "searchTerm": "wapno tlenkowe big bag"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgY2VuYQ",
+        "searchTerm": "wapno tlenkowe cena"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "4",
+        "costMicros": "7790000",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgY2VuYSB6YSB0b27EmQ",
+        "searchTerm": "wapno tlenkowe cena za tonę"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgZG9icm9taXIgY2VuYQ",
+        "searchTerm": "wapno tlenkowe dobromir cena"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgbHV6ZW0",
+        "searchTerm": "wapno tlenkowe luzem"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "9"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgcGFsb25l",
+        "searchTerm": "wapno tlenkowe palone"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2Ugc3lwa2ll",
+        "searchTerm": "wapno tlenkowe sypkie"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2UgemFzdG9zb3dhbmll",
+        "searchTerm": "wapno tlenkowe zastosowanie"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd28gbWFnbmV6b3dl",
+        "searchTerm": "wapno tlenkowo magnezowe"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gdGxlbmtvd2UgeiBtYWduZXplbQ",
+        "searchTerm": "wapno tlenkowe z magnezem"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gdGxlbmtvd28gbWFnbmV6b3dl",
+        "searchTerm": "wapno tlenkowo magnezowe"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "2695"
+}

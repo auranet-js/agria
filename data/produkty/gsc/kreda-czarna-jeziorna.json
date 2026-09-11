@@ -1,0 +1,46 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:33:41",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/kreda-czarna-jeziorna/": {
+   "agregat": {
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 19.666666666666668
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "czarna kreda z hummusem ile na hektar"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 5
+    },
+    {
+     "keys": [
+      "kreda jeziorna"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 29.666666666666668
+    },
+    {
+     "keys": [
+      "kreda jeziorna dawkowanie"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 18
+    }
+   ]
+  }
+ }
+}

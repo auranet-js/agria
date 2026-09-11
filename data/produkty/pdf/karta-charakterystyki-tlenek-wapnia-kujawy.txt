@@ -1,0 +1,354 @@
+                                                                                     1/7
+                                                                        ZPW TRZUSKAWICA S.A.
+                                                                               ZAKŁAD KUJAWY
+                                                                                88-192 Piechcin
+                                                                    tel.052 – 3834400, tel/fax 052 - 3834498
+                                                                            e-mail: info@trzuskawica.pl
+                                                                               www.trzuskawica.pl
+
+
+
+
+KRS 0000096034; NIP 657-038-67-32; ING Bank Śląski S.A. 97105000861000002203571902
+http://www.trzuskawica.pl email: info@trzuskawica.pl
+
+
+
+
+                         KARTA CHARAKTERYSTYKI
+
+Data wydania: 2007-05-30
+Wydanie I
+
+1. IDENTYFIKACJA SUBSTANCJI I IDENTYFIKACJA PRZEDSIĘBIORSTWA
+1.1 Identyfikacja substancji: tlenek wapnia.
+             Wzór cząsteczki: Ca =O
+              Nazwa handlowa: wapno budowlane EN 459-1 CL 90-Q
+                                 wapno palone w bryłach,
+                                 wapno palone mielone
+1.2 Zastosowanie substancji: w przemyśle materiałów budowlanych: do produkcji betonu
+                               komórkowego, cegły silikatowej, zapraw, w przemyśle
+                               chemicznym jako katalizator, neutralizator, czynnik regulujący pH,
+                                w hutnictwie jako topnik do odsiarczania surówki, w przemyśle
+                                celulozowo-papierniczym, w przemyśle sodowym, w
+                                ochronie środowiska, jako środek biobójczy, w rolnictwie
+                                jako nawóz, do uzdatniania wody, do higienizacji osadów
+                                pościekowych oraz do stabilizacji gleby
+1.3 Identyfikacja przedsiębiorstwa: Zakłady Przemysłu Wapienniczego
+                                             „Trzuskawica” S.A.
+                                               Zakład Bielawy
+                                               88-192 Piechcin
+                                         tel. 052 3834400, fax 052 3834498,
+                                             email: info@trzuskawica.pl
+1.4 Telefon alarmowy: 052 3834408 (czynny 24 h)
+2. IDENTYFIKACJA ZAGROŻEŃ:
+   Substancja nie jest sklasyfikowana w Aneksie I Dyrektywy 67/548/EWG
+   Klasyfikacja: substancja drażniąca.
+   Zagrożenia:
+   Substancja o działaniu drażniącym na układ oddechowy i skórę ( R37/38 ).
+   Może być przyczyną poważnego uszkodzenia oczu ( R41 ).
+   Inne zagrożenia: pylenie
+   Szkodliwe skutki działania na zdrowie człowieka i środowisko związane z właściwościami
+   fizykochemicznymi substancji: podrażnienie lub oparzenie skóry, uszkodzenie oczu.
+3. SKŁAD/INFORMACJA O SKŁADNIKACH
+     Tlenek wapnia      - 92-96% (CAS: 1305-78-8, EINECS (WE): 215-138-9);
+                               Xi; R37/38; R41 (patrz punkt 16).
+     Węglan wapnia       - max 2 % (CAS: 1317-65-3, EINECS: 215-279-6)
+                                                                                          2/7
+
+4. PIERWSZA POMOC
+
+ Rodzaj drogi             Objawy              Sposób udzielania pierwszej pomocy
+ narażenia
+ Wdychanie                Kaszel, uczucie   Wyprowadzić z miejsca narażenia, chronić
+                          palenia, krótki   przed utratą ciepła. W razie potrzeby
+                          oddech            stosować sztuczne oddychanie. Potrzebna
+                                            natychmiastowa pomoc lekarska.
+ Kontakt ze skórą         Zaczerwienienie Zdjąć odzież, zanieczyszczoną skórę
+                          skóry, pieczenie, przetrzeć na sucho, a następnie myć bardzo
+                          ból               dużą ilością chłodnej wody przynajmniej
+                                            przez 15 minut. Nie stosować mydła ani
+                                            środków zobojętniających. Założyć na
+                                            oparzenia jałowe opatrunki. Wezwać lekarza.
+                                            Może być konieczna konsultacja
+                                            dermatologiczna.
+ Kontakt z oczami         Zaczerwienienie, Natychmiast usunąć szkła kontaktowe, czystą
+                          ból, zaburzenie   chusteczką usunąć większe kawałki wapna,
+                          widzenia          płukać oczy co najmniej 15 minut dużą
+                                            ilością roztworu soli fizjologicznej lub wody
+                                            (unikać silnego strumienia ze względu na
+                                            ryzyko uszkodzenia rogówki).
+                                            Uwaga: osoby narażone na kontakt tlenku
+                                            wapnia z oczami powinny być pouczone o
+                                            konieczności i sposobie ich
+                                            natychmiastowego płukania.
+                                            W każdym przypadku skażenia oczu
+                                            konieczna pilna konsultacja okulistyczna.
+ Połknięcie               Uczucie palenia, Nie wywoływać wymiotów. Podawać do
+                          ból brzucha,      picia zimną czystą wodę, małymi porcjami.
+                          wymioty           Nigdy nie podawać niczego do picia osobie
+                                            nieprzytomnej. Potrzebna natychmiastowa
+                                            pomoc lekarska.
+Wskazówki ogólne
+   Efekty mogą być opóźnione. W przypadku wystąpienia zaburzeń zasięgnąć porady
+   lekarza, pokazać opakowanie produktu.
+5. POSTĘPOWANIE W PRZYPADKU POŻARU
+   Niepalne ciało stałe, zawierające również proszek i pył. Nie podtrzymuje palenia. Reaguje
+   z wodą z wydzieleniem dużej ilości ciepła, która może być wystarczająca do zapalenia
+   materiałów łatwopalnych. W przypadku pożaru w otoczeniu należy stosować gaśnice
+   proszkowe lub śniegowe ABCE. Do gaszenia pożaru nie stosować wody i środków
+   pochodnych. Służby Ratownicze powinny stosować odzież ochronną oraz indywidualne
+   środki ochrony dróg oddechowych i oczu. Nie ma specjalnych wymagań dla sprzętu
+   ochronnego dla Służb Ratowniczych.
+6. POSTĘPOWANIE W PRZYPADKU NIEZAMIERZONEGO UWOLNIENIA DO
+    ŚRODOWISKA
+   Rozsypany produkt ostrożnie zebrać (nie wzbijając obłoku pyłu) do zamykanego
+    pojemnika lub pyłoszczelnego worka (patrz pkt 13). Unikać kontaktu substancji z wodą.
+    Używać środków ochrony indywidualnej (patrz pkt 8), zapewnić odpowiednią wentylację
+    oraz kontrolować pylenie. Unikać niezamierzonego uwolnienia do wód
+                                                                                       3/7
+
+    powierzchniowych i gruntowych (wzrost pH).
+7. POSTĘPOWANIE Z SUBSTANCJĄ I JEJ MAGAZYNOWANIE
+7.1 Postępowanie z substancją
+    Przechowywać poza zasięgiem dzieci. Podczas stosowania nie jeść, nie pić, unikać
+    bezpośredniego kontaktu substancji z oczami i skórą, unikać wdychania pyłu. Pracować
+    w pomieszczeniach wyposażonych w wentylację ogólną lub miejscową. Przestrzegać
+    zasad higieny osobistej, stosować środki ochrony indywidualnej (patrz pkt 8).
+7.2 Magazynowanie
+    Magazynować w pomieszczeniach lub zbiornikach zabezpieczających przed
+   zawilgoceniem, oznakowanych zgodnie z Rozporządzeniem Ministra Zdrowia z dn. 14
+   marca 2003 r.( DU nr 61 z 2003 r., poz.552) w sprawie sposobu oznakowania miejsc,
+   rurociągów oraz pojemników i zbiorników służących do przechowywania lub
+   zawierających substancje niebezpieczne lub preparaty niebezpieczne. Zabezpieczyć przed
+   możliwością zanieczyszczenia. Nie transportować ani przechowywać w zbiornikach z
+   aluminium zwłaszcza gdy jest ryzyko kontaktu substancji z wodą. Każdy zbiornik, w
+   którym przechowywana jest substancja powinien być wyposażony w odpylacz o
+   odpowiedniej skuteczności, a pomieszczenie w wentylację ogólną lub miejscową.
+7.3 Specyficzne zastosowania
+    Nie ma osobnych zaleceń dotyczących specyficznych zastosowań substancji.
+8. KONTROLA NARAŻENIA I ŚRODKI OCHRONY INDYWIDUALNEJ
+8.1 Wartości graniczne narażenia
+     Zgodnie z Rozporządzeniem Ministra Pracy i Polityki Społecznej z dnia 29 listopada
+    2002 r. w sprawie najwyższych dopuszczalnych stężeń i natężeń czynników szkodliwych
+    dla zdrowia w środowisku pracy (Dz.U.02.217.1833) dla tlenku wapnia najwyższe
+    dopuszczalne stężenia to:
+                      NDS - 2mg/m3
+                      NDSCh - 6mg/m3
+8.2 Kontrola narażenia
+8.2.1 Kontrola narażenia w miejscu pracy
+    Niezbędna wentylacja miejscowa lub ogólna pomieszczenia.
+    Zaleca się oznaczanie najwyższych dopuszczalnych stężeń substancji w powietrzu na
+    stanowiskach pracy.
+     Zalecane procedury monitoringu:
+     - Rozp. MZ z dn. 20.04.2005 r. w sprawie badań i pomiarów czynników szkodliwych dla
+        zdrowia w środowisku pracy (Dz. U. nr 73 z 2005 r. poz. 645).
+    - Badania i pomiary czynników szkodliwych dla zdrowia wykonuje się metodami
+       określonymi w Polskich Normach, a w razie braku takich norm – metodami zalecanymi
+       przez jednostki badawczo-rozwojowe w dziedzinie medycyny pracy.
+    W przypadku, gdy narażeniu nie można zapobiec za pomocą innych środków, należy
+    stosować środki ochrony indywidualnej.
+    Ochrona dróg oddechowych: nosić półmaskę filtrującą z wbudowanym zaworem
+     wdechowym a przy krótkotrwałym kontakcie maskę jednorazową.
+    Ochrona rąk: nosić rękawice ochronne z oznakowaniem CE wykonane z gumy naturalnej
+    lub neoprenu, a w przypadku krótkotrwałego narażenia z bawełny.
+    Ochrona oczu: stosować okulary ochronne typu gogle. W przypadku dużego narażenia
+    dziennego zapewnić stanowisko do płukania oczu.
+    Ochrona skóry: ochronne ubranie robocze (z dodatkiem bawełny) w pełni zakrywające
+    skórę (długie spodnie, długie rękawy), obuwie odporne na materiały żrące i
+    zapobiegające dostaniu się pyłu. W przypadku dużego narażenia dziennego, pracownicy
+    powinni mieć możliwość brać prysznic a jeśli to konieczne stosować krem ochronny dla
+                                                                                            4/7
+
+    ochrony narażonej skóry, szczególnie szyi, twarzy i nadgarstków
+8.2.2 Kontrola narażenia środowiska
+     Należy dobrać i zainstalować urządzenia filtrujące o odpowiedniej skuteczności, aby
+      zapobiec narażeniu środowiska na substancję
+9. WŁAŚCIWOŚCI FIZYCZNE I CHEMICZNE
+9.1 Informacje ogólne
+       • Postać - białe ciało stałe
+       • Zapach - bez zapachu
+9.2 Ważne informacje dotyczące zdrowia, bezpieczeństwa i środowiska
+          • pH - 12,8 jako Ca(OH)2 roztwór nasycony w temperaturze 25 oC
+          • Temperatura wrzenia - 2850 oC przy 100 hPa
+          • Temperatura zapłonu - nie dotyczy
+          • Palność - niepalne ciało stałe
+          • Właściwości wybuchowe - niewybuchowy
+          • Właściwości utleniające - nie ma
+          • Prężność par - nie lotny
+          • Gęstość względna - 3,25-3,38 g/cm3 w temperaturze 20 oC
+          • Rozpuszczalność w wodzie – 1330 mg/dm3 w temperaturze 10 oC
+          • Współczynnik podziału n-oktanol/woda - nie dotyczy
+          • Lepkość – nie dotyczy
+          • Gęstość par – nie dotyczy
+          • Szybkość parowania – nie dotyczy
+9.3 Inne informacje
+         • Temperatura topnienia - 2570oC
+         • Ciężar nasypowy - 0,9 - 1,2 Mg/m3 w temperaturze 20 oC
+         • Ciepło rozpuszczania w wodzie - 1155 J/g
+10. STABILNOŚĆ I REAKTYWNOŚĆ
+10.1 Warunki, których należy unikać
+       Temperatura, ciśnienie, światło, wstrząsy itp. nie powodują niebezpiecznej reakcji
+        substancji
+10.2 Czynniki, których należy unikać
+       Tlenek wapnia reaguje egzotermicznie z wodą tworząc diwodorotlenek wapnia:
+                   CaO + H2O  Ca(OH)2 + 1155 kJ/kg
+      Tlenek wapnia reaguje egzotermicznie z kwasami tworząc sole wapnia.
+      Tlenek wapnia reaguje z aluminium w obecności wilgoci tworząc wodór:
+                 CaO + 2 Al + 7 H2O → Ca(Al(OH)4)2 + 3 H2
+       Niebezpiecznie reaguje z fluorem, fluorowodorem, trójfluorkiem chloru,
+       pięciofluorkiem bromu i pięciotlenkiem fosforu. Nie powoduje reakcji wybuchowych
+       w zetknięciu z substancjami pochodzenia organicznego.
+10.3 Niebezpieczne produkty rozpadu
+      Nie występują niebezpieczne produkty rozpadu
+11. INFORMACJE TOKSYKOLOGICZNE
+    Substancja nie ujęta w wykazach MZ substancji toksycznych i rakotwórczych. Brak
+    danych o dawkach śmiertelnych i toksycznych dla ludzi.
+    Wartości medialnych dawek śmiertelnych tlenku wapnia wyznaczone dla zwierząt
+     doświadczalnych:
+        LD50 (szczur, per os): 500-2000 mg/kg m.c.
+      Podanie do worka spojówkowego królika 10 mg substancji wywołało ostre działanie
+      drażniące
+                                                                                        5/7
+
+     Objawy zatrucia ostrego.
+     Pył powoduje łzawienie oczu, ból i zaczerwienienie spojówek, ból gardła, krwawienie z
+     nosa, silny kaszel i duszności. Skażenie skóry, zwłaszcza wilgotnej, powoduje
+     miejscowe zaczerwienienie i martwicę. Skażenie oczu pyłem wywołuje zaczerwienienie,
+     uszkodzenie spojówek powiekowych i gałkowych, uszkodzenie rogówki
+     prowadzące do jej owrzodzenia i zmętnienia. Drogą pokarmową może wywołać
+     oparzenia chemiczne błony śluzowej jamy ustnej, gardła, przełyku z ryzykiem
+     krwawienia i perforacji przełyku.
+     Objawy zatrucia przewlekłego.
+      Przewlekłe zapalenie spojówek, krwawienie z nosa, przewlekłe stany zapalne skóry,
+    złuszczanie naskórka.
+12. INFORMACJE EKOLOGICZNE
+12.1 Ekotoksyczność
+12.1.1 Ostra/Przewlekła toksyczność dla ryb: dla Cyprinus carpio LC50 = 1070 mg/l przez 96
+        godzin, substancja nie toksyczna ponieważ wartość LC50 jest > 100mg/l
+12.1.2 Ostra/Przewlekła toksyczność dla bezkręgowców wodnych: dla aquatic crustacea
+         LC50 = 160 mg/l przez 24 godziny
+12.1.3 Ostra/Przewlekła toksyczność dla roślin wodnych: brak danych stwierdzających
+                                                             toksyczność
+12.1.4 Toksyczność dla mikroorganizmów np bakterii: przy wysokiej koncentracji, poprzez
+        wzrost pH, tlenek wapnia jest wykorzystywany do higienizacji osadów pościekowych
+12.1.5 Chroniczna toksyczność dla organizmów wodnych: brak danych stwierdzających
+                                                             toksyczność
+12.1.6 Toksyczność dla organizmów mieszkających w ziemi: brak danych stwierdzających
+                                                             toksyczność
+12.1.7 Toksyczność dla roślin lądowych: brak danych stwierdzających toksyczność, ponadto
+                                           tlenek wapnia jest wykorzystywany jako nawóz
+12.1.8 Ogólny wpływ: przewlekły efekt pH. Mimo że produkt jest użyteczny do poprawy
+         kwasowości wody, udział większy niż 1 g/l może być szkodliwy dla życia wodnego.
+         Wartość pH >12 szybko spadnie jako efekt rozcieńczenia i karbonizacji
+12.2 Mobilność
+     Tlenek wapnia reaguje z wodą tworząc diwodorotlenek wapnia oraz z CO2 z
+     powietrza tworząc węglan wapnia, który jest trudno rozpuszczalny i dlatego wykazuje
+     niską mobilność w większości gleb. Co więcej produkt ten jest stosowany jako nawóz
+12.3 Trwałość i zdolność do rozkładu
+      Tlenek wapnia reaguje z wilgocią i ditlenkiem węgla tworząc węglan wapnia, który
+      jest powszechny w przyrodzie. Tlenek wapnia wykorzystywany jest do higienizacji
+      osadów pościekowych
+12.4 Zdolność do biokumulacji
+      Brak wykrywalnych zdolności do biokumulacji. Produkty rozkładu, rozpuszczalne
+      związki wapnia i wodorowęglanu wapnia są naturalnymi składnikami ekosystemu
+12.5 Wyniki oceny właściwości PBT
+      W chwili obecnej brak danych uniemożliwia prawidłową ocenę trwałości, zdolności do
+       biokumulacji i toksyczności substancji, ale na podstawie punktu 12.3 i 12.4 można
+       uważać, że substancja nie będzie wykazywać właściwości PBT
+12.6 Inne szkodliwe skutki działania
+      Brak danych
+
+13. POSTĘPOWANIE Z ODPADAMI
+    Odpady tlenku wapnia zostały zaklasyfikowane na podstawie Rozporządzenia Ministra
+                                                                                          6/7
+
+    Środowiska z dn. 27 września 2001 r. ( DU nr 112 z 2001 r., poz. 1206) w sprawie
+    katalogu odpadów do grupy: „Odpady z produkcji spoiw mineralnych ( w tym cementu,
+    wapna i tynku) oraz z wytworzonych z nich wyrobów” (kod 10 13) oraz podgrupy:
+    „Odpady z produkcji wapna palonego i hydratyzowanego” (kod 10 13 04). Szczegółowe
+    przepisy postępowania z odpadami podaje Ustawa z dn. 27 kwietnia 2001 r. (DU nr 62 z
+    2001 r., poz. 628) „O odpadach”. Odpady powstające z tego produktu nie są uważane za
+    niebezpieczne zgodnie z decyzją Rady Europy z 16 stycznia 2001, zmodyfikowanej
+    przez decyzję 2000/532/EC o liście odpadów (101304). Odpady, których nie udało się
+    poddać odzyskowi, powinny być unieszkodliwione w miejscu ich powstawania. Małe
+    ilości wapna palonego można ostrożnie zebrać do pojemników w stanie suchym. Duże
+    ilości można stosować w rolnictwie jako wapno nawozowe po uzgodnieniu z Wydziałem
+    Ochrony Środowiska Urzędu Wojewódzkiego. Zanieczyszczone opakowanie oddać do
+    recyklingu.
+14. INFORMACJE O TRANSPORCIE
+      Nie zakwalifikowany jako niebezpieczny podczas transportu:
+        IMDG: nie klasyfikowany
+        ADR: nie klasyfikowany
+        RID: nie klasyfikowany
+        ICAO/IATA: kod UN: 1910, klasa 8, grupa opakowań PG III
+        Należy unikać emisji pyłów podczas transportu poprzez użycie szczelnych
+        zbiorników na wapno oraz opakowań producenta
+15. INFORMACJE DOTYCZĄCE PRZEPISÓW PRAWNYCH
+    Dla tlenku wapnia w związku z wielkością tonażu > 1000 ton będzie dokonana ocena
+    bezpieczeństwa chemicznego.
+    Informacje dotyczące zdrowia, bezpieczeństwa i środowiska zamieszczane na etykiecie
+    zgodnie z dyrektywami 67/548/EWG i 1999/45/WE:
+
+               WAPNO BUDOWLANE EN 459-1 CL 90-Q
+            ZPW „Trzuskawica” S.A., Zakład Bielawy, 88-192 Piechcin
+                 tel. 052 3834400, fax 052 3834498
+                           TLENEK WAPNIA
+                          Numer WE: 215-138-9
+                  Działa drażniąco na drogi oddechowe i skórę;
+                  Ryzyko poważnego uszkodzenia oczu.
+
+                                 Chronić przed dziećmi; nie wdychać pyłu;
+         Xi - substancja drażniącaunikać zanieczyszczenia skóry i oczu;
+                                  zanieczyszczone oczy przemyć natychmiast
+                                 dużą ilością wody i zasięgnąć porady lekarza;
+                                 nosić okulary lub ochronę twarzy; w razie
+                                  połknięcia niezwłocznie zasięgnij porady
+                                 lekarza – pokaż opakowanie lub etykietę.
+     Dla tlenku wapnia nie wydawane są zezwolenia na mocy tytułu VII oraz nie podlega
+     ograniczeniom na mocy tytułu VIII Rozporządzenia (WE) nr 1907/2006 Parlamentu
+     Europejskiego i Rady z dnia 18 grudnia 2006 r.
+     Niniejsza karta charakterystyki została sporządzona na podstawie załącznika II
+     Rozporządzenia (WE) nr 1907/2006 Parlamentu Europejskiego i Rady z dnia 18 grudnia
+     2006 r.
+16. INNE INFORMACJE
+    Inne informacje ważne dla zdrowia i bezpieczeństwa użytkownika oraz dla ochrony
+                                                                                     7/7
+
+środowiska:
+ Określenie rodzaju zagrożenia:
+ Zwroty R:
+  R37/38 - działa drażniąco na drogi oddechowe i skórę
+  R41      - ryzyko poważnego uszkodzenia oczu
+ Określenie warunków bezpiecznego stosowania:
+ Zwroty S:
+   S2      - chronić przed dziećmi
+   S22     - nie wdychać pyłu
+   S24/25 - unikać zanieczyszczenia skóry i oczu
+   S26     - zanieczyszczone oczy przemyć natychmiast dużą ilością wody i zasięgnąć
+              porady lekarza
+   S39     - nosić okulary lub ochronę twarzy
+   S46     - w razie połknięcia niezwłocznie zasięgnij porady lekarza – pokaż opakowanie
+             lub etykietę
+ Każdy użytkownik powinien zapoznać się z treścią niniejszej karty charakterystyki.
+ Ta karta uzupełnia techniczne instrukcje użytkowania a nie zastępuje ich. Informacje tu
+ zawarte są oparte na stanie wiedzy o produkcie w momencie określonym datą.
+ Podawane się one w dobrej wierze. Karta ta nie zwalnia użytkownika produktu z
+ przestrzegania wszystkich norm prawnych, administracyjnych i przepisów BHP.
+ Użytkownikowi zwraca się uwagę na ewentualne ryzyko mogące wystąpić, jeśli produkt
+ jest używany do innych celów niż jest przeznaczony. Informacje na temat możliwych
+ zastosowań wapna oraz szczegółów jego składu chemicznego uzyskać można w
+ jednostce wystawiającej kartę:
+   ZPW „Trzuskawica” S.A. 26-052 Sitkówka-Nowiny, Dział Jakości
+          tel: 041 346 50 87, fax: 041 346 51 56
+ Użytkownik powinien znać i stosować wszystkie teksty karty charakterystyki związane z
+ jego działalnością. Użytkownik będzie samodzielnie odpowiedzialny za podjęcie
+ wszelkich środków ostrożności przy używaniu produktu
+
+
+
+Opracował: mgr inż. Elżbieta Korzeniewska
+
+
+                                                    ZATWIERDZIŁ:
+

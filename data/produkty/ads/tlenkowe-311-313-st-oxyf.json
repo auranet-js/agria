@@ -1,0 +1,201 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~b3h5ZmVydGlsIDkw",
+        "searchTerm": "oxyfertil 90"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~b3h5ZmVydGlsIHdhcG5v",
+        "searchTerm": "oxyfertil wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gb3h5ZmVydGls",
+        "searchTerm": "wapno oxyfertil"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gb3h5ZmVydGlsIGNlbmE",
+        "searchTerm": "wapno oxyfertil cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "1",
+        "costMicros": "1490000",
+        "impressions": "7"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGls",
+        "searchTerm": "oxyfertil"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "7"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIDkw",
+        "searchTerm": "oxyfertil 90"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2970000",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIDkwIGNlbmE",
+        "searchTerm": "oxyfertil 90 cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIGNlbmE",
+        "searchTerm": "oxyfertil cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIGxob2lzdA",
+        "searchTerm": "oxyfertil lhoist"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIHdhcG5v",
+        "searchTerm": "oxyfertil wapno"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "11"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gb3h5ZmVydGls",
+        "searchTerm": "wapno oxyfertil"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "5"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gb3h5ZmVydGlsIGNlbmE",
+        "searchTerm": "wapno oxyfertil cena"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gb3h5ZmVydGlsIGRhd2tvd2FuaWU",
+        "searchTerm": "wapno oxyfertil dawkowanie"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "1014"
+}

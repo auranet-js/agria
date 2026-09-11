@@ -1,0 +1,102 @@
+{
+  "results": [
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1140000",
+        "impressions": "2930"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/53816816469858693",
+        "unexpandedFinalUrl": "https://agria.pl/do-pobrania/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "52",
+        "conversions": 0,
+        "costMicros": "92440000",
+        "impressions": "4263"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/3794089148240892145",
+        "unexpandedFinalUrl": "https://agria.pl/wapnowanie-gleby/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "7",
+        "conversions": 0,
+        "costMicros": "11160000",
+        "impressions": "2655"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/8988706480219287604",
+        "unexpandedFinalUrl": "https://agria.pl/kontakt/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "48",
+        "conversions": 0,
+        "costMicros": "62280000",
+        "impressions": "432"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/10846955584663244543",
+        "unexpandedFinalUrl": "https://agria.pl/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "277",
+        "conversions": 2,
+        "costMicros": "539287078",
+        "impressions": "2459"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/14472583774761964058",
+        "unexpandedFinalUrl": "https://agria.pl/wapno-nawozowe/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "32",
+        "conversions": 0,
+        "costMicros": "61660000",
+        "impressions": "4336"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/16718823709930289250",
+        "unexpandedFinalUrl": "https://agria.pl/kalkulator-wapnowania/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "179",
+        "conversions": 0,
+        "costMicros": "351426470",
+        "impressions": "1589"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/17358614849648238478",
+        "unexpandedFinalUrl": "https://agria.pl/wapno-granulowane/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "149",
+        "conversions": 1,
+        "costMicros": "175065402",
+        "impressions": "2419"
+      },
+      "landingPageView": {
+        "resourceName": "customers/6742071446/landingPageViews/17644078309135606551",
+        "unexpandedFinalUrl": "https://agria.pl/paszarstwo/kreda-pastewna/"
+      }
+    }
+  ],
+  "fieldMask": "landingPageView.unexpandedFinalUrl,metrics.clicks,metrics.impressions,metrics.costMicros,metrics.conversions",
+  "queryResourceConsumption": "2664"
+}

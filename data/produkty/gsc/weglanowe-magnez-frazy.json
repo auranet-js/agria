@@ -1,0 +1,770 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:34:27",
+ "ciagi": {
+  "dewonit": [],
+  "industria": [],
+  "jażwic": [],
+  "jazwic": [],
+  "laskow": [],
+  "winna": [],
+  "chęcin": [],
+  "łagów": [],
+  "grankal": [],
+  "odmiana 04": [
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-luz/"
+    ],
+    "clicks": 0,
+    "impressions": 24,
+    "ctr": 0,
+    "position": 9.791666666666666
+   },
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/"
+    ],
+    "clicks": 0,
+    "impressions": 82,
+    "ctr": 0,
+    "position": 3.6097560975609757
+   },
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   }
+  ],
+  "odmiana 05": [
+   {
+    "keys": [
+     "wapno odmiana 05",
+     "https://agria.pl/wapno-do-sadu/wapno-weglanowe-zawierajace-magnez-luz-2/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 2.5555555555555554
+   },
+   {
+    "keys": [
+     "wapno odmiana 05",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 51,
+    "ctr": 0,
+    "position": 2.9019607843137254
+   }
+  ],
+  "odm": [
+   {
+    "keys": [
+     "bez odmiana",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 6.5
+   },
+   {
+    "keys": [
+     "odmiany jęczmienia ozimego na słabe gleby",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-weglanowe-bez-magnezu-luz/"
+    ],
+    "clicks": 0,
+    "impressions": 24,
+    "ctr": 0,
+    "position": 9.791666666666666
+   },
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/"
+    ],
+    "clicks": 0,
+    "impressions": 82,
+    "ctr": 0,
+    "position": 3.6097560975609757
+   },
+   {
+    "keys": [
+     "wapno odmiana 04",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "wapno odmiana 05",
+     "https://agria.pl/wapno-do-sadu/wapno-weglanowe-zawierajace-magnez-luz-2/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 2.5555555555555554
+   },
+   {
+    "keys": [
+     "wapno odmiana 05",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 51,
+    "ctr": 0,
+    "position": 2.9019607843137254
+   }
+  ],
+  "magnezow": [
+   {
+    "keys": [
+     "wapno magnezowe ile na hektar",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 2,
+    "impressions": 258,
+    "ctr": 0.007751937984496124,
+    "position": 7.9689922480620154
+   },
+   {
+    "keys": [
+     "cena wapna magnezowego",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "ile kosztuje tona wapna magnezowego",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "ile kosztuje wapno magnezowe",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "ile wapna magnezowego granulowanego na hektar",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 43,
+    "ctr": 0,
+    "position": 9.30232558139535
+   },
+   {
+    "keys": [
+     "ile wapna magnezowego na ha",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 10.666666666666666
+   },
+   {
+    "keys": [
+     "ile wapna magnezowego na hektar",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 212,
+    "ctr": 0,
+    "position": 9.820754716981131
+   },
+   {
+    "keys": [
+     "jakie wapno lepsze węglanowe czy magnezowe",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "kiedy stosować wapno magnezowe",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "nawóz magnezowo wapniowy",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 76
+   },
+   {
+    "keys": [
+     "producent wapna magnezowego",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 33,
+    "ctr": 0,
+    "position": 40.93939393939394
+   },
+   {
+    "keys": [
+     "wapno granulowane magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "wapno granulowane magnezowe",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 23,
+    "ctr": 0,
+    "position": 48.91304347826087
+   },
+   {
+    "keys": [
+     "wapno magnezowe",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 2.5
+   },
+   {
+    "keys": [
+     "wapno magnezowe big bag",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-zawierajace-magnez-big-bag-1000kg/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 23
+   },
+   {
+    "keys": [
+     "wapno magnezowe cena za tonę",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 2.5
+   },
+   {
+    "keys": [
+     "wapno magnezowe dawkowanie",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 28,
+    "ctr": 0,
+    "position": 6.892857142857143
+   },
+   {
+    "keys": [
+     "wapno magnezowe granulowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "wapno magnezowe granulowane",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 2.333333333333333
+   },
+   {
+    "keys": [
+     "wapno magnezowe granulowane big bag",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "wapno magnezowe granulowane cena",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno magnezowe granulowane ile na hektar",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 155,
+    "ctr": 0,
+    "position": 9.587096774193549
+   },
+   {
+    "keys": [
+     "wapno magnezowe granulowane olx",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "wapno magnezowe granulowane olx",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "wapno magnezowe jak stosować",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 9.5
+   },
+   {
+    "keys": [
+     "wapno magnezowe luzem",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno magnezowe luzem cena",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno magnezowe producent",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 47
+   },
+   {
+    "keys": [
+     "wapno magnezowe producent",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 29.3
+   },
+   {
+    "keys": [
+     "wapno magnezowe skład",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 33.5
+   },
+   {
+    "keys": [
+     "wapno nawozowe węglanowo-magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 18,
+    "ctr": 0,
+    "position": 37.611111111111114
+   },
+   {
+    "keys": [
+     "wapno nawozowe węglanowo-magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 14
+   },
+   {
+    "keys": [
+     "wapno tlenkowe magnezowe",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-zawierajace-magnez-big-bag-1000kg/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 14.5
+   },
+   {
+    "keys": [
+     "wapno tlenkowe magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/"
+    ],
+    "clicks": 0,
+    "impressions": 19,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "wapno tlenkowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-zawierajace-magnez-big-bag-1000kg/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 12.1
+   },
+   {
+    "keys": [
+     "wapno tlenkowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 9.2
+   },
+   {
+    "keys": [
+     "wapno tlenkowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/"
+    ],
+    "clicks": 0,
+    "impressions": 35,
+    "ctr": 0,
+    "position": 10.4
+   },
+   {
+    "keys": [
+     "wapno weglanowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 8.5
+   },
+   {
+    "keys": [
+     "wapno węglanowe czy magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "wapno węglanowe czy magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "wapno węglanowe magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 38.333333333333336
+   },
+   {
+    "keys": [
+     "wapno węglanowe magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 20.714285714285715
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 32
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 17
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe cena",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 20
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe granulowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 15
+   }
+  ],
+  "z magnezem": [
+   {
+    "keys": [
+     "wapno granulowane z magnezem",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno nawozowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "wapno nawozowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "wapno węglanowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 11.333333333333334
+   },
+   {
+    "keys": [
+     "wapno węglanowe z magnezem",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 15
+   },
+   {
+    "keys": [
+     "wapno z magnezem",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "z magnezem",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   }
+  ],
+  "węglanowo": [
+   {
+    "keys": [
+     "wapno nawozowe węglanowo-magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 18,
+    "ctr": 0,
+    "position": 37.611111111111114
+   },
+   {
+    "keys": [
+     "wapno nawozowe węglanowo-magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 14
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 32
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 17
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe cena",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 20
+   },
+   {
+    "keys": [
+     "wapno węglanowo magnezowe granulowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 15
+   }
+  ]
+ }
+}

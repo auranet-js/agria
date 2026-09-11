@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131648847",
+        "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~b3h5ZmVydGlsIDkw",
+        "searchTerm": "oxyfertil 90"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "0",
+        "costMicros": "0",
+        "impressions": "7"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIDkw",
+        "searchTerm": "oxyfertil 90"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/6742071446/campaigns/24131649588",
+        "name": "AGRIA - Marka"
+      },
+      "metrics": {
+        "clicks": "2",
+        "costMicros": "2970000",
+        "impressions": "8"
+      },
+      "searchTermView": {
+        "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~b3h5ZmVydGlsIDkwIGNlbmE",
+        "searchTerm": "oxyfertil 90 cena"
+      }
+    }
+  ],
+  "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.impressions,metrics.costMicros",
+  "queryResourceConsumption": "1021"
+}

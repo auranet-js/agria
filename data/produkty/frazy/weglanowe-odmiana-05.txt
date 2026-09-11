@@ -1,0 +1,22 @@
+# nazwa
+wapno węglanowe odmiana 05
+wapno odmiana 05
+wapno nawozowe odmiana 05
+wapno węglanowe bez magnezu
+wapno węglanowe 40
+# producent / zakład / lokalizacja (render + atrybut)
+kopalnia celiny
+wapno celiny
+lhoist bukowa
+wapno bukowa
+# + dawka / cena / forma
+ile wapna węglanowego na hektar
+wapno węglanowe cena
+wapno węglanowe luzem
+# rodzaj ogólny
+wapno węglanowe
+wapno nawozowe węglanowe
+wapno węglanowe sypkie
+# porównania
+wapno odmiana 04 czy 05
+wapno węglanowe czy tlenkowe

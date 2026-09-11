@@ -1,0 +1,61 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:39:59",
+ "ciagi": {
+  "staw": [
+   {
+    "keys": [
+     "do stawu",
+     "https://agria.pl/wapno-nawozowe-hurt/wapno-agrobielik-70-big-bag-1000kg/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "ile wapna do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "keys": [
+     "wapno chlorowane do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "wapno tlenkowe do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   }
+  ]
+ }
+}

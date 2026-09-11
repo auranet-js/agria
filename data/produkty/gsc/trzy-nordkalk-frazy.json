@@ -1,0 +1,559 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T17:35:48",
+ "ciagi": {
+  "mieszank": [],
+  "tlenkowo-w": [],
+  "palone": [
+   {
+    "keys": [
+     "wapno palone mielone",
+     "https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone-wysokoreaktywne-luz-24t/"
+    ],
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 4
+   },
+   {
+    "keys": [
+     "wapno palone",
+     "https://agria.pl/wapno-hydratyzowane/bielik/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "wapno palone kruszone",
+     "https://agria.pl/oferta/?product_cat=wapno-nawozowe-hurt"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "wapno palone kruszone",
+     "https://agria.pl/wp-content/uploads/2023/06/5.pdf"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 6.5
+   },
+   {
+    "keys": [
+     "wapno palone mielone",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 56
+   },
+   {
+    "keys": [
+     "wapno palone na pole",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 7.2
+   },
+   {
+    "keys": [
+     "wapno palone na pole",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 3
+   }
+  ],
+  "mielone": [
+   {
+    "keys": [
+     "wapno palone mielone",
+     "https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone-wysokoreaktywne-luz-24t/"
+    ],
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 4
+   },
+   {
+    "keys": [
+     "wapno palone mielone",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 56
+   }
+  ],
+  "wysokoreaktyw": [],
+  "hydratyzowan": [
+   {
+    "keys": [
+     "wapno hydratyzowane bielik",
+     "https://agria.pl/wapno-hydratyzowane/bielik/"
+    ],
+    "clicks": 2,
+    "impressions": 27,
+    "ctr": 0.07407407407407407,
+    "position": 8.592592592592592
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane bielik",
+     "https://agria.pl/wapno-hydratyzowane/wapno-hydratyzowane-bielik-luz/"
+    ],
+    "clicks": 1,
+    "impressions": 31,
+    "ctr": 0.03225806451612903,
+    "position": 16.064516129032256
+   },
+   {
+    "keys": [
+     "czy wapno hydratyzowane jest szkodliwe",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 45
+   },
+   {
+    "keys": [
+     "czy wapno hydratyzowane można stosować w ogrodzie",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "hydratyzowane",
+     "https://agria.pl/wapno-hydratyzowane/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 37
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane",
+     "https://agria.pl/wapno-hydratyzowane/"
+    ],
+    "clicks": 0,
+    "impressions": 22,
+    "ctr": 0,
+    "position": 39.54545454545455
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-70/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane 30 kg",
+     "https://agria.pl/wapno-hydratyzowane/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 44.5
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane bielik",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 24,
+    "ctr": 0,
+    "position": 34.875
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane bielik",
+     "https://agria.pl/wapno-hydratyzowane/"
+    ],
+    "clicks": 0,
+    "impressions": 19,
+    "ctr": 0,
+    "position": 50.78947368421053
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane cena za tonę",
+     "https://agria.pl/wapno-hydratyzowane/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 37.25
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane do stawu",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane na pole",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane na pole",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 20.5
+   },
+   {
+    "keys": [
+     "wapno hydratyzowane zastosowanie",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 44.666666666666664
+   }
+  ],
+  "gaszone": [],
+  "oczyszczal": [],
+  "osad": [
+   {
+    "keys": [
+     "higienizacja osadu",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "higienizacja osadów",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 44,
+    "ctr": 0,
+    "position": 15.840909090909092
+   },
+   {
+    "keys": [
+     "higienizacja osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 172,
+    "ctr": 0,
+    "position": 16.587209302325583
+   },
+   {
+    "keys": [
+     "proces higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 18.1
+   },
+   {
+    "keys": [
+     "urządzenia do higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 21,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "urządzenie do higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 69,
+    "ctr": 0,
+    "position": 10.521739130434783
+   },
+   {
+    "keys": [
+     "wapnowanie osadów ściekowych",
+     "https://agria.pl/poradniki/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 51
+   },
+   {
+    "keys": [
+     "wapnowanie osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 131,
+    "ctr": 0,
+    "position": 13.473282442748092
+   }
+  ],
+  "higieniz": [
+   {
+    "keys": [
+     "higienizacja osadu",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "higienizacja osadów",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 44,
+    "ctr": 0,
+    "position": 15.840909090909092
+   },
+   {
+    "keys": [
+     "higienizacja osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 172,
+    "ctr": 0,
+    "position": 16.587209302325583
+   },
+   {
+    "keys": [
+     "proces higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 18.1
+   },
+   {
+    "keys": [
+     "urządzenia do higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 21,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "urządzenie do higienizacji osadów ściekowych",
+     "https://agria.pl/wapno-do-oczyszczalni/"
+    ],
+    "clicks": 0,
+    "impressions": 69,
+    "ctr": 0,
+    "position": 10.521739130434783
+   }
+  ],
+  "stabilizac": [],
+  "cl 90": [
+   {
+    "keys": [
+     "cl 90",
+     "https://agria.pl/wapno-hydratyzowane/bielik/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "cl 90-s",
+     "https://agria.pl/wapno-hydratyzowane/bielik/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 9.333333333333334
+   }
+  ],
+  "wapno budowlane": [
+   {
+    "keys": [
+     "czy wapno budowlane nadaje się do odkwaszenia gleby",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 19.4
+   },
+   {
+    "keys": [
+     "czy wapno budowlane nadaje się na pole",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 44
+   },
+   {
+    "keys": [
+     "wapno budowlane bielik",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 32
+   },
+   {
+    "keys": [
+     "wapno budowlane bielik",
+     "https://agria.pl/wapno-hydratyzowane/bielik/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 10.6
+   },
+   {
+    "keys": [
+     "wapno budowlane na pole",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/agrobielik-70/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "wapno budowlane na pole",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 21.444444444444443
+   },
+   {
+    "keys": [
+     "wapno budowlane na pole dawka",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 14
+   },
+   {
+    "keys": [
+     "wapno budowlane tarnów",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 76,
+    "ctr": 0,
+    "position": 7.552631578947368
+   },
+   {
+    "keys": [
+     "wapno budowlane tarnów",
+     "https://agria.pl/oferta/"
+    ],
+    "clicks": 0,
+    "impressions": 56,
+    "ctr": 0,
+    "position": 29.071428571428573
+   },
+   {
+    "keys": [
+     "wapno budowlane tarnów",
+     "https://agria.pl/rodo/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "wapno budowlane tarnów",
+     "https://agria.pl/wapno-hydratyzowane/"
+    ],
+    "clicks": 0,
+    "impressions": 42,
+    "ctr": 0,
+    "position": 76.33333333333333
+   },
+   {
+    "keys": [
+     "wapno budowlane tarnów",
+     "https://agria.pl/wapno-nawozowe-rolnictwo/"
+    ],
+    "clicks": 0,
+    "impressions": 41,
+    "ctr": 0,
+    "position": 13.195121951219512
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "okno": {
+  "startDate": "2026-06-09",
+  "endDate": "2026-09-06"
+ },
+ "pobrano": "2026-09-10T16:36:02",
+ "ciagi": {
+  "palone nawoz": [],
+  "odmiana 02": [],
+  "wapno palone": [
+   {
+    "keys": [
+     "wapno palone mielone",
+     "https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone-wysokoreaktywne-luz-24t/"
+    ],
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 4
+   },
+   {
+    "keys": [
+     "wapno palone",
+     "https://agria.pl/wapno-hydratyzowane/bielik/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "wapno palone kruszone",
+     "https://agria.pl/oferta/?product_cat=wapno-nawozowe-hurt"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "wapno palone kruszone",
+     "https://agria.pl/wp-content/uploads/2023/06/5.pdf"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 6.5
+   },
+   {
+    "keys": [
+     "wapno palone mielone",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 56
+   },
+   {
+    "keys": [
+     "wapno palone na pole",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 7.2
+   },
+   {
+    "keys": [
+     "wapno palone na pole",
+     "https://agria.pl/wapnowanie-gleby/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 3
+   }
+  ]
+ }
+}
