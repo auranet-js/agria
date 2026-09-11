@@ -14,7 +14,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw.jpg"
@@ -72,7 +72,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -130,7 +130,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -188,7 +188,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -247,7 +247,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -305,7 +305,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw.jpg"
@@ -359,11 +359,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 114999
+   "city_id": 120761
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -372,7 +372,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-70.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-70.jpg"
@@ -402,7 +402,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Gołcza",
+   "city": "Morawica",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -421,7 +421,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw.jpg"
@@ -479,7 +479,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -533,12 +533,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959,
-   "district_id": 273
+   "city_id": 32729
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -577,7 +576,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Kraków",
+   "city": "Moskorzew",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -596,7 +595,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -614,7 +613,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
@@ -654,7 +653,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw.jpg"
@@ -712,7 +711,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -770,7 +769,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw.jpg"
@@ -824,11 +823,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 67265
+   "city_id": 89213
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -867,7 +866,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Lisia Góra",
+   "city": "Leżajsk",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -886,7 +885,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw.jpg"
@@ -895,7 +894,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-70.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-70.jpg"
@@ -940,11 +939,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 37937
+   "city_id": 26427
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-do-stawu-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-staw-b.jpg"
@@ -983,7 +982,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-staw",
-   "city": "Szczucin",
+   "city": "Dukla",
    "intencja": "rybactwo — pH wody, mineralizacja mułu"
   }
  },
@@ -1002,7 +1001,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -1060,7 +1059,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -1114,7 +1113,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 94147
+   "city_id": 13553
   },
   "images": [
    {
@@ -1157,7 +1156,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Ropczyce",
+   "city": "Pilzno",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1172,11 +1171,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 41723
+   "city_id": 36081
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -1215,7 +1214,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Żabno",
+   "city": "Rusinów",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1234,7 +1233,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -1409,7 +1408,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -1427,7 +1426,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
@@ -1467,7 +1466,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -1525,7 +1524,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -1543,7 +1542,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
@@ -1583,7 +1582,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -1601,7 +1600,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
@@ -1695,12 +1694,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959,
-   "district_id": 273
+   "city_id": 2151
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -1739,7 +1737,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Kraków",
+   "city": "Białobrzegi",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1754,11 +1752,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 139101
+   "city_id": 91667
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -1767,7 +1765,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-70.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-70.jpg"
@@ -1797,7 +1795,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Mszana Dolna",
+   "city": "Nowe Miasto nad Pilicą",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -1816,7 +1814,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -1834,7 +1832,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
@@ -1874,7 +1872,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -1933,7 +1931,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -1991,7 +1989,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -2000,7 +1998,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-70.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-70.jpg"
@@ -2049,7 +2047,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -2103,11 +2101,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 9359
+   "city_id": 102583
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -2146,7 +2144,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Krosno",
+   "city": "Niedzieliska",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -2223,7 +2221,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -2281,7 +2279,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -2339,7 +2337,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -2357,7 +2355,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-70.jpg"
@@ -2397,7 +2395,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -2509,7 +2507,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 67265
+   "city_id": 93677
   },
   "images": [
    {
@@ -2552,7 +2550,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Lisia Góra",
+   "city": "Przecław",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -2571,7 +2569,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -2625,11 +2623,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 37937
+   "city_id": 141029
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -2668,7 +2666,7 @@
    "karta": "agrobielik-70",
    "sku": "AGR-001",
    "siatka": "agrobielik-70-gleba",
-   "city": "Szczucin",
+   "city": "Policzna",
    "intencja": "rolnictwo — szybkie podniesienie pH gleb średnich i ciężkich"
   }
  },
@@ -2687,7 +2685,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba-b.jpg"
@@ -2741,11 +2739,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 24485
+   "city_id": 144309
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -2784,7 +2782,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Bochnia",
+   "city": "Szczurowa",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -2803,7 +2801,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -2861,7 +2859,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -2915,11 +2913,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 37937
+   "city_id": 140515
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -2958,7 +2956,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Szczucin",
+   "city": "Pełkinie",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -2973,11 +2971,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 139101
+   "city_id": 148385
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3016,7 +3014,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Mszana Dolna",
+   "city": "Żyraków",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3035,7 +3033,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -3093,7 +3091,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3151,7 +3149,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -3209,7 +3207,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3263,11 +3261,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 9359
+   "city_id": 70145
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -3306,7 +3304,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Krosno",
+   "city": "Osiek",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3325,7 +3323,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3383,7 +3381,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -3441,7 +3439,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3495,11 +3493,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 67265
+   "city_id": 102577
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -3517,7 +3515,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-90.jpg"
@@ -3538,7 +3536,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Lisia Góra",
+   "city": "Niedomice",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3557,7 +3555,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3566,7 +3564,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-90.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-90-0-3.jpg"
@@ -3615,7 +3613,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -3673,7 +3671,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3785,11 +3783,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 41723
+   "city_id": 107683
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3798,7 +3796,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-agrobielik-90.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-agrobielik-90-0-3.jpg"
@@ -3828,7 +3826,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Żabno",
+   "city": "Szydłowiec",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3843,11 +3841,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 93127
+   "city_id": 8907
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -3886,7 +3884,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Połaniec",
+   "city": "Kozienice",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3901,11 +3899,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 55111
+   "city_id": 5627
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -3944,7 +3942,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Stalowa Wola",
+   "city": "Gawłów",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -3959,11 +3957,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 93879
+   "city_id": 28281
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -4002,7 +4000,7 @@
    "karta": "agrobielik-90",
    "sku": "AGR-002",
    "siatka": "agrobielik-90",
-   "city": "Radgoszcz",
+   "city": "Jastkowice",
    "intencja": "rolnictwo — najwyższa koncentracja CaO, mniejsza dawka na hektar"
   }
  },
@@ -4021,7 +4019,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -4039,7 +4037,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-bigbag.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-agrobielik-90.jpg"
@@ -4079,7 +4077,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90-b.jpg"
@@ -4137,7 +4135,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-90.jpg"
@@ -4191,11 +4189,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 142911
+   "city_id": 38067
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-oxyfertil-90.jpg"
@@ -4228,7 +4226,7 @@
    "karta": "oxyfertil-90",
    "sku": "AGR-003",
    "siatka": "oxyfertil-90",
-   "city": "Skała",
+   "city": "Szymbark",
    "intencja": "rolnictwo — dostawa od 1 tony, bez całopojazdowego minimum"
   }
  },
@@ -4352,7 +4350,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-oxyfertil-90-b.jpg"
@@ -4404,7 +4402,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-oxyfertil-90.jpg"
@@ -4510,7 +4508,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-oxyfertil-90.jpg"
@@ -4562,7 +4560,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -4614,7 +4612,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane-b.jpg"
@@ -4662,11 +4660,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 79453
+   "city_id": 43601
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -4699,7 +4697,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Chmielnik",
+   "city": "Ciepielów",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -4770,7 +4768,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -4870,11 +4868,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 22837
+   "city_id": 43351
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -4907,7 +4905,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Czarna",
+   "city": "Charsznica",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -4926,7 +4924,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane-b.jpg"
@@ -4979,7 +4977,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -5083,7 +5081,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -5135,7 +5133,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane-b.jpg"
@@ -5187,7 +5185,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -5239,7 +5237,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane-b.jpg"
@@ -5287,11 +5285,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 9359
+   "city_id": 54953
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -5324,7 +5322,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Krosno",
+   "city": "Sobków",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -5343,7 +5341,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane-b.jpg"
@@ -5395,7 +5393,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -5495,12 +5493,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959,
-   "district_id": 273
+   "city_id": 5213
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane.jpg"
@@ -5533,7 +5530,7 @@
    "karta": "weglanowe-granulowane",
    "sku": "AGR-008",
    "siatka": "weglanowe-granulowane",
-   "city": "Kraków",
+   "city": "Domostawa",
    "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania"
   }
  },
@@ -5552,7 +5549,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-granulowane-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-granulowane-b.jpg"
@@ -5656,7 +5653,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -5704,11 +5701,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 79453
+   "city_id": 13205
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -5741,7 +5738,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Chmielnik",
+   "city": "Oświęcim",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -5760,7 +5757,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -5808,11 +5805,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 93127
+   "city_id": 120651
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -5845,7 +5842,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Połaniec",
+   "city": "Mnin",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -5860,11 +5857,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 10087
+   "city_id": 35349
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -5897,7 +5894,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Lubień",
+   "city": "Pruchnik",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -5916,7 +5913,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -5964,11 +5961,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 22837
+   "city_id": 52833
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -6001,7 +5998,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Czarna",
+   "city": "Polanów",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6020,7 +6017,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -6072,7 +6069,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -6120,11 +6117,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 114999
+   "city_id": 86489
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -6157,7 +6154,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Gołcza",
+   "city": "Jeżowe",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6176,7 +6173,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -6224,11 +6221,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 67265
+   "city_id": 30031
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -6261,7 +6258,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Lisia Góra",
+   "city": "Kozłów",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6333,7 +6330,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -6381,11 +6378,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 24485
+   "city_id": 128097
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -6418,7 +6415,7 @@
    "karta": "weglanowe-magnez-granulowane",
    "sku": "AGR-011",
    "siatka": "weglanowe-magnez-granulowane",
-   "city": "Bochnia",
+   "city": "Wieliczka",
    "intencja": "rolnictwo — niedobory magnezu, gleby lekkie"
   }
  },
@@ -6437,7 +6434,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane.jpg"
@@ -6489,7 +6486,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-granulowane-b.jpg"
@@ -6541,7 +6538,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka.jpg"
@@ -6559,7 +6556,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-kreda-sypka.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-nawozowa-sypka.jpg"
@@ -6595,11 +6592,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 121091
+   "city_id": 19581
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka.jpg"
@@ -6608,7 +6605,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-nawozowa-sypka.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-nawozowa-sypka.jpg"
@@ -6638,7 +6635,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Niepołomice",
+   "city": "Wolbrom",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -6715,7 +6712,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka.jpg"
@@ -6733,7 +6730,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-kreda-sypka.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-nawozowa-sypka.jpg"
@@ -6773,7 +6770,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka-b.jpg"
@@ -6947,7 +6944,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka.jpg"
@@ -6965,7 +6962,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-kreda-sypka.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-kreda-nawozowa-sypka.jpg"
@@ -7001,11 +6998,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 9359
+   "city_id": 108189
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka-b.jpg"
@@ -7044,7 +7041,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Krosno",
+   "city": "Tudorów",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -7064,7 +7061,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka.jpg"
@@ -7073,7 +7070,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-nawozowa-sypka.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-nawozowa-sypka.jpg"
@@ -7118,11 +7115,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 55111
+   "city_id": 23883
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka.jpg"
@@ -7161,7 +7158,7 @@
    "karta": "kreda-nawozowa-sypka",
    "sku": "AGR-014",
    "siatka": "kreda-nawozowa-sypka",
-   "city": "Stalowa Wola",
+   "city": "Garwolin",
    "intencja": "rolnictwo — duże areały, dostawa 24 t"
   }
  },
@@ -7180,7 +7177,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka-b.jpg"
@@ -7189,7 +7186,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-nawozowa-sypka.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-nawozowa-sypka.jpg"
@@ -7296,7 +7293,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-nawozowa-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-sypka-b.jpg"
@@ -7305,7 +7302,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-kreda-nawozowa-sypka.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-kreda-nawozowa-sypka.jpg"
@@ -7399,11 +7396,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 93879
+   "city_id": 47209
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-plac-bigbagi-hala.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana-b.jpg"
@@ -7433,7 +7430,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Radgoszcz",
+   "city": "Kleczanów",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -7448,11 +7445,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 37937
+   "city_id": 139111
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana.jpg"
@@ -7482,7 +7479,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Szczucin",
+   "city": "Munina",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -7501,7 +7498,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana-b.jpg"
@@ -7550,7 +7547,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana.jpg"
@@ -7599,7 +7596,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-plac-bigbagi-wieza.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana-b.jpg"
@@ -7644,11 +7641,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 9359
+   "city_id": 65789
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana.jpg"
@@ -7678,7 +7675,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Krosno",
+   "city": "Końskie",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -7742,11 +7739,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 93127
+   "city_id": 76589
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana.jpg"
@@ -7776,7 +7773,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Połaniec",
+   "city": "Włoszczowa",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -7795,7 +7792,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana-b.jpg"
@@ -7844,7 +7841,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-bigbagi-przyczepa.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana.jpg"
@@ -7893,7 +7890,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana-b.jpg"
@@ -7942,7 +7939,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-bigbagi-wiata.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana.jpg"
@@ -7991,7 +7988,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-dlon-granulat.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana-b.jpg"
@@ -8040,7 +8037,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -8058,7 +8055,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
@@ -8094,72 +8091,14 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 115571
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
-   }
-  ],
-  "price": {
-   "value": 57,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "weglanowe-odmiana-04",
-   "sku": "AGR-006",
-   "siatka": "weglanowe-odmiana-04",
-   "city": "Iłża",
-   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
-  }
- },
- {
-  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-weglanowe-odmiana-04-53591",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 53591
+   "city_id": 3603
   },
   "images": [
    {
     "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
+    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
@@ -8195,7 +8134,65 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Przysucha",
+   "city": "Borzęcin",
+   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
+  }
+ },
+ {
+  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-weglanowe-odmiana-04-53591",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 31097
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-zaladunek.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
+   }
+  ],
+  "price": {
+   "value": 57,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "weglanowe-odmiana-04",
+   "sku": "AGR-006",
+   "siatka": "weglanowe-odmiana-04",
+   "city": "Lubaczów",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -8214,7 +8211,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
@@ -8268,11 +8265,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 67
+   "city_id": 104245
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -8311,7 +8308,7 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Alwernia",
+   "city": "Podegrodzie",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -8326,7 +8323,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 133761
+   "city_id": 50995
   },
   "images": [
    {
@@ -8369,7 +8366,7 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Gózd",
+   "city": "Nędzówka",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -8388,7 +8385,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -8397,7 +8394,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
@@ -8446,7 +8443,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
@@ -8500,73 +8497,14 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 8959,
-   "district_id": 273
-  },
-  "images": [
-   {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
-   },
-   {
-    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
-   }
-  ],
-  "price": {
-   "value": 57,
-   "currency": "PLN",
-   "negotiable": true
-  },
-  "attributes": [
-   {
-    "code": "state",
-    "value": "new"
-   }
-  ],
-  "_meta": {
-   "karta": "weglanowe-odmiana-04",
-   "sku": "AGR-006",
-   "siatka": "weglanowe-odmiana-04",
-   "city": "Kraków",
-   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
-  }
- },
- {
-  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
-  "category_id": 4368,
-  "advertiser_type": "business",
-  "external_id": "agria-weglanowe-odmiana-04-135303",
-  "contact": {
-   "name": "AGRIA Sp. z o.o.",
-   "phone": "664 393 062"
-  },
-  "location": {
-   "city_id": 24485
+   "city_id": 8675
   },
   "images": [
    {
     "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
+    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
@@ -8602,7 +8540,65 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Bochnia",
+   "city": "Kostrzyn",
+   "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
+  }
+ },
+ {
+  "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "description": "Wapno węglanowe odmiany 04 luzem — najniższy koszt odkwaszania w przeliczeniu na hektar. Do planowego wapnowania większych powierzchni, gdzie liczy się cena tony, a nie szybkość reakcji.\n\nPARAMETRY\n• Zawartość CaO: min. 50% CaO\n• Reaktywność: ~70-90%\n• Typ reakcji: Długodziałająca(bezpieczna)\n• Forma fizyczna: Sypkie\n• Frakcja: 0–2 mm\n• Producent: Lhoist, Celiny(Hochcel Group)\n\nZASTOSOWANIE\n• Zastosowanie funkcjonalne: Odkwaszanie gleb lekkich i piaszczystych, poprawa struktury gleby\n• Dawkowanie: 1,5–6 t/ha\n• Szybkość działania: Długotrwałe (3-6 miesięcy)\n• Efekt zastosowania: Wzrost pH\n• Dodatkowe zastosowanie: Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie\n\nFORMY DOSTAWY I CENA\n• 57 zł/t za towar, bez transportu · dostawa całopojazdowa 24 t\n• Ceny za sam towar — bez transportu. Transport wyceniamy indywidualnie w zależności od miejsca dostawy.\n• Możliwy odbiór własny.\n\nTRANSPORT\n• Wozimy własną flotą z własnych magazynów — termin ustalamy z Tobą, nie z przewoźnikiem z rynku.\n• Towar luzem przyjeżdża naczepą samowyładowczą, ładunek całosamochodowy 24 tony.\n• Big-bagi i worki na paletach — dostawa również na mniejsze zamówienia.\n• Koszt dostawy liczymy pod konkretny adres. Napisz, dokąd ma jechać, a policzymy.\n\nROZSIEW I DOBÓR DAWKI\nDoradzimy, jaką dawkę wysiać, w jakim terminie i jakim sprzętem, żeby zabieg miał sens przy Twoim odczynie i rodzaju gleby.\n\nDOSTĘPNOŚĆ\n• Cały rok\n\nPOLICZYMY ZA DARMO, ILE WAPNA POTRZEBUJESZ\nPodajesz pH gleby, jej kategorię i areał — kalkulator wapnowania wylicza dawkę na hektar i liczbę ton do zamówienia. Za darmo, bez rejestracji, wynik od ręki. Kod QR do kalkulatora jest na ostatnim zdjęciu w galerii.\nWolisz, żeby ktoś to policzył za Ciebie? Napisz, jaki masz areał i wynik badania gleby — odeślemy wyliczenie. Doradzimy też, jak rozsiać: jaka dawka na przejazd, jaki termin i na co uważać przy Twoim sprzęcie.\n\nDOKUMENTY POD DOFINANSOWANIE\nDo każdej dostawy wystawiamy fakturę VAT z określeniem typu i parametrów wapna oraz atest partii — czyli komplet, którego fundusz wymaga od SPRZEDAWCY. Opinię o odczynie Twojej gleby wydaje właściwa miejscowo Okręgowa Stacja Chemiczno-Rolnicza, o nią występujesz sam.\nNabory prowadzą fundusze ochrony środowiska i w każdym województwie wyglądają inaczej — część jest zamknięta z powodu wyczerpania środków, część trwa. Sprawdź stan w swoim funduszu przed zakupem. Dokumenty przygotujemy niezależnie od tego, kiedy złożysz wniosek.\n\nPOZOSTAŁA OFERTA\n• Wapno tlenkowe: Agrobielik 70, Agrobielik 90 (0–3 i 2–8 mm), Oxyfertil 90, tlenkowe z magnezem\n• Wapno węglanowe sypkie i granulowane, także z magnezem — odmiany 04 i 05\n• Kreda nawozowa sypka i granulowana, kreda pastewna\n• Dolomit, mieszanka tlenkowo-węglanowa\n• Wapno hydratyzowane Bielik, wapno palone mielone wysokoreaktywne\nPytaj o dostępność i wycenę pod numerem z ogłoszenia.\n\nDLACZEGO AGRIA\n• Firma rodzinna od 1989 roku — 37 lat na rynku surowców wapniowych.\n• Atest OSChR do każdej partii. Parametry zgodne z kartami producentów, bez niespodzianek przy rozładunku.\n• Własne magazyny i dostawy własną flotą — nie pośredniczymy w cudzym towarze.\n• Ta sama jakość przy każdym kolejnym zamówieniu, nie partia w partię inna.\n\nMASZ PYTANIE? DZWOŃ ALBO NAPISZ\nNie wiesz, które wapno wybrać i ile go potrzeba? Zadzwoń albo napisz wiadomość przez OLX — chętnie doradzimy, jaki rodzaj i jaka dawka będą właściwe dla Twojej gleby, policzymy potrzebną ilość i koszt dostawy pod Twój adres.\n\nDOKUMENTY\nAtest OSChR do każdej partii. Karty produktowe i świadectwa jakości dostępne do pobrania oraz dostarczane przy dostawie.\n\nAGRIA Sp. z o.o. — surowce wapniowe od 1989 r.\nStabilne parametry. Pewne dostawy.",
+  "category_id": 4368,
+  "advertiser_type": "business",
+  "external_id": "agria-weglanowe-odmiana-04-135303",
+  "contact": {
+   "name": "AGRIA Sp. z o.o.",
+   "phone": "664 393 062"
+  },
+  "location": {
+   "city_id": 72973
+  },
+  "images": [
+   {
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+   },
+   {
+    "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
+   }
+  ],
+  "price": {
+   "value": 57,
+   "currency": "PLN",
+   "negotiable": true
+  },
+  "attributes": [
+   {
+    "code": "state",
+    "value": "new"
+   }
+  ],
+  "_meta": {
+   "karta": "weglanowe-odmiana-04",
+   "sku": "AGR-006",
+   "siatka": "weglanowe-odmiana-04",
+   "city": "Słomczyn",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -8679,7 +8675,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
@@ -8796,7 +8792,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
@@ -8854,7 +8850,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -8863,7 +8859,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
@@ -8912,7 +8908,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
@@ -8930,7 +8926,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
@@ -9026,7 +9022,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-pastewna-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-pastewna-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-pastewna.jpg"
@@ -9077,11 +9073,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 53591
+   "city_id": 6303
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04.jpg"
@@ -9120,7 +9116,7 @@
    "karta": "weglanowe-magnez-odmiana-04",
    "sku": "AGR-009",
    "siatka": "weglanowe-magnez-odmiana-04",
-   "city": "Przysucha",
+   "city": "Gorlice",
    "intencja": "rolnictwo — odkwaszanie z uzupełnieniem magnezu, duże areały"
   }
  },
@@ -9135,11 +9131,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 115571
+   "city_id": 14417
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04-b.jpg"
@@ -9157,7 +9153,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-z-magnezem.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-magnez-odmiana-04.jpg"
@@ -9178,7 +9174,7 @@
    "karta": "weglanowe-magnez-odmiana-04",
    "sku": "AGR-009",
    "siatka": "weglanowe-magnez-odmiana-04",
-   "city": "Iłża",
+   "city": "Przemyśl",
    "intencja": "rolnictwo — odkwaszanie z uzupełnieniem magnezu, duże areały"
   }
  },
@@ -9197,7 +9193,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04.jpg"
@@ -9255,7 +9251,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04-b.jpg"
@@ -9273,7 +9269,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-z-magnezem.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-magnez-odmiana-04.jpg"
@@ -9309,7 +9305,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 133761
+   "city_id": 3971
   },
   "images": [
    {
@@ -9352,7 +9348,7 @@
    "karta": "weglanowe-magnez-odmiana-04",
    "sku": "AGR-009",
    "siatka": "weglanowe-magnez-odmiana-04",
-   "city": "Gózd",
+   "city": "Bukowno",
    "intencja": "rolnictwo — odkwaszanie z uzupełnieniem magnezu, duże areały"
   }
  },
@@ -9429,7 +9425,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04.jpg"
@@ -9447,7 +9443,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-z-magnezem.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-magnez-odmiana-04.jpg"
@@ -9487,7 +9483,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04-b.jpg"
@@ -9603,7 +9599,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04-b.jpg"
@@ -9621,7 +9617,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-z-magnezem.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-magnez-odmiana-04.jpg"
@@ -9657,11 +9653,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 15773
+   "city_id": 130219
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04.jpg"
@@ -9670,7 +9666,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-magnez-odmiana-04.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-magnez-odmiana-04.jpg"
@@ -9700,7 +9696,7 @@
    "karta": "weglanowe-magnez-odmiana-04",
    "sku": "AGR-009",
    "siatka": "weglanowe-magnez-odmiana-04",
-   "city": "Słomniki",
+   "city": "Białobrzegi",
    "intencja": "rolnictwo — odkwaszanie z uzupełnieniem magnezu, duże areały"
   }
  },
@@ -9719,7 +9715,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-04-b.jpg"
@@ -9728,7 +9724,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-magnez-odmiana-04.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-magnez-odmiana-04.jpg"
@@ -9773,11 +9769,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 115571
+   "city_id": 90707
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05.jpg"
@@ -9786,7 +9782,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-magnez-odmiana-05.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-magnez-odmiana-05.jpg"
@@ -9816,7 +9812,7 @@
    "karta": "weglanowe-magnez-odmiana-05",
    "sku": "AGR-010",
    "siatka": "weglanowe-magnez-odmiana-05",
-   "city": "Iłża",
+   "city": "Markowa",
    "intencja": "rolnictwo — najniższy koszt tony przy uzupełnieniu magnezu"
   }
  },
@@ -9831,7 +9827,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 53591
+   "city_id": 113819
   },
   "images": [
    {
@@ -9874,7 +9870,7 @@
    "karta": "weglanowe-magnez-odmiana-05",
    "sku": "AGR-010",
    "siatka": "weglanowe-magnez-odmiana-05",
-   "city": "Przysucha",
+   "city": "Dobczyce",
    "intencja": "rolnictwo — najniższy koszt tony przy uzupełnieniu magnezu"
   }
  },
@@ -9947,11 +9943,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 133761
+   "city_id": 72113
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05-b.jpg"
@@ -9990,7 +9986,7 @@
    "karta": "weglanowe-magnez-odmiana-05",
    "sku": "AGR-010",
    "siatka": "weglanowe-magnez-odmiana-05",
-   "city": "Gózd",
+   "city": "Ropa",
    "intencja": "rolnictwo — najniższy koszt tony przy uzupełnieniu magnezu"
   }
  },
@@ -10009,7 +10005,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05.jpg"
@@ -10027,7 +10023,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-z-magnezem.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-magnez-odmiana-05.jpg"
@@ -10067,7 +10063,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05-b.jpg"
@@ -10076,7 +10072,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-magnez-odmiana-05.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-magnez-odmiana-05.jpg"
@@ -10121,7 +10117,7 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 27357
+   "city_id": 132857
   },
   "images": [
    {
@@ -10164,7 +10160,7 @@
    "karta": "weglanowe-magnez-odmiana-05",
    "sku": "AGR-010",
    "siatka": "weglanowe-magnez-odmiana-05",
-   "city": "Gorzyce",
+   "city": "Frysztak",
    "intencja": "rolnictwo — najniższy koszt tony przy uzupełnieniu magnezu"
   }
  },
@@ -10183,7 +10179,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05-b.jpg"
@@ -10237,11 +10233,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 93879
+   "city_id": 88791
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -10250,7 +10246,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
@@ -10280,7 +10276,7 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Radgoszcz",
+   "city": "Krzeszowice",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -10357,7 +10353,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -10415,7 +10411,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -10525,7 +10521,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-nawozowe-plac-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-agrobielik-70-gleba.jpg"
@@ -10579,11 +10575,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 93127
+   "city_id": 93719
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -10601,7 +10597,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"
@@ -10622,7 +10618,7 @@
    "karta": "weglanowe-odmiana-04",
    "sku": "AGR-006",
    "siatka": "weglanowe-odmiana-04",
-   "city": "Połaniec",
+   "city": "Przeworsk",
    "intencja": "rolnictwo — najniższy koszt odkwaszania na hektar"
   }
  },
@@ -10637,11 +10633,11 @@
    "phone": "664 393 062"
   },
   "location": {
-   "city_id": 24485
+   "city_id": 142641
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-hds-bigbagi.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-kreda-granulowana-plac-bigbagi-budynek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-kreda-nawozowa-granulowana.jpg"
@@ -10671,7 +10667,7 @@
    "karta": "kreda-nawozowa-granulowana",
    "sku": "AGR-013",
    "siatka": "kreda-nawozowa-granulowana",
-   "city": "Bochnia",
+   "city": "Sadkowice",
    "intencja": "rolnictwo — mniejsze gospodarstwa, wysiew rozsiewaczem"
   }
  },
@@ -10690,7 +10686,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05.jpg"
@@ -10699,7 +10695,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-magnez-odmiana-05.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-magnez-odmiana-05.jpg"
@@ -10748,7 +10744,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05-b.jpg"
@@ -10766,7 +10762,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-z-magnezem.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-magnez-odmiana-05.jpg"
@@ -10806,7 +10802,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05.jpg"
@@ -10824,7 +10820,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-z-magnezem.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-magnez-odmiana-05.jpg"
@@ -10864,7 +10860,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-magnezowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-magnez-odmiana-05-b.jpg"
@@ -10980,7 +10976,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-hala-pryzma.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -11038,7 +11034,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
@@ -11047,7 +11043,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
@@ -11096,7 +11092,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-wywrotka-zsyp.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04.jpg"
@@ -11105,7 +11101,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-studio-weglanowe-odmiana-04.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-wywrotka-zsyp.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-karta-weglanowe-odmiana-04.jpg"
@@ -11154,7 +11150,7 @@
   },
   "images": [
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-halda-pole.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-mini4-wapno-weglanowe-zaladunek.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v3/agria-mini-weglanowe-odmiana-04-b.jpg"
@@ -11172,7 +11168,7 @@
     "url": "https://auratest.pl/agria-olx/v2/agria-weglanowe-bez-magnezu.jpg"
    },
    {
-    "url": "https://auratest.pl/agria-olx/v4/agria-foto-zaladunek.jpg"
+    "url": "https://auratest.pl/agria-olx/v4/agria-foto-halda-pole.jpg"
    },
    {
     "url": "https://auratest.pl/agria-olx/v2/agria-info-weglanowe-odmiana-04.jpg"

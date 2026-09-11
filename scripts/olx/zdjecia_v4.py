@@ -17,6 +17,9 @@ Galeria (limit kategorii 4368: 8 zdjęć):
 Wariant A/B = ten sam, co dotychczasowa miniatura (-b.jpg → B). Zdjęcie z ciągnikiem (hero) wypada,
 big bag z napisem Agrobielik zostaje tylko przy Agrobielikach (etykieta innego towaru).
 
+⚠ Wykonane 11.09 (T-137). `galeria()` zakłada wejście v3 — na dzisiejszym ładunku (v4) dubluje
+zdjęcia, NIE uruchamiać ponownie. Kolejne wersje (fronty_v5.py) używają stąd tylko backup/cli/wyslij.
+
     zdjecia_v4.py --dry-run          plan per ogłoszenie, zero ruchu do OLX
     zdjecia_v4.py --backup           zrzut GET wszystkich 200 do data/backups/ (przed podmianą)
     zdjecia_v4.py --ids plik.txt     podmiana tylko wskazanych advert_id (pilot)
@@ -84,32 +87,40 @@ def plan():
     return payload, reg, out
 
 
-def main():
-    args = sys.argv[1:]
-    payload, reg, zadania = plan()
+def backup(zadania, etykieta="v4"):
+    stan = {}
+    for eid, v, _ in zadania:
+        c, r = call("GET", f"/partner/adverts/{v['advert_id']}")
+        if c != 200:
+            sys.exit(f"GET {v['advert_id']} HTTP {c} — backup niepełny, przerywam")
+        stan[str(v["advert_id"])] = r["data"]
+    plik = os.path.join(D, "backups", f"olx-zdjecia-{etykieta}-przed-{time.strftime('%Y-%m-%d-%H%M')}.json")
+    json.dump(stan, open(plik, "w", encoding="utf-8"), ensure_ascii=False)
+    print(f"backup: {len(stan)} ogłoszeń → {os.path.relpath(plik)}")
+
+
+def cli(args, payload, reg, zadania, etykieta="v4", doc=__doc__):
+    """Wspólne --dry-run / --backup / --ids / --all dla kolejnych wersji galerii."""
     if "--dry-run" in args:
         for eid, v, g in zadania:
             print(f"{v['advert_id']} {v['wariant']:<30} {v['city']:<20} " +
                   " · ".join(u.rsplit('/', 1)[-1].replace('.jpg', '') for u in g))
         return print(f"ogłoszeń: {len(zadania)} — nic nie wysłane (--dry-run)")
-
     if "--backup" in args:
-        stan = {}
-        for eid, v, _ in zadania:
-            c, r = call("GET", f"/partner/adverts/{v['advert_id']}")
-            if c != 200:
-                sys.exit(f"GET {v['advert_id']} HTTP {c} — backup niepełny, przerywam")
-            stan[str(v["advert_id"])] = r["data"]
-        plik = os.path.join(D, "backups", f"olx-zdjecia-v4-przed-{time.strftime('%Y-%m-%d-%H%M')}.json")
-        json.dump(stan, open(plik, "w", encoding="utf-8"), ensure_ascii=False)
-        return print(f"backup: {len(stan)} ogłoszeń → {os.path.relpath(plik)}")
-
+        return backup(zadania, etykieta)
     if "--ids" in args:
         chce = {l.strip() for l in open(args[args.index("--ids") + 1]) if l.strip()}
         zadania = [z for z in zadania if str(z[1]["advert_id"]) in chce]
     elif "--all" not in args:
-        sys.exit(__doc__)
+        sys.exit(doc)
+    wyslij(payload, reg, zadania, etykieta)
 
+
+def main():
+    cli(sys.argv[1:], *plan())
+
+
+def wyslij(payload, reg, zadania, etykieta="v4"):
     by_eid = {it["external_id"]: it for it in payload}
     ok = 0
     print(f"podmieniam zdjęcia w {len(zadania)} ogłoszeniach… (bezpiecznik co 25)")
@@ -139,13 +150,13 @@ def main():
             zle = moderation_check(reg)
             if zle:
                 opis = "\n".join(f"{a} {s} — {t}" for a, s, t in zle)
-                notify(f"OLX AGRIA — STOP przy podmianie zdjęć v4 po {ok}:\n{opis}")
+                notify(f"OLX AGRIA — STOP przy podmianie zdjęć {etykieta} po {ok}:\n{opis}")
                 sys.exit(f"STOP — moderacja:\n{opis}")
             print(f"  … bezpiecznik: {ok} podmienionych, zero odrzutów")
     zle = moderation_check(reg) if ok else []
     if zle:
         opis = "\n".join(f"{a} {s} — {t}" for a, s, t in zle)
-        notify(f"OLX AGRIA — STOP na koniec podmiany zdjęć v4 ({ok}):\n{opis}")
+        notify(f"OLX AGRIA — STOP na koniec podmiany zdjęć {etykieta} ({ok}):\n{opis}")
         sys.exit(f"STOP — moderacja:\n{opis}")
     print(f"podmienione: {ok}/{len(zadania)}, zero odrzutów")
 

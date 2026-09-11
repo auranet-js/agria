@@ -18,22 +18,22 @@
  "agria-agrobielik-90-15459": {
   "advert_id": 1092688720,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Bochnia",
+  "city": "Szczurowa",
   "sku": "AGR-002",
-  "city_id": 24485,
+  "city_id": 144309,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Siedlce",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Bochnia",
+  "przelozone": "2026-09-11"
  },
  "agria-oxyfertil-90-7509": {
   "advert_id": 1092688763,
   "title": "Wapno nawozowe tlenkowe 90% CaO Oxyfertil w big bag — dostawa od 1 tony, bez minimum całopojazdowego, gleby średnie i ciężkie, atest OSChR, AGRIA",
-  "city": "Skała",
+  "city": "Szymbark",
   "sku": "AGR-003",
-  "city_id": 142911,
+  "city_id": 38067,
   "wariant": "oxyfertil-90",
-  "poprzednie_miasto": "Kalisz",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Skała",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-granulowane-13573": {
   "advert_id": 1092688803,
@@ -82,12 +82,12 @@
  "agria-agrobielik-90-10609": {
   "advert_id": 1092690340,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Stalowa Wola",
+  "city": "Gawłów",
   "sku": "AGR-002",
-  "city_id": 55111,
+  "city_id": 5627,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Łódź",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Stalowa Wola",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-granulowane-17871": {
   "advert_id": 1092690376,
@@ -102,10 +102,12 @@
  "agria-weglanowe-odmiana-04-115571": {
   "advert_id": 1092690408,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Iłża",
+  "city": "Borzęcin",
   "sku": "AGR-006",
-  "city_id": 115571,
-  "wariant": "weglanowe-odmiana-04"
+  "city_id": 3603,
+  "wariant": "weglanowe-odmiana-04",
+  "poprzednie_miasto": "Iłża",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-odmiana-04-13573": {
   "advert_id": 1092690440,
@@ -118,10 +120,12 @@
  "agria-weglanowe-magnez-odmiana-04-53591": {
   "advert_id": 1092690495,
   "title": "Wapno nawozowe węglanowo-magnezowe odmiana 04 luzem — magnez i odkwaszanie w jednym zabiegu, gleby lekkie, dostawa 24 t, atest OSChR, AGRIA",
-  "city": "Przysucha",
+  "city": "Gorlice",
   "sku": "AGR-009",
-  "city_id": 53591,
-  "wariant": "weglanowe-magnez-odmiana-04"
+  "city_id": 6303,
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "poprzednie_miasto": "Przysucha",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-04-13573": {
   "advert_id": 1092690527,
@@ -196,12 +200,12 @@
  "agria-agrobielik-70-staw-14721": {
   "advert_id": 1092691808,
   "title": "Wapno nawozowe do stawu — Agrobielik 70, tlenkowe palone 70% CaO, odkażanie dna i podniesienie pH wody, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Gołcza",
+  "city": "Morawica",
   "sku": "AGR-001",
-  "city_id": 114999,
+  "city_id": 120761,
   "wariant": "agrobielik-70-staw",
-  "poprzednie_miasto": "Radzyń Podlaski",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Gołcza",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-staw-3231": {
   "advert_id": 1092691826,
@@ -214,10 +218,12 @@
  "agria-agrobielik-70-staw-8959": {
   "advert_id": 1092691883,
   "title": "Wapno nawozowe do stawu — Agrobielik 70, tlenkowe palone 70% CaO, odkażanie dna i podniesienie pH wody, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Kraków",
+  "city": "Moskorzew",
   "sku": "AGR-001",
-  "city_id": 8959,
-  "wariant": "agrobielik-70-staw"
+  "city_id": 32729,
+  "wariant": "agrobielik-70-staw",
+  "poprzednie_miasto": "Kraków",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-staw-33369": {
   "advert_id": 1092691934,
@@ -254,12 +260,12 @@
  "agria-agrobielik-70-staw-70249": {
   "advert_id": 1092692060,
   "title": "Wapno nawozowe do stawu — Agrobielik 70, tlenkowe palone 70% CaO, odkażanie dna i podniesienie pH wody, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Lisia Góra",
+  "city": "Leżajsk",
   "sku": "AGR-001",
-  "city_id": 67265,
+  "city_id": 89213,
   "wariant": "agrobielik-70-staw",
-  "poprzednie_miasto": "Ostrów Wielkopolski",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Lisia Góra",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-staw-42791": {
   "advert_id": 1092692093,
@@ -272,12 +278,12 @@
  "agria-agrobielik-70-staw-8523": {
   "advert_id": 1092692126,
   "title": "Wapno nawozowe do stawu — Agrobielik 70, tlenkowe palone 70% CaO, odkażanie dna i podniesienie pH wody, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Szczucin",
+  "city": "Dukla",
   "sku": "AGR-001",
-  "city_id": 37937,
+  "city_id": 26427,
   "wariant": "agrobielik-70-staw",
-  "poprzednie_miasto": "Konin",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Szczucin",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-17871": {
   "advert_id": 1092692159,
@@ -292,22 +298,22 @@
  "agria-agrobielik-70-gleba-15459": {
   "advert_id": 1092692186,
   "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tyg., atest OSChR, luzem i big bag, AGRIA",
-  "city": "Ropczyce",
+  "city": "Pilzno",
   "sku": "AGR-001",
-  "city_id": 94147,
+  "city_id": 13553,
   "wariant": "agrobielik-70-gleba",
-  "poprzednie_miasto": "Siedlce",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Ropczyce",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-102207": {
   "advert_id": 1092692225,
   "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tyg., atest OSChR, luzem i big bag, AGRIA",
-  "city": "Żabno",
+  "city": "Rusinów",
   "sku": "AGR-001",
-  "city_id": 41723,
+  "city_id": 36081,
   "wariant": "agrobielik-70-gleba",
-  "poprzednie_miasto": "Mława",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Żabno",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-13663": {
   "advert_id": 1092692262,
@@ -382,20 +388,22 @@
  "agria-agrobielik-70-gleba-8959": {
   "advert_id": 1092693553,
   "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tyg., atest OSChR, luzem i big bag, AGRIA",
-  "city": "Kraków",
+  "city": "Białobrzegi",
   "sku": "AGR-001",
-  "city_id": 8959,
-  "wariant": "agrobielik-70-gleba"
+  "city_id": 2151,
+  "wariant": "agrobielik-70-gleba",
+  "poprzednie_miasto": "Kraków",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-14721": {
   "advert_id": 1092693582,
   "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tyg., atest OSChR, luzem i big bag, AGRIA",
-  "city": "Mszana Dolna",
+  "city": "Nowe Miasto nad Pilicą",
   "sku": "AGR-001",
-  "city_id": 139101,
+  "city_id": 91667,
   "wariant": "agrobielik-70-gleba",
-  "poprzednie_miasto": "Radzyń Podlaski",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Mszana Dolna",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-15241": {
   "advert_id": 1092693609,
@@ -440,10 +448,12 @@
  "agria-agrobielik-70-gleba-9359": {
   "advert_id": 1092693774,
   "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tyg., atest OSChR, luzem i big bag, AGRIA",
-  "city": "Krosno",
+  "city": "Niedzieliska",
   "sku": "AGR-001",
-  "city_id": 9359,
-  "wariant": "agrobielik-70-gleba"
+  "city_id": 102583,
+  "wariant": "agrobielik-70-gleba",
+  "poprzednie_miasto": "Krosno",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-23239": {
   "advert_id": 1092693802,
@@ -498,12 +508,12 @@
  "agria-agrobielik-70-gleba-19701": {
   "advert_id": 1092693987,
   "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tyg., atest OSChR, luzem i big bag, AGRIA",
-  "city": "Lisia Góra",
+  "city": "Przecław",
   "sku": "AGR-001",
-  "city_id": 67265,
+  "city_id": 93677,
   "wariant": "agrobielik-70-gleba",
-  "poprzednie_miasto": "Wrocław",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Lisia Góra",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-107529": {
   "advert_id": 1092694020,
@@ -516,12 +526,12 @@
  "agria-agrobielik-70-gleba-8523": {
   "advert_id": 1092694054,
   "title": "Wapno nawozowe do odkwaszania gleb średnich i ciężkich — Agrobielik 70, tlenkowe palone 70% CaO, efekt w 2-4 tyg., atest OSChR, luzem i big bag, AGRIA",
-  "city": "Szczucin",
+  "city": "Policzna",
   "sku": "AGR-001",
-  "city_id": 37937,
+  "city_id": 141029,
   "wariant": "agrobielik-70-gleba",
-  "poprzednie_miasto": "Konin",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Szczucin",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-70-gleba-56407": {
   "advert_id": 1092694082,
@@ -552,22 +562,22 @@
  "agria-agrobielik-90-102207": {
   "advert_id": 1092694270,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Szczucin",
+  "city": "Pełkinie",
   "sku": "AGR-002",
-  "city_id": 37937,
+  "city_id": 140515,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Mława",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Szczucin",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-90-14721": {
   "advert_id": 1092694293,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Mszana Dolna",
+  "city": "Żyraków",
   "sku": "AGR-002",
-  "city_id": 139101,
+  "city_id": 148385,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Radzyń Podlaski",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Mszana Dolna",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-90-17369": {
   "advert_id": 1092694318,
@@ -604,10 +614,12 @@
  "agria-agrobielik-90-9359": {
   "advert_id": 1092694448,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Krosno",
+  "city": "Osiek",
   "sku": "AGR-002",
-  "city_id": 9359,
-  "wariant": "agrobielik-90"
+  "city_id": 70145,
+  "wariant": "agrobielik-90",
+  "poprzednie_miasto": "Krosno",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-90-32399": {
   "advert_id": 1092694486,
@@ -636,12 +648,12 @@
  "agria-agrobielik-90-19701": {
   "advert_id": 1092694595,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Lisia Góra",
+  "city": "Niedomice",
   "sku": "AGR-002",
-  "city_id": 67265,
+  "city_id": 102577,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Wrocław",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Lisia Góra",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-90-23239": {
   "advert_id": 1092694623,
@@ -682,32 +694,32 @@
  "agria-agrobielik-90-13983": {
   "advert_id": 1092694731,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Żabno",
+  "city": "Szydłowiec",
   "sku": "AGR-002",
-  "city_id": 41723,
+  "city_id": 107683,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Poznań",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Żabno",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-90-135303": {
   "advert_id": 1092694760,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Połaniec",
+  "city": "Kozienice",
   "sku": "AGR-002",
-  "city_id": 93127,
+  "city_id": 8907,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Kępno",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Połaniec",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-90-9775": {
   "advert_id": 1092694793,
   "title": "Wapno nawozowe tlenkowe 90% CaO — Agrobielik 90 pod zboża i rzepak, frakcje 0-3 i 2-8 mm, mniejsza dawka na ha, atest OSChR, luzem i big bag, AGRIA",
-  "city": "Radgoszcz",
+  "city": "Jastkowice",
   "sku": "AGR-002",
-  "city_id": 93879,
+  "city_id": 28281,
   "wariant": "agrobielik-90",
-  "poprzednie_miasto": "Legnica",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Radgoszcz",
+  "przelozone": "2026-09-11"
  },
  "agria-agrobielik-90-107529": {
   "advert_id": 1092694838,
@@ -792,12 +804,12 @@
  "agria-weglanowe-granulowane-15459": {
   "advert_id": 1092695342,
   "title": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Chmielnik",
+  "city": "Ciepielów",
   "sku": "AGR-008",
-  "city_id": 79453,
+  "city_id": 43601,
   "wariant": "weglanowe-granulowane",
-  "poprzednie_miasto": "Siedlce",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Chmielnik",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-granulowane-102207": {
   "advert_id": 1092695373,
@@ -832,12 +844,12 @@
  "agria-weglanowe-granulowane-10609": {
   "advert_id": 1092695461,
   "title": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Czarna",
+  "city": "Charsznica",
   "sku": "AGR-008",
-  "city_id": 22837,
+  "city_id": 43351,
   "wariant": "weglanowe-granulowane",
-  "poprzednie_miasto": "Łódź",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Czarna",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-granulowane-15241": {
   "advert_id": 1092695490,
@@ -890,10 +902,12 @@
  "agria-weglanowe-granulowane-9359": {
   "advert_id": 1092695665,
   "title": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Krosno",
+  "city": "Sobków",
   "sku": "AGR-008",
-  "city_id": 9359,
-  "wariant": "weglanowe-granulowane"
+  "city_id": 54953,
+  "wariant": "weglanowe-granulowane",
+  "poprzednie_miasto": "Krosno",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-granulowane-17369": {
   "advert_id": 1092695689,
@@ -922,10 +936,12 @@
  "agria-weglanowe-granulowane-8959": {
   "advert_id": 1092695779,
   "title": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Kraków",
+  "city": "Domostawa",
   "sku": "AGR-008",
-  "city_id": 8959,
-  "wariant": "weglanowe-granulowane"
+  "city_id": 5213,
+  "wariant": "weglanowe-granulowane",
+  "poprzednie_miasto": "Kraków",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-granulowane-10603": {
   "advert_id": 1092695809,
@@ -958,32 +974,32 @@
  "agria-weglanowe-magnez-granulowane-15459": {
   "advert_id": 1092695988,
   "title": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
-  "city": "Chmielnik",
+  "city": "Oświęcim",
   "sku": "AGR-011",
-  "city_id": 79453,
+  "city_id": 13205,
   "wariant": "weglanowe-magnez-granulowane",
-  "poprzednie_miasto": "Siedlce",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Chmielnik",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-granulowane-7509": {
   "advert_id": 1092696020,
   "title": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
-  "city": "Połaniec",
+  "city": "Mnin",
   "sku": "AGR-011",
-  "city_id": 93127,
+  "city_id": 120651,
   "wariant": "weglanowe-magnez-granulowane",
-  "poprzednie_miasto": "Kalisz",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Połaniec",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-granulowane-14721": {
   "advert_id": 1092696045,
   "title": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
-  "city": "Lubień",
+  "city": "Pruchnik",
   "sku": "AGR-011",
-  "city_id": 10087,
+  "city_id": 35349,
   "wariant": "weglanowe-magnez-granulowane",
-  "poprzednie_miasto": "Radzyń Podlaski",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Lubień",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-granulowane-10119": {
   "advert_id": 1092696082,
@@ -996,12 +1012,12 @@
  "agria-weglanowe-magnez-granulowane-10609": {
   "advert_id": 1092696116,
   "title": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
-  "city": "Czarna",
+  "city": "Polanów",
   "sku": "AGR-011",
-  "city_id": 22837,
+  "city_id": 52833,
   "wariant": "weglanowe-magnez-granulowane",
-  "poprzednie_miasto": "Łódź",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Czarna",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-granulowane-13573": {
   "advert_id": 1092696146,
@@ -1014,12 +1030,12 @@
  "agria-weglanowe-magnez-granulowane-10603": {
   "advert_id": 1092696176,
   "title": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
-  "city": "Gołcza",
+  "city": "Jeżowe",
   "sku": "AGR-011",
-  "city_id": 114999,
+  "city_id": 86489,
   "wariant": "weglanowe-magnez-granulowane",
-  "poprzednie_miasto": "Łowicz",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Gołcza",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-granulowane-71757": {
   "advert_id": 1092696210,
@@ -1032,12 +1048,12 @@
  "agria-weglanowe-magnez-granulowane-70249": {
   "advert_id": 1092696240,
   "title": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
-  "city": "Lisia Góra",
+  "city": "Kozłów",
   "sku": "AGR-011",
-  "city_id": 67265,
+  "city_id": 30031,
   "wariant": "weglanowe-magnez-granulowane",
-  "poprzednie_miasto": "Ostrów Wielkopolski",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Lisia Góra",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-granulowane-8523": {
   "advert_id": 1092696271,
@@ -1060,12 +1076,12 @@
  "agria-weglanowe-magnez-granulowane-135303": {
   "advert_id": 1092696339,
   "title": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
-  "city": "Bochnia",
+  "city": "Wieliczka",
   "sku": "AGR-011",
-  "city_id": 24485,
+  "city_id": 128097,
   "wariant": "weglanowe-magnez-granulowane",
-  "poprzednie_miasto": "Kępno",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Bochnia",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-granulowane-4271": {
   "advert_id": 1092696372,
@@ -1094,12 +1110,12 @@
  "agria-kreda-nawozowa-sypka-15459": {
   "advert_id": 1092696568,
   "title": "Kreda nawozowa luzem pod zboża — wapno nawozowe węglanowe sypkie, łagodne odkwaszanie bez ryzyka przewapnowania, dostawa 24 t, atest OSChR, AGRIA",
-  "city": "Niepołomice",
+  "city": "Wolbrom",
   "sku": "AGR-014",
-  "city_id": 121091,
+  "city_id": 19581,
   "wariant": "kreda-nawozowa-sypka",
-  "poprzednie_miasto": "Siedlce",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Niepołomice",
+  "przelozone": "2026-09-11"
  },
  "agria-kreda-nawozowa-sypka-92951": {
   "advert_id": 1092696604,
@@ -1148,10 +1164,12 @@
  "agria-kreda-nawozowa-sypka-9359": {
   "advert_id": 1092696775,
   "title": "Kreda nawozowa luzem pod zboża — wapno nawozowe węglanowe sypkie, łagodne odkwaszanie bez ryzyka przewapnowania, dostawa 24 t, atest OSChR, AGRIA",
-  "city": "Krosno",
+  "city": "Tudorów",
   "sku": "AGR-014",
-  "city_id": 9359,
-  "wariant": "kreda-nawozowa-sypka"
+  "city_id": 108189,
+  "wariant": "kreda-nawozowa-sypka",
+  "poprzednie_miasto": "Krosno",
+  "przelozone": "2026-09-11"
  },
  "agria-kreda-nawozowa-sypka-4765": {
   "advert_id": 1092696801,
@@ -1164,12 +1182,12 @@
  "agria-kreda-nawozowa-sypka-14721": {
   "advert_id": 1092696872,
   "title": "Kreda nawozowa luzem pod zboża — wapno nawozowe węglanowe sypkie, łagodne odkwaszanie bez ryzyka przewapnowania, dostawa 24 t, atest OSChR, AGRIA",
-  "city": "Stalowa Wola",
+  "city": "Garwolin",
   "sku": "AGR-014",
-  "city_id": 55111,
+  "city_id": 23883,
   "wariant": "kreda-nawozowa-sypka",
-  "poprzednie_miasto": "Radzyń Podlaski",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Stalowa Wola",
+  "przelozone": "2026-09-11"
  },
  "agria-kreda-nawozowa-sypka-7127": {
   "advert_id": 1092696914,
@@ -1198,22 +1216,22 @@
  "agria-kreda-nawozowa-granulowana-102207": {
   "advert_id": 1092697110,
   "title": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Radgoszcz",
+  "city": "Kleczanów",
   "sku": "AGR-013",
-  "city_id": 93879,
+  "city_id": 47209,
   "wariant": "kreda-nawozowa-granulowana",
-  "poprzednie_miasto": "Mława",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Radgoszcz",
+  "przelozone": "2026-09-11"
  },
  "agria-kreda-nawozowa-granulowana-13147": {
   "advert_id": 1092697153,
   "title": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Szczucin",
+  "city": "Munina",
   "sku": "AGR-013",
-  "city_id": 37937,
+  "city_id": 139111,
   "wariant": "kreda-nawozowa-granulowana",
-  "poprzednie_miasto": "Ostrołęka",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Szczucin",
+  "przelozone": "2026-09-11"
  },
  "agria-kreda-nawozowa-granulowana-92951": {
   "advert_id": 1092697188,
@@ -1244,10 +1262,12 @@
  "agria-kreda-nawozowa-granulowana-9359": {
   "advert_id": 1092697275,
   "title": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Krosno",
+  "city": "Końskie",
   "sku": "AGR-013",
-  "city_id": 9359,
-  "wariant": "kreda-nawozowa-granulowana"
+  "city_id": 65789,
+  "wariant": "kreda-nawozowa-granulowana",
+  "poprzednie_miasto": "Krosno",
+  "przelozone": "2026-09-11"
  },
  "agria-kreda-nawozowa-granulowana-23239": {
   "advert_id": 1092697303,
@@ -1260,12 +1280,12 @@
  "agria-kreda-nawozowa-granulowana-7509": {
   "advert_id": 1092697347,
   "title": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Połaniec",
+  "city": "Włoszczowa",
   "sku": "AGR-013",
-  "city_id": 93127,
+  "city_id": 76589,
   "wariant": "kreda-nawozowa-granulowana",
-  "poprzednie_miasto": "Kalisz",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Połaniec",
+  "przelozone": "2026-09-11"
  },
  "agria-kreda-nawozowa-granulowana-53689": {
   "advert_id": 1092697392,
@@ -1318,10 +1338,12 @@
  "agria-weglanowe-odmiana-04-53591": {
   "advert_id": 1092697697,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Przysucha",
+  "city": "Lubaczów",
   "sku": "AGR-006",
-  "city_id": 53591,
-  "wariant": "weglanowe-odmiana-04"
+  "city_id": 31097,
+  "wariant": "weglanowe-odmiana-04",
+  "poprzednie_miasto": "Przysucha",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-odmiana-04-14673": {
   "advert_id": 1092697729,
@@ -1334,21 +1356,23 @@
  "agria-weglanowe-odmiana-04-2151": {
   "advert_id": 1092697758,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Alwernia",
+  "city": "Podegrodzie",
   "sku": "AGR-006",
   "uwaga": "miasto zmienione PUT-em 28.08 (test T-105); external_id i klucz trzymają stare city_id 2151",
-  "city_id": 67,
+  "city_id": 104245,
   "wariant": "weglanowe-odmiana-04",
-  "poprzednie_miasto": "Izbicko",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Alwernia",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-odmiana-04-133761": {
   "advert_id": 1092697794,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Gózd",
+  "city": "Nędzówka",
   "sku": "AGR-006",
-  "city_id": 133761,
-  "wariant": "weglanowe-odmiana-04"
+  "city_id": 50995,
+  "wariant": "weglanowe-odmiana-04",
+  "poprzednie_miasto": "Gózd",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-odmiana-04-32399": {
   "advert_id": 1092697829,
@@ -1369,20 +1393,22 @@
  "agria-weglanowe-odmiana-04-8959": {
   "advert_id": 1092697898,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Kraków",
+  "city": "Kostrzyn",
   "sku": "AGR-006",
-  "city_id": 8959,
-  "wariant": "weglanowe-odmiana-04"
+  "city_id": 8675,
+  "wariant": "weglanowe-odmiana-04",
+  "poprzednie_miasto": "Kraków",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-odmiana-04-135303": {
   "advert_id": 1092697937,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Bochnia",
+  "city": "Słomczyn",
   "sku": "AGR-006",
-  "city_id": 24485,
+  "city_id": 72973,
   "wariant": "weglanowe-odmiana-04",
-  "poprzednie_miasto": "Kępno",
-  "przelozone": "2026-08-28"
+  "poprzednie_miasto": "Bochnia",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-odmiana-04-56407": {
   "advert_id": 1092697974,
@@ -1443,10 +1469,12 @@
  "agria-weglanowe-magnez-odmiana-04-115571": {
   "advert_id": 1092698779,
   "title": "Wapno nawozowe węglanowo-magnezowe odmiana 04 luzem — magnez i odkwaszanie w jednym zabiegu, gleby lekkie, dostawa 24 t, atest OSChR, AGRIA",
-  "city": "Iłża",
+  "city": "Przemyśl",
   "sku": "AGR-009",
-  "city_id": 115571,
-  "wariant": "weglanowe-magnez-odmiana-04"
+  "city_id": 14417,
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "poprzednie_miasto": "Iłża",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-04-78099": {
   "advert_id": 1092698806,
@@ -1467,10 +1495,12 @@
  "agria-weglanowe-magnez-odmiana-04-133761": {
   "advert_id": 1092698875,
   "title": "Wapno nawozowe węglanowo-magnezowe odmiana 04 luzem — magnez i odkwaszanie w jednym zabiegu, gleby lekkie, dostawa 24 t, atest OSChR, AGRIA",
-  "city": "Gózd",
+  "city": "Bukowno",
   "sku": "AGR-009",
-  "city_id": 133761,
-  "wariant": "weglanowe-magnez-odmiana-04"
+  "city_id": 3971,
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "poprzednie_miasto": "Gózd",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-04-7971": {
   "advert_id": 1092698909,
@@ -1507,10 +1537,12 @@
  "agria-weglanowe-magnez-odmiana-04-15773": {
   "advert_id": 1092699060,
   "title": "Wapno nawozowe węglanowo-magnezowe odmiana 04 luzem — magnez i odkwaszanie w jednym zabiegu, gleby lekkie, dostawa 24 t, atest OSChR, AGRIA",
-  "city": "Słomniki",
+  "city": "Białobrzegi",
   "sku": "AGR-009",
-  "city_id": 15773,
-  "wariant": "weglanowe-magnez-odmiana-04"
+  "city_id": 130219,
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "poprzednie_miasto": "Słomniki",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-04-56509": {
   "advert_id": 1092699096,
@@ -1523,26 +1555,32 @@
  "agria-weglanowe-magnez-odmiana-05-115571": {
   "advert_id": 1092699245,
   "title": "Wapno nawozowe magnezowe odmiana 05 luzem — węglanowo-magnezowe, uzupełnienie magnezu i korekta pH, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Iłża",
+  "city": "Markowa",
   "sku": "AGR-010",
-  "city_id": 115571,
-  "wariant": "weglanowe-magnez-odmiana-05"
+  "city_id": 90707,
+  "wariant": "weglanowe-magnez-odmiana-05",
+  "poprzednie_miasto": "Iłża",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-05-53591": {
   "advert_id": 1092699280,
   "title": "Wapno nawozowe magnezowe odmiana 05 luzem — węglanowo-magnezowe, uzupełnienie magnezu i korekta pH, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Przysucha",
+  "city": "Dobczyce",
   "sku": "AGR-010",
-  "city_id": 53591,
-  "wariant": "weglanowe-magnez-odmiana-05"
+  "city_id": 113819,
+  "wariant": "weglanowe-magnez-odmiana-05",
+  "poprzednie_miasto": "Przysucha",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-05-133761": {
   "advert_id": 1092699324,
   "title": "Wapno nawozowe magnezowe odmiana 05 luzem — węglanowo-magnezowe, uzupełnienie magnezu i korekta pH, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Gózd",
+  "city": "Ropa",
   "sku": "AGR-010",
-  "city_id": 133761,
-  "wariant": "weglanowe-magnez-odmiana-05"
+  "city_id": 72113,
+  "wariant": "weglanowe-magnez-odmiana-05",
+  "poprzednie_miasto": "Gózd",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-05-56407": {
   "advert_id": 1092699366,
@@ -1563,10 +1601,12 @@
  "agria-weglanowe-magnez-odmiana-05-27357": {
   "advert_id": 1092699442,
   "title": "Wapno nawozowe magnezowe odmiana 05 luzem — węglanowo-magnezowe, uzupełnienie magnezu i korekta pH, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Gorzyce",
+  "city": "Frysztak",
   "sku": "AGR-010",
-  "city_id": 27357,
-  "wariant": "weglanowe-magnez-odmiana-05"
+  "city_id": 132857,
+  "wariant": "weglanowe-magnez-odmiana-05",
+  "poprzednie_miasto": "Gorzyce",
+  "przelozone": "2026-09-11"
  },
  "agria-weglanowe-magnez-odmiana-05-11533": {
   "advert_id": 1092699492,
@@ -1579,12 +1619,13 @@
  "agria-weglanowe-odmiana-04-93879": {
   "advert_id": 1092698373,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Radgoszcz",
+  "city": "Krzeszowice",
   "sku": "AGR-006",
-  "city_id": 93879,
+  "city_id": 88791,
   "wariant": "weglanowe-odmiana-04",
   "poprzedni_external_id": "agria-kreda-pastewna-13147",
-  "przelozone": "2026-08-28"
+  "przelozone": "2026-09-11",
+  "poprzednie_miasto": "Radgoszcz"
  },
  "agria-weglanowe-odmiana-04-4929": {
   "advert_id": 1092698410,
@@ -1639,22 +1680,24 @@
  "agria-weglanowe-odmiana-04-93127": {
   "advert_id": 1092698307,
   "title": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
-  "city": "Połaniec",
+  "city": "Przeworsk",
   "sku": "AGR-006",
-  "city_id": 93127,
+  "city_id": 93719,
   "wariant": "weglanowe-odmiana-04",
   "poprzedni_external_id": "agria-kreda-pastewna-15963",
-  "przelozone": "2026-08-28"
+  "przelozone": "2026-09-11",
+  "poprzednie_miasto": "Połaniec"
  },
  "agria-kreda-nawozowa-granulowana-24485": {
   "advert_id": 1092698522,
   "title": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
-  "city": "Bochnia",
+  "city": "Sadkowice",
   "sku": "AGR-013",
-  "city_id": 24485,
+  "city_id": 142641,
   "wariant": "kreda-nawozowa-granulowana",
   "poprzedni_external_id": "agria-kreda-pastewna-135303",
-  "przelozone": "2026-08-28"
+  "przelozone": "2026-09-11",
+  "poprzednie_miasto": "Bochnia"
  },
  "agria-weglanowe-magnez-odmiana-05-64115": {
   "advert_id": 1092691910,

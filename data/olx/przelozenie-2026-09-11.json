@@ -1,0 +1,1127 @@
+[
+ {
+  "klucz": "agria-agrobielik-70-staw-14721",
+  "advert_id": 1092691808,
+  "siatka": "agrobielik-70-staw",
+  "sku": "AGR-001",
+  "miasto": "Gołcza",
+  "woj": "małopolskie",
+  "km": 72,
+  "odslony": 1,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-staw",
+  "nowe_miasto": "Morawica",
+  "nowy_city_id": 120761,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 63,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 6,
+   "Robert": 4
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-93127",
+  "advert_id": 1092698307,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Połaniec",
+  "woj": "świętokrzyskie",
+  "km": 28,
+  "odslony": 2,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Przeworsk",
+  "nowy_city_id": 93719,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 106,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1,
+   "WAPNO-PRODUCENT": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-granulowana-9359",
+  "advert_id": 1092697275,
+  "siatka": "kreda-nawozowa-granulowana",
+  "sku": "AGR-013",
+  "miasto": "Krosno",
+  "woj": "podkarpackie",
+  "km": 80,
+  "odslony": 2,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-granulowana",
+  "nowe_miasto": "Końskie",
+  "nowy_city_id": 65789,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 115,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1,
+   "Robert": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-granulowane-15459",
+  "advert_id": 1092695988,
+  "siatka": "weglanowe-magnez-granulowane",
+  "sku": "AGR-011",
+  "miasto": "Chmielnik",
+  "woj": "świętokrzyskie",
+  "km": 47,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-granulowane",
+  "nowe_miasto": "Oświęcim",
+  "nowy_city_id": 13205,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 120,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1,
+   "WAPNO-PRODUCENT": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-04-53591",
+  "advert_id": 1092690495,
+  "siatka": "weglanowe-magnez-odmiana-04",
+  "sku": "AGR-009",
+  "miasto": "Przysucha",
+  "woj": "mazowieckie",
+  "km": 128,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowe_miasto": "Gorlice",
+  "nowy_city_id": 6303,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 58,
+  "sprzedawcy": {
+   "Robert": 1,
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-granulowana-13147",
+  "advert_id": 1092697153,
+  "siatka": "kreda-nawozowa-granulowana",
+  "sku": "AGR-013",
+  "miasto": "Szczucin",
+  "woj": "małopolskie",
+  "km": 9,
+  "odslony": 2,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-granulowana",
+  "nowe_miasto": "Munina",
+  "nowy_city_id": 139111,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 125,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 5
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-granulowane-135303",
+  "advert_id": 1092696339,
+  "siatka": "weglanowe-magnez-granulowane",
+  "sku": "AGR-011",
+  "miasto": "Bochnia",
+  "woj": "małopolskie",
+  "km": 39,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-granulowane",
+  "nowe_miasto": "Wieliczka",
+  "nowy_city_id": 128097,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 62,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 2
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-2151",
+  "advert_id": 1092697758,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Alwernia",
+  "woj": "małopolskie",
+  "km": 98,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Podegrodzie",
+  "nowy_city_id": 104245,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 68,
+  "sprzedawcy": {
+   "WAP POL": 2
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-oxyfertil-90-7509",
+  "advert_id": 1092688763,
+  "siatka": "oxyfertil-90",
+  "sku": "AGR-003",
+  "miasto": "Skała",
+  "woj": "małopolskie",
+  "km": 75,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "oxyfertil-90",
+  "nowe_miasto": "Szymbark",
+  "nowy_city_id": 38067,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 60,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-05-27357",
+  "advert_id": 1092699442,
+  "siatka": "weglanowe-magnez-odmiana-05",
+  "sku": "AGR-010",
+  "miasto": "Gorzyce",
+  "woj": "podkarpackie",
+  "km": 75,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-05",
+  "nowe_miasto": "Frysztak",
+  "nowy_city_id": 132857,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 61,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-05-133761",
+  "advert_id": 1092699324,
+  "siatka": "weglanowe-magnez-odmiana-05",
+  "sku": "AGR-010",
+  "miasto": "Gózd",
+  "woj": "mazowieckie",
+  "km": 129,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-05",
+  "nowe_miasto": "Ropa",
+  "nowy_city_id": 72113,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 62,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-05-53591",
+  "advert_id": 1092699280,
+  "siatka": "weglanowe-magnez-odmiana-05",
+  "sku": "AGR-010",
+  "miasto": "Przysucha",
+  "woj": "mazowieckie",
+  "km": 128,
+  "odslony": 10,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-05",
+  "nowe_miasto": "Dobczyce",
+  "nowy_city_id": 113819,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 65,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-granulowane-10609",
+  "advert_id": 1092696116,
+  "siatka": "weglanowe-magnez-granulowane",
+  "sku": "AGR-011",
+  "miasto": "Czarna",
+  "woj": "podkarpackie",
+  "km": 83,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-granulowane",
+  "nowe_miasto": "Polanów",
+  "nowy_city_id": 52833,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 65,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-granulowane-9359",
+  "advert_id": 1092695665,
+  "siatka": "weglanowe-granulowane",
+  "sku": "AGR-008",
+  "miasto": "Krosno",
+  "woj": "podkarpackie",
+  "km": 80,
+  "odslony": 2,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-granulowane",
+  "nowe_miasto": "Sobków",
+  "nowy_city_id": 54953,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 66,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-granulowana-102207",
+  "advert_id": 1092697110,
+  "siatka": "kreda-nawozowa-granulowana",
+  "sku": "AGR-013",
+  "miasto": "Radgoszcz",
+  "woj": "małopolskie",
+  "km": 7,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-granulowana",
+  "nowe_miasto": "Kleczanów",
+  "nowy_city_id": 47209,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 66,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-sypka-9359",
+  "advert_id": 1092696775,
+  "siatka": "kreda-nawozowa-sypka",
+  "sku": "AGR-014",
+  "miasto": "Krosno",
+  "woj": "podkarpackie",
+  "km": 80,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-sypka",
+  "nowe_miasto": "Tudorów",
+  "nowy_city_id": 108189,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 66,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-granulowane-70249",
+  "advert_id": 1092696240,
+  "siatka": "weglanowe-magnez-granulowane",
+  "sku": "AGR-011",
+  "miasto": "Lisia Góra",
+  "woj": "małopolskie",
+  "km": 13,
+  "odslony": 7,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-granulowane",
+  "nowe_miasto": "Kozłów",
+  "nowy_city_id": 30031,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 73,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-granulowane-10609",
+  "advert_id": 1092695461,
+  "siatka": "weglanowe-granulowane",
+  "sku": "AGR-008",
+  "miasto": "Czarna",
+  "woj": "podkarpackie",
+  "km": 83,
+  "odslony": 2,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-granulowane",
+  "nowe_miasto": "Charsznica",
+  "nowy_city_id": 43351,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 73,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-granulowane-10603",
+  "advert_id": 1092696176,
+  "siatka": "weglanowe-magnez-granulowane",
+  "sku": "AGR-011",
+  "miasto": "Gołcza",
+  "woj": "małopolskie",
+  "km": 72,
+  "odslony": 10,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-granulowane",
+  "nowe_miasto": "Jeżowe",
+  "nowy_city_id": 86489,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 81,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-sypka-15459",
+  "advert_id": 1092696568,
+  "siatka": "kreda-nawozowa-sypka",
+  "sku": "AGR-014",
+  "miasto": "Niepołomice",
+  "woj": "małopolskie",
+  "km": 50,
+  "odslony": 6,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-sypka",
+  "nowe_miasto": "Wolbrom",
+  "nowy_city_id": 19581,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 85,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-9775",
+  "advert_id": 1092694793,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Radgoszcz",
+  "woj": "małopolskie",
+  "km": 7,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Jastkowice",
+  "nowy_city_id": 28281,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 87,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-staw-8523",
+  "advert_id": 1092692126,
+  "siatka": "agrobielik-70-staw",
+  "sku": "AGR-001",
+  "miasto": "Szczucin",
+  "woj": "małopolskie",
+  "km": 9,
+  "odslony": 2,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-staw",
+  "nowe_miasto": "Dukla",
+  "nowy_city_id": 26427,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 87,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-staw-8959",
+  "advert_id": 1092691883,
+  "siatka": "agrobielik-70-staw",
+  "sku": "AGR-001",
+  "miasto": "Kraków",
+  "woj": "małopolskie",
+  "km": 70,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-staw",
+  "nowe_miasto": "Moskorzew",
+  "nowy_city_id": 32729,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 88,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-93879",
+  "advert_id": 1092698373,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Radgoszcz",
+  "woj": "małopolskie",
+  "km": 7,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Krzeszowice",
+  "nowy_city_id": 88791,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 90,
+  "sprzedawcy": {
+   "Robert": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-04-15773",
+  "advert_id": 1092699060,
+  "siatka": "weglanowe-magnez-odmiana-04",
+  "sku": "AGR-009",
+  "miasto": "Słomniki",
+  "woj": "małopolskie",
+  "km": 59,
+  "odslony": 10,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowe_miasto": "Białobrzegi",
+  "nowy_city_id": 130219,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 93,
+  "sprzedawcy": {
+   "Robert": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-05-115571",
+  "advert_id": 1092699245,
+  "siatka": "weglanowe-magnez-odmiana-05",
+  "sku": "AGR-010",
+  "miasto": "Iłża",
+  "woj": "mazowieckie",
+  "km": 104,
+  "odslony": 16,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-05",
+  "nowe_miasto": "Markowa",
+  "nowy_city_id": 90707,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 95,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-granulowane-8959",
+  "advert_id": 1092695779,
+  "siatka": "weglanowe-granulowane",
+  "sku": "AGR-008",
+  "miasto": "Kraków",
+  "woj": "małopolskie",
+  "km": 70,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-granulowane",
+  "nowe_miasto": "Domostawa",
+  "nowy_city_id": 5213,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 97,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-staw-70249",
+  "advert_id": 1092692060,
+  "siatka": "agrobielik-70-staw",
+  "sku": "AGR-001",
+  "miasto": "Lisia Góra",
+  "woj": "małopolskie",
+  "km": 13,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-staw",
+  "nowe_miasto": "Leżajsk",
+  "nowy_city_id": 89213,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 99,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-granulowana-7509",
+  "advert_id": 1092697347,
+  "siatka": "kreda-nawozowa-granulowana",
+  "sku": "AGR-013",
+  "miasto": "Połaniec",
+  "woj": "świętokrzyskie",
+  "km": 28,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-granulowana",
+  "nowe_miasto": "Włoszczowa",
+  "nowy_city_id": 76589,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 102,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-granulowane-7509",
+  "advert_id": 1092696020,
+  "siatka": "weglanowe-magnez-granulowane",
+  "sku": "AGR-011",
+  "miasto": "Połaniec",
+  "woj": "świętokrzyskie",
+  "km": 28,
+  "odslony": 10,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-granulowane",
+  "nowe_miasto": "Mnin",
+  "nowy_city_id": 120651,
+  "nowy_woj": "świętokrzyskie",
+  "nowy_km": 103,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-04-133761",
+  "advert_id": 1092698875,
+  "siatka": "weglanowe-magnez-odmiana-04",
+  "sku": "AGR-009",
+  "miasto": "Gózd",
+  "woj": "mazowieckie",
+  "km": 129,
+  "odslony": 10,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowe_miasto": "Bukowno",
+  "nowy_city_id": 3971,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 104,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-granulowana-24485",
+  "advert_id": 1092698522,
+  "siatka": "kreda-nawozowa-granulowana",
+  "sku": "AGR-013",
+  "miasto": "Bochnia",
+  "woj": "małopolskie",
+  "km": 39,
+  "odslony": 6,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-granulowana",
+  "nowe_miasto": "Sadkowice",
+  "nowy_city_id": 142641,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 109,
+  "sprzedawcy": {
+   "Robert": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-13983",
+  "advert_id": 1092694731,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Żabno",
+  "woj": "małopolskie",
+  "km": 2,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Szydłowiec",
+  "nowy_city_id": 107683,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 110,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-granulowane-14721",
+  "advert_id": 1092696045,
+  "siatka": "weglanowe-magnez-granulowane",
+  "sku": "AGR-011",
+  "miasto": "Lubień",
+  "woj": "małopolskie",
+  "km": 82,
+  "odslony": 19,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-granulowane",
+  "nowe_miasto": "Pruchnik",
+  "nowy_city_id": 35349,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 112,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-102207",
+  "advert_id": 1092694270,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Szczucin",
+  "woj": "małopolskie",
+  "km": 9,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Pełkinie",
+  "nowy_city_id": 140515,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 115,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-gleba-102207",
+  "advert_id": 1092692225,
+  "siatka": "agrobielik-70-gleba",
+  "sku": "AGR-001",
+  "miasto": "Żabno",
+  "woj": "małopolskie",
+  "km": 2,
+  "odslony": 3,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-gleba",
+  "nowe_miasto": "Rusinów",
+  "nowy_city_id": 36081,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 118,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-9359",
+  "advert_id": 1092694448,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Krosno",
+  "woj": "podkarpackie",
+  "km": 80,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Osiek",
+  "nowy_city_id": 70145,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 119,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-granulowane-15459",
+  "advert_id": 1092695342,
+  "siatka": "weglanowe-granulowane",
+  "sku": "AGR-008",
+  "miasto": "Chmielnik",
+  "woj": "świętokrzyskie",
+  "km": 47,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-granulowane",
+  "nowe_miasto": "Ciepielów",
+  "nowy_city_id": 43601,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 119,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-133761",
+  "advert_id": 1092697794,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Gózd",
+  "woj": "mazowieckie",
+  "km": 129,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Nędzówka",
+  "nowy_city_id": 50995,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 122,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-magnez-odmiana-04-115571",
+  "advert_id": 1092698779,
+  "siatka": "weglanowe-magnez-odmiana-04",
+  "sku": "AGR-009",
+  "miasto": "Iłża",
+  "woj": "mazowieckie",
+  "km": 104,
+  "odslony": 12,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowe_miasto": "Przemyśl",
+  "nowy_city_id": 14417,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 134,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-gleba-8523",
+  "advert_id": 1092694054,
+  "siatka": "agrobielik-70-gleba",
+  "sku": "AGR-001",
+  "miasto": "Szczucin",
+  "woj": "małopolskie",
+  "km": 9,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-gleba",
+  "nowe_miasto": "Policzna",
+  "nowy_city_id": 141029,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 141,
+  "sprzedawcy": {
+   "Robert": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-8959",
+  "advert_id": 1092697898,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Kraków",
+  "woj": "małopolskie",
+  "km": 70,
+  "odslony": 6,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Kostrzyn",
+  "nowy_city_id": 8675,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 150,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-53591",
+  "advert_id": 1092697697,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Przysucha",
+  "woj": "mazowieckie",
+  "km": 128,
+  "odslony": 6,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Lubaczów",
+  "nowy_city_id": 31097,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 150,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-135303",
+  "advert_id": 1092694760,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Połaniec",
+  "woj": "świętokrzyskie",
+  "km": 28,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Kozienice",
+  "nowy_city_id": 8907,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 155,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-gleba-14721",
+  "advert_id": 1092693582,
+  "siatka": "agrobielik-70-gleba",
+  "sku": "AGR-001",
+  "miasto": "Mszana Dolna",
+  "woj": "małopolskie",
+  "km": 79,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-gleba",
+  "nowe_miasto": "Nowe Miasto nad Pilicą",
+  "nowy_city_id": 91667,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 157,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-gleba-8959",
+  "advert_id": 1092693553,
+  "siatka": "agrobielik-70-gleba",
+  "sku": "AGR-001",
+  "miasto": "Kraków",
+  "woj": "małopolskie",
+  "km": 70,
+  "odslony": 4,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-gleba",
+  "nowe_miasto": "Białobrzegi",
+  "nowy_city_id": 2151,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 157,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-135303",
+  "advert_id": 1092697937,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Bochnia",
+  "woj": "małopolskie",
+  "km": 39,
+  "odslony": 7,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Słomczyn",
+  "nowy_city_id": 72973,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 183,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-kreda-nawozowa-sypka-14721",
+  "advert_id": 1092696872,
+  "siatka": "kreda-nawozowa-sypka",
+  "sku": "AGR-014",
+  "miasto": "Stalowa Wola",
+  "woj": "podkarpackie",
+  "km": 83,
+  "odslony": 8,
+  "telefony": 0,
+  "stary_wariant": "kreda-nawozowa-sypka",
+  "nowe_miasto": "Garwolin",
+  "nowy_city_id": 23883,
+  "nowy_woj": "mazowieckie",
+  "nowy_km": 189,
+  "sprzedawcy": {
+   "WAPNO-PRODUCENT": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-19701",
+  "advert_id": 1092694595,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Lisia Góra",
+  "woj": "małopolskie",
+  "km": 13,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Niedomice",
+  "nowy_city_id": 102577,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 5,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-weglanowe-odmiana-04-115571",
+  "advert_id": 1092690408,
+  "siatka": "weglanowe-odmiana-04",
+  "sku": "AGR-006",
+  "miasto": "Iłża",
+  "woj": "mazowieckie",
+  "km": 104,
+  "odslony": 11,
+  "telefony": 0,
+  "stary_wariant": "weglanowe-odmiana-04",
+  "nowe_miasto": "Borzęcin",
+  "nowy_city_id": 3603,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 16,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-15459",
+  "advert_id": 1092688720,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Bochnia",
+  "woj": "małopolskie",
+  "km": 39,
+  "odslony": 6,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Szczurowa",
+  "nowy_city_id": 144309,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 19,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-gleba-9359",
+  "advert_id": 1092693774,
+  "siatka": "agrobielik-70-gleba",
+  "sku": "AGR-001",
+  "miasto": "Krosno",
+  "woj": "podkarpackie",
+  "km": 80,
+  "odslony": 5,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-gleba",
+  "nowe_miasto": "Niedzieliska",
+  "nowy_city_id": 102583,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 20,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-14721",
+  "advert_id": 1092694293,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Mszana Dolna",
+  "woj": "małopolskie",
+  "km": 79,
+  "odslony": 7,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Żyraków",
+  "nowy_city_id": 148385,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 31,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-gleba-19701",
+  "advert_id": 1092693987,
+  "siatka": "agrobielik-70-gleba",
+  "sku": "AGR-001",
+  "miasto": "Lisia Góra",
+  "woj": "małopolskie",
+  "km": 13,
+  "odslony": 9,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-gleba",
+  "nowe_miasto": "Przecław",
+  "nowy_city_id": 93677,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 32,
+  "sprzedawcy": {
+   "WAP POL": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-70-gleba-15459",
+  "advert_id": 1092692186,
+  "siatka": "agrobielik-70-gleba",
+  "sku": "AGR-001",
+  "miasto": "Ropczyce",
+  "woj": "podkarpackie",
+  "km": 46,
+  "odslony": 9,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-70-gleba",
+  "nowe_miasto": "Pilzno",
+  "nowy_city_id": 13553,
+  "nowy_woj": "podkarpackie",
+  "nowy_km": 34,
+  "sprzedawcy": {
+   "Wapna Świętokrzyskie": 1
+  },
+  "nowy_wariant": null
+ },
+ {
+  "klucz": "agria-agrobielik-90-10609",
+  "advert_id": 1092690340,
+  "siatka": "agrobielik-90",
+  "sku": "AGR-002",
+  "miasto": "Stalowa Wola",
+  "woj": "podkarpackie",
+  "km": 83,
+  "odslony": 10,
+  "telefony": 0,
+  "stary_wariant": "agrobielik-90",
+  "nowe_miasto": "Gawłów",
+  "nowy_city_id": 5627,
+  "nowy_woj": "małopolskie",
+  "nowy_km": 34,
+  "sprzedawcy": {
+   "Robert": 1
+  },
+  "nowy_wariant": null
+ }
+]

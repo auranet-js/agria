@@ -15,6 +15,7 @@ Zmierzone na produkcji 28.08 (ogłoszenie 1092697758, Białobrzegi → Izbicko):
     przeloz.py --all                 przełóż resztę serii A
     przeloz.py --seria-b [--limit N] seria B: zmiana miejscowości I produktu (8 slotów)
     przeloz.py --sprawdz             odczyt per ogłoszenie: czy miasta zgadzają się z projektem
+    przeloz.py --projekt plik.json … inny projekt (seria A): własny backup data/backups/olx-przelozenie-przed-<data>.json
 
 Po każdym udanym PUT skrypt aktualizuje `posted.json` (city, city_id) ORAZ `adverts-payload.json`
 (location.city_id, _meta.city). Bez tej drugiej aktualizacji pierwszy `post_adverts.py --update`
@@ -34,6 +35,7 @@ PAYLOAD = os.path.join(D, "adverts-payload.json")
 PROJEKT = os.path.join(D, "przelozenie-2026-08-28.json")
 BACKUP = os.path.join(HERE, "..", "..", "data", "backups",
                       "T-106-olx-przed-2026-08-28.json")
+DATA = "2026-08-28"   # data przełożenia wpisywana do rejestru; --projekt bierze ją z nazwy pliku
 PAUZA = 2        # s między ogłoszeniami — limitów API nikt nie udokumentował
 GUARD = 25       # co tyle sztuk czytamy statusy i przerywamy przy odrzucie moderacji
 
@@ -106,7 +108,7 @@ def przeloz_jedno(rec, reg, payload_idx, backup):
 
     reg[rec["klucz"]].update(city=cel, city_id=rec["nowy_city_id"],
                              poprzednie_miasto=rec["miasto"],
-                             przelozone="2026-08-28")
+                             przelozone=DATA)
     it = payload_idx.get(rec["klucz"])
     if it is not None:
         it["location"] = {"city_id": rec["nowy_city_id"]}
@@ -121,8 +123,9 @@ def cmd_seria(limit):
     payload_idx = {it["external_id"]: it for it in payload}
     backup = backup_wczytaj()
 
+    # po city_id, nie po nazwie — w projekcie 11.09 są dwa różne Białobrzegi
     todo = [r for r in projekt
-            if reg.get(r["klucz"], {}).get("city") != r["nowe_miasto"]][:limit]
+            if reg.get(r["klucz"], {}).get("city_id") != r["nowy_city_id"]][:limit]
     if not todo:
         return print("nic do przełożenia — rejestr już zgodny z projektem")
     print(f"przekładam {len(todo)} ogłoszeń (bezpiecznik co {GUARD}, pauza {PAUZA} s)\n")
@@ -164,9 +167,9 @@ def cmd_seria(limit):
 def cmd_dry():
     projekt = wczytaj_projekt("A")
     reg = load_posted()
-    zrobione = sum(1 for r in projekt if reg.get(r["klucz"], {}).get("city") == r["nowe_miasto"])
+    zrobione = sum(1 for r in projekt if reg.get(r["klucz"], {}).get("city_id") == r["nowy_city_id"])
     for r in projekt:
-        stan = "zrobione" if reg.get(r["klucz"], {}).get("city") == r["nowe_miasto"] else "do zmiany"
+        stan = "zrobione" if reg.get(r["klucz"], {}).get("city_id") == r["nowy_city_id"] else "do zmiany"
         print(f"  [{stan:<9}] {r['advert_id']}  {r['miasto']:<20}{r['km']:>4} km → "
               f"{r['nowe_miasto']:<20}{r['nowy_km']:>4} km  city_id {r['nowy_city_id']}")
     print(f"\nserii A: {len(projekt)} | zrobione: {zrobione} | do zmiany: {len(projekt)-zrobione}")
@@ -287,6 +290,12 @@ def cmd_sprawdz():
 
 if __name__ == "__main__":
     args = sys.argv[1:]
+    if "--projekt" in args:  # kolejne projekty (11.09: miasta konkurencji) — własny backup i data
+        PROJEKT = os.path.abspath(args[args.index("--projekt") + 1])
+        DATA = os.path.basename(PROJEKT).removeprefix("przelozenie-").removesuffix(".json")
+        BACKUP = os.path.join(HERE, "..", "..", "data", "backups", f"olx-przelozenie-przed-{DATA}.json")
+        if "--seria-b" in args:
+            sys.exit("--seria-b dotyczy tylko projektu 28.08")
     if "--dry-run" in args:
         cmd_dry()
     elif "--sprawdz" in args:
