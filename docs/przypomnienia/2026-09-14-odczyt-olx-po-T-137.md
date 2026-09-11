@@ -12,6 +12,8 @@
 5. **T-139** (17:15–17:20): **56 ogłoszeń przełożonych do miast konkurencji** (Wapna Świętokrzyskie,
    Robert, WAP POL, WAPNO-PRODUCENT) w małopolskim, świętokrzyskim, podkarpackim i mazowieckim.
    Lista: `data/olx/przelozenie-2026-09-11.json`. Ich stan 11.09 12:08: **319 odsłon, 0 odsłon numeru**.
+6. **T-140** (do 18:17): wycofana scena wywrotki z błędnym wysypem (107 ogłoszeń) — w jej miejsce trzy
+   poprawne wysypy; 25 frontów i 82 miejsca w galerii. Na liczby odsłon wpływa marginalnie.
 
 Decyzja Janka: odczyt „więcej czy mniej wejść” po 3 dniach — bez rozdzielania, która zmiana zadziałała.
 

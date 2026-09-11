@@ -2,7 +2,10 @@
 """T-138: pierwsze zdjęcie ogłoszeń OLX z 12 frontów zamiast 3 scen — rozkład po mapie.
 
 Wybór Janka 11.09.2026 (plansza auratest.pl/fe4f58fec53ctmp/agria-olx-t138/):
-  luz      : wywrotka-zsyp, halda-pole, zaladunek (v4) + hala-pryzma (Gemini)
+  luz      : halda-pole, zaladunek (v4) + hala-pryzma (Gemini)
+             + od 11.09 wieczór wysyp-bok, wysyp-tyl, wysyp-podworze zamiast wycofanej wywrotka-zsyp
+             (wysyp z górnego końca skrzyni — fizycznie błędny, zgłosił Janek; poprawka tylko na
+             ogłoszeniach z tą sceną, pozostałe fronty z T-138 zostają — `rozklad(stale=...)`)
   big bagi : hds-bigbagi (v4) + 4 zdjęcia Janka z placu AGRII 10.09 (plac-*)
              + bigbagi-wiata, bigbagi-przyczepa, dlon-granulat (Gemini)
 Odrzucone: worki Bielik i worki tlenkowe 25 kg (pozycjonowanie „nie sklep z workami”),
@@ -15,12 +18,15 @@ Pula per forma dostawy — zdjęcie nie może obiecywać innej formy niż tytuł
 Przydział zachłanny z poprawkami: w jednym mieście każde ogłoszenie AGRII ma inną scenę,
 identyczny obraz (ten sam napis + ta sama scena) nie powtarza się w promieniu ~100 km.
 
-Galeria bez zmian składu — podmieniony front; jeśli scena frontu siedzi też dalej w galerii,
-w to miejsce wchodzi dotychczasowa scena frontu (zero duplikatów, QR zostaje ostatni).
+Galeria bez zmian składu — podmieniony front; jeśli scena frontu albo scena wycofana siedzi dalej
+w galerii, w to miejsce wchodzi scena luzem, której ogłoszenie jeszcze nie ma, najrzadziej używana
+(zero duplikatów, QR zostaje ostatni).
 Napisy: miniatury_v4.render() (wzór 11.09). Wysyłka: zdjecia_v4.cli() — GET → putable() → PUT.
 
     fronty_v5.py --render            miniatury z napisami do agria-olx/v4/ (nic do OLX)
     fronty_v5.py --mockup plik.html  przed/po + metryki
+    fronty_v5.py --zmienione plik    advert_id ogłoszeń, których galeria różni się od ładunku
+    fronty_v5.py --sprawdz           odczyt per ogłoszenie z konta (status, zdjęcia, miasto, telefon)
     fronty_v5.py --dry-run | --backup | --ids plik.txt | --all   jak zdjecia_v4.py
 """
 import json, math, os, sys
@@ -33,7 +39,10 @@ import zdjecia_v4 as z4  # noqa: E402
 
 V4 = z4.V4
 V4DIR = os.path.expanduser("~/domains/auratest.pl/public_html/agria-olx/v4")
-LUZ_SC = ["wywrotka-zsyp", "halda-pole", "zaladunek", "hala-pryzma"]
+LUZ_SC = ["wysyp-bok", "wysyp-tyl", "wysyp-podworze", "halda-pole", "zaladunek", "hala-pryzma"]
+# 11.09 wieczór: wywrotka-zsyp wycofana — wapno sypało się z górnego końca skrzyni (zgłosił Janek,
+# zdjęcie 4/8). Zastąpiona trzema wysypami z poprawną fizyką (przód skrzyni w górze, wysyp tylną klapą).
+WYCOFANE = ["wywrotka-zsyp"]
 PLAC = ["plac-budynek", "plac-bigbagi-budynek", "plac-bigbagi-hala", "plac-bigbagi-wieza"]
 BB_SC = ["hds-bigbagi"] + PLAC + ["bigbagi-wiata", "bigbagi-przyczepa", "dlon-granulat"]
 SCENY = LUZ_SC + BB_SC
@@ -51,7 +60,7 @@ def pula(wariant):
 
 def scena(url):
     f = url.rsplit("/", 1)[-1].removesuffix(".jpg")
-    return next((s for s in sorted(SCENY, key=len, reverse=True) if f.endswith(s)), None)
+    return next((s for s in sorted(SCENY + WYCOFANE, key=len, reverse=True) if f.endswith(s)), None)
 
 
 def km(a, b):
@@ -90,10 +99,13 @@ def koszt(a, s, ads, przydzial, licznik):
     return k
 
 
-def rozklad(ads):
+def rozklad(ads, stale=None):
+    """stale = fronty, których nie ruszamy (eid → scena); optymalizowane są tylko pozostałe."""
+    stale = stale or {}
     na_miasto = Counter(a["city"] for a in ads)
-    kolej = sorted(ads, key=lambda a: (-na_miasto[a["city"]], a["city"], a["w"], a["eid"]))
-    przydzial, licznik = {}, Counter()
+    kolej = [a for a in sorted(ads, key=lambda a: (-na_miasto[a["city"]], a["city"], a["w"], a["eid"]))
+             if a["eid"] not in stale]
+    przydzial, licznik = dict(stale), Counter(stale.values())
     for a in kolej:
         s = min(pula(a["w"]), key=lambda s: (koszt(a, s, ads, przydzial, licznik), SCENY.index(s)))
         przydzial[a["eid"]] = s
@@ -112,15 +124,17 @@ def rozklad(ads):
     return przydzial
 
 
-def galeria(a, s):
+def galeria(a, s, uzycie):
+    """Nowy front; zdjęcie sceny frontu albo sceny wycofanej dalej w galerii → scena luzem, której
+    w tym ogłoszeniu jeszcze nie ma, najrzadziej używana w środku galerii (uzycie = licznik)."""
     g = [V4 + nazwa(a["napis"], s)] + a["imgs"][1:]
-    zajete = {scena(u) for u in g[1:]}
+    zajete = {s} | {scena(u) for u in g[1:] if "/agria-foto-" in u}
     for i, u in enumerate(g[1:], 1):
-        if "/agria-foto-" in u and scena(u) == s:
-            zast = a["stara"] if a["stara"] not in zajete and a["stara"] != s else \
-                next(x for x in LUZ_SC if x != s and x not in zajete)
+        if "/agria-foto-" in u and (scena(u) == s or scena(u) in WYCOFANE):
+            zast = min((x for x in LUZ_SC if x not in zajete), key=lambda x: (uzycie[x], LUZ_SC.index(x)))
             g[i] = V4 + f"agria-foto-{zast}.jpg"
             zajete.add(zast)
+            uzycie[zast] += 1
     assert len(g) == len(a["imgs"]) <= 8 and g[-1] == a["imgs"][-1], a["eid"]
     assert len(set(g)) == len(g), (a["eid"], g)
     return g
@@ -209,8 +223,11 @@ def mockup(plik, ads, przydzial, zadania, m_przed, m_po):
 
 def plan():
     payload, reg, ads = ogloszenia()
-    przydzial = rozklad(ads)
-    zadania = [(a["eid"], a["v"], galeria(a, przydzial[a["eid"]])) for a in ads]
+    stale = {a["eid"]: a["stara"] for a in ads if a["stara"] not in WYCOFANE}  # fronty z T-138 zostają
+    przydzial = rozklad(ads, stale)
+    uzycie = Counter(scena(u) for a in ads for u in a["imgs"][1:]
+                     if "/agria-foto-" in u and scena(u) not in WYCOFANE)
+    zadania = [(a["eid"], a["v"], galeria(a, przydzial[a["eid"]], uzycie)) for a in ads]
     return payload, reg, ads, przydzial, zadania
 
 
@@ -245,6 +262,11 @@ def main():
         for z in zle:
             print("  !!", *z)
         return print(f"zgodnych: {len(reg) - len(zle)}/{len(reg)}")
+    if "--zmienione" in args:  # advert_id ogłoszeń, których galeria różni się od ładunku
+        by_eid = {it["external_id"]: [i["url"] for i in it["images"]] for it in payload}
+        ids = [str(v["advert_id"]) for eid, v, g in zadania if g != by_eid[eid]]
+        open(args[args.index("--zmienione") + 1], "w").write("\n".join(ids) + "\n")
+        return print(f"do zmiany: {len(ids)}")
     if "--metryki" in args:
         przed = {a["eid"]: a["stara"] for a in ads}
         for nazwa_, p in (("przed", przed), ("po", przydzial)):
