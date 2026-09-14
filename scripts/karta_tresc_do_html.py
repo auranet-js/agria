@@ -94,6 +94,8 @@ i = ogon.find('<h2 id="zapytajoofertzamwprbk">')
 if i < 0:  # #305: ta sama sekcja z kotwicą „zamow"
     i = ogon.find('<h2 id="zamow">')
 assert i > 0, "brak sekcji Zapytaj o ofertę w stanie przed"
+if ogon[:i].rstrip().endswith('<a name="zamow"></a>'):  # #302: cel linku „Zamów” z paska „Na skróty”
+    i = ogon.rfind('<a name="zamow"></a>', 0, i)
 post_content = html + "\n" + ogon[i:]
 
 os.makedirs(out, exist_ok=True)

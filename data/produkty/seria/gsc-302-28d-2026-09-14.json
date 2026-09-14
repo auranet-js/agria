@@ -1,0 +1,18 @@
+{
+ "okno": {
+  "startDate": "2026-08-14",
+  "endDate": "2026-09-10"
+ },
+ "pobrano": "2026-09-14T18:17:52",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/dolomit/": {
+   "agregat": {
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 15.75
+   },
+   "zapytania": []
+  }
+ }
+}
