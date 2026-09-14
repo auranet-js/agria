@@ -72,8 +72,9 @@ def h2(m):
 html = re.sub(r"<h2>(.*?)</h2>", h2, html)
 html = re.sub(r"<h3>(.*?)</h3>", lambda m: f'<h3 id="{slug(m.group(1))}">{m.group(1)}</h3>', html)
 # tabele porównawcze (więcej niż 2 kolumny) przewijane w poziomie na telefonie
-html = re.sub(r"(<table>(?:(?!</table>).)*?<th>.*?</th>\s*<th>.*?</th>\s*<th>.*?</table>)",
-              r'<div style="overflow-x:auto">\1</div>', html, flags=re.S)
+html = re.sub(r"<table>.*?</table>",
+              lambda m: f'<div style="overflow-x:auto">{m.group(0)}</div>' if len(re.findall(r"<th[ >]", m.group(0).split("</tr>")[0])) > 2 else m.group(0),
+              html, flags=re.S)
 
 # wpautop zamienia pojedynczy \n na <br> — łamania z pliku .md zdejmujemy wewnątrz akapitów i punktów
 def jedna_linia(t):
