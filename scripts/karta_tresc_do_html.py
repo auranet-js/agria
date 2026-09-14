@@ -90,6 +90,8 @@ meta = {k: cudzyslowy(v) for k, v in meta.items()}
 
 ogon = przed["post_content"]
 i = ogon.find('<h2 id="zapytajoofertzamwprbk">')
+if i < 0:  # #305: ta sama sekcja z kotwicą „zamow"
+    i = ogon.find('<h2 id="zamow">')
 assert i > 0, "brak sekcji Zapytaj o ofertę w stanie przed"
 post_content = html + "\n" + ogon[i:]
 
