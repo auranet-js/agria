@@ -1,0 +1,389 @@
+{
+ "okno": {
+  "startDate": "2026-08-14",
+  "endDate": "2026-09-10"
+ },
+ "pobrano": "2026-09-14T12:31:33",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-granulowane/": {
+   "agregat": {
+    "clicks": 1,
+    "impressions": 616,
+    "ctr": 0.0016233766233766235,
+    "position": 16.63798701298701
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "agria niedomice"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 8.5
+    },
+    {
+     "keys": [
+      "granulowane wapno węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 11
+    },
+    {
+     "keys": [
+      "jakie wapno najlepsze"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "wapno granulowane węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 15
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 75,
+     "ctr": 0,
+     "position": 16.413333333333334
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 29,
+     "ctr": 0,
+     "position": 16.620689655172413
+    },
+    {
+     "keys": [
+      "wapno weglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 22
+    },
+    {
+     "keys": [
+      "wapno węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 153,
+     "ctr": 0,
+     "position": 20.45098039215686
+    },
+    {
+     "keys": [
+      "wapno węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 50,
+     "ctr": 0,
+     "position": 16.060000000000002
+    },
+    {
+     "keys": [
+      "wapno węglanowe granulowane cena"
+     ],
+     "clicks": 0,
+     "impressions": 8,
+     "ctr": 0,
+     "position": 10.75
+    },
+    {
+     "keys": [
+      "wapno węglanowe kredowe"
+     ],
+     "clicks": 0,
+     "impressions": 35,
+     "ctr": 0,
+     "position": 41.05714285714286
+    },
+    {
+     "keys": [
+      "wapno węglanowe sypkie"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 35
+    },
+    {
+     "keys": [
+      "wapno węglowe"
+     ],
+     "clicks": 0,
+     "impressions": 35,
+     "ctr": 0,
+     "position": 22.257142857142856
+    },
+    {
+     "keys": [
+      "węglan wapnia nawóz"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 69.5
+    }
+   ]
+  },
+  "https://agria.pl/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/": {
+   "agregat": {
+    "clicks": 1,
+    "impressions": 480,
+    "ctr": 0.0020833333333333333,
+    "position": 25.13125
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "\"rolnictwo\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "agria niedomice"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 9
+    },
+    {
+     "keys": [
+      "agria tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "cao mgo"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 23
+    },
+    {
+     "keys": [
+      "cena wapna granulowanego w big bagach"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 11
+    },
+    {
+     "keys": [
+      "wapno granulowane magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 33
+    },
+    {
+     "keys": [
+      "wapno magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 23,
+     "ctr": 0,
+     "position": 48.91304347826087
+    },
+    {
+     "keys": [
+      "wapno magnezowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 12,
+     "ctr": 0,
+     "position": 38.5
+    },
+    {
+     "keys": [
+      "wapno magnezowe granulowane olx"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "wapno magnezowe producent"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 47
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 39,
+     "ctr": 0,
+     "position": 31.897435897435898
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 23,
+     "ctr": 0,
+     "position": 30.73913043478261
+    },
+    {
+     "keys": [
+      "wapno nawozowe węglanowo-magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 22,
+     "ctr": 0,
+     "position": 38.04545454545455
+    },
+    {
+     "keys": [
+      "wapno pokarbidowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 49
+    },
+    {
+     "keys": [
+      "wapno weglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 53
+    },
+    {
+     "keys": [
+      "wapno węglanowe"
+     ],
+     "clicks": 0,
+     "impressions": 50,
+     "ctr": 0,
+     "position": 42.32
+    },
+    {
+     "keys": [
+      "wapno węglanowe czy magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "wapno węglanowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 43,
+     "ctr": 0,
+     "position": 34.25581395348837
+    },
+    {
+     "keys": [
+      "wapno węglanowe magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 39
+    },
+    {
+     "keys": [
+      "wapno węglanowe z magnezem"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 11.333333333333334
+    },
+    {
+     "keys": [
+      "wapno węglanowo magnezowe"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 32.75
+    },
+    {
+     "keys": [
+      "wapno węglanowo magnezowe cena"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 20
+    },
+    {
+     "keys": [
+      "wapno węglanowo magnezowe granulowane"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 15
+    },
+    {
+     "keys": [
+      "wapno węglowe"
+     ],
+     "clicks": 0,
+     "impressions": 35,
+     "ctr": 0,
+     "position": 42.91428571428571
+    },
+    {
+     "keys": [
+      "wapno z mikroelementami"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 43
+    },
+    {
+     "keys": [
+      "węglan wapnia nawóz"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 84
+    }
+   ]
+  }
+ }
+}
