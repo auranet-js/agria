@@ -1,0 +1,18 @@
+{
+ "okno": {
+  "startDate": "2026-08-14",
+  "endDate": "2026-09-10"
+ },
+ "pobrano": "2026-09-14T17:54:07",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/mieszanka-tlenkowo-weglanowa/": {
+   "agregat": {
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 3.75
+   },
+   "zapytania": []
+  }
+ }
+}
