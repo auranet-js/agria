@@ -1,0 +1,37 @@
+{
+ "okno": {
+  "startDate": "2026-08-14",
+  "endDate": "2026-09-10"
+ },
+ "pobrano": "2026-09-14T17:00:08",
+ "strony": {
+  "https://agria.pl/kreda-malarska/kreda-malarska/": {
+   "agregat": {
+    "clicks": 3,
+    "impressions": 144,
+    "ctr": 0.020833333333333332,
+    "position": 6.527777777777778
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "kreda malarska"
+     ],
+     "clicks": 0,
+     "impressions": 39,
+     "ctr": 0,
+     "position": 6.923076923076923
+    },
+    {
+     "keys": [
+      "kreda malarska w ogrodnictwie"
+     ],
+     "clicks": 0,
+     "impressions": 8,
+     "ctr": 0,
+     "position": 9.125
+    }
+   ]
+  }
+ }
+}
