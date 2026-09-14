@@ -50,6 +50,10 @@ trafiają w próżnię.
 Sekrety: `~/secrets/agria/` (`ssh.env`, `ftp.txt`, `netrc`, `olx.txt`). Klucz SSH `claude-agria-elara`
 (ed25519), odcięcie = usunięcie jednej linii w panelu nazwa.pl.
 
+**Kolejność kanałów zmian: SSH → MCP (zapasowo) → curl/FTP** `[J 11.09]`, ADR `docs/decyzje/2026-09-11-ssh-pierwszy-kanal-zapisu.md`.
+Polecenie ma **zaczynać się** od `ssh agria-prod` / `scp` (bez `cd`, pętli, `timeout` przed nim), inaczej reguła z allowlisty nie działa.
+Backupy plików → `~/agria-backups/<zadanie>/`, **nie `.bak` obok pliku w web root**.
+
 **Sesje SSH dawaj zbiorczo**, nie po jednym poleceniu — `ssh agria-prod 'bash -s' <<'EOF'` z `timeout N`
 na każdej komendzie. Pojedyncze wywołania potrafią wisieć; skrypt zbiorczy z limitami przechodzi.
 
