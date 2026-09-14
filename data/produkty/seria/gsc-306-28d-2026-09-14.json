@@ -1,0 +1,55 @@
+{
+ "okno": {
+  "startDate": "2026-08-14",
+  "endDate": "2026-09-10"
+ },
+ "pobrano": "2026-09-14T17:46:03",
+ "strony": {
+  "https://agria.pl/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/": {
+   "agregat": {
+    "clicks": 4,
+    "impressions": 109,
+    "ctr": 0.03669724770642202,
+    "position": 7.08256880733945
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "kreda nawozowa sypka"
+     ],
+     "clicks": 2,
+     "impressions": 33,
+     "ctr": 0.06060606060606061,
+     "position": 4.848484848484849
+    },
+    {
+     "keys": [
+      "kreda nawozowa"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 26
+    },
+    {
+     "keys": [
+      "kreda nawozowa cena za tonę"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 18
+    },
+    {
+     "keys": [
+      "kreda sypka"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 5.5
+    }
+   ]
+  }
+ }
+}
