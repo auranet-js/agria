@@ -84,8 +84,8 @@ Spec: `docs/technical/MCP_TOOLS.md` (opisuje jeszcze stan read-only).
    Elementor czyta taki wpis jako poprawny **pusty** render i wygasza treść na produkcji (incydent 30.07,
    HTML spadł 125 → 72 KB na wszystkich stronach). Po zmianie wystarczy `wp elementor flush-css`
    + `wp cache flush`. Unieważnianie per wpis i reszta pułapek: memory `project_agria_render_caching`.
-   Strony **307 / 310 / 320 renderują z `_elementor_data`, NIE z `post_content`** — edycja treści
-   posta nic tam nie zmienia.
+   **Od 14.09 (T-136) wszystkie 19 kart renderują z `post_content`** — 310 i 320 przełączone przez usunięcie
+   `_elementor_edit_mode`; ich `_elementor_data` (i #307) to martwe kopie, nie edytuj ich jako treści.
 3. **Sitemapa RankMath cache'uje się w PLIKACH** `uploads/rank-math/*.xml` — nie w bazie.
    Usuwanie przez FTP.
 4. **CDN nazwa.pl** — po każdej zmianie cache-bust, inaczej weryfikujesz stan sprzed godziny.
