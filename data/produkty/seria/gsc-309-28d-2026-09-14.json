@@ -1,0 +1,127 @@
+{
+ "okno": {
+  "startDate": "2026-08-14",
+  "endDate": "2026-09-10"
+ },
+ "pobrano": "2026-09-14T13:43:35",
+ "strony": {
+  "https://agria.pl/wapno-hydratyzowane/bielik/": {
+   "agregat": {
+    "clicks": 13,
+    "impressions": 544,
+    "ctr": 0.02389705882352941,
+    "position": 7.193014705882353
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "wapno hydratyzowane bielik"
+     ],
+     "clicks": 2,
+     "impressions": 39,
+     "ctr": 0.05128205128205128,
+     "position": 8.461538461538462
+    },
+    {
+     "keys": [
+      "wapno bielik cena"
+     ],
+     "clicks": 1,
+     "impressions": 27,
+     "ctr": 0.037037037037037035,
+     "position": 4.777777777777778
+    },
+    {
+     "keys": [
+      "bielik wapno"
+     ],
+     "clicks": 0,
+     "impressions": 15,
+     "ctr": 0,
+     "position": 10.266666666666667
+    },
+    {
+     "keys": [
+      "cao mgo"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 44
+    },
+    {
+     "keys": [
+      "cl 90"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "cl 90-s"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 9.333333333333334
+    },
+    {
+     "keys": [
+      "wapno bielik"
+     ],
+     "clicks": 0,
+     "impressions": 25,
+     "ctr": 0,
+     "position": 10.96
+    },
+    {
+     "keys": [
+      "wapno bielik 25 kg"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 15.5
+    },
+    {
+     "keys": [
+      "wapno bielik 30 kg cena"
+     ],
+     "clicks": 0,
+     "impressions": 24,
+     "ctr": 0,
+     "position": 10.916666666666666
+    },
+    {
+     "keys": [
+      "wapno budowlane bielik"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 8.75
+    },
+    {
+     "keys": [
+      "wapno do szamba"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 44
+    },
+    {
+     "keys": [
+      "wapno palone"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 4
+    }
+   ]
+  }
+ }
+}
