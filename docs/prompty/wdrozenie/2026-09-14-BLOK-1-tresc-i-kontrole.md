@@ -1,7 +1,8 @@
 # Blok 1, wątek treści i kontroli — 14–20.09.2026
 
 > **Projekt:** `agria` · **Zakres:** ryczałt R
-> **Sześć pozycji:** kontrola 15.09 · T-116 · T-117 · kontrola 18.09 · T-085 · T-093
+> **Sześć pozycji:** kontrola 15.09 · ~~T-116~~ · ~~T-117~~ · kontrola 18.09 · T-085 · T-093
+> ⚠️ **14.09: T-116 i T-117 przeniesione do T-136 `[J 14.09]`** — wykonuje je wątek kart (`docs/prompty/2026-09-14-PROMPT_T-136_KARTY_CIAG_DALSZY.md`). §2 i §3 poniżej zostają jako kontekst, **nie wykonuj ich tutaj**.
 > **Kontekst:** `docs/PLAN_WRZESIEN_2026.md` §7 (blok 1, pozycje 11–16)
 > **Poprzedni blok:** blok 0 domknięty 08.09, commity `4e49aed`, `dde4107`, `4c73caa`, `383b7d7`, `84f4965`
 >
@@ -85,7 +86,7 @@ i jednozdaniowym werdyktem.
 
 ---
 
-## 2. T-116 — tytuły i opisy kart
+## 2. T-116 — tytuły i opisy kart — ⚠️ PRZENIESIONE DO T-136 `[J 14.09]`
 
 **Objaw:** `oxyfertil-90` ma CTR **6,05%**, `weglanowe-odmiana-04` **0,97%** przy lepszej pozycji.
 Robocza teza z 03.09 mówiła, że różnicę robi nazwa własna w tytule.
@@ -116,7 +117,7 @@ w jednym przebiegu na tej karcie, żeby nie zapisywać do niej dwa razy.
 
 ---
 
-## 3. T-117 — dwie karty granulowane
+## 3. T-117 — dwie karty granulowane — ⚠️ PRZENIESIONE DO T-136 `[J 14.09]`
 
 | karta | wyświetlenia | kliknięcia | pozycja |
 |---|---|---|---|

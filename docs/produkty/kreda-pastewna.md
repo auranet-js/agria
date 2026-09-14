@@ -312,6 +312,13 @@ Dane: `data/produkty/dfs/serp-kredy-dolomit-2026-09-10.json`.
    frakcja 0–0,3 mm i worek 30 kg — Lhoist, pozostałe frakcje — Celiny.** Otwarte: czy cena 190 zł/t luz dotyczy obu źródeł.
 4. **Frakcje ↔ gatunki:** czy klient ma rozpisane, która frakcja idzie dla kur, a która dla bydła? Żaden z trzech dokumentów tego nie mówi.
 
+**14.09 — odpowiedzi klienta (Kazimierz Nowak, WhatsApp, przekazane przez Janka):**
+- pkt 2: 11.09 11:45 — „przeoczyliśmy (…) zapis zawartości wapnia w kredzie 37%CaO zamiast 37%Ca”. Karta PDF ma błąd; na stronie od 14.09
+  **„Ca min. 37%”** `[J 14.09]` (T-136 v2). Poprawioną kartę PDF Kazimierz z Pawłem mieli opracować i przesłać.
+- pkt 4: 09.09 — dawkowanie „jest zależne od (zastosowanej wcześniej mieszanki zbóż do produkcji paszy i zawartości wapnia w danych produktach
+  paszowych)”; karta podaje je ogólnie, bo Kazimierz miał kontakt tylko z kredą z Bukowej. **Dawek ani frakcji per gatunek nie ma.**
+- 11.09 — „Każdy z producentów ma swój numer weterynaryjny”; `PL21K274` to numer referencyjny karty [LB], nie numer weterynaryjny.
+
 **`[J 11.09]` Pytania 1 i 2 — na razie zostawiamy:** karta i strona bez zmian (37% CaO, pH >12, egzotermia). Dokumenty producentów
 przysłał Kazimierz na naszą prośbę (sprawa z 21.08); leżą w repo jako źródło na później.
 
