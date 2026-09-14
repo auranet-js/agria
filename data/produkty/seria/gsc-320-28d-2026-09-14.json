@@ -1,0 +1,46 @@
+{
+ "okno": {
+  "startDate": "2026-08-14",
+  "endDate": "2026-09-10"
+ },
+ "pobrano": "2026-09-14T18:36:28",
+ "strony": {
+  "https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone/": {
+   "agregat": {
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 8.571428571428571
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "\"oczyszczalniach\" \"ścieków\""
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 7.666666666666667
+    },
+    {
+     "keys": [
+      "wapno palone mielone"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 11
+    }
+   ]
+  },
+  "https://agria.pl/wapno-do-oczyszczalni/wapno-palone-mielone-wysokoreaktywne-luz-24t/": {
+   "agregat": {
+    "clicks": 7,
+    "impressions": 21,
+    "ctr": 0.3333333333333333,
+    "position": 1.9047619047619047
+   },
+   "zapytania": []
+  }
+ }
+}
