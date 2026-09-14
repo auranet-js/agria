@@ -207,7 +207,7 @@ Oczyszczalnie: kategoria `/wapno-do-oczyszczalni/` pokazuje tylko #320; #311 i #
 
 ## 5. Fakty pod decyzje D1–D4 (bez rekomendacji)
 
-**D1 — podział kategorii.** Dziś 15 z 19 produktów w jednej kategorii „Wapno nawozowe". Karty dzielą produkty na 9 rodzajów (§4.1),
+**D1 — podział kategorii.** `[J 11.09]`: karty modernizujemy przed D1 pod obecnymi adresami; jeśli D1 zmieni adresy produktów — 301 i ponowne zgłoszenia w GSC (koszt przyjęty). Dziś 15 z 19 produktów w jednej kategorii „Wapno nawozowe". Karty dzielą produkty na 9 rodzajów (§4.1),
 8 producentów (§4.2) i 6 zastosowań (§4.3). Popyt jest większy na rodzaj (§3.1: 13 fraz rodzajowych 720–6 600/mies.) niż na zastosowanie —
 wyjątki z popytem: drób ≈ 2 780, staw ≈ 1 870, trawnik/ogród ≈ 660. Oczyszczalnie: frazy małe (30–70), ale kategoria ma 304 wyśw.
 na frazach o osadach i 2 z 11 zapytań (#320). Żadna kategoria nie stoi w top 10 GSC na frazie rodzajowej — najlepsza: `wapno nawozowe` 11,1; w top 10 jest tylko karta #315 na `wapno węglanowe` (9,9).

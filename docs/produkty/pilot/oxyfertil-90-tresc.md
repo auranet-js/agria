@@ -14,6 +14,21 @@
 **Hipoteza:** po zmianie #312 podniesie CTR z 4,79% (15 klik. / 313 wyśw., 28 dni do 07.09) do co najmniej 7% i przejdzie na `oxyfertil 90`
 z poz. 4,9 na 1–3, bo w wyniku pojawią się producent i karta PDF, które ma konkurencja nad nami. **Kontrola: dzień wdrożenia + 28 dni.**
 
+## 1a. Mapa: fraza → miejsce na karcie
+
+| fraza (wyszukań/mies.) | gdzie pracuje |
+|---|---|
+| `oxyfertil 90` 10 · `wapno tlenkowe oxyfertil` 10 | title, H1 (nazwa WC), lead |
+| `wapno oxyfertil` 20 · `oxyfertil wapno` 10 · `oxyfertil lhoist` 10 | H2 „Wapno Oxyfertil 90 — wapno tlenkowe od Lhoist…", title („Lhoist"), meta |
+| `oxyfertil` 30 · PAA „Jakie jest wapno Oxyfertil?" | FAQ „Jakie jest wapno Oxyfertil 90?" |
+| PAA „Co daje wapno tlenkowe?" | FAQ „Co daje wapno tlenkowe Oxyfertil 90?" |
+| `oxyfertil zastosowanie` <10 · `oxyfertil dawkowanie` 10 · `wapno oxyfertil dawkowanie` 10 · PAA „Jaka dawka wapna tlenkowego na hektar?" | H2 „Oxyfertil 90 — zastosowanie i dawkowanie", FAQ „Oxyfertil 90 — dawkowanie: ile na hektar?", FAQ o osadach |
+| `oxyfertil czy agrobielik` <10 | H2 „Oxyfertil 90 czy Agrobielik 90?" (tabela), FAQ „…czym się różnią?" |
+| `oxyfertil 90 cena` 10 · `oxyfertil cena` 10 · `wapno oxyfertil cena` 10 · `oxyfertil big bag` <10 | H2 „Oxyfertil 90 — cena i dostawa w big-bagach", FAQ „Ile kosztuje…", lead (cena) |
+| nazwa + dokumenty (karty PDF dystrybutorów w top 5 SERP) | link do karty PDF pod specyfikacją, FAQ „Jakie dokumenty…" |
+
+**Schemat:** `Product` (nazwa = nazwa produktu, nie tytuł strony) + `offers` (bez zmian) + **`FAQPage` z 7 pytań**.
+
 ## 2. Meta
 
 | pole | dziś | nowe |
@@ -32,7 +47,7 @@ z poz. 4,9 na 1–3, bo w wyniku pojawią się producent i karta PDF, które ma 
 
 ## 4. Treść (`post_content`)
 
-### H2 Oxyfertil 90 — wapno tlenkowe od Lhoist dla oczyszczalni i rolnictwa
+### H2 Wapno Oxyfertil 90 — wapno tlenkowe od Lhoist dla oczyszczalni i rolnictwa
 
 Oxyfertil 90 to wapno tlenkowe o zawartości min. 90% CaO i bardzo wysokiej reaktywności, produkowane przez Lhoist. Przeznaczone jest
 do szybkiej neutralizacji kwasowości, higienizacji osadów ściekowych oraz interwencyjnego odkwaszania gleb. Reakcja jest egzotermiczna
@@ -42,7 +57,7 @@ W ofercie AGRII to drugie, obok Agrobielika 90, wapno tlenkowe o zawartości min
 Oczyszczalnie i duże gospodarstwa mają dzięki temu drugą ścieżkę dostawy — z magazynu AGRII albo bezpośrednio od producenta.
 Do przetargów i kontraktów wieloletnich przygotowujemy pełną dokumentację techniczną.
 
-### H2 Zastosowanie i dawkowanie
+### H2 Oxyfertil 90 — zastosowanie i dawkowanie
 
 - **Higienizacja osadów ściekowych** — 20–40% suchej masy osadu. Spełnia normy temperaturowe i sanitarne.
 - **Interwencyjne odkwaszanie gleb** — 1–3 t/ha. Podnosi pH i uzupełnia wapń pokarmowy; działa w 7–14 dni.
@@ -68,7 +83,7 @@ i formą dostawy.
 | Forma dostawy | big-bag 1000 kg | big-bag 1000 kg, luz 24 t | big-bag 1000 kg, luz 24 t |
 | Cena od (zł/t netto, bez transportu) | 790 w big-bagu | 850 luzem | 750 luzem |
 
-### H2 Specyfikacja techniczna
+### H2 Oxyfertil 90 — specyfikacja techniczna
 
 Tabela 1:1 z karty PDF. Wiersz „Forma dostawy" wraca `[J 11.09]`.
 
@@ -92,7 +107,7 @@ Tabela 1:1 z karty PDF. Wiersz „Forma dostawy" wraca `[J 11.09]`.
 
 Pod tabelą: **[Pobierz kartę produktu Oxyfertil 90 (PDF)](/wp-content/uploads/2026/06/agria-karta-produktu-oxyfertil-90.pdf)**
 
-### H2 Oxyfertil 90 — cena i dostawa
+### H2 Oxyfertil 90 — cena i dostawa w big-bagach
 
 **Oxyfertil 90** kosztuje **od 790 zł/t netto** w big-bagach od 1 tony.
 
@@ -103,18 +118,22 @@ transportem, samochodami od 3 do 24 t; koszt dostawy pod Twój adres podamy w wy
 
 ### H2 Najczęściej zadawane pytania
 
-**H3 Czym jest Oxyfertil 90?**
+**H3 Jakie jest wapno Oxyfertil 90?**
 To wapno nawozowe tlenkowe produkowane przez Lhoist: min. 90% CaO, forma kruszona, frakcja 3–8 mm, bardzo wysoka reaktywność
 i natychmiastowa reakcja egzotermiczna. Stosuje się je tam, gdzie pH trzeba podnieść szybko — w osadach ściekowych i przy interwencyjnym odkwaszaniu gleb.
 
-**H3 Ile Oxyfertilu 90 dać na hektar?**
+**H3 Co daje wapno tlenkowe Oxyfertil 90?**
+Podnosi pH i sanityzuje — w osadach ściekowych i w glebie. Karta produktu podaje trzy efekty: wzrost pH, sanityzację
+i uzupełnienie wapnia pokarmowego. Neutralizuje kwasowość szybko, bo reakcja jest egzotermiczna i natychmiastowa; efekt pojawia się w 7–14 dni.
+
+**H3 Oxyfertil 90 — dawkowanie: ile na hektar?**
 W rolnictwie karta produktu podaje 1–3 t/ha. To wapno do interwencyjnego odkwaszania — działa w 7–14 dni. Dawkę pod swoją glebę
 policzysz w [kalkulatorze wapnowania](/kalkulator-wapnowania/).
 
 **H3 Jak dawkuje się Oxyfertil 90 przy higienizacji osadów ściekowych?**
 20–40% suchej masy osadu. Oxyfertil 90 podnosi pH i sanityzuje osad; spełnia normy temperaturowe i sanitarne higienizacji.
 
-**H3 Czym Oxyfertil 90 różni się od Agrobielika 90?**
+**H3 Oxyfertil 90 czy Agrobielik 90 — czym się różnią?**
 Zawartość CaO (min. 90%), zastosowanie, dawkowanie i szybkość działania są na kartach obu produktów takie same. Oxyfertil 90 produkuje
 Lhoist, Agrobielik 90 — Nordkalk. Oxyfertil 90 ma frakcję 3–8 mm i jest dostępny w big-bagach, Agrobielik 90 — 2–8 mm lub 0–3 mm,
 w big-bagach i luzem. Zestawienie z cenami znajdziesz wyżej na tej stronie.
@@ -135,7 +154,7 @@ Agria — 37 lat doświadczenia na rynku nawozów wapniowych.
 
 ## 5. Schemat
 
-- `FAQPage` — 6 pytań z sekcji FAQ, treść 1:1. Generowane przy wdrożeniu (propozycja: ten sam filtr `rank_math/json_ld` w `seo-head.php`, który dokłada
+- `FAQPage` — 7 pytań z sekcji FAQ, treść 1:1. Generowane przy wdrożeniu (propozycja: ten sam filtr `rank_math/json_ld` w `seo-head.php`, który dokłada
   `offers`, czyta pary H3 → odpowiedź spod „Najczęściej zadawane pytania" — jedna zmiana dla wszystkich kart; wymaga Twojej zgody jako zmiana kodu).
 - `Product` / `offers` — bez zmian (790 PLN, `TNE`).
 

@@ -61,10 +61,10 @@ html = markdown.markdown("\n".join(linie), extensions=["tables"])
 
 def h2(m):
     tekst = m.group(1)
-    if tekst == "Specyfikacja techniczna":
-        return '<h2 id="specyfikacja-techniczna">Specyfikacja techniczna</h2>'
-    if tekst == "Najczęściej zadawane pytania":
-        return '<h2 id="najczciejzadawanepytania">Najczęściej zadawane pytania</h2>'
+    if "specyfikacja techniczna" in tekst.lower():
+        return f'<h2 id="specyfikacja-techniczna">{tekst}</h2>'
+    if "najczęściej zadawane pytania" in tekst.lower():
+        return f'<h2 id="najczciejzadawanepytania">{tekst}</h2>'
     kotwica = '<a name="lokalizacje"></a>\n' if "cena" in tekst.lower() else ""
     return f'{kotwica}<h2 id="{slug(tekst)}">{tekst}</h2>'
 

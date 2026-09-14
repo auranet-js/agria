@@ -16,6 +16,21 @@ Poza kartą: frazy dawkowe (hub), `wapno nawozowe węglanowe` (D1), `lhoist buko
 i zacznie zbierać wyświetlenia na `wapno węglanowe cena` i `cena za tonę` (dziś 3 wyśw.), bo w tytule pojawi się odmiana 04, a w opisie cena od 57 zł/t.
 **Kontrola: dzień wdrożenia + 28 dni.**
 
+## 1a. Mapa: fraza → miejsce na karcie
+
+| fraza (wyszukań/mies.) | gdzie pracuje |
+|---|---|
+| `wapno węglanowe` 1 000 · `wapno węglanowe bez magnezu` 10 · `wapno węglanowe sypkie` 20 | title, H1, H2 „Wapno węglanowe odmiana 04 — sypkie, bez magnezu, do gleb lekkich", lead |
+| `wapno odmiana 04` 30 · `wapno węglanowe odmiana 04` 10 · `wapno nawozowe odmiana 04` 10 · PAA „Co to jest wapno węglanowe?" | title, H1, FAQ „Co to jest wapno węglanowe odmiana 04?" |
+| PAA „Kiedy stosować wapno węglanowe?" | FAQ „Kiedy stosować…" (+ link do poradnika z terminami) |
+| PAA „Po jakim czasie działa…" · „Ile wapna węglanowego na hektar?" | H2 „…zastosowanie, dawkowanie i czas działania", FAQ „Po jakim czasie…", FAQ „Ile… na hektar?" (frazy dawkowe ogólne zostają przy hubie) |
+| PAA „…węglanowe czy magnezowe?" · „…sypkie czy granulowane?" · `wapno węglanowe czy magnezowe` 20 | H2 „Wapno węglanowe bez magnezu czy z magnezem, sypkie czy granulowane?" (tabela), dwa FAQ |
+| `wapno węglanowe cena` 70 · `wapno węglanowe cena za tonę` 90 | H2 „Wapno węglanowe — cena za tonę i dostawa", FAQ „Ile kosztuje tona…", lead, meta |
+| `wapno węglanowe luzem` <10 · `wapno węglanowe big bag` 20 · `wapno węglanowe 25 kg` <10 | H2 „Wapno węglanowe luzem, w big-bagach i workach 25 kg…", FAQ „mniej niż cały samochód" |
+| `wapno bukowa` 50 · `wapno celiny` 10 · PAA „Z jakiej kopalni jest najlepsze wapno?" | FAQ „Z jakiej kopalni…", sekcja magazynów, lead |
+
+**Schemat:** `Product` (nazwa produktu) + `offers` (bez zmian) + **`FAQPage` z 9 pytań**.
+
 ## 2. Meta
 
 | pole | dziś | nowe |
@@ -40,7 +55,7 @@ Odmiana 04 to klasyk wapna węglanowego — standard, który hurtownie i większ
 nie zawiera magnezu, ma reaktywność ~70–90%. Działa łagodnie i przewidywalnie: nie wypala próchnicy, nie wymaga specjalnych środków
 ostrożności przy wysiewie i jest bezpieczne dla gleb lekkich i piaszczystych.
 
-### H2 Zastosowanie, dawka i czas działania
+### H2 Wapno węglanowe odmiana 04 — zastosowanie, dawkowanie i czas działania
 
 - **Odkwaszanie gleb lekkich i piaszczystych** — dawka 1,5–6 t/ha.
 - **Efekt** — wzrost pH, poprawa struktury gleby, uzupełnienie wapnia pokarmowego.
@@ -50,13 +65,13 @@ ostrożności przy wysiewie i jest bezpieczne dla gleb lekkich i piaszczystych.
 Termin i technikę wapnowania opisujemy w poradniku [Jak stosować wapno nawozowe](/jak-stosowac-wapno-nawozowe/), dawki pod rodzaj gleby —
 w poradniku [Ile wapna na hektar](/wapnowanie-gleby/), a dawkę dla swojego pola policzysz w [kalkulatorze wapnowania](/kalkulator-wapnowania/).
 
-### H2 Cztery magazyny, trzy formy dostawy
+### H2 Wapno węglanowe luzem, w big-bagach i workach 25 kg — cztery magazyny
 
 Odmianę 04 wysyłamy z czterech magazynów: **Bukowa, Celiny, Górażdże i Tarnów Opolski**. Towar jedzie z punktu najbliższego Twojemu
 gospodarstwu, więc transport kosztuje mniej. Produkt jest ten sam w trzech formach — luzem całym samochodem, w big-bagach 1000 kg
 i w workach 25 kg — dla dużego gospodarstwa, hurtowni i małego gospodarstwa.
 
-### H2 Odmiana 04 bez magnezu a inne wapna węglanowe AGRII
+### H2 Wapno węglanowe bez magnezu czy z magnezem, sypkie czy granulowane?
 
 | | **Odmiana 04 bez magnezu** | [Odmiana 04 z magnezem](/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-04/) | [Węglanowe bez magnezu granulowane](/wapno-nawozowe-rolnictwo/weglanowe-granulowane/) | [Kreda nawozowa sypka](/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/) |
 |---|---|---|---|---|
@@ -68,7 +83,7 @@ i w workach 25 kg — dla dużego gospodarstwa, hurtowni i małego gospodarstwa.
 | Forma dostawy | luz, big-bag 1000 kg, worek 25 kg | luz | big-bag 500/600 kg, worek 25 kg | luz |
 | Cena od (zł/t netto, bez transportu) | 57 luzem | 50 luzem | 350 w big-bagu | 125 luzem |
 
-### H2 Specyfikacja techniczna
+### H2 Wapno węglanowe odmiana 04 — specyfikacja techniczna
 
 Tabela 1:1 z karty PDF. Wiersz „Forma dostawy" wraca `[J 11.09]`.
 
@@ -92,7 +107,7 @@ Tabela 1:1 z karty PDF. Wiersz „Forma dostawy" wraca `[J 11.09]`.
 
 Pod tabelą: **[Pobierz kartę produktu — wapno węglanowe odmiana 04 (PDF)](/wp-content/uploads/2026/06/agria-karta-produktu-weglanowe-odmiana-04.pdf)**
 
-### H2 Wapno węglanowe odmiana 04 — cena i dostawa
+### H2 Wapno węglanowe — cena za tonę i dostawa
 
 **Wapno węglanowe odmiana 04** kosztuje **od 57 zł/t netto** luzem, przy dostawie całosamochodowej. Produkt jest dostępny także w big-bagach
 1000 kg i w workach 25 kg, w sprzedaży hurtowej.
@@ -107,6 +122,10 @@ Dowozimy własnym transportem, samochodami od 3 do 24 t, z najbliższego z czter
 To sypkie wapno nawozowe węglanowe bez magnezu: min. 50% CaO, frakcja 0–2 mm, reaktywność ~70–90%. Działa łagodnie i długo, dlatego
 nadaje się do gleb lekkich i piaszczystych — nie wypala próchnicy i nie wymaga specjalnych środków ostrożności przy wysiewie.
 
+**H3 Kiedy stosować wapno węglanowe odmiana 04?**
+Na glebach lekkich i piaszczystych, gdy odczyn trzeba korygować łagodnie i na dłużej — karta produktu podaje działanie przez 3–6 miesięcy
+i dostępność przez cały rok. Termin wapnowania w sezonie opisujemy w poradniku [Jak stosować wapno nawozowe](/jak-stosowac-wapno-nawozowe/).
+
 **H3 Ile wapna węglanowego odmiana 04 dać na hektar?**
 Karta produktu podaje 1,5–6 t/ha. Dawkę pod odczyn i rodzaj Twojej gleby policzysz w [kalkulatorze wapnowania](/kalkulator-wapnowania/).
 
@@ -117,6 +136,15 @@ Odmiana 04 działa długotrwale — daje 3–6 miesięcy stabilnej korekty pH, b
 AGRIA ma odmianę 04 w obu wersjach. Wersja bez magnezu zawiera min. 50% CaO, wersja z magnezem — min. 41% CaO i min. 8% MgO; frakcja 0–2 mm,
 dawka 1,5–6 t/ha i czas działania są takie same. Wersja z magnezem służy do odkwaszania gleb lekkich z uzupełnieniem magnezu.
 Zestawienie z cenami jest wyżej na tej stronie.
+
+**H3 Wapno węglanowe sypkie czy granulowane?**
+Oba mają min. 50% CaO i działają 3–6 miesięcy. Sypka odmiana 04 (frakcja 0–2 mm, dawka 1,5–6 t/ha) jest luzem, w big-bagach
+i w workach 25 kg, od 57 zł/t luzem. [Granulat 3–6 mm](/wapno-nawozowe-rolnictwo/weglanowe-granulowane/) wysiewa się standardowym
+siewnikiem nawozowym razem z NPK, bez pyłu — jest w big-bagach 500/600 kg i w workach 25 kg, od 350 zł/t w big-bagu.
+
+**H3 Z jakiej kopalni jest wapno węglanowe odmiana 04?**
+Produkują je Lhoist i kopalnia Celiny (Hochel Group). Wysyłamy je z czterech magazynów: Bukowa, Celiny, Górażdże i Tarnów Opolski —
+z tego, który jest najbliżej Ciebie.
 
 **H3 Ile kosztuje tona wapna węglanowego i czy dowozicie?**
 Odmiana 04 kosztuje od 57 zł/t netto luzem, przy dostawie całosamochodowej — to cena za towar, bez transportu. Dowozimy własnym transportem
@@ -132,7 +160,7 @@ wozimy samochodami od 3 do 24 t.
 
 ## 5. Schemat
 
-- `FAQPage` — 6 pytań z sekcji FAQ, 1:1 (mechanizm jak w pliku #312 §5).
+- `FAQPage` — 9 pytań z sekcji FAQ, 1:1 (mechanizm jak w pliku #312 §5).
 - `Product` / `offers` — bez zmian (57 PLN, `TNE`). Atrybut `pa_agria-marka` (Bukowiak, Opolwiak) zostaje w schemacie — to atrybut WC, nie treść; do rozstrzygnięcia przy D1 / atrybutach, nie w pilocie.
 
 ## 6. Decyzje przy akcepcie
