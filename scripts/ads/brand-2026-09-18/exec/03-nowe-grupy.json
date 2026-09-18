@@ -1,0 +1,22 @@
+{
+ "operations": [
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "name": "Bielik - wapno hydratyzowane",
+    "status": "ENABLED",
+    "type": "SEARCH_STANDARD",
+    "cpcBidMicros": "1500000"
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "name": "Oxyfertil 90",
+    "status": "ENABLED",
+    "type": "SEARCH_STANDARD",
+    "cpcBidMicros": "1500000"
+   }
+  }
+ ]
+}

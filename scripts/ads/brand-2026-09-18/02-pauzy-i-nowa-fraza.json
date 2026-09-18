@@ -1,0 +1,57 @@
+{
+ "_opis": "Pauza fraz martwych i produktowych w grupie Brand (198590178225) + dodanie 'agria niedomice' (50/mies wg DFS 18.09, brak w kampanii). PAUSED, nie REMOVED - odwracalne, historia zostaje.",
+ "_endpoint": "/adGroupCriteria:mutate",
+ "_pauzowane": {
+  "2441051923129": "agrobielik [scisle] - QS 1, 9 wysw./5 tyg., ZERO zapytan organicznych w 90 dni",
+  "2495532274026": "agrobielik [frazowe] - QS 1, 12 wysw./5 tyg.",
+  "2495532274066": "ekograncali [frazowe] - 0 wyswietlen w Ads, 0 w organiku",
+  "1658595515495": "bielik wapno [frazowe] - przenoszone do wlasnej grupy z karta #309",
+  "426600407945": "oxyfertil [frazowe] - przenoszone do wlasnej grupy z karta #312"
+ },
+ "operations": [
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2441051923129",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2495532274026",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2495532274066",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~1658595515495",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~426600407945",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/198590178225",
+    "keyword": {
+     "text": "agria niedomice",
+     "matchType": "PHRASE"
+    }
+   }
+  }
+ ]
+}

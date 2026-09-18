@@ -1,0 +1,264 @@
+{
+ "operations": [
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "ziemniaki",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "ziemniak",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "sadzeniaki",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "odmiana",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "traktorek",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "glebogryzarka",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "kosiarka",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "ciagnik jednoosiowy",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "ciągnik",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "części",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "silnik",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "maszyny",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "serwis",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "dane techniczne",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "2400",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "2100",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "4800",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "1600",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "grecja",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "insurance",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "ubezpieczenie",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "ditianon",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "crema",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "praca",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "allegro",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "campaign": "customers/6742071446/campaigns/24131649588",
+    "negative": true,
+    "keyword": {
+     "text": "olx",
+     "matchType": "PHRASE"
+    }
+   }
+  }
+ ]
+}

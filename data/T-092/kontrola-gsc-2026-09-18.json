@@ -1,0 +1,484 @@
+{
+ "przed": {
+  "start": "2026-08-25",
+  "koniec": "2026-09-04",
+  "frazy": {
+   "wapno węglanowe": {
+    "wyswietlenia": 340,
+    "klikniecia": 0,
+    "pozycja_wazona": 15.42,
+    "url_ow": 5,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+      "wysw": 42,
+      "klik": 0,
+      "poz": 31.86
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+      "wysw": 21,
+      "klik": 0,
+      "poz": 47.71
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+      "wysw": 11,
+      "klik": 0,
+      "poz": 25.55
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+      "wysw": 265,
+      "klik": 0,
+      "poz": 9.89
+     },
+     {
+      "url": "/wapnowanie-gleby/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 2
+     }
+    ]
+   },
+   "kreda nawozowa": {
+    "wyswietlenia": 23,
+    "klikniecia": 0,
+    "pozycja_wazona": 22.96,
+    "url_ow": 3,
+    "url_i": [
+     {
+      "url": "/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 6
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+      "wysw": 17,
+      "klik": 0,
+      "poz": 22.18
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+      "wysw": 5,
+      "klik": 0,
+      "poz": 29
+     }
+    ]
+   },
+   "wapno tlenkowe": {
+    "wyswietlenia": 9,
+    "klikniecia": 0,
+    "pozycja_wazona": 24.33,
+    "url_ow": 2,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+      "wysw": 8,
+      "klik": 0,
+      "poz": 27.12
+     },
+     {
+      "url": "/wapnowanie-gleby/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 2
+     }
+    ]
+   },
+   "wapno nawozowe": {
+    "wyswietlenia": 280,
+    "klikniecia": 0,
+    "pozycja_wazona": 9.27,
+    "url_ow": 2,
+    "url_i": [
+     {
+      "url": "/",
+      "wysw": 104,
+      "klik": 0,
+      "poz": 6.02
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/",
+      "wysw": 176,
+      "klik": 0,
+      "poz": 11.19
+     }
+    ]
+   },
+   "wapno węglanowe granulowane": {
+    "wyswietlenia": 58,
+    "klikniecia": 0,
+    "pozycja_wazona": 22.4,
+    "url_ow": 3,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+      "wysw": 26,
+      "klik": 0,
+      "poz": 16.46
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+      "wysw": 25,
+      "klik": 0,
+      "poz": 34.28
+     },
+     {
+      "url": "/wapnowanie-gleby/",
+      "wysw": 7,
+      "klik": 0,
+      "poz": 2
+     }
+    ]
+   },
+   "kreda nawozowa sypka": {
+    "wyswietlenia": 27,
+    "klikniecia": 0,
+    "pozycja_wazona": 8.41,
+    "url_ow": 3,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/",
+      "wysw": 7,
+      "klik": 0,
+      "poz": 9.71
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+      "wysw": 3,
+      "klik": 0,
+      "poz": 20.33
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+      "wysw": 17,
+      "klik": 0,
+      "poz": 5.76
+     }
+    ]
+   },
+   "wapno nawozowe tlenkowe": {
+    "wyswietlenia": 34,
+    "klikniecia": 0,
+    "pozycja_wazona": 13.09,
+    "url_ow": 3,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+      "wysw": 5,
+      "klik": 0,
+      "poz": 9.4
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/oxyfertil-90/",
+      "wysw": 2,
+      "klik": 0,
+      "poz": 12.5
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+      "wysw": 27,
+      "klik": 0,
+      "poz": 13.81
+     }
+    ]
+   },
+   "wapno nawozowe węglanowe": {
+    "wyswietlenia": 80,
+    "klikniecia": 0,
+    "pozycja_wazona": 21.9,
+    "url_ow": 4,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+      "wysw": 33,
+      "klik": 0,
+      "poz": 13.91
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+      "wysw": 25,
+      "klik": 0,
+      "poz": 32.12
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+      "wysw": 18,
+      "klik": 0,
+      "poz": 25
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+      "wysw": 4,
+      "klik": 0,
+      "poz": 10
+     }
+    ]
+   }
+  }
+ },
+ "po": {
+  "start": "2026-09-05",
+  "koniec": "2026-09-15",
+  "frazy": {
+   "wapno węglanowe": {
+    "wyswietlenia": 451,
+    "klikniecia": 0,
+    "pozycja_wazona": 11.9,
+    "url_ow": 5,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-na-trawnik/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 7
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+      "wysw": 107,
+      "klik": 0,
+      "poz": 14.66
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+      "wysw": 9,
+      "klik": 0,
+      "poz": 46.89
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 59
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+      "wysw": 333,
+      "klik": 0,
+      "poz": 9.93
+     }
+    ]
+   },
+   "kreda nawozowa": {
+    "wyswietlenia": 42,
+    "klikniecia": 0,
+    "pozycja_wazona": 10.76,
+    "url_ow": 5,
+    "url_i": [
+     {
+      "url": "/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 11
+     },
+     {
+      "url": "/wapno-nawozowe-na-trawnik/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 3
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+      "wysw": 36,
+      "klik": 0,
+      "poz": 9.97
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+      "wysw": 3,
+      "klik": 0,
+      "poz": 25.67
+     },
+     {
+      "url": "/wapnowanie-gleby/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 2
+     }
+    ]
+   },
+   "wapno tlenkowe": {
+    "wyswietlenia": 17,
+    "klikniecia": 0,
+    "pozycja_wazona": 22.24,
+    "url_ow": 4,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 3
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/mieszanka-tlenkowo-weglanowa/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 23
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+      "wysw": 14,
+      "klik": 0,
+      "poz": 25
+     },
+     {
+      "url": "/wapnowanie-gleby/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 2
+     }
+    ]
+   },
+   "wapno nawozowe": {
+    "wyswietlenia": 500,
+    "klikniecia": 1,
+    "pozycja_wazona": 8.72,
+    "url_ow": 3,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/",
+      "wysw": 402,
+      "klik": 1,
+      "poz": 9.38
+     },
+     {
+      "url": "/",
+      "wysw": 97,
+      "klik": 0,
+      "poz": 6.08
+     },
+     {
+      "url": "/wapno-nawozowe-na-trawnik/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 2
+     }
+    ]
+   },
+   "wapno węglanowe granulowane": {
+    "wyswietlenia": 42,
+    "klikniecia": 0,
+    "pozycja_wazona": 20.33,
+    "url_ow": 3,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+      "wysw": 28,
+      "klik": 0,
+      "poz": 14.46
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+      "wysw": 13,
+      "klik": 0,
+      "poz": 34.38
+     },
+     {
+      "url": "/wapnowanie-gleby/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 2
+     }
+    ]
+   },
+   "kreda nawozowa sypka": {
+    "wyswietlenia": 34,
+    "klikniecia": 3,
+    "pozycja_wazona": 5.41,
+    "url_ow": 3,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+      "wysw": 27,
+      "klik": 3,
+      "poz": 3.96
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/",
+      "wysw": 5,
+      "klik": 0,
+      "poz": 10
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+      "wysw": 2,
+      "klik": 0,
+      "poz": 13.5
+     }
+    ]
+   },
+   "wapno nawozowe tlenkowe": {
+    "wyswietlenia": 32,
+    "klikniecia": 0,
+    "pozycja_wazona": 11.34,
+    "url_ow": 4,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/",
+      "wysw": 4,
+      "klik": 0,
+      "poz": 7.25
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+      "wysw": 3,
+      "klik": 0,
+      "poz": 8.33
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+      "wysw": 24,
+      "klik": 0,
+      "poz": 12.75
+     },
+     {
+      "url": "/wapnowanie-gleby/",
+      "wysw": 1,
+      "klik": 0,
+      "poz": 3
+     }
+    ]
+   },
+   "wapno nawozowe węglanowe": {
+    "wyswietlenia": 79,
+    "klikniecia": 0,
+    "pozycja_wazona": 20.72,
+    "url_ow": 5,
+    "url_i": [
+     {
+      "url": "/wapno-nawozowe-rolnictwo/",
+      "wysw": 6,
+      "klik": 0,
+      "poz": 9.17
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+      "wysw": 33,
+      "klik": 0,
+      "poz": 14.7
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+      "wysw": 18,
+      "klik": 0,
+      "poz": 36
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+      "wysw": 15,
+      "klik": 0,
+      "poz": 26.13
+     },
+     {
+      "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+      "wysw": 7,
+      "klik": 0,
+      "poz": 8.14
+     }
+    ]
+   }
+  }
+ }
+}

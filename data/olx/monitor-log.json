@@ -214,5 +214,37 @@
   "bez_auto_extend": 0,
   "brak_na_koncie": 0,
   "dni_pakietu": 2
+ },
+ {
+  "kiedy": "2026-09-15 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 1
+ },
+ {
+  "kiedy": "2026-09-16 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 0
+ },
+ {
+  "kiedy": "2026-09-17 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 29
+ },
+ {
+  "kiedy": "2026-09-18 07:25",
+  "w_rejestrze": 200,
+  "poza_active": 0,
+  "bez_auto_extend": 0,
+  "brak_na_koncie": 0,
+  "dni_pakietu": 28
  }
 ]

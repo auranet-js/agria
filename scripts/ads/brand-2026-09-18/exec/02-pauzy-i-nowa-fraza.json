@@ -1,0 +1,48 @@
+{
+ "operations": [
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2441051923129",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2495532274026",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2495532274066",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~1658595515495",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "update": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~426600407945",
+    "status": "PAUSED"
+   },
+   "updateMask": "status"
+  },
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/198590178225",
+    "keyword": {
+     "text": "agria niedomice",
+     "matchType": "PHRASE"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "_opis": "Frazy w dwoch nowych grupach. Wolumeny organiczne z GSC 90 dni: 'bielik' 308 wysw. na poz. 17,2 (Ads ma sens), 'oxyfertil' 211 wysw. na poz. 4,8 (organik obsluguje - stawka nizsza, rola obronna).",
+ "_endpoint": "/adGroupCriteria:mutate",
+ "_uwaga": "Podmien 200358090717 i 200358090877 na wartosci z kroku 03.",
+ "operations": [
+  {"create": {"adGroup": "customers/6742071446/adGroups/200358090717", "keyword": {"text": "bielik wapno", "matchType": "PHRASE"}}},
+  {"create": {"adGroup": "customers/6742071446/adGroups/200358090717", "keyword": {"text": "wapno bielik", "matchType": "PHRASE"}}},
+  {"create": {"adGroup": "customers/6742071446/adGroups/200358090717", "keyword": {"text": "wapno hydratyzowane bielik", "matchType": "PHRASE"}}},
+  {"create": {"adGroup": "customers/6742071446/adGroups/200358090877", "keyword": {"text": "oxyfertil", "matchType": "PHRASE"}, "cpcBidMicros": "1200000"}},
+  {"create": {"adGroup": "customers/6742071446/adGroups/200358090877", "keyword": {"text": "oxyfertil 90", "matchType": "PHRASE"}, "cpcBidMicros": "1200000"}}
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "operations": [
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/200358090717",
+    "keyword": {
+     "text": "bielik wapno",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/200358090717",
+    "keyword": {
+     "text": "wapno bielik",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/200358090717",
+    "keyword": {
+     "text": "wapno hydratyzowane bielik",
+     "matchType": "PHRASE"
+    }
+   }
+  },
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/200358090877",
+    "keyword": {
+     "text": "oxyfertil",
+     "matchType": "PHRASE"
+    },
+    "cpcBidMicros": "1200000"
+   }
+  },
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/200358090877",
+    "keyword": {
+     "text": "oxyfertil 90",
+     "matchType": "PHRASE"
+    },
+    "cpcBidMicros": "1200000"
+   }
+  }
+ ]
+}

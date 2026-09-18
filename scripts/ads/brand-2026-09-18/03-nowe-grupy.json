@@ -1,0 +1,9 @@
+{
+ "_opis": "Dwie nowe grupy w kampanii Marka - jedna na produkt, bo strona docelowa jest atrybutem reklamy, nie frazy. Powod: w grupie Brand frazy firmowe maja QS 8-10 (strona glowna = wlasciwa odpowiedz), a produktowe QS 1-3 (strona glowna = zla odpowiedz).",
+ "_endpoint": "/adGroups:mutate",
+ "_po_wykonaniu": "Zapisz ID obu grup - sa potrzebne w plikach 04 i 05.",
+ "operations": [
+  {"create": {"campaign": "customers/6742071446/campaigns/24131649588", "name": "Bielik - wapno hydratyzowane", "status": "ENABLED", "type": "SEARCH_STANDARD", "cpcBidMicros": "1500000"}},
+  {"create": {"campaign": "customers/6742071446/campaigns/24131649588", "name": "Oxyfertil 90", "status": "ENABLED", "type": "SEARCH_STANDARD", "cpcBidMicros": "1500000"}}
+ ]
+}

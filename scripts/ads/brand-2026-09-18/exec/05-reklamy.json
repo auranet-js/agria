@@ -1,0 +1,156 @@
+{
+ "operations": [
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/200358090717",
+    "status": "ENABLED",
+    "ad": {
+     "finalUrls": [
+      "https://agria.pl/wapno-hydratyzowane/bielik/"
+     ],
+     "responsiveSearchAd": {
+      "path1": "wapno",
+      "path2": "bielik",
+      "headlines": [
+       {
+        "text": "Wapno Bielik od 945 zł/t"
+       },
+       {
+        "text": "Wapno hydratyzowane Bielik"
+       },
+       {
+        "text": "Bielik – luz i worek 25 kg"
+       },
+       {
+        "text": "Wapno gaszone fabrycznie"
+       },
+       {
+        "text": "Min. 90% CaO, bez egzotermii"
+       },
+       {
+        "text": "Dostawa własną flotą 3-24 t"
+       },
+       {
+        "text": "Wapno budowlane CL 90-S"
+       },
+       {
+        "text": "Zapytaj o ofertę – podaj tonaż"
+       },
+       {
+        "text": "Producent Nordkalk"
+       },
+       {
+        "text": "Magazyny Niedomice i Sitkówka"
+       },
+       {
+        "text": "Karta produktu i atesty"
+       },
+       {
+        "text": "Dostawca wapna od 1989 r."
+       },
+       {
+        "text": "Bielik – cena za tonę"
+       },
+       {
+        "text": "Wycena dla firm i gospodarstw"
+       },
+       {
+        "text": "Ca(OH)2 – wapno gaszone"
+       }
+      ],
+      "descriptions": [
+       {
+        "text": "Wapno hydratyzowane Bielik od 945 zł/t netto luzem. Cena za towar, bez transportu."
+       },
+       {
+        "text": "Gaszone fabrycznie, min. 90% CaO, pH >13. Luz i worek 25 kg z magazynu Niedomice."
+       },
+       {
+        "text": "Producent Nordkalk, klasa CL 90-S. Karta produktu i atest dostępne na stronie."
+       },
+       {
+        "text": "Podaj tonaż i lokalizację – przygotujemy wycenę z dostawą własną flotą."
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "create": {
+    "adGroup": "customers/6742071446/adGroups/200358090877",
+    "status": "ENABLED",
+    "ad": {
+     "finalUrls": [
+      "https://agria.pl/wapno-nawozowe-rolnictwo/oxyfertil-90/"
+     ],
+     "responsiveSearchAd": {
+      "path1": "wapno",
+      "path2": "oxyfertil",
+      "headlines": [
+       {
+        "text": "Oxyfertil 90 od 790 zł/t"
+       },
+       {
+        "text": "Wapno tlenkowe Oxyfertil"
+       },
+       {
+        "text": "Oxyfertil w big-bagu 1000 kg"
+       },
+       {
+        "text": "Producent Lhoist"
+       },
+       {
+        "text": "Frakcja 3-8 mm, kruszone"
+       },
+       {
+        "text": "Wapno tlenkowe dla rolnictwa"
+       },
+       {
+        "text": "Zapytaj o ofertę – podaj tonaż"
+       },
+       {
+        "text": "Dostawa własną flotą 3-24 t"
+       },
+       {
+        "text": "Dla oczyszczalni i gospodarstw"
+       },
+       {
+        "text": "Karta produktu i atesty"
+       },
+       {
+        "text": "Oxyfertil 90 – cena za tonę"
+       },
+       {
+        "text": "Dostawca wapna od 1989 r."
+       },
+       {
+        "text": "Wapno tlenkowe kruszone"
+       },
+       {
+        "text": "Wycena dla gospodarstw"
+       },
+       {
+        "text": "Big-bag 1000 kg od 1 tony"
+       }
+      ],
+      "descriptions": [
+       {
+        "text": "Oxyfertil 90 od 790 zł/t netto w big-bagach od 1 tony. Cena za towar, bez transportu."
+       },
+       {
+        "text": "Wapno tlenkowe od Lhoist, frakcja 3-8 mm. Dostawa własną flotą 3-24 t."
+       },
+       {
+        "text": "Karta produktu i atesty na stronie. Znasz parametry przed zamówieniem."
+       },
+       {
+        "text": "Podaj tonaż i lokalizację – przygotujemy wycenę z dostawą. Big-bag 1000 kg."
+       }
+      ]
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "operations": [
+  {
+   "update": {
+    "resourceName": "customers/6742071446/campaignBudgets/15792260073",
+    "amountMicros": "28000000"
+   },
+   "updateMask": "amount_micros"
+  }
+ ]
+}
