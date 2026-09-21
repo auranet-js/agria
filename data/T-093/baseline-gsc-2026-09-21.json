@@ -1,0 +1,182 @@
+{
+ "okno": {
+  "startDate": "2026-08-21",
+  "endDate": "2026-09-17"
+ },
+ "pobrano": "2026-09-21T09:49:13",
+ "strony": {
+  "https://agria.pl/wapno-do-oczyszczalni/": {
+   "agregat": {
+    "clicks": 12,
+    "impressions": 458,
+    "ctr": 0.026200873362445413,
+    "position": 9.124454148471616
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "higienizacja osadów"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 14
+    },
+    {
+     "keys": [
+      "higienizacja osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 78,
+     "ctr": 0,
+     "position": 14.807692307692308
+    },
+    {
+     "keys": [
+      "jakie wapno do szamba"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "proces higienizacji osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 20,
+     "ctr": 0,
+     "position": 19.95
+    },
+    {
+     "keys": [
+      "urządzenie do higienizacji osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 20,
+     "ctr": 0,
+     "position": 9.75
+    },
+    {
+     "keys": [
+      "wapno do szamba"
+     ],
+     "clicks": 0,
+     "impressions": 55,
+     "ctr": 0,
+     "position": 10.309090909090909
+    },
+    {
+     "keys": [
+      "wapnowanie osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 52,
+     "ctr": 0,
+     "position": 12.846153846153847
+    }
+   ]
+  },
+  "https://agria.pl/higienizacja-osadow-sciekowych-wapnem/": {
+   "agregat": {
+    "clicks": 2,
+    "impressions": 157,
+    "ctr": 0.012738853503184714,
+    "position": 10.579617834394904
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "osad z oczyszczalni"
+     ],
+     "clicks": 1,
+     "impressions": 1,
+     "ctr": 1,
+     "position": 3
+    },
+    {
+     "keys": [
+      "\"oczyszczalniach\" \"ścieków\""
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "higienizacja osadu"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 14.285714285714286
+    },
+    {
+     "keys": [
+      "higienizacja osadów"
+     ],
+     "clicks": 0,
+     "impressions": 10,
+     "ctr": 0,
+     "position": 23.2
+    },
+    {
+     "keys": [
+      "higienizacja osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 8,
+     "ctr": 0,
+     "position": 33.625
+    },
+    {
+     "keys": [
+      "proces higienizacji osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 30.5
+    },
+    {
+     "keys": [
+      "redukcja pylenia materiałów sypkich"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 42
+    },
+    {
+     "keys": [
+      "stabilizacja wapnem"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 49.166666666666664
+    },
+    {
+     "keys": [
+      "urządzenie do higienizacji osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 22
+    },
+    {
+     "keys": [
+      "wapnowanie osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 32.5
+    }
+   ]
+  }
+ }
+}
