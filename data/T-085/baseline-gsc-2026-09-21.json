@@ -1,0 +1,318 @@
+{
+ "okno": {
+  "startDate": "2026-08-21",
+  "endDate": "2026-09-17"
+ },
+ "pobrano": "2026-09-21T16:28:35",
+ "strony": {
+  "https://agria.pl/wapno-hydratyzowane/": {
+   "agregat": {
+    "clicks": 2,
+    "impressions": 122,
+    "ctr": 0.01639344262295082,
+    "position": 30.024590163934427
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "agria tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 12,
+     "ctr": 0,
+     "position": 1.6666666666666665
+    },
+    {
+     "keys": [
+      "bielik wapno"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 53
+    },
+    {
+     "keys": [
+      "gdzie kupic"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 11
+    },
+    {
+     "keys": [
+      "hydrat olkusz"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 49.5
+    },
+    {
+     "keys": [
+      "hydratyzowane"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 37
+    },
+    {
+     "keys": [
+      "wapna hydrauliczne"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 46
+    },
+    {
+     "keys": [
+      "wapno bielik"
+     ],
+     "clicks": 0,
+     "impressions": 8,
+     "ctr": 0,
+     "position": 50.125
+    },
+    {
+     "keys": [
+      "wapno bielik 30 kg cena"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 37
+    },
+    {
+     "keys": [
+      "wapno budowlane tarnów"
+     ],
+     "clicks": 0,
+     "impressions": 10,
+     "ctr": 0,
+     "position": 85.6
+    },
+    {
+     "keys": [
+      "wapno do zaprawy"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 21
+    },
+    {
+     "keys": [
+      "wapno hydratyzowane"
+     ],
+     "clicks": 0,
+     "impressions": 38,
+     "ctr": 0,
+     "position": 39.55263157894737
+    },
+    {
+     "keys": [
+      "wapno hydratyzowane cena za tonę"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 31
+    },
+    {
+     "keys": [
+      "wapno tynkarskie"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 37
+    }
+   ]
+  },
+  "https://agria.pl/wapno-hydratyzowane/bielik/": {
+   "agregat": {
+    "clicks": 10,
+    "impressions": 584,
+    "ctr": 0.017123287671232876,
+    "position": 7.256849315068493
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "wapno bielik cena"
+     ],
+     "clicks": 1,
+     "impressions": 31,
+     "ctr": 0.03225806451612903,
+     "position": 5.096774193548387
+    },
+    {
+     "keys": [
+      "bielik wapno"
+     ],
+     "clicks": 0,
+     "impressions": 16,
+     "ctr": 0,
+     "position": 10.0625
+    },
+    {
+     "keys": [
+      "cl 90"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "cl 90-s"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 9.333333333333334
+    },
+    {
+     "keys": [
+      "wapno bielik"
+     ],
+     "clicks": 0,
+     "impressions": 17,
+     "ctr": 0,
+     "position": 12.529411764705882
+    },
+    {
+     "keys": [
+      "wapno bielik 25 kg"
+     ],
+     "clicks": 0,
+     "impressions": 5,
+     "ctr": 0,
+     "position": 14.6
+    },
+    {
+     "keys": [
+      "wapno bielik 25 kg cena"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 13
+    },
+    {
+     "keys": [
+      "wapno bielik 30 kg cena"
+     ],
+     "clicks": 0,
+     "impressions": 31,
+     "ctr": 0,
+     "position": 9.96774193548387
+    },
+    {
+     "keys": [
+      "wapno budowlane bielik"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "wapno do szamba"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 46.5
+    },
+    {
+     "keys": [
+      "wapno hydratyzowane bielik"
+     ],
+     "clicks": 0,
+     "impressions": 39,
+     "ctr": 0,
+     "position": 8.897435897435898
+    }
+   ]
+  },
+  "https://agria.pl/wapno-do-oczyszczalni/": {
+   "agregat": {
+    "clicks": 12,
+    "impressions": 458,
+    "ctr": 0.026200873362445413,
+    "position": 9.124454148471616
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "higienizacja osadów"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 14
+    },
+    {
+     "keys": [
+      "higienizacja osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 78,
+     "ctr": 0,
+     "position": 14.807692307692308
+    },
+    {
+     "keys": [
+      "jakie wapno do szamba"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "proces higienizacji osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 20,
+     "ctr": 0,
+     "position": 19.95
+    },
+    {
+     "keys": [
+      "urządzenie do higienizacji osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 20,
+     "ctr": 0,
+     "position": 9.75
+    },
+    {
+     "keys": [
+      "wapno do szamba"
+     ],
+     "clicks": 0,
+     "impressions": 55,
+     "ctr": 0,
+     "position": 10.309090909090909
+    },
+    {
+     "keys": [
+      "wapnowanie osadów ściekowych"
+     ],
+     "clicks": 0,
+     "impressions": 52,
+     "ctr": 0,
+     "position": 12.846153846153847
+    }
+   ]
+  }
+ }
+}

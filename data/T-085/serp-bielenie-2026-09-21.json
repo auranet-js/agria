@@ -1,0 +1,4563 @@
+{
+ "wapno do bielenia drzew": {
+  "keyword": "wapno do bielenia drzew",
+  "type": "organic",
+  "se_domain": "google.com",
+  "location_code": 2616,
+  "language_code": "pl",
+  "check_url": "https://www.google.com/search?q=wapno%20do%20bielenia%20drzew&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ&hl=pl&gl=PL",
+  "datetime": "2026-09-21 15:06:57 +00:00",
+  "spell": null,
+  "refinement_chips": null,
+  "item_types": [
+   "ai_overview",
+   "short_videos",
+   "people_also_ask",
+   "people_also_search",
+   "organic",
+   "video",
+   "shopping",
+   "images"
+  ],
+  "se_results_count": 0,
+  "pages_count": 2,
+  "items_count": 26,
+  "items": [
+   {
+    "type": "ai_overview",
+    "rank_group": 1,
+    "rank_absolute": 1,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "asynchronous_ai_overview": true,
+    "markdown": null,
+    "items": null,
+    "references": null,
+    "rectangle": null
+   },
+   {
+    "type": "short_videos",
+    "rank_group": 1,
+    "rank_absolute": 2,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+    "title": "Krótkie filmy",
+    "items": [
+     {
+      "type": "short_videos_element",
+      "title": "Wapno do odkwaszania i bielenia drzew – podwójna ochrona w ..., autor: Sumin - w trosce o rośliny, opublikowano Facebook. Odtwórz na: Facebook. 1:45",
+      "url": "https://www.facebook.com/SuminWtrosceOrosliny/videos/wapno-do-odkwaszania-i-bielenia-drzew-podw%C3%B3jna-ochrona-w-ogrodzie-wapno-opr%C3%B3cz-w/1249213757186842/",
+      "domain": "www.facebook.com",
+      "source": "Sumin - w trosce o rośliny"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Wapno do bielenia znajdziesz w naszym sklepie: https:// ..., autor: Zielone Pogotowie, opublikowano Facebook. Odtwórz na: Facebook. 1:59",
+      "url": "https://www.facebook.com/zielonepogotowiepl/videos/ostatni-dzwonek-na-bielenie-drzew/610302811704380/",
+      "domain": "www.facebook.com",
+      "source": "Zielone Pogotowie"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Why you should add soap to your tree whitewash #shorts",
+      "url": "https://www.youtube.com/shorts/NHagh1HC58k",
+      "domain": "www.youtube.com",
+      "source": "Ogród na piasku"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "How to make lime milk for whitewashing trees, proportions ...",
+      "url": "https://www.youtube.com/shorts/iaGz8JNC4lk",
+      "domain": "www.youtube.com",
+      "source": "Vegetable garden Groch z kapustą"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Pamiętaj o bieleniu drzew owocowych. Najlepiej zrobić to jeszcze w ...",
+      "url": "https://www.youtube.com/shorts/6QTKYv_55-8",
+      "domain": "www.youtube.com",
+      "source": "Zielone Pogotowie"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Pamiętaj o bielenieu drzewek owocowych ☝️Należy to zrobić do ..., autor: Zielone Pogotowie, opublikowano Facebook. Odtwórz na: Facebook. 1:30",
+      "url": "https://www.facebook.com/zielonepogotowiepl/videos/pami%C4%99taj-o-bielenieu-drzewek-owocowych-%EF%B8%8Fnale%C5%BCy-to-zrobi%C4%87-do-po%C5%82owy-lutego-wapno-/994598839208381/",
+      "domain": "www.facebook.com",
+      "source": "Zielone Pogotowie"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Bielenie drzewek owocowych wapnem | malowanie wapnem",
+      "url": "https://www.youtube.com/shorts/yruyYKJH0ds",
+      "domain": "www.youtube.com",
+      "source": "Ogród Moja Pasja"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Jak i dlaczego bielić drzewka owocowe przed nadejściem wiosny",
+      "url": "https://www.youtube.com/shorts/jbSD4Z2rBbY",
+      "domain": "www.youtube.com",
+      "source": "Dom i ogród kreatywnie"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Pamiętaj, aby do połowy lutego wykonać bielenie drzew ..., autor: Zielone Pogotowie, opublikowano Facebook. Odtwórz na: Facebook. 0:41",
+      "url": "https://www.facebook.com/zielonepogotowiepl/videos/pami%C4%99taj-aby-do-po%C5%82owy-lutego-wykona%C4%87-bielenie-drzew-owocowych-bieleniedrzew-dla/1414645188950647/",
+      "domain": "www.facebook.com",
+      "source": "Zielone Pogotowie"
+     },
+     {
+      "type": "short_videos_element",
+      "title": "Bielenie drzew owocowych, autor: PAN Ogród Botaniczny, opublikowano Facebook. Odtwórz na: Facebook. 0:33",
+      "url": "https://www.facebook.com/obpowsin/posts/bielenie-drzew-owocowych/588506193818878/",
+      "domain": "www.facebook.com",
+      "source": "PAN Ogród Botaniczny"
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "people_also_ask",
+    "rank_group": 1,
+    "rank_absolute": 3,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+    "items": [
+     {
+      "type": "people_also_ask_element",
+      "title": "Kiedy się maluje drzewka wapnem?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Jak zrobić wapno do bielenia drzew?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czy wapno budowlane nadaje się do bielenia drzewek?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Ile wapna do bielenia na 10 l wody?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Jakie proporcje wapna do bielenia?",
+      "seed_question": "Ile wapna do bielenia na 10 l wody?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[5]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czy bielenie drzew chroni przed robakami?",
+      "seed_question": "Ile wapna do bielenia na 10 l wody?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[6]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 1,
+    "rank_absolute": 4,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Wapno do bielenia drzew Castorama",
+     "Wapno do bielenia drzew bricomarche",
+     "Wapno do bielenia drzew LEROY MERLIN",
+     "Wapno do bielenia drzew OBI",
+     "Jak przygotować wapno do bielenia drzew",
+     "Wapno do bielenia drzew gotowe"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 1,
+    "rank_absolute": 5,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.castorama.pl",
+    "title": "Wapno do bielenia drzew 1 kg",
+    "url": "https://www.castorama.pl/wapno-do-bielenia-drzew-1-kg/5905620007390_CAPL.prd?srsltid=AU7gw4Vw2JtPKrq3j-1IHxLLo7l6GzDAYIc_06Rf2Tjp8uhS2UDzF79q",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.castorama.pl",
+    "website_name": "Castorama",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno przeznaczone jest do bielenia drzew ozdobnych i owocowych. Pokryta nim kora jest mniej podatna na powstawanie szczelin pod wpływem nagłych zmian ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.5,
+     "votes_count": 2,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 12.98,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "12,98 zł"
+    },
+    "highlighted": [
+     "Wapno przeznaczone jest do bielenia drzew ozdobnych i owocowych"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "jak przygotować wapno",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "video",
+    "rank_group": 1,
+    "rank_absolute": 6,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]",
+    "items": [
+     {
+      "type": "video_element",
+      "source": "Sumin - w trosce o rośliny",
+      "title": "Wapno do odkwaszania i bielenia drzew – podwójna ochrona w ...",
+      "timestamp": "2026-01-19 00:00:00 +00:00",
+      "url": "https://www.facebook.com/SuminWtrosceOrosliny/videos/wapno-do-odkwaszania-i-bielenia-drzew-podw%C3%B3jna-ochrona-w-ogrodzie-wapno-opr%C3%B3cz-w/1249213757186842/"
+     },
+     {
+      "type": "video_element",
+      "source": "Zielone Pogotowie",
+      "title": "Wapno do bielenia znajdziesz w naszym sklepie: https:// ...",
+      "timestamp": "2025-02-13 00:00:00 +00:00",
+      "url": "https://www.facebook.com/zielonepogotowiepl/videos/ostatni-dzwonek-na-bielenie-drzew/610302811704380/"
+     },
+     {
+      "type": "video_element",
+      "source": "Ogród na piasku",
+      "title": "Co dodać do wapna do bielenia drzew, aby deszcz go szybko nie zmywał",
+      "timestamp": "2023-01-14 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=g2-jWLni5bM"
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 2,
+    "rank_absolute": 7,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "sklep.poradnikogrodniczy.pl",
+    "title": "WAPNO DO BIELENIA 1kg TARGET - niska cena, szybka dostawa!",
+    "url": "https://sklep.poradnikogrodniczy.pl/wapno-do-bielenia-1kg-target-id-173?srsltid=AU7gw4Wfz6wMqTqLfy-GMyXBmkpKRn_FQofeKgoblHZS1BD1pCA7imA7",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://sklep.poradnikogrodniczy.pl",
+    "website_name": "Sklep Poradnik Ogrodniczy",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Opis produktu. Wapno do bielenia pni drzew i krzewów owocowych. Zapobiega przemarzaniu i pękaniu kory oraz tworzeniu się zgorzelin.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia drzew z sklep.poradnikogrodniczy.pl",
+      "url": "https://sklep.poradnikogrodniczy.pl/wapno-do-bielenia-1kg-target-id-173?srsltid=AU7gw4Wfz6wMqTqLfy-GMyXBmkpKRn_FQofeKgoblHZS1BD1pCA7imA7",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyAgmYKx_Bkj_DD2m16zCSgeXI5eibBKYAjMgE556NSg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 8.99,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "8,99 zł"
+    },
+    "highlighted": [
+     "Wapno do bielenia pni drzew i krzewów owocowych"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "jak przygotować wapno",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 3,
+    "rank_absolute": 8,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "biovita.com.pl",
+    "title": "WAPNO do bielenia drzew",
+    "url": "https://biovita.com.pl/pl/155-wapno-do-bielenia-drzew.html",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://biovita.com.pl",
+    "website_name": "biovita.com.pl",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno do bielenia drzewek firmy Biovita, to produkt naturalnego pochodzenia. Wapno nie zawiera substancji toksycznych, jest w 100% bezpieczne dla roślin.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia drzew z biovita.com.pl",
+      "url": "https://biovita.com.pl/pl/155-wapno-do-bielenia-drzew.html",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuH5zjNmBT9Au21uaIItvkzlDbRj6y3Gt6qdYVR6ZctA&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "Wapno do bielenia drzewek firmy Biovita"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "jak przygotować wapno",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 4,
+    "rank_absolute": 9,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+    "domain": "www.youtube.com",
+    "title": "Why you should add soap to your tree whitewash #shorts",
+    "url": "https://www.youtube.com/shorts/NHagh1HC58k",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Wyświetlenia: ponad 21,1 tys.",
+    "website_name": "YouTube · Ogród na piasku",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "Zima to czas bielenia drzew owocowych. Do wody i wapna można dodawać różne składniki poprawiające właściwości mleka wapiennego.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2025-09-21 15:06:55 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 5,
+    "rank_absolute": 10,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "agrecol.pl",
+    "title": "Wapno do odkwaszania gleb i bielenia drzew",
+    "url": "https://agrecol.pl/produkt/wapno-do-bielenia-drzew-i-odkwaszania-gleb/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://agrecol.pl",
+    "website_name": "Agrecol",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno w formie tlenkowej jest szczególnie polecane na gleby ciężkie, czyli gliniaste i zwięzłe. Ma ono właściwości poprawiające strukturę gleby – rozluźnia ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia drzew z agrecol.pl",
+      "url": "https://agrecol.pl/produkt/wapno-do-bielenia-drzew-i-odkwaszania-gleb/",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMF_TXT12YBZkH0n1H49I43LdVWCCN5CYOMVQVg_5eKg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "Wapno w formie tlenkowej jest szczególnie polecane na gleby ciężkie, czyli gliniaste i zwięzłe"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "jak przygotować wapno",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 6,
+    "rank_absolute": 11,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "gardenstart.pl",
+    "title": "Wapno do bielenia drzew i krzewów owocowych 2 kg wiaderko",
+    "url": "https://gardenstart.pl/product-pol-555-Wapno-do-bielenia-drzew-i-krzewow-owocowych-2-kg-wiaderko.html",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://gardenstart.pl",
+    "website_name": "Gardenstart",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno do bielenia drzew i krzewów owocowych 2 kg wiaderko Zalety: świetne zabezpieczenie przed przemarzaniem i pękaniem kory na drzewach poprawa wyglądu ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia drzew z gardenstart.pl",
+      "url": "https://gardenstart.pl/product-pol-555-Wapno-do-bielenia-drzew-i-krzewow-owocowych-2-kg-wiaderko.html",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZDhN3tZ_T9-a15Bb6ME-j-8bDFWWGDN-AHMraSjQ6Yg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 1,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 19.1,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "19,10 zł"
+    },
+    "highlighted": [
+     "świetne zabezpieczenie przed przemarzaniem i pękaniem kory"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "jak przygotować wapno",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 7,
+    "rank_absolute": 12,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.leroymerlin.pl",
+    "title": "Wapno do bielenia drzew 1.2kg Agrecol",
+    "url": "https://www.leroymerlin.pl/produkty/wapno-do-bielenia-drzew-1-2kg-agrecol-89888046.html?srsltid=AU7gw4Who6w1Erkux8BD_b3fzhvBb1kEc3sQ6UfTZeLW8D6JTU-L2fZZ",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.leroymerlin.pl",
+    "website_name": "Leroy Merlin Polska",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno poprawia strukturę podłoża, rozluźniając gleby ciężkie, a także pozytywnie wpływa na jakość plonów. Wapno można wykorzystać również w okresie zimowym do ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia drzew z www.leroymerlin.pl",
+      "url": "https://www.leroymerlin.pl/produkty/wapno-do-bielenia-drzew-1-2kg-agrecol-89888046.html?srsltid=AU7gw4Who6w1Erkux8BD_b3fzhvBb1kEc3sQ6UfTZeLW8D6JTU-L2fZZ",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf2vIdjbxxIcLIGz5uStbZrpgD34hfdbkkasc00CcsAw&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.8,
+     "votes_count": 34,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 9.99,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "9,99 zł"
+    },
+    "highlighted": [
+     "Wapno poprawia strukturę podłoża, rozluźniając gleby ciężkie"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "jak przygotować wapno",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "shopping",
+    "rank_group": 1,
+    "rank_absolute": 13,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+    "title": null,
+    "items": [
+     {
+      "type": "shopping_element",
+      "title": "Wapno Ogrodnicze Do Bielenia Drzew I Krzewów Odkwaszania Gleby 2kg Biovita",
+      "price": {
+       "current": 9.4,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "9,40 zł"
+      },
+      "source": "ERLI.pl",
+      "description": null,
+      "marketplace": "Przez: Erli Okazje",
+      "marketplace_url": null,
+      "url": "https://erli.pl/produkt/wapno-ogrodnicze-do-bielenia-drzew-i-krzewow-odkwaszania-gleby-2kg-biovita,234394937?xid=ITWEaNvefjAaxzFqwxRQqG_KhkllOuC94TVjqST-IouHI7juwfU8dqUGs7YV-Uk0H-ypQRsr0F59PhzNd1X7ULfw6mS8NaTaEG6k1Trb9BOTtg&xidv=3&gad_source=1&gad_campaignid=22079738629&gclid=EAIaIQobChMI9o6Izvn_lgMVoJpQBh3F9BVKEAsYASABEgLFE_D_BwE",
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.6,
+       "votes_count": 383,
+       "rating_max": 5
+      }
+     },
+     {
+      "type": "shopping_element",
+      "title": "Wapno do bielenia drzew i krzewów 1kg Twój Ogród",
+      "price": {
+       "current": 5.93,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "5,93 zł"
+      },
+      "source": "Agrosimex Oficjalny Sklep",
+      "description": null,
+      "marketplace": "Przez: Google",
+      "marketplace_url": "https://www.google.com/search?tbm=shop&q=wapno%20do%20bielenia%20drzew",
+      "url": "https://agrosimex.pl/wapno-do-bielenia-drzew-krzewow-twoj-ogrod?childSku=37429&gad_source=1&gad_campaignid=21099378873&gbraid=0AAAAADpD3Jwvv9ei-fc-vE8X2gG2GloUz&gclid=EAIaIQobChMI9o6Izvn_lgMVoJpQBh3F9BVKEAsYAiABEgIsYPD_BwE",
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.5,
+       "votes_count": 66,
+       "rating_max": 5
+      }
+     },
+     {
+      "type": "shopping_element",
+      "title": "Wapno do bielenia drzew i krzewów Planta 2 kg",
+      "price": {
+       "current": 23.99,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "23,99 zł"
+      },
+      "source": "Rolmarket.pl",
+      "description": null,
+      "marketplace": "Przez: SmartFeed",
+      "marketplace_url": null,
+      "url": "https://rolmarket.pl/wapno-nawozowe/wapno-do-bielenia-drzew-i-krzewow-planta-2kg?utm_source=google&utm_medium=cpc&utm_campaign=23526906668&gad_source=1&gad_campaignid=23521859400&gbraid=0AAAAADvI_hQblUqSTEhk52Po51U95dU3o&gclid=EAIaIQobChMI9o6Izvn_lgMVoJpQBh3F9BVKEAsYAyABEgKwH_D_BwE",
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 28,
+       "rating_max": 5
+      }
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 2,
+    "rank_absolute": 14,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Wapno do bielenia drzew Mrówka",
+     "Wapno do bielenia drzew w PŁYNIE",
+     "Wapno do bielenia drzew 10 kg",
+     "Wapno do bielenia drzew kiedy stosować",
+     "Wapno do bielenia drzew w sprayu",
+     "Wapno do bielenia drzew Agrecol"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 8,
+    "rank_absolute": 15,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.ceneo.pl",
+    "title": "Nawóz Wapno do Bielenia Drzew - Ceny i opinie",
+    "url": "https://www.ceneo.pl/168579486?srsltid=AU7gw4WoufFtflqmYyn8vMSe_2Rj8jfuOteGsyGLi5b3nWSO-yeQn08X",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.ceneo.pl",
+    "website_name": "Ceneo",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno do bielenia drzew, dostępne w opakowaniu 1 kg, przeznaczone jest specjalnie do ochrony drzew ozdobnych i owocowych. Nanoszenie go na korę drzew tworzy ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 14.89,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "14,89 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 3,
+    "rank_absolute": 16,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Wapno do bielenia drzew Castorama",
+     "Wapno do bielenia drzew bricomarche",
+     "Wapno do bielenia drzew LEROY MERLIN",
+     "Wapno do bielenia drzew OBI",
+     "Jak przygotować wapno do bielenia drzew",
+     "Wapno do bielenia drzew gotowe"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 9,
+    "rank_absolute": 17,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.bricomarche.pl",
+    "title": "Wapno do bielenia drzewek 1 kg",
+    "url": "https://www.bricomarche.pl/wapno-do-bielenia-drzewek-1-kg",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.bricomarche.pl",
+    "website_name": "Bricomarche",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno do bielenia drzewek 1 kg tworzy na powierzchni pni drzew warstwę odbijającą promienie świetlne. W dzień chroni ona przed nadmiernym nagrzewaniem, ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 9.99,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "9,99 zł"
+    },
+    "highlighted": [
+     "tworzy na powierzchni pni drzew warstwę odbijającą promienie świetlne"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 10,
+    "rank_absolute": 18,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.obi.pl",
+    "title": "Wapno do bielenia drzew - 1,2 kg kupuj w OBI",
+    "url": "https://www.obi.pl/p/7014582/wapno-do-bielenia-drzew-1-2-kg",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.obi.pl",
+    "website_name": "obi.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno w formie tlenkowej jest szczególnie polecane na gleby ciężkie, czyli gliniaste i zwięzłe. Ma ono właściwości poprawiające strukturę gleby - rozluźnia ...",
+    "pre_snippet": "Wapno w formie tlenkowej jest szczególnie polecane na gleby ciężkie, czyli gliniaste i zwięzłe. Ma ono właściwości poprawiające strukturę gleby - rozluźnia ...",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 2,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 10.29,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "10,29 zł"
+    },
+    "highlighted": [
+     "Wapno w formie tlenkowej jest szczególnie polecane na gleby ciężkie, czyli gliniaste i zwięzłe"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 11,
+    "rank_absolute": 19,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.expondo.pl",
+    "title": "Bielenie drzew owocowych - przewodnik krok po kroku",
+    "url": "https://www.expondo.pl/inspiracje/bielenie-drzew-owocowych/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.expondo.pl",
+    "website_name": "expondo.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "15 gru 2023 — Najczęściej stosowanym materiałem jest wapno budowlane, które jest efektywne i ekonomiczne. Bielenie drzew wapnem budowlanym tworzy na korze ...",
+    "pre_snippet": "12/15/2023 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "wapno budowlane"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2023-12-15 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 12,
+    "rank_absolute": 20,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "mrowka.com.pl",
+    "title": "Wapno do bielenia drzew 1 kg PLANTA",
+    "url": "https://mrowka.com.pl/produkt/wapno-do-bielenia-drzew-1-kg-planta-5907811482726.html?srsltid=AU7gw4WDnKCbWzS-6X6I4xeFw2G0koeibAfShv8ef4LSoRM-0Yl5RsRl",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://mrowka.com.pl",
+    "website_name": "PSB-Mrówka",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno do bielenia drzew marki PLANTA to skuteczny preparat, który zimą uchroni drzewa przed szkodliwym wpływem czynników zewnętrznych.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia drzew z mrowka.com.pl",
+      "url": "https://mrowka.com.pl/produkt/wapno-do-bielenia-drzew-1-kg-planta-5907811482726.html?srsltid=AU7gw4WDnKCbWzS-6X6I4xeFw2G0koeibAfShv8ef4LSoRM-0Yl5RsRl",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYvuRODkFXn46SwjFXfzPvEqKUZgDOX7uNVvjCYl2lWg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 13.99,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "13,99 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 1,
+    "rank_absolute": 21,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "WAPNO DO BIELENIA 1kg TARGET",
+      "url": "https://sklep.poradnikogrodniczy.pl/wapno-do-bielenia-1kg-target-id-173?srsltid=AU7gw4Wc-qlpt2iVcx0XstXWYabrELnN61CpNH_H5QLok0JzIKpHMKG1",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtwL0ANfaK_e-Ox3sVrkehb1ARmGDdt_ljzTt7OpJAeK8D25TbAUFzho8&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno Do Bielenia Drzew, Do rozsypywania Na Glebę 1 kg.",
+      "url": "https://sklep-farmer.pl/pl/p/Wapno-Do-Bielenia-Drzew%2C-Do-rozsypywania-Na-Glebe-1-kg./2042",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMImgJr0P6LgxcxsZTaZPImQXlCH5zbamKrwKOVRZcrw&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno do bielenia drzew 1 kg PLANTA - PLANTA - Środki ochrony roślin",
+      "url": "https://mrowka.com.pl/produkt/wapno-do-bielenia-drzew-1-kg-planta-5907811482726.html?srsltid=AU7gw4Unu7g02IPhK8a8YHORfkip9mPv1Qp61f_ccKm18bN6uOqZbhqj",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR29nY3ja-xMuvY_XU_Ecq-yE1WWDjuya8OhDmtBuklg&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno do bielenia drzew i krzewów owocowych 2 kg wiaderko",
+      "url": "https://gardenstart.pl/product-pol-555-Wapno-do-bielenia-drzew-i-krzewow-owocowych-2-kg-wiaderko.html",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG4WiJkoyUFWtricK-KrNQv0GoIdrLLqLciGfvurqvZQ&s"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 13,
+    "rank_absolute": 22,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "zielonepogotowie.pl",
+    "title": "Wapno do bielenia o zwiększonej przyczepności, chroniące drzewa ...",
+    "url": "https://zielonepogotowie.pl/wapno-do-bielenia-zielone-pogotowie?srsltid=AU7gw4W4efNTW3gOWWdRj-iPs3Fdm5A7rRgRCub_kS76nIeykJR5SL8R",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://zielonepogotowie.pl",
+    "website_name": "Sklep Zielone Pogotowie",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Do wiaderka wsyp wapno i zalej odpowiednią ilością wody. Mieszaj do osiągnięcia konsystencji gęstej śmietany. Środek nanieś na konary drzew przy użyciu pędzla ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 8.99,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "8,99 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 14,
+    "rank_absolute": 23,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Wapno do Bielenia Drzew - Niska cena na ...",
+    "url": "https://allegro.pl/listing?string=wapno%20do%20bielenia%20drzew&srsltid=AU7gw4WbeotyKlYy7MFwFG4ZmZhSlK24dbjFG-kiBHvA_drqS2ooaRFh",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "WAPNO DO BIELENIA DRZEW W PŁYNIE GOTOWE 2L do DRZEWEK KRZEWÓW OGRODNICZE 4.8/5.0 (67) · 22 zł",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.8,
+     "votes_count": 94,
+     "rating_max": 5
+    },
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": [
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "domain": "allegro.pl",
+      "title": "Target proszek wapno do bielenia drzew krzewów chroni korę zimą 2kg",
+      "url": "https://allegro.pl/produkt/wapno-do-bielenia-drzewek-1kg-target-o-zwiekszonej-przyczepnosci-9911700e-cc3b-4177-b4d6-14457f7dbecd?offerId=17401080547&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520drzew",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSlI6L-mOhEzuiZT4JcXSdtU2RoYejHq672e3WQHUnYleidPQck"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": null,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 17,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "17 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "domain": "allegro.pl",
+      "title": "Biopon Natural Wapno Ogrodnicze Do Bielenia Drzew I Odkwaszania Gleby",
+      "url": "https://allegro.pl/produkt/bopon-wapno-ogrodnicze-do-bielenia-drzew-do-odkwaszania-gleby-biopon-1-kg-ea53e561-ada4-4abc-8b09-96f44a0a9338?offerId=18333384602&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520drzew",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSauMjrVcsqeWy3i7n5-xiFMp9ubv1unOXc9rHFLxSwVvldBns0"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": null,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 13,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "13 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "domain": "allegro.pl",
+      "title": "Biovita wapno do bielenia pni drzew i krzewów 2 kg WOREK",
+      "url": "https://allegro.pl/produkt/biovita-wapno-do-bielenia-pni-drzew-i-krzewow-2-kg-0eb5ed86-4333-4510-9a4e-b7bc17145913?offerId=18876578960&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520drzew",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_RLl0UoVWnVIVe3mqBu7sHK8qnQpyb_mNuCi9jHy2diYISDzD"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": null,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 18,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "18 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+      "domain": "allegro.pl",
+      "title": "WAPNO DO BIELENIA DRZEW W PŁYNIE GOTOWE 2L do DRZEWEK KRZEWÓW OGRODNICZE",
+      "url": "https://allegro.pl/produkt/wapno-do-bielenia-drzew-i-krzewow-gotowe-w-plynie-2l-twoj-ogrod-31f9727d-ee37-406b-aacb-d66edd55af19?offerId=18312742878&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520drzew",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJziVm-Fo5u-f5I-r74JrUTQ_87Tz8uhxcas5W506fL-8slcC7"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.8,
+       "votes_count": 67,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 22,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "22 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
+      "domain": "allegro.pl",
+      "title": "WAPNO DO BIELENIA DRZEW I KRZEWÓW preparat do malowania drzewek 1KG",
+      "url": "https://allegro.pl/produkt/nawoz-wapno-do-bielenie-drzew-i-krzewow-1kg-twoj-ogrod-odporne-na-zmywanie-4f1b853e-c52b-40f4-abf5-5310db551357?offerId=15939689029&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520drzew",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ7fvtrAAWPbMn_dloyapgeiwWXssLQ8TTmMFqd8kfJ_CVC0_T"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 425,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 8,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "8 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]",
+      "domain": "allegro.pl",
+      "title": "Wapno do Bielenia Drzew Hydratyzowane Gaszone 10 KG",
+      "url": "https://allegro.pl/produkt/wapno-do-bielenia-drzew-hydratyzowane-gaszone-10-kg-907d6320-ca6f-409e-83cd-8c04ac2a4ed7?offerId=17181200250&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520drzew",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRciTtgFCz_xLKXPfcBtPEC9zfqnJWWbCSC2nUgpoSzuqn4m5bD"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 94,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 49,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "49 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     }
+    ],
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 15,
+    "rank_absolute": 24,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "agrosimex.pl",
+    "title": "Wapno do bielenia drzew i krzewów Twój Ogród",
+    "url": "https://agrosimex.pl/wapno-do-bielenia-drzew-krzewow-twoj-ogrod?srsltid=AU7gw4XZsXGBKRXEgxEufNYVBS_7qw5BqdvKRLqqf-iEG3fOmPNHcRXg",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://agrosimex.pl",
+    "website_name": "Agrosimex.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Bielenie pni i grubszych konarów wykonujemy od listopada do kwietnia, zaprawę wapienną do bielenia przygotowujemy dając na 1 kg wapna od 1 do 3 litrów wody. W ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 5.93,
+     "regular": null,
+     "max_value": 17.34,
+     "currency": "PLN",
+     "is_price_range": true,
+     "displayed_price": "Od 5,93 zł do 17,34 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 16,
+    "rank_absolute": 25,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.pryskaj.pl",
+    "title": "Kiedy jest najlepszy czas na bielenie drzew? Jak zrobić to prawidłowo?",
+    "url": "https://www.pryskaj.pl/bielenie-drzew?srsltid=AU7gw4XoCcq4TcNy3c-amOESRHyu7hjHONsdzJGyrSGg8jJXmz1l6Hub",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.pryskaj.pl",
+    "website_name": "PRYSKAJ.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "27 wrz 2024 — Aby przygotować wapno do bielenia, wymieszaj wapno hydratyzowane z wodą w proporcji około 1 kg na 5 litrów wody, aż uzyskasz konsystencję gęstej ...",
+    "pre_snippet": "09/27/2024 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "wymieszaj wapno hydratyzowane z wodą w proporcji około 1 kg na 5 litrów wody"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-09-27 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 4,
+    "rank_absolute": 26,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Wapno do bielenia drzew Mrówka",
+     "Wapno do bielenia drzew w PŁYNIE",
+     "Wapno do bielenia drzew 10 kg",
+     "Wapno do bielenia drzew kiedy stosować",
+     "Wapno do bielenia drzew w sprayu",
+     "Wapno do bielenia drzew Agrecol"
+    ],
+    "rectangle": null
+   }
+  ]
+ },
+ "wapno do bielenia ścian": {
+  "keyword": "wapno do bielenia ścian",
+  "type": "organic",
+  "se_domain": "google.com",
+  "location_code": 2616,
+  "language_code": "pl",
+  "check_url": "https://www.google.com/search?q=wapno%20do%20bielenia%20%C5%9Bcian&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ&hl=pl&gl=PL",
+  "datetime": "2026-09-21 15:07:02 +00:00",
+  "spell": null,
+  "refinement_chips": null,
+  "item_types": [
+   "ai_overview",
+   "organic",
+   "people_also_ask",
+   "people_also_search",
+   "images",
+   "video"
+  ],
+  "se_results_count": 0,
+  "pages_count": 2,
+  "items_count": 25,
+  "items": [
+   {
+    "type": "ai_overview",
+    "rank_group": 1,
+    "rank_absolute": 1,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "asynchronous_ai_overview": false,
+    "markdown": "`Wapno gaszone lub hydratyzowane` ([Castorama](https://www.castorama.pl/wapno-gaszone-do-czego-je-utilizowac-ins-1001762.html) / [Leroy Merlin](https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html) ) to naturalny i tani produkt idealny do bielenia ścian w piwnicach, garażach oraz budynkach gospodarczych.[[1]](http://www.wenekor.pl/wapno-gaszone-biale-14-kg)[[2]](https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html)\n\n### Jak przygotować mleko wapienne?\n\n- **Proporcje:** Na gładkie ściany wymieszaj 1 część wapna z 2 lub 3 częściami wody. Na surowe, chłonniejsze mury dodaj więcej wody.\n- **Dodatki:** Warto dolać odrobinę oleju lnionego lub soli kuchennej (ok. 50-100 g na wiadro), aby powłoka była trwalsza i mniej się sypała.\n- **Mieszanie:** Dokładnie rozpuść grudki i odstaw roztwór na kilkanaście minut przed malowaniem.[[1]](https://www.e-budownictwo.tv/budowa/budujemy-dom/jak-rozrobic-wapno-do-bielenia-scian/)\n\n### Wskazówki do malowania\n\n- **Zwilżenie ściany:** Przed nałożeniem wapna zwilż podłoże wodą. Farba lepiej przylegnie do muru.\n- **Warstwy:** Maluj pędzlem szatkarskim (szerokim i twardym) lub pistoletem natryskowym. Nakładaj 2-3 cienkie warstwy.\n- **Ochrona:** Wapno ma odczyn silnie zasadowy. Chroń oczy i skórę podczas pracy.\n\nJeśli chcesz, napisz:\n\n- **Gdzie** planujesz bielenie (pomieszczenie gospodarcze, piwnica, czy ściany zewnętrzne)?\n- **W jakim stanie** jest obecnie podłoże?\n\nPomogę dobrać dokładne proporcje i dodatki poprawiające trwałość.",
+    "items": [
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": null,
+      "text": "Wapno gaszone lub hydratyzowane ( Castorama / Leroy Merlin ) to naturalny i tani produkt idealny do bielenia ścian w piwnicach, garażach oraz budynkach gospodarczych.",
+      "markdown": "`Wapno gaszone lub hydratyzowane` ([Castorama](https://www.castorama.pl/wapno-gaszone-do-czego-je-utilizowac-ins-1001762.html) / [Leroy Merlin](https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html) ) to naturalny i tani produkt idealny do bielenia ścian w piwnicach, garażach oraz budynkach gospodarczych.[[1]](http://www.wenekor.pl/wapno-gaszone-biale-14-kg)[[2]](https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html)",
+      "links": [
+       {
+        "type": "link_element",
+        "title": "Castorama",
+        "description": null,
+        "url": "https://www.castorama.pl/wapno-gaszone-do-czego-je-utilizowac-ins-1001762.html",
+        "domain": "www.castorama.pl"
+       },
+       {
+        "type": "link_element",
+        "title": "Leroy Merlin",
+        "description": null,
+        "url": "https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html",
+        "domain": "www.leroymerlin.pl"
+       }
+      ],
+      "images": null,
+      "references": [
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "Wenekor",
+        "domain": "www.wenekor.pl",
+        "url": "http://www.wenekor.pl/wapno-gaszone-biale-14-kg",
+        "title": "WAPNO GASZONE, LASOWANE - BIAŁE 14 kg - Wenekor",
+        "text": "Wapno gaszone niemodyfikowane przeznaczone do bielenia pomieszczeń narażonych na wilgoć i zagrzybienie takich jak piwnice i budynki gospodarcze."
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "Leroy Merlin Polska",
+        "domain": "www.leroymerlin.pl",
+        "url": "https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html",
+        "title": "Wapno budowlane hydratyzowane białe 2 kg Lhoist - Leroy Merlin",
+        "text": "Wapno to naturalny, uniwersalny produkt o wielu zastosowaniach: do przygotowania trwałych zapraw murarskich i tynkarskich, jako środek do białkowania ścian ..."
+       }
+      ]
+     },
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": "Jak przygotować mleko wapienne?",
+      "text": "Proporcje: Na gładkie ściany wymieszaj 1 część wapna z 2 lub 3 częściami wody. Na surowe, chłonniejsze mury dodaj więcej wody. Dodatki: Warto dolać odrobinę oleju lnionego lub soli kuchennej (ok. 50-100 g na wiadro), aby powłoka była trwalsza i mniej się sypała. Mieszanie: Dokładnie rozpuść grudki i odstaw roztwór na kilkanaście minut przed malowaniem.",
+      "markdown": "- **Proporcje:** Na gładkie ściany wymieszaj 1 część wapna z 2 lub 3 częściami wody. Na surowe, chłonniejsze mury dodaj więcej wody.\n- **Dodatki:** Warto dolać odrobinę oleju lnionego lub soli kuchennej (ok. 50-100 g na wiadro), aby powłoka była trwalsza i mniej się sypała.\n- **Mieszanie:** Dokładnie rozpuść grudki i odstaw roztwór na kilkanaście minut przed malowaniem.[[1]](https://www.e-budownictwo.tv/budowa/budujemy-dom/jak-rozrobic-wapno-do-bielenia-scian/)",
+      "links": null,
+      "images": null,
+      "references": [
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "e-budownictwo.tv",
+        "domain": "www.e-budownictwo.tv",
+        "url": "https://www.e-budownictwo.tv/budowa/budujemy-dom/jak-rozrobic-wapno-do-bielenia-scian/",
+        "title": "Jak rozrobić wapno do bielenia ścian - e-budownictwo.tv",
+        "text": "Proporcje wapna i wody różnią się w zależności od powierzchni. Na gładkie ściany stosuje się proporcje 1:2 lub 1:3. Na powierzchniach porowatych ..."
+       }
+      ]
+     },
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": "Wskazówki do malowania",
+      "text": "Zwilżenie ściany: Przed nałożeniem wapna zwilż podłoże wodą. Farba lepiej przylegnie do muru. Warstwy: Maluj pędzlem szatkarskim (szerokim i twardym) lub pistoletem natryskowym. Nakładaj 2-3 cienkie warstwy. Ochrona: Wapno ma odczyn silnie zasadowy. Chroń oczy i skórę podczas pracy.",
+      "markdown": "- **Zwilżenie ściany:** Przed nałożeniem wapna zwilż podłoże wodą. Farba lepiej przylegnie do muru.\n- **Warstwy:** Maluj pędzlem szatkarskim (szerokim i twardym) lub pistoletem natryskowym. Nakładaj 2-3 cienkie warstwy.\n- **Ochrona:** Wapno ma odczyn silnie zasadowy. Chroń oczy i skórę podczas pracy.",
+      "links": null,
+      "images": null,
+      "references": null
+     },
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": null,
+      "text": "Jeśli chcesz, napisz:Gdzie planujesz bielenie (pomieszczenie gospodarcze, piwnica, czy ściany zewnętrzne)?\nW jakim stanie jest obecnie podłoże?\nPomogę dobrać dokładne proporcje i dodatki poprawiające trwałość.",
+      "markdown": "Jeśli chcesz, napisz:\n\n- **Gdzie** planujesz bielenie (pomieszczenie gospodarcze, piwnica, czy ściany zewnętrzne)?\n- **W jakim stanie** jest obecnie podłoże?\n\nPomogę dobrać dokładne proporcje i dodatki poprawiające trwałość.",
+      "links": null,
+      "images": null,
+      "references": null
+     }
+    ],
+    "references": [
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "Wenekor",
+      "domain": "www.wenekor.pl",
+      "url": "http://www.wenekor.pl/wapno-gaszone-biale-14-kg",
+      "title": "WAPNO GASZONE, LASOWANE - BIAŁE 14 kg - Wenekor",
+      "text": "Wapno gaszone niemodyfikowane przeznaczone do bielenia pomieszczeń narażonych na wilgoć i zagrzybienie takich jak piwnice i budynki gospodarcze."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "e-budownictwo.tv",
+      "domain": "www.e-budownictwo.tv",
+      "url": "https://www.e-budownictwo.tv/budowa/budujemy-dom/jak-rozrobic-wapno-do-bielenia-scian/",
+      "title": "Jak rozrobić wapno do bielenia ścian - e-budownictwo.tv",
+      "text": "Proporcje wapna i wody różnią się w zależności od powierzchni. Na gładkie ściany stosuje się proporcje 1:2 lub 1:3. Na powierzchniach porowatych ..."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "Leroy Merlin Polska",
+      "domain": "www.leroymerlin.pl",
+      "url": "https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html",
+      "title": "Wapno budowlane hydratyzowane białe 2 kg Lhoist - Leroy Merlin",
+      "text": "Wapno to naturalny, uniwersalny produkt o wielu zastosowaniach: do przygotowania trwałych zapraw murarskich i tynkarskich, jako środek do białkowania ścian ..."
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 1,
+    "rank_absolute": 2,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Wapno do Bielenia Ścian - Niska cena na Allegro",
+    "url": "https://allegro.pl/listing?string=wapno%20do%20bielenia%20%C5%9Bcian&srsltid=AU7gw4VdjvBBSu7Kk5pFkbYcIaVcnWVoHvvC1kwJyLQDqhqFRcnzBVtl",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "WAPNO MALARSKIE CIASTO WAPIENNE 11L-14KG 4.4/5.0 (68) · 60 zł",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 97,
+     "rating_max": 5
+    },
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do",
+     "wapno do",
+     "wapno hydratyzowane",
+     "wapno malarskie"
+    ],
+    "about_this_result": null,
+    "related_result": [
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "domain": "allegro.pl",
+      "title": "WAPNO MALARSKIE, SUPERBIAŁE 14kg NAJLEPSZE W POLSCE bez GRUDEK AGREGAT",
+      "url": "https://allegro.pl/produkt/wapno-malarskie-albatros-gaszone-10-l-10a7b389-fed9-46ac-9908-61fc823a1d47?offerId=18212999701&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520%25C5%259Bcian",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://api.dataforseo.com/cdn/i/09211506-1748-0139-0000-ea79763c9e74:0"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 142,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 73,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "73 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "domain": "allegro.pl",
+      "title": "WAPNO GASZONE, LASOWANE, MALARSKIE EXTRA BIEL 7 KG",
+      "url": "https://allegro.pl/produkt/wapno-gaszone-wenekor-7-kg-ekologiczne-do-bielenia-846ac6bd-f371-4d97-923b-ddd3c48249c3?offerId=7707432624&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520%25C5%259Bcian",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://api.dataforseo.com/cdn/i/09211506-1748-0139-0000-ea79763c9e74:1"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 94,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 48,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "48 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "domain": "allegro.pl",
+      "title": "WAPNO DO BIELENIA KURNIKÓW ULTRADROBNE DO KURNIKA GOŁĘBNIKA 2x5KG PREMIUM",
+      "url": "https://allegro.pl/produkt/farba-wapienna-biala-5-kg-do-bielenia-kurnikow-084e54f3-54b8-42da-8ad2-4ad3fff2530f?offerId=18869547294&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520%25C5%259Bcian",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://api.dataforseo.com/cdn/i/09211506-1748-0139-0000-ea79763c9e74:2"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 2,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 89,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "89 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+      "domain": "allegro.pl",
+      "title": "WAPNO MALARSKIE CIASTO WAPIENNE 11L-14KG",
+      "url": "https://allegro.pl/produkt/wapno-malarskie-ciasto-wapienne-11-l-14-kg-e16c1054-0853-4b7e-b8de-2f9797000993?offerId=12426624999&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520%25C5%259Bcian",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4ED5YZJz4OIjBKj5DRPIVPXHDQ5ENoNGvWJLrl6XxIplps-uS"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.5,
+       "votes_count": 68,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 60,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "60 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
+      "domain": "allegro.pl",
+      "title": "BIOPON NATURAL Wapno ogrodnicze do bielenia drzew odkwaszania gleby 2x1kg",
+      "url": "https://allegro.pl/produkt/bopon-wapno-ogrodnicze-do-bielenia-drzew-do-odkwaszania-gleby-biopon-1-kg-ea53e561-ada4-4abc-8b09-96f44a0a9338?offerId=18324537360&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520%25C5%259Bcian",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdUeom41pHaBl6MJVy-4t5kgtufhgGwS_K0Ac-XniiRKTPWZ-0"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": null,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 18,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "18 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]",
+      "domain": "allegro.pl",
+      "title": "Wapno Hydratyzowane Białe Worek 2 kg Lhoist do bielenia",
+      "url": "https://allegro.pl/produkt/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-c5b5a8b0-c123-4ac2-9e4b-d0cbc0c635e9?offerId=18402443524&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dwapno%2520do%2520bielenia%2520%25C5%259Bcian",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBF-UaahpZ-IzwD9xP8Kyq67wKFVvYaYa20XEqzZpFdenpzKo"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 97,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 19,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "19 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     }
+    ],
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_ask",
+    "rank_group": 1,
+    "rank_absolute": 3,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+    "items": [
+     {
+      "type": "people_also_ask_element",
+      "title": "Jak przygotować wapno do bielenia ścian?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Jakie wapno do bielenia ścian?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co daje wapno na ściany?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czy można malować ściany wapnem?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czy malowanie wapnem jest zdrowe?",
+      "seed_question": "Czy można malować ściany wapnem?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[5]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czy gruntować przed malowaniem wapnem?",
+      "seed_question": "Czy można malować ściany wapnem?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[6]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 2,
+    "rank_absolute": 4,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "fermo.pl",
+    "title": "Wapno super białe gaszone do bielenia ścian, drzew, budynków - 7 kg",
+    "url": "https://fermo.pl/wapno-do-bielenia-scian-malowania-kurnika-i-budynkow-inwentarskich-7-kg.html?srsltid=AU7gw4V9VVvaV6Et-BWBryxWY-D-7y3eilPBRV9m0-8GLNACBcDTR-0R",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://fermo.pl",
+    "website_name": "Fermo.pl",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno gaszone o silnych właściwościach zasadowych (pH w granicach 12,0 - 12,5) i żrących. Stanowi podstawę w branży budowniczej (plastyczność, wysoka ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia ścian z fermo.pl",
+      "url": "https://fermo.pl/wapno-do-bielenia-scian-malowania-kurnika-i-budynkow-inwentarskich-7-kg.html?srsltid=AU7gw4V9VVvaV6Et-BWBryxWY-D-7y3eilPBRV9m0-8GLNACBcDTR-0R",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ6y-K-YcgPubniHDgLYrC36xBEGCiBSDij7Dvxs77cQ&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 54.17,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "54,17 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do",
+     "wapno do",
+     "wapno hydratyzowane",
+     "wapno malarskie"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 1,
+    "rank_absolute": 5,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Wapno do bielenia ścian Castorama",
+     "Wapno do bielenia ścian proporcje",
+     "Wapno do bielenia ścian Leroy Merlin",
+     "Wapno do bielenia ścian Mrówka",
+     "Wapno do bielenia obory",
+     "Wapno do bielenia kurnika"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 1,
+    "rank_absolute": 6,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "Wapno do bielenia ścian, drzew, malowania kurnika i budynków inwentarskich  7 kg",
+      "url": "https://fermo.pl/wapno-do-bielenia-scian-malowania-kurnika-i-budynkow-inwentarskich-7-kg.html?srsltid=AU7gw4XWdCO-jBEj1Svvvk9bvfn9uDSm7Y8rLycDKY4dz8EUszSjkB8W",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFjYPLpm3xM1VAH95RoFNmCCIWzlEYWqKQ1XgXp2WtRA&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno malarskie - białe | 25kg",
+      "url": "https://dombud.eu/produkt/wapno-malarskie-25kg/",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkZ38Lc-fvFt3AEKTtUb0QVvmO2nHkOhi7KfBAQ8qAA&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Bielenie ścian obory - jak bielić agregatem do bielenia?",
+      "url": "https://budownictwob2b.pl/wykanczanie/baza-wiedzy/wokol-domu-i-narzedzia/51553-bielenie-scian-obory-jak-bielic-agregatem-do-bielenia",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKH-okmESrEPyR-lQVx8LoGDRx6xZ57PK84PoItLpFfOu6B4BWtMKJAAo&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno malarskie 12 kg Śnieżka - Bricomarche.pl",
+      "url": "https://www.bricomarche.pl/wapno-malarskie-12-kg-sniezka",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYf4AFnlvLfz3Put4vSXh_BwvqTLIojbX969bZOdFFmQ&s"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 3,
+    "rank_absolute": 7,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.wenekor.pl",
+    "title": "WAPNO GASZONE, LASOWANE - BIAŁE 14 kg",
+    "url": "http://www.wenekor.pl/wapno-gaszone-biale-14-kg",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "http://www.wenekor.pl",
+    "website_name": "Wenekor",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno gaszone niemodyfikowane przeznaczone do bielenia pomieszczeń narażonych na wilgoć i zagrzybienie takich jak piwnice i budynki gospodarcze.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia ścian z www.wenekor.pl",
+      "url": "http://www.wenekor.pl/wapno-gaszone-biale-14-kg",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1URcli1JWTd9eOZqPDb_NxKRYAFdouVRfxtD4zvzxEg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 65,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "65,00 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do",
+     "wapno do",
+     "wapno hydratyzowane",
+     "wapno malarskie"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 4,
+    "rank_absolute": 8,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.castorama.pl",
+    "title": "Wapno gaszone – do czego je wykorzystać - Inspiracje i porady",
+    "url": "https://www.castorama.pl/wapno-gaszone-do-czego-je-wykorzystac-ins-1001762.html?srsltid=AU7gw4VBGIn3iH9-zCrsgTzr11hrXjiktgmQScxMy-6-k7Ux1i1wRkiz",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.castorama.pl",
+    "website_name": "Castorama",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wykorzystywane jest bowiem do bielenia ścian oraz sufitów budynków. Bielenie wpływa dezynfekująco na podłoża, likwidując pasożyty oraz chorobotwórcze ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do",
+     "wapno do",
+     "wapno hydratyzowane",
+     "wapno malarskie"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "video",
+    "rank_group": 1,
+    "rank_absolute": 9,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]",
+    "items": [
+     {
+      "type": "video_element",
+      "source": "Romek Zaklinacz Byków",
+      "title": "How to properly WHITEWASH walls in a barn? This is how I build ...",
+      "timestamp": "2025-05-18 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=kty649rdI9Q"
+     },
+     {
+      "type": "video_element",
+      "source": "Sobie Robie",
+      "title": "Malowanie wapnem zamiast farby, czy to da radę?!!! - Ogród/Remont",
+      "timestamp": "2021-04-28 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=BXrAxak8tYk"
+     },
+     {
+      "type": "video_element",
+      "source": "Mateusz Żabczyński",
+      "title": "🐔 WAPNUJĘ ŚCIANY W NOWYM KURNIKU !",
+      "timestamp": "2021-05-05 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=shEuMwDtj3g"
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 5,
+    "rank_absolute": 10,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "chemko.com.pl",
+    "title": "Wapno do bielenia 0.9kg - zaprawa wapienna do ścian",
+    "url": "https://chemko.com.pl/wapno-do-bielenia-09kg,3,104230,134983",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://chemko.com.pl",
+    "website_name": "Market Chemko",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno do bielenia 0.9kg z grupy zapraw wapiennych, przeznaczone do bielenia ścian i powierzchni. Produkt łatwy w użyciu, oferujący jasne wykończenie.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 1,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 3.9,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "3,90 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do",
+     "wapno do",
+     "wapno hydratyzowane",
+     "wapno malarskie"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 6,
+    "rank_absolute": 11,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.leroymerlin.pl",
+    "title": "Wapno do bielenia",
+    "url": "https://www.leroymerlin.pl/produkty/ogrod-i-taras/rosliny-nasiona-cebule/podloza-nawozy/nawozy-i-odzywki/wapno-do-bielenia-p.html?srsltid=AU7gw4U-p2Jcs9A9DZNeUG1Ow6umNdQ-oHGFcgwi7NzsUGlggUwIQEVE",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.leroymerlin.pl",
+    "website_name": "Leroy Merlin Polska",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Wapno do bielenia drzew 1.2kg Agrecol · 9 ,99 zł / szt. Sprzedany 9,99 zł za szt. ; Masa dekoracyjna Clay 7 kg Velo Jeger · 299 zł / szt. Sprzedany 299 zł za szt.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia ścian z www.leroymerlin.pl",
+      "url": "https://www.leroymerlin.pl/produkty/ogrod-i-taras/rosliny-nasiona-cebule/podloza-nawozy/nawozy-i-odzywki/wapno-do-bielenia-p.html?srsltid=AU7gw4U-p2Jcs9A9DZNeUG1Ow6umNdQ-oHGFcgwi7NzsUGlggUwIQEVE",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ26ybL3ofpZiSFm0J6PnG1Wtq5v9OpKeiEJgsdprqbmg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 9.99,
+     "regular": null,
+     "max_value": 375,
+     "currency": "PLN",
+     "is_price_range": true,
+     "displayed_price": "Od 9,99 zł do 375,00 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do",
+     "wapno do",
+     "wapno hydratyzowane",
+     "wapno malarskie"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 7,
+    "rank_absolute": 12,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.expondo.pl",
+    "title": "Bielenie obory krok po kroku - wybór wapna, sprzęt i techniki",
+    "url": "https://www.expondo.pl/inspiracje/bielenie-obory-krok-po-kroku/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.expondo.pl",
+    "website_name": "expondo.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno gaszone to forma wapna powstająca przez dodanie wody do tlenku wapnia. · Zastosowanie: Jest to najczęściej używane wapno do bielenia obór ...",
+    "pre_snippet": "04/25/2024 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do bielenia",
+     "wapno do",
+     "wapno do",
+     "wapno hydratyzowane",
+     "wapno malarskie"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-04-25 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 2,
+    "rank_absolute": 13,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Wapno hydratyzowane do bielenia ścian",
+     "Wapno malarskie",
+     "Jakie wapno do bielenia obory",
+     "Jakie wapno do bielenia kurnika",
+     "Wapno do bielenia drzew Allegro",
+     "Wapno do bielenia drzew bricomarche"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 8,
+    "rank_absolute": 14,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "hodowlany.pl",
+    "title": "Wapno do bielenia ścian, malowania kurnika i budynków inwentarskich 7 kg",
+    "url": "https://hodowlany.pl/wapno-do-bielenia-scian-malowania-kurnika-i-budynkow-inwentarskich-7-kg.html?srsltid=AU7gw4WmdgRPqyoVrHS9TCBLEestCbnyCrKVKIFHXV1s5GPxBXoe6krL",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://hodowlany.pl",
+    "website_name": "hodowlany.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno do bielenia ścian, malowania kurnika i budynków inwentarskich 7 kg ; Zamów dziś, a wyślemy w poniedziałek*. ; 299 zł* ; 14 dni na zwrot*.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 54.17,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "54,17 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 3,
+    "rank_absolute": 15,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Wapno do bielenia ścian Castorama",
+     "Wapno do bielenia ścian proporcje",
+     "Wapno do bielenia ścian Leroy Merlin",
+     "Wapno do bielenia ścian Mrówka",
+     "Wapno do bielenia obory",
+     "Wapno do bielenia kurnika"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 9,
+    "rank_absolute": 16,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]",
+    "domain": "www.youtube.com",
+    "title": "Wiosenne wapnowanie... ścian:) - Rolnik NIEprofesjonalny",
+    "url": "https://www.youtube.com/watch?v=eKvhdG_trxs",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Wyświetlenia: ponad 51,3 tys.",
+    "website_name": "YouTube · Rolnik NIEprofesjonalny",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "Wiosenne wapnowanie... ścian:) - Rolnik NIEprofesjonalny. @RolnikNIEprofesjonalny273 likes51K views8 years ago more. Subscribe ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2018-09-21 15:07:01 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 2,
+    "rank_absolute": 17,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "Wiosenne wapnowanie... ścian:) - Rolnik NIEprofesjonalny",
+      "url": "https://www.youtube.com/watch?v=eKvhdG_trxs",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211506-1748-0139-0000-ea79763c9e74:3"
+     },
+     {
+      "type": "images_element",
+      "alt": "Śnieżka Wapno malarskie 4kg",
+      "url": "https://www.ceneo.pl/35198446?srsltid=AU7gw4XjT_x1cP4gnuiQJXt3fqBdWBohUL8MQxqFgM7LFhBgbsXoVyzs",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211506-1748-0139-0000-ea79763c9e74:4"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno do bielenia ścian, drzew, malowania kurnika i budynków inwentarskich  7 kg",
+      "url": "https://fermo.pl/wapno-do-bielenia-scian-malowania-kurnika-i-budynkow-inwentarskich-7-kg.html?srsltid=AU7gw4XGXfMJOV7hup7T3zNA330sX8Sn0eDOM4mICwSAWEyvFL7qhskB",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211506-1748-0139-0000-ea79763c9e74:5"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno hydratyzowane, gaszone do bielenia ścian i piwnic 25kg Wapno  hydratyzowane, gaszone, budowlane, murarskie, wodorotlenek wapnia",
+      "url": "https://www.ceneo.pl/164346511?srsltid=AU7gw4WjEVulSSzLMITNR7GBnWldAoblZ9vljnt3kjKtOpypOIoQATgI",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211506-1748-0139-0000-ea79763c9e74:6"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 10,
+    "rank_absolute": 18,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.leroymerlin.pl",
+    "title": "Wapno budowlane hydratyzowane białe 2 kg Lhoist",
+    "url": "https://www.leroymerlin.pl/produkty/wapno-budowlane-hydratyzowane-biale-2-kg-lhoist-45282356.html?srsltid=AU7gw4Vm23sNW4Dg7hyU1rE2vji-0-tb7C-VbVAxHwr1xRTrHWBZClTb",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.leroymerlin.pl",
+    "website_name": "Leroy Merlin Polska",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno to naturalny, uniwersalny produkt o wielu zastosowaniach: do przygotowania trwałych zapraw murarskich i tynkarskich, jako środek do białkowania ścian ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.8,
+     "votes_count": 6,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 18.99,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "18,99 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 11,
+    "rank_absolute": 19,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "budujemydom.pl",
+    "title": "Jak wybielić ściany wapnem przy użyciu agregatu? Praktyczne ...",
+    "url": "https://budujemydom.pl/irbj/porady/112317-jak-wybielic-sciany-wapnem-przy-uzyciu-agregatu-praktyczne-wskazowki",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://budujemydom.pl",
+    "website_name": "BudujemyDom",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Do bielenia wybieramy wapno hydratyzowane lub wapno gaszone, które można zakupić w sklepach budowlanych. Najczęściej używa się wapna w formie pasty lub proszku, ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 12,
+    "rank_absolute": 20,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.obi.pl",
+    "title": "Wapno hydratyzowane białe 2 kg kupuj w OBI",
+    "url": "https://www.obi.pl/p/6400428/wapno-hydratyzowane-biale-2-kg",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.obi.pl",
+    "website_name": "obi.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno to uniwersalny produkt o wielu zastosowaniach: do przygotowania trwałych zapraw murarskich i tynkarskich, jako środek do białkowania ścian i higienizacji ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 20.99,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "20,99 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 13,
+    "rank_absolute": 21,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.ceneo.pl",
+    "title": "Zaprawa Śnieżka Wapno malarskie 4kg - Opinie i ceny na Ceneo.pl",
+    "url": "https://www.ceneo.pl/35198446?srsltid=AU7gw4VmV5PjVaoLF5MV-MOJvBoDb3oSZ5DNRrIDLqvRUH-T0W557fXv",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.ceneo.pl",
+    "website_name": "Ceneo",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "ZASTOSOWANIE: Wapno malarskiemodyfikowane przeznaczone do bielenia pomieszczeń narażonych na wilgoć i zagrzybienie takich jak piwnice i budynki gospodarcze.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia ścian z www.ceneo.pl",
+      "url": "https://www.ceneo.pl/35198446?srsltid=AU7gw4VmV5PjVaoLF5MV-MOJvBoDb3oSZ5DNRrIDLqvRUH-T0W557fXv",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcITb-citjJjrth2thkCXEDrE7viEFCSSmOoyMDpC0ng&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 14,
+    "rank_absolute": 22,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "forum.domidrewno.pl",
+    "title": "Bielenie ściany wapnem - Hyde Park Domidrewno",
+    "url": "https://forum.domidrewno.pl/index.php?topic=3176.0",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://forum.domidrewno.pl",
+    "website_name": "Domidrewno.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "W wiadrze wystarczy jak będziesz miał 1/5 , 1/4 cześć wapna i reszta wody. Pamiętaj ,że trzeba ciągle mieszać ,żeby wapno nie osiadło całkowicie ...",
+    "pre_snippet": "05/13/2015 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2015-05-13 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 15,
+    "rank_absolute": 23,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "dombud.eu",
+    "title": "Wapno malarskie - białe | 25kg",
+    "url": "https://dombud.eu/produkt/wapno-malarskie-25kg/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://dombud.eu",
+    "website_name": "Dombud.eu",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Zastosowanie: · Bielenie ścian i sufitów w pomieszczeniach gospodarczych, piwnicach, garażach oraz magazynach. · Dezynfekcja pomieszczeń rolniczych, chlewni, obór ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do bielenia ścian z dombud.eu",
+      "url": "https://dombud.eu/produkt/wapno-malarskie-25kg/",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowhaOmStlJCcPzUHYhcHEL1Tkr8zG6I3JjNCAjzTwRA&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 102,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "102,00 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 16,
+    "rank_absolute": 24,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.empik.com",
+    "title": "Wapno gaszone 7 kg do bielenia ścian malowania kurnika i budynków ...",
+    "url": "https://www.empik.com/wapno-gaszone-7-kg-do-bielenia-scian-malowania-kurnika-i-budynkow-inwentarskich,p1756456453,delikatesy-p",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.empik.com",
+    "website_name": "Empik.com",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno gaszone niemodyfikowane przeznaczone do bielenia pomieszczeń narażonych na wilgoć i zagrzybienie takich jak piwnice, pomieszczenia inwentarskie i ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 52.07,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "52,07 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 4,
+    "rank_absolute": 25,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Jakie wapno do bielenia kurnika",
+     "Wapno malarskie",
+     "Wapno hydratyzowane do bielenia ścian",
+     "Wapno do BIELENIA kurnika Allegro",
+     "Jakie wapno do bielenia obory",
+     "Wapno malarskie Castorama"
+    ],
+    "rectangle": null
+   }
+  ]
+ },
+ "mleko wapienne": {
+  "keyword": "mleko wapienne",
+  "type": "organic",
+  "se_domain": "google.com",
+  "location_code": 2616,
+  "language_code": "pl",
+  "check_url": "https://www.google.com/search?q=mleko%20wapienne&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ&hl=pl&gl=PL",
+  "datetime": "2026-09-21 15:07:07 +00:00",
+  "spell": null,
+  "refinement_chips": null,
+  "item_types": [
+   "knowledge_graph",
+   "people_also_ask",
+   "organic",
+   "popular_products",
+   "people_also_search",
+   "images"
+  ],
+  "se_results_count": 0,
+  "pages_count": 2,
+  "items_count": 24,
+  "items": [
+   {
+    "type": "knowledge_graph",
+    "rank_group": 1,
+    "rank_absolute": 1,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "title": "Mleko wapienne",
+    "subtitle": null,
+    "description": null,
+    "card_id": null,
+    "url": null,
+    "image_url": null,
+    "logo_url": null,
+    "cid": null,
+    "items": [
+     {
+      "type": "knowledge_graph_images_item",
+      "rank_group": 0,
+      "rank_absolute": 0,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "link": null,
+      "items": [
+       {
+        "type": "knowledge_graph_images_element",
+        "url": "https://www.splitwater.pl/oczyszczalnie-sciekow/neutrasplit/",
+        "domain": "www.splitwater.pl",
+        "alt": "Zdjęcie produktu neutrasplit - stabilizowane mleko wapienne - SplitWater",
+        "image_url": "https://api.dataforseo.com/cdn/i/09211507-1748-0139-0000-fccfe738d988:0",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+       },
+       {
+        "type": "knowledge_graph_images_element",
+        "url": "https://pl.wikipedia.org/wiki/Mleko_wapienne_(speleologia)",
+        "domain": "pl.wikipedia.org",
+        "alt": "Zdjęcie produktu Mleko wapienne (speleologia) – Wikipedia, wolna encyklopedia",
+        "image_url": "https://api.dataforseo.com/cdn/i/09211507-1748-0139-0000-fccfe738d988:1",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+       },
+       {
+        "type": "knowledge_graph_images_element",
+        "url": "https://budujemydom.pl/irbj/aktualnosci/116982-mleko-wapienne-tradycyjny-material-z-nowoczesnymi-zastosowaniami",
+        "domain": "budujemydom.pl",
+        "alt": "Zdjęcie produktu Mleko wapienne – od starożytnych fresków po przemysł XXI wieku",
+        "image_url": "https://api.dataforseo.com/cdn/i/09211507-1748-0139-0000-fccfe738d988:2",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]"
+       },
+       {
+        "type": "knowledge_graph_images_element",
+        "url": "https://www.splitwater.pl/oczyszczalnie-sciekow/neutrasplit/",
+        "domain": "www.splitwater.pl",
+        "alt": "Zdjęcie produktu neutrasplit - stabilizowane mleko wapienne - SplitWater",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0X8Fdl0QFG1hoP-9Hcrr0y1VGecsiUXCkxyCU5gTZgBlRWMFcCRpnaMVbpcUu0ktzv4XSRfs_w4nfj4Qghu2Z22VIgcm-pNw4Z7K5vU&s=10",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]"
+       },
+       {
+        "type": "knowledge_graph_images_element",
+        "url": "https://kb.pl/materialy-budowlane/wapno/ciasto-wapienne-przygotowanie-zastosowanie-cena-porady/",
+        "domain": "kb.pl",
+        "alt": "Zdjęcie produktu Ciasto wapienne - przygotowanie, zastosowanie, cena, porady",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiiZOd7m-vYk_VuKsCzu1QNIlRDrFjRPe5m36sPcTh7hE4oG4hvFGGkMu1niIxLjQAg-YUTCowy5Aqz35KFgPNGlt3u9-MID0kk9ZX7A&s=10",
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]"
+       }
+      ],
+      "rectangle": null
+     },
+     {
+      "type": "knowledge_graph_description_item",
+      "rank_group": 0,
+      "rank_absolute": 0,
+      "page": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "text": "Informacje ogólne Mleko wapienne – zawiesina koloidalna wodorotlenku wapnia w wodzie. Z wyglądu przypomina mleko krowie, stąd nazwa substancji. Wikipedia... Wikipedia",
+      "links": [
+       {
+        "type": "link_element",
+        "title": " Wikipedia",
+        "url": "https://pl.wikipedia.org/wiki/Mleko_wapienne",
+        "domain": "pl.wikipedia.org",
+        "description": null,
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/span[1]/a[1]"
+       },
+       {
+        "type": "link_element",
+        "title": "... Wikipedia",
+        "url": "https://pl.wikipedia.org/wiki/Mleko_wapienne",
+        "domain": "pl.wikipedia.org",
+        "description": null,
+        "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]"
+       }
+      ],
+      "rectangle": null
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "people_also_ask",
+    "rank_group": 1,
+    "rank_absolute": 2,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]",
+    "items": [
+     {
+      "type": "people_also_ask_element",
+      "title": "Czym jest mleko wapienne?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Jak zrobić mleko wapienne?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[2]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co to jest woda wapienna i do czego służy?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[3]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Do czego stosuje się wapien?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[4]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co daje picie wapna codziennie?",
+      "seed_question": "Do czego stosuje się wapien?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[5]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czy wapień to kamień?",
+      "seed_question": "Do czego stosuje się wapien?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[6]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 1,
+    "rank_absolute": 3,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "pl.wikipedia.org",
+    "title": "Mleko wapienne – Wikipedia, wolna encyklopedia",
+    "url": "https://pl.wikipedia.org/wiki/Mleko_wapienne",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://pl.wikipedia.org",
+    "website_name": "Wikipedia",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Zastosowanie · składnik farb elewacyjnych · środek wzmacniający odkryte, pękające lub osypujące się stare tynki · prosty środek odkażający (ze względu na ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 2,
+    "rank_absolute": 4,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Mleko Wapienne - Niska cena na ...",
+    "url": "https://allegro.pl/listing?string=mleko%20wapienne&srsltid=AU7gw4WfoxYcyBW7NjiH9YNJPtBbkWK-fTijWsuFnb_XoyAMvzBoE-ex",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Mleczan wapnia Biomus 1 kg gatunek czysty w proszku 4.8/5.0 (41) · 27 zł",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 1,
+     "rating_max": 5
+    },
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": [
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "domain": "allegro.pl",
+      "title": "KWAS MLEKOWY czysty 80% 1L BIOMUS",
+      "url": "https://allegro.pl/produkt/kwas-mlekowy-80-1l-lactic-acid-gatunek-czysty-biomus-36f42fd9-cc60-4ebe-bc96-b88b7380cccd?offerId=6540061259&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQm6BfmHmiZocMGGS9KlOzd_5k6jPtnFs4wuh69lyygedkpEBum"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 797,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 24,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "24 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "domain": "allegro.pl",
+      "title": "MLECZAN WAPNIA czysty Calazoon 250g BIOMUS",
+      "url": "https://allegro.pl/produkt/mleczan-wapnia-biomus-250-g-250-ml-62e22648-ec05-4158-8a78-218ecb59db51?offerId=10918933212&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-jKrObDwus0Nbqka5Hq2Cb7lroeD0RZrikDgT9Afs4eNgVn1g"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 50,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 15,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "15 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "domain": "allegro.pl",
+      "title": "MLECZAN WAPNIA czysty Calazoon 100g BIOMUS",
+      "url": "https://allegro.pl/produkt/mleczan-wapnia-biomus-100-g-100-ml-3d120515-a00d-47cb-97ae-42b3ad1a0c8f?offerId=6943036545&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEp-qp3sZR_N1YS_E6_UII11lqtUwdDq0VQYIkYQu1-C3TJ4yC"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 33,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 8,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "8 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+      "domain": "allegro.pl",
+      "title": "Mleczan wapnia Biomus 1 kg gatunek czysty w proszku",
+      "url": "https://allegro.pl/produkt/mleczan-wapnia-biomus-1000-g-1000-ml-94440865-ac69-4a06-a56c-4b07386d5799?offerId=15736781304&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTodYi5J-daJ99N4IBkS8cOoHX5IpNHIAEU3EPC8nBEuh92Idic"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 41,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 27,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "27 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
+      "domain": "allegro.pl",
+      "title": "MLECZAN WAPNIA czysty Calazoon 3kg BIOMUS",
+      "url": "https://allegro.pl/produkt/mleczan-wapnia-biomus-3000-g-99a4b903-1e39-4a0c-bd20-6cc03cec0d0e?offerId=6943040576&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5unKDbcBf0jG0nHwvztiGnX0F3cFSB5vqucKetadmmp3LSLe8"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 4,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 75,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "75 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]",
+      "domain": "allegro.pl",
+      "title": "MLECZAN WAPNIA 5hydrat - czysty - 500g",
+      "url": "https://allegro.pl/produkt/mleczan-wapnia-5hydrat-czysty-500g-1fd19c0e-0f84-47b9-a0ac-941c56c3454e?offerId=17550820552&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKTyBRQQIdKVJFbxniZBh94gjBGqdI23KJN1Z-cCpOmTDzJIod"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 2,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 28,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "28 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]",
+      "domain": "allegro.pl",
+      "title": "MLECZAN WAPNIA 5hydrat - czysty - 1kg",
+      "url": "https://allegro.pl/produkt/mleczan-wapnia-5hydrat-czysty-1kg-ee08c813-59fb-461a-b7e5-debcb7d935a8?offerId=17550820998&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyu2jyoz2D_D9aG4Hsb9DdrRaK54vY-Z1UwjGs2KJ_2ESei9GU"
+       }
+      ],
+      "amp_version": false,
+      "rating": null,
+      "price": {
+       "current": 45,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "45 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]",
+      "domain": "allegro.pl",
+      "title": "MLECZAN WAPNIA 5hydrat - czysty - 250g",
+      "url": "https://allegro.pl/produkt/mleczan-wapnia-5hydrat-czysty-250g-80647090-6f1a-49a8-a009-60d336a83713?offerId=17550820449&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dmleko%2520wapienne",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1EkWpDCvhyVx28DWu0bCWlVaTYrv8VXO1euBf4GswLk_3WCng"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 1,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 17,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "17 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     }
+    ],
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "popular_products",
+    "rank_group": 1,
+    "rank_absolute": 5,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]",
+    "title": "Porównywarki cen",
+    "items": [
+     {
+      "type": "popular_products_element",
+      "title": "Sante Lovege Napój Sojowy z wapniem",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSAZD3O04svncqZruWAdfRlKV8zezQ9Z4mmqBkfOz_Qf-yJ2kq8plSY9frz5SuDDBJ3MZp0Run0il4ysClqgykBDUvdUnPmLSoxS0IwuHfsQBLWrelsi6Fu5g",
+      "price": {
+       "current": 8.56,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "8,56 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "3678177547468373855",
+       "data_docid": "1580072651716758556",
+       "gid": "4830726187059294069"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Mlekovita Vegevita Napój Owsiany z wapniem i witaminami 1L",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTuBnEiBQDJUm7xN8tk983ZHhrdmL5vmOn-94a988Mqw1lXn7rSZMRJxOrvd5vTOrUT4c6-KPDyUnVadSr9ILDCvp55NJjwug5pPlhuyHCeWsImt1i73bAu",
+      "price": {
+       "current": 8.54,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "8,54 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "17041647459698433306",
+       "data_docid": "3786059914649865466",
+       "gid": "7865633600962146937"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Biolane mleczko dla dzieci olejowo-wapienne 700 ml",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCuFQ2HtpecwjjNabP9N3dkJbQoxR7TRD8eevSeFwy-Qnlb6D93E6oX8xZVGT0ABJgyM6nfd_1WBAGL5bNRG3YztkTLWklyL_4OWwEsJ0",
+      "price": {
+       "current": 64,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "64,00 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "6187612793847568326",
+       "data_docid": "1156599927022228808",
+       "gid": "14109088544336870192"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Mlekovita Mleko Wypasione UHT waniliowe 1L",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRozs076ncKfA_GlmrWERhd6yOmlc84hvVncORplqyLHuCK8QoULOfEr7AGWEh-HypgYoidPq7aKRCV2oeQQYP6Gf8nqV1leeo8hyGrfe-1lyPqvgN8zfDD",
+      "price": {
+       "current": 5.68,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "5,68 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "5186176776768165249",
+       "data_docid": "17671710350001617036",
+       "gid": "1002741383996032587"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Sante Napój Lovege Owsiany Barista Bez Cukru",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRecpu8_rf946HSgaouLQaZeG-39KjuojPwgqcVfoLXAeSE2HFlO9mqjZrGnQ9mK1zxnvdOffromvFzRFIbwqyTUvaV05wqXl2P4MuGCD7FDwkv8iRWgJFYrA",
+      "price": {
+       "current": 6.98,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "6,98 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "6666719163909715161",
+       "data_docid": "12661382978080845626",
+       "gid": "1619454206692504784"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Inka Napój owsiany z wanilią 500 ml",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcREPPrMQNlKVo6jeYMIk0gJad6wyyqM1vkgq06Qmb6wred1Z-yU0vhIJWmDY-BblDuHvAZB1r1d3EYML_M0_l-zYuLGkSKL8pGZhH8F7dNTSGz-zNuABF7Q",
+      "price": {
+       "current": 6.49,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "6,49 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "17374351507610876197",
+       "data_docid": "15094437175042178325",
+       "gid": "14790226224858231911"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Sante Napój Lovege Owsiany bez Cukru",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzMMjxkHEIxjCtvchUeVq1ctsMlI89Kc_9QNDe9WP0ZBHAEuLvYTJyjzwLaH1ffwCmoVyFKveEu108UHXxagR9gytnaH_WR7gPEphgEcSdIsy35DwcbFGOeA",
+      "price": {
+       "current": 9.49,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "9,49 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "11504693616278073811",
+       "data_docid": "3740373916903675139",
+       "gid": "17685135344939930611"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Mlekovita Wypasione Mleko UHT waniliowe",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTfT7ETOucljjvcoOyaoiqRBtIlsmP5aBQ9m0lBFQX7i_iBiZ_wsjTmbbE-_3UNB5USCmcT-XZZIYQZfjCViMeZ2Hlo51OibDUqpqATIYEd-KkvYl5LZ-CJbw",
+      "price": {
+       "current": 2.09,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "2,09 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "2769308039541819261",
+       "data_docid": "15933469948243349341",
+       "gid": "10529493277728300798"
+      }
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 1,
+    "rank_absolute": 6,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Mleko wapienne wzór",
+     "Mleko wapienne do bielenia",
+     "Mleko wapienne zastosowanie",
+     "Mleko wapienne Castorama",
+     "Mleko wapienne LEROY MERLIN",
+     "Mleko Wapienne Allegro"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 3,
+    "rank_absolute": 7,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.lhoist.com",
+    "title": "Mleko wapienne",
+    "url": "https://www.lhoist.com/pl-PL/produkty-i-uslugi/material/mleko-wapienne",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.lhoist.com",
+    "website_name": "Lhoist",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Mleko wapienne neutralizuje kwaśne gleby, poprawiając ich równowagę pH. Zwiększa to plony, poprawia zdrowie gleby i dostarcza roślinom niezbędnego wapnia, co ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "neutralizuje kwaśne gleby, poprawiając ich równowagę pH"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 4,
+    "rank_absolute": 8,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "drogisamorzadoweonline.pl",
+    "title": "MLECZKO WAPIENNE – SEKRET TRWAŁYCH DRÓG",
+    "url": "https://drogisamorzadoweonline.pl/artykul-sponsorowany/mleczko-wapienne-sekret-trwalych-drog",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://drogisamorzadoweonline.pl",
+    "website_name": "Drogi Samorządowe",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Mleczko wapienne to preparat przygotowany na bazie wodorotlenku wapnia, wzbogacony o specjalne dodatki polimerowe. Wyróżnia się bardzo drobnym ...",
+    "pre_snippet": "05/03/2025 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2025-05-03 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 5,
+    "rank_absolute": 9,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "warchem.pl",
+    "title": "WODOROTLENEK WAPNIA roztwór 10% (MLECZKO WAPIENNE)",
+    "url": "https://warchem.pl/wodorotlenek-wapnia-roztwor-10-mleczko-wapienne-czysty-p-1231.html?srsltid=AU7gw4UOt78ci-pNbSE_LG7zoB61yogeaWfyQxlSSujRxIZj4lxuEV8q",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://warchem.pl",
+    "website_name": "warchem.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "WODOROTLENEK WAPNIA ROZTWÓR 10% (MLECZKO WAPIENNE ) najlepszy produkt na świecie. PODSTAWOWE ZASTOSOWANIE: Odczynnik chemiczny do celów laboratoryjnych, ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 6,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "6,00 zł"
+    },
+    "highlighted": [
+     "WODOROTLENEK WAPNIA ROZTWÓR 10% (MLECZKO WAPIENNE"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 6,
+    "rank_absolute": 10,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.almawatech.com",
+    "title": "Mleko wapienne - Glosariusz",
+    "url": "https://www.almawatech.com/pl/scieki/mleko-z-limonki/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.almawatech.com",
+    "website_name": "almawatech",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Mleko wapienne to wodna zawiesina wodorotlenku wapnia (Ca(OH)₂), która jest wytwarzana przez rozpuszczenie wapna palonego (CaO) lub wapna gaszonego w wodzie ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 7,
+    "rank_absolute": 11,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "uprawnienia-budowlane.pl",
+    "title": "Mleko wapienne",
+    "url": "https://uprawnienia-budowlane.pl/mleko-wapienne.html",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://uprawnienia-budowlane.pl",
+    "website_name": "Program do nauki na uprawnienia budowlane",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "20 sty 2020 — Mleko wapienne jest to ciasto wapienne rozcieńczone wodą na zaczyn o konsystencji śmietany (program uprawnienia budowlane na komputer). Ciężar ...",
+    "pre_snippet": "01/20/2020 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "ciasto wapienne rozcieńczone wodą na zaczyn o konsystencji śmietany"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2020-01-20 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 8,
+    "rank_absolute": 12,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "pl.rheonics.com",
+    "title": "Mleko wapienne (zawiesina MOL) – monitorowanie w czasie ...",
+    "url": "https://pl.rheonics.com/solutions-item/milk-of-lime-mol-slurry-real-time-monitoring-and-controlling-optimum-concentration/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://pl.rheonics.com",
+    "website_name": "rheonics",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "W oczyszczaniu ścieków wapno działa jako koagulant, neutralizując ładunek cząstek koloidu, umożliwiając ich łatwe usunięcie. Promuje także ...",
+    "pre_snippet": "12/21/2023 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2023-12-21 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 9,
+    "rank_absolute": 13,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "alchem.com.pl",
+    "title": "Wapnia wodorotlenek r-r 10%(mleczko wapienne)",
+    "url": "https://alchem.com.pl/wapnia-wodorotlenek-r-r-10-mleczko-wapienne.html",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://alchem.com.pl",
+    "website_name": "Alchem Grupa",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapnia wodorotlenek r-r 10%(mleczko wapienne ). Numer katalogowy. 363-528785704-30L. Producent. Chempur · Chempur. W magazynie. Zaczynając od 16,69 zł 13,57 ...",
+    "pre_snippet": "Wapnia wodorotlenek r-r 10%(mleczko wapienne). Numer katalogowy. 363-528785704-30L. Producent. Chempur · Chempur. W magazynie. Zaczynając od 16,69 zł 13,57 ...",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 16.69,
+     "regular": null,
+     "max_value": 445.57,
+     "currency": "PLN",
+     "is_price_range": true,
+     "displayed_price": "Od 16,69 zł do 445,57 zł"
+    },
+    "highlighted": [
+     "Wapnia wodorotlenek r-r 10%(mleczko wapienne"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "mleko wapienne wzór",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne",
+     "mleko wapienne cena",
+     "mleko wapienne"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 2,
+    "rank_absolute": 14,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Mleko wapienne cena",
+     "Mleko wapienne po angielsku",
+     "Mleko wapienne do malowania",
+     "Mleko wapienne jak zrobić",
+     "Mleko wapienne a woda wapienna",
+     "Mleczko wapienne w drogownictwie"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 10,
+    "rank_absolute": 15,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "zdrowie.interia.pl",
+    "title": "Piłam złote mleko przez tydzień. Są pierwsze efekty",
+    "url": "https://zdrowie.interia.pl/domowa-apteczka/news-pilam-zlote-mleko-przez-tydzien-sa-pierwsze-efekty,nId,7120761",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://zdrowie.interia.pl",
+    "website_name": "Interia Zdrowie",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "1 lis 2023 — Złote mleko, znane również jako \"kurkumowe mleko\", ma wzmacniać odporność, poprawiać trawienie i korzystnie wpływać na wygląd.",
+    "pre_snippet": "11/01/2023 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "ma wzmacniać odporność, poprawiać trawienie i korzystnie wpływać na wygląd"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2023-11-01 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 1,
+    "rank_absolute": 16,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "MLECZAN WAPNIA czysty Calazoon 3kg BIOMUS",
+      "url": "https://allegro.pl/listing?string=mleko%20wapienne&srsltid=AU7gw4X1h3cwxjl_2g5RWdBPD5lsojH5EzogSZO9iw6bCnBXWh2R255m",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211507-1748-0139-0000-fccfe738d988:3"
+     },
+     {
+      "type": "images_element",
+      "alt": "Ciasto wapienne - przygotowanie, zastosowanie, cena, porady",
+      "url": "https://kb.pl/materialy-budowlane/wapno/ciasto-wapienne-przygotowanie-zastosowanie-cena-porady/",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211507-1748-0139-0000-fccfe738d988:4"
+     },
+     {
+      "type": "images_element",
+      "alt": "Bielenie drzew owocowych",
+      "url": "https://www.planta.pl/pl/porady/pielegnacja-roslin/bielenie-drzew-owocowych",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211507-1748-0139-0000-fccfe738d988:5"
+     },
+     {
+      "type": "images_element",
+      "alt": "Bielenie drzew owocowych",
+      "url": "https://www.planta.pl/pl/porady/pielegnacja-roslin/bielenie-drzew-owocowych",
+      "image_url": "https://api.dataforseo.com/cdn/i/09211507-1748-0139-0000-fccfe738d988:6"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 11,
+    "rank_absolute": 17,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "tymaherbs.com",
+    "title": "Mleko kokosowe do kąpieli, mycia twarzy, domowych maseczek",
+    "url": "https://tymaherbs.com/products/mleko-kokosowe-do-kapieli-mycia-twarzy-domowych-maseczek-w-100-ekologiczne-dla-calej-rodziny?srsltid=AU7gw4U-TJwdc2RgnyH2rcBh_nP7DVXGHY3v2NQRhVsSptrpzs8gXWDw",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://tymaherbs.com",
+    "website_name": "Tyma Herbs",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Mleko jest pozyskiwane z miąższu orzecha kokosowego, zachowuje pełnię składników odżywczych – witamin C, E, z grupy B, a także minerałów takich jak magnez, ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 12,
+    "rank_absolute": 18,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.katarzynagubala.pl",
+    "title": "Mleko roślinne ze sklepu - jakie kupić?",
+    "url": "https://www.katarzynagubala.pl/mleko-roslinne-ze-sklepu-jakie-kupic.html",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.katarzynagubala.pl",
+    "website_name": "Katarzyna Gubała",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Z czasem dopiero przyszła wiedza na temat nietolerancji laktozy i jakości mleka krowiego w sklepach. A jak wygląda sprawa z mlekiem roślinnym ze sklepu?",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 13,
+    "rank_absolute": 19,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "vegetina.com",
+    "title": "Mleko kokosowe w puszce: co warto wiedzieć? - Vegetina. Prosto z roślin.",
+    "url": "https://vegetina.com/mleko-kokosowe-w-puszce-co-warto-wiedziec/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://vegetina.com",
+    "website_name": "vegetina.com",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Mleko kokosowe (mleczko kokosowe) w puszce najczęściej wykorzystywane jest w kuchni roślinnej jako zastępnik bitej śmietany. Wystarczy ubić gęstą część mleka z ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 14,
+    "rank_absolute": 20,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "craftcoffee.pl",
+    "title": "Jakie mleko owsiane najlepsze do kawy? część 1. - Craft Coffee",
+    "url": "https://craftcoffee.pl/jakie-mleko-owsiane-najlepsze-do-kawy-czesc-1/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://craftcoffee.pl",
+    "website_name": "craftcoffee.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Jakie mleko owsiane jest najlepsze do kawy. Dla kogo? Test napojów owsianych. Kryteria oceny: Alpro Oat. Minor Figures. Minor Figures Organic.",
+    "pre_snippet": "02/11/2021 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2021-02-11 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 15,
+    "rank_absolute": 21,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "doktorania.pl",
+    "title": "Mleko roślinne - dlaczego go nie lubię?",
+    "url": "https://doktorania.pl/mleko-roslinne-dlaczego-nie-lubie/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://doktorania.pl",
+    "website_name": "Doktor Ania",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wiele osób pyta mnie czemu nie lubię alpro. Spieszę zatem uprzejmie z odpowiedzią: nie chodzi o alpro. Chodzi o 'mleko roślinne' (nazwa potoczna) NA BOGATO.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 16,
+    "rank_absolute": 22,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "mlekovita.com.pl",
+    "title": "Wypasione mleko smak truskawka",
+    "url": "https://mlekovita.com.pl/produkt/mleko-wypasione-truskawka-1-l-901",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://mlekovita.com.pl",
+    "website_name": "Mlekovita",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Delikatne, częściowo odtłuszczone mleko o zawartości 1,5% tłuszczu o smaku truskawkowym doskonale sprawdzi się jako samodzielny napój lub dodatek do ulubionych ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 17,
+    "rank_absolute": 23,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.youtube.com",
+    "title": "Przepis na mleko owsiane - Domowe mleko roślinne - 380",
+    "url": "https://www.youtube.com/watch?v=9FKgTjp7fG8",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.youtube.com",
+    "website_name": "YouTube",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "domowe-mleko-owsiane.html Kolejną propozycją z cyklu czym zastąpić mleko od krowy, jest przepis na mleko owsiane. Świadomość, że mleko krowie to",
+    "pre_snippet": "11/01/2022 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2022-11-01 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 18,
+    "rank_absolute": 24,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "sklep.pokusa.org",
+    "title": "Mleko zastępcze dla szczeniąt - preparat mlekozastępczy od 1. dnia ...",
+    "url": "https://sklep.pokusa.org/pl/980-mlekozastepczy-preparat-dla-szczeniat-goldmilk-puppy-breedingline.html?srsltid=AU7gw4WQtGT8idqaGisHNXnA0Dpk-ugNKXoadambS3bt-XPXRpRapQ0S",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://sklep.pokusa.org",
+    "website_name": "pokusa",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Mleko zastępcze dla szczeniąt GoldMilk Puppy od Pokusa. Preparat mlekozastępczy od 1. dnia życia. Wzmacnia odporność i wspiera rozwój kości i uzębienia.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   }
+  ]
+ }
+}
