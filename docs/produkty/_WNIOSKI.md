@@ -1,6 +1,6 @@
 # Baza wiedzy produktowej — wnioski jako fakty do decyzji D1–D4
 
-> 10.09.2026 · zlecenie `docs/prompty/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md` · źródła: 19 plików `docs/produkty/<slug>.md`,
+> 10.09.2026 · zlecenie `docs/prompty/archiwum/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md` · źródła: 19 plików `docs/produkty/<slug>.md`,
 > `README.md` (indeks), `_macierz-fraz.csv` (581 fraz). **Bez rekomendacji architektury** — D1–D4 rozstrzyga Janek quizem.
 > GSC: okno 2026-06-09 … 2026-09-06. Planer: Google Ads API, PL, średnia 12 mies. Zapytania: CPT `agria_inquiry`, 11 prawdziwych IV–IX.
 > Koszt DataForSEO całości: **0,5424 USD**.

@@ -336,7 +336,7 @@ cenowego.** Wolumen, który przez to zostawiamy: `wapno granulowane cena` 480/mi
 `wapno nawozowe cena za tonę` 140, `wapno magnezowe cena` 90, `wapno na pole cena` 50,
 `wapno tlenkowe cena` 50, `kreda nawozowa cena` 50.
 
-Wątek prowadzony osobno: `docs/prompty/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md`.
+Wątek prowadzony osobno: `docs/prompty/archiwum/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md`.
 
 ### Zauważone obok, nie ruszam
 

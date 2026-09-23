@@ -1,6 +1,6 @@
 # Baza wiedzy produktowej AGRII — indeks
 
-> Zlecenie: `docs/prompty/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md` (Janek, 10.09.2026). Produkcja tylko czytana.
+> Zlecenie: `docs/prompty/archiwum/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md` (Janek, 10.09.2026). Produkcja tylko czytana.
 > **Stan 10.09.2026: baza kompletna — 19 plików produktów** (szablon pilota zaakceptowany `[J 10.09]`),
 > macierz fraz `_macierz-fraz.csv` (581 fraz), zestawienie `_WNIOSKI.md`.
 

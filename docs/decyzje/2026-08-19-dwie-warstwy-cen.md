@@ -65,4 +65,4 @@ w schema `Product`" — czyli **odwrotnie niż ta decyzja**. Bez ADR-a i wpisu w
 sesja otworzyłaby rozpiskę i wpisała ceny do bazy.
 
 Powiązane: memory `project_agria_dwie_warstwy_cen`, `docs/FAKTY_KLIENTA.md` §7,
-`docs/prompty/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md`.
+`docs/prompty/archiwum/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md`.

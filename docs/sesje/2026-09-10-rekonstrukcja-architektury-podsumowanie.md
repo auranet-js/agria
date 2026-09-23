@@ -2,7 +2,7 @@
 
 > Wątek zaczął się od prompta `docs/prompty/wdrozenie/2026-09-09-REKONSTRUKCJA-architektura-tresci.md`
 > (Janek: „przestałem rozumieć, dlaczego strona wygląda tak, jak wygląda"). Skończył się poleceniem zbudowania
-> bazy wiedzy o produktach — prompt: `docs/prompty/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md`.
+> bazy wiedzy o produktach — prompt: `docs/prompty/archiwum/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md`.
 > Produkcja nietknięta przez cały wątek (odczyt: MCP `query_db`, `curl`, GSC API, git).
 
 ---
@@ -15,7 +15,7 @@
 | `docs/strategy/2026-09-10-SCIEZKA-SEO-I-SPRZEDAZY.md` | podsumowanie osiągnięć + propozycja ścieżki; **status: propozycja, decyzje D1–D4 NIEPODJĘTE** (quiz zatrzymany przez Janka) |
 | `docs/archiwum/2025-12_2026-05-HISTORIA_DECYZJI_claude-ai.md` | kopia `AGRIA/Archiwum/AGRIA_HISTORIA_DECYZJI.md` z Google Drive — zestawienie 28 wątków Claude.ai z budowy strony (źródło wtórne) |
 | ten plik | podsumowanie wątku |
-| `docs/prompty/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md` | prompt do następnego wątku |
+| `docs/prompty/archiwum/2026-09-10-PROMPT_BAZA_WIEDZY_PRODUKTOWEJ.md` | prompt do następnego wątku |
 
 ---
 

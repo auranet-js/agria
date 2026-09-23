@@ -2,7 +2,7 @@
 
 > **Projekt:** `agria` · **Zakres:** ryczałt R
 > **Sześć pozycji:** kontrola 15.09 · ~~T-116~~ · ~~T-117~~ · kontrola 18.09 · T-085 · T-093
-> ⚠️ **14.09: T-116 i T-117 przeniesione do T-136 `[J 14.09]`** — wykonuje je wątek kart (`docs/prompty/2026-09-14-PROMPT_T-136_KARTY_CIAG_DALSZY.md`). §2 i §3 poniżej zostają jako kontekst, **nie wykonuj ich tutaj**.
+> ⚠️ **14.09: T-116 i T-117 przeniesione do T-136 `[J 14.09]`** — wykonuje je wątek kart (`docs/prompty/archiwum/2026-09-14-PROMPT_T-136_KARTY_CIAG_DALSZY.md`). §2 i §3 poniżej zostają jako kontekst, **nie wykonuj ich tutaj**.
 > **Kontekst:** `docs/PLAN_WRZESIEN_2026.md` §7 (blok 1, pozycje 11–16)
 > **Poprzedni blok:** blok 0 domknięty 08.09, commity `4e49aed`, `dde4107`, `4c73caa`, `383b7d7`, `84f4965`
 >

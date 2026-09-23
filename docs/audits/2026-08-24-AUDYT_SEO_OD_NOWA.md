@@ -1,6 +1,6 @@
 # Audyt SEO agria.pl od nowa — kategorie, produkty, indeksacja, plan VIII–X
 
-> **Data pomiarów:** 2026-08-24 · **Zlecenie:** `docs/prompty/2026-08-24-PROMPT_AUDYT_SEO_OD_NOWA.md`
+> **Data pomiarów:** 2026-08-24 · **Zlecenie:** `docs/prompty/archiwum/2026-08-24-PROMPT_AUDYT_SEO_OD_NOWA.md`
 > **Zakres:** audyt. **Zero zmian na produkcji, zero zgłoszeń do Indexing API, zero nowych treści.**
 >
 > **Zasada dowodu.** Każdy wiersz pochodzi z pomiaru wykonanego tego dnia, nie z dokumentu.

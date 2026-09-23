@@ -6,7 +6,7 @@
 | **Status** | 🔴 teraz — wykonywane **w tej samej edycji co T-010**, nie osobno |
 | **Zgłosił** | Janek, 19.08.2026 |
 | **Szacunek** | 0 h dodatkowych, jeśli idzie z T-010; ~3 h, jeśli ktoś rozdzieli |
-| **Prompt pomocniczy** | `docs/prompty/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md` (136 linii, wzorce zdań) |
+| **Prompt pomocniczy** | `docs/prompty/archiwum/2026-08-19-PROMPT_SEO_CENY_NA_STRONACH.md` (136 linii, wzorce zdań) |
 
 ---
 
