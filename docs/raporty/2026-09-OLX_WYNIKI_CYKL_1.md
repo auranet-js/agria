@@ -120,6 +120,9 @@ szczytuje X–XI: 3 600 wobec 1 600 w sierpniu).
 
 ## 4. Ile kosztuje jeden kontakt — i jak to wypada wobec Ads
 
+> ⚠️ **Korekta 23.09.2026:** projekcja z 7,88 dnia sierpnia się nie obroniła — przy tempie z 34 dni koszt kontaktu
+> wyszedł **ok. 27 zł netto** (`docs/raporty/2026-09-OLX_AUDYT.md`).
+
 **Koszt kanału na cykl:** pakiet Premium 200 = 1 199,99 zł brutto (975,60 netto) po stronie AGRII
 + 300 zł netto prowadzenia po stronie Auranet = **1 275,60 zł netto** (1 568,99 zł do zapłaty).
 Setup 1 800 zł był jednorazowy i w tym rachunku nie występuje.
@@ -292,6 +295,11 @@ i to jest największa niepewność tego planu. Sprawdzalne jednym pomiarem 14 dn
 ---
 
 ## 6. Rynek — co się zmieniło od baseline'u 07.08
+
+> ⚠️ **Korekta 23.09.2026 (audyt, T-145):** ta sekcja stoi na próbce ~1 200 najnowszych ogłoszeń kategorii,
+> nie na spisie — OLX ucina paginację na offsecie ~1000. Spis 23.09: AGRIA **8.** sprzedawca (3,1%), lider
+> 699-712-071 ma **496** ogłoszeń. Tezy „drugi sprzedawca”, „lider spadł do 122”, „rynek −3,8%” są nieważne.
+> Szczegóły: `docs/raporty/2026-09-OLX_AUDYT.md` §7.
 
 Snapshot 28.08 (`market_snapshot.py`, kategorie 4368 Nawozy + 765 Pozostałe rolnicze) wobec
 baseline'u z 07.08, okres 20,8 dnia:

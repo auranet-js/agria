@@ -1,0 +1,934 @@
+[
+ {
+  "wariant": "agrobielik-70-gleba",
+  "pole": "Typ reakcji",
+  "olx": "Egzotermiczna",
+  "karta": "Szybka (egzotermiczna)",
+  "ids": [
+   1092688691,
+   1092692159,
+   1092692186,
+   1092692225,
+   1092692262,
+   1092693331,
+   1092693358,
+   1092693386,
+   1092693419,
+   1092693451,
+   1092693481,
+   1092693518,
+   1092693553,
+   1092693582,
+   1092693609,
+   1092693643,
+   1092693672,
+   1092693702,
+   1092693733,
+   1092693774,
+   1092693802,
+   1092693841,
+   1092693871,
+   1092693902,
+   1092693929,
+   1092693957,
+   1092693987,
+   1092694020,
+   1092694054,
+   1092694082,
+   1092698558,
+   1092698270
+  ]
+ },
+ {
+  "wariant": "agrobielik-70-gleba",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Przyspieszenie mineralizacji mułu stawowego, Rekultywacja terenów zdegradowanych",
+  "karta": "Sadownictwo, hurtownie rolnicze",
+  "ids": [
+   1092688691,
+   1092692159,
+   1092692186,
+   1092692225,
+   1092692262,
+   1092693331,
+   1092693358,
+   1092693386,
+   1092693419,
+   1092693451,
+   1092693481,
+   1092693518,
+   1092693553,
+   1092693582,
+   1092693609,
+   1092693643,
+   1092693672,
+   1092693702,
+   1092693733,
+   1092693774,
+   1092693802,
+   1092693841,
+   1092693871,
+   1092693902,
+   1092693929,
+   1092693957,
+   1092693987,
+   1092694020,
+   1092694054,
+   1092694082,
+   1092698558,
+   1092698270
+  ]
+ },
+ {
+  "wariant": "agrobielik-70-staw",
+  "pole": "Typ reakcji",
+  "olx": "Egzotermiczna",
+  "karta": "Szybka (egzotermiczna)",
+  "ids": [
+   1089946612,
+   1092691386,
+   1092691415,
+   1092691623,
+   1092691687,
+   1092691746,
+   1092691775,
+   1092691808,
+   1092691826,
+   1092691883,
+   1092691934,
+   1092691975,
+   1092692011,
+   1092692036,
+   1092692060,
+   1092692093,
+   1092692126
+  ]
+ },
+ {
+  "wariant": "agrobielik-70-staw",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Przyspieszenie mineralizacji mułu stawowego, Rekultywacja terenów zdegradowanych",
+  "karta": "Sadownictwo, hurtownie rolnicze",
+  "ids": [
+   1089946612,
+   1092691386,
+   1092691415,
+   1092691623,
+   1092691687,
+   1092691746,
+   1092691775,
+   1092691808,
+   1092691826,
+   1092691883,
+   1092691934,
+   1092691975,
+   1092692011,
+   1092692036,
+   1092692060,
+   1092692093,
+   1092692126
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Forma fizyczna",
+  "olx": "Sypkie i kruszone",
+  "karta": "Kruszone",
+  "ids": [
+   1092690340
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Frakcja",
+  "olx": "0–3 mm i 2–8 mm",
+  "karta": "2 – 8 mm",
+  "ids": [
+   1092690340
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Dawkowanie",
+  "olx": "1–3 t/ha (rolnictwo), 20–40% suchej masy osadu (oczyszczalnie), 40–60 kg/1000 m³ (stawy)",
+  "karta": "20–40% suchej masy osadu (oczyszczalnie), 1–3 t/ha (rolnictwo)",
+  "ids": [
+   1092690340
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Szybkość działania",
+  "olx": "Bardzo szybkie (7-14 dni)",
+  "karta": "Szybkie (7–14 dni)",
+  "ids": [
+   1092690340
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gleby bardzo kwaśne (pH < 5), intensywna hodowla ryb, neutralizacja ścieków przemysłowych",
+  "karta": "Stabilizacja pH przed rekultywacją",
+  "ids": [
+   1092690340
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Forma fizyczna",
+  "olx": "Sypkie i kruszone",
+  "karta": "Kruszone",
+  "ids": [
+   1092688720,
+   1092694201,
+   1092694239,
+   1092694270,
+   1092694293,
+   1092694318,
+   1092694354,
+   1092694387,
+   1092694418,
+   1092694448,
+   1092694486,
+   1092694518,
+   1092694557,
+   1092694595,
+   1092694623,
+   1092694654,
+   1092694678,
+   1092694707,
+   1092694731,
+   1092694760,
+   1092694793,
+   1092694838,
+   1092694885,
+   1092694915
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Frakcja",
+  "olx": "0–3 mm i 2–8 mm",
+  "karta": "2 – 8 mm",
+  "ids": [
+   1092688720,
+   1092694201,
+   1092694239,
+   1092694270,
+   1092694293,
+   1092694318,
+   1092694354,
+   1092694387,
+   1092694418,
+   1092694448,
+   1092694486,
+   1092694518,
+   1092694557,
+   1092694595,
+   1092694623,
+   1092694654,
+   1092694678,
+   1092694707,
+   1092694731,
+   1092694760,
+   1092694793,
+   1092694838,
+   1092694885,
+   1092694915
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Dawkowanie",
+  "olx": "1–3 t/ha (rolnictwo), 20–40% suchej masy osadu (oczyszczalnie), 40–60 kg/1000 m³ (stawy)",
+  "karta": "20–40% suchej masy osadu (oczyszczalnie), 1–3 t/ha (rolnictwo)",
+  "ids": [
+   1092688720,
+   1092694201,
+   1092694239,
+   1092694270,
+   1092694293,
+   1092694318,
+   1092694354,
+   1092694387,
+   1092694418,
+   1092694448,
+   1092694486,
+   1092694518,
+   1092694557,
+   1092694595,
+   1092694623,
+   1092694654,
+   1092694678,
+   1092694707,
+   1092694731,
+   1092694760,
+   1092694793,
+   1092694838,
+   1092694885,
+   1092694915
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Szybkość działania",
+  "olx": "Bardzo szybkie (7-14 dni)",
+  "karta": "Szybkie (7–14 dni)",
+  "ids": [
+   1092688720,
+   1092694201,
+   1092694239,
+   1092694270,
+   1092694293,
+   1092694318,
+   1092694354,
+   1092694387,
+   1092694418,
+   1092694448,
+   1092694486,
+   1092694518,
+   1092694557,
+   1092694595,
+   1092694623,
+   1092694654,
+   1092694678,
+   1092694707,
+   1092694731,
+   1092694760,
+   1092694793,
+   1092694838,
+   1092694885,
+   1092694915
+  ]
+ },
+ {
+  "wariant": "agrobielik-90",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gleby bardzo kwaśne (pH < 5), intensywna hodowla ryb, neutralizacja ścieków przemysłowych",
+  "karta": "Stabilizacja pH przed rekultywacją",
+  "ids": [
+   1092688720,
+   1092694201,
+   1092694239,
+   1092694270,
+   1092694293,
+   1092694318,
+   1092694354,
+   1092694387,
+   1092694418,
+   1092694448,
+   1092694486,
+   1092694518,
+   1092694557,
+   1092694595,
+   1092694623,
+   1092694654,
+   1092694678,
+   1092694707,
+   1092694731,
+   1092694760,
+   1092694793,
+   1092694838,
+   1092694885,
+   1092694915
+  ]
+ },
+ {
+  "wariant": "kreda-nawozowa-granulowana",
+  "pole": "Szybkość działania",
+  "olx": "3-6 miesięcy",
+  "karta": "3–6 mies.",
+  "ids": [
+   1092688931,
+   1092697110,
+   1092697153,
+   1092697188,
+   1092697220,
+   1092697246,
+   1092697275,
+   1092697303,
+   1092697347,
+   1092697392,
+   1092697433,
+   1092697471,
+   1092697503,
+   1092697535,
+   1092698522
+  ]
+ },
+ {
+  "wariant": "kreda-nawozowa-granulowana",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH i wody. Uzupełnienie wapnia pokarmowego",
+  "karta": "Wzrost pH gleby i wody. Uzupełnienie wapnia pokarmowego",
+  "ids": [
+   1092688931,
+   1092697110,
+   1092697153,
+   1092697188,
+   1092697220,
+   1092697246,
+   1092697275,
+   1092697303,
+   1092697347,
+   1092697392,
+   1092697433,
+   1092697471,
+   1092697503,
+   1092697535,
+   1092698522
+  ]
+ },
+ {
+  "wariant": "kreda-nawozowa-granulowana",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Sadownictwo, eko, uprawy wieloletnie",
+  "ids": [
+   1092688931,
+   1092697110,
+   1092697153,
+   1092697188,
+   1092697220,
+   1092697246,
+   1092697275,
+   1092697303,
+   1092697347,
+   1092697392,
+   1092697433,
+   1092697471,
+   1092697503,
+   1092697535,
+   1092698522
+  ]
+ },
+ {
+  "wariant": "kreda-nawozowa-sypka",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Sadownictwo, eko, uprawy wieloletnie",
+  "ids": [
+   1092688895,
+   1092696498,
+   1092696568,
+   1092696604,
+   1092696635,
+   1092696668,
+   1092696706,
+   1092696741,
+   1092696775,
+   1092696801,
+   1092696872,
+   1092696914,
+   1092696940,
+   1092696976
+  ]
+ },
+ {
+  "wariant": "kreda-pastewna",
+  "pole": "Frakcja",
+  "olx": "0-0,3mm, 0,1-0,4mm, 0,4-0,8mm, 1-3mm",
+  "karta": "0–0,3 / 0,1–0,4 / 0,4–0,8 / 1–3 mm",
+  "ids": [
+   1092698340,
+   1092698596
+  ]
+ },
+ {
+  "wariant": "kreda-pastewna",
+  "pole": "Efekt zastosowania",
+  "olx": "Neutralizuje nadmiar kwasów w żołądku, wspomaga trawienie i dostarcza bezpiecznego źródła wapnia",
+  "karta": "Neutralizacja kwasów, wsparcie trawienia",
+  "ids": [
+   1092698340,
+   1092698596
+  ]
+ },
+ {
+  "wariant": "oxyfertil-90",
+  "pole": "Reaktywność",
+  "olx": "~100%",
+  "karta": "Bardzo wysoka",
+  "ids": [
+   1092688763,
+   1092695042,
+   1092695072,
+   1092695099,
+   1092695130,
+   1092695158,
+   1092695189,
+   1092690465
+  ]
+ },
+ {
+  "wariant": "oxyfertil-90",
+  "pole": "Dawkowanie",
+  "olx": "1-3 t/ha (rolnictwo), 40-60 kg/1000 m³ (stawy), 20-40% suchej masy osadu",
+  "karta": "20–40% suchej masy osadu, 1–3 t/ha (rolnictwo)",
+  "ids": [
+   1092688763,
+   1092695042,
+   1092695072,
+   1092695099,
+   1092695130,
+   1092695158,
+   1092695189,
+   1092690465
+  ]
+ },
+ {
+  "wariant": "oxyfertil-90",
+  "pole": "Szybkość działania",
+  "olx": "Bardzo szybkie (7-14 dni)",
+  "karta": "Szybkie (7–14 dni)",
+  "ids": [
+   1092688763,
+   1092695042,
+   1092695072,
+   1092695099,
+   1092695130,
+   1092695158,
+   1092695189,
+   1092690465
+  ]
+ },
+ {
+  "wariant": "oxyfertil-90",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gleby bardzo kwaśne (pH < 5), intensywna hodowla ryb, neutralizacja ścieków przemysłowych",
+  "karta": "Stabilizacja pH przed rekultywacją",
+  "ids": [
+   1092688763,
+   1092695042,
+   1092695072,
+   1092695099,
+   1092695130,
+   1092695158,
+   1092695189,
+   1092690465
+  ]
+ },
+ {
+  "wariant": "weglanowe-granulowane",
+  "pole": "Producent",
+  "olx": "Grankal, Lhoist",
+  "karta": "Grankal, Lhoist, Celiny (Hochel Group)",
+  "ids": [
+   1092688803,
+   1092695461,
+   1092695742,
+   1092695809
+  ]
+ },
+ {
+  "wariant": "weglanowe-granulowane",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH",
+  "karta": "Wzrost pH gleby, poprawa struktury. Dostarczenie wapnia pokarmowego",
+  "ids": [
+   1092688803,
+   1092695461,
+   1092695742,
+   1092695809
+  ]
+ },
+ {
+  "wariant": "weglanowe-granulowane",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Gospodarstwa eko, sady, uprawy wieloletnie",
+  "ids": [
+   1092688803,
+   1092695461,
+   1092695742,
+   1092695809
+  ]
+ },
+ {
+  "wariant": "weglanowe-granulowane",
+  "pole": "Producent",
+  "olx": "Grankal, Lhoist",
+  "karta": "Grankal, Lhoist, Celiny (Hochel Group)",
+  "ids": [
+   1092690376,
+   1092695313,
+   1092695342,
+   1092695373,
+   1092695403,
+   1092695432,
+   1092695490,
+   1092695518,
+   1092695548,
+   1092695583,
+   1092695605,
+   1092695635,
+   1092695665,
+   1092695689,
+   1092695707,
+   1092695779
+  ]
+ },
+ {
+  "wariant": "weglanowe-granulowane",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH",
+  "karta": "Wzrost pH gleby, poprawa struktury. Dostarczenie wapnia pokarmowego",
+  "ids": [
+   1092690376,
+   1092695313,
+   1092695342,
+   1092695373,
+   1092695403,
+   1092695432,
+   1092695490,
+   1092695518,
+   1092695548,
+   1092695583,
+   1092695605,
+   1092695635,
+   1092695665,
+   1092695689,
+   1092695707,
+   1092695779
+  ]
+ },
+ {
+  "wariant": "weglanowe-granulowane",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Gospodarstwa eko, sady, uprawy wieloletnie",
+  "ids": [
+   1092690376,
+   1092695313,
+   1092695342,
+   1092695373,
+   1092695403,
+   1092695432,
+   1092695490,
+   1092695518,
+   1092695548,
+   1092695583,
+   1092695605,
+   1092695635,
+   1092695665,
+   1092695689,
+   1092695707,
+   1092695779
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-granulowane",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH gleby+ uzupełnienie magnezu",
+  "karta": "Wzrost pH gleby, uzupełnienie Mg oraz wapnia pokarmowego",
+  "ids": [
+   1092688867,
+   1092696116,
+   1092696146,
+   1092696176
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-granulowane",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Sadownictwo, uprawy wieloletnie, gosp. ekologiczne",
+  "ids": [
+   1092688867,
+   1092696116,
+   1092696146,
+   1092696176
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-granulowane",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH gleby+ uzupełnienie magnezu",
+  "karta": "Wzrost pH gleby, uzupełnienie Mg oraz wapnia pokarmowego",
+  "ids": [
+   1092688834,
+   1092695929,
+   1092695960,
+   1092695988,
+   1092696020,
+   1092696045,
+   1092696082,
+   1092696210,
+   1092696240,
+   1092696271,
+   1092696315,
+   1092696339,
+   1092696372,
+   1092696396
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-granulowane",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Sadownictwo, uprawy wieloletnie, gosp. ekologiczne",
+  "ids": [
+   1092688834,
+   1092695929,
+   1092695960,
+   1092695988,
+   1092696020,
+   1092696045,
+   1092696082,
+   1092696210,
+   1092696240,
+   1092696271,
+   1092696315,
+   1092696339,
+   1092696372,
+   1092696396
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "pole": "Forma fizyczna",
+  "olx": "Sypkie",
+  "karta": "Sypka",
+  "ids": [
+   1092690527,
+   1092699096
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH gleby+ uzupełnienie magnezu",
+  "karta": "Wzrost pH gleby, uzupełnienie magnezu i wapnia pokarmowego",
+  "ids": [
+   1092690527,
+   1092699096
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Sadownictwo, uprawy wieloletnie, gosp. ekologiczne",
+  "ids": [
+   1092690527,
+   1092699096
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "pole": "Forma fizyczna",
+  "olx": "Sypkie",
+  "karta": "Sypka",
+  "ids": [
+   1092690495,
+   1092698779,
+   1092698806,
+   1092698837,
+   1092698875,
+   1092698909,
+   1092698943,
+   1092698982,
+   1092699022,
+   1092699060
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH gleby+ uzupełnienie magnezu",
+  "karta": "Wzrost pH gleby, uzupełnienie magnezu i wapnia pokarmowego",
+  "ids": [
+   1092690495,
+   1092698779,
+   1092698806,
+   1092698837,
+   1092698875,
+   1092698909,
+   1092698943,
+   1092698982,
+   1092699022,
+   1092699060
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-04",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Sadownictwo, uprawy wieloletnie, gosp. ekologiczne",
+  "ids": [
+   1092690495,
+   1092698779,
+   1092698806,
+   1092698837,
+   1092698875,
+   1092698909,
+   1092698943,
+   1092698982,
+   1092699022,
+   1092699060
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-05",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH + uzupełnienie Mg",
+  "karta": "Wzrost pH gleby, uzupełnienie magnezu i wapnia pokarmowego",
+  "ids": [
+   1092690553,
+   1092699245,
+   1092699280,
+   1092699324,
+   1092699366,
+   1092699408,
+   1092699442,
+   1092699492,
+   1092691910,
+   1092691718,
+   1092698451,
+   1092696837,
+   1092698639
+  ]
+ },
+ {
+  "wariant": "weglanowe-magnez-odmiana-05",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Sadownictwo, uprawy wieloletnie, eko",
+  "ids": [
+   1092690553,
+   1092699245,
+   1092699280,
+   1092699324,
+   1092699366,
+   1092699408,
+   1092699442,
+   1092699492,
+   1092691910,
+   1092691718,
+   1092698451,
+   1092696837,
+   1092698639
+  ]
+ },
+ {
+  "wariant": "weglanowe-odmiana-04",
+  "pole": "Producent",
+  "olx": "Lhoist, Celiny(Hochcel Group)",
+  "karta": "Lhoist, Celiny (Hochel Group)",
+  "ids": [
+   1092690440
+  ]
+ },
+ {
+  "wariant": "weglanowe-odmiana-04",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH",
+  "karta": "Wzrost pH, poprawa struktury, uzupełnienie wapnia pokarmowego",
+  "ids": [
+   1092690440
+  ]
+ },
+ {
+  "wariant": "weglanowe-odmiana-04",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Gospodarstwa eko, sady, uprawy wieloletnie",
+  "ids": [
+   1092690440
+  ]
+ },
+ {
+  "wariant": "weglanowe-odmiana-04",
+  "pole": "Producent",
+  "olx": "Lhoist, Celiny(Hochcel Group)",
+  "karta": "Lhoist, Celiny (Hochel Group)",
+  "ids": [
+   1092690408,
+   1092697661,
+   1092697697,
+   1092697729,
+   1092697758,
+   1092697794,
+   1092697829,
+   1092697869,
+   1092697898,
+   1092697937,
+   1092697974,
+   1092698008,
+   1092698044,
+   1092698089,
+   1092698125,
+   1092698373,
+   1092698410,
+   1092698484,
+   1092698307,
+   1092691851,
+   1092691659,
+   1092691599,
+   1092696537
+  ]
+ },
+ {
+  "wariant": "weglanowe-odmiana-04",
+  "pole": "Efekt zastosowania",
+  "olx": "Wzrost pH",
+  "karta": "Wzrost pH, poprawa struktury, uzupełnienie wapnia pokarmowego",
+  "ids": [
+   1092690408,
+   1092697661,
+   1092697697,
+   1092697729,
+   1092697758,
+   1092697794,
+   1092697829,
+   1092697869,
+   1092697898,
+   1092697937,
+   1092697974,
+   1092698008,
+   1092698044,
+   1092698089,
+   1092698125,
+   1092698373,
+   1092698410,
+   1092698484,
+   1092698307,
+   1092691851,
+   1092691659,
+   1092691599,
+   1092696537
+  ]
+ },
+ {
+  "wariant": "weglanowe-odmiana-04",
+  "pole": "Dodatkowe zastosowanie",
+  "olx": "Gospodarstwa ekologiczne, sadownictwo, uprawy wieloletnie",
+  "karta": "Gospodarstwa eko, sady, uprawy wieloletnie",
+  "ids": [
+   1092690408,
+   1092697661,
+   1092697697,
+   1092697729,
+   1092697758,
+   1092697794,
+   1092697829,
+   1092697869,
+   1092697898,
+   1092697937,
+   1092697974,
+   1092698008,
+   1092698044,
+   1092698089,
+   1092698125,
+   1092698373,
+   1092698410,
+   1092698484,
+   1092698307,
+   1092691851,
+   1092691659,
+   1092691599,
+   1092696537
+  ]
+ }
+]
