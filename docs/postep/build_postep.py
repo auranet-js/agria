@@ -20,7 +20,7 @@ Dwie różnice wobec Victorini:
 Doszła też trzecia sekcja „Czekamy na AGRIĘ" — pozycje, których nie ruszymy bez klienta.
 
 Dokument jest **wewnętrzny** (dla Janka), nie klient-facing: pokazuje godziny, numery
-zadań i stawkę. Wersja dla AGRII, gdyby powstała, musi mieć kolumnę godzin zdjętą.
+zadań i stawkę. Wersja dla AGRII żyje osobno: docs/raporty/postep-prac.html → ag-postep-7f3c9d21e8b4a6f5.
 
 Źródło merytoryczne: docs/REJESTR_ZOBOWIAZAN.md. Dane strony: dane/postep.json.
 
@@ -33,7 +33,10 @@ import json, os, shutil, sys, datetime, html
 BASE = os.path.dirname(os.path.abspath(__file__))
 DANE = os.path.join(BASE, 'dane')
 OUT = os.path.join(BASE, 'postep.html')
-DEPLOY_DIR = os.path.expanduser('~/domains/auratest.pl/public_html/ag-postep-7f3c9d21e8b4a6f5')
+# Wersja WEWNĘTRZNA (godziny + zł/h) — nigdy pod adres ag-postep-7f3c9d21e8b4a6f5, bo tam stoi
+# wersja dla klienta (docs/raporty/postep-prac.html), której link AGRIA dostała mailem 01.09.
+# Incydent 04.09–23.09: --deploy nadpisał ten adres wersją wewnętrzną.
+DEPLOY_DIR = os.path.expanduser('~/domains/auratest.pl/public_html/ag-postep-wew-3b91e6c2d047')
 RYCZALT = 2000
 
 
