@@ -1,5 +1,7 @@
 # Prompt: raport miesięczny AGRIA (lipiec 2026 / M2) — do Kasjana i Pawła
 
+> ⚠️ **Zastąpiony 23.09.2026** przez `docs/prompty/PROMPT_RAPORT_MIESIECZNY.md` (dowolny miesiąc, z Ads, OLX i rozliczeniem). Zostaje jako historia raportu M2.
+
 > **Jak używać:** wklej całość jako pierwszą wiadomość w nowym wątku `cd ~/projekty/agria && claude`.
 > Wzorzec metodyczny: raport ASEO za lipiec 2026 (`~/projekty/aseosystem/seo-queue/raporty/2026-07.md`
 > + mail `2026-07-mail-short.md`) — ta sama analiza, ten sam styl, **inny kontekst klienta i inne pułapki**.

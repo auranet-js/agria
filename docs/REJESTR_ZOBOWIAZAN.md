@@ -468,6 +468,7 @@ wykonane przez Pawła). **Do końca M3 jedenaście dni.**
 
 | Kiedy | Co |
 |---|---|
+| **📌 02.10** | **Raport M4 — wrzesień.** Prompt `docs/prompty/PROMPT_RAPORT_MIESIECZNY.md` (wywołanie: „…raport za wrzesień 2026, stan na 30.09”). Przypomnienie mailem z kalendarza „Auranet Claude” 02.10 rano. Koszty września wg maila z 01.09: **4 100 zł netto**, idą na zbiorczą fakturę ASEO |
 | **26.08** | ✅ **T-086 zamknięte jako niepotrzebne** — passthrough był już w GTM. Realna zmiana z 24.08 to `phone_click` jako konwersja główna |
 | **28.08** | ✅ **Faza 0 — zamknięta 24.08**, cztery dni przed terminem (T-089 · T-090 · T-072 · T-091 · T-095 + T-101). Punkt kontrolny na te adresy to **15.09**, nie dziś |
 | **28.08** | ✅ **T-102b — odczyt kontrolny Ads wykonany.** Przy okazji wykryty 24-godzinny przestój emisji (konto doładowane) — ✅ **emisja wróciła 28.08 o 9:00** — wszystkie trzy kampanie mają wyświetlenia. Przestój trwał **dokładnie dobę** (27.08 9:00 → 28.08 9:00) |
