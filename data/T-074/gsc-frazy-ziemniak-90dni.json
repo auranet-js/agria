@@ -1,0 +1,54 @@
+{
+ "okno": {
+  "startDate": "2026-06-20",
+  "endDate": "2026-09-17"
+ },
+ "pobrano": "2026-09-21T18:20:35",
+ "ciagi": {
+  "ziemniak": [
+   {
+    "keys": [
+     "ziemniaki agria",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "keys": [
+     "ziemniaki agria",
+     "https://agria.pl/jak-stosowac-wapno-nawozowe/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   }
+  ],
+  "ziemniaki": [
+   {
+    "keys": [
+     "ziemniaki agria",
+     "https://agria.pl/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "keys": [
+     "ziemniaki agria",
+     "https://agria.pl/jak-stosowac-wapno-nawozowe/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   }
+  ],
+  "parch": []
+ }
+}

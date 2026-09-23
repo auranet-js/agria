@@ -1,0 +1,848 @@
+{
+ "okno": {
+  "startDate": "2026-08-21",
+  "endDate": "2026-09-17"
+ },
+ "pobrano": "2026-09-21T18:20:51",
+ "strony": {
+  "https://agria.pl/jak-stosowac-wapno-nawozowe/": {
+   "agregat": {
+    "clicks": 9,
+    "impressions": 1532,
+    "ctr": 0.00587467362924282,
+    "position": 5.523498694516971
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "\"nawozami\""
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 7
+    },
+    {
+     "keys": [
+      "cena wapna na pole"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "czy wapno granulowane można przyorać"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 9
+    },
+    {
+     "keys": [
+      "czy wapno można przyorać"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "jak stosować wapno nawozowe"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 6
+    },
+    {
+     "keys": [
+      "kiedy daje się wapno na pole"
+     ],
+     "clicks": 0,
+     "impressions": 4,
+     "ctr": 0,
+     "position": 9
+    },
+    {
+     "keys": [
+      "kiedy dawać wapno na pole"
+     ],
+     "clicks": 0,
+     "impressions": 7,
+     "ctr": 0,
+     "position": 6.714285714285714
+    },
+    {
+     "keys": [
+      "kiedy najlepiej wapnować pole"
+     ],
+     "clicks": 0,
+     "impressions": 9,
+     "ctr": 0,
+     "position": 5.888888888888889
+    },
+    {
+     "keys": [
+      "kiedy siać wapno granulowane na pole"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 19
+    },
+    {
+     "keys": [
+      "kiedy siać wapno na pole"
+     ],
+     "clicks": 0,
+     "impressions": 24,
+     "ctr": 0,
+     "position": 7.416666666666667
+    },
+    {
+     "keys": [
+      "kiedy siać wapno pod zboża ozime"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 7
+    },
+    {
+     "keys": [
+      "kiedy sypać wapno na pole"
+     ],
+     "clicks": 0,
+     "impressions": 11,
+     "ctr": 0,
+     "position": 6.363636363636363
+    },
+    {
+     "keys": [
+      "kiedy wapno na pole"
+     ],
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 9.5
+    },
+    {
+     "keys": [
+      "kiedy wapnowac pole"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 4
+    },
+    {
+     "keys": [
+      "kiedy wapnować"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 8
+    },
+    {
+     "keys": [
+      "kiedy wapnować pole"
+     ],
+     "clicks": 0,
+     "impressions": 19,
+     "ctr": 0,
+     "position": 7.052631578947368
+    },
+    {
+     "keys": [
+      "kiedy wapnować trawnik"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 28
+    },
+    {
+     "keys": [
+      "konkretne daty"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "kreda nawozowa kiedy stosować"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 36
+    },
+    {
+     "keys": [
+      "na trawy"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "termin"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "wap pol"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 4
+    },
+    {
+     "keys": [
+      "wapno granulowane kiedy stosować"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 32
+    },
+    {
+     "keys": [
+      "wapno granulowane przed czy po orce"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 11
+    },
+    {
+     "keys": [
+      "wapno nawozowe kiedy stosować"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 13.5
+    },
+    {
+     "keys": [
+      "wapno palone"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "wapno polowe"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "wapno sypkie na pole"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 11
+    },
+    {
+     "keys": [
+      "wapnowanie pola przed czy po orce"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 11
+    },
+    {
+     "keys": [
+      "wapnowanie przed czy po orce"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 10
+    },
+    {
+     "keys": [
+      "ziemniaki agria"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 8
+    }
+   ]
+  },
+  "https://agria.pl/wapnowanie-gleby/": {
+   "agregat": {
+    "clicks": 119,
+    "impressions": 18147,
+    "ctr": 0.006557557723039621,
+    "position": 5.597233702540365
+   },
+   "zapytania": [
+    {
+     "keys": [
+      "ile wapna na hektar"
+     ],
+     "clicks": 7,
+     "impressions": 883,
+     "ctr": 0.007927519818799546,
+     "position": 4.748584371460929
+    },
+    {
+     "keys": [
+      "ile wapna granulowanego na hektar"
+     ],
+     "clicks": 4,
+     "impressions": 926,
+     "ctr": 0.004319654427645789,
+     "position": 6.3498920086393085
+    },
+    {
+     "keys": [
+      "wapno węglanowe ile na hektar"
+     ],
+     "clicks": 2,
+     "impressions": 49,
+     "ctr": 0.04081632653061224,
+     "position": 4.408163265306122
+    },
+    {
+     "keys": [
+      "ile kredy na hektar"
+     ],
+     "clicks": 1,
+     "impressions": 110,
+     "ctr": 0.00909090909090909,
+     "position": 8.48181818181818
+    },
+    {
+     "keys": [
+      "ile wapna budowlanego na hektar"
+     ],
+     "clicks": 1,
+     "impressions": 18,
+     "ctr": 0.05555555555555555,
+     "position": 3.7222222222222223
+    },
+    {
+     "keys": [
+      "ile wapna na hektar pola"
+     ],
+     "clicks": 1,
+     "impressions": 81,
+     "ctr": 0.012345679012345678,
+     "position": 4.925925925925926
+    },
+    {
+     "keys": [
+      "ile wapna żeby podnieść ph o 1"
+     ],
+     "clicks": 1,
+     "impressions": 47,
+     "ctr": 0.02127659574468085,
+     "position": 5.914893617021277
+    },
+    {
+     "keys": [
+      "jaka dawka wapna na hektar"
+     ],
+     "clicks": 1,
+     "impressions": 32,
+     "ctr": 0.03125,
+     "position": 4.21875
+    },
+    {
+     "keys": [
+      "wapniak koszelowski ile na ha"
+     ],
+     "clicks": 1,
+     "impressions": 10,
+     "ctr": 0.1,
+     "position": 10.8
+    },
+    {
+     "keys": [
+      "wapno granulowane ile na hektar"
+     ],
+     "clicks": 1,
+     "impressions": 331,
+     "ctr": 0.0030211480362537764,
+     "position": 7.308157099697885
+    },
+    {
+     "keys": [
+      "wapno ile na hektar"
+     ],
+     "clicks": 1,
+     "impressions": 35,
+     "ctr": 0.02857142857142857,
+     "position": 4.371428571428572
+    },
+    {
+     "keys": [
+      "wapno kredowe granulowane cena"
+     ],
+     "clicks": 1,
+     "impressions": 2,
+     "ctr": 0.5,
+     "position": 2
+    },
+    {
+     "keys": [
+      "wapno kredowe granulowane ile na hektar"
+     ],
+     "clicks": 1,
+     "impressions": 47,
+     "ctr": 0.02127659574468085,
+     "position": 7.191489361702128
+    },
+    {
+     "keys": [
+      "wapno magnezowe ile na hektar"
+     ],
+     "clicks": 1,
+     "impressions": 119,
+     "ctr": 0.008403361344537815,
+     "position": 6.61344537815126
+    },
+    {
+     "keys": [
+      "wapno tlenkowe cena"
+     ],
+     "clicks": 1,
+     "impressions": 2,
+     "ctr": 0.5,
+     "position": 2
+    },
+    {
+     "keys": [
+      "12"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "150 m2"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "2 ha"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "3.5ha"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 6
+    },
+    {
+     "keys": [
+      "30 arów"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "3b"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "4 hektary"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "4,5"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "4.7"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "4b"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "5 klasa"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 4
+    },
+    {
+     "keys": [
+      "5 ph"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "5,3"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "5,5"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 3.5
+    },
+    {
+     "keys": [
+      "5,5 ph"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "5,7"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "5ph"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 13
+    },
+    {
+     "keys": [
+      "a kreda"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "a teraz"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 5
+    },
+    {
+     "keys": [
+      "agrecol wapń forte"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "agro s wap"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "calcium complex dr max"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "cao ph"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 4
+    },
+    {
+     "keys": [
+      "cao wapno"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "cats tiosiarczan wapnia"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 4
+    },
+    {
+     "keys": [
+      "cena kredy nawozowej"
+     ],
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "cena wapna granulowanego"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 4
+    },
+    {
+     "keys": [
+      "cena wapna magnezowego"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "cena wapna na pole"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "cena wapna rolniczego"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "ceny"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "ceny wapna granulowanego"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "chlorek wapnia ile na hektar"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 12
+    },
+    {
+     "keys": [
+      "ciężka"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 4
+    },
+    {
+     "keys": [
+      "ciężkie"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 1
+    },
+    {
+     "keys": [
+      "co ile wapnować pole"
+     ],
+     "clicks": 0,
+     "impressions": 26,
+     "ctr": 0,
+     "position": 9
+    },
+    {
+     "keys": [
+      "co lepsze wapno czy kreda"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "czarna kreda"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "czarna kreda granulowana"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "keys": [
+      "czarna kreda granulowana ile na hektar"
+     ],
+     "clicks": 0,
+     "impressions": 5,
+     "ctr": 0,
+     "position": 10.8
+    },
+    {
+     "keys": [
+      "czarna kreda ile na hektar"
+     ],
+     "clicks": 0,
+     "impressions": 10,
+     "ctr": 0,
+     "position": 10.5
+    },
+    {
+     "keys": [
+      "czarna kreda opinie"
+     ],
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "czarna kreda z hummusem ile na hektar"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "czy można pić wapno na noc"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    },
+    {
+     "keys": [
+      "czy wapno granulowane jest dobre"
+     ],
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
+    }
+   ]
+  }
+ }
+}
