@@ -138,7 +138,7 @@ więc pochłonął część ryczałtu:
 | SEO, treść, technika — Faza 0, sześć adresów, ceny i H2 na 15 kartach, landing stawu, atesty, terminarz, GBP, duplikaty, login, H1, 301 | **~28 h** | ok. 1 000 zł |
 
 **Ryczałt 2 000 zł przy 39,6 zmierzonych godzinach to ok. 50 zł za godzinę.** Liczby wyłącznie wewnętrzne —
-klient godzin nie widzi i nie ma ich widzieć. **Setup OLX (1 800 zł) to osobna faktura i nie dotyka ryczałtu.**
+klient godzin nie widzi i nie ma ich widzieć. **Setup OLX (1 500 zł po korekcie 23.09, pierwotnie 1 800) nie dotyka ryczałtu** — na fakturze siedzi w zbiorczej pozycji „Prace techniczne” faktury ASEO.
 
 ### Najważniejsze pozycje
 
@@ -205,8 +205,8 @@ Wpisy poradnikowe wracają w Fazie 1 od 05.09.
 | Ofertownik | **projekt własny Auranet**, nie billable | decyzja Janka 18.08 |
 | Poza ryczałtem | social media, sesje zdjęciowe, Google Ads | `AURANET_2000PLN_MONTHLY.md` |
 
-**Sierpień do zafakturowania: 3 800 zł netto (opieka + media + prowadzenie) + 1 800 zł netto setup OLX = 5 600 zł netto.**
-Setup OLX to **osobna pozycja i osobna faktura** — nie wchodzi do rozliczenia ryczałtu ani do pakietu Ads.
+~~Sierpień do zafakturowania: 3 800 + 1 800 setup OLX = 5 600 zł netto.~~ **Korekta 23.09:** w mailu wysłanym 01.09 setup OLX obniżony do **1 500 zł**, razem **5 300 zł netto**; rozliczone na zbiorczej fakturze ASEO **FS/3/09/2026** (02.09) — ryczałt i setup w pozycji „Prace techniczne”, Ads w dwóch pozycjach Ads. **Sierpień: 3 800 + 1 500 = 5 300 zł netto.**
+Setup OLX to **osobna pozycja w rozliczeniu**, ale nie osobna faktura (faktura ASEO, patrz korekta wyżej) — nie wchodzi do rozliczenia ryczałtu ani do pakietu Ads.
 **Bez 300 zł obsługi OLX** — w pierwszym miesiącu pokrywa ją setup; obsługa wchodzi na fakturę dopiero od września.
 Pakiet OLX (1 199,99 brutto) jest kosztem AGRII, nie naszym — nie wchodzi na naszą fakturę.
 
