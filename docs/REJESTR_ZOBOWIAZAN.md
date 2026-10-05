@@ -340,6 +340,12 @@ sześć pozycji miało w papierach „niezrobione", a są zrobione.
 
 **Razem M1–M2: 14 pozycji SEO + 7 z tabel miesięcznych.**
 
+## M5 — październik 2026 · ryczałt 2 000 netto + Ads 1 200 media + OLX 300 obsługa
+
+| Co dostarczone | Dowód | Zakr. | h |
+|---|---|---|---|
+| **Awaria: strona główna bez stylów na desktopie** (zgłoszenie Janka 05.10) | WP Rocket przebudował cały cache 05.10 o 07:25, a desktopowa kopia strony głównej (`wp-content/cache/wp-rocket/agria.pl/index-https.html`) zapisała się w trakcie regeneracji CSS Elementora — bez `post-321.css` (układ strony głównej) i `post-334.css` (nagłówek). Mobile miał komplet 4 arkuszy, stąd „na telefonie OK". Porównanie desktop vs mobile we wszystkich 106 plikach cache: różnica **tylko** na stronie głównej. Naprawa 05.10 ok. 12:55: kopia pliku do `~/agria-backups/cache-home-2026-10-05/`, usunięty `index-https.html` + `_gzip`, cache odbudowany o 12:57 z 4 arkuszami (grep pliku na serwerze + curl z UA desktop). ⚠️ **Przyczyna pełnego czyszczenia cache o 07:25 nieustalona** — przy powtórce problem może wrócić | R | 0,5 h |
+
 ## M4 — wrzesień 2026 · ryczałt 2 000 netto + Ads 1 200 media + OLX 300 obsługa
 
 | Co dostarczone | Dowód | Zakr. | h |
