@@ -1,0 +1,474 @@
+{
+ "2026-09": {
+  "channels": {
+   "dimensionHeaders": [
+    {
+     "name": "sessionDefaultChannelGroup"
+    }
+   ],
+   "metricHeaders": [
+    {
+     "name": "sessions",
+     "type": "TYPE_INTEGER"
+    }
+   ],
+   "rows": [
+    {
+     "dimensionValues": [
+      {
+       "value": "Organic Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "158"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Paid Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "133"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Direct"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "23"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Unassigned"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "16"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "AI Assistant"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "2"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Cross-network"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "2"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Organic Social"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    }
+   ],
+   "rowCount": 7,
+   "metadata": {
+    "currencyCode": "PLN",
+    "timeZone": "Europe/Warsaw"
+   },
+   "kind": "analyticsData#runReport"
+  },
+  "events": {
+   "dimensionHeaders": [
+    {
+     "name": "eventName"
+    },
+    {
+     "name": "sessionDefaultChannelGroup"
+    }
+   ],
+   "metricHeaders": [
+    {
+     "name": "eventCount",
+     "type": "TYPE_INTEGER"
+    }
+   ],
+   "rows": [
+    {
+     "dimensionValues": [
+      {
+       "value": "form_submit"
+      },
+      {
+       "value": "Direct"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "3"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "phone_click"
+      },
+      {
+       "value": "Direct"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "3"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "phone_click"
+      },
+      {
+       "value": "Organic Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "3"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "phone_click"
+      },
+      {
+       "value": "Paid Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "2"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "phone_click"
+      },
+      {
+       "value": "Unassigned"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "whatsapp_click"
+      },
+      {
+       "value": "Organic Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    }
+   ],
+   "rowCount": 6,
+   "metadata": {
+    "currencyCode": "PLN",
+    "timeZone": "Europe/Warsaw"
+   },
+   "kind": "analyticsData#runReport"
+  }
+ },
+ "2026-08": {
+  "channels": {
+   "dimensionHeaders": [
+    {
+     "name": "sessionDefaultChannelGroup"
+    }
+   ],
+   "metricHeaders": [
+    {
+     "name": "sessions",
+     "type": "TYPE_INTEGER"
+    }
+   ],
+   "rows": [
+    {
+     "dimensionValues": [
+      {
+       "value": "Direct"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "146"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Paid Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "124"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Organic Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "73"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Unassigned"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "19"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Organic Social"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "5"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "Cross-network"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "4"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "AI Assistant"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    }
+   ],
+   "rowCount": 7,
+   "metadata": {
+    "currencyCode": "PLN",
+    "timeZone": "Europe/Warsaw"
+   },
+   "kind": "analyticsData#runReport"
+  },
+  "events": {
+   "dimensionHeaders": [
+    {
+     "name": "eventName"
+    },
+    {
+     "name": "sessionDefaultChannelGroup"
+    }
+   ],
+   "metricHeaders": [
+    {
+     "name": "eventCount",
+     "type": "TYPE_INTEGER"
+    }
+   ],
+   "rows": [
+    {
+     "dimensionValues": [
+      {
+       "value": "form_submit"
+      },
+      {
+       "value": "Direct"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "8"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "email_click"
+      },
+      {
+       "value": "Paid Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "2"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "form_submit"
+      },
+      {
+       "value": "Paid Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "2"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "generate_lead"
+      },
+      {
+       "value": "AI Assistant"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "phone_click"
+      },
+      {
+       "value": "Direct"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "phone_click"
+      },
+      {
+       "value": "Paid Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "whatsapp_click"
+      },
+      {
+       "value": "Organic Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    },
+    {
+     "dimensionValues": [
+      {
+       "value": "whatsapp_click"
+      },
+      {
+       "value": "Paid Search"
+      }
+     ],
+     "metricValues": [
+      {
+       "value": "1"
+      }
+     ]
+    }
+   ],
+   "rowCount": 8,
+   "metadata": {
+    "currencyCode": "PLN",
+    "timeZone": "Europe/Warsaw"
+   },
+   "kind": "analyticsData#runReport"
+  }
+ }
+}

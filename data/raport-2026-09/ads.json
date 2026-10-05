@@ -1,0 +1,1208 @@
+{
+ "2026-09": {
+  "campaigns": [
+   {
+    "results": [
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131648847",
+       "status": "ENABLED",
+       "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+       "clicks": "468",
+       "conversions": 1,
+       "costMicros": "907360000",
+       "allConversions": 1,
+       "impressions": "3528"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131649588",
+       "status": "ENABLED",
+       "name": "AGRIA - Marka"
+      },
+      "metrics": {
+       "clicks": "87",
+       "conversions": 0,
+       "costMicros": "117390000",
+       "allConversions": 0,
+       "impressions": "736"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24167368975",
+       "status": "ENABLED",
+       "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+       "clicks": "232",
+       "conversions": 1,
+       "costMicros": "273270412",
+       "allConversions": 1,
+       "impressions": "3173"
+      }
+     }
+    ],
+    "fieldMask": "campaign.name,campaign.status,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.allConversions",
+    "requestId": "x_1b7k_5Rp1a9eLPAtPZzw",
+    "queryResourceConsumption": "618"
+   }
+  ],
+  "conv": [
+   {
+    "results": [
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131648847"
+      },
+      "metrics": {
+       "conversions": 1,
+       "allConversions": 1
+      },
+      "segments": {
+       "conversionActionCategory": "PHONE_CALL_LEAD",
+       "conversionActionName": "agria.pl (web) phone_click"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24167368975"
+      },
+      "metrics": {
+       "conversions": 1,
+       "allConversions": 1
+      },
+      "segments": {
+       "conversionActionCategory": "PHONE_CALL_LEAD",
+       "conversionActionName": "agria.pl (web) phone_click"
+      }
+     }
+    ],
+    "fieldMask": "segments.conversionActionName,segments.conversionActionCategory,metrics.allConversions,metrics.conversions",
+    "requestId": "2Gi5D-uigkiorff8yiZRUA",
+    "queryResourceConsumption": "1215"
+   }
+  ],
+  "calls": [
+   {
+    "results": [
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131648847"
+      },
+      "metrics": {
+       "clicks": "1"
+      },
+      "segments": {
+       "clickType": "CALLS"
+      }
+     }
+    ],
+    "fieldMask": "segments.clickType,metrics.clicks",
+    "requestId": "3OgG9gDx8-yEX0StH36-kw",
+    "queryResourceConsumption": "288"
+   }
+  ]
+ },
+ "2026-08": {
+  "campaigns": [
+   {
+    "results": [
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131648847",
+       "status": "ENABLED",
+       "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+       "clicks": "342",
+       "conversions": 1,
+       "costMicros": "670593548",
+       "allConversions": 3,
+       "impressions": "2492"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131649588",
+       "status": "ENABLED",
+       "name": "AGRIA - Marka"
+      },
+      "metrics": {
+       "clicks": "28",
+       "conversions": 0,
+       "costMicros": "40750000",
+       "allConversions": 0,
+       "impressions": "213"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24167368975",
+       "status": "ENABLED",
+       "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+       "clicks": "83",
+       "conversions": 0,
+       "costMicros": "98234990",
+       "allConversions": 0,
+       "impressions": "1241"
+      }
+     }
+    ],
+    "fieldMask": "campaign.name,campaign.status,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.allConversions",
+    "requestId": "efa97jIR7PbhC4XutVArhA",
+    "queryResourceConsumption": "772"
+   }
+  ],
+  "conv": [
+   {
+    "results": [
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131648847"
+      },
+      "metrics": {
+       "conversions": 0,
+       "allConversions": 2
+      },
+      "segments": {
+       "conversionActionCategory": "DEFAULT",
+       "conversionActionName": "agria.pl (web) form_submit"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131648847"
+      },
+      "metrics": {
+       "conversions": 1,
+       "allConversions": 1
+      },
+      "segments": {
+       "conversionActionCategory": "PHONE_CALL_LEAD",
+       "conversionActionName": "agria.pl (web) phone_click"
+      }
+     }
+    ],
+    "fieldMask": "segments.conversionActionName,segments.conversionActionCategory,metrics.allConversions,metrics.conversions",
+    "requestId": "Y4VpSE6QHeYJgVQ_TWxJVA",
+    "queryResourceConsumption": "3388"
+   }
+  ],
+  "calls": [
+   {
+    "fieldMask": "segments.clickType,metrics.clicks",
+    "requestId": "Fn_t82j6SCxYZQIQEODq2w",
+    "queryResourceConsumption": "280"
+   }
+  ]
+ },
+ "cykl-15.09-04.10": {
+  "campaigns": [
+   {
+    "results": [
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131648847",
+       "status": "ENABLED",
+       "name": "AGRIA - Rolnictwo"
+      },
+      "metrics": {
+       "clicks": "278",
+       "conversions": 0,
+       "costMicros": "540880000",
+       "allConversions": 0,
+       "impressions": "1960"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24131649588",
+       "status": "ENABLED",
+       "name": "AGRIA - Marka"
+      },
+      "metrics": {
+       "clicks": "71",
+       "conversions": 0,
+       "costMicros": "98970000",
+       "allConversions": 0,
+       "impressions": "485"
+      }
+     },
+     {
+      "campaign": {
+       "resourceName": "customers/6742071446/campaigns/24167368975",
+       "status": "ENABLED",
+       "name": "AGRIA - Paszarstwo"
+      },
+      "metrics": {
+       "clicks": "143",
+       "conversions": 0,
+       "costMicros": "168020000",
+       "allConversions": 0,
+       "impressions": "2084"
+      }
+     }
+    ],
+    "fieldMask": "campaign.name,campaign.status,metrics.impressions,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.allConversions",
+    "requestId": "xCy6UgPYhkRVCYQx1QsPcA",
+    "queryResourceConsumption": "1386"
+   }
+  ],
+  "conv": [
+   {
+    "fieldMask": "segments.conversionActionName,segments.conversionActionCategory,metrics.allConversions,metrics.conversions",
+    "requestId": "idPrsbU9kuYH6wJG5ijd3A",
+    "queryResourceConsumption": "3017"
+   }
+  ],
+  "calls": [
+   {
+    "fieldMask": "segments.clickType,metrics.clicks",
+    "requestId": "ey2y7HApuFz2BRVT2WrmiQ",
+    "queryResourceConsumption": "246"
+   }
+  ]
+ },
+ "budgets": [
+  {
+   "results": [
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "status": "ENABLED",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "campaignBudget": {
+      "resourceName": "customers/6742071446/campaignBudgets/15792260073",
+      "amountMicros": "28000000"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "status": "ENABLED",
+      "name": "AGRIA - Marka"
+     },
+     "campaignBudget": {
+      "resourceName": "customers/6742071446/campaignBudgets/15792260076",
+      "amountMicros": "5000000"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "status": "ENABLED",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "campaignBudget": {
+      "resourceName": "customers/6742071446/campaignBudgets/15805433225",
+      "amountMicros": "9000000"
+     }
+    }
+   ],
+   "fieldMask": "campaign.name,campaign.status,campaignBudget.amountMicros",
+   "requestId": "Ro45AguRU8WraSe-MLuifQ",
+   "queryResourceConsumption": "152"
+  }
+ ],
+ "terms_sep": [
+  {
+   "results": [
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "50",
+      "conversions": 0,
+      "costMicros": "59270000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1cg",
+      "searchTerm": "kreda pastewna dla kur"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "44",
+      "conversions": 0,
+      "costMicros": "51830000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmE",
+      "searchTerm": "kreda pastewna"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "35",
+      "conversions": 0,
+      "costMicros": "68520000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gZ3JhbnVsb3dhbmU",
+      "searchTerm": "wapno granulowane"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "24",
+      "conversions": 0,
+      "costMicros": "46290000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbmF3b3pvd2U",
+      "searchTerm": "wapno nawozowe"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "17",
+      "conversions": 0,
+      "costMicros": "31180000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gbWFnbmV6b3dl",
+      "searchTerm": "wapno magnezowe"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "13",
+      "conversions": 0,
+      "costMicros": "18270000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~YWdyaWEgdGFybsOzdw",
+      "searchTerm": "agria tarnów"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "13",
+      "conversions": 0,
+      "costMicros": "15400000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBuaW9zZWs",
+      "searchTerm": "kreda pastewna dla kur niosek"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "12",
+      "conversions": 0,
+      "costMicros": "23510000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gbWFnbmV6b3dlIGdyYW51bG93YW5l",
+      "searchTerm": "wapno magnezowe granulowane"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "12",
+      "conversions": 0,
+      "costMicros": "17540000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~YWdyaWE",
+      "searchTerm": "agria"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "11",
+      "conversions": 0,
+      "costMicros": "21630000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gZ3JhbnVsb3dhbmUgYmlnIGJhZyBjZW5h",
+      "searchTerm": "wapno granulowane big bag cena"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "11",
+      "conversions": 0,
+      "costMicros": "13060000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGt1cg",
+      "searchTerm": "kreda dla kur"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "10",
+      "conversions": 0,
+      "costMicros": "19660000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gZ3JhbnVsb3dhbmUgY2VuYQ",
+      "searchTerm": "wapno granulowane cena"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "9",
+      "conversions": 0,
+      "costMicros": "17220000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbmF3b3pvd2UgY2VuYSB6YSB0b27EmQ",
+      "searchTerm": "wapno nawozowe cena za tonę"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "8",
+      "conversions": 0,
+      "costMicros": "15790000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~a3JlZGEgbmF3b3pvd2E",
+      "searchTerm": "kreda nawozowa"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "7",
+      "conversions": 0,
+      "costMicros": "10230000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~200358090717~d2Fwbm8gYmllbGlr",
+      "searchTerm": "wapno bielik"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "6",
+      "conversions": 0,
+      "costMicros": "7120000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZGxhIGt1ciBuaW9zZWs",
+      "searchTerm": "kreda dla kur niosek"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "5",
+      "conversions": 0,
+      "costMicros": "9920000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gdGxlbmtvd2UgZ3JhbnVsb3dhbmU",
+      "searchTerm": "wapno tlenkowe granulowane"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "5",
+      "conversions": 0,
+      "costMicros": "8710000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbmF3b3pvd2UgbHV6ZW0",
+      "searchTerm": "wapno nawozowe luzem"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "5",
+      "conversions": 0,
+      "costMicros": "9790000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdGxlbmtvd2U",
+      "searchTerm": "wapno tlenkowe"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "4",
+      "conversions": 0,
+      "costMicros": "7220000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gZ3JhbnVsb3dhbmUgYmlnIGJhZw",
+      "searchTerm": "wapno granulowane big bag"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "4",
+      "conversions": 0,
+      "costMicros": "7480000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~aWxlIGtvc3p0dWplIHRvbmEgd2FwbmE",
+      "searchTerm": "ile kosztuje tona wapna"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "4",
+      "conversions": 0,
+      "costMicros": "7940000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbmEgcG9sZQ",
+      "searchTerm": "wapno na pole"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "4",
+      "conversions": 0,
+      "costMicros": "5850000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~200358090717~d2Fwbm8gYmllbGlrIDI1IGtn",
+      "searchTerm": "wapno bielik 25 kg"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "4",
+      "conversions": 0,
+      "costMicros": "4770000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~Z2R6aWUga3VwacSHIGtyZWTEmSBwYXN0ZXduxIU",
+      "searchTerm": "gdzie kupić kredę pastewną"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5950000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y3phcm5hIGtyZWRhIGdyYW51bG93YW5h",
+      "searchTerm": "czarna kreda granulowana"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5930000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~a3JlZGEgZ3JhbnVsb3dhbmE",
+      "searchTerm": "kreda granulowana"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5760000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gbmF3b3pvd2UgZ3JhbnVsb3dhbmU",
+      "searchTerm": "wapno nawozowe granulowane"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5550000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gd8SZZ2xhbm93ZSBncmFudWxvd2FuZQ",
+      "searchTerm": "wapno węglanowe granulowane"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5730000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~a2llZHkgc2lhxIcgd2Fwbm8gbmEgcG9sZQ",
+      "searchTerm": "kiedy siać wapno na pole"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5850000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbHV6ZW0gY2VuYQ",
+      "searchTerm": "wapno luzem cena"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5790000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~aWxlIGtvc3p0dWplIHRvbmEgd2FwbmEgbWFnbmV6b3dlZ28",
+      "searchTerm": "ile kosztuje tona wapna magnezowego"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5830000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8ga3JlZG93ZSBsdXplbQ",
+      "searchTerm": "wapno kredowe luzem"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "5950000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gbWFnbmV6b3dlIGdyYW51bG93YW5lIGJpZyBiYWc",
+      "searchTerm": "wapno magnezowe granulowane big bag"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "4310000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~200358090717~d2Fwbm8gYnVkb3dsYW5lIGJpZWxpaw",
+      "searchTerm": "wapno budowlane bielik"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "3490000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGJ5ZMWCYQ",
+      "searchTerm": "kreda pastewna dla bydła"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "3570000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgbmEgcG9sZQ",
+      "searchTerm": "kreda pastewna na pole"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "3",
+      "conversions": 0,
+      "costMicros": "3600000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~d2Fwbm8gZGxhIGt1ciBuaW9zZWs",
+      "searchTerm": "wapno dla kur niosek"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3990000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y2VuYSB3YXBuYSBncmFudWxvd2FuZWdv",
+      "searchTerm": "cena wapna granulowanego"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "2820000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~Y2VuYSB3YXBuYSBncmFudWxvd2FuZWdvIHcgYmlnIGJhZ2FjaA",
+      "searchTerm": "cena wapna granulowanego w big bagach"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3920000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gZ3JhbnVsb3dhbmUgNTAga2cgY2VuYQ",
+      "searchTerm": "wapno granulowane 50 kg cena"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3920000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966798~d2Fwbm8gbmF3b3pvd2UgZ3JhbnVsb3dhbmUgY2VuYQ",
+      "searchTerm": "wapno nawozowe granulowane cena"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3760000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y2VuYSB3YXBuYSBuYSBwb2xl",
+      "searchTerm": "cena wapna na pole"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3960000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Y3phcm5hIGtyZWRhIGJpZyBiYWcgY2VuYQ",
+      "searchTerm": "czarna kreda big bag cena"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3960000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~Z2R6aWUga3VwacSHIHdhcG5vIG5hIHBvbGU",
+      "searchTerm": "gdzie kupić wapno na pole"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3980000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gZ3JhbnVsb3dhbmUgYmlnIGJhZyA2MDAga2c",
+      "searchTerm": "wapno granulowane big bag 600 kg"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3920000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gbm9yZGthbGsgY2VuYQ",
+      "searchTerm": "wapno nordkalk cena"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3980000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966958~d2Fwbm8gdyBncmFudWxrYWNoIG5hIHBvbGU",
+      "searchTerm": "wapno w granulkach na pole"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3960000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRh",
+      "searchTerm": "czarna kreda"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3940000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~Y3phcm5hIGtyZWRhIGNlbmEgemEgdG9uxJk",
+      "searchTerm": "czarna kreda cena za tonę"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3840000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gZ3JhbnVsb3dhbmUgbWFnbmV6b3dl",
+      "searchTerm": "wapno granulowane magnezowe"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131648847",
+      "name": "AGRIA - Rolnictwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3920000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131648847~200152966998~d2Fwbm8gbWFnbmV6b3dlIGJpZyBiYWc",
+      "searchTerm": "wapno magnezowe big bag"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "3000000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~YWdyaWEgbmllZG9taWNl",
+      "searchTerm": "agria niedomice"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "1220000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~YWdyaWEgd2Fwbm8",
+      "searchTerm": "agria wapno"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "2960000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~198590178225~d2Fwbm8gaHlkcmF0eXpvd2FuZSBiaWVsaWs",
+      "searchTerm": "wapno hydratyzowane bielik"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588",
+      "name": "AGRIA - Marka"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "2950000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24131649588~200358090717~YmllbGlrIHdhcG5v",
+      "searchTerm": "bielik wapno"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "2390000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgZG8ga3Vy",
+      "searchTerm": "kreda do kur"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "2350000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBkYXdrb3dhbmll",
+      "searchTerm": "kreda pastewna dla kur dawkowanie"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "2360000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~a3JlZGEgcGFzdGV3bmEgZGxhIGt1ciBvcGluaWU",
+      "searchTerm": "kreda pastewna dla kur opinie"
+     }
+    },
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24167368975",
+      "name": "AGRIA - Paszarstwo"
+     },
+     "metrics": {
+      "clicks": "2",
+      "conversions": 0,
+      "costMicros": "2330000"
+     },
+     "searchTermView": {
+      "resourceName": "customers/6742071446/searchTermViews/24167368975~198156465046~bGFidGFyIGtyZWRhIHBhc3Rld25h",
+      "searchTerm": "labtar kreda pastewna"
+     }
+    }
+   ],
+   "fieldMask": "searchTermView.searchTerm,campaign.name,metrics.clicks,metrics.costMicros,metrics.conversions",
+   "requestId": "vU8JYHJMEeNsTKqe2zwPsA",
+   "queryResourceConsumption": "1918"
+  }
+ ]
+}
