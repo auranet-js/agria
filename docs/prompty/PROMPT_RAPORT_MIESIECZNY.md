@@ -93,7 +93,8 @@ Zrób tabelę na ekran i do `PODSUMOWANIE_Mx_<RRRR-MM>.md`:
 
 1. Treść maila **w czacie**, w całości (Do / Temat / treść), plus lista `[DO POTWIERDZENIA]`.
 2. Ten sam mail do Janka **jako HTML**: `python3 scripts/raport_mail_html.py docs/raporty/<RRRR-MM>-mail.md > /tmp/…/mail.html`
-   i `~/bin/send-to-jan -s "AGRIA — raport <miesiąc> (draft do akceptu)" --html /tmp/…/mail.html`.
+   i `~/bin/send-to-jan -s "AGRIA — raport <miesiąc> (draft do akceptu)" --html /tmp/…/mail.html </dev/null`.
+   ⚠️ **`</dev/null` obowiązkowe** — bez niego `send-to-jan` przy samym `--html` czyta treść ze stdin i wisi w nieskończoność (06.10: 13 min, nic nie wysłane).
    Skrypt odtwarza wygląd raportu sierpniowego (Roboto, `#1A1A1A`, `## Nagłówek:`, `**pogrubienie**`, `* lista`).
    Punkty do potwierdzenia zadajesz w czacie quizem (`AskUserQuestion`), nie w treści maila.
 3. `git commit` + `git push` plików raportu (`[docs] raport Mx <miesiąc> …`).
