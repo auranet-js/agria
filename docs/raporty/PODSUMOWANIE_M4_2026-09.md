@@ -11,7 +11,7 @@
 | 2 | Opisy kategorii: wapno nawozowe dla rolnictwa i paszarstwo | **zrobione** | T-092 05.09 (`049563a`), `/paszarstwo/` 08.09 (`383b7d7`). GSC: `/paszarstwo/` 2 → **27** wejść, poz. 13,0 → **5,8** |
 | 3 | Poradnik „wapno pod ziemniaki” | **zrobione** | T-074 23.09 (`6c3f47e`), wpis 2837. W tydzień: **18 wejść, 639 wyśw., poz. 3,6** |
 | 4 | Szybkość strony na telefonach | **zrobione** | Blok 0 + WP Rocket 07.09 (`04e1a31`, `e719836`, `4e49aed`): strona główna LCP mobile 7,4 → 3,7 s, karta Agrobielik 90 11,8 → 6,2 s, TTFB z cache 1,40 → 0,03 s |
-| 5 | Kalkulator z magnezem na stronę | **zrobione, bez odbioru** | T-044 04.09 (`8e6c744`, 555 testów). Test akceptacyjny Kazimierza na produkcji — `[DO POTWIERDZENIA]` |
+| 5 | Kalkulator z magnezem na stronę | **zrobione** | T-044 04.09 (`8e6c744`, 555 testów). Odbiór Kazimierza na produkcji potwierdzony przez Janka 05.10 |
 | 6 | Dane obu magazynów w wynikach lokalnych Google | **częściowo** | Niedomice odzyskane 18.09 (T-047, `hasVoiceOfMerchant: true`), nieuzupełnione; Radgoszcz bez dostępu; `LocalBusiness` ×2 (T-030) niezrobione |
 | 7 | Reklamy z korektami na danych | **zrobione** | Odczyt 07.09, mapa konta i przebudowa „Marka” + harmonogram Rolnictwa 18.09 (`e1340b0`), budżet Rolnictwa 28 zł/dz (Janek) — odczyt API 05.10: Rolnictwo 28 · Paszarstwo 9 · Marka 5 zł/dz |
 
@@ -47,12 +47,13 @@ Zapowiedziane w mailu 01.09:
 | Budżet reklamowy Google | 1 200 zł | Google ADS — Budżet reklamowy |
 | Prowadzenie kampanii | 600 zł | Google ADS — Obsługa kampanii reklamowej |
 | Stała obsługa OLX | 300 zł | Prace techniczne przy stronie WWW |
-| **Razem AGRIA** | **4 100 zł** | |
+| Katalog produktowy w wersji słoweńskiej (T-147) | 500 zł | Prace techniczne przy stronie WWW |
+| **Razem AGRIA** | **4 600 zł** | |
 
-Z maila ASEO z 05.10 (ID 329): ASEO 2 500 SEO + 400 obsługa Ads + 500 budżet Ads. **Faktura zbiorcza (jeśli bez dopisków): prace techniczne 4 800 · obsługa Ads 1 000 · budżet Ads 1 700 = 7 500 zł netto.**
+Z maila ASEO z 05.10 (ID 329): ASEO 2 500 SEO + 400 obsługa Ads + 500 budżet Ads. **Wkład AGRII w fakturę zbiorczą: prace techniczne 2 800 · obsługa Ads 600 · budżet Ads 1 200 = 4 600 zł netto.** Fakturę zbiorczą Janek liczy w projekcie ASEO.
 
 `[DO POTWIERDZENIA]`:
-- **T-147 katalog słoweński (4 h, poza ryczałtem)** — doliczamy do września czy bierzemy na siebie? Nie dopisane do kosztów.
+- ✅ T-147 katalog słoweński: **500 zł netto na wrzesień** (decyzja Janka 06.10). Wrzucenie na stronę (T-148) w ryczałcie.
 - Budżet Ads: wydane IX **1 298,02 zł** (> 1 200), sierpniowa nadwyżka 390,42 zł pokryła różnicę. Saldo na koncie po 30.09 ≈ 1 200 × 2 − (809,58 + 1 298,02) = **292,40 zł** — zakładając, że oba miesiące zostały zasilone pełnym 1 200 zł.
 
 ## 5. Ryzyka i terminy października
