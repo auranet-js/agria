@@ -37,6 +37,10 @@ Poniżej `MIESIĄC` = miesiąc raportu, `STAN` = dzień, na który liczymy, `Mx`
 4. Ostatni **wysłany** mail z raportem: `python3 ~/bin/claude-mail-fetch.py list | grep -i agria` →
    najnowszy „Podsumowanie prac …” → `fetch <id>`, czytaj `/tmp/claude-mails/<id>/body.txt`.
    Stamtąd bierzesz strukturę, ton, obietnice na MIESIĄC i **koszty zapowiedziane na MIESIĄC**.
+   **Formuła i wygląd = kopia tego maila** (kolejność sekcji, nagłówki z dwukropkiem, pogrubienia, listy,
+   koszty bieżącego i następnego miesiąca rozpisane, zakończenie). Wygląd czytasz z `body.html`, nie z `body.txt`.
+   ⚠️ **Mail innego klienta (np. ASEO z tego samego dnia) nie jest wzorem** — incydent 05.10: raport za wrzesień
+   dostał formułę z maila ASEO i poszedł czystym tekstem; Janek: „jak mamy mieć spójne raporty miesiąc w miesiąc”.
 5. Strona postępu dla klienta: `docs/raporty/postep-prac.html` (link AGRIA dostała w mailu:
    `https://auratest.pl/ag-postep-7f3c9d21e8b4a6f5/`).
 6. `git log --since=<1. dzień MIESIĄCA> --until=<STAN +1> --pretty=format:'%ad %h %s' --date=short`
@@ -88,8 +92,10 @@ Zrób tabelę na ekran i do `PODSUMOWANIE_Mx_<RRRR-MM>.md`:
 ## 5. Oddanie Jankowi
 
 1. Treść maila **w czacie**, w całości (Do / Temat / treść), plus lista `[DO POTWIERDZENIA]`.
-2. Ten sam mail do Janka: `~/bin/send-to-jan -s "AGRIA — raport <miesiąc> (draft do akceptu)" -B docs/raporty/<RRRR-MM>-mail.md`
-   — w pierwszej linii body: link do strony postępu i lista punktów do potwierdzenia.
+2. Ten sam mail do Janka **jako HTML**: `python3 scripts/raport_mail_html.py docs/raporty/<RRRR-MM>-mail.md > /tmp/…/mail.html`
+   i `~/bin/send-to-jan -s "AGRIA — raport <miesiąc> (draft do akceptu)" --html /tmp/…/mail.html`.
+   Skrypt odtwarza wygląd raportu sierpniowego (Roboto, `#1A1A1A`, `## Nagłówek:`, `**pogrubienie**`, `* lista`).
+   Punkty do potwierdzenia zadajesz w czacie quizem (`AskUserQuestion`), nie w treści maila.
 3. `git commit` + `git push` plików raportu (`[docs] raport Mx <miesiąc> …`).
 4. **Nie wysyłasz niczego do klienta** i nie wystawiasz faktury. Proformę przygotowujesz tylko na wyraźne
    „wystaw fakturę” (globalny CLAUDE.md §10, memory `reference_fakturownia_api` — faktura zbiorcza ASEO).
