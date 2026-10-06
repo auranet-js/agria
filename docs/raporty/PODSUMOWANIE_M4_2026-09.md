@@ -50,7 +50,16 @@ Zapowiedziane w mailu 01.09:
 | Katalog produktowy w wersji słoweńskiej (T-147) | 500 zł | Prace techniczne przy stronie WWW |
 | **Razem AGRIA** | **4 600 zł** | |
 
-Z maila ASEO z 05.10 (ID 329): ASEO 2 500 SEO + 400 obsługa Ads + 500 budżet Ads. **Wkład AGRII w fakturę zbiorczą: prace techniczne 2 800 · obsługa Ads 600 · budżet Ads 1 200 = 4 600 zł netto.** Fakturę zbiorczą Janek liczy w projekcie ASEO.
+Z maila ASEO z 05.10 (ID 329): ASEO 2 500 SEO + 400 obsługa Ads + 500 budżet Ads. **Wkład AGRII w fakturę zbiorczą: prace techniczne 2 800 · obsługa Ads 600 · budżet Ads 1 200 = 4 600 zł netto.**
+
+| Linia na fakturze ASEO | Co w niej jest (AGRIA) | Netto |
+|---|---|---|
+| Prace techniczne przy stronie WWW | opieka 2 000 + obsługa OLX 300 + katalog SL 500 | 2 800 zł |
+| Google ADS — Obsługa kampanii reklamowej | prowadzenie kampanii | 600 zł |
+| Google ADS — Budżet reklamowy | budżet | 1 200 zł |
+| **Razem AGRIA** | | **4 600 zł** |
+
+Pakiet OLX na fakturze nie występuje — opłaca go Paweł bezpośrednio. Wzór jak sierpniowa FS/3/09/2026 (setup OLX w „Pracach technicznych”). Fakturę zbiorczą Janek liczy w projekcie ASEO.
 
 `[DO POTWIERDZENIA]`:
 - ✅ T-147 katalog słoweński: **500 zł netto na wrzesień** (decyzja Janka 06.10). Wrzucenie na stronę (T-148) w ryczałcie.
