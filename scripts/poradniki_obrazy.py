@@ -32,6 +32,14 @@ SCENY = {
     "terminarz-a": "A farm tractor with a rear-mounted twin-disc fertiliser spreader driving forward across a harvested stubble field, spreading white agricultural lime behind it in a wide, even fan.",
     "terminarz-b": "A tractor with a mouldboard plough ploughing a stubble field that is lightly covered with white agricultural lime, the freshly turned brown furrows next to the white stubble, early autumn.",
     "terminarz-c": "A wide view of a harvested stubble field in early September with a large heap of white agricultural lime at the field edge, waiting to be spread, clear sky, hills in the background.",
+    # 2796 /wapno-do-stawu/ + 2079 wpis karpiowy — 08.10, zamiast zdjęcia tarasów ryżowych
+    "staw-a": "A large fish pond for carp farming in southern Poland in autumn: calm grey-green water, reed belt along the earthen dyke, a wooden monk outlet structure, deciduous trees with yellow leaves behind.",
+    "staw-b": "A drained carp pond after the autumn harvest: wide flat muddy bottom with shallow puddles and a drainage channel, grassy earthen dykes around, overcast sky.",
+    "staw-c": "Close-up of a hand-thrown cloud of fine white powder drifting over the surface of a calm rural pond near the reeds, autumn light, no person visible except a gloved hand at the edge of the frame.",
+    # T-080 /ph-gleby/ — 08.10, zdjęcie wyróżniające
+    "ph-a": "A farmer's hand holding a steel soil sampling probe pushed into a harvested stubble field in autumn, a small plastic bag for the soil sample beside it, brown loamy soil.",
+    "ph-b": "Close-up of a handful of dark moist arable soil held over a freshly ploughed field, a simple analog soil pH meter with a needle dial stuck in the furrow next to it, overcast autumn light.",
+    "ph-c": "A wide autumn arable field in southern Poland with patches of sorrel weeds (Rumex acetosella, reddish tint) among sparse winter cereal seedlings, showing acidic soil, low sun.",
 }
 
 

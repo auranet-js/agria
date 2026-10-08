@@ -1,0 +1,1483 @@
+{
+ "ph gleby": {
+  "keyword": "ph gleby",
+  "type": "organic",
+  "se_domain": "google.com",
+  "location_code": 2616,
+  "language_code": "pl",
+  "check_url": "https://www.google.com/search?q=ph%20gleby&hl=pl&gl=PL&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ",
+  "datetime": "2026-10-08 10:33:34 +00:00",
+  "spell": null,
+  "refinement_chips": null,
+  "item_types": [
+   "ai_overview",
+   "images",
+   "people_also_ask",
+   "organic",
+   "video"
+  ],
+  "se_results_count": 0,
+  "pages_count": 2,
+  "items_count": 21,
+  "items": [
+   {
+    "type": "ai_overview",
+    "rank_group": 1,
+    "rank_absolute": 1,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "asynchronous_ai_overview": false,
+    "markdown": "Optymalne pH dla większości roślin wynosi `od 5,5 do 7,2` , co odpowiada odczynowi lekko kwaśnemu do obojętnego.[[1]](https://pl.wikipedia.org/wiki/Odczyn_gleby)[[2]](https://dr-green.pl/ph-gleby/)\n\n### Skala pH gleby\n\n- **Bardzo kwaśna:** poniżej 4,5\n- **Kwaśna:** 4,6 – 5,5\n- **Lekko kwaśna:** 5,6 – 6,5\n- **Obojętna:** 6,6 – 7,2\n- **Zasadowa:** powyżej 7,2[[1]](https://orcal.pl/wiedza/ph-gleby/)\n\n### Jak zbadać pH ziemi\n\n- **Kwasomierz glebowy lub pH-metr:** Elektroniczne mierniki lub tradycyjne zestawy z płynem Helliga dają szybki i dość dokładny wynik.\n- **Papierki lakmusowe:** Próbkę ziemi mieszka się z wodą destylowaną, a następnie zanurza papierek.\n- **Domowy test z octem i sodą:** Dodanie sody do kwaśnej ziemi wywołuje pienienie, a ocet reaguje z ziemią zasadową.\n- **Badanie laboratoryjne:** Najdokładniejszą metodę oferują Okręgowe Stacje Chemiczno-Rolnicze.[[1]](https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/pomiar-ph-gleby---jak-mierzyc-i-dobrac-pod-odpowiednie-rosliny/)[[2]](https://chemirol.com.pl/blog/jakie-ph-gleby-jest-wlasciwe-dla-zboz/)[[3]](https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe)[[4]](https://polcalc.pl/blog/jak-sprawdzic-kwasowosc-gleby/)[[5]](https://cellfast.com.pl/aktualnosci/jak-mierzyc-i-regulowac-ph-gleby-w-ogrodzie-poznaj-przydatne-akcesoria/)[[6]](https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/badanie-odczynu-gleby---4-sposoby/)\n\n### Jak zmienić pH gleby\n\n- **Podwyższanie pH (odkwaszanie):** Stosuje się wapnowanie, na przykład [kredę lub dolomit](https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe).\n- **Obniżanie pH (zakwaszanie):** Pomaga dodatek kwaśnego torfu, siarki ogrodowej lub nawozów takich jak siarczan amonu.[[1]](https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe)[[2]](https://chemirol.com.pl/blog/jakie-ph-gleby-jest-wlasciwe-dla-zboz/)\n\nJeśli podasz mi **nazwę rośliny, którą chcesz uprawiać** , sprawdzę dla niej idealne pH gleby.",
+    "items": [
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": null,
+      "text": "Optymalne pH dla większości roślin wynosi od 5,5 do 7,2, co odpowiada odczynowi lekko kwaśnemu do obojętnego.",
+      "markdown": "Optymalne pH dla większości roślin wynosi `od 5,5 do 7,2` , co odpowiada odczynowi lekko kwaśnemu do obojętnego.[[1]](https://pl.wikipedia.org/wiki/Odczyn_gleby)[[2]](https://dr-green.pl/ph-gleby/)",
+      "links": null,
+      "images": null,
+      "references": [
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "Wikipedia",
+        "domain": "pl.wikipedia.org",
+        "url": "https://pl.wikipedia.org/wiki/Odczyn_gleby",
+        "title": "Odczyn gleby – Wikipedia, wolna encyklopedia",
+        "text": "- Odczyn gleby: stosunek stężenia jonów $H^+$ do $OH^-$ w roztworze glebowym; wyrażany skalą pH (wprowadzona w 1909 r. przez Sørena Sørensena). - Podział pH w P..."
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "dr-green.pl",
+        "domain": "dr-green.pl",
+        "url": "https://dr-green.pl/ph-gleby/",
+        "title": "pH gleby – co o odczynie gleby powinien wiedzieć każdy rolnik?",
+        "text": "pH gleby – co o odczynie gleby powinien wiedzieć każdy rolnik? Jest wiele czynników, które mają ogromny wpływ na jakość gleby, a w konsekwencji na jakość plonów..."
+       }
+      ]
+     },
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": "Skala pH gleby",
+      "text": "Bardzo kwaśna: poniżej 4,5 Kwaśna: 4,6 – 5,5 Lekko kwaśna: 5,6 – 6,5 Obojętna: 6,6 – 7,2 Zasadowa: powyżej 7,2",
+      "markdown": "- **Bardzo kwaśna:** poniżej 4,5\n- **Kwaśna:** 4,6 – 5,5\n- **Lekko kwaśna:** 5,6 – 6,5\n- **Obojętna:** 6,6 – 7,2\n- **Zasadowa:** powyżej 7,2[[1]](https://orcal.pl/wiedza/ph-gleby/)",
+      "links": null,
+      "images": null,
+      "references": [
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "orcal.pl",
+        "domain": "orcal.pl",
+        "url": "https://orcal.pl/wiedza/ph-gleby/",
+        "title": "PH gleby - wiedza dla gospodarza - OrCal",
+        "text": "Kiedy gleba jest kwaśna a kiedy zasadowa? W zależności od wartości odczynu pH, wyróżniamy gleby: pH poniżej 4,5 – gleby bardzo kwaśne; pH 4,6 – 5,5 – gleby kwaś..."
+       }
+      ]
+     },
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": "Jak zbadać pH ziemi",
+      "text": "Kwasomierz glebowy lub pH-metr: Elektroniczne mierniki lub tradycyjne zestawy z płynem Helliga dają szybki i dość dokładny wynik. Papierki lakmusowe: Próbkę ziemi mieszka się z wodą destylowaną, a następnie zanurza papierek. Domowy test z octem i sodą: Dodanie sody do kwaśnej ziemi wywołuje pienienie, a ocet reaguje z ziemią zasadową. Badanie laboratoryjne: Najdokładniejszą metodę oferują Okręgowe Stacje Chemiczno-Rolnicze.",
+      "markdown": "- **Kwasomierz glebowy lub pH-metr:** Elektroniczne mierniki lub tradycyjne zestawy z płynem Helliga dają szybki i dość dokładny wynik.\n- **Papierki lakmusowe:** Próbkę ziemi mieszka się z wodą destylowaną, a następnie zanurza papierek.\n- **Domowy test z octem i sodą:** Dodanie sody do kwaśnej ziemi wywołuje pienienie, a ocet reaguje z ziemią zasadową.\n- **Badanie laboratoryjne:** Najdokładniejszą metodę oferują Okręgowe Stacje Chemiczno-Rolnicze.[[1]](https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/pomiar-ph-gleby---jak-mierzyc-i-dobrac-pod-odpowiednie-rosliny/)[[2]](https://chemirol.com.pl/blog/jakie-ph-gleby-jest-wlasciwe-dla-zboz/)[[3]](https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe)[[4]](https://polcalc.pl/blog/jak-sprawdzic-kwasowosc-gleby/)[[5]](https://cellfast.com.pl/aktualnosci/jak-mierzyc-i-regulowac-ph-gleby-w-ogrodzie-poznaj-przydatne-akcesoria/)[[6]](https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/badanie-odczynu-gleby---4-sposoby/)",
+      "links": null,
+      "images": null,
+      "references": [
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "target.com.pl",
+        "domain": "www.target.com.pl",
+        "url": "https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/pomiar-ph-gleby---jak-mierzyc-i-dobrac-pod-odpowiednie-rosliny/",
+        "title": "Pomiar pH gleby - jak mierzyć i dobrać pod odpowiednie rośliny - Target",
+        "text": "* pH scale: very acidic (<5), acidic (5-6), slightly acidic (6.1-6.7), neutral (6.8-7.4), alkaline (>7.4). * Strip test method: sample depth ~10 cm (avoid curbs..."
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "Chemirol",
+        "domain": "chemirol.com.pl",
+        "url": "https://chemirol.com.pl/blog/jakie-ph-gleby-jest-wlasciwe-dla-zboz/",
+        "title": "Zadbaj o odczyn gleby i unikaj problemów z kwaśnością - Chemirol",
+        "text": "* PL gleby: prawie 40% kwaśne. * Przyczyny: kwaśne skały skandynawskie, rozkład organiczny, nawozy zakwaszające, coroczne zbiory. * Skale pH: silnie kwaśne (<4,"
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "www.obi.pl",
+        "domain": "www.obi.pl",
+        "url": "https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe",
+        "title": "Jak zakwasić glebę? Jak odkwasić ziemię? pH ziemi pod lupą | OBI",
+        "text": "pH skali: 0 (ekstremalnie kwaśny) do 14 (silnie zasadowy); 7=obojętny. Zakresy pH: <4,5=bardzo kwaśny, 4,6-5,5=kwaśny, 5,6-6,5=lekko kwaśny, 6,6-7,2=obojętny, >"
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "Polcalc",
+        "domain": "polcalc.pl",
+        "url": "https://polcalc.pl/blog/jak-sprawdzic-kwasowosc-gleby/",
+        "title": "Jak sprawdzić pH gleby i zmierzyć kwasowość ziemi? - Polcalc",
+        "text": "Jak zbadać kwasowość gleby samodzielnie? Można to zrobić przy pomocy papierka lakmusowego, kwasomierza lub prostego testu z octem i sodą oczyszczoną. To szybkie..."
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "Cellfast",
+        "domain": "cellfast.com.pl",
+        "url": "https://cellfast.com.pl/aktualnosci/jak-mierzyc-i-regulowac-ph-gleby-w-ogrodzie-poznaj-przydatne-akcesoria/",
+        "title": "Jak mierzyć i regulować pH gleby w ogrodzie? Poznaj ... - Cellfast",
+        "text": "Taki pomiar nie jest zbyt dokładny, lecz pozwoli w przybliżeniu określić odczyn gleby. Sięgnij po dwa słoiczki i wsyp do nich pobraną glebę. Zalej próbki wodą d..."
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "www.target.com.pl",
+        "domain": "www.target.com.pl",
+        "url": "https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/badanie-odczynu-gleby---4-sposoby/",
+        "title": "Badanie odczynu gleby - 4 sposoby - Target",
+        "text": "pH: ratio of H+ to OH- ions. Scale: <5 very acidic, 5-6 acidic, 6.1-6.7 slightly acidic, 6.8-7.4 neutral, >7.4 alkaline. Importance: affects nutrient absorption..."
+       }
+      ]
+     },
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": "Jak zmienić pH gleby",
+      "text": "Podwyższanie pH (odkwaszanie): Stosuje się wapnowanie, na przykład kredę lub dolomit. Obniżanie pH (zakwaszanie): Pomaga dodatek kwaśnego torfu, siarki ogrodowej lub nawozów takich jak siarczan amonu.",
+      "markdown": "- **Podwyższanie pH (odkwaszanie):** Stosuje się wapnowanie, na przykład [kredę lub dolomit](https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe).\n- **Obniżanie pH (zakwaszanie):** Pomaga dodatek kwaśnego torfu, siarki ogrodowej lub nawozów takich jak siarczan amonu.[[1]](https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe)[[2]](https://chemirol.com.pl/blog/jakie-ph-gleby-jest-wlasciwe-dla-zboz/)",
+      "links": [
+       {
+        "type": "link_element",
+        "title": "kredę lub dolomit",
+        "description": null,
+        "url": "https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe",
+        "domain": "www.obi.pl"
+       }
+      ],
+      "images": null,
+      "references": [
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "www.obi.pl",
+        "domain": "www.obi.pl",
+        "url": "https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe",
+        "title": "Jak zakwasić glebę? Jak odkwasić ziemię? pH ziemi pod lupą | OBI",
+        "text": "pH skali: 0 (ekstremalnie kwaśny) do 14 (silnie zasadowy); 7=obojętny. Zakresy pH: <4,5=bardzo kwaśny, 4,6-5,5=kwaśny, 5,6-6,5=lekko kwaśny, 6,6-7,2=obojętny, >"
+       },
+       {
+        "type": "ai_overview_reference",
+        "position": "left",
+        "source": "Chemirol",
+        "domain": "chemirol.com.pl",
+        "url": "https://chemirol.com.pl/blog/jakie-ph-gleby-jest-wlasciwe-dla-zboz/",
+        "title": "Zadbaj o odczyn gleby i unikaj problemów z kwaśnością - Chemirol",
+        "text": "* PL gleby: prawie 40% kwaśne. * Przyczyny: kwaśne skały skandynawskie, rozkład organiczny, nawozy zakwaszające, coroczne zbiory. * Skale pH: silnie kwaśne (<4,"
+       }
+      ]
+     },
+     {
+      "type": "ai_overview_element",
+      "position": "left",
+      "title": null,
+      "text": "Jeśli podasz mi nazwę rośliny, którą chcesz uprawiać, sprawdzę dla niej idealne pH gleby.",
+      "markdown": "Jeśli podasz mi **nazwę rośliny, którą chcesz uprawiać** , sprawdzę dla niej idealne pH gleby.",
+      "links": null,
+      "images": null,
+      "references": null
+     }
+    ],
+    "references": [
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "target.com.pl",
+      "domain": "www.target.com.pl",
+      "url": "https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/pomiar-ph-gleby---jak-mierzyc-i-dobrac-pod-odpowiednie-rosliny/",
+      "title": "Pomiar pH gleby - jak mierzyć i dobrać pod odpowiednie rośliny - Target",
+      "text": "* pH scale: very acidic (<5), acidic (5-6), slightly acidic (6.1-6.7), neutral (6.8-7.4), alkaline (>7.4). * Strip test method: sample depth ~10 cm (avoid curbs..."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "Wikipedia",
+      "domain": "pl.wikipedia.org",
+      "url": "https://pl.wikipedia.org/wiki/Odczyn_gleby",
+      "title": "Odczyn gleby – Wikipedia, wolna encyklopedia",
+      "text": "- Odczyn gleby: stosunek stężenia jonów $H^+$ do $OH^-$ w roztworze glebowym; wyrażany skalą pH (wprowadzona w 1909 r. przez Sørena Sørensena). - Podział pH w P..."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "dr-green.pl",
+      "domain": "dr-green.pl",
+      "url": "https://dr-green.pl/ph-gleby/",
+      "title": "pH gleby – co o odczynie gleby powinien wiedzieć każdy rolnik?",
+      "text": "pH gleby – co o odczynie gleby powinien wiedzieć każdy rolnik? Jest wiele czynników, które mają ogromny wpływ na jakość gleby, a w konsekwencji na jakość plonów..."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "www.obi.pl",
+      "domain": "www.obi.pl",
+      "url": "https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/porzadki-i-prace-ogrodowe/jak-zakwasic-lub-odkwasic-glebe",
+      "title": "Jak zakwasić glebę? Jak odkwasić ziemię? pH ziemi pod lupą | OBI",
+      "text": "pH skali: 0 (ekstremalnie kwaśny) do 14 (silnie zasadowy); 7=obojętny. Zakresy pH: <4,5=bardzo kwaśny, 4,6-5,5=kwaśny, 5,6-6,5=lekko kwaśny, 6,6-7,2=obojętny, >"
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "Chemirol",
+      "domain": "chemirol.com.pl",
+      "url": "https://chemirol.com.pl/blog/jakie-ph-gleby-jest-wlasciwe-dla-zboz/",
+      "title": "Zadbaj o odczyn gleby i unikaj problemów z kwaśnością - Chemirol",
+      "text": "* PL gleby: prawie 40% kwaśne. * Przyczyny: kwaśne skały skandynawskie, rozkład organiczny, nawozy zakwaszające, coroczne zbiory. * Skale pH: silnie kwaśne (<4,"
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "Polcalc",
+      "domain": "polcalc.pl",
+      "url": "https://polcalc.pl/blog/jak-sprawdzic-kwasowosc-gleby/",
+      "title": "Jak sprawdzić pH gleby i zmierzyć kwasowość ziemi? - Polcalc",
+      "text": "Jak zbadać kwasowość gleby samodzielnie? Można to zrobić przy pomocy papierka lakmusowego, kwasomierza lub prostego testu z octem i sodą oczyszczoną. To szybkie..."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "orcal.pl",
+      "domain": "orcal.pl",
+      "url": "https://orcal.pl/wiedza/ph-gleby/",
+      "title": "PH gleby - wiedza dla gospodarza - OrCal",
+      "text": "Kiedy gleba jest kwaśna a kiedy zasadowa? W zależności od wartości odczynu pH, wyróżniamy gleby: pH poniżej 4,5 – gleby bardzo kwaśne; pH 4,6 – 5,5 – gleby kwaś..."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "www.target.com.pl",
+      "domain": "www.target.com.pl",
+      "url": "https://www.target.com.pl/porady-i-inspiracje/poradniki/dbamy-i-pielegnujemy-ogrod/badanie-odczynu-gleby---4-sposoby/",
+      "title": "Badanie odczynu gleby - 4 sposoby - Target",
+      "text": "pH: ratio of H+ to OH- ions. Scale: <5 very acidic, 5-6 acidic, 6.1-6.7 slightly acidic, 6.8-7.4 neutral, >7.4 alkaline. Importance: affects nutrient absorption..."
+     },
+     {
+      "type": "ai_overview_reference",
+      "position": "right",
+      "source": "Cellfast",
+      "domain": "cellfast.com.pl",
+      "url": "https://cellfast.com.pl/aktualnosci/jak-mierzyc-i-regulowac-ph-gleby-w-ogrodzie-poznaj-przydatne-akcesoria/",
+      "title": "Jak mierzyć i regulować pH gleby w ogrodzie? Poznaj ... - Cellfast",
+      "text": "Taki pomiar nie jest zbyt dokładny, lecz pozwoli w przybliżeniu określić odczyn gleby. Sięgnij po dwa słoiczki i wsyp do nich pobraną glebę. Zalej próbki wodą d..."
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 1,
+    "rank_absolute": 2,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "Pomiar pH gleby. Jak zmierzyć odczyn pH gleby w ogrodzie?",
+      "url": "https://poradnikogrodniczy.pl/pomiar-ph-gleby.php",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:0"
+     },
+     {
+      "type": "images_element",
+      "alt": "Czym jest pH gleby? | pH 7.0",
+      "url": "https://ph70.pl/czym-jest-ph-gleby/",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:1"
+     },
+     {
+      "type": "images_element",
+      "alt": "pH gleby – wszystko, co powinieneś wiedzieć o odczynie gleby ...",
+      "url": "https://calfert.pl/ph-gleby-wszystko-co-powinienes-wiedziec-o-odczynie-gleby/",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:2"
+     },
+     {
+      "type": "images_element",
+      "alt": "Co to jest pH gleby? — jak je monitorować i dlaczego? Czy ...",
+      "url": "https://szkolkawrzos.pl/blog/co-to-jest-ph-gleby-jak-je-monitorowac-i-dlaczego-czy-mozna-je-zmienic/?srsltid=AU7gw4VOQmLeyiXQyJVhXzdzIfmENQ4W3xEtj9myIBTUAodSDEO87oX7",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:3"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_ask",
+    "rank_group": 1,
+    "rank_absolute": 3,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+    "items": [
+     {
+      "type": "people_also_ask_element",
+      "title": "Po czym poznać, że gleba jest kwaśna?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Jakie pH ziemi jest dobre?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Jak najszybciej podnieść pH gleby?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co oznacza pH 7 Ziemi?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czym najlepiej obniżyć pH ziemi?",
+      "seed_question": "Co oznacza pH 7 Ziemi?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[5]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Jakie pH pod pomidory i ogórki?",
+      "seed_question": "Co oznacza pH 7 Ziemi?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[6]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 1,
+    "rank_absolute": 4,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "mindaprojekt.pl",
+    "title": "Jak Sprawdzić pH Gleby w Ogrodzie? Poradnik",
+    "url": "https://mindaprojekt.pl/jak-sprawdzic-ph-gleby-w-ogrodzie-praktyczny-przewodnik-dla-ogrodowych-entuzjastow/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://mindaprojekt.pl",
+    "website_name": "Minda Projekt",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "18 wrz 2024 — Skala pH (z łac. pondus hydrogenii – masa wodoru) gleby - to miara jej kwasowości lub zasadowości, określa ona czy gleba jest bardziej kwaśna, ...",
+    "pre_snippet": "Skala pH (z łac. pondus hydrogenii – masa wodoru) gleby - to miara jej kwasowości lub zasadowości, określa ona czy gleba jest bardziej kwaśna, ...",
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "ph gleby z mindaprojekt.pl",
+      "url": "https://mindaprojekt.pl/jak-sprawdzic-ph-gleby-w-ogrodzie-praktyczny-przewodnik-dla-ogrodowych-entuzjastow/",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRyqPvt-nMsvhwIIdeIFfveat89Fsq9nEoXpHlnPH8x_1OhT4BYSoSBBA&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "miara jej kwasowości lub zasadowości"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-09-18 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 2,
+    "rank_absolute": 5,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "rolniczenawozy.com",
+    "title": "Odpowiednie pH gleby – zadbaj o nie zawczasu - Nawozy rolnicze",
+    "url": "https://rolniczenawozy.com/ph-gleby-wazne-przed-wapnowaniem/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://rolniczenawozy.com",
+    "website_name": "rolniczenawozy.com",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Jeśli już znamy poziom zakwaszenia naszych gleb (ph gleby), wówczas powinniśmy przystąpić do zaplanowania dawki wapna, która okaże się ...",
+    "pre_snippet": "07/12/2021 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2021-07-12 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 3,
+    "rank_absolute": 6,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "kobietawsadzie.pl",
+    "title": "Pomiar pH gleby - jak go wykonać?",
+    "url": "https://kobietawsadzie.pl/pomiar-ph-gleby-jak-go-wykonac/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://kobietawsadzie.pl",
+    "website_name": "Kobieta w sadzie",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Pomiar pH gleby – jak go wykonać? · bardzo kwaśne – pH < 4> · kwaśne – pH od 4,6 do 5,5 · lekko kwaśne – pH od 5,6 do 6,5 · obojętne – pH od 6,6 ...",
+    "pre_snippet": "11/01/2023 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2023-11-01 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 4,
+    "rank_absolute": 7,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.tygodnik-rolniczy.pl",
+    "title": "Optymalne pH gleby. Dlaczego to się opłaca rolnikowi?",
+    "url": "https://www.tygodnik-rolniczy.pl/uprawa/nawozenie/optymalne-ph-gleby-dlaczego-to-sie-oplaca-rolnikowi-2668202",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.tygodnik-rolniczy.pl",
+    "website_name": "Tygodnik - rolniczy",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "W glebie żyje niezliczona ilość drobnoustrojów z tym, że te najbardziej cenne dla rolnika i roślin wymagają do życia pH w przedziale 6 do 7. Np.",
+    "pre_snippet": "04/12/2026 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2026-04-12 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "video",
+    "rank_group": 1,
+    "rank_absolute": 8,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]",
+    "items": [
+     {
+      "type": "video_element",
+      "source": "FLORAHUMUS",
+      "title": "jak zmierzyć pH gleby i jakie wartości są optymalne? Co zrobić, gdy ...",
+      "timestamp": "2022-03-07 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=mlGcBBGESuI"
+     },
+     {
+      "type": "video_element",
+      "source": "Roślinne tajemnice",
+      "title": "Dlaczego ph gleby jest ważne dla roślin? Dlaczego rośliny umierają? o ...",
+      "timestamp": "2025-04-07 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=-r0l2alzPi0"
+     },
+     {
+      "type": "video_element",
+      "source": "Zakład Produkcji Nawozów Polcalc",
+      "title": "Regularnie badaj pH gleby - POLCALC",
+      "timestamp": "2025-05-12 00:00:00 +00:00",
+      "url": "https://www.facebook.com/wapno.granulowane/videos/regularnie-badaj-ph-gleby-polcalc/667881162815976/"
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 5,
+    "rank_absolute": 9,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "agrobiznes.tvp.pl",
+    "title": "Grunt to dobre pH gleby - Agrobiznes - TVP",
+    "url": "https://agrobiznes.tvp.pl/94704721/grunt-to-dobre-ph-gleby",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://agrobiznes.tvp.pl",
+    "website_name": "Agrobiznes",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Około 60 proc. gleb w Polsce to gleby kwaśne, co wpływa na jakość produkcji i wielkość zbiorów. Określenie jej parametrów pozwala na odpowiednie dobranie ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 6,
+    "rank_absolute": 10,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "florahumus.pl",
+    "title": "Jak zmierzyć pH gleby i jakie wartości są optymalne?",
+    "url": "https://florahumus.pl/jak-zmierzyc-ph-gleby-i-jakie-wartosci-sa-optymalne/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://florahumus.pl",
+    "website_name": "FLORAHUMUS",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "W tym filmie nasz agronom Paweł opowie Wam o podstawowym parametrze gleby, jakim jest pH. Paweł zademonstruje, jak dokonać pomiaru pH gleby i dokładnie ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 7,
+    "rank_absolute": 11,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Ph Meter Gleby - Niska cena na Allegro",
+    "url": "https://allegro.pl/listing?string=ph%20meter%20gleby&srsltid=AU7gw4WNY1PJf-dzrLHPiCyC3-3U24GdLbtMhmUccR04IjFSoG7MG4pZ",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": null,
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.8,
+     "votes_count": null,
+     "rating_max": 5
+    },
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": [
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "domain": "allegro.pl",
+      "title": "KWASOMIERZ GLEBOWY TESTER PH GLEBY PODŁOŻA ZIEMI MIERNIK WILGOTNOŚCI 4W1",
+      "url": "https://allegro.pl/produkt/kwasomierz-glebowy-arsa-go-4w1-ph-wilgotnosc-temperatura-naslonecznienie-aa8985eb-c284-41fd-9d05-a73c39952bfc?offerId=18737322153&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dph%2520meter%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS43uRF01tPwIIO3kLHNBmh8HgjDfNyrGIjhYlSKvsd81Fs1YKs"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.7,
+       "votes_count": 310,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 45,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "45 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "domain": "allegro.pl",
+      "title": "KWASOMIERZ GLEBY Tester podłoża Ph ziemi 4w1 MIERNIK GLEBOWY wilgotność",
+      "url": "https://allegro.pl/produkt/kwasomierz-gleby-tester-podloza-ph-ziemi-4w1-miernik-glebowy-wilgotnosc-817234fc-b479-49a8-a98c-deb888f4bd56?offerId=17964720359&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dph%2520meter%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbq-vuR_xU2Ka1cm7YZQiNV5kjLk4BLHlirgcgDdG3KwQJP37R"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.5,
+       "votes_count": 290,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 32,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "32 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "domain": "allegro.pl",
+      "title": "KWASOMIERZ GLEBOWY TESTER MIERNIK TEST PH GLEBY PODŁOŻA PŁYN HELLIGA ZESTAW",
+      "url": "https://allegro.pl/produkt/kwasomierz-glebowy-rim-kowalczyk-z-plynem-heliga-35-ml-1cc73ea8-3e96-4046-b68c-b92cb0c7f369?offerId=18881546341&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dph%2520meter%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDaKYD4xbOhRSb8X3h5kf_BCcPVtU-Qv80DV7D7CVFI4ytlFcB"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": null,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 35,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "35 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     }
+    ],
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 2,
+    "rank_absolute": 12,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "Pomiar pH gleby. Jak zmierzyć odczyn pH w ogrodzie? | Tkaniny ...",
+      "url": "https://sklep.tkaniny.info.pl/blog/pomiar-ph-gleby-jak-zmierzyc-odczyn-ph-w-ogrodzie",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:4"
+     },
+     {
+      "type": "images_element",
+      "alt": "Szybki pomiar pH gleby",
+      "url": "https://www.topagrar.pl/uprawa/szybki-pomiar-ph-gleby-2470199",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:5"
+     },
+     {
+      "type": "images_element",
+      "alt": "pH gleby – co o odczynie gleby powinien wiedzieć każdy rolnik?",
+      "url": "https://dr-green.pl/ph-gleby/?srsltid=AU7gw4UebQj4oz7WWXesejv4rY0_UAV1tHHGEYIIe5sb_g-1EsNDghEm",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:6"
+     },
+     {
+      "type": "images_element",
+      "alt": "pH gleby – wszystko, co powinieneś wiedzieć o odczynie gleby ...",
+      "url": "https://calfert.pl/ph-gleby-wszystko-co-powinienes-wiedziec-o-odczynie-gleby/",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:7"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 8,
+    "rank_absolute": 13,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "agropuls.pl",
+    "title": "pH gleby – najważniejsze informacje - Agro Puls.pl",
+    "url": "https://agropuls.pl/ph-gleby-najwazniejsze-informacje/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://agropuls.pl",
+    "website_name": "agropuls.pl",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Gdy pH gleby spada poniżej 4,5, w roztworze pojawia się nadmiar manganu i glinu uszkadzający korzenie. Roślina traci wtedy zdolność do pobierania wody, nawet ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 9,
+    "rank_absolute": 14,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "wszystkodlaogrodu.pl",
+    "title": "Zestaw do badania pH gleby BIOPON",
+    "url": "https://wszystkodlaogrodu.pl/produkt/zestaw-do-badania-ph-gleby-biopon",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://wszystkodlaogrodu.pl",
+    "website_name": "Wszystko Dla Ogrodu",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Zestaw do badania pH gleby - jeśli nie wiesz jakie rośliny mogą rosnąć na twojej glebie -0 wystarczy że to sprawdzisz tym zestawem!",
+    "pre_snippet": "Zestaw do badania pH gleby - jeśli nie wiesz jakie rośliny mogą rosnąć na twojej glebie -0 wystarczy że to sprawdzisz tym zestawem!",
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "ph gleby z wszystkodlaogrodu.pl",
+      "url": "https://wszystkodlaogrodu.pl/produkt/zestaw-do-badania-ph-gleby-biopon",
+      "image_url": "https://api.dataforseo.com/cdn/i/10081033-1748-0139-0000-7f200f8878c5:8"
+     }
+    ],
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.9,
+     "votes_count": 1994,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 14.6,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "14,60 zł"
+    },
+    "highlighted": [
+     "Zestaw do badania pH gleby"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 10,
+    "rank_absolute": 15,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "zpe.gov.pl",
+    "title": "Podział gleb ze względu na odczyn pH",
+    "url": "https://zpe.gov.pl/b/podzial-gleb-ze-wzgledu-na-odczyn-ph/PAz5y0l3l",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://zpe.gov.pl",
+    "website_name": "ZPE",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "zwietrzelina koloidy glebowe klasa bonitacyjna ługowanie odczyn pH gleby podział gleb ze względu na odczyn pH. Udostępnij Pobierz Zaloguj się, aby skopiować ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 11,
+    "rank_absolute": 16,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "zielonepogotowie.blog",
+    "title": "Odczyn pH gleby a składniki odżywcze - Zielone Porady 22",
+    "url": "https://zielonepogotowie.blog/2019/07/28/ph-gleby-a-skladniki-odzywcze-zielone-porady-22/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://zielonepogotowie.blog",
+    "website_name": "zielonepogotowie.blog",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "28 lip 2019 — Jakie pH powinna miec gleba ? Niewiele roślin lubi ziemię kwaśną, dlatego coraz częściej musimy stosować wapno, aby podwyższyć pH gleby.",
+    "pre_snippet": "07/28/2019 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "Jakie pH powinna miec gleba"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2019-07-28 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 12,
+    "rank_absolute": 17,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.merkurymarket.pl",
+    "title": "Zestaw do badania pH gleby",
+    "url": "https://www.merkurymarket.pl/produkt/zestaw-do-badania-ph-gleby,220905.html?srsltid=AU7gw4UY90HhRZzeT_Oh_rDTX5dVusY6tHHxJV3vXb44gQMjY6UK8yJK",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.merkurymarket.pl",
+    "website_name": "Merkury Market",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Zestaw do badania pH gleby w Merkury Market ✓ Oferujemy tanie akcesoria ochrony roślin ☝ Urządzaj i remontuj taniej! Zapraszamy do zakupów.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "ph gleby z www.merkurymarket.pl",
+      "url": "https://www.merkurymarket.pl/produkt/zestaw-do-badania-ph-gleby,220905.html?srsltid=AU7gw4UY90HhRZzeT_Oh_rDTX5dVusY6tHHxJV3vXb44gQMjY6UK8yJK",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4u06evv2Te0VGPlCQTlkckl0UcLMoAb5lLXV84_jLmt7Cs0YlTsAW7TA&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 18.49,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "18,49 zł"
+    },
+    "highlighted": [
+     "Zestaw do badania pH gleby w Merkury Market"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 13,
+    "rank_absolute": 18,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "zielonyogrodek.pl",
+    "title": "Jak łatwo mierzyć i regulować pH gleby w ogrodzie? To zajmie tylko kilka minut",
+    "url": "https://zielonyogrodek.pl/pielegnacja/nawozenie/20522-jak-latwo-mierzyc-i-regulowac-ph-gleby-w-ogrodzie-to-zajmie-tylko-kilka-minut",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://zielonyogrodek.pl",
+    "website_name": "Zielony Ogródek",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Odczyn pH gleby wpływa na niemal wszystkie procesy zachodzące w strefie korzeniowej roślin. To właśnie od niego zależy, czy składniki odżywcze ...",
+    "pre_snippet": "07/31/2026 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2026-07-31 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 14,
+    "rank_absolute": 19,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "florahumus.pl",
+    "title": "pH gleby - wszystko co powinieneś o nim wiedzieć",
+    "url": "https://florahumus.pl/ph-gleby-wszystko-co-powinienes-o-nim-wiedziec/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://florahumus.pl",
+    "website_name": "FLORAHUMUS",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "pH gleby definiuje się jako ujemny logarytm ze stężenia jonów wodorowych. Wyrażane jest na skali od 0 do 14 i pozwala określić odczyn: pH poniżej 6,5 oznacza ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "pH gleby definiuje się jako ujemny logarytm ze stężenia jonów wodorowych"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 15,
+    "rank_absolute": 20,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Regulator Ph Gleby - Niska cena na ...",
+    "url": "https://allegro.pl/listing?string=regulator%20ph%20gleby&srsltid=AU7gw4Xk0GFBVlZNnubXpl0MmvEiBsbshwDkYV20iiAh4Ff2dh6V0yP6",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Kwasomierz glebowy plus płyn Helliga 4.8/5.0 (1,5 tys.) · 30 zł",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.5,
+     "votes_count": null,
+     "rating_max": 5
+    },
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": [
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "domain": "allegro.pl",
+      "title": "2xKwasomierz Glebowy pH Zestaw z Płynem i Skalą Kolorów HELLIGA TESTER pH",
+      "url": "https://allegro.pl/produkt/kwasomierz-glebowy-egarden-z-plynem-wskaznikowym-10-pomiarow-29d6c3d3-9dc0-429b-9868-56ea9831826f?offerId=18932679392&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dregulator%2520ph%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT7msbAhdGzddpo0TPQ2p95A81P9DVjeeG4DWwupxyVdPeMaVyi"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.8,
+       "votes_count": 65,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 50,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "50 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "domain": "allegro.pl",
+      "title": "KWASOMIERZ GLEBOWY MIERNIK TESTER OGRODNICZY 4w1 PH DO GLEB GLEBY ZIEMII",
+      "url": "https://allegro.pl/produkt/kwasomierz-glebowy-retoo-4w1-tester-ph-ee115b8c-3307-4f69-a33d-a0d51dc17d7d?offerId=18741195888&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dregulator%2520ph%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRb5cr8YAN_nuogpM-41u5HVb2q-OPRQQete13m8R1tmXwPAOp1"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.7,
+       "votes_count": 71,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 19,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "19 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "domain": "allegro.pl",
+      "title": "KWASOMIERZ GLEBY Tester podłoża Ph ziemi 4w1 MIERNIK GLEBOWY wilgotność",
+      "url": "https://allegro.pl/produkt/kwasomierz-gleby-tester-podloza-ph-ziemi-4w1-miernik-glebowy-wilgotnosc-817234fc-b479-49a8-a98c-deb888f4bd56?offerId=17964720359&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dregulator%2520ph%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbq-vuR_xU2Ka1cm7YZQiNV5kjLk4BLHlirgcgDdG3KwQJP37R"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.6,
+       "votes_count": 306,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 33,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "33 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+      "domain": "allegro.pl",
+      "title": "Kwasomierz glebowy plus płyn Helliga",
+      "url": "https://allegro.pl/produkt/kwasomierz-glebowy-ph-wojciech-bisek-40-ml-3e5d3f7a-6a74-4b16-9577-9ed9123f0471?offerId=7008193563&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dregulator%2520ph%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQr6X0qLuWgHkNNOVo8HNiMoK52OPSyvEohkGFrVEHNH3rQ42J_"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": null,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 30,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "30 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
+      "domain": "allegro.pl",
+      "title": "Miernik pH Wilgotności Kwasomierz Gleby Podłoża Ziemi Ogrodowy 3w1",
+      "url": "https://allegro.pl/produkt/miernik-do-gleby-3w1-anytech-249502-851b2796-bb5c-4f27-9d39-f0ec20f1f183?offerId=12398475809&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dregulator%2520ph%2520gleby",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBCLxMGO3NZfTF6AvcYtYPl4sNZGuDN3Dh4FRG5CJFniFoQuTP"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.5,
+       "votes_count": null,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 19,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "19 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     }
+    ],
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 16,
+    "rank_absolute": 21,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+    "domain": "www.youtube.com",
+    "title": "Pierwszy raz badam PH gleby w ogródku - odcinek poprawiony ...",
+    "url": "https://www.youtube.com/watch?v=iHvwImQW5Vk",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Wyświetlenia: ponad 300",
+    "website_name": "YouTube · A garden near the forest",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "W odcinku poprzednim podałem nie do końca poprawne informacje, dziś poprawiony odcinek. Dziękuję @dalekowpolu za spostrzegawczość i ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-10-08 10:33:34 +00:00",
+    "rectangle": null
+   }
+  ]
+ }
+}

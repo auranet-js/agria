@@ -1,0 +1,2074 @@
+{
+ "kreda do stawu": {
+  "keyword": "kreda do stawu",
+  "type": "organic",
+  "se_domain": "google.com",
+  "location_code": 2616,
+  "language_code": "pl",
+  "check_url": "https://www.google.com/search?q=kreda%20do%20stawu&hl=pl&gl=PL&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ",
+  "datetime": "2026-10-08 08:09:30 +00:00",
+  "spell": null,
+  "refinement_chips": null,
+  "item_types": [
+   "organic",
+   "people_also_ask",
+   "images",
+   "related_searches",
+   "video",
+   "popular_products",
+   "people_also_search"
+  ],
+  "se_results_count": 0,
+  "pages_count": 2,
+  "items_count": 25,
+  "items": [
+   {
+    "type": "organic",
+    "rank_group": 1,
+    "rank_absolute": 1,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Kreda do Stawu - Niska cena na Allegro",
+    "url": "https://allegro.pl/listing?string=kreda%20do%20stawu&srsltid=AU7gw4UgqRHJUxYxkQKBwy8QYWkr1Ht3Oq1bUawfbSpt_oEzO1ryGDwN",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Kreda do stawu, naturalna kreda granulowana do stawu i oczka wodnego 30kg* 4.5/5.0 (17) · 65 zł",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.5,
+     "votes_count": 17,
+     "rating_max": 5
+    },
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu"
+    ],
+    "about_this_result": null,
+    "related_result": [
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "domain": "allegro.pl",
+      "title": "Kreda Stawowa granulowana, Kreda do oczka wodnego - 30kg ogranicza glony",
+      "url": "https://allegro.pl/produkt/kreda-granulowana-do-stawu-kreda-do-oczka-wodnego-30kg-ogranicza-glony-1c88b265-c2f2-4ec1-8aa1-43a0ea69855a?offerId=18847002291&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:0"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 101,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 1800,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "1800 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "domain": "allegro.pl",
+      "title": "KREDA GRANULOWANA DO STAWU I OCZKA WODNEGO 24kg antyglon bezpieczna 100m2",
+      "url": "https://allegro.pl/produkt/kreda-do-stawu-i-oczka-wodnego-24kg-naturalna-sypka-bezpieczna-eko-100m2-63fee426-9d19-4345-928a-3eb4479cf53b?offerId=17171965997&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:1"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.7,
+       "votes_count": 44,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 55,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "55 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "domain": "allegro.pl",
+      "title": "KREDA STAWOWA WAPNO DO OCZKA WODNEGO STAWU 19KG EKO NA GLONY CZYSTA WODA",
+      "url": "https://allegro.pl/produkt/kreda-stawowa-wapno-do-oczka-wodnego-stawu-19kg-eko-na-glony-czysta-woda-0bfa5a4f-df23-4a71-9413-695daeff9b0e?offerId=18785327121&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:2"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 4,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 50,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "50 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 1,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+      "domain": "allegro.pl",
+      "title": "Kreda do stawu, naturalna kreda granulowana do stawu i oczka wodnego 30kg*",
+      "url": "https://allegro.pl/produkt/kreda-do-stawu-naturalna-kreda-granulowana-do-stawu-i-oczka-wodnego-30kg-d60b6434-f40f-4015-ad5b-613a4ff525d0?offerId=18968792240&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_ZoyGD2VpWU6Mb-QSFTfsGiVXHLHqDrCUBZDygEz94DID7gq"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.5,
+       "votes_count": 17,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 65,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "65 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     }
+    ],
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_ask",
+    "rank_group": 1,
+    "rank_absolute": 2,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]",
+    "items": [
+     {
+      "type": "people_also_ask_element",
+      "title": "Kiedy sypie się kredę do stawu?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co jest lepsze do stawu kreda czy wapno?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co daje kreda w stawie?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[3]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Ile sypać kredy do stawu?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[4]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Kiedy się sypie wapno do stawu?",
+      "seed_question": "Ile sypać kredy do stawu?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[5]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Które jest lepsze do nawożenia: kreda czy wapno?",
+      "seed_question": "Ile sypać kredy do stawu?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[6]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 2,
+    "rank_absolute": 3,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "skleprafish.pl",
+    "title": "Kreda i Wapno Do Stawu i Oczka Wodnego",
+    "url": "https://skleprafish.pl/116-kreda-i-wapno-do-stawu-i-oczka-wodnego",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://skleprafish.pl",
+    "website_name": "Rafish",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Dlaczego warto stosować kredę w stawie lub oczku wodnym? · wspomaga stabilizację pH wody, · ogranicza zakwaszenie dna zbiornika, · wspiera naturalne procesy ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "kreda do stawu z skleprafish.pl",
+      "url": "https://skleprafish.pl/116-kreda-i-wapno-do-stawu-i-oczka-wodnego",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:3"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 1,
+    "rank_absolute": 4,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "Kreda do stawu 300kg Naturalna ekologiczna forma granulowana, kreda do wody",
+      "url": "https://allegro.pl/produkt/kreda-do-stawu-300kg-naturalna-ekologiczna-forma-granulowana-kreda-do-wody-c1191d5b-9181-4497-88b7-5e97656939e3?srsltid=AU7gw4Wi0i9fUdD0ZJwDARQMiaM3Uny9YgXQ6uPiHpqqb8_9V5wODL_s",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4xXHwxB-u0_2FvR4OAIzna2O1RLy3gMN5BAeOqFie9qmfNwPIzTXHN2g&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Kreda granulowana do stawu, Kreda do oczka wodnego - 25kg granulowana sucha",
+      "url": "https://nawozy24.com/p/kreda-granulowana-do-stawu-kreda-do-oczka-wodnego-25kg-granulowana-sucha/?srsltid=AU7gw4W3iro_C2QIAdlSt48mDhAHCsez-_hL8v9AQFLmKzi4dzN8x34O",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdq_pC3CX5hAMd5KLfAP7av5V8mk1kvIwkVc5he055rA&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "BEZPIECZNA KREDA DO STAWU oczka wodnego 25kg ekologiczna dla ...",
+      "url": "https://skleprafish.pl/strona-glowna/1353-bezpieczna-kreda-do-stawu-oczka-wodnego-25kg-ekologiczna-dla-ryb-koi-100m2.html",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzH8Z5Xnp69XXDU_o8bUVcS7uEOhSX5pL60QzNh1GDfw&s"
+     },
+     {
+      "type": "images_element",
+      "alt": "Kreda granulowana do stawu Kreda do oczka wodnego 30kg ogranicza glony -  Ceny i opinie - Ceneo.pl",
+      "url": "https://www.ceneo.pl/194143827?srsltid=AU7gw4VTxpallqjordUVrlSvAG_NuJYK9hdCOs6LQpm7ZfoDehxwTuKG",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9BH8tTvwNdrrWJGMaHWFqO6-LY12I7lGCTZHPucI2dRlBMcxdrE__so&s"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "related_searches",
+    "rank_group": 1,
+    "rank_absolute": 5,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]",
+    "items": [
+     "Kreda DO STAWU 25 kg",
+     "KREDA DO STAWU 100 KG",
+     "Kreda do stawu 500kg",
+     "Kreda do stawu z rybami",
+     "Jaka KREDA do stawu rybnego",
+     "KREDA DO STAWU rybnego RaFish"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "video",
+    "rank_group": 1,
+    "rank_absolute": 6,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]",
+    "items": [
+     {
+      "type": "video_element",
+      "source": "RaFish - WĘDKARSTWO ŁOWIENIE RYB",
+      "title": "KREDA DO STAWU I OCZKA W HODOWLI RYB",
+      "timestamp": "2023-10-31 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=y-MZCz8bo4k"
+     },
+     {
+      "type": "video_element",
+      "source": "RaFish -OCZKA WODNE I STAWY - HODOWLA RYB",
+      "title": "CZARNA KREDA DO STAWU I OCZKA WODNEGO DLA RYB ...",
+      "timestamp": "2025-06-08 00:00:00 +00:00",
+      "url": "https://www.youtube.com/watch?v=lSY-BwoCps0"
+     },
+     {
+      "type": "video_element",
+      "source": "RaFish - Wędkarstwo Mazowieckie",
+      "title": "co daje kreda w stawie? #kreda #wapnowanie | RaFish",
+      "timestamp": "2026-03-19 00:00:00 +00:00",
+      "url": "https://www.facebook.com/WedkarstwoMazowieckie/videos/co-daje-kreda-w-stawie-kreda-wapnowanie/948113837663722/"
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "popular_products",
+    "rank_group": 1,
+    "rank_absolute": 7,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]",
+    "title": "Porównywarki cen",
+    "items": [
+     {
+      "type": "popular_products_element",
+      "title": "Kreda 25kg do stawu oczka wodnego 100m2 bezpieczna Normuje Ph",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQVsMp64tFXCQu3jwJkzww2MXfPoTqt6HMUbsJr1sYSYdEraS-YPW-p-MwuvLBlP6pDqr8VXiUNgpsV5tGd4DDKgOliue-zg3b8g2qXPgbDOqaGx5KUwz8yGA",
+      "price": {
+       "current": 49.9,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "49,90 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "11372098489055350060",
+       "data_docid": "2564280948814919816",
+       "gid": "3691743362017634574"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "24 kg Kreda II Kategoria Do Stawu I oczka wodnego uratuj ryby hodowla",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR0y3RhIWpjOBazlzH9MtNTcWYx3umBrkeYZXsvP4Mt7cMXdaVBNnDCJX2mhc3PjC7TROe7vSi19jbI7Ymu1B-Bw1Tm76vJvoJGK5qX0zyLeUcB15qoQ53Fvw",
+      "price": {
+       "current": 49.99,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "49,99 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "7572048353017867212",
+       "data_docid": "11170022498948465617",
+       "gid": "3265589250458480233"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Kreda FATMAX XL 225g czarna Stanley",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTMTRgU9XtpkGxPabhVL7o_3yj0wlY0qajAhS7BwSbVbzriHbPtHbAJVERnR6DAjdkeyzlw3-HiIwQow27rjqeMe8GgRVaK3nsAtxuPs2EPi3F6DbeVG4Hw",
+      "price": {
+       "current": 10.65,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "10,65 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "14766545817440681646",
+       "data_docid": "16152890000614796582",
+       "gid": "15067929182300527541"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Astra Kredki świecowe Super Jumbo 8 kolorów",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTPOVSEnl6bVx61PyBjjxCCRQohfGqyYQ0l1Piq3KFEAK0reRYUQYLP7y3fZheZ68RhUz6WGwBARm7kADHyFNY0-0TB0roOHAixd9uIknor8h372uQfro0f",
+      "price": {
+       "current": 10.99,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "10,99 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "8754568909488617156",
+       "data_docid": "11878679692145718801",
+       "gid": "394931390184087950"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "KREDA DO STAWU I OCZKA WODNEGO 24kg NATURALNA Sypka Bezpieczna EKO 100m2",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRqfL9ufdMIoghWdMHKeKDF8QICly9UFOzun04SVKUrVFRP4JRqBE9RjieZUV8yn-7aIRda48vrHPikqkQW4qPttX0b_Nf1ymvegigkUCPdErANuPx8FpaE",
+      "price": {
+       "current": 55,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "55,00 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "8926002665507981617",
+       "data_docid": "6239633428867621629",
+       "gid": "1950903557454236688"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "Kreda 227 g BAHCO",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTN3BzuRl7iMR5Sy_50xdI9wwbvtm7ocXEBLOTxyG5cptDZlb0fTwCIvsw6IrW0tRF8QmfEHtxtrZxTFaAtiU5AZd3g1J1KmfDk6kLXkmBrEQAanoqOBvSn",
+      "price": {
+       "current": 9.86,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "9,86 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "7226297493977050492",
+       "data_docid": "9760395409342253153",
+       "gid": "7307835032493909864"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "kreda do stawu kreda do oczka wodnego",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxTK7zvsZbkLIwRlqARFa4lyUTTxxXMCwxfa1gtHtXTIuhlAYNSYJlq8K12mMQU7D92e5wG490miSxR4GTd9cXDzpFx-o6fhmyWB9UcXwU8DxgTYZ3WY8_",
+      "price": {
+       "current": 69,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "69,00 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "12319107820372642902",
+       "data_docid": "10907758410893742865",
+       "gid": "5066525913482154318"
+      }
+     },
+     {
+      "type": "popular_products_element",
+      "title": "ASTRA Kredki świecowe Jumbo",
+      "url": null,
+      "domain": null,
+      "description": null,
+      "more_sellers": false,
+      "seller": null,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRyqXkqwSU9pdYv6CvlacqxdDtFAO-aLJ64TSyjVJL5kPZ5SO-FXXqJpZK1JHdY3t8CKEuu_lpBh9Qaur0ZiG5xkv7EImcnTz7r5Mg4oLDdSifjHIkL-Jiy",
+      "price": {
+       "current": 12.99,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "12,99 zł"
+      },
+      "rating": null,
+      "product_identifiers": {
+       "product_id": "3235227361084900616",
+       "data_docid": "10292689069817452080",
+       "gid": "15572891725843430756"
+      }
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 3,
+    "rank_absolute": 8,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Kreda do Stawu",
+    "url": "https://allegro.pl/listing?string=kreda%20do%20stawu",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl/listing?string=kreda%20do%20stawu",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Kreda do Stawu Zróżnicowany zbiór ofert, najlepsze ceny i promocje. Wejdź i znajdź to, czego szukasz!",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 4,
+    "rank_absolute": 9,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[2]/div[3]",
+    "domain": "skleprafish.pl",
+    "title": "Kreda i Wapno Do Stawu i Oczka Wodnego",
+    "url": "https://skleprafish.pl/116-kreda-i-wapno-do-stawu-i-oczka-wodnego",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://skleprafish.pl/116-kreda-i-wapno-do-stawu-i-oczka-wodnego",
+    "website_name": "Rafish",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Dlaczego warto stosować kredę w stawie lub oczku wodnym? · wspomaga stabilizację pH wody, · ogranicza zakwaszenie dna zbiornika, · wspiera naturalne procesy ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 1,
+    "rank_absolute": 10,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Kreda do stawu dawkowanie",
+     "Kreda do stawu olx",
+     "Kreda do STAWU Castorama",
+     "Kreda do stawu Allegro",
+     "KREDA do STAWU LEROY MERLIN",
+     "KREDA DO STAWU RaFish"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 5,
+    "rank_absolute": 11,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.olx.pl",
+    "title": "kreda do stawu - Zwierzęta i akcesoria w dobrej cenie",
+    "url": "https://www.olx.pl/zwierzeta/q-kreda-do-stawu/?srsltid=AU7gw4XkB_zRofJYIe1T5VQkfCIYFI9zDFHm1coJctGp2s-g_uaoLae5",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.olx.pl",
+    "website_name": "OLX Poland",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Aktualne ogłoszenia w całej Polsce: kreda do stawu ▶️ sprawdź oferty w kategorii Zwierzęta i akcesoria ☝ Kupuj i sprzedawaj z zyskiem na OLX.pl!",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "kreda do stawu z www.olx.pl",
+      "url": "https://www.olx.pl/zwierzeta/q-kreda-do-stawu/?srsltid=AU7gw4XkB_zRofJYIe1T5VQkfCIYFI9zDFHm1coJctGp2s-g_uaoLae5",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQogi4g79iO0oWTHqqMrCLBqBn2WMTaobP-iIz0xDeeXQ&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 1,
+     "regular": null,
+     "max_value": 80,
+     "currency": "PLN",
+     "is_price_range": true,
+     "displayed_price": "Od 1,00 zł do 80,00 zł"
+    },
+    "highlighted": [
+     "kreda do stawu"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 6,
+    "rank_absolute": 12,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "nawozy24.com",
+    "title": "Kreda do stawu, kreda do wody bigbag 500kg",
+    "url": "https://nawozy24.com/p/kreda-do-stawu-kreda-do-wody-bigbag-500kg/?srsltid=AU7gw4UZuyZuFBit74w13AezedT8eu7nJqLO3-LuEuWkDGJ4bDYcPIrI",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://nawozy24.com",
+    "website_name": "Nawozy24.com",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Co daje kreda w stawie? · przeciwdziałać nadmiernemu zakwaszeniu, · podnosić odczyn kwaśnej wody i środowiska dna, · dostarczać wapnia, · wspierać utrzymanie ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "kreda do stawu z nawozy24.com",
+      "url": "https://nawozy24.com/p/kreda-do-stawu-kreda-do-wody-bigbag-500kg/?srsltid=AU7gw4UZuyZuFBit74w13AezedT8eu7nJqLO3-LuEuWkDGJ4bDYcPIrI",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlUkoyvq4tCy3lE7kWW7ZVoNIW9nn3cg4SqoKUDKVCZg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": {
+     "current": 380,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "380,00 zł"
+    },
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": [
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do stawu",
+     "kreda do",
+     "kreda do stawu",
+     "kreda do stawu"
+    ],
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 2,
+    "rank_absolute": 13,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Kreda do stawu gdzie kupić",
+     "Kreda do stawu kiedy stosować",
+     "Kreda do stawu OBI",
+     "KREDA do stawu opinie",
+     "Kreda do stawu 500 kg",
+     "Kreda do stawu granulowana"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 7,
+    "rank_absolute": 14,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.tiktok.com",
+    "title": "Kreda do Stawu i Oczka w Hodowli Ryb - Poradnik i Wskazówki",
+    "url": "https://www.tiktok.com/@rafishwm/video/7296153272803495200",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Wyświetlenia: ponad 474,8 tys.",
+    "website_name": "TikTok · Rafish",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "Odkryj najlepsze rodzaje kredy do stawu z rybami i dowiedz się, jak korzystać z kredy. @Rafish · oryginalny dźwięk – Rafish.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": [
+     {
+      "type": "link_element",
+      "title": "7:40",
+      "description": null,
+      "url": "https://www.tiktok.com/@rafishwm/video/7296153272803495200",
+      "domain": "www.tiktok.com"
+     }
+    ],
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-10-08 08:09:30 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 3,
+    "rank_absolute": 15,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[2]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Kreda do stawu dawkowanie",
+     "Kreda do stawu olx",
+     "Kreda do STAWU Castorama",
+     "Kreda do stawu Allegro",
+     "KREDA do STAWU LEROY MERLIN",
+     "KREDA DO STAWU RaFish"
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "images",
+    "rank_group": 2,
+    "rank_absolute": 16,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "24 KG KREDA -BRYŁY- KAT II IDEALNA DO STAWU/OCZKA WODNEGO",
+      "url": "https://skleprafish.pl/strona-glowna/1510-24-kg-kreda-do-stawu-i-oczka-wodnego.html",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:4"
+     },
+     {
+      "type": "images_element",
+      "alt": "Kreda wiosną do stawu lub oczka wodnego - jedyny oficjalny sprzedawca! ,  #wędkarstwo #oczkowodne #Ogród #Kreda #oczkowodnewogrodzie #Rybki #pasja  #Hobby | RaFish - Wędkarstwo Mazowieckie | Facebook",
+      "url": "https://www.facebook.com/WedkarstwoMazowieckie/videos/kreda-wiosn%C4%85-do-stawu-lub-oczka-wodnego-jedyny-oficjalny-sprzedawca-w%C4%99dkarstwo-o/629067619872282/",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:5"
+     },
+     {
+      "type": "images_element",
+      "alt": "10 KG KREDA – PYŁ- IDEALNA DO STAWU/OCZKA WODNEGO",
+      "url": "https://skleprafish.pl/strona-glowna/1079-24-kg-kreda-do-stawu-i-oczka-wodnego.html",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:6"
+     },
+     {
+      "type": "images_element",
+      "alt": "Kreda do Stawu i Oczka w Hodowli Ryb - Poradnik i Wskazówki",
+      "url": "https://www.tiktok.com/@rafishwm/video/7296153272803495200",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-3160a4e27609:7"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 8,
+    "rank_absolute": 17,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "erli.pl",
+    "title": "kreda-do-stawu-oczka-wodnego-bezpieczna-eko-ryby ...",
+    "url": "https://erli.pl/produkt/kreda-do-stawu-oczka-wodnego-bezpieczna-eko-ryby-rosliny-24kg,253441352",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://erli.pl",
+    "website_name": "ERLI.pl",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Glównym zadaniem kredy jest unormowanie optymalnego PH wody w zbiornku (7-8)dzieki czemu mamy optymalne warunki dla ryb,roslin,calego ekosystemu oraz ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "kreda do stawu z erli.pl",
+      "url": "https://erli.pl/produkt/kreda-do-stawu-oczka-wodnego-bezpieczna-eko-ryby-rosliny-24kg,253441352",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRomeDbji5W_0oAi-Dls_NjLUhhfArwbDrihNf-orYFCw&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 1,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 52.42,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "52,42 zł"
+    },
+    "highlighted": [
+     "Glównym zadaniem kredy jest unormowanie optymalnego PH wody w zbiornku (7-8)dzieki"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 9,
+    "rank_absolute": 18,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]",
+    "domain": "www.facebook.com",
+    "title": "Tutaj kupisz kredę do stawu i oczka wodnego: https://skleprafish.pl/116 ...",
+    "url": "https://www.facebook.com/WedkarstwoMazowieckie/posts/tutaj-kupisz-kred%C4%99-do-stawu-i-oczka-wodnegohttpsskleprafishpl116-kreda-do-stawu-/722324933265782/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Liczba reakcji: ponad 1,1 tys.",
+    "website_name": "Facebook · RaFish - Wędkarstwo Mazowieckie",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "Tutaj kupisz kredę do stawu i oczka wodnego: https://skleprafish.pl/116-kreda-do-stawu-i-oczka-wodnego Dawkowanie kredy?",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": [
+     {
+      "type": "link_element",
+      "title": "7:41",
+      "description": null,
+      "url": "https://www.facebook.com/WedkarstwoMazowieckie/posts/tutaj-kupisz-kred%C4%99-do-stawu-i-oczka-wodnegohttpsskleprafishpl116-kreda-do-stawu-/722324933265782/",
+      "domain": "www.facebook.com"
+     }
+    ],
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-10-08 08:09:30 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 10,
+    "rank_absolute": 19,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+    "domain": "www.tiktok.com",
+    "title": "Jak stosować kredę w stawach: Praktyczne wskazówki",
+    "url": "https://www.tiktok.com/@rafishwm/video/7519044353227115798",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Wyświetlenia: ponad 146,9 tys.",
+    "website_name": "TikTok · Rafish",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "... kreda w medycynie, kreda a zdrowie stawów, porady dotyczące stawów ... KOLOR STAWU PO KREDOWANIU #wedkarstwo #staw #oczkowodne #kopaniestawu #ryby.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": [
+     {
+      "type": "link_element",
+      "title": "1:34",
+      "description": null,
+      "url": "https://www.tiktok.com/@rafishwm/video/7519044353227115798",
+      "domain": "www.tiktok.com"
+     }
+    ],
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2025-10-08 08:09:30 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 11,
+    "rank_absolute": 20,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Kreda Pastewna do Stawu - Niska cena na ...",
+    "url": "https://allegro.pl/listing?string=kreda%20pastewna%20do%20stawu&srsltid=AU7gw4VllQM23nS7PLGuRhRPlN1sm-VWxVo3tilrDHeWb3K8zTnSvoqW",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Kreda do stawu, naturalna kreda granulowana do stawu i oczka wodnego 30kg* 4.5/5.0 (17) · 65 zł",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 4,
+     "rating_max": 5
+    },
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": [
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "domain": "allegro.pl",
+      "title": "Kreda Stawowa granulowana, Kreda do oczka wodnego - 30kg ogranicza glony",
+      "url": "https://allegro.pl/produkt/kreda-granulowana-do-stawu-kreda-do-oczka-wodnego-30kg-ogranicza-glony-1c88b265-c2f2-4ec1-8aa1-43a0ea69855a?offerId=18847002291&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520pastewna%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpjcUoNCFyzh-t8CXY9W1zVYtJthxoCFWXwH903I596Ptxkzm1"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 101,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 1800,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "1800 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "domain": "allegro.pl",
+      "title": "KREDA GRANULOWANA DO STAWU I OCZKA WODNEGO 24kg antyglon bezpieczna 100m2",
+      "url": "https://allegro.pl/produkt/kreda-do-stawu-i-oczka-wodnego-24kg-naturalna-sypka-bezpieczna-eko-100m2-63fee426-9d19-4345-928a-3eb4479cf53b?offerId=17171965997&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520pastewna%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQQCXzOyyAkeUp9KVyThB8yCDkXVyvwksPqlrOYIWp1I5pi236N"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.7,
+       "votes_count": 44,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 55,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "55 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+      "domain": "allegro.pl",
+      "title": "Kreda Pastewna 25kg dla Kur Niosek na skorupki wapno 25 kg wapń",
+      "url": "https://allegro.pl/produkt/preparat-animacal-kreda-pastewna-gruboziarnista-25-kg-dla-drobiu-e11fc952-30e8-4c47-9bee-d174e3fd2ba1?offerId=17265212835&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520pastewna%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpc3_xhMYeq0Jiy0RQ4bjMDcFkWg9TZPr7jdlVLkGb1ZXFr71s"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.9,
+       "votes_count": 334,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 28,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "28 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+      "domain": "allegro.pl",
+      "title": "Kreda do stawu, naturalna kreda granulowana do stawu i oczka wodnego 30kg*",
+      "url": "https://allegro.pl/produkt/kreda-do-stawu-naturalna-kreda-granulowana-do-stawu-i-oczka-wodnego-30kg-d60b6434-f40f-4015-ad5b-613a4ff525d0?offerId=18968792240&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520pastewna%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_ZoyGD2VpWU6Mb-QSFTfsGiVXHLHqDrCUBZDygEz94DID7gq"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 4.5,
+       "votes_count": 17,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 65,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "65 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     },
+     {
+      "type": "related_result",
+      "page": 2,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]",
+      "domain": "allegro.pl",
+      "title": "KREDA STAWOWA WAPNO DO OCZKA WODNEGO STAWU 19KG EKO NA GLONY CZYSTA WODA",
+      "url": "https://allegro.pl/produkt/kreda-stawowa-wapno-do-oczka-wodnego-stawu-19kg-eko-na-glony-czysta-woda-0bfa5a4f-df23-4a71-9413-695daeff9b0e?offerId=18785469950&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dkreda%2520pastewna%2520do%2520stawu",
+      "cache_url": null,
+      "related_search_url": null,
+      "breadcrumb": null,
+      "website_name": null,
+      "is_image": false,
+      "is_video": false,
+      "checks": null,
+      "description": null,
+      "pre_snippet": null,
+      "extended_snippet": null,
+      "images": [
+       {
+        "type": "images_element",
+        "alt": null,
+        "url": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1kvN07rPjBa9aaxWflAtuJB9iC-7VvVf0dQ5gRHk33rDcd_Dr"
+       }
+      ],
+      "amp_version": false,
+      "rating": {
+       "rating_type": "Max5",
+       "value": 5,
+       "votes_count": 4,
+       "rating_max": 5
+      },
+      "price": {
+       "current": 50,
+       "regular": null,
+       "max_value": null,
+       "currency": "PLN",
+       "is_price_range": false,
+       "displayed_price": "50 zł"
+      },
+      "highlighted": null,
+      "about_this_result": null,
+      "timestamp": null
+     }
+    ],
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 12,
+    "rank_absolute": 21,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]",
+    "domain": "www.youtube.com",
+    "title": "GARDEN POND - LIMING - DOSAGE AND HOW MUCH LIME TO ADD",
+    "url": "https://www.youtube.com/watch?v=0uSzU_DSVsQ",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Wyświetlenia: ponad 22,1 tys.",
+    "website_name": "YouTube · RaFish -OCZKA WODNE I STAWY - HODOWLA RYB",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "Tutaj kupisz kredę do oczka wodnego i stawu: https://skleprafish.pl/116-kreda-do-stawu-i-oczka-wodnego Zapraszam na główny kanał, na którym ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-10-08 08:09:30 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 13,
+    "rank_absolute": 22,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]",
+    "domain": "www.facebook.com",
+    "title": "stosowanie kredy w stawie lub oczku wodnym jesienią",
+    "url": "https://www.facebook.com/WedkarstwoMazowieckie/videos/stosowanie-kredy-w-stawie-lub-oczku-wodnym-jesieni%C4%85/1257987005445200/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Liczba reakcji: ponad 50",
+    "website_name": "Facebook · RaFish - Wędkarstwo Mazowieckie",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "https://skleprafish.pl/116-kreda-i-wapno-do-stawu-i- oczka-wodnego Sklep na allegro, jedyny sklep na allegro z oryginalną kredą stawową ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": [
+     {
+      "type": "link_element",
+      "title": "9:53",
+      "description": null,
+      "url": "https://www.facebook.com/WedkarstwoMazowieckie/videos/stosowanie-kredy-w-stawie-lub-oczku-wodnym-jesieni%C4%85/1257987005445200/",
+      "domain": "www.facebook.com"
+     }
+    ],
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2025-10-08 08:09:30 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 14,
+    "rank_absolute": 23,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+    "domain": "www.tiktok.com",
+    "title": "Kreda do oczka wodnego – jak polepszyć jakość wody w stawie",
+    "url": "https://www.tiktok.com/@rafishwm/video/7297252286454287648",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Wyświetlenia: ponad 114 tys.",
+    "website_name": "TikTok · Rafish",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "Kreda do stawu z rybami działa głównie poprzez zwiększenie twardości wody i stabilizację pH. Dzięki temu warunki w oczku wodnym stają się ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": [
+     {
+      "type": "link_element",
+      "title": "9:19",
+      "description": null,
+      "url": "https://www.tiktok.com/@rafishwm/video/7297252286454287648",
+      "domain": "www.tiktok.com"
+     }
+    ],
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2024-10-08 08:09:30 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 15,
+    "rank_absolute": 24,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+    "domain": "www.facebook.com",
+    "title": "Kreda do stawu i oczka wodnego na wiosnę! https://skleprafish.pl/116- ...",
+    "url": "https://www.facebook.com/WedkarstwoMazowieckie/posts/kreda-do-stawu-i-oczka-wodnego-na-wiosn%C4%99httpsskleprafishpl116-kreda-i-wapno-do-s/1051393633692242/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Liczba reakcji: ponad 130",
+    "website_name": "Facebook · RaFish - Wędkarstwo Mazowieckie",
+    "is_image": false,
+    "is_video": true,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_video"
+    ],
+    "description": "Radoslaw Przybylak. Działa polecam , niema glonów i ryby nie chorują ; Piotr Komorowski. Zwykłe wapno rozpuścić z wodą a nie słuchać bzdur ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": [
+     {
+      "type": "link_element",
+      "title": "2:33",
+      "description": null,
+      "url": "https://www.facebook.com/WedkarstwoMazowieckie/posts/kreda-do-stawu-i-oczka-wodnego-na-wiosn%C4%99httpsskleprafishpl116-kreda-i-wapno-do-s/1051393633692242/",
+      "domain": "www.facebook.com"
+     }
+    ],
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2025-10-08 08:09:30 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "people_also_search",
+    "rank_group": 4,
+    "rank_absolute": 25,
+    "page": 2,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+    "title": "Inni wyszukiwali również",
+    "items": [
+     "Kreda do stawu gdzie kupić",
+     "Kreda do stawu kiedy stosować",
+     "Kreda do stawu OBI",
+     "KREDA do stawu opinie",
+     "Kreda do stawu 500 kg",
+     "Kreda do stawu granulowana"
+    ],
+    "rectangle": null
+   }
+  ]
+ },
+ "wapno do stawu": {
+  "keyword": "wapno do stawu",
+  "type": "organic",
+  "se_domain": "google.com",
+  "location_code": 2616,
+  "language_code": "pl",
+  "check_url": "https://www.google.com/search?q=wapno%20do%20stawu&hl=pl&gl=PL&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ",
+  "datetime": "2026-10-08 08:09:41 +00:00",
+  "spell": null,
+  "refinement_chips": null,
+  "item_types": [
+   "images",
+   "organic",
+   "people_also_ask"
+  ],
+  "se_results_count": 7,
+  "pages_count": 1,
+  "items_count": 9,
+  "items": [
+   {
+    "type": "images",
+    "rank_group": 1,
+    "rank_absolute": 1,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]",
+    "title": "Grafika",
+    "url": null,
+    "items": [
+     {
+      "type": "images_element",
+      "alt": "WAPNO DO STAWU DLA RYB WAPNO STAWOWE TLENKOWE PALONE",
+      "url": "https://skleprafish.pl/strona-glowna/1711-wapno-do-stawu-dla-ryb-wapno-stawowe-tlenkowe-palone.html",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-22b4be3d137d:0"
+     },
+     {
+      "type": "images_element",
+      "alt": "Wapno Do Stawu Jesienią Wapnowanie Stawu",
+      "url": "https://www.youtube.com/watch?v=JyaLc27pATY",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-22b4be3d137d:1"
+     }
+    ],
+    "related_image_searches": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 1,
+    "rank_absolute": 2,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "allegro.pl",
+    "title": "Wapno do Stawu 70% - Nawozy ogrodnicze",
+    "url": "https://allegro.pl/kategoria/nawozy-i-preparaty-nawozy-126197?string=wapno%20do%20stawu%2070%25&srsltid=AU7gw4WRwNgRMdj_-hr7kxBIjcbYoJ9QpmWvq8idTiNkseJmv19-hDyz",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://allegro.pl",
+    "website_name": "Allegro",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "Kreda granulowana do stawu, Kreda do oczka wodnego - 30kg ogranicza glony; 84,89 zł z dostawą; dostawa pojutrze. Przewidywany przez Allegro czas dostawy.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do stawu z allegro.pl",
+      "url": "https://allegro.pl/kategoria/nawozy-i-preparaty-nawozy-126197?string=wapno%20do%20stawu%2070%25&srsltid=AU7gw4WRwNgRMdj_-hr7kxBIjcbYoJ9QpmWvq8idTiNkseJmv19-hDyz",
+      "image_url": "https://api.dataforseo.com/cdn/i/10080809-1748-0139-0000-22b4be3d137d:2"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "people_also_ask",
+    "rank_group": 1,
+    "rank_absolute": 3,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+    "items": [
+     {
+      "type": "people_also_ask_element",
+      "title": "Kiedy się sypie wapno do stawu?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co jest lepsze kreda czy wapno do stawu?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co daje wapno do stawu?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Kiedy sypać kredę do stawu?",
+      "seed_question": null,
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Co daje kreda w stawie?",
+      "seed_question": "Kiedy sypać kredę do stawu?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[5]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     },
+     {
+      "type": "people_also_ask_element",
+      "title": "Czy wapno budowlane nadaje się do stawu?",
+      "seed_question": "Kiedy sypać kredę do stawu?",
+      "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[6]",
+      "expanded_element": [
+       {
+        "type": "people_also_ask_ai_overview_expanded_element",
+        "items": null,
+        "references": null,
+        "asynchronous_ai_overview": true
+       }
+      ]
+     }
+    ],
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 2,
+    "rank_absolute": 4,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "erli.pl",
+    "title": "WAPNO DO STAWU tlenkowe 24kg staw odkażanie wapnowanie",
+    "url": "https://erli.pl/produkt/wapno-do-stawu-tlenkowe-24kg-staw-odkazanie-wapnowanie,253441222",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://erli.pl",
+    "website_name": "ERLI.pl",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "6 lut 2026 — Wapno można zastosować jeśli chcemy poprawić odczyn wody lub odkazić staw. Można to zrobić na dwa sposoby: Wsypując wapno bezpośrednio do wody.",
+    "pre_snippet": "02/06/2026 00:00:00",
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do stawu z erli.pl",
+      "url": "https://erli.pl/produkt/wapno-do-stawu-tlenkowe-24kg-staw-odkazanie-wapnowanie,253441222",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSkwrrVvtx0ZW-RzGBQSZaqIHqtnK1I0HMejr3MYXgig&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 4,
+     "rating_max": 5
+    },
+    "price": {
+     "current": 46.71,
+     "regular": null,
+     "max_value": null,
+     "currency": "PLN",
+     "is_price_range": false,
+     "displayed_price": "46,71 zł"
+    },
+    "highlighted": [
+     "Wapno można zastosować jeśli chcemy poprawić odczyn wody lub odkazić staw"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2026-02-06 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 3,
+    "rank_absolute": 5,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.olx.pl",
+    "title": "Dla Ciebie wszystko - sprawdź nowe oferty!",
+    "url": "https://www.olx.pl/oferty/q-wapno-do-stawu/?srsltid=AU7gw4VkuU7dId1eEw8rjI0-p-slwIjvdda6OqyZSWCAfjsZcdrWbDBA",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.olx.pl",
+    "website_name": "OLX Poland",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno do stawu dla ryb tlenkowe. Nowe. 40 zł. Zielona Góra. Odświeżono dnia 11 sierpnia 2026. Wapno nawozowe. 1 ...",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "Wapno do stawu dla ryb tlenkowe"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 4,
+    "rank_absolute": 6,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "forum.murator.pl",
+    "title": "wapno do stawu?? - OGRODY - Pamiętajcie o ogrodach",
+    "url": "https://forum.murator.pl/topic/95931-wapno-do-stawu/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://forum.murator.pl",
+    "website_name": "Forum Muratora",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Jest taka praktyka, ze aby wyklarowac wodę nalezy dac wapno. Jednakże to drastycznie zwiększa twardośc wody i może hamować wzrost roślin ...",
+    "pre_snippet": "02/10/2008 00:00:00",
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2008-02-10 00:00:00 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 5,
+    "rank_absolute": 7,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.facebook.com",
+    "title": "Czy takie wapno z Castoramy mogę używać do wapnowania stawu?",
+    "url": "https://www.facebook.com/groups/749939886672817/posts/1461957088804423/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "Liczba komentarzy: ponad 50",
+    "website_name": "Facebook · Stawy rybne, kopanie, zarybienie i porady",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Czy takie wapno z Castoramy mogę używać do wapnowania stawu? No photo description available. ... Najbezpieczniejszy jest weglan wapnia CaCO3 (np.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2026-04-08 08:09:39 +00:00",
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 6,
+    "rank_absolute": 8,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "www.olx.pl",
+    "title": "wapno do stawu Lubelskie - Rolnictwo w dobrej cenie",
+    "url": "https://www.olx.pl/rolnictwo/lubelskie/q-wapno-do-stawu/?srsltid=AU7gw4UAJs-M2qBJF9ijn2hUcOrkUImQyT8w_5_3bdYp45syjcMh2La1",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://www.olx.pl",
+    "website_name": "OLX Poland",
+    "is_image": false,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": null,
+    "description": "Wapno do stawu — Agrobielik 70, tlenkowe palone 70% CaO, odkażanie dna i podniesienie pH wody, atest OSChR, luzem i big bag.",
+    "pre_snippet": null,
+    "extended_snippet": null,
+    "images": null,
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": null,
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": null,
+    "rectangle": null
+   },
+   {
+    "type": "organic",
+    "rank_group": 7,
+    "rank_absolute": 9,
+    "page": 1,
+    "position": "left",
+    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+    "domain": "harmonicahouse.pl",
+    "title": "Jakie wapno wsypać do stawu, aby poprawić jego równowagę?",
+    "url": "https://harmonicahouse.pl/jakie-wapno-wsypac-do-stawu-aby-poprawic-jego-rownowage/",
+    "cache_url": null,
+    "related_search_url": null,
+    "breadcrumb": "https://harmonicahouse.pl",
+    "website_name": "harmonicahouse.pl",
+    "is_image": true,
+    "is_video": false,
+    "is_featured_snippet": false,
+    "is_malicious": false,
+    "is_web_story": false,
+    "checks": [
+     "is_image"
+    ],
+    "description": "20 maj 2025 — Główne korzyści wynikające z wapnowania to stabilizacja pH, zwiększenie twardości wody, przyspieszenie rozkładu materii organicznej oraz ...",
+    "pre_snippet": "05/20/2025 00:00:00",
+    "extended_snippet": null,
+    "images": [
+     {
+      "type": "images_element",
+      "alt": "wapno do stawu z harmonicahouse.pl",
+      "url": "https://harmonicahouse.pl/jakie-wapno-wsypac-do-stawu-aby-poprawic-jego-rownowage/",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZX4L5Ug6ZkHi0iYSoLjvGwshsKIFzRY7ummjZ1pENg&usqp=CAE&s"
+     }
+    ],
+    "amp_version": false,
+    "rating": null,
+    "price": null,
+    "highlighted": [
+     "stabilizacja pH, zwiększenie twardości wody"
+    ],
+    "links": null,
+    "faq": null,
+    "extended_people_also_search": null,
+    "about_this_result": null,
+    "related_result": null,
+    "timestamp": "2025-05-20 00:00:00 +00:00",
+    "rectangle": null
+   }
+  ]
+ }
+}
