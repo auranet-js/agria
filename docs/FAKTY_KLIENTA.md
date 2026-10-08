@@ -169,6 +169,15 @@ na `/do-pobrania/`; klient ściąga ten sam PDF, co my.
 z którego towar wyjeżdża (Radom to 90 km z Sitkówki albo 250 km z Niedomic). Dlatego transport
 nie liczy się strefami WooCommerce.
 
+**Magazyny Niedomice i Radgoszcz mają wszystko** — worki, big-bagi i luz (Janek 08.10). Karty produktów podają
+czasem tylko Niedomice i zakład producenta (np. Agrobielik 70/90: „Niedomice, Sitkówka”) — Radgoszcz też wydaje.
+
+**Małe ilości (rozmowa z Pawłem 08.10):** przy 1–2 t w grę wchodzą **tylko Niedomice i Radgoszcz** — odbiór
+własny. Kopalnie i zakłady producentów to **wyłącznie cały samochód**. Kurier przy małych ilościach się nie
+kalkuluje (przykład Pawła: big-bag ok. 400 zł, kurier do tony ok. 350 zł — „drugie tyle co wapno”).
+Klienci dzwonią z ogłoszenia w swoim mieście, myśląc, że przywieziemy tonę — stąd zasada w ogłoszeniach:
+najpierw Niedomice i Radgoszcz, potem zakłady z karty (ADR `docs/decyzje/2026-10-08-olx-tlenek-wysylka-z-magazynow.md`).
+
 ---
 
 ## 6. Ustalenia handlowe
@@ -183,6 +192,9 @@ nie liczy się strefami WooCommerce.
 | Kalkulator Mg | **≈4 h** do rozliczenia | ustalenie 18.08, rejestr T-043/T-044 |
 | Ofertownik | **projekt własny Auranet**, nie billable na tym etapie — najpierw budujemy, potem sprzedajemy | decyzja Janka 18.08 |
 | Poza zakresem ryczałtu | social media, sesje zdjęciowe, Google Ads | `AURANET_2000PLN_MONTHLY.md` |
+| OLX — skuteczność | **2 zamówienia na całe samochody** z OLX (tlenek z Radgoszczy, w pole) — Paweł pyta klientów, skąd dzwonią. Na ogłoszeniach **tylko numer Pawła**, więc odsłona numeru ≠ telefon. Pakiet **przedłużony** — „wartość dodana i nauczenie rynku, że jesteśmy” | rozmowa z Pawłem 08.10 |
+| Co się teraz sprzedaje | **głównie w pole, wapno tlenkowe** — na tlenek jest najwięcej telefonów | jw. |
+| Wielan — hurtownik | odbiera **wszystkie małe worki, ok. 400–500 t/rok**, rozwozi po Polsce do małych sklepów (logistyka, której AGRIA nie ma). **Nie wchodzimy mu w drogę**; detal / B2B / Zakupy Google tylko z ceną **nie niższą niż Wielan** — do przemyślenia, nie teraz | jw. |
 
 **Rozjazd do rozstrzygnięcia:** memory `project_agria_ads_sezonowosc` sygnalizuje różnicę **trzy vs cztery
 miesiące** kampanii Ads między tym, co potwierdził Kasjan, a tym, co poszło w mailu. Do sprawdzenia

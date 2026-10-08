@@ -1,0 +1,984 @@
+[
+ {
+  "seria": "T-150",
+  "advert_id": 1092688803,
+  "klucz": "agria-weglanowe-granulowane-13573",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Piotrków Trybunalski",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092688867,
+  "klucz": "agria-weglanowe-magnez-granulowane-56509",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Tomaszów Mazowiecki",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092688931,
+  "klucz": "agria-kreda-nawozowa-granulowana-15963",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Alwernia",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092690376,
+  "klucz": "agria-weglanowe-granulowane-17871",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Niepołomice",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092690408,
+  "klucz": "agria-weglanowe-odmiana-04-115571",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Borzęcin",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092690440,
+  "klucz": "agria-weglanowe-odmiana-04-13573",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Piotrków Trybunalski",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695313,
+  "klucz": "agria-weglanowe-granulowane-81563",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Baćkowice",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695342,
+  "klucz": "agria-weglanowe-granulowane-15459",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Ciepielów",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695373,
+  "klucz": "agria-weglanowe-granulowane-102207",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Radgoszcz",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695403,
+  "klucz": "agria-weglanowe-granulowane-7509",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Skalbmierz",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695432,
+  "klucz": "agria-weglanowe-granulowane-14721",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Lubień",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695461,
+  "klucz": "agria-weglanowe-granulowane-10609",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Charsznica",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695490,
+  "klucz": "agria-weglanowe-granulowane-15241",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Rzeszów",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695518,
+  "klucz": "agria-weglanowe-granulowane-4765",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Częstochowa",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695548,
+  "klucz": "agria-weglanowe-granulowane-10119",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Lublin",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695583,
+  "klucz": "agria-weglanowe-granulowane-53689",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Racibórz",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695605,
+  "klucz": "agria-weglanowe-granulowane-41301",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Zator",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695635,
+  "klucz": "agria-weglanowe-granulowane-32399",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Zawichost",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695665,
+  "klucz": "agria-weglanowe-granulowane-9359",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Sobków",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695689,
+  "klucz": "agria-weglanowe-granulowane-17369",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Tarnów",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695707,
+  "klucz": "agria-weglanowe-granulowane-23239",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Dębica",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695742,
+  "klucz": "agria-weglanowe-granulowane-56509",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Tomaszów Mazowiecki",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695779,
+  "klucz": "agria-weglanowe-granulowane-8959",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Domostawa",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695809,
+  "klucz": "agria-weglanowe-granulowane-10603",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Jasło",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695929,
+  "klucz": "agria-weglanowe-magnez-granulowane-81563",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Krosno",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696020,
+  "klucz": "agria-weglanowe-magnez-granulowane-7509",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Mnin",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696082,
+  "klucz": "agria-weglanowe-magnez-granulowane-10119",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Lublin",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696116,
+  "klucz": "agria-weglanowe-magnez-granulowane-10609",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Polanów",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696146,
+  "klucz": "agria-weglanowe-magnez-granulowane-13573",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Piotrków Trybunalski",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696176,
+  "klucz": "agria-weglanowe-magnez-granulowane-10603",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Jeżowe",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696240,
+  "klucz": "agria-weglanowe-magnez-granulowane-70249",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Kozłów",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696315,
+  "klucz": "agria-weglanowe-magnez-granulowane-4765",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Iłża",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696396,
+  "klucz": "agria-weglanowe-magnez-granulowane-53689",
+  "wariant": "weglanowe-magnez-granulowane",
+  "miasto": "Chmielnik",
+  "stary_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 600 kg, atest OSChR, AGRIA",
+  "dlugosc": 140,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697110,
+  "klucz": "agria-kreda-nawozowa-granulowana-102207",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Kleczanów",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697153,
+  "klucz": "agria-kreda-nawozowa-granulowana-13147",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Munina",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697188,
+  "klucz": "agria-kreda-nawozowa-granulowana-92951",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Kazimierza Wielka",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-152",
+  "advert_id": 1092697220,
+  "klucz": "agria-kreda-nawozowa-granulowana-15241",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Zakopane",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana do stawu — korekta pH wody w stawie, pole i staw w jednym produkcie, big bag 500 kg, worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 143,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-152",
+  "advert_id": 1092697246,
+  "klucz": "agria-kreda-nawozowa-granulowana-32399",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Mielec",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana do stawu — korekta pH wody w stawie, pole i staw w jednym produkcie, big bag 500 kg, worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 143,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-152",
+  "advert_id": 1092697275,
+  "klucz": "agria-kreda-nawozowa-granulowana-9359",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Końskie",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana do stawu — korekta pH wody w stawie, pole i staw w jednym produkcie, big bag 500 kg, worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 143,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697303,
+  "klucz": "agria-kreda-nawozowa-granulowana-23239",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Dębica",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697347,
+  "klucz": "agria-kreda-nawozowa-granulowana-7509",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Włoszczowa",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-152",
+  "advert_id": 1092697392,
+  "klucz": "agria-kreda-nawozowa-granulowana-53689",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Janów Lubelski",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana do stawu — korekta pH wody w stawie, pole i staw w jednym produkcie, big bag 500 kg, worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 143,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697433,
+  "klucz": "agria-kreda-nawozowa-granulowana-41301",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Zator",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697471,
+  "klucz": "agria-kreda-nawozowa-granulowana-10119",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Lublin",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-152",
+  "advert_id": 1092697503,
+  "klucz": "agria-kreda-nawozowa-granulowana-3231",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Limanowa",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana do stawu — korekta pH wody w stawie, pole i staw w jednym produkcie, big bag 500 kg, worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 143,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697535,
+  "klucz": "agria-kreda-nawozowa-granulowana-17369",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Tarnów",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697661,
+  "klucz": "agria-weglanowe-odmiana-04-78099",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Zwoleń",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697697,
+  "klucz": "agria-weglanowe-odmiana-04-53591",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Lubaczów",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697729,
+  "klucz": "agria-weglanowe-odmiana-04-14673",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Radom",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697758,
+  "klucz": "agria-weglanowe-odmiana-04-2151",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Podegrodzie",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697794,
+  "klucz": "agria-weglanowe-odmiana-04-133761",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Nędzówka",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697829,
+  "klucz": "agria-weglanowe-odmiana-04-32399",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Mielec",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697869,
+  "klucz": "agria-weglanowe-odmiana-04-23239",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Dębica",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697898,
+  "klucz": "agria-weglanowe-odmiana-04-8959",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Kostrzyn",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697937,
+  "klucz": "agria-weglanowe-odmiana-04-135303",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Słomczyn",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092697974,
+  "klucz": "agria-weglanowe-odmiana-04-56407",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Tarnobrzeg",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698008,
+  "klucz": "agria-weglanowe-odmiana-04-7971",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Kielce",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698044,
+  "klucz": "agria-weglanowe-odmiana-04-7691",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Koniecpol",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698089,
+  "klucz": "agria-weglanowe-odmiana-04-71541",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Andrychów",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698125,
+  "klucz": "agria-weglanowe-odmiana-04-11533",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Miechów",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698373,
+  "klucz": "agria-weglanowe-odmiana-04-93879",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Krzeszowice",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698410,
+  "klucz": "agria-weglanowe-odmiana-04-4929",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Dąbrowa Tarnowska",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698484,
+  "klucz": "agria-weglanowe-odmiana-04-36333",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Urzędów",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698307,
+  "klucz": "agria-weglanowe-odmiana-04-93127",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Przeworsk",
+  "stary_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — kreda nawozowa do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe odmiana 04 luzem — sypkie wapno do odkwaszania gleby, najniższy koszt tony, dostawa całopojazdowa 24 t, atest OSChR, AGRIA",
+  "dlugosc": 147,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092698522,
+  "klucz": "agria-kreda-nawozowa-granulowana-24485",
+  "wariant": "kreda-nawozowa-granulowana",
+  "miasto": "Sadkowice",
+  "stary_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag od 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Kreda nawozowa granulowana — wapno nawozowe do własnego rozsiewacza, łagodne odkwaszanie, big bag 500 kg i worek 25 kg, atest OSChR, AGRIA",
+  "dlugosc": 138,
+  "opis": [
+   [
+    "Kreda nawozowa w granulacie, big-bag od jednej tony.",
+    "Kreda nawozowa w granulacie, big-bag 500 kg i worek 25 kg."
+   ],
+   [
+    "Wzrost pH i wody.",
+    "Wzrost pH gleby i wody."
+   ]
+  ]
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092688834,
+  "klucz": "agria-weglanowe-granulowane-41723",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Żabno",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695960,
+  "klucz": "agria-weglanowe-granulowane-63865",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Grybów",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696271,
+  "klucz": "agria-weglanowe-granulowane-4929",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Dąbrowa Tarnowska",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696372,
+  "klucz": "agria-weglanowe-granulowane-4271",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Chełm",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696210,
+  "klucz": "agria-weglanowe-granulowane-71757",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Puławy",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092695988,
+  "klucz": "agria-weglanowe-granulowane-13205",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Oświęcim",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696339,
+  "klucz": "agria-weglanowe-granulowane-128097",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Wieliczka",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696045,
+  "klucz": "agria-weglanowe-granulowane-35349",
+  "wariant": "weglanowe-granulowane",
+  "miasto": "Pruchnik",
+  "stary_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony, AGRIA",
+  "nowy_tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 500/600 kg, atest OSChR, AGRIA",
+  "dlugosc": 134,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092691851,
+  "klucz": "agria-weglanowe-odmiana-04-65413",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Kije",
+  "stary_tytul": "Wapno nawozowe węglanowe w niskiej cenie, kreda do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe w niskiej cenie, sypkie, do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "dlugosc": 114,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092691659,
+  "klucz": "agria-weglanowe-odmiana-04-3997",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Busko-Zdrój",
+  "stary_tytul": "Wapno nawozowe węglanowe w niskiej cenie, kreda do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe w niskiej cenie, sypkie, do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "dlugosc": 114,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092691599,
+  "klucz": "agria-weglanowe-odmiana-04-52521",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Pińczów",
+  "stary_tytul": "Wapno nawozowe węglanowe w niskiej cenie, kreda do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe w niskiej cenie, sypkie, do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "dlugosc": 114,
+  "opis": []
+ },
+ {
+  "seria": "T-150",
+  "advert_id": 1092696537,
+  "klucz": "agria-weglanowe-odmiana-04-76513",
+  "wariant": "weglanowe-odmiana-04",
+  "miasto": "Wiślica",
+  "stary_tytul": "Wapno nawozowe węglanowe w niskiej cenie, kreda do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "nowy_tytul": "Wapno nawozowe węglanowe w niskiej cenie, sypkie, do odkwaszania gleby, odmiana 04, luzem 24 t, atest OSChR, AGRIA",
+  "dlugosc": 114,
+  "opis": []
+ }
+]

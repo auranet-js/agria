@@ -1,0 +1,46 @@
+[
+ {
+  "advert_id": 1092690495,
+  "klucz": "agria-weglanowe-magnez-odmiana-04-53591",
+  "miasto": "Gorlice",
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowy_wariant": "kreda-nawozowa-granulowana",
+  "odslony_calosc": 13,
+  "telefony": 0,
+  "km_zaklad_odm04": 125,
+  "km_najblizsze_to_samo": 42
+ },
+ {
+  "advert_id": 1092699022,
+  "klucz": "agria-weglanowe-magnez-odmiana-04-11533",
+  "miasto": "Miechów",
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowy_wariant": "kreda-nawozowa-granulowana",
+  "odslony_calosc": 10,
+  "telefony": 0,
+  "km_zaklad_odm04": 45,
+  "km_najblizsze_to_samo": 34
+ },
+ {
+  "advert_id": 1092699060,
+  "klucz": "agria-weglanowe-magnez-odmiana-04-15773",
+  "miasto": "Białobrzegi",
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowy_wariant": "kreda-nawozowa-granulowana",
+  "odslony_calosc": 22,
+  "telefony": 0,
+  "km_zaklad_odm04": 140,
+  "km_najblizsze_to_samo": 32
+ },
+ {
+  "advert_id": 1092699096,
+  "klucz": "agria-weglanowe-magnez-odmiana-04-56509",
+  "miasto": "Tomaszów Mazowiecki",
+  "stary_wariant": "weglanowe-magnez-odmiana-04",
+  "nowy_wariant": "kreda-nawozowa-granulowana",
+  "odslony_calosc": 14,
+  "telefony": 0,
+  "km_zaklad_odm04": 87,
+  "km_najblizsze_to_samo": 47
+ }
+]
