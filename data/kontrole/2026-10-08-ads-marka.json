@@ -1,0 +1,891 @@
+{
+ "frazy": [
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~135560201",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "ABOVE_AVERAGE",
+     "searchPredictedCtr": "AVERAGE",
+     "qualityScore": 8
+    },
+    "keyword": {
+     "matchType": "EXACT",
+     "text": "agria"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~426600407945",
+    "status": "PAUSED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "AVERAGE",
+     "searchPredictedCtr": "BELOW_AVERAGE",
+     "qualityScore": 5
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "oxyfertil"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~1658595515495",
+    "status": "PAUSED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "BELOW_AVERAGE",
+     "searchPredictedCtr": "BELOW_AVERAGE",
+     "qualityScore": 3
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "bielik wapno"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2441051923129",
+    "status": "PAUSED",
+    "qualityInfo": {
+     "creativeQualityScore": "BELOW_AVERAGE",
+     "postClickQualityScore": "BELOW_AVERAGE",
+     "searchPredictedCtr": "BELOW_AVERAGE",
+     "qualityScore": 1
+    },
+    "keyword": {
+     "matchType": "EXACT",
+     "text": "agrobielik"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2495532274026",
+    "status": "PAUSED",
+    "qualityInfo": {
+     "creativeQualityScore": "BELOW_AVERAGE",
+     "postClickQualityScore": "BELOW_AVERAGE",
+     "searchPredictedCtr": "BELOW_AVERAGE",
+     "qualityScore": 1
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "agrobielik"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2495532274066",
+    "status": "PAUSED",
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "ekograncali"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2497277107103",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "ABOVE_AVERAGE",
+     "searchPredictedCtr": "ABOVE_AVERAGE",
+     "qualityScore": 10
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "agria tarnów"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2497277218263",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "ABOVE_AVERAGE",
+     "searchPredictedCtr": "ABOVE_AVERAGE",
+     "qualityScore": 10
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "agria wapno"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "status": "ENABLED",
+    "id": "198590178225",
+    "name": "Brand"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2502604053520",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "BELOW_AVERAGE",
+     "postClickQualityScore": "ABOVE_AVERAGE",
+     "searchPredictedCtr": "AVERAGE",
+     "qualityScore": 6
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "agria niedomice"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/200358090717",
+    "status": "ENABLED",
+    "id": "200358090717",
+    "name": "Bielik - wapno hydratyzowane"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658404800179",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "BELOW_AVERAGE",
+     "searchPredictedCtr": "AVERAGE",
+     "qualityScore": 5
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "wapno hydratyzowane bielik"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/200358090717",
+    "status": "ENABLED",
+    "id": "200358090717",
+    "name": "Bielik - wapno hydratyzowane"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658595515495",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "BELOW_AVERAGE",
+     "searchPredictedCtr": "BELOW_AVERAGE",
+     "qualityScore": 3
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "bielik wapno"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/200358090717",
+    "status": "ENABLED",
+    "id": "200358090717",
+    "name": "Bielik - wapno hydratyzowane"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658595515655",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "BELOW_AVERAGE",
+     "searchPredictedCtr": "AVERAGE",
+     "qualityScore": 5
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "wapno bielik"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/200358090877",
+    "status": "ENABLED",
+    "id": "200358090877",
+    "name": "Oxyfertil 90"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/200358090877~426600407945",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "AVERAGE",
+     "searchPredictedCtr": "AVERAGE",
+     "qualityScore": 7
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "oxyfertil"
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/200358090877",
+    "status": "ENABLED",
+    "id": "200358090877",
+    "name": "Oxyfertil 90"
+   },
+   "adGroupCriterion": {
+    "resourceName": "customers/6742071446/adGroupCriteria/200358090877~2500255819679",
+    "status": "ENABLED",
+    "qualityInfo": {
+     "creativeQualityScore": "ABOVE_AVERAGE",
+     "postClickQualityScore": "AVERAGE",
+     "searchPredictedCtr": "ABOVE_AVERAGE",
+     "qualityScore": 8
+    },
+    "keyword": {
+     "matchType": "PHRASE",
+     "text": "oxyfertil 90"
+    }
+   }
+  }
+ ],
+ "reklamy": [
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "name": "Brand"
+   },
+   "adGroupAd": {
+    "resourceName": "customers/6742071446/adGroupAds/198590178225~820878753087",
+    "status": "REMOVED",
+    "ad": {
+     "resourceName": "customers/6742071446/ads/820878753087",
+     "finalUrls": [
+      "https://agria.pl/"
+     ]
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "name": "Brand"
+   },
+   "adGroupAd": {
+    "resourceName": "customers/6742071446/adGroupAds/198590178225~820888524867",
+    "status": "REMOVED",
+    "ad": {
+     "resourceName": "customers/6742071446/ads/820888524867",
+     "finalUrls": [
+      "https://agria.pl/"
+     ]
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/198590178225",
+    "name": "Brand"
+   },
+   "adGroupAd": {
+    "resourceName": "customers/6742071446/adGroupAds/198590178225~821007988529",
+    "status": "ENABLED",
+    "ad": {
+     "resourceName": "customers/6742071446/ads/821007988529",
+     "finalUrls": [
+      "https://agria.pl/"
+     ]
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/200358090717",
+    "name": "Bielik - wapno hydratyzowane"
+   },
+   "adGroupAd": {
+    "resourceName": "customers/6742071446/adGroupAds/200358090717~825166634620",
+    "status": "ENABLED",
+    "ad": {
+     "resourceName": "customers/6742071446/ads/825166634620",
+     "finalUrls": [
+      "https://agria.pl/wapno-hydratyzowane/bielik/"
+     ]
+    }
+   }
+  },
+  {
+   "adGroup": {
+    "resourceName": "customers/6742071446/adGroups/200358090877",
+    "name": "Oxyfertil 90"
+   },
+   "adGroupAd": {
+    "resourceName": "customers/6742071446/adGroupAds/200358090877~825166634623",
+    "status": "ENABLED",
+    "ad": {
+     "resourceName": "customers/6742071446/ads/825166634623",
+     "finalUrls": [
+      "https://agria.pl/wapno-nawozowe-rolnictwo/oxyfertil-90/"
+     ]
+    }
+   }
+  }
+ ],
+ "wykluczen": 26,
+ "okna": {
+  "przed": {
+   "od": "2026-08-20",
+   "do": "2026-09-18",
+   "kampania": [
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588"
+     },
+     "metrics": {
+      "clicks": "60",
+      "searchBudgetLostImpressionShare": 0.06311881188118812,
+      "searchImpressionShare": 0.4591584158415842,
+      "searchRankLostImpressionShare": 0.4777227722772277,
+      "conversions": 0,
+      "costMicros": "84230000",
+      "impressions": "597"
+     }
+    }
+   ],
+   "grupy": [
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "59",
+      "conversions": 0,
+      "costMicros": "82770000",
+      "impressions": "589"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "1",
+      "conversions": 0,
+      "costMicros": "1460000",
+      "impressions": "8"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090877",
+      "name": "Oxyfertil 90"
+     },
+     "metrics": {
+      "clicks": "0",
+      "conversions": 0,
+      "costMicros": "0",
+      "impressions": "0"
+     }
+    }
+   ],
+   "frazy": [
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "17",
+      "costMicros": "30750000",
+      "impressions": "160"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~135560201",
+      "keyword": {
+       "text": "agria"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~135560201"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "6",
+      "costMicros": "8700000",
+      "impressions": "106"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~426600407945",
+      "keyword": {
+       "text": "oxyfertil"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~426600407945"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "9",
+      "costMicros": "13300000",
+      "impressions": "197"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~1658595515495",
+      "keyword": {
+       "text": "bielik wapno"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~1658595515495"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "1",
+      "costMicros": "1470000",
+      "impressions": "9"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2441051923129",
+      "keyword": {
+       "text": "agrobielik"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~2441051923129"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "1",
+      "costMicros": "1480000",
+      "impressions": "12"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2495532274026",
+      "keyword": {
+       "text": "agrobielik"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~2495532274026"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "12",
+      "costMicros": "14550000",
+      "impressions": "68"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2497277107103",
+      "keyword": {
+       "text": "agria tarnów"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~2497277107103"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "13",
+      "costMicros": "12520000",
+      "impressions": "37"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2497277218263",
+      "keyword": {
+       "text": "agria wapno"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~2497277218263"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "0",
+      "costMicros": "0",
+      "impressions": "2"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658404800179",
+      "keyword": {
+       "text": "wapno hydratyzowane bielik"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090717~1658404800179"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "1",
+      "costMicros": "1460000",
+      "impressions": "4"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658595515495",
+      "keyword": {
+       "text": "bielik wapno"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090717~1658595515495"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "0",
+      "costMicros": "0",
+      "impressions": "2"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658595515655",
+      "keyword": {
+       "text": "wapno bielik"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090717~1658595515655"
+     }
+    }
+   ]
+  },
+  "po": {
+   "od": "2026-09-19",
+   "do": "2026-10-07",
+   "kampania": [
+    {
+     "campaign": {
+      "resourceName": "customers/6742071446/campaigns/24131649588"
+     },
+     "metrics": {
+      "clicks": "81",
+      "searchBudgetLostImpressionShare": 0.06542056074766354,
+      "searchImpressionShare": 0.7252336448598131,
+      "searchRankLostImpressionShare": 0.20934579439252338,
+      "conversions": 0,
+      "costMicros": "113690000",
+      "impressions": "617"
+     }
+    }
+   ],
+   "grupy": [
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "32",
+      "conversions": 0,
+      "costMicros": "45150000",
+      "impressions": "133"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "41",
+      "conversions": 0,
+      "costMicros": "59820000",
+      "impressions": "426"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090877",
+      "name": "Oxyfertil 90"
+     },
+     "metrics": {
+      "clicks": "8",
+      "conversions": 0,
+      "costMicros": "8720000",
+      "impressions": "58"
+     }
+    }
+   ],
+   "frazy": [
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "6",
+      "costMicros": "8900000",
+      "impressions": "47"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~135560201",
+      "keyword": {
+       "text": "agria"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~135560201"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "14",
+      "costMicros": "19570000",
+      "impressions": "28"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2497277107103",
+      "keyword": {
+       "text": "agria tarnów"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~2497277107103"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "7",
+      "costMicros": "9260000",
+      "impressions": "33"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2497277218263",
+      "keyword": {
+       "text": "agria wapno"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~2497277218263"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/198590178225",
+      "name": "Brand"
+     },
+     "metrics": {
+      "clicks": "5",
+      "costMicros": "7420000",
+      "impressions": "25"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/198590178225~2502604053520",
+      "keyword": {
+       "text": "agria niedomice"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/198590178225~2502604053520"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "1",
+      "costMicros": "1490000",
+      "impressions": "20"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658404800179",
+      "keyword": {
+       "text": "wapno hydratyzowane bielik"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090717~1658404800179"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "30",
+      "costMicros": "43650000",
+      "impressions": "260"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658595515495",
+      "keyword": {
+       "text": "bielik wapno"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090717~1658595515495"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090717",
+      "name": "Bielik - wapno hydratyzowane"
+     },
+     "metrics": {
+      "clicks": "10",
+      "costMicros": "14680000",
+      "impressions": "146"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090717~1658595515655",
+      "keyword": {
+       "text": "wapno bielik"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090717~1658595515655"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090877",
+      "name": "Oxyfertil 90"
+     },
+     "metrics": {
+      "clicks": "8",
+      "costMicros": "8720000",
+      "impressions": "55"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090877~426600407945",
+      "keyword": {
+       "text": "oxyfertil"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090877~426600407945"
+     }
+    },
+    {
+     "adGroup": {
+      "resourceName": "customers/6742071446/adGroups/200358090877",
+      "name": "Oxyfertil 90"
+     },
+     "metrics": {
+      "clicks": "0",
+      "costMicros": "0",
+      "impressions": "3"
+     },
+     "adGroupCriterion": {
+      "resourceName": "customers/6742071446/adGroupCriteria/200358090877~2500255819679",
+      "keyword": {
+       "text": "oxyfertil 90"
+      }
+     },
+     "keywordView": {
+      "resourceName": "customers/6742071446/keywordViews/200358090877~2500255819679"
+     }
+    }
+   ]
+  }
+ }
+}

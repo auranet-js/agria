@@ -1,0 +1,2076 @@
+{
+ "T-078": {
+  "okna": {
+   "przed": [
+    "2026-08-14",
+    "2026-09-08"
+   ],
+   "po": [
+    "2026-09-09",
+    "2026-10-04"
+   ]
+  },
+  "przed": {
+   "serwis": {
+    "clicks": 320,
+    "impressions": 25650,
+    "ctr": 0.012475633528265107,
+    "position": 6.800428849902534
+   },
+   "strony": {
+    "/paszarstwo/": {
+     "clicks": 3,
+     "impressions": 114,
+     "ctr": 0.02631578947368421,
+     "position": 11.096491228070175
+    },
+    "/paszarstwo/kreda-pastewna/": {
+     "clicks": 2,
+     "impressions": 181,
+     "ctr": 0.011049723756906077,
+     "position": 8.044198895027623
+    }
+   },
+   "frazy": {
+    "kreda pastewna dawkowanie": {
+     "wysw": 7,
+     "klik": 0,
+     "poz": 30.43,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 21.25
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 42.67
+      }
+     ]
+    },
+    "kreda pastewna dla bydła dawkowanie": {
+     "wysw": 7,
+     "klik": 0,
+     "poz": 20.71,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła dawkowanie",
+       "wysw": 7,
+       "klik": 0,
+       "poz": 20.71
+      }
+     ]
+    },
+    "ile kredy pastewnej dla kur na 100 kg": {
+     "wysw": 5,
+     "klik": 0,
+     "poz": 6.6,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kredy pastewnej dla kur na 100 kg",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 6.6
+      }
+     ]
+    },
+    "kreda pastewna dla kur dawkowanie": {
+     "wysw": 0,
+     "klik": 0,
+     "poz": null,
+     "url_ow": 0,
+     "url_i": []
+    },
+    "kreda pastewna": {
+     "wysw": 3,
+     "klik": 0,
+     "poz": 12.0,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 12
+      }
+     ]
+    },
+    "kreda pastewna dla bydła": {
+     "wysw": 6,
+     "klik": 0,
+     "poz": 19.83,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 28.75
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 2
+      }
+     ]
+    }
+   },
+   "klaster": {
+    "pastewn": {
+     "wysw": 37,
+     "klik": 0,
+     "poz": 17.43,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła dawkowanie",
+       "wysw": 7,
+       "klik": 0,
+       "poz": 20.71
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kredy pastewnej dla kur na 100 kg",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 6.6
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 21.25
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 28.75
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła co daje",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 12
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 12
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 42.67
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "ile kredy pastewnej do paszy dla kur",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 5
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kredy pastewnej do paszy dla kur",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 9
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla krów mlecznych",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 19
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "kreda pastewna dla kur jak podawać",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna na pole",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 16
+      }
+     ]
+    }
+   }
+  },
+  "po": {
+   "serwis": {
+    "clicks": 585,
+    "impressions": 46060,
+    "ctr": 0.012700825010855406,
+    "position": 6.454928354320452
+   },
+   "strony": {
+    "/paszarstwo/": {
+     "clicks": 32,
+     "impressions": 2626,
+     "ctr": 0.012185833968012186,
+     "position": 5.694211728865194
+    },
+    "/paszarstwo/kreda-pastewna/": {
+     "clicks": 22,
+     "impressions": 2964,
+     "ctr": 0.007422402159244264,
+     "position": 8.319163292847502
+    }
+   },
+   "frazy": {
+    "kreda pastewna dawkowanie": {
+     "wysw": 18,
+     "klik": 0,
+     "poz": 4.28,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 16,
+       "klik": 0,
+       "poz": 3.5
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 10.5
+      }
+     ]
+    },
+    "kreda pastewna dla bydła dawkowanie": {
+     "wysw": 38,
+     "klik": 0,
+     "poz": 5.95,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła dawkowanie",
+       "wysw": 32,
+       "klik": 0,
+       "poz": 4.59
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla bydła dawkowanie",
+       "wysw": 6,
+       "klik": 0,
+       "poz": 13.17
+      }
+     ]
+    },
+    "ile kredy pastewnej dla kur na 100 kg": {
+     "wysw": 59,
+     "klik": 0,
+     "poz": 5.59,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/",
+       "q": "ile kredy pastewnej dla kur na 100 kg",
+       "wysw": 37,
+       "klik": 0,
+       "poz": 4.41
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kredy pastewnej dla kur na 100 kg",
+       "wysw": 22,
+       "klik": 0,
+       "poz": 7.59
+      }
+     ]
+    },
+    "kreda pastewna dla kur dawkowanie": {
+     "wysw": 54,
+     "klik": 1,
+     "poz": 5.65,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla kur dawkowanie",
+       "wysw": 34,
+       "klik": 0,
+       "poz": 3.82
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur dawkowanie",
+       "wysw": 20,
+       "klik": 1,
+       "poz": 8.75
+      }
+     ]
+    },
+    "kreda pastewna": {
+     "wysw": 44,
+     "klik": 0,
+     "poz": 13.8,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna",
+       "wysw": 23,
+       "klik": 0,
+       "poz": 16.04
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna",
+       "wysw": 21,
+       "klik": 0,
+       "poz": 11.33
+      }
+     ]
+    },
+    "kreda pastewna dla bydła": {
+     "wysw": 44,
+     "klik": 1,
+     "poz": 10.36,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 40,
+       "klik": 1,
+       "poz": 8.82
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 25.75
+      }
+     ]
+    }
+   },
+   "klaster": {
+    "pastewn": {
+     "wysw": 1843,
+     "klik": 8,
+     "poz": 9.0,
+     "url_ow": 4,
+     "url_i": [
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur",
+       "wysw": 1164,
+       "klik": 5,
+       "poz": 9.64
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur niosek",
+       "wysw": 158,
+       "klik": 0,
+       "poz": 8.52
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 40,
+       "klik": 1,
+       "poz": 8.82
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "ile kredy pastewnej dla kur na 100 kg",
+       "wysw": 37,
+       "klik": 0,
+       "poz": 4.41
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla kur dawkowanie",
+       "wysw": 34,
+       "klik": 0,
+       "poz": 3.82
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla kur niosek dawkowanie",
+       "wysw": 32,
+       "klik": 1,
+       "poz": 3.81
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła dawkowanie",
+       "wysw": 32,
+       "klik": 0,
+       "poz": 4.59
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur niosek dawkowanie",
+       "wysw": 27,
+       "klik": 0,
+       "poz": 5.3
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "ile kredy pastewnej dla kur",
+       "wysw": 25,
+       "klik": 0,
+       "poz": 4.68
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna",
+       "wysw": 23,
+       "klik": 0,
+       "poz": 16.04
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kredy pastewnej dla kur na 100 kg",
+       "wysw": 22,
+       "klik": 0,
+       "poz": 7.59
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna",
+       "wysw": 21,
+       "klik": 0,
+       "poz": 11.33
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur dawkowanie",
+       "wysw": 20,
+       "klik": 1,
+       "poz": 8.75
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla kur jak podawać",
+       "wysw": 19,
+       "klik": 0,
+       "poz": 10.26
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur gdzie kupić",
+       "wysw": 17,
+       "klik": 0,
+       "poz": 10.29
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "wapno pastewne",
+       "wysw": 17,
+       "klik": 0,
+       "poz": 6.88
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 16,
+       "klik": 0,
+       "poz": 3.5
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "ile kredy pastewnej do paszy dla kur",
+       "wysw": 15,
+       "klik": 0,
+       "poz": 5.33
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla drobiu",
+       "wysw": 13,
+       "klik": 0,
+       "poz": 11.85
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kredy pastewnej dla kur",
+       "wysw": 12,
+       "klik": 0,
+       "poz": 8.08
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kosztuje kreda pastewna",
+       "wysw": 11,
+       "klik": 0,
+       "poz": 4.36
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna na pole",
+       "wysw": 11,
+       "klik": 0,
+       "poz": 7.91
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "ile kredy pastewnej do paszy dla kur",
+       "wysw": 10,
+       "klik": 0,
+       "poz": 5.8
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna cena",
+       "wysw": 7,
+       "klik": 0,
+       "poz": 11.57
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "gdzie kupić kredę pastewna dla kur",
+       "wysw": 6,
+       "klik": 0,
+       "poz": 11.5
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla bydła dawkowanie",
+       "wysw": 6,
+       "klik": 0,
+       "poz": 13.17
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 25.75
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla bydła co daje",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 8.25
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna na pole",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 6.5
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kukurydza pastewna",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 30
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+       "q": "kreda pastewna dla kur jak podawać",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 2.67
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna gdzie kupić",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna cena",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dawkowanie",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 10.5
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla bydła co daje",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 4.5
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla drobiu",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 49.5
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla krów mlecznych",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 8.5
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla kur niosek",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur opinie",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "cenna trawa pastewna rajgras inaczej",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 25
+      },
+      {
+       "url": "/",
+       "q": "gdzie kupić kredę pastewną",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 4
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "gdzie kupić kredę pastewną",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 3
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla koni",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla krów mlecznych",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 1
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda pastewna dla kur gdzie kupić",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna dla kur jak podawać",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 3
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "kreda pastewna do stawu",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 24
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "mieszanka pastewna",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 33
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "strączkowa roślina pastewna",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 29
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "wapno pastewne",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 1
+      },
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "wapno pastewne dla kur",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 11
+      }
+     ]
+    }
+   }
+  }
+ },
+ "T-092": {
+  "okna": {
+   "przed": [
+    "2026-08-06",
+    "2026-09-04"
+   ],
+   "po": [
+    "2026-09-05",
+    "2026-10-04"
+   ]
+  },
+  "przed": {
+   "serwis": {
+    "clicks": 364,
+    "impressions": 29416,
+    "ctr": 0.012374218112591786,
+    "position": 6.954480554800109
+   },
+   "strony": {
+    "/wapno-nawozowe-rolnictwo/": {
+     "clicks": 8,
+     "impressions": 1062,
+     "ctr": 0.007532956685499058,
+     "position": 8.943502824858758
+    }
+   },
+   "frazy": {
+    "wapno węglanowe": {
+     "wysw": 686,
+     "klik": 1,
+     "poz": 15.22,
+     "url_ow": 5,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+       "q": "wapno węglanowe",
+       "wysw": 546,
+       "klik": 1,
+       "poz": 9.99
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+       "q": "wapno węglanowe",
+       "wysw": 85,
+       "klik": 0,
+       "poz": 34.31
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+       "q": "wapno węglanowe",
+       "wysw": 43,
+       "klik": 0,
+       "poz": 41.58
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+       "q": "wapno węglanowe",
+       "wysw": 11,
+       "klik": 0,
+       "poz": 25.55
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno węglanowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 2
+      }
+     ]
+    },
+    "kreda nawozowa": {
+     "wysw": 35,
+     "klik": 0,
+     "poz": 24.86,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+       "q": "kreda nawozowa",
+       "wysw": 29,
+       "klik": 0,
+       "poz": 24.79
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+       "q": "kreda nawozowa",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 29
+      },
+      {
+       "url": "/",
+       "q": "kreda nawozowa",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 6
+      }
+     ]
+    },
+    "wapno tlenkowe": {
+     "wysw": 41,
+     "klik": 0,
+     "poz": 20.39,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+       "q": "wapno tlenkowe",
+       "wysw": 32,
+       "klik": 0,
+       "poz": 25.44
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno tlenkowe",
+       "wysw": 9,
+       "klik": 0,
+       "poz": 2.44
+      }
+     ]
+    },
+    "wapno nawozowe": {
+     "wysw": 386,
+     "klik": 0,
+     "poz": 9.3,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/",
+       "q": "wapno nawozowe",
+       "wysw": 229,
+       "klik": 0,
+       "poz": 11.2
+      },
+      {
+       "url": "/",
+       "q": "wapno nawozowe",
+       "wysw": 155,
+       "klik": 0,
+       "poz": 6.59
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno nawozowe",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 2
+      }
+     ]
+    },
+    "kreda nawozowa sypka": {
+     "wysw": 46,
+     "klik": 0,
+     "poz": 9.98,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/",
+       "q": "kreda nawozowa sypka",
+       "wysw": 21,
+       "klik": 0,
+       "poz": 8.38
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+       "q": "kreda nawozowa sypka",
+       "wysw": 17,
+       "klik": 0,
+       "poz": 5.76
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+       "q": "kreda nawozowa sypka",
+       "wysw": 8,
+       "klik": 0,
+       "poz": 23.12
+      }
+     ]
+    },
+    "wapno węglanowe granulowane": {
+     "wysw": 107,
+     "klik": 0,
+     "poz": 20.7,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 49,
+       "klik": 0,
+       "poz": 18.37
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 37,
+       "klik": 0,
+       "poz": 34.35
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 21,
+       "klik": 0,
+       "poz": 2.1
+      }
+     ]
+    },
+    "wapno nawozowe tlenkowe": {
+     "wysw": 92,
+     "klik": 0,
+     "poz": 12.79,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 70,
+       "klik": 0,
+       "poz": 13.39
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 15,
+       "klik": 0,
+       "poz": 11.33
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/oxyfertil-90/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 7,
+       "klik": 0,
+       "poz": 10
+      }
+     ]
+    },
+    "wapno nawozowe węglanowe": {
+     "wysw": 129,
+     "klik": 0,
+     "poz": 21.77,
+     "url_ow": 4,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 77,
+       "klik": 0,
+       "poz": 18.4
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 29,
+       "klik": 0,
+       "poz": 30.69
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 18,
+       "klik": 0,
+       "poz": 25
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 10.2
+      }
+     ]
+    }
+   },
+   "klaster": {}
+  },
+  "po": {
+   "serwis": {
+    "clicks": 639,
+    "impressions": 49898,
+    "ctr": 0.012806124493967693,
+    "position": 6.443604954106377
+   },
+   "strony": {
+    "/wapno-nawozowe-rolnictwo/": {
+     "clicks": 17,
+     "impressions": 2730,
+     "ctr": 0.0062271062271062275,
+     "position": 8.735897435897435
+    }
+   },
+   "frazy": {
+    "wapno węglanowe": {
+     "wysw": 620,
+     "klik": 1,
+     "poz": 12.61,
+     "url_ow": 6,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+       "q": "wapno węglanowe",
+       "wysw": 468,
+       "klik": 1,
+       "poz": 10.22
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+       "q": "wapno węglanowe",
+       "wysw": 138,
+       "klik": 0,
+       "poz": 17.96
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+       "q": "wapno węglanowe",
+       "wysw": 10,
+       "klik": 0,
+       "poz": 48.2
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno węglanowe",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 4.5
+      },
+      {
+       "url": "/wapno-nawozowe-na-trawnik/",
+       "q": "wapno węglanowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 7
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+       "q": "wapno węglanowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 59
+      }
+     ]
+    },
+    "kreda nawozowa": {
+     "wysw": 154,
+     "klik": 3,
+     "poz": 11.38,
+     "url_ow": 7,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+       "q": "kreda nawozowa",
+       "wysw": 122,
+       "klik": 1,
+       "poz": 11.13
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+       "q": "kreda nawozowa",
+       "wysw": 16,
+       "klik": 0,
+       "poz": 21.44
+      },
+      {
+       "url": "/wapno-nawozowe-na-trawnik/",
+       "q": "kreda nawozowa",
+       "wysw": 9,
+       "klik": 1,
+       "poz": 2.56
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "kreda nawozowa",
+       "wysw": 3,
+       "klik": 1,
+       "poz": 2.67
+      },
+      {
+       "url": "/",
+       "q": "kreda nawozowa",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 7
+      },
+      {
+       "url": "/kontakt/",
+       "q": "kreda nawozowa",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 3
+      },
+      {
+       "url": "/oferta/",
+       "q": "kreda nawozowa",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 3
+      }
+     ]
+    },
+    "wapno tlenkowe": {
+     "wysw": 36,
+     "klik": 0,
+     "poz": 18.58,
+     "url_ow": 5,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+       "q": "wapno tlenkowe",
+       "wysw": 18,
+       "klik": 0,
+       "poz": 25.94
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/mieszanka-tlenkowo-weglanowa/",
+       "q": "wapno tlenkowe",
+       "wysw": 7,
+       "klik": 0,
+       "poz": 21.57
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno tlenkowe",
+       "wysw": 6,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+       "q": "wapno tlenkowe",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 6
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/",
+       "q": "wapno tlenkowe",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 10.5
+      }
+     ]
+    },
+    "wapno nawozowe": {
+     "wysw": 1473,
+     "klik": 3,
+     "poz": 8.71,
+     "url_ow": 6,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/",
+       "q": "wapno nawozowe",
+       "wysw": 1225,
+       "klik": 3,
+       "poz": 9.31
+      },
+      {
+       "url": "/",
+       "q": "wapno nawozowe",
+       "wysw": 214,
+       "klik": 0,
+       "poz": 6.23
+      },
+      {
+       "url": "/wapno-nawozowe-na-trawnik/",
+       "q": "wapno nawozowe",
+       "wysw": 31,
+       "klik": 0,
+       "poz": 2.32
+      },
+      {
+       "url": "/jak-stosowac-wapno-nawozowe/",
+       "q": "wapno nawozowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 7
+      },
+      {
+       "url": "/kontakt/",
+       "q": "wapno nawozowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 5
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno nawozowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 4
+      }
+     ]
+    },
+    "kreda nawozowa sypka": {
+     "wysw": 91,
+     "klik": 9,
+     "poz": 5.35,
+     "url_ow": 4,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-sypka/",
+       "q": "kreda nawozowa sypka",
+       "wysw": 59,
+       "klik": 8,
+       "poz": 3.17
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/kreda-nawozowa-granulowana/",
+       "q": "kreda nawozowa sypka",
+       "wysw": 26,
+       "klik": 1,
+       "poz": 9.19
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/",
+       "q": "kreda nawozowa sypka",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 10
+      },
+      {
+       "url": "/paszarstwo/",
+       "q": "kreda nawozowa sypka",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 11
+      }
+     ]
+    },
+    "wapno węglanowe granulowane": {
+     "wysw": 144,
+     "klik": 0,
+     "poz": 15.37,
+     "url_ow": 6,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 113,
+       "klik": 0,
+       "poz": 12.1
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 22,
+       "klik": 0,
+       "poz": 34.59
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 9
+      },
+      {
+       "url": "/wapno-nawozowe-na-trawnik/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 2
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-05/",
+       "q": "wapno węglanowe granulowane",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 48
+      }
+     ]
+    },
+    "wapno nawozowe tlenkowe": {
+     "wysw": 77,
+     "klik": 1,
+     "poz": 12.1,
+     "url_ow": 6,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/wapno-tlenkowe-magnez/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 50,
+       "klik": 0,
+       "poz": 13.5
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 19,
+       "klik": 1,
+       "poz": 7.95
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 11
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/oxyfertil-90/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 2,
+       "klik": 0,
+       "poz": 15.5
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/agrobielik-90/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 28
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno nawozowe tlenkowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 3
+      }
+     ]
+    },
+    "wapno nawozowe węglanowe": {
+     "wysw": 125,
+     "klik": 0,
+     "poz": 20.05,
+     "url_ow": 6,
+     "url_i": [
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-granulowane/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 58,
+       "klik": 0,
+       "poz": 19.38
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-odmiana-04/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 24,
+       "klik": 0,
+       "poz": 9.54
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-granulowane/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 19,
+       "klik": 0,
+       "poz": 36.11
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/weglanowe-magnez-odmiana-05/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 15,
+       "klik": 0,
+       "poz": 26.13
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 8,
+       "klik": 0,
+       "poz": 9.12
+      },
+      {
+       "url": "/wapnowanie-gleby/",
+       "q": "wapno nawozowe węglanowe",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 2
+      }
+     ]
+    }
+   },
+   "klaster": {}
+  }
+ },
+ "T-085": {
+  "okna": {
+   "przed": [
+    "2026-09-09",
+    "2026-09-21"
+   ],
+   "po": [
+    "2026-09-22",
+    "2026-10-04"
+   ]
+  },
+  "przed": {
+   "serwis": {
+    "clicks": 266,
+    "impressions": 22075,
+    "ctr": 0.012049830124575311,
+    "position": 6.798006795016987
+   },
+   "strony": {
+    "/wapno-hydratyzowane/": {
+     "clicks": 0,
+     "impressions": 51,
+     "ctr": 0,
+     "position": 25.333333333333332
+    },
+    "/wapno-hydratyzowane/bielik/": {
+     "clicks": 7,
+     "impressions": 293,
+     "ctr": 0.023890784982935155,
+     "position": 7.163822525597269
+    }
+   },
+   "frazy": {
+    "wapno hydratyzowane": {
+     "wysw": 17,
+     "klik": 0,
+     "poz": 39.06,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/",
+       "q": "wapno hydratyzowane",
+       "wysw": 17,
+       "klik": 0,
+       "poz": 39.06
+      }
+     ]
+    },
+    "cl 90-s": {
+     "wysw": 0,
+     "klik": 0,
+     "poz": null,
+     "url_ow": 0,
+     "url_i": []
+    },
+    "wapno budowlane bielik": {
+     "wysw": 1,
+     "klik": 0,
+     "poz": 10.0,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno budowlane bielik",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 10
+      }
+     ]
+    },
+    "wapno bielik": {
+     "wysw": 10,
+     "klik": 0,
+     "poz": 15.0,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno bielik",
+       "wysw": 8,
+       "klik": 0,
+       "poz": 9.38
+      },
+      {
+       "url": "/",
+       "q": "wapno bielik",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 29
+      },
+      {
+       "url": "/wapno-hydratyzowane/",
+       "q": "wapno bielik",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 46
+      }
+     ]
+    },
+    "bielik wapno": {
+     "wysw": 5,
+     "klik": 0,
+     "poz": 7.6,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "bielik wapno",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 7.6
+      }
+     ]
+    },
+    "wapno hydratyzowane cena": {
+     "wysw": 0,
+     "klik": 0,
+     "poz": null,
+     "url_ow": 0,
+     "url_i": []
+    }
+   },
+   "klaster": {
+    "cl 90": {
+     "wysw": 0,
+     "klik": 0,
+     "poz": null,
+     "url_ow": 0,
+     "url_i": []
+    },
+    "dostaw": {
+     "wysw": 1,
+     "klik": 1,
+     "poz": 2.0,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/paszarstwo/kreda-pastewna/",
+       "q": "znajdź dostawcę",
+       "wysw": 1,
+       "klik": 1,
+       "poz": 2
+      }
+     ]
+    },
+    "hydratyz": {
+     "wysw": 45,
+     "klik": 0,
+     "poz": 20.04,
+     "url_ow": 4,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane bielik",
+       "wysw": 19,
+       "klik": 0,
+       "poz": 8.42
+      },
+      {
+       "url": "/wapno-hydratyzowane/",
+       "q": "wapno hydratyzowane",
+       "wysw": 17,
+       "klik": 0,
+       "poz": 39.06
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane cena za tonę",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 7.75
+      },
+      {
+       "url": "/wapno-do-stawu/",
+       "q": "wapno hydratyzowane do stawu",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 9
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "jak gasić wapno hydratyzowane",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 11
+      },
+      {
+       "url": "/",
+       "q": "wapno hydratyzowane na pole",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 9
+      }
+     ]
+    }
+   }
+  },
+  "po": {
+   "serwis": {
+    "clicks": 319,
+    "impressions": 23985,
+    "ctr": 0.013299979153637691,
+    "position": 6.1391703147800705
+   },
+   "strony": {
+    "/wapno-hydratyzowane/": {
+     "clicks": 1,
+     "impressions": 86,
+     "ctr": 0.011627906976744186,
+     "position": 10.755813953488373
+    },
+    "/wapno-hydratyzowane/bielik/": {
+     "clicks": 12,
+     "impressions": 502,
+     "ctr": 0.02390438247011952,
+     "position": 7.346613545816733
+    }
+   },
+   "frazy": {
+    "wapno hydratyzowane": {
+     "wysw": 15,
+     "klik": 0,
+     "poz": 17.13,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/",
+       "q": "wapno hydratyzowane",
+       "wysw": 14,
+       "klik": 0,
+       "poz": 18.14
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 3
+      }
+     ]
+    },
+    "cl 90-s": {
+     "wysw": 0,
+     "klik": 0,
+     "poz": null,
+     "url_ow": 0,
+     "url_i": []
+    },
+    "wapno budowlane bielik": {
+     "wysw": 6,
+     "klik": 0,
+     "poz": 10.17,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno budowlane bielik",
+       "wysw": 6,
+       "klik": 0,
+       "poz": 10.17
+      }
+     ]
+    },
+    "wapno bielik": {
+     "wysw": 35,
+     "klik": 0,
+     "poz": 11.37,
+     "url_ow": 4,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno bielik",
+       "wysw": 32,
+       "klik": 0,
+       "poz": 8.56
+      },
+      {
+       "url": "/",
+       "q": "wapno bielik",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 31
+      },
+      {
+       "url": "/wapno-hydratyzowane/",
+       "q": "wapno bielik",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 43
+      },
+      {
+       "url": "/wapno-nawozowe-rolnictwo/agrobielik-70/",
+       "q": "wapno bielik",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 50
+      }
+     ]
+    },
+    "bielik wapno": {
+     "wysw": 4,
+     "klik": 0,
+     "poz": 4.5,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "bielik wapno",
+       "wysw": 4,
+       "klik": 0,
+       "poz": 4.5
+      }
+     ]
+    },
+    "wapno hydratyzowane cena": {
+     "wysw": 1,
+     "klik": 0,
+     "poz": 25.0,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane cena",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 25
+      }
+     ]
+    }
+   },
+   "klaster": {
+    "cl 90": {
+     "wysw": 0,
+     "klik": 0,
+     "poz": null,
+     "url_ow": 0,
+     "url_i": []
+    },
+    "dostaw": {
+     "wysw": 0,
+     "klik": 0,
+     "poz": null,
+     "url_ow": 0,
+     "url_i": []
+    },
+    "hydratyz": {
+     "wysw": 47,
+     "klik": 0,
+     "poz": 11.53,
+     "url_ow": 3,
+     "url_i": [
+      {
+       "url": "/wapno-hydratyzowane/",
+       "q": "wapno hydratyzowane",
+       "wysw": 14,
+       "klik": 0,
+       "poz": 18.14
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane bielik",
+       "wysw": 8,
+       "klik": 0,
+       "poz": 6.62
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane cena za tonę",
+       "wysw": 8,
+       "klik": 0,
+       "poz": 7.25
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "czy wapno hydratyzowane trzeba gasić",
+       "wysw": 6,
+       "klik": 0,
+       "poz": 11
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "jak gasić wapno hydratyzowane",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 11
+      },
+      {
+       "url": "/wapno-do-stawu/",
+       "q": "wapno hydratyzowane do stawu",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 5.67
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "czy wapno hydratyzowane nadaje się do odkwaszania gleby",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 11
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 3
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno hydratyzowane cena",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 25
+      }
+     ]
+    }
+   }
+  }
+ },
+ "T-093": {
+  "okna": {
+   "przed": [
+    "2026-09-09",
+    "2026-09-21"
+   ],
+   "po": [
+    "2026-09-22",
+    "2026-10-04"
+   ]
+  },
+  "przed": {
+   "serwis": {
+    "clicks": 266,
+    "impressions": 22075,
+    "ctr": 0.012049830124575311,
+    "position": 6.798006795016987
+   },
+   "strony": {
+    "/wapno-do-oczyszczalni/": {
+     "clicks": 7,
+     "impressions": 163,
+     "ctr": 0.04294478527607362,
+     "position": 9.374233128834355
+    },
+    "/higienizacja-osadow-sciekowych-wapnem/": {
+     "clicks": 3,
+     "impressions": 217,
+     "ctr": 0.013824884792626729,
+     "position": 10.788018433179724
+    }
+   },
+   "frazy": {
+    "higienizacja osadów ściekowych": {
+     "wysw": 42,
+     "klik": 0,
+     "poz": 19.26,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/wapno-do-oczyszczalni/",
+       "q": "higienizacja osadów ściekowych",
+       "wysw": 22,
+       "klik": 0,
+       "poz": 15.77
+      },
+      {
+       "url": "/higienizacja-osadow-sciekowych-wapnem/",
+       "q": "higienizacja osadów ściekowych",
+       "wysw": 20,
+       "klik": 0,
+       "poz": 23.1
+      }
+     ]
+    },
+    "wapnowanie osadów ściekowych": {
+     "wysw": 27,
+     "klik": 0,
+     "poz": 18.81,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/wapno-do-oczyszczalni/",
+       "q": "wapnowanie osadów ściekowych",
+       "wysw": 21,
+       "klik": 0,
+       "poz": 14.86
+      },
+      {
+       "url": "/higienizacja-osadow-sciekowych-wapnem/",
+       "q": "wapnowanie osadów ściekowych",
+       "wysw": 6,
+       "klik": 0,
+       "poz": 32.67
+      }
+     ]
+    },
+    "wapno do szamba": {
+     "wysw": 28,
+     "klik": 0,
+     "poz": 11.5,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/wapno-do-oczyszczalni/",
+       "q": "wapno do szamba",
+       "wysw": 27,
+       "klik": 0,
+       "poz": 10.11
+      },
+      {
+       "url": "/wapno-hydratyzowane/bielik/",
+       "q": "wapno do szamba",
+       "wysw": 1,
+       "klik": 0,
+       "poz": 49
+      }
+     ]
+    },
+    "proces higienizacji osadów ściekowych": {
+     "wysw": 13,
+     "klik": 0,
+     "poz": 23.31,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/wapno-do-oczyszczalni/",
+       "q": "proces higienizacji osadów ściekowych",
+       "wysw": 8,
+       "klik": 0,
+       "poz": 21.75
+      },
+      {
+       "url": "/higienizacja-osadow-sciekowych-wapnem/",
+       "q": "proces higienizacji osadów ściekowych",
+       "wysw": 5,
+       "klik": 0,
+       "poz": 25.8
+      }
+     ]
+    }
+   },
+   "klaster": {}
+  },
+  "po": {
+   "serwis": {
+    "clicks": 319,
+    "impressions": 23985,
+    "ctr": 0.013299979153637691,
+    "position": 6.1391703147800705
+   },
+   "strony": {
+    "/wapno-do-oczyszczalni/": {
+     "clicks": 8,
+     "impressions": 210,
+     "ctr": 0.0380952380952381,
+     "position": 5.266666666666667
+    },
+    "/higienizacja-osadow-sciekowych-wapnem/": {
+     "clicks": 5,
+     "impressions": 231,
+     "ctr": 0.021645021645021644,
+     "position": 9.354978354978355
+    }
+   },
+   "frazy": {
+    "higienizacja osadów ściekowych": {
+     "wysw": 19,
+     "klik": 0,
+     "poz": 19.42,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/higienizacja-osadow-sciekowych-wapnem/",
+       "q": "higienizacja osadów ściekowych",
+       "wysw": 19,
+       "klik": 0,
+       "poz": 19.42
+      }
+     ]
+    },
+    "wapnowanie osadów ściekowych": {
+     "wysw": 21,
+     "klik": 0,
+     "poz": 12.81,
+     "url_ow": 2,
+     "url_i": [
+      {
+       "url": "/wapno-do-oczyszczalni/",
+       "q": "wapnowanie osadów ściekowych",
+       "wysw": 18,
+       "klik": 0,
+       "poz": 9.33
+      },
+      {
+       "url": "/higienizacja-osadow-sciekowych-wapnem/",
+       "q": "wapnowanie osadów ściekowych",
+       "wysw": 3,
+       "klik": 0,
+       "poz": 33.67
+      }
+     ]
+    },
+    "wapno do szamba": {
+     "wysw": 16,
+     "klik": 0,
+     "poz": 4.69,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/wapno-do-oczyszczalni/",
+       "q": "wapno do szamba",
+       "wysw": 16,
+       "klik": 0,
+       "poz": 4.69
+      }
+     ]
+    },
+    "proces higienizacji osadów ściekowych": {
+     "wysw": 14,
+     "klik": 0,
+     "poz": 22.07,
+     "url_ow": 1,
+     "url_i": [
+      {
+       "url": "/higienizacja-osadow-sciekowych-wapnem/",
+       "q": "proces higienizacji osadów ściekowych",
+       "wysw": 14,
+       "klik": 0,
+       "poz": 22.07
+      }
+     ]
+    }
+   },
+   "klaster": {}
+  }
+ }
+}
