@@ -7,7 +7,7 @@ w jednym pliku, z datą w nazwie.
 
 Wymaga scope `business.manage` w ~/secrets/google/tokens.json.
 
-Użycie: gbp_dump.py <plik-wyjściowy.json>
+Użycie: gbp_dump.py <plik-wyjściowy.json> [--lok tarnow|niedomice|radgoszcz]
 """
 import json
 import sys
@@ -18,7 +18,22 @@ from pathlib import Path
 
 SECRETS = Path.home() / "secrets" / "google"
 KONTO = "accounts/111497772731899556217"
-LOKALIZACJA = "locations/11686460679773422640"
+LOKALIZACJE = {
+    "tarnow": "locations/11686460679773422640",
+    "niedomice": "locations/11295576611408862023",
+    "radgoszcz": "locations/13736832069388714377",
+}
+LOKALIZACJA = LOKALIZACJE["tarnow"]
+
+
+def wybierz_lokalizacje(argv):
+    """Zdejmuje `--lok <nazwa>` z argumentów i zwraca ID lokalizacji (domyślnie Tarnów)."""
+    if "--lok" not in argv:
+        return LOKALIZACJA
+    i = argv.index("--lok")
+    nazwa = argv[i + 1]
+    del argv[i:i + 2]
+    return LOKALIZACJE[nazwa]
 
 POLA = ("name,title,storefrontAddress,websiteUri,phoneNumbers,categories,regularHours,"
         "specialHours,profile,labels,latlng,metadata,openInfo,serviceArea,moreHours")
@@ -43,6 +58,7 @@ def get(t, url):
 
 
 if __name__ == "__main__":
+    LOKALIZACJA = wybierz_lokalizacje(sys.argv)
     t = token()
     B1 = "https://mybusinessbusinessinformation.googleapis.com/v1"
     B2 = f"https://mybusiness.googleapis.com/v4/{KONTO}/{LOKALIZACJA}"

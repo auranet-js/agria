@@ -7,7 +7,9 @@ rollbackiem jest zrzut z `gbp_dump.py`.
 Uwaga operacyjna z 20.08: po zapisie API przez kilkadziesiąt sekund oddaje jeszcze STARĄ wartość.
 Skrypt czyta zwrotnie w pętli, zamiast raportować wynik po pierwszym odczycie.
 
-Użycie: gbp_patch.py <pole> <wartość> [--wyslij]
+Wartość zaczynająca się od `{` albo `[` idzie jako JSON (np. `categories`).
+
+Użycie: gbp_patch.py <pole> <wartość> [--lok tarnow|niedomice|radgoszcz] [--wyslij]
 """
 import json
 import sys
@@ -17,9 +19,10 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from gbp_dump import wybierz_lokalizacje
+
 SECRETS = Path.home() / "secrets" / "google"
-LOKALIZACJA = "locations/11686460679773422640"
-BAZA = f"https://mybusinessbusinessinformation.googleapis.com/v1/{LOKALIZACJA}"
+BAZA = "https://mybusinessbusinessinformation.googleapis.com/v1/" + wybierz_lokalizacje(sys.argv)
 
 
 def token():
@@ -37,10 +40,21 @@ def czytaj(t, pole):
     return r.get(pole)
 
 
+def zgodne(ma, chce):
+    """Czy odczyt zawiera wysłaną wartość — Google dokleja do struktur własne pola (np. displayName)."""
+    if isinstance(chce, dict):
+        return isinstance(ma, dict) and all(zgodne(ma.get(k), v) for k, v in chce.items())
+    if isinstance(chce, list):
+        return isinstance(ma, list) and len(ma) == len(chce) and all(map(zgodne, ma, chce))
+    return ma == chce
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         sys.exit(__doc__)
     pole, wartosc = sys.argv[1], sys.argv[2]
+    if wartosc[:1] in "{[":
+        wartosc = json.loads(wartosc)
     t = token()
     print(f"PRZED: {pole} = {czytaj(t, pole)!r}")
     print(f"NOWA:  {pole} = {wartosc!r}")
@@ -60,6 +74,6 @@ if __name__ == "__main__":
         time.sleep(12)
         ma = czytaj(t, pole)
         print(f"  odczyt {próba}: {ma!r}")
-        if ma == wartosc:
+        if zgodne(ma, wartosc):
             sys.exit(0)
     print("UWAGA: po sześciu odczytach pole nadal ma starą wartość — sprawdź moderację")
