@@ -89,7 +89,7 @@ PRODUKTY = [
         "tytul": "Wapno nawozowe granulowane węglanowe pod rzepak i zboża — do własnego rozsiewacza, bez pylenia, big bag 1 t, atest OSChR, dostawa od 1 tony",
         "lead": "Wapno węglanowe w granulacie — do wysiewu własnym rozsiewaczem nawozów, bez usługi wapnowania i bez pylenia. Pozwala wapnować w terminie, który pasuje do zabiegu, a nie do dostępności usługodawcy.",
         "intencja": "rolnictwo — wysiew własnym rozsiewaczem, bez usługi wapnowania",
-        "cena_pole": 350, "cena_opis": "od 350 zł/t — cena za towar, bez transportu · dostawa od 1 tony",
+        "cena_pole": 250, "cena_opis": "od 250 zł/t — cena za towar, bez transportu · dostawa od 1 tony",
         "pule": ["wielkopolska", "mazowsze"], "ile": 20,
     },
     {
@@ -98,7 +98,7 @@ PRODUKTY = [
         "tytul": "Wapno nawozowe granulowane z magnezem — węglanowo-magnezowe do gleb lekkich, do rozsiewacza, bez pylenia, big bag 1 t, atest OSChR",
         "lead": "Wapno węglanowo-magnezowe w granulacie — odkwasza i jednocześnie uzupełnia magnez. Do gleb lekkich i stanowisk z rozpoznanym niedoborem MgO. Wysiew własnym rozsiewaczem.",
         "intencja": "rolnictwo — niedobory magnezu, gleby lekkie",
-        "cena_pole": 370, "cena_opis": "od 370 zł/t — cena za towar, bez transportu · dostawa od 1 tony",
+        "cena_pole": 260, "cena_opis": "od 260 zł/t — cena za towar, bez transportu · dostawa od 1 tony",
         "pule": ["wielkopolska", "poludnie_zachod"], "ile": 18,
     },
     {

@@ -43,6 +43,25 @@
     "allow": [
       "$defaults",
       "Wywolania Google Ads API przez scripts/google/ads_call.sh dla konta AGRIA (CID 6742071446), lacznie z mutate na campaignCriteria, adGroups, adGroupCriteria i adGroupAds. Konto prowadzone przez Auranet, zmiany odwracalne (PAUSED zamiast REMOVED), zrzut stanu do tmp/ przed kazda zmiana. Budzety dzienne pozostaja zablokowane."
+    ],
+    "soft_deny": [
+      "$defaults",
+      "Kazdy zapis na koncie OLX AGRII (PUT/POST/DELETE do Partner API, skrypty scripts/olx/* w trybie innym niz --dry-run/--check, zakup promowania) bez wyraznego 'ok' Janka w BIEZACEJ wiadomosci dotyczacego tej konkretnej operacji. Odpowiedz Janka o zakresie ('tylko OLX') NIE jest zgoda na wykonanie. Incydent 13.10.2026."
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/olx-guard.py\"",
+            "timeout": 10,
+            "onFailure": "block"
+          }
+        ]
+      }
     ]
   }
 }
