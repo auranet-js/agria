@@ -25,7 +25,15 @@
 
 ## Zmiany w kolejności priorytetu
 
-### 1. T-157 „tytuł i opis kategorii Wapno nawozowe” — **gotowe do wdrożenia**
+### 1. T-157 „tytuł i opis kategorii Wapno nawozowe” — **ODRZUCONE 15.10 `[J 15.10]`, nie wdrażać**
+
+> **Werdykt 15.10:** problemem jest pozycja, nie wygląd wyniku. GSC 14.09–11.10: 75% wyświetleń kategorii z telefonów
+> (1 391, poz. 8,8, 5 klik.); `wapno nawozowe` 1 210 wyśw., poz. 9,0, 4 klik. — na telefonie poz. 9 to koniec strony 1
+> pod mapą, PAA i OLX, CTR ~0,5–1% jest tam normą. SERP mobilny ogólnopolski 15.10 (DataForSEO): **AGRII nie ma w top 20**
+> ani na `wapno nawozowe`, ani na `wapno rolnicze` — poz. 9 z GSC to wyniki lokalne. Opis nie wpływa na ranking,
+> a Google często go podmienia. Precedens T-053 (hub, CTR 0,55 → 0,61%) — **druga próba, że sama zmiana title/description
+> nie rusza wyniku AGRII; nie proponować kolejnych bez nowej hipotezy.** Dźwignia: pozycja — T-160, T-159, kanibalizacja.
+> Dane: `data/T-157/`. Propozycja poniżej zostaje tylko jako zapis.
 
 **URL:** `/wapno-nawozowe-rolnictwo/` · pola `rank_math_title`, `rank_math_description` (H1 „Wapno nawozowe” bez zmian — nazwa kategorii to D1).
 
