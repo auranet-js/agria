@@ -1,6 +1,8 @@
 # Wizytówka Tarnów — publikacje na październik (powrót do wtorków)
 
-> **Data:** 2026-10-08 · **Do akceptu Janka przed publikacją.** Nic nie poszło na profil.
+> **Data:** 2026-10-08 · **Zaakceptowane przez Janka 15.10** (nagłówek 20.10 zmieniony). Post 13.10 opublikowany
+> 15.10 14:41 (LIVE, zdjęcie `2026/03/ofirmie2.jpg` — budynek AGRII). JPG do 20.10 i 27.10 utworzone 15.10
+> w `uploads/2026/10/` (GD, q88, 1344×768, niepodpięte). Wtorki 20.10 / 27.10 / 03.11 w kalendarzu.
 > Stan zmierzony 08.10 (`scripts/gbp_dump.py` → `tmp/gbp-tarnow.json`): **5 publikacji**, ostatnia **08.09**
 > („Wrzesień i październik to ostatnie sensowne okno”). Posty zaplanowane na 16, 23 i 30.09 **nie wyszły**.
 > Opinie: 9, ostatnia **28.02.2025**.
@@ -29,11 +31,11 @@ do kalkulatora, kalkulator na koniec — domyka ścieżkę „sprawdź pH → po
 > i ciężkich, ale na lekkich trzeba je dawkować ostrożnie. Węglanowe działa stopniowo, nie wypala materii
 > organicznej, więc jest bezpieczne na glebach lekkich i w uprawach ekologicznych.
 
-Zdjęcie: `2026/03/agria-product-bg-1.jpg` (JPG, jest).
+Zdjęcie: `2026/03/ofirmie2.jpg` (budynek AGRII; `agria-product-bg-1.jpg` odrzucone — stock pól ryżowych).
 
 ---
 
-**20.10 · Staw spuszczony? Kreda i wapno mają różne zadania** → `https://agria.pl/wapno-do-stawu/`
+**20.10 · Wapnowanie stawu: kreda przy rybach, wapno na pusty staw** → `https://agria.pl/wapno-do-stawu/`
 
 > Kreda utrzymuje odczyn wody i pracuje przy rybach przez cały sezon — działa wolno, więc nie podnosi pH
 > skokowo. Wapno tlenkowe odkaża dno i rozkłada muł, ale sypie się je dopiero na spuszczony staw, bez wody:
